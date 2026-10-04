@@ -3,6 +3,7 @@ automation impact. Writes output/agent_runs.csv, output/mock_crm/*.json, output/
 
   python -m gtm.agent_replay              last 30 days of leads, every company
   python -m gtm.agent_replay --days 7
+  python -m gtm.agent_replay --llm-limit 50   with DEEPSEEK_API_KEY set: score up to 50 leads with DeepSeek
 """
 import argparse
 import csv
@@ -15,12 +16,13 @@ from .config import DATA_DIR, OUTPUT_DIR, load_companies
 from .mocks import MockHubSpot, MockSlack
 
 
-def main(days=30):
+def main(days=30, llm_limit=25):
     companies = load_companies()
     outbox = OUTPUT_DIR / "slack_outbox.jsonl"
     outbox.unlink(missing_ok=True)
     crm, slack = MockHubSpot(), MockSlack(outbox)
     agent = LeadAgent(crm, slack, companies)
+    llm_on = agent.use_llm
     runs = []
     for cfg in companies:
         crm.seed_contacts_from_csv(cfg["slug"])
@@ -30,6 +32,8 @@ def main(days=30):
         for lead in leads:
             created = datetime.fromisoformat(lead["created_date"])
             if created >= cutoff:
+                # cap paid LLM calls in a bulk replay; the rest use the rules score
+                agent.use_llm = llm_on and sum(r["score_source"] == "deepseek" for r in runs) < llm_limit
                 runs.append(agent.process_lead(dict(lead, company_slug=cfg["slug"]), now=created))
     crm.dump()
     df = pd.DataFrame(runs)
@@ -43,4 +47,6 @@ def main(days=30):
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--days", type=int, default=30)
-    main(ap.parse_args().days)
+    ap.add_argument("--llm-limit", type=int, default=25, help="max leads scored by DeepSeek in this replay")
+    a = ap.parse_args()
+    main(a.days, a.llm_limit)

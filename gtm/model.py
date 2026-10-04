@@ -256,7 +256,7 @@ def run(companies=None):
             minutes_saved=("minutes_saved", "sum"), median_processing_seconds=("processing_seconds", "median"),
             hot_leads=("hot_lead", "sum"), sla_tasks_created=("task_id", "count"),
             unassigned_routed_to_queue=("territory", lambda s: (s == "Unassigned").sum()),
-            avg_fit_score=("fit_score", "mean"), llm_rationales=("rationale_source", lambda s: (s == "llm").sum()),
+            avg_fit_score=("fit_score", "mean"), deepseek_scored=("score_source", lambda s: (s == "deepseek").sum()),
         ).join(base).reset_index()
         ai["hours_saved"] = ai.minutes_saved / 60
         ai["sla_minutes"] = standard["agent"]["sla_minutes"]

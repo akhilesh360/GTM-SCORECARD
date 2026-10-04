@@ -1,7 +1,8 @@
 """AI lead agent: enrich -> score -> route -> create deal -> SLA task -> Slack alert -> log activity.
 
-Runs with no accounts by default (MockHubSpot, MockSlack, template rationale). Set HUBSPOT_TOKEN,
-SLACK_WEBHOOK_URL and/or OPENAI_API_KEY to switch each integration to the live service.
+Runs with no accounts by default (MockHubSpot, MockSlack, rules-based score). Set HUBSPOT_TOKEN,
+SLACK_WEBHOOK_URL and/or DEEPSEEK_API_KEY (in .env or the environment) to switch each
+integration to the live service.
 Everything company-specific (ICP, territories, owners, pipelines, Slack channel) comes from config.
 """
 import os
@@ -10,7 +11,7 @@ from datetime import datetime, timedelta
 
 from .config import load_companies, load_standard, pipeline_for, territory_for_state
 from .enrich import mock_enrich
-from .integrations import llm_rationale
+from .integrations import deepseek_score
 from .scoring import score_fit
 
 
@@ -38,7 +39,7 @@ class LeadAgent:
         self.crm, self.slack = crm, slack
         self.companies = companies or load_companies()
         self.standard = standard or load_standard()
-        self.use_llm = use_llm and bool(os.environ.get("OPENAI_API_KEY"))
+        self.use_llm = use_llm and bool(os.environ.get("DEEPSEEK_API_KEY"))
 
     def process_lead(self, lead, now=None):
         """Process one new lead end to end. `now` lets a replay use the lead's creation time."""
@@ -53,17 +54,19 @@ class LeadAgent:
         if lead.get("state"):
             enriched["state"] = lead["state"]
 
-        # 2. Score fit (rules decide the number; the LLM only explains it)
-        fit_score, comps = score_fit(enriched, lead["lead_source"], cfg, self.standard)
-        rationale, rationale_source = None, "template"
-        if self.use_llm:
-            rationale = llm_rationale(lead, enriched, fit_score, comps, cfg["name"])
-            rationale_source = "llm" if rationale else "template"
-        rationale = rationale or template_rationale(fit_score, comps, enriched, lead["lead_source"])
+        # 2. Score fit: DeepSeek scores against the ICP; the rules score is the baseline and the fallback
+        rule_score, comps = score_fit(enriched, lead["lead_source"], cfg, self.standard)
+        llm = deepseek_score(lead, enriched, cfg, rule_score, comps) if self.use_llm else None
+        fit_score = llm["fit_score"] if llm else rule_score
+        score_source = "deepseek" if llm else "rules"
+        rationale = (llm or {}).get("reason") or template_rationale(fit_score, comps, enriched, lead["lead_source"])
         hot = fit_score >= std["hot_lead_threshold"]
 
-        # 3. Assign territory and owner
+        # 3. Assign territory: config is the source of truth; an LLM territory is kept only if it agrees
         territory, owner = territory_for_state(cfg, enriched["state"])
+        territory_source = "rules"
+        if llm and llm.get("territory") in cfg["territories"]:
+            territory_source = "deepseek" if llm["territory"] == territory else "rules (LLM overridden)"
         self.crm.update_contact(contact_id, {"fit_score": fit_score, "territory": territory or "Unassigned",
                                              "company_type": cfg["company_type"]})
 
@@ -96,7 +99,8 @@ class LeadAgent:
             "lead_source": lead["lead_source"], "fit_score": fit_score, "hot_lead": hot,
             "territory": territory or "Unassigned", "owner": owner, "pipeline": pipeline,
             "deal_id": deal["id"], "task_id": task["id"], "task_due": (now + timedelta(minutes=sla)).isoformat(),
-            "rationale": rationale, "rationale_source": rationale_source,
+            "rules_fit_score": rule_score, "score_source": score_source, "territory_source": territory_source,
+            "rationale": rationale,
             "steps_automated": len(steps), "minutes_saved": sum(steps.values()),
             "processing_seconds": round(time.perf_counter() - t0, 4),
         }

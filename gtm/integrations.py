@@ -3,7 +3,8 @@
   HUBSPOT_TOKEN       HubSpot private-app token (scopes: crm.objects.contacts.read/write,
                       crm.objects.deals.read/write, crm.schemas.contacts.write, crm.schemas.deals.write)
   SLACK_WEBHOOK_URL   Slack incoming-webhook URL
-  OPENAI_API_KEY      enables the LLM scoring rationale (OPENAI_MODEL, default gpt-4o-mini)
+  DEEPSEEK_API_KEY    enables DeepSeek fit scoring (DEEPSEEK_MODEL, default deepseek-chat;
+                      DEEPSEEK_BASE_URL, default https://api.deepseek.com)
 
 NOTE: written against HubSpot CRM v3 public endpoints but not yet exercised against a live
 portal in this POC; run `python -m gtm.hubspot check` first to confirm access.
@@ -116,25 +117,41 @@ class SlackWebhook:
         return True
 
 
-def llm_rationale(lead, enriched, fit_score, components, company_name):
-    """One-sentence scoring rationale from an LLM. Returns None when no key is set or the call fails,
-    so the agent never blocks on the model."""
-    key = os.environ.get("OPENAI_API_KEY")
+def deepseek_score(lead, enriched, cfg, rule_score, components):
+    """Ask DeepSeek (deepseek-chat, JSON mode) for a fit score, reason and territory.
+
+    Returns {"fit_score": int, "reason": str, "territory": str|None} or None when no key is set,
+    the call fails, or the answer is malformed, so the agent falls back to the rules score and
+    never blocks on the model. The territory is validated by the caller against config.
+    """
+    key = os.environ.get("DEEPSEEK_API_KEY")
     if not key:
         return None
-    prompt = (
-        f"You are a RevOps assistant for {company_name}. In one sentence (max 30 words), explain to a sales rep "
-        f"why this lead scored {fit_score}/100 and what to lead with on the first call.\n"
-        f"Lead: {json.dumps({k: lead.get(k) for k in ('company', 'title', 'lead_source', 'utm_campaign')})}\n"
-        f"Firmographics: {json.dumps({k: enriched[k] for k in ('industry', 'employees', 'state')})}\n"
-        f"Score components (0-1): {json.dumps({k: round(v, 2) for k, v in components.items()})}"
+    base = os.environ.get("DEEPSEEK_BASE_URL", "https://api.deepseek.com").rstrip("/")
+    territories = {t: s["states"] for t, s in cfg["territories"].items()}
+    system = ("You are a GTM operations agent for a private-equity portfolio company. "
+              "Score inbound leads against the ideal customer profile. Return JSON only.")
+    user = (
+        f"Company: {cfg['name']} ({cfg['company_type']}, {cfg['gtm_motion']}).\n"
+        f"ICP: industries {cfg['icp']['industries']}, {cfg['icp']['employees_min']}-{cfg['icp']['employees_max']} employees.\n"
+        f"Territories (territory -> states): {json.dumps(territories)}. Use null if the state is in none.\n"
+        f"Lead: {json.dumps({k: lead.get(k) for k in ('contact_name', 'title', 'company', 'lead_source', 'utm_campaign')})}\n"
+        f"Enriched: {json.dumps({k: enriched[k] for k in ('industry', 'employees', 'annual_revenue', 'state')})}\n"
+        f"Rules-based baseline score: {rule_score} (components 0-1: {json.dumps({k: round(v, 2) for k, v in components.items()})}).\n"
+        'Score this lead 0-100 on ICP fit. Return json: {"fit_score": int, "reason": str (max 30 words, '
+        'what the rep should lead with), "territory": str or null}'
     )
     try:
-        res = _http("POST", "https://api.openai.com/v1/chat/completions", key, {
-            "model": os.environ.get("OPENAI_MODEL", "gpt-4o-mini"),
-            "messages": [{"role": "user", "content": prompt}],
-            "max_tokens": 80, "temperature": 0.2,
-        }, timeout=10)
-        return res["choices"][0]["message"]["content"].strip()
-    except (urllib.error.URLError, KeyError, TimeoutError, ValueError):
+        res = _http("POST", f"{base}/chat/completions", key, {
+            "model": os.environ.get("DEEPSEEK_MODEL", "deepseek-chat"),
+            "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}],
+            "response_format": {"type": "json_object"},
+            "temperature": 0.2, "max_tokens": 200,
+        }, timeout=20)
+        out = json.loads(res["choices"][0]["message"]["content"])
+        score = int(round(float(out["fit_score"])))
+        if not 0 <= score <= 100:
+            return None
+        return {"fit_score": score, "reason": str(out.get("reason") or "").strip(), "territory": out.get("territory")}
+    except (urllib.error.URLError, KeyError, IndexError, TimeoutError, ValueError, TypeError):
         return None

@@ -204,7 +204,7 @@ img.shot { width: 100%; border: 1px solid var(--rule); border-radius: 4px; margi
       <tr><td><code>HUBSPOT_TOKEN</code></td><td>Reads contacts; writes deals, tasks, notes through CRM v3</td><td>In-memory mock CRM seeded from leads.csv</td></tr>
       <tr><td><code>HUBSPOT_CLIENT_SECRET</code></td><td>Rejects webhooks without a valid v3 signature</td><td>Accepts all webhooks (local demo)</td></tr>
       <tr><td><code>SLACK_WEBHOOK_URL</code></td><td>Posts alerts to Slack</td><td>Writes alerts to output/slack_outbox.jsonl</td></tr>
-      <tr><td><code>OPENAI_API_KEY</code></td><td>LLM rationale (gpt-4o-mini by default)</td><td>Template rationale from score components</td></tr>
+      <tr><td><code>DEEPSEEK_API_KEY</code></td><td>DeepSeek (<code>deepseek-chat</code>, JSON mode) scores fit 0–100, writes the rationale and proposes a territory</td><td>Rules-based score and template rationale</td></tr>
     </tbody>
   </table>
   {{code_agent}}

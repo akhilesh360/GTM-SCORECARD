@@ -9,6 +9,21 @@ DATA_DIR = ROOT / "data"
 OUTPUT_DIR = ROOT / "output"
 
 
+def load_dotenv(path=ROOT / ".env"):
+    """Read KEY=value lines from .env into the environment (real env vars win). .env is git-ignored."""
+    import os
+    if not path.exists():
+        return
+    for line in path.read_text().splitlines():
+        line = line.strip()
+        if line and not line.startswith("#") and "=" in line:
+            k, v = line.split("=", 1)
+            os.environ.setdefault(k.strip(), v.strip().strip('"').strip("'"))
+
+
+load_dotenv()
+
+
 def load_standard():
     return json.loads((CONFIG_DIR / "standard.json").read_text())
 

@@ -51,14 +51,15 @@ curl -X POST localhost:5000/webhooks/hubspot -H 'Content-Type: application/json'
   -d '[{"objectId": "ACME-L03006", "subscriptionType": "contact.creation"}]'
 ```
 
-Each integration switches to the live service when its credential is set:
+Each integration switches to the live service when its credential is set. Put keys in `.env`
+(copy `.env.example`; `.env` is git-ignored) or export them as environment variables:
 
 | Variable | Effect |
 |---|---|
 | `HUBSPOT_TOKEN` | Read contacts and write deals, tasks and notes in HubSpot |
 | `HUBSPOT_CLIENT_SECRET` | Verify HubSpot v3 webhook signatures |
 | `SLACK_WEBHOOK_URL` | Post alerts to Slack |
-| `OPENAI_API_KEY` | Add an LLM-written scoring rationale (the score itself stays rule-based) |
+| `DEEPSEEK_API_KEY` | Score leads with DeepSeek (`deepseek-chat`, JSON mode); falls back to the rules score |
 
 ## Metric definitions
 
