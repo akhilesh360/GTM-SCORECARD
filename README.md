@@ -48,7 +48,7 @@ item is the optional DeepSeek API key.
 | `dashboard/` | Executive dashboard builder and output |
 | `docs/` | [Looker Studio setup](docs/looker_studio.md), [adding a company](docs/add_a_company.md) |
 | `tests/` | Cleaning round trip, attribution conservation, agent fallback |
-| `deck/` | 2-3 minute presentation deck |
+| `deck/` | 2-3 minute presentation deck (slide HTML + deck.json) |
 | `playbook/` | Playbook source and PDF |
 
 ## Normalization layer
