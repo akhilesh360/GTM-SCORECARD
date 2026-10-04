@@ -60,7 +60,17 @@ nav.jump a:hover, nav.jump a:focus-visible { color: var(--ink); text-decoration:
 .seg button { font: inherit; font-weight: 600; font-size: 13px; border: 0; background: transparent; color: var(--ink-2); padding: 6px 12px; border-radius: 6px; cursor: pointer; }
 .seg button[aria-pressed="true"] { background: var(--accent); color: var(--surface); }
 .seg button:focus-visible, nav.jump a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
-section { margin-top: 40px; scroll-margin-top: 96px; }
+.filters { padding-block: 0 12px; gap: 8px 14px; justify-content: flex-start; }
+.f { font-size: 12px; color: var(--ink-2); display: inline-flex; align-items: center; gap: 6px; }
+.f select { font: inherit; font-size: 13px; color: var(--ink); background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 4px 6px; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { font: inherit; font-size: 12px; display: inline-flex; align-items: center; gap: 6px; border: 1px solid var(--border); background: var(--surface); color: var(--ink-2); border-radius: 999px; padding: 3px 10px 3px 8px; cursor: pointer; }
+.chip i { width: 9px; height: 9px; border-radius: 3px; display: inline-block; }
+.chip[aria-pressed="false"] { opacity: 0.45; text-decoration: line-through; }
+.chip:focus-visible, .reset:focus-visible, .f select:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.reset { font: inherit; font-size: 12px; background: none; border: 0; color: var(--accent); cursor: pointer; text-decoration: underline; padding: 3px 4px; }
+.scope { font-size: 11px; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; color: var(--muted); margin-left: 8px; }
+section { margin-top: 40px; scroll-margin-top: 140px; }
 h2 { font-family: var(--font-display); font-size: 18px; font-weight: 600; margin: 0 0 4px; text-wrap: balance; }
 .sub { color: var(--ink-2); margin: 0 0 16px; max-width: 72ch; }
 .grid { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 16px; }
@@ -122,11 +132,17 @@ footer { margin-top: 48px; color: var(--muted); font-size: 12px; }
     </nav>
     <div class="seg" role="group" aria-label="Company for drill-down sections" id="companySwitch"></div>
   </div>
+  <div class="mast-inner filters" role="group" aria-label="Filters">
+    <label class="f">From <select id="mFrom"></select></label>
+    <label class="f">To <select id="mTo"></select></label>
+    <div class="chips" id="chanChips" role="group" aria-label="Channels"></div>
+    <button type="button" class="reset" id="resetFilters">Reset</button>
+  </div>
 </header>
 
 <div class="wrap">
   <section id="scorecard" style="margin-top:0">
-    <h2>Portfolio view</h2>
+    <h2>Portfolio view <span class="scope">Full period, all channels</span></h2>
     <p class="sub">Every metric uses the same definition at every company, so the two archetypes compare like for like. Status compares each value to the portfolio target.</p>
     <div class="hero-groups" id="heroTiles"></div>
     <div class="panel" style="margin-top:16px">
@@ -135,7 +151,8 @@ footer { margin-top: 48px; color: var(--muted); font-size: 12px; }
   </section>
 
   <section id="channels">
-    <h2>Channel performance <span class="co-name"></span></h2>
+    <h2>Channel performance <span class="co-name"></span><span class="scope" id="scopeCh"></span></h2>
+    <div class="tiles" id="selTiles" style="margin-bottom:12px"></div>
     <p class="sub" id="channelCallout"></p>
     <div class="legend" id="channelLegend"></div>
     <div class="grid">
@@ -147,7 +164,7 @@ footer { margin-top: 48px; color: var(--muted); font-size: 12px; }
   </section>
 
   <section id="attribution">
-    <h2>Attribution comparison <span class="co-name"></span></h2>
+    <h2>Attribution comparison <span class="co-name"></span><span class="scope" id="scopeAttr"></span></h2>
     <p class="sub" id="attrCallout"></p>
     <div class="grid">
       <div class="panel c8"><h3>Closed-won bookings credited to each channel</h3><p class="note">Same bookings, three rules. First-touch credits the source, last-touch the converting touch, linear splits evenly.</p><div class="legend" id="attrLegend"></div><div class="chart" id="attrChart"></div></div>
@@ -156,7 +173,7 @@ footer { margin-top: 48px; color: var(--muted); font-size: 12px; }
   </section>
 
   <section id="agent">
-    <h2>AI automation impact <span class="co-name"></span></h2>
+    <h2>AI automation impact <span class="co-name"></span><span class="scope">Last 30 days</span></h2>
     <p class="sub">Last 30 days of leads replayed through the AI lead agent: enrich, score, route, create deal, set a 5-minute SLA task, alert Slack, log activity.</p>
     <div class="tiles" id="aiTiles"></div>
     <div class="grid" style="margin-top:16px">
@@ -166,7 +183,7 @@ footer { margin-top: 48px; color: var(--muted); font-size: 12px; }
   </section>
 
   <section id="calls">
-    <h2>Call-tracking impact <span class="co-name"></span></h2>
+    <h2>Call-tracking impact <span class="co-name"></span><span class="scope">Full period</span></h2>
     <p class="sub" id="callCallout"></p>
     <div class="grid">
       <div class="panel c6"><h3>Missed-call rate by tracking source</h3><p class="note">Portfolio target is 10% or lower.</p><div class="chart" id="missChart"></div></div>
@@ -175,18 +192,21 @@ footer { margin-top: 48px; color: var(--muted); font-size: 12px; }
   </section>
 
   <section id="velocity">
-    <h2>Pipeline velocity <span class="co-name"></span></h2>
+    <h2>Pipeline velocity <span class="co-name"></span><span class="scope" id="scopeVel"></span></h2>
     <p class="sub">Average days a deal spends in each stage before moving on, per pipeline. Long Proposal stages are where cycle time hides.</p>
     <div class="grid">
       <div class="panel c6"><h3>Days in stage</h3><p class="note">Closed stage transitions only.</p><div class="table-wrap"><table id="stageTable"></table></div></div>
-      <div class="panel c6"><h3>Monthly trend</h3><p class="note">Leads created and bookings closed per month.</p><div class="chart" id="trendLeads"></div><div class="chart" id="trendBookings" style="margin-top:8px"></div></div>
+      <div class="panel c6"><h3>Monthly trend</h3><p class="note">Leads created and bookings closed per month, for the selected channels.</p><div class="chart" id="trendLeads"></div><div class="chart" id="trendBookings" style="margin-top:8px"></div></div>
     </div>
   </section>
 
   <section id="quality">
-    <h2>Data completeness <span class="co-name"></span></h2>
+    <h2>Data quality <span class="co-name"></span><span class="scope">Full period</span></h2>
     <p class="sub">Share of records with each required CRM field populated. The scorecard metric counts a record as complete only when every required field is filled.</p>
-    <div class="panel"><div class="table-wrap"><table id="qualityTable"></table></div></div>
+    <div class="grid">
+      <div class="panel c6"><h3>Required-field completeness</h3><p class="note">After cleaning. Gaps here need fixing at the source.</p><div class="table-wrap"><table id="qualityTable"></table></div></div>
+      <div class="panel c6"><h3>Cleaning applied to raw exports</h3><p class="note">Rows fixed by the normalization layer before any metric is computed.</p><div class="table-wrap"><table id="cleanTable"></table></div></div>
+    </div>
   </section>
 
   <footer id="foot"></footer>
@@ -199,6 +219,50 @@ const CHANNELS = D.standard.channels;
 const CH_VAR = {}; CHANNELS.forEach((c, i) => CH_VAR[c] = `var(--s${i + 1})`);
 const COMPANIES = D.run_info.companies;
 let company = COMPANIES[0];
+const MONTHS = [...new Set(D.channel_monthly.map(r => r.month))].sort();
+let mFrom = MONTHS[0], mTo = MONTHS[MONTHS.length - 1];
+let chanOn = new Set(CHANNELS);
+const monLabel = m => new Date(m + "-15").toLocaleString("en-US", { month: "short", year: "numeric" });
+const inRange = m => m >= mFrom && m <= mTo;
+const scopeText = () => `${monLabel(mFrom)} – ${monLabel(mTo)}${chanOn.size < CHANNELS.length ? ` · ${chanOn.size} of ${CHANNELS.length} channels` : ""}`;
+// channel economics for the current filters, from the monthly grain
+function filteredChannels() {
+  const life = D.lifetime[company];
+  const agg = {};
+  byCo(D.channel_monthly).filter(r => inRange(r.month) && chanOn.has(r.channel)).forEach(r => {
+    const a = agg[r.channel] ||= { channel: r.channel, total_spend: 0, leads: 0, opps: 0, won: 0, revenue: 0, margin_dollars: 0, margin_base: 0 };
+    ["spend", "leads", "opps", "won", "revenue", "margin_dollars", "margin_base"].forEach(k => a[k === "spend" ? "total_spend" : k] += r[k]);
+  });
+  const rows = Object.values(agg).sort((a, b) => CHANNELS.indexOf(a.channel) - CHANNELS.indexOf(b.channel));
+  const S = rows.reduce((s, r) => s + r.total_spend, 0), R = rows.reduce((s, r) => s + r.revenue, 0);
+  rows.forEach(r => {
+    r.cac = r.won ? r.total_spend / r.won : null;
+    r.roas = r.total_spend ? r.revenue / r.total_spend : null;
+    r.avg_acv = r.won ? r.revenue / r.won : null;
+    r.avg_margin = r.margin_base ? r.margin_dollars / r.margin_base : null;
+    r.ltv = r.avg_acv != null && r.avg_margin != null ? r.avg_acv * r.avg_margin * life : null;
+    r.ltv_to_cac = r.ltv != null && r.cac ? r.ltv / r.cac : null;
+    r.cac_payback_months = r.cac && r.ltv ? r.cac / (r.avg_acv * r.avg_margin / 12) : null;
+    r.lead_to_opp = r.leads ? r.opps / r.leads : null;
+    r.won_per_opp = r.opps ? r.won / r.opps : null;
+    r.spend_share = S ? r.total_spend / S : 0; r.revenue_share = R ? r.revenue / R : 0;
+  });
+  return rows;
+}
+function renderFilters() {
+  const opt = sel => MONTHS.map(m => `<option value="${m}"${m === sel ? " selected" : ""}>${monLabel(m)}</option>`).join("");
+  document.getElementById("mFrom").innerHTML = opt(mFrom);
+  document.getElementById("mTo").innerHTML = opt(mTo);
+  document.getElementById("chanChips").innerHTML = CHANNELS.map(c => `<button type="button" class="chip" aria-pressed="${chanOn.has(c)}" data-ch="${esc(c)}"><i style="background:${CH_VAR[c]}"></i>${esc(c)}</button>`).join("");
+  document.querySelectorAll("#chanChips .chip").forEach(b => b.addEventListener("click", () => {
+    const c = b.dataset.ch;
+    if (chanOn.has(c) && chanOn.size > 1) chanOn.delete(c); else chanOn.add(c);
+    renderFilters(); renderDetail();
+  }));
+}
+document.getElementById("mFrom").addEventListener("change", e => { mFrom = e.target.value; if (mFrom > mTo) mTo = mFrom; renderFilters(); renderDetail(); });
+document.getElementById("mTo").addEventListener("change", e => { mTo = e.target.value; if (mTo < mFrom) mFrom = mTo; renderFilters(); renderDetail(); });
+document.getElementById("resetFilters").addEventListener("click", () => { mFrom = MONTHS[0]; mTo = MONTHS[MONTHS.length - 1]; chanOn = new Set(CHANNELS); renderFilters(); renderDetail(); });
 try { const s = localStorage.getItem("gtm-company"); if (COMPANIES.includes(s)) company = s; } catch (e) {}
 
 const fmt = {
@@ -344,35 +408,53 @@ function renderScorecard() {
 function legendHTML(keys, colorOf) { return keys.map(k => `<span><i style="background:${colorOf(k)}"></i>${esc(k)}</span>`).join(""); }
 
 function renderChannels() {
-  const rows = byCo(D.channel_performance).sort((a, b) => CHANNELS.indexOf(a.channel) - CHANNELS.indexOf(b.channel));
+  const rows = filteredChannels();
+  document.getElementById("scopeCh").textContent = scopeText();
+  const T = rows.reduce((t, r) => ({ s: t.s + r.total_spend, l: t.l + r.leads, w: t.w + r.won, rv: t.rv + r.revenue }), { s: 0, l: 0, w: 0, rv: 0 });
+  document.getElementById("selTiles").innerHTML = [["Spend", fmt.usd(T.s)], ["Leads", fmt.count(T.l)], ["Won", fmt.count(T.w)], ["Bookings", fmt.usd(T.rv)],
+    ["CAC", T.w ? fmt.usd(T.s / T.w) : "–"], ["ROAS", T.s ? fmt.x(T.rv / T.s) : "–"]]
+    .map(([l, v]) => `<div class="tile"><span class="label">${l}</span><span class="value">${v}</span><span class="foot">Selected filters</span></div>`).join("");
   document.getElementById("channelLegend").innerHTML = legendHTML(rows.map(r => r.channel), c => CH_VAR[c]);
   const mk = (key, f) => rows.map(r => ({ label: r.channel, value: r[key], color: CH_VAR[r.channel],
     tip: `<b>${esc(r.channel)}</b><br>Spend ${fmt.usd(r.total_spend)} · Won ${r.won}<br>${esc(f(r[key]))}` }));
   hbars(document.getElementById("chCac"), mk("cac", fmt.usd), { format: fmt.usd });
   hbars(document.getElementById("chRoas"), mk("roas", fmt.x), { format: fmt.x });
   hbars(document.getElementById("chLtv"), mk("ltv_to_cac", fmt.x), { format: fmt.x, target: D.standard.benchmarks.ltv_to_cac.target });
-  const best = [...rows].filter(r => r.cac).sort((a, b) => a.cac - b.cac)[0];
-  const worst = [...rows].filter(r => r.cac).sort((a, b) => b.cac - a.cac)[0];
-  document.getElementById("channelCallout").innerHTML = `<span class="callout" style="display:block"><strong>${esc(best.channel)}</strong> wins customers at ${fmt.usd(best.cac)} each; <strong>${esc(worst.channel)}</strong> costs ${fmt.usd(worst.cac)} and takes ${fmt.pct(worst.spend_share)} of spend for ${fmt.pct(worst.revenue_share || 0)} of bookings.</span>`;
-  let t = `<thead><tr><th>Channel</th><th class="num">Spend</th><th class="num">Leads</th><th class="num">Opps</th><th class="num">Won</th><th class="num">Bookings</th><th class="num">Lead→Opp</th><th class="num">Opp→Won</th><th class="num">CAC</th><th class="num">ROAS</th><th class="num">LTV</th><th class="num">LTV:CAC</th><th class="num">Payback</th></tr></thead><tbody>`;
-  rows.forEach(r => t += `<tr><td><span class="legend" style="margin:0"><span><i style="background:${CH_VAR[r.channel]}"></i>${esc(r.channel)}</span></span></td><td class="num">${fmt.usd(r.total_spend)}</td><td class="num">${fmt.count(r.leads)}</td><td class="num">${fmt.count(r.opps)}</td><td class="num">${fmt.count(r.won)}</td><td class="num">${fmt.usd(r.revenue)}</td><td class="num">${fmt.pct(r.lead_to_opp)}</td><td class="num">${fmt.pct(r.opp_to_won)}</td><td class="num">${fmt.usd(r.cac)}</td><td class="num">${fmt.x(r.roas)}</td><td class="num">${fmt.usd(r.ltv)}</td><td class="num">${fmt.x(r.ltv_to_cac)}</td><td class="num">${fmt.months(r.cac_payback_months)}</td></tr>`);
+  const ranked = rows.filter(r => r.cac).sort((a, b) => a.cac - b.cac);
+  const best = ranked[0], worst = ranked[ranked.length - 1];
+  document.getElementById("channelCallout").innerHTML = best && worst && best !== worst
+    ? `<span class="callout" style="display:block"><strong>${esc(best.channel)}</strong> wins customers at ${fmt.usd(best.cac)} each; <strong>${esc(worst.channel)}</strong> costs ${fmt.usd(worst.cac)} and takes ${fmt.pct(worst.spend_share)} of spend for ${fmt.pct(worst.revenue_share)} of bookings.</span>`
+    : `<span class="callout" style="display:block">Widen the date range or add channels to compare acquisition costs.</span>`;
+  let t = `<thead><tr><th>Channel</th><th class="num">Spend</th><th class="num">Leads</th><th class="num">Opps</th><th class="num">Won</th><th class="num">Bookings</th><th class="num">Lead→Opp</th><th class="num">Won/Opps</th><th class="num">CAC</th><th class="num">ROAS</th><th class="num">LTV</th><th class="num">LTV:CAC</th><th class="num">Payback</th></tr></thead><tbody>`;
+  rows.forEach(r => t += `<tr><td><span class="legend" style="margin:0"><span><i style="background:${CH_VAR[r.channel]}"></i>${esc(r.channel)}</span></span></td><td class="num">${fmt.usd(r.total_spend)}</td><td class="num">${fmt.count(r.leads)}</td><td class="num">${fmt.count(r.opps)}</td><td class="num">${fmt.count(r.won)}</td><td class="num">${fmt.usd(r.revenue)}</td><td class="num">${fmt.pct(r.lead_to_opp)}</td><td class="num">${fmt.pct(r.won_per_opp)}</td><td class="num">${fmt.usd(r.cac)}</td><td class="num">${fmt.x(r.roas)}</td><td class="num">${fmt.usd(r.ltv)}</td><td class="num">${fmt.x(r.ltv_to_cac)}</td><td class="num">${fmt.months(r.cac_payback_months)}</td></tr>`);
   document.getElementById("channelTable").innerHTML = t + "</tbody>";
 }
 
 function renderAttribution() {
-  const rows = byCo(D.attribution).sort((a, b) => CHANNELS.indexOf(a.channel) - CHANNELS.indexOf(b.channel));
+  document.getElementById("scopeAttr").textContent = scopeText();
+  const spend = Object.fromEntries(filteredChannels().map(r => [r.channel, r.total_spend]));
+  const agg = {};
+  byCo(D.attribution_monthly).filter(r => inRange(r.close_month) && chanOn.has(r.channel)).forEach(r => {
+    const a = agg[r.channel] ||= { channel: r.channel, first_touch_revenue: 0, last_touch_revenue: 0, linear_revenue: 0 };
+    a.first_touch_revenue += r.first_touch_revenue; a.last_touch_revenue += r.last_touch_revenue; a.linear_revenue += r.linear_revenue;
+  });
+  const rows = Object.values(agg).sort((a, b) => CHANNELS.indexOf(a.channel) - CHANNELS.indexOf(b.channel));
   const models = [["First-touch", "first_touch"], ["Last-touch", "last_touch"], ["Linear", "linear"]];
-  const total = rows.reduce((s, r) => s + r.first_touch_revenue, 0);
+  const totals = models.map(([, k]) => rows.reduce((s, r) => s + r[k + "_revenue"], 0));
+  const total = Math.max(...totals, 1);
   document.getElementById("attrLegend").innerHTML = legendHTML(rows.map(r => r.channel), c => CH_VAR[c]);
   stacked(document.getElementById("attrChart"), models.map(([label, k]) => ({ label, segments: rows.map(r => ({
     key: r.channel, value: r[k + "_revenue"], color: CH_VAR[r.channel],
     tip: `<b>${esc(r.channel)}</b> · ${label}<br>${fmt.usdFull(r[k + "_revenue"])} (${fmt.pct(r[k + "_revenue"] / total)})` })) })), total);
   let t = `<thead><tr><th>Channel</th><th class="num">First</th><th class="num">Last</th><th class="num">Linear</th></tr></thead><tbody>`;
-  rows.forEach(r => t += `<tr><td>${esc(r.channel)}</td><td class="num">${fmt.x(r.first_touch_roas)}</td><td class="num">${fmt.x(r.last_touch_roas)}</td><td class="num">${fmt.x(r.linear_roas)}</td></tr>`);
+  const roas = (r, k) => spend[r.channel] ? fmt.x(r[k + "_revenue"] / spend[r.channel]) : "–";
+  rows.forEach(r => t += `<tr><td>${esc(r.channel)}</td><td class="num">${roas(r, "first_touch")}</td><td class="num">${roas(r, "last_touch")}</td><td class="num">${roas(r, "linear")}</td></tr>`);
   document.getElementById("attrTable").innerHTML = t + "</tbody>";
   const swing = rows.map(r => ({ c: r.channel, d: r.last_touch_revenue - r.first_touch_revenue })).sort((a, b) => Math.abs(b.d) - Math.abs(a.d));
   const up = swing.find(s => s.d > 0), down = swing.find(s => s.d < 0);
-  document.getElementById("attrCallout").innerHTML = `<span class="callout" style="display:block">Switching from first-touch to last-touch moves <strong>${fmt.usd(up.d)}</strong> of bookings toward <strong>${esc(up.c)}</strong> and takes <strong>${fmt.usd(-down.d)}</strong> from <strong>${esc(down.c)}</strong>. Budget decisions should name the model they use.</span>`;
+  document.getElementById("attrCallout").innerHTML = up && down
+    ? `<span class="callout" style="display:block">Switching from first-touch to last-touch moves <strong>${fmt.usd(up.d)}</strong> of bookings toward <strong>${esc(up.c)}</strong> and takes <strong>${fmt.usd(-down.d)}</strong> from <strong>${esc(down.c)}</strong>. Budget decisions should name the model they use.</span>`
+    : `<span class="callout" style="display:block">Select more than one channel to see how credit shifts between models.</span>`;
 }
 
 function renderAgent() {
@@ -416,8 +498,12 @@ function renderVelocity() {
     t += `<tr><td>${esc(p.split(" - ")[1] || p)}</td>` + stages.map(s => { const r = rows.find(x => x.pipeline === p && x.stage === s); tot += r ? r.avg_days : 0; return `<td class="num">${r ? fmt.days(r.avg_days) : "–"}</td>`; }).join("") + `<td class="num"><b>${fmt.days(tot)}</b></td></tr>`;
   });
   document.getElementById("stageTable").innerHTML = t + "</tbody>";
-  const mon = byCo(D.monthly_trend);
+  document.getElementById("scopeVel").textContent = "Stages: full period · Trend: " + scopeText();
   const lab = m => new Date(m + "-15").toLocaleString("en-US", { month: "short" });
+  const mon = MONTHS.filter(inRange).map(m => {
+    const rs = byCo(D.channel_monthly).filter(r => r.month === m && chanOn.has(r.channel));
+    return { month: m, leads: rs.reduce((s, r) => s + r.leads, 0), revenue: rs.reduce((s, r) => s + r.revenue, 0) };
+  });
   columns(document.getElementById("trendLeads"), mon.map(r => ({ label: lab(r.month), value: r.leads })), { format: fmt.count, title: "Leads" });
   columns(document.getElementById("trendBookings"), mon.map(r => ({ label: lab(r.month), value: r.revenue })), { format: fmt.usd, title: "Bookings" });
 }
@@ -431,6 +517,10 @@ function renderQuality() {
     t += `<tr><td>${esc(r.object)}</td><td><code>${esc(r.field)}</code></td><td class="num">${fmt.count(r.records)}</td><td class="num">${fmt.pct(r.completeness)}${pill(s)}</td><td><div class="bar-track"><div class="bar-fill" style="width:${(r.completeness * 100).toFixed(1)}%;background:${col}"></div></div></td></tr>`;
   });
   document.getElementById("qualityTable").innerHTML = t + "</tbody>";
+  const cl = byCo(D.cleaning_log || []);
+  let c = `<thead><tr><th>Table</th><th>Fix</th><th class="num">Rows</th></tr></thead><tbody>`;
+  cl.forEach(r => c += `<tr><td>${esc(r.table)}<span class="def">${esc(r.field)}</span></td><td>${esc(r.issue)}${r.example ? `<span class="def">e.g. “${esc(r.example.trim())}”</span>` : ""}</td><td class="num">${fmt.count(r.rows_fixed)}</td></tr>`);
+  document.getElementById("cleanTable").innerHTML = cl.length ? c + "</tbody>" : "<tbody><tr><td>No raw exports were cleaned in this run.</td></tr></tbody>";
 }
 
 function renderDetail() {
@@ -440,6 +530,6 @@ function renderDetail() {
 
 document.getElementById("asof").textContent = `Synthetic data · Apr–Sep 2026 · through ${D.run_info.data_through}`;
 document.getElementById("foot").textContent = `All companies and records are synthetic. Generated ${D.run_info.generated_at.replace("T", " ")} by run_all.py from output/*.csv; the same files feed the Looker Studio version.`;
-renderSwitch(); renderScorecard(); renderDetail();
+renderSwitch(); renderFilters(); renderScorecard(); renderDetail();
 let rt; window.addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(renderDetail, 150); });
 </script>

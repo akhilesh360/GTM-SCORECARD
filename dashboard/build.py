@@ -10,7 +10,8 @@ OUT = ROOT / "output"
 HERE = Path(__file__).resolve().parent
 
 TABLES = ["scorecard", "channel_performance", "attribution", "stage_days", "call_tracking_impact",
-          "fit_score_validation", "monthly_trend", "data_completeness", "ai_automation_impact"]
+          "fit_score_validation", "monthly_trend", "data_completeness", "ai_automation_impact",
+          "channel_monthly", "attribution_monthly", "cleaning_log"]
 
 
 def records(name):
@@ -43,6 +44,7 @@ def main():
     from gtm.config import load_companies
     data["slack_channels"] = {c["name"]: c["slack_channel"] for c in load_companies()}
     data["company_meta"] = {c["name"]: f'{c["gtm_motion"]} {c["company_type"]}' for c in load_companies()}
+    data["lifetime"] = {c["name"]: c["economics"]["customer_lifetime_years"] for c in load_companies()}
     html = (HERE / "template.html").read_text().replace("/*__DATA__*/null", json.dumps(data, separators=(",", ":")))
     (HERE / "index.html").write_text(html)
     print(f"Wrote {HERE / 'index.html'} ({len(html) // 1024} KB)")
