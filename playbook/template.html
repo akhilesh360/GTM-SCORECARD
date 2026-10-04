@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>GTM Scorecard Playbook</title>
+<style>
+{{font_css}}
+/* Print layout: US Letter, generous margins, one idea per spread. Navy accent, cool neutrals. */
+:root {
+  --ink: #111820; --ink-2: #47515c; --muted: #808992; --rule: #dde1e5; --wash: #eef2f6;
+  --accent: #1f3a5f; --accent-2: #2a78d6; --code-bg: #f5f7f9;
+  --display: "Archivo", "Liberation Sans", Arial, sans-serif;
+  --body: "Public Sans", "Liberation Sans", Arial, sans-serif;
+  --mono: "JetBrains Mono", "DejaVu Sans Mono", monospace;
+}
+@page { size: Letter; margin: 0.7in 0.75in 0.75in; }
+@page cover { margin: 0; }
+* { box-sizing: border-box; }
+html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+body { font-family: var(--body); font-size: 10pt; line-height: 1.5; color: var(--ink); margin: 0; background: #fff; }
+.cover { page: cover; height: 11in; padding: 1.1in 0.9in 0.8in; background: var(--accent); color: #fff; display: flex; flex-direction: column; justify-content: space-between; break-after: page; }
+.cover .kicker { font-family: var(--display); letter-spacing: 0.14em; text-transform: uppercase; font-size: 10pt; opacity: 0.75; }
+.cover h1 { font-family: var(--display); font-weight: 700; font-size: 40pt; line-height: 1.05; margin: 18pt 0 14pt; max-width: 6.2in; letter-spacing: -0.01em; }
+.cover .lede { font-size: 13pt; max-width: 5.4in; opacity: 0.9; line-height: 1.45; }
+.cover .meta { display: grid; grid-template-columns: repeat(3, auto); gap: 4pt 28pt; justify-content: start; font-size: 9pt; opacity: 0.85; }
+.cover .meta b { display: block; font-family: var(--display); font-size: 8pt; letter-spacing: 0.1em; text-transform: uppercase; opacity: 0.7; font-weight: 600; }
+.cover .contents { font-size: 10pt; columns: 2; column-gap: 0.5in; max-width: 6in; opacity: 0.92; }
+.cover .contents div { break-inside: avoid; padding: 2pt 0; border-bottom: 1px solid rgba(255,255,255,0.18); }
+h2 { font-family: var(--display); font-size: 20pt; font-weight: 700; color: var(--accent); margin: 0 0 4pt; letter-spacing: -0.01em; break-after: avoid; }
+h2 .num { color: var(--accent-2); margin-right: 8pt; }
+h3 { font-family: var(--display); font-size: 12pt; font-weight: 600; margin: 16pt 0 4pt; break-after: avoid; }
+p, li { max-width: 6.6in; }
+p { margin: 0 0 7pt; orphans: 3; widows: 3; }
+li { orphans: 3; widows: 3; }
+ul, ol { margin: 0 0 8pt; padding-left: 16pt; }
+li { margin-bottom: 3pt; }
+.chapter { break-before: page; }
+.intro { font-size: 11pt; color: var(--ink-2); margin-bottom: 12pt; }
+.eyebrow { font-family: var(--display); font-size: 8pt; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+table { width: 100%; border-collapse: collapse; font-size: 8.5pt; margin: 4pt 0 10pt; font-variant-numeric: tabular-nums; break-inside: auto; }
+thead { display: table-header-group; }
+tr { break-inside: avoid; }
+th { text-align: left; font-family: var(--display); font-weight: 600; font-size: 7.5pt; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); border-bottom: 1.5px solid var(--ink); padding: 4pt 6pt; }
+td { padding: 4pt 6pt; border-bottom: 1px solid var(--rule); vertical-align: top; }
+.num { text-align: right; white-space: nowrap; }
+table.score td:last-child { color: var(--ink-2); font-size: 7.8pt; }
+.hero { display: grid; gap: 10pt; margin: 6pt 0 14pt; }
+.hero-co { border-top: 2px solid var(--accent); padding-top: 6pt; }
+.hero-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10pt; margin-top: 4pt; }
+.hero-row .v { display: block; font-family: var(--display); font-size: 18pt; font-weight: 600; letter-spacing: -0.01em; }
+.hero-row .l { font-size: 8.5pt; color: var(--ink-2); }
+.findings li { margin-bottom: 6pt; }
+.callout { background: var(--wash); border-left: 3px solid var(--accent); padding: 8pt 12pt; margin: 8pt 0 12pt; break-inside: avoid; }
+.callout p:last-child { margin: 0; }
+.code-title { font-family: var(--mono); font-size: 7.5pt; color: var(--muted); margin: 8pt 0 2pt; }
+pre.code { font-family: var(--mono); font-size: 7pt; line-height: 1.42; background: var(--code-bg); border: 1px solid var(--rule); border-radius: 4px; padding: 8pt 10pt; white-space: pre-wrap; overflow-wrap: anywhere; margin: 0 0 10pt; }
+code { font-family: var(--mono); font-size: 8.5pt; background: var(--code-bg); padding: 0 3pt; border-radius: 3px; }
+.flow { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6pt; margin: 8pt 0 12pt; break-inside: avoid; }
+.flow div { border: 1px solid var(--rule); border-top: 3px solid var(--accent-2); padding: 6pt 8pt; font-size: 8.5pt; }
+.flow b { display: block; font-family: var(--display); font-size: 9pt; margin-bottom: 2pt; }
+.arch { display: grid; grid-template-columns: 1fr; gap: 0; margin: 8pt 0 12pt; break-inside: avoid; }
+.arch .layer { border: 1px solid var(--rule); padding: 7pt 10pt; display: grid; grid-template-columns: 1.6in 1fr; gap: 10pt; font-size: 8.8pt; }
+.arch .layer + .layer { border-top: 0; }
+.arch .layer b { font-family: var(--display); color: var(--accent); }
+.arch .split { display: grid; grid-template-columns: 1fr 1fr; }
+.arch .split .layer:first-child { border-right: 0; }
+img.shot { width: 100%; border: 1px solid var(--rule); border-radius: 4px; margin: 6pt 0 10pt; }
+.two { display: grid; grid-template-columns: 1fr 1fr; gap: 16pt; }
+.check li { list-style: none; position: relative; }
+.check li::before { content: ""; position: absolute; left: -14pt; top: 3pt; width: 8pt; height: 8pt; border: 1.2px solid var(--ink-2); border-radius: 2px; }
+.small { font-size: 8.5pt; color: var(--ink-2); }
+</style>
+</head>
+<body>
+
+<section class="cover">
+  <div>
+    <div class="kicker">GTM Engineering Playbook · v1.0</div>
+    <h1>Portfolio GTM Standardization Scorecard</h1>
+    <p class="lede">How to measure, automate and hand off a standard go-to-market system across portfolio companies, proven on two companies with opposite motions.</p>
+  </div>
+  <div class="contents">
+    <div>1 · Executive summary</div><div>2 · Architecture and data model</div><div>3 · HubSpot configuration</div>
+    <div>4 · Attribution and financial logic</div><div>5 · AI lead agent</div><div>6 · Dashboard setup</div>
+    <div>7 · Rolling out to a new company</div><div>8 · GTM Engineer onboarding</div><div>Appendix · Runbook and assumptions</div>
+  </div>
+  <div class="meta">
+    <div><b>Scope</b>Acme MSP (inbound) · Summit HVAC (outbound)</div>
+    <div><b>Data</b>Synthetic, Apr–Sep 2026 (through {{data_through}})</div>
+    <div><b>Generated</b>{{date}}</div>
+  </div>
+</section>
+
+<section>
+  <h2><span class="num">1</span>Executive summary</h2>
+  <p class="intro">Two portfolio companies sell in different ways: Acme MSP wins managed-IT contracts mostly from inbound search, and Summit HVAC wins commercial service work mostly through outbound and the phone. This system measures both on one set of definitions, automates lead handling, and documents everything a GTM Engineer needs to run it and roll it out.</p>
+  <div class="hero">{{hero}}</div>
+  <h3>What the scorecard shows</h3>
+  <ul class="findings">{{findings}}</ul>
+  <div class="callout"><p><b>Build once, measure consistently, automate, document, propagate.</b> Everything company-specific lives in one config file per company. The data model, metric definitions, HubSpot schema, agent logic and dashboard are shared. A new company needs its data exports and its pipeline names, nothing else (Section 7).</p></div>
+  <h3>Portfolio scorecard</h3>
+  {{scorecard_table}}
+  <p class="small">Targets come from <code>config/standard.json</code>. Lead-to-opportunity and win rate are realized figures; deals still open at the data cut-off are not yet counted as won or lost.</p>
+</section>
+
+<section class="chapter">
+  <h2><span class="num">2</span>Architecture and data model</h2>
+  <p class="intro">Five layers, each replaceable without touching the others. Synthetic data stands in for real exports; mocks stand in for live HubSpot and Slack until credentials are set.</p>
+  <div class="arch">
+    <div class="layer"><b>Data sources</b><span>CRM exports, ad platforms, call tracking. In the POC, <code>gtm/generate.py</code> writes the same CSV schemas from the per-company config.</span></div>
+    <div class="layer"><b>HubSpot (system of record)</b><span>Standard custom properties, one pipeline per motion, routing, lifecycle and SLA workflows. Schema generated by <code>gtm/hubspot.py</code>.</span></div>
+    <div class="split">
+      <div class="layer"><b>AI lead agent</b><span>Webhook on new lead → enrich, score, route, create deal, SLA task, Slack, log.</span></div>
+      <div class="layer"><b>Attribution and finance</b><span>SQLite + pandas: funnel, multi-touch attribution, CAC, ROAS, LTV, payback, velocity.</span></div>
+    </div>
+    <div class="layer"><b>Executive dashboard</b><span>Self-contained HTML build plus a Looker Studio version, both reading <code>output/*.csv</code>.</span></div>
+    <div class="layer"><b>Playbook</b><span>This document, generated from the same config and outputs so it cannot drift.</span></div>
+  </div>
+  <h3>Standard data model</h3>
+  <table>
+    <thead><tr><th>File</th><th>Grain</th><th>Key columns</th></tr></thead>
+    <tbody>
+      <tr><td>leads.csv</td><td>One row per lead</td><td>lead_id, company, contact_name, title, email, created_date, lead_source, utm_source/medium/campaign, territory, fit_score</td></tr>
+      <tr><td>deals.csv</td><td>One row per deal</td><td>deal_id, lead_id, stage, stage_reached, amount, close_date, lead_source, gross_margin, pipeline, owner, created_date</td></tr>
+      <tr><td>spend.csv</td><td>Channel × month</td><td>channel, month, spend, impressions, clicks</td></tr>
+      <tr><td>activities.csv</td><td>One rep activity</td><td>activity_id, lead_id, type (call/email/meeting), date, outcome, owner</td></tr>
+      <tr><td>call_tracking.csv</td><td>One tracked call</td><td>call_id, lead_id, source, channel, call_datetime, duration, outcome, revenue_influenced</td></tr>
+      <tr><td>touchpoints.csv</td><td>One marketing touch</td><td>touch_id, lead_id, touch_datetime, channel, utm_campaign, touch_type</td></tr>
+      <tr><td>deal_stage_history.csv</td><td>Deal × stage</td><td>deal_id, stage, entered_at, exited_at</td></tr>
+    </tbody>
+  </table>
+  <p class="small"><code>touchpoints</code> and <code>deal_stage_history</code> extend the original design: multi-touch attribution needs every touch, not just the lead source, and days-in-stage needs stage timestamps. <code>stage_reached</code> on deals records the furthest stage a deal got to, which the opportunity rule depends on.</p>
+  <h3>Portfolio standard</h3>
+  <p>Channels: Google Ads, Meta Ads, Outbound, Referral, Call Tracking. Stages in every pipeline: {{stages}}. An <b>opportunity</b> is any deal that has reached Qualified, including deals later lost.</p>
+</section>
+
+<section class="chapter">
+  <h2><span class="num">3</span>HubSpot configuration</h2>
+  <p class="intro">One HubSpot portal holds every company. <code>Company Type</code> and the pipeline name keep them apart, so reports filter cleanly and the schema stays identical. Custom properties use a <code>gtm_</code> prefix so they never collide with HubSpot defaults; labels match the import files so columns auto-map.</p>
+  <h3>Custom properties</h3>
+  {{properties_table}}
+  <h3>Pipelines</h3>
+  {{pipelines_table}}
+  <h3>Territories and lead routing</h3>
+  {{territory_table}}
+  <p class="small">States outside every territory route to the company's unassigned queue (round robin or dispatch).</p>
+  <h3>Workflows</h3>
+  <table>
+    <thead><tr><th>Workflow</th><th>Trigger</th><th>Actions</th></tr></thead>
+    <tbody>
+      <tr><td>Territory routing</td><td>Contact created, Territory known</td><td>Branch on Territory → set contact owner; Unassigned → rotate within the company's team</td></tr>
+      <tr><td>Lifecycle automation</td><td>Deal stage changes</td><td>Deal created → Sales Qualified Lead; Qualified → Opportunity; Won → Customer</td></tr>
+      <tr><td>SLA task</td><td>New contact, Lifecycle = Lead</td><td>Task "Follow up within {{sla}} min" for owner → wait {{sla}} min → no activity logged → alert territory manager</td></tr>
+    </tbody>
+  </table>
+  <h3>Setup steps</h3>
+  <ol>
+    <li>Start a Sales Hub Professional trial (six pipelines and workflows need Pro). Create a private app with contacts and deals read/write and schema write scopes.</li>
+    <li><code>python -m gtm.hubspot setup --apply</code> creates the property group, properties and pipelines. It is safe to re-run.</li>
+    <li>Import <code>hubspot/import/&lt;company&gt;_contacts.csv</code> (one object), then <code>&lt;company&gt;_deals_with_contacts.csv</code> (multiple objects: contacts + deals, matched on Email).</li>
+    <li>Build the three workflows above.</li>
+    <li>Subscribe the private app's webhook to <code>contact.creation</code>, pointing at the agent's <code>/webhooks/hubspot</code>.</li>
+  </ol>
+</section>
+
+<section class="chapter">
+  <h2><span class="num">4</span>Attribution and financial logic</h2>
+  <p class="intro">Every metric has one definition, written once in code and applied to every company. The definitions below are the contract; if a company reports a number that doesn't match them, it isn't the scorecard number.</p>
+  {{metric_defs}}
+  <h3>Attribution models</h3>
+  <ul>
+    <li><b>First-touch:</b> 100% of a won deal's amount to the first touch. Answers "what creates demand?"</li>
+    <li><b>Last-touch:</b> 100% to the last touch before the deal was created. Answers "what converts demand?"</li>
+    <li><b>Linear:</b> equal split across every touch up to deal creation. The default for budget discussions, because no single touch gets all the credit.</li>
+  </ul>
+  <div class="callout"><p><b>Design decisions.</b> (1) Opportunities count deals that reached Qualified, even if later lost; filtering on the current stage undercounts opportunities and inflates win rate. (2) CAC includes the fully loaded outbound team cost, referral payouts and call-tracking fees, not only media, so channels compare fairly. (3) Pipeline velocity uses the standard formula (opportunities × win rate × ACV ÷ cycle days), in dollars per day. (4) Customer lifetime is a per-company assumption from churn, set in config and shown on the scorecard.</p></div>
+  {{sql_funnel}}
+  {{sql_attr}}
+  <h3>Customer economics in Python</h3>
+  {{code_economics}}
+</section>
+
+<section class="chapter">
+  <h2><span class="num">5</span>AI lead agent</h2>
+  <p class="intro">The agent handles a new lead end to end with no manual step. Rules decide the fit score so it is auditable and identical across companies; the LLM only writes the one-line rationale a rep reads, and the agent falls back to a template if the model is unavailable.</p>
+  <div class="flow">
+    <div><b>1 · Enrich</b>Firmographics by company name (mock provider; swap for Apollo or Clearbit)</div>
+    <div><b>2 · Score</b>0–100 weighted fit score, plus a rationale</div>
+    <div><b>3 · Route</b>State → territory → owner, from config</div>
+    <div><b>4 · Create deal</b>In the right pipeline, stage New</div>
+    <div><b>5 · SLA task</b>Follow up within {{sla}} minutes</div>
+    <div><b>6 · Alert</b>Slack message to the company's channel; HOT at {{hot}}+</div>
+    <div><b>7 · Log</b>Activity note on the contact timeline</div>
+    <div><b>Trigger</b>HubSpot <code>contact.creation</code> webhook (signature-verified)</div>
+  </div>
+  <p><b>Fit score weights:</b> {{weights}}. <b>Source quality:</b> {{source_quality}}. Weights live in <code>config/standard.json</code>; each company's ICP (industries, employee band) lives in its own config.</p>
+  <h3>Impact, last 30 days replayed</h3>
+  {{ai_table}}
+  {{steps_table}}
+  <h3>Integrations</h3>
+  <table>
+    <thead><tr><th>Variable</th><th>When set</th><th>When not set</th></tr></thead>
+    <tbody>
+      <tr><td><code>HUBSPOT_TOKEN</code></td><td>Reads contacts; writes deals, tasks, notes through CRM v3</td><td>In-memory mock CRM seeded from leads.csv</td></tr>
+      <tr><td><code>HUBSPOT_CLIENT_SECRET</code></td><td>Rejects webhooks without a valid v3 signature</td><td>Accepts all webhooks (local demo)</td></tr>
+      <tr><td><code>SLACK_WEBHOOK_URL</code></td><td>Posts alerts to Slack</td><td>Writes alerts to output/slack_outbox.jsonl</td></tr>
+      <tr><td><code>OPENAI_API_KEY</code></td><td>LLM rationale (gpt-4o-mini by default)</td><td>Template rationale from score components</td></tr>
+    </tbody>
+  </table>
+  {{code_agent}}
+  {{code_scoring}}
+  {{code_server}}
+</section>
+
+<section class="chapter">
+  <h2><span class="num">6</span>Dashboard setup</h2>
+  <p class="intro">Two builds read the same model outputs. The HTML dashboard regenerates on every pipeline run. The Looker Studio version reads a Google Sheet that <code>gtm/sheets_sync.py</code> refreshes, so a scheduled run keeps it current with no manual step.</p>
+  {{dashboard_shot}}
+  <table>
+    <thead><tr><th>Page</th><th>Source tab</th><th>Charts</th></tr></thead>
+    <tbody>
+      <tr><td>Portfolio view</td><td>scorecard</td><td>Pivot: metric × company with targets and status; KPI tiles for CAC, LTV:CAC, payback, bookings</td></tr>
+      <tr><td>Channel performance</td><td>channel_performance</td><td>Bars for CAC, ROAS, LTV:CAC by channel (3.0x reference line); funnel table</td></tr>
+      <tr><td>Attribution comparison</td><td>attribution_long</td><td>100% stacked bar: model × channel; ROAS by model table</td></tr>
+      <tr><td>AI automation impact</td><td>ai_automation_impact, fit_score_validation, agent_runs</td><td>KPI tiles; conversion by fit band; processed-lead table</td></tr>
+      <tr><td>Call-tracking impact</td><td>call_tracking_impact</td><td>Calls, booked and missed rate, revenue influenced by source</td></tr>
+      <tr><td>Velocity and quality</td><td>stage_days, monthly_trend, data_completeness</td><td>Days in stage pivot; monthly leads and bookings; field completeness</td></tr>
+    </tbody>
+  </table>
+  <ol>
+    <li>Create a Google Sheet; load each <code>output/*.csv</code> as its own tab (File → Import, or <code>python -m gtm.sheets_sync</code>).</li>
+    <li>In Looker Studio add each tab as a Google Sheets data source.</li>
+    <li>Add a company drop-down control on <code>portfolio_company</code>; fix channel colors with Dimension value colors so a channel is the same color on every chart.</li>
+    <li>Build the pages above. Share view-only, or download as PDF for board packs.</li>
+  </ol>
+</section>
+
+<section class="chapter">
+  <h2><span class="num">7</span>Rolling out to a new company</h2>
+  <p class="intro">The success test: a new company needs only its data inputs and its pipeline names. This was checked by adding a third test company with nothing but a new config file; the scorecard, dashboard, HubSpot files and agent routing all picked it up with no code change.</p>
+  <ol>
+    <li><b>Config.</b> Copy a company file to <code>config/companies/&lt;slug&gt;.json</code>; set pipelines and their routing rule, territories and owners, ICP, customer lifetime and Slack channel.</li>
+    <li><b>Data.</b> Export the seven standard files into <code>data/&lt;slug&gt;/</code>, mapping source channel names onto the five standard channels.</li>
+    <li><b>HubSpot.</b> Run <code>python -m gtm.hubspot setup --apply</code> to add the pipelines and dropdown values, then import.</li>
+    <li><b>Run.</b> <code>python run_all.py --skip-generate</code>. Review the data-completeness section first; fix gaps at the source before trusting CAC.</li>
+    <li><b>Agent.</b> Point the company's HubSpot webhook at the agent; watch the first 20 leads in Slack.</li>
+  </ol>
+  <h3>Company config (example, demo-data block omitted)</h3>
+  {{company_json}}
+</section>
+
+<section class="chapter">
+  <h2><span class="num">8</span>GTM Engineer onboarding</h2>
+  <p class="intro">One GTM Engineer can own this system across the portfolio. The role sits between RevOps, marketing ops and data: they keep the standard intact, keep the data clean, and roll the system out company by company.</p>
+  <div class="two">
+    <div>
+      <h3>Hiring profile</h3>
+      <ul>
+        <li>3+ years in RevOps, marketing ops or growth engineering</li>
+        <li>HubSpot admin depth: properties, pipelines, workflows, imports, private apps</li>
+        <li>SQL and Python fluent enough to own <code>gtm/model.py</code></li>
+        <li>Has built at least one webhook or API integration</li>
+        <li>Can explain CAC payback to a CFO and a lead-routing bug to a rep</li>
+      </ul>
+      <h3>Interview exercise</h3>
+      <p>Give the candidate this repo and one company's messy export. Ask for the scorecard in 3 hours and a list of the data problems found. Score on definitions held, problems surfaced and clarity of the write-up.</p>
+    </div>
+    <div>
+      <h3>First 90 days</h3>
+      <p><b>Days 1–30: own it.</b> Run the pipeline end to end; reproduce every scorecard number by hand for one company; rotate the HubSpot token; fix the top three data-completeness gaps.</p>
+      <p><b>Days 31–60: make it live.</b> Agent on live webhooks for both companies; scheduled daily run with Sheets sync; first monthly scorecard review with each company's GTM lead.</p>
+      <p><b>Days 61–90: propagate.</b> Onboard a third portfolio company using Section 7; replace mock enrichment with a real provider; propose the first budget shift backed by linear attribution.</p>
+    </div>
+  </div>
+  <h3>Operating cadence</h3>
+  <table>
+    <thead><tr><th>Cadence</th><th>What</th><th>Output</th></tr></thead>
+    <tbody>
+      <tr><td>Daily</td><td>Scheduled run; check agent errors and unassigned leads</td><td>Refreshed dashboard; Slack summary of failures</td></tr>
+      <tr><td>Weekly</td><td>Speed to lead, missed calls and SLA breaches by territory</td><td>Note to sales managers</td></tr>
+      <tr><td>Monthly</td><td>Scorecard review per company; data-completeness fixes</td><td>Board-ready scorecard; change log</td></tr>
+      <tr><td>Quarterly</td><td>Revisit benchmarks, scoring weights and lifetime assumptions</td><td>Updated <code>standard.json</code> with rationale</td></tr>
+    </tbody>
+  </table>
+  <h3>Ownership checklist</h3>
+  <ul class="check">
+    <li>Can run <code>python run_all.py</code> and explain each output file</li>
+    <li>Knows where every metric is defined and why opportunities use stage_reached</li>
+    <li>Has admin on HubSpot and owns the private app and its token</li>
+    <li>Has added and removed a territory in config and seen routing change</li>
+    <li>Has replayed leads through the agent and read the Slack and CRM output</li>
+    <li>Owns the Looker Studio report and its Sheet</li>
+    <li>Has onboarded a company end to end using Section 7</li>
+  </ul>
+</section>
+
+<section class="chapter">
+  <h2><span class="num">A</span>Runbook and assumptions</h2>
+  <h3>Commands</h3>
+  <pre class="code">pip install -r requirements.txt
+python run_all.py                   # synthetic data -> agent replay -> model -> HubSpot files -> dashboard
+python run_all.py --skip-generate   # same, on CSVs already in data/
+python -m gtm.agent_server          # webhook server on :5000
+python -m gtm.hubspot setup --apply # HubSpot properties + pipelines (HUBSPOT_TOKEN)
+python -m gtm.sheets_sync           # push outputs to Google Sheets for Looker Studio
+python -m playbook.build            # rebuild this PDF</pre>
+  <h3>Troubleshooting</h3>
+  <table>
+    <thead><tr><th>Symptom</th><th>Likely cause</th><th>Fix</th></tr></thead>
+    <tbody>
+      <tr><td>Lead routed to the unassigned queue</td><td>State missing or outside every territory</td><td>Add the state to a territory in config, or fix the form field</td></tr>
+      <tr><td>Deal creation fails in HubSpot</td><td>Pipeline label in config doesn't match HubSpot</td><td>Re-run <code>gtm.hubspot setup --apply</code>; labels must match exactly</td></tr>
+      <tr><td>Webhook returns 401</td><td>Wrong client secret or clock skew over 5 minutes</td><td>Check <code>HUBSPOT_CLIENT_SECRET</code> and server time</td></tr>
+      <tr><td>CAC jumps month over month</td><td>Spend booked in a month with few closes</td><td>Read the 6-month blended figure; monthly CAC is noisy at low volume</td></tr>
+    </tbody>
+  </table>
+  <h3>Assumptions and limits</h3>
+  <ul>
+    <li>All companies, people and records are synthetic. Generator inputs match the design targets; realized rates differ slightly because deals still open at the cut-off are not yet won or lost.</li>
+    <li>Revenue is closed-won first-year contract value. LTV uses ACV × margin × lifetime; it ignores expansion and discounting.</li>
+    <li>Enrichment is mocked. HubSpot, Slack, OpenAI and Google Sheets clients are written against their public APIs but were exercised in the POC only against mocks.</li>
+    <li>In production, add retries and a dead-letter queue to the agent, store secrets in a secrets manager, and move SQLite to the portfolio warehouse.</li>
+  </ul>
+</section>
+
+</body>
+</html>

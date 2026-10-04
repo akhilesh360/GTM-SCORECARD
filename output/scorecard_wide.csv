@@ -1,0 +1,28 @@
+category,metric,unit,definition,Acme MSP,Summit HVAC
+Volume,Leads,count,Leads created in period,3006.0,1779.0
+Volume,Opportunities,count,Deals that reached Qualified,216.0,203.0
+Volume,Closed-won deals,count,Deals in Won stage,50.0,74.0
+Volume,Bookings (closed-won revenue),usd,Sum of won deal amount (first-year contract value),741450.0,630850.0
+Volume,Open pipeline,usd,Amount on deals not yet Won/Lost,1153650.0,513350.0
+Volume,GTM spend,usd,Media + outbound + referral + call-tracking spend,528866.1799999999,345462.63000000006
+Conversion,Lead to opportunity,pct,Opportunities / leads,0.0718562874251497,0.11410905002810567
+Conversion,Opportunity to won,pct,Won / closed opportunities (Won + Lost after Qualified),0.2702702702702703,0.3854166666666667
+Conversion,Speed to lead (median),hours,Lead created to first rep activity,3.5902777777777777,6.037916666666667
+Economics,Average contract value,usd,Mean amount of won deals,14829.0,8525.0
+Economics,Gross margin,pct,Revenue-weighted margin on won deals,0.6059409939982467,0.4445620955046353
+Economics,Blended CAC,usd,Total GTM spend / closed-won deals,10577.323599999998,4668.41391891892
+Economics,ROAS,x,Bookings / GTM spend,1.4019614564879155,1.8261020012497442
+Economics,Customer lifetime (assumption),years,Set per company in config (from churn),4.0,3.0
+Economics,LTV,usd,ACV x gross margin x customer lifetime,35941.99600000001,11369.675592531048
+Economics,LTV : CAC,x,LTV / blended CAC,3.3980236739660694,2.435447196842383
+Economics,CAC payback,months,CAC / (ACV x gross margin / 12),14.125858029698733,14.781679539870494
+Velocity,Sales cycle,days,"Deal created to Won, mean",39.315543749999996,20.673385573073073
+Velocity,Pipeline velocity,usd_per_day,Opps x win rate x ACV / sales cycle days,22019.10212606364,32263.339043287586
+Data & Ops,Data completeness,pct,Share of lead + deal records with every required field populated,0.8700689655172413,0.7574910107870555
+Data & Ops,Inbound calls tracked,count,Calls logged by call tracking,873.0,1042.0
+Data & Ops,Missed call rate,pct,Missed / tracked calls,0.13516609392898052,0.2840690978886756
+Data & Ops,Call-influenced bookings,pct,Share of bookings where the buyer phoned in at least once,0.3331984624721829,0.6100499326305778
+AI Agent,Leads processed by agent,count,Leads run through the AI agent end to end,564.0,260.0
+AI Agent,Manual steps eliminated,count,Automated steps x leads,3948.0,1820.0
+AI Agent,Rep hours saved,hours,Steps x manual minutes per step,159.8,73.66666666666667
+AI Agent,"Routing time (agent, median)",seconds,Webhook received to deal + task created,0.0004,0.00035

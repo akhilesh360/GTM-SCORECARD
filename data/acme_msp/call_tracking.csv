@@ -1,0 +1,874 @@
+call_id,lead_id,source,duration,outcome,revenue_influenced,call_datetime,channel
+ACME-C00001,ACME-L00012,Local Services Ads,371,answered_info,0,2026-04-01 15:19:25,Call Tracking
+ACME-C00002,ACME-L00023,Google Business Profile,152,answered_info,0,2026-04-02 08:06:28,Call Tracking
+ACME-C00003,ACME-L00026,Google Business Profile,65,answered_info,0,2026-04-02 11:15:48,Call Tracking
+ACME-C00004,ACME-L00032,Google Business Profile,786,answered_booked,0,2026-04-02 14:25:46,Call Tracking
+ACME-C00005,ACME-L00037,Google Business Profile,259,answered_info,0,2026-04-02 21:09:24,Call Tracking
+ACME-C00006,ACME-L00048,Local Services Ads,370,answered_info,0,2026-04-03 12:49:39,Call Tracking
+ACME-C00007,ACME-L00058,Local Services Ads,343,answered_info,0,2026-04-04 13:50:09,Call Tracking
+ACME-C00008,ACME-L00069,Google Business Profile,406,answered_info,0,2026-04-06 00:13:27,Call Tracking
+ACME-C00009,ACME-L00044,Local Services Ads,0,missed,0,2026-04-06 07:41:37,Call Tracking
+ACME-C00010,ACME-L00075,Local Services Ads,268,answered_info,0,2026-04-06 10:25:30,Call Tracking
+ACME-C00011,ACME-L00079,Google Business Profile,232,answered_info,0,2026-04-06 13:34:07,Call Tracking
+ACME-C00012,ACME-L00081,Local Services Ads,245,answered_info,0,2026-04-06 14:19:04,Call Tracking
+ACME-C00013,ACME-L00085,Google Business Profile,0,missed,0,2026-04-06 16:16:36,Call Tracking
+ACME-C00014,ACME-L00089,Google Business Profile,291,answered_info,0,2026-04-07 01:59:56,Call Tracking
+ACME-C00015,ACME-L00094,Google Business Profile,272,answered_info,0,2026-04-07 09:19:24,Call Tracking
+ACME-C00016,ACME-L00064,Google Ads Call Extension,327,answered_info,0,2026-04-07 14:51:20,Google Ads
+ACME-C00017,ACME-L00106,Local Services Ads,320,answered_info,0,2026-04-07 22:41:59,Call Tracking
+ACME-C00018,ACME-L00112,Google Business Profile,185,answered_info,0,2026-04-08 09:52:55,Call Tracking
+ACME-C00019,ACME-L00115,Local Services Ads,60,answered_info,0,2026-04-08 12:11:22,Call Tracking
+ACME-C00020,ACME-L00120,Google Business Profile,51,voicemail,0,2026-04-08 14:54:59,Call Tracking
+ACME-C00021,ACME-L00027,Google Business Profile,294,answered_info,0,2026-04-09 02:40:04,Call Tracking
+ACME-C00022,ACME-L00142,Local Services Ads,86,answered_info,0,2026-04-09 15:18:54,Call Tracking
+ACME-C00023,ACME-L00148,Google Business Profile,631,answered_booked,0,2026-04-09 18:31:10,Call Tracking
+ACME-C00024,ACME-L00110,Meta Click-to-Call,0,missed,0,2026-04-10 07:16:51,Meta Ads
+ACME-C00025,ACME-L00110,Google Business Profile,0,missed,0,2026-04-11 09:51:51,Call Tracking
+ACME-C00026,ACME-L00135,Google Ads Call Extension,171,answered_info,0,2026-04-11 12:46:47,Google Ads
+ACME-C00027,ACME-L00168,Google Business Profile,87,answered_info,9600,2026-04-11 18:37:46,Call Tracking
+ACME-C00028,ACME-L00196,Google Business Profile,56,voicemail,0,2026-04-13 14:51:08,Call Tracking
+ACME-C00029,ACME-L00199,Local Services Ads,108,answered_info,0,2026-04-13 18:13:41,Call Tracking
+ACME-C00030,ACME-L00205,Local Services Ads,400,answered_info,0,2026-04-14 08:25:20,Call Tracking
+ACME-C00031,ACME-L00176,Google Business Profile,209,answered_info,0,2026-04-14 15:05:27,Call Tracking
+ACME-C00032,ACME-L00219,Google Business Profile,320,answered_info,0,2026-04-14 20:43:26,Call Tracking
+ACME-C00033,ACME-L00096,Google Ads Call Extension,173,answered_info,0,2026-04-14 22:52:17,Google Ads
+ACME-C00034,ACME-L00223,Local Services Ads,202,answered_info,0,2026-04-15 02:15:26,Call Tracking
+ACME-C00035,ACME-L00228,Local Services Ads,405,answered_info,0,2026-04-15 12:44:48,Call Tracking
+ACME-C00036,ACME-L00130,Referral Line,299,answered_info,0,2026-04-15 17:05:58,Referral
+ACME-C00037,ACME-L00248,Local Services Ads,0,missed,0,2026-04-16 13:14:44,Call Tracking
+ACME-C00038,ACME-L00047,Local Services Ads,324,answered_info,0,2026-04-16 13:27:01,Call Tracking
+ACME-C00039,ACME-L00261,Google Business Profile,0,missed,0,2026-04-17 15:30:41,Call Tracking
+ACME-C00040,ACME-L00268,Google Business Profile,94,answered_info,0,2026-04-17 23:06:27,Call Tracking
+ACME-C00041,ACME-L00238,Local Services Ads,272,answered_info,0,2026-04-18 03:07:43,Call Tracking
+ACME-C00042,ACME-L00183,Google Ads Call Extension,90,answered_info,0,2026-04-18 16:46:18,Google Ads
+ACME-C00043,ACME-L00095,Local Services Ads,0,missed,0,2026-04-19 00:32:44,Call Tracking
+ACME-C00044,ACME-L00164,Meta Click-to-Call,58,answered_info,0,2026-04-19 12:23:45,Meta Ads
+ACME-C00045,ACME-L00096,Google Ads Call Extension,145,answered_info,0,2026-04-19 13:11:46,Google Ads
+ACME-C00046,ACME-L00064,Google Ads Call Extension,151,answered_info,0,2026-04-19 15:06:48,Google Ads
+ACME-C00047,ACME-L00279,Local Services Ads,370,answered_info,0,2026-04-19 15:49:04,Call Tracking
+ACME-C00048,ACME-L00287,Local Services Ads,297,answered_info,0,2026-04-20 08:28:39,Call Tracking
+ACME-C00049,ACME-L00288,Local Services Ads,382,answered_info,0,2026-04-20 09:55:57,Call Tracking
+ACME-C00050,ACME-L00295,Google Business Profile,274,answered_info,0,2026-04-20 15:54:06,Call Tracking
+ACME-C00051,ACME-L00163,Local Services Ads,140,answered_info,0,2026-04-21 07:52:42,Call Tracking
+ACME-C00052,ACME-L00004,Google Ads Call Extension,393,answered_info,0,2026-04-21 12:08:24,Google Ads
+ACME-C00053,ACME-L00303,Google Business Profile,171,answered_info,0,2026-04-21 12:41:34,Call Tracking
+ACME-C00054,ACME-L00310,Local Services Ads,127,answered_info,0,2026-04-21 15:10:26,Call Tracking
+ACME-C00055,ACME-L00013,Outbound Callback Number,303,answered_info,0,2026-04-21 20:37:09,Outbound
+ACME-C00056,ACME-L00138,Google Ads Call Extension,0,missed,0,2026-04-22 11:18:29,Google Ads
+ACME-C00057,ACME-L00323,Local Services Ads,209,answered_info,0,2026-04-22 11:40:32,Call Tracking
+ACME-C00058,ACME-L00176,Google Business Profile,135,answered_info,0,2026-04-22 14:02:43,Call Tracking
+ACME-C00059,ACME-L00044,Google Ads Call Extension,226,answered_info,0,2026-04-22 14:20:16,Google Ads
+ACME-C00060,ACME-L00326,Google Business Profile,0,missed,0,2026-04-22 16:48:07,Call Tracking
+ACME-C00061,ACME-L00001,Referral Line,74,answered_info,0,2026-04-22 23:49:54,Referral
+ACME-C00062,ACME-L00270,Referral Line,189,answered_info,0,2026-04-23 09:29:58,Referral
+ACME-C00063,ACME-L00336,Local Services Ads,415,answered_info,0,2026-04-23 12:07:57,Call Tracking
+ACME-C00064,ACME-L00014,Google Ads Call Extension,331,answered_info,0,2026-04-23 22:43:00,Google Ads
+ACME-C00065,ACME-L00082,Referral Line,442,answered_booked,16450,2026-04-24 02:51:13,Referral
+ACME-C00066,ACME-L00359,Google Business Profile,72,answered_info,0,2026-04-24 16:05:57,Call Tracking
+ACME-C00067,ACME-L00363,Local Services Ads,371,answered_info,0,2026-04-25 02:10:30,Call Tracking
+ACME-C00068,ACME-L00066,Local Services Ads,264,answered_info,0,2026-04-25 02:33:05,Call Tracking
+ACME-C00069,ACME-L00203,Local Services Ads,205,answered_info,0,2026-04-25 08:22:45,Call Tracking
+ACME-C00070,ACME-L00311,Google Business Profile,0,missed,0,2026-04-25 12:20:23,Call Tracking
+ACME-C00071,ACME-L00225,Local Services Ads,189,answered_info,0,2026-04-25 13:06:12,Call Tracking
+ACME-C00072,ACME-L00013,Google Business Profile,0,missed,0,2026-04-26 02:11:25,Call Tracking
+ACME-C00073,ACME-L00370,Google Business Profile,218,answered_info,0,2026-04-26 04:09:35,Call Tracking
+ACME-C00074,ACME-L00182,Google Business Profile,401,answered_info,0,2026-04-26 07:28:00,Call Tracking
+ACME-C00075,ACME-L00198,Local Services Ads,404,answered_info,0,2026-04-26 11:42:07,Call Tracking
+ACME-C00076,ACME-L00358,Outbound Callback Number,183,answered_booked,0,2026-04-26 12:40:18,Outbound
+ACME-C00077,ACME-L00131,Google Business Profile,267,answered_info,0,2026-04-27 16:39:22,Call Tracking
+ACME-C00078,ACME-L00385,Local Services Ads,242,answered_info,0,2026-04-27 17:42:10,Call Tracking
+ACME-C00079,ACME-L00348,Google Ads Call Extension,124,answered_info,0,2026-04-28 00:39:41,Google Ads
+ACME-C00080,ACME-L00390,Google Business Profile,202,answered_info,0,2026-04-28 02:16:52,Call Tracking
+ACME-C00081,ACME-L00163,Google Ads Call Extension,393,answered_info,0,2026-04-28 08:41:37,Google Ads
+ACME-C00082,ACME-L00393,Google Business Profile,0,missed,0,2026-04-28 09:39:54,Call Tracking
+ACME-C00083,ACME-L00078,Local Services Ads,135,answered_info,0,2026-04-28 20:27:10,Call Tracking
+ACME-C00084,ACME-L00113,Google Business Profile,260,answered_info,0,2026-04-29 04:59:38,Call Tracking
+ACME-C00085,ACME-L00415,Google Business Profile,296,answered_info,0,2026-04-29 11:27:39,Call Tracking
+ACME-C00086,ACME-L00392,Google Business Profile,125,answered_info,0,2026-04-29 15:28:02,Call Tracking
+ACME-C00087,ACME-L00036,Local Services Ads,342,answered_info,0,2026-04-29 18:00:12,Call Tracking
+ACME-C00088,ACME-L00355,Local Services Ads,72,answered_info,0,2026-04-30 05:49:58,Call Tracking
+ACME-C00089,ACME-L00167,Google Ads Call Extension,64,voicemail,0,2026-04-30 18:51:32,Google Ads
+ACME-C00090,ACME-L00238,Referral Line,66,answered_info,0,2026-04-30 22:28:23,Referral
+ACME-C00091,ACME-L00450,Outbound Callback Number,356,answered_info,0,2026-05-01 00:43:14,Outbound
+ACME-C00092,ACME-L00459,Local Services Ads,23,voicemail,0,2026-05-01 09:22:56,Call Tracking
+ACME-C00093,ACME-L00139,Google Business Profile,273,answered_info,0,2026-05-01 22:43:59,Call Tracking
+ACME-C00094,ACME-L00477,Local Services Ads,335,answered_info,0,2026-05-02 08:05:07,Call Tracking
+ACME-C00095,ACME-L00231,Google Business Profile,71,answered_info,0,2026-05-02 15:16:57,Call Tracking
+ACME-C00096,ACME-L00478,Google Business Profile,152,answered_info,0,2026-05-02 21:19:52,Call Tracking
+ACME-C00097,ACME-L00479,Google Business Profile,222,answered_info,0,2026-05-02 23:10:17,Call Tracking
+ACME-C00098,ACME-L00131,Local Services Ads,0,missed,0,2026-05-03 02:36:56,Call Tracking
+ACME-C00099,ACME-L00471,Local Services Ads,198,answered_info,0,2026-05-03 17:35:35,Call Tracking
+ACME-C00100,ACME-L00198,Meta Click-to-Call,362,answered_info,0,2026-05-03 17:41:20,Meta Ads
+ACME-C00101,ACME-L00166,Google Ads Call Extension,291,answered_booked,0,2026-05-03 18:14:48,Google Ads
+ACME-C00102,ACME-L00188,Local Services Ads,189,answered_info,0,2026-05-03 18:55:16,Call Tracking
+ACME-C00103,ACME-L00266,Meta Click-to-Call,203,answered_info,0,2026-05-03 19:18:24,Meta Ads
+ACME-C00104,ACME-L00155,Google Business Profile,134,answered_info,0,2026-05-04 02:05:21,Call Tracking
+ACME-C00105,ACME-L00493,Local Services Ads,248,answered_info,0,2026-05-04 06:01:19,Call Tracking
+ACME-C00106,ACME-L00510,Local Services Ads,49,voicemail,0,2026-05-04 14:18:23,Call Tracking
+ACME-C00107,ACME-L00513,Local Services Ads,0,missed,0,2026-05-04 16:02:16,Call Tracking
+ACME-C00108,ACME-L00519,Local Services Ads,0,missed,0,2026-05-05 09:42:52,Call Tracking
+ACME-C00109,ACME-L00526,Google Business Profile,249,answered_info,0,2026-05-05 17:02:03,Call Tracking
+ACME-C00110,ACME-L00514,Referral Line,0,missed,0,2026-05-05 18:08:17,Referral
+ACME-C00111,ACME-L00364,Google Business Profile,302,answered_info,0,2026-05-05 19:07:01,Call Tracking
+ACME-C00112,ACME-L00371,Meta Click-to-Call,334,answered_info,0,2026-05-05 19:55:35,Meta Ads
+ACME-C00113,ACME-L00539,Google Business Profile,348,answered_info,0,2026-05-06 09:51:15,Call Tracking
+ACME-C00114,ACME-L00185,Google Ads Call Extension,83,answered_info,0,2026-05-06 13:10:20,Google Ads
+ACME-C00115,ACME-L00180,Local Services Ads,296,answered_info,0,2026-05-06 14:41:27,Call Tracking
+ACME-C00116,ACME-L00552,Local Services Ads,239,answered_booked,19500,2026-05-06 23:05:53,Call Tracking
+ACME-C00117,ACME-L00326,Google Business Profile,116,answered_info,0,2026-05-07 03:25:15,Call Tracking
+ACME-C00118,ACME-L00475,Local Services Ads,281,answered_info,0,2026-05-07 06:35:19,Call Tracking
+ACME-C00119,ACME-L00519,Google Business Profile,313,answered_info,0,2026-05-07 11:06:04,Call Tracking
+ACME-C00120,ACME-L00188,Google Business Profile,379,answered_info,0,2026-05-07 16:25:22,Call Tracking
+ACME-C00121,ACME-L00542,Google Ads Call Extension,397,answered_info,0,2026-05-07 17:30:26,Google Ads
+ACME-C00122,ACME-L00569,Google Business Profile,386,answered_info,0,2026-05-07 17:38:57,Call Tracking
+ACME-C00123,ACME-L00547,Google Ads Call Extension,0,missed,0,2026-05-07 22:45:28,Google Ads
+ACME-C00124,ACME-L00183,Google Ads Call Extension,125,answered_info,0,2026-05-08 06:04:57,Google Ads
+ACME-C00125,ACME-L00330,Local Services Ads,0,missed,0,2026-05-08 06:48:06,Call Tracking
+ACME-C00126,ACME-L00389,Local Services Ads,63,answered_info,0,2026-05-08 11:24:49,Call Tracking
+ACME-C00127,ACME-L00586,Google Business Profile,369,answered_info,0,2026-05-08 12:30:38,Call Tracking
+ACME-C00128,ACME-L00592,Local Services Ads,312,answered_info,0,2026-05-08 17:13:41,Call Tracking
+ACME-C00129,ACME-L00170,Local Services Ads,0,missed,0,2026-05-08 21:43:36,Call Tracking
+ACME-C00130,ACME-L00277,Google Ads Call Extension,0,missed,0,2026-05-09 00:16:27,Google Ads
+ACME-C00131,ACME-L00547,Google Ads Call Extension,212,answered_info,0,2026-05-09 01:51:59,Google Ads
+ACME-C00132,ACME-L00597,Local Services Ads,409,answered_info,0,2026-05-09 19:17:05,Call Tracking
+ACME-C00133,ACME-L00556,Meta Click-to-Call,222,answered_info,0,2026-05-10 09:22:39,Meta Ads
+ACME-C00134,ACME-L00499,Local Services Ads,308,answered_booked,22200,2026-05-11 12:16:51,Call Tracking
+ACME-C00135,ACME-L00625,Local Services Ads,70,answered_info,0,2026-05-11 19:48:15,Call Tracking
+ACME-C00136,ACME-L00627,Google Business Profile,417,answered_info,0,2026-05-12 00:16:15,Call Tracking
+ACME-C00137,ACME-L00628,Google Business Profile,230,answered_info,0,2026-05-12 04:17:48,Call Tracking
+ACME-C00138,ACME-L00631,Local Services Ads,271,answered_info,0,2026-05-12 08:19:53,Call Tracking
+ACME-C00139,ACME-L00566,Google Business Profile,256,answered_info,12500,2026-05-12 12:19:18,Call Tracking
+ACME-C00140,ACME-L00332,Local Services Ads,241,answered_info,0,2026-05-12 16:33:41,Call Tracking
+ACME-C00141,ACME-L00536,Referral Line,411,answered_info,0,2026-05-12 17:05:33,Referral
+ACME-C00142,ACME-L00649,Local Services Ads,382,answered_info,0,2026-05-12 17:59:24,Call Tracking
+ACME-C00143,ACME-L00650,Google Business Profile,271,answered_booked,0,2026-05-12 18:30:01,Call Tracking
+ACME-C00144,ACME-L00639,Google Business Profile,186,answered_info,0,2026-05-12 19:52:54,Call Tracking
+ACME-C00145,ACME-L00266,Local Services Ads,169,answered_info,0,2026-05-12 20:44:31,Call Tracking
+ACME-C00146,ACME-L00658,Local Services Ads,256,answered_info,0,2026-05-13 09:16:14,Call Tracking
+ACME-C00147,ACME-L00659,Google Business Profile,207,answered_info,0,2026-05-13 10:32:05,Call Tracking
+ACME-C00148,ACME-L00668,Local Services Ads,136,answered_info,0,2026-05-13 17:19:03,Call Tracking
+ACME-C00149,ACME-L00498,Referral Line,250,answered_info,0,2026-05-13 19:27:48,Referral
+ACME-C00150,ACME-L00616,Google Ads Call Extension,61,voicemail,0,2026-05-13 21:10:32,Google Ads
+ACME-C00151,ACME-L00575,Local Services Ads,390,answered_info,0,2026-05-14 07:35:01,Call Tracking
+ACME-C00152,ACME-L00424,Local Services Ads,291,answered_info,0,2026-05-14 08:01:23,Call Tracking
+ACME-C00153,ACME-L00654,Outbound Callback Number,345,answered_info,0,2026-05-14 08:21:54,Outbound
+ACME-C00154,ACME-L00696,Local Services Ads,92,answered_info,0,2026-05-14 19:55:31,Call Tracking
+ACME-C00155,ACME-L00433,Google Ads Call Extension,204,answered_info,0,2026-05-15 08:51:41,Google Ads
+ACME-C00156,ACME-L00494,Local Services Ads,304,answered_info,0,2026-05-15 09:10:55,Call Tracking
+ACME-C00157,ACME-L00705,Local Services Ads,106,answered_info,0,2026-05-15 12:32:52,Call Tracking
+ACME-C00158,ACME-L00706,Local Services Ads,189,answered_info,10450,2026-05-15 13:21:29,Call Tracking
+ACME-C00159,ACME-L00714,Google Business Profile,183,answered_info,0,2026-05-15 18:25:06,Call Tracking
+ACME-C00160,ACME-L00511,Local Services Ads,393,answered_info,0,2026-05-16 08:16:56,Call Tracking
+ACME-C00161,ACME-L00678,Meta Click-to-Call,340,answered_info,0,2026-05-16 15:31:37,Meta Ads
+ACME-C00162,ACME-L00407,Google Ads Call Extension,241,answered_info,0,2026-05-16 21:21:43,Google Ads
+ACME-C00163,ACME-L00669,Google Ads Call Extension,311,answered_info,0,2026-05-17 08:52:13,Google Ads
+ACME-C00164,ACME-L00529,Local Services Ads,0,missed,0,2026-05-17 23:59:35,Call Tracking
+ACME-C00165,ACME-L00724,Google Business Profile,131,answered_info,0,2026-05-18 05:06:15,Call Tracking
+ACME-C00166,ACME-L00604,Google Business Profile,283,answered_info,0,2026-05-18 05:25:28,Call Tracking
+ACME-C00167,ACME-L00729,Local Services Ads,199,answered_info,0,2026-05-18 09:56:59,Call Tracking
+ACME-C00168,ACME-L00739,Local Services Ads,85,answered_info,14450,2026-05-18 16:53:17,Call Tracking
+ACME-C00169,ACME-L00571,Local Services Ads,317,answered_info,0,2026-05-18 16:59:48,Call Tracking
+ACME-C00170,ACME-L00740,Local Services Ads,555,answered_booked,0,2026-05-18 17:36:37,Call Tracking
+ACME-C00171,ACME-L00578,Google Business Profile,84,answered_info,0,2026-05-18 21:43:51,Call Tracking
+ACME-C00172,ACME-L00565,Referral Line,311,answered_info,0,2026-05-18 22:56:48,Referral
+ACME-C00173,ACME-L00339,Local Services Ads,301,answered_info,0,2026-05-19 01:42:12,Call Tracking
+ACME-C00174,ACME-L00496,Google Business Profile,396,answered_info,0,2026-05-19 09:14:25,Call Tracking
+ACME-C00175,ACME-L00499,Google Business Profile,416,answered_info,22200,2026-05-19 19:38:57,Call Tracking
+ACME-C00176,ACME-L00654,Google Business Profile,47,answered_info,0,2026-05-20 12:43:00,Call Tracking
+ACME-C00177,ACME-L00634,Local Services Ads,54,voicemail,0,2026-05-21 03:47:14,Call Tracking
+ACME-C00178,ACME-L00779,Google Business Profile,491,answered_booked,0,2026-05-21 08:18:34,Call Tracking
+ACME-C00179,ACME-L00388,Meta Click-to-Call,74,voicemail,0,2026-05-21 10:47:26,Meta Ads
+ACME-C00180,ACME-L00355,Google Ads Call Extension,0,missed,0,2026-05-21 12:41:26,Google Ads
+ACME-C00181,ACME-L00797,Local Services Ads,0,missed,0,2026-05-21 13:28:48,Call Tracking
+ACME-C00182,ACME-L00679,Local Services Ads,0,missed,0,2026-05-21 13:58:35,Call Tracking
+ACME-C00183,ACME-L00802,Local Services Ads,373,answered_info,0,2026-05-21 14:11:47,Call Tracking
+ACME-C00184,ACME-L00521,Referral Line,240,answered_info,0,2026-05-21 21:17:27,Referral
+ACME-C00185,ACME-L00592,Google Business Profile,163,answered_info,0,2026-05-21 22:37:05,Call Tracking
+ACME-C00186,ACME-L00331,Google Business Profile,400,answered_info,0,2026-05-21 23:28:05,Call Tracking
+ACME-C00187,ACME-L00589,Google Ads Call Extension,328,answered_info,0,2026-05-22 03:09:44,Google Ads
+ACME-C00188,ACME-L00654,Local Services Ads,263,answered_info,0,2026-05-22 04:33:31,Call Tracking
+ACME-C00189,ACME-L00472,Google Ads Call Extension,320,answered_info,0,2026-05-22 06:05:45,Google Ads
+ACME-C00190,ACME-L00696,Google Business Profile,152,answered_info,0,2026-05-22 11:56:51,Call Tracking
+ACME-C00191,ACME-L00750,Google Business Profile,422,answered_booked,16050,2026-05-22 13:22:14,Call Tracking
+ACME-C00192,ACME-L00810,Google Ads Call Extension,362,answered_info,0,2026-05-22 15:39:37,Google Ads
+ACME-C00193,ACME-L00730,Google Business Profile,313,answered_info,0,2026-05-22 23:20:40,Call Tracking
+ACME-C00194,ACME-L00827,Google Business Profile,150,answered_info,0,2026-05-23 00:29:39,Call Tracking
+ACME-C00195,ACME-L00601,Google Ads Call Extension,366,answered_booked,17800,2026-05-23 00:30:56,Google Ads
+ACME-C00196,ACME-L00478,Google Business Profile,128,answered_info,0,2026-05-23 04:37:33,Call Tracking
+ACME-C00197,ACME-L00784,Google Ads Call Extension,0,missed,0,2026-05-23 17:24:49,Google Ads
+ACME-C00198,ACME-L00633,Google Business Profile,387,answered_info,0,2026-05-23 21:36:06,Call Tracking
+ACME-C00199,ACME-L00565,Google Business Profile,410,answered_info,0,2026-05-23 23:49:41,Call Tracking
+ACME-C00200,ACME-L00572,Local Services Ads,0,missed,0,2026-05-24 04:05:52,Call Tracking
+ACME-C00201,ACME-L00710,Google Business Profile,215,answered_info,0,2026-05-24 10:27:16,Call Tracking
+ACME-C00202,ACME-L00818,Google Ads Call Extension,306,answered_info,0,2026-05-24 13:49:21,Google Ads
+ACME-C00203,ACME-L00744,Google Ads Call Extension,0,missed,0,2026-05-24 22:13:08,Google Ads
+ACME-C00204,ACME-L00809,Google Ads Call Extension,283,answered_info,0,2026-05-24 23:03:00,Google Ads
+ACME-C00205,ACME-L00652,Google Ads Call Extension,473,answered_booked,0,2026-05-24 23:35:57,Google Ads
+ACME-C00206,ACME-L00525,Google Business Profile,307,answered_info,0,2026-05-25 00:08:16,Call Tracking
+ACME-C00207,ACME-L00554,Google Ads Call Extension,318,answered_info,0,2026-05-25 02:50:59,Google Ads
+ACME-C00208,ACME-L00589,Google Ads Call Extension,249,answered_info,0,2026-05-25 10:30:44,Google Ads
+ACME-C00209,ACME-L00511,Google Ads Call Extension,410,answered_info,0,2026-05-25 12:59:15,Google Ads
+ACME-C00210,ACME-L00501,Local Services Ads,188,answered_booked,0,2026-05-25 14:28:09,Call Tracking
+ACME-C00211,ACME-L00683,Google Business Profile,0,missed,0,2026-05-25 15:02:44,Call Tracking
+ACME-C00212,ACME-L00787,Google Business Profile,151,answered_info,0,2026-05-25 21:01:21,Call Tracking
+ACME-C00213,ACME-L00405,Meta Click-to-Call,83,answered_info,0,2026-05-26 00:46:58,Meta Ads
+ACME-C00214,ACME-L00514,Referral Line,313,answered_info,0,2026-05-26 02:53:56,Referral
+ACME-C00215,ACME-L00424,Local Services Ads,362,answered_info,0,2026-05-26 07:35:42,Call Tracking
+ACME-C00216,ACME-L00866,Referral Line,212,answered_info,0,2026-05-26 10:26:27,Referral
+ACME-C00217,ACME-L00422,Google Business Profile,169,answered_info,0,2026-05-26 14:31:32,Call Tracking
+ACME-C00218,ACME-L00806,Google Business Profile,48,voicemail,0,2026-05-26 14:31:34,Call Tracking
+ACME-C00219,ACME-L00878,Google Business Profile,176,answered_info,0,2026-05-26 16:00:03,Call Tracking
+ACME-C00220,ACME-L00389,Google Business Profile,0,missed,0,2026-05-26 18:51:07,Call Tracking
+ACME-C00221,ACME-L00881,Google Business Profile,105,answered_info,0,2026-05-26 22:35:31,Call Tracking
+ACME-C00222,ACME-L00556,Meta Click-to-Call,141,answered_info,0,2026-05-27 03:26:02,Meta Ads
+ACME-C00223,ACME-L00662,Google Business Profile,342,answered_info,0,2026-05-27 08:36:10,Call Tracking
+ACME-C00224,ACME-L00664,Meta Click-to-Call,168,answered_info,0,2026-05-27 10:33:16,Meta Ads
+ACME-C00225,ACME-L00887,Google Business Profile,255,answered_info,0,2026-05-27 12:22:09,Call Tracking
+ACME-C00226,ACME-L00895,Google Business Profile,374,answered_info,0,2026-05-27 17:14:44,Call Tracking
+ACME-C00227,ACME-L00615,Meta Click-to-Call,192,answered_info,0,2026-05-27 17:38:31,Meta Ads
+ACME-C00228,ACME-L00391,Google Ads Call Extension,0,missed,0,2026-05-28 03:55:25,Google Ads
+ACME-C00229,ACME-L00794,Local Services Ads,48,voicemail,0,2026-05-28 14:14:13,Call Tracking
+ACME-C00230,ACME-L00732,Google Ads Call Extension,353,answered_info,0,2026-05-28 15:14:25,Google Ads
+ACME-C00231,ACME-L00418,Google Business Profile,372,answered_info,0,2026-05-28 21:39:29,Call Tracking
+ACME-C00232,ACME-L00633,Google Ads Call Extension,0,missed,0,2026-05-29 00:03:51,Google Ads
+ACME-C00233,ACME-L00601,Google Ads Call Extension,71,voicemail,17800,2026-05-29 09:13:20,Google Ads
+ACME-C00234,ACME-L00510,Local Services Ads,405,answered_info,0,2026-05-29 10:47:30,Call Tracking
+ACME-C00235,ACME-L00616,Local Services Ads,68,answered_info,0,2026-05-29 16:01:38,Call Tracking
+ACME-C00236,ACME-L00932,Google Business Profile,168,answered_info,0,2026-05-29 20:58:56,Call Tracking
+ACME-C00237,ACME-L00934,Local Services Ads,368,answered_info,0,2026-05-30 16:11:10,Call Tracking
+ACME-C00238,ACME-L00571,Google Ads Call Extension,94,answered_info,0,2026-05-31 00:23:40,Google Ads
+ACME-C00239,ACME-L00937,Google Business Profile,71,answered_info,0,2026-05-31 07:47:15,Call Tracking
+ACME-C00240,ACME-L00777,Local Services Ads,319,answered_info,0,2026-05-31 07:51:59,Call Tracking
+ACME-C00241,ACME-L00907,Google Ads Call Extension,32,voicemail,0,2026-05-31 11:26:51,Google Ads
+ACME-C00242,ACME-L00832,Google Business Profile,286,answered_info,0,2026-05-31 14:08:37,Call Tracking
+ACME-C00243,ACME-L00679,Local Services Ads,313,answered_info,0,2026-05-31 22:27:39,Call Tracking
+ACME-C00244,ACME-L00712,Google Business Profile,210,answered_info,0,2026-06-01 01:10:59,Call Tracking
+ACME-C00245,ACME-L00850,Google Business Profile,333,answered_info,0,2026-06-01 01:28:13,Call Tracking
+ACME-C00246,ACME-L00943,Local Services Ads,137,answered_info,0,2026-06-01 02:35:01,Call Tracking
+ACME-C00247,ACME-L00653,Meta Click-to-Call,62,answered_info,0,2026-06-01 05:13:51,Meta Ads
+ACME-C00248,ACME-L00946,Local Services Ads,83,answered_info,0,2026-06-01 08:32:39,Call Tracking
+ACME-C00249,ACME-L00949,Local Services Ads,372,answered_info,0,2026-06-01 09:28:27,Call Tracking
+ACME-C00250,ACME-L00942,Google Ads Call Extension,342,answered_booked,18500,2026-06-01 12:19:28,Google Ads
+ACME-C00251,ACME-L00956,Local Services Ads,362,answered_info,0,2026-06-01 14:31:46,Call Tracking
+ACME-C00252,ACME-L00514,Referral Line,120,answered_info,0,2026-06-01 20:58:02,Referral
+ACME-C00253,ACME-L00566,Referral Line,114,answered_info,12500,2026-06-01 23:19:15,Referral
+ACME-C00254,ACME-L00669,Google Business Profile,169,answered_info,0,2026-06-02 02:34:09,Call Tracking
+ACME-C00255,ACME-L00843,Meta Click-to-Call,278,answered_info,0,2026-06-02 06:19:08,Meta Ads
+ACME-C00256,ACME-L00750,Outbound Callback Number,592,answered_booked,16050,2026-06-02 06:30:53,Outbound
+ACME-C00257,ACME-L00923,Outbound Callback Number,226,answered_info,0,2026-06-02 07:04:11,Outbound
+ACME-C00258,ACME-L00964,Google Business Profile,65,answered_info,0,2026-06-02 07:48:49,Call Tracking
+ACME-C00259,ACME-L00669,Google Ads Call Extension,374,answered_info,0,2026-06-02 10:29:55,Google Ads
+ACME-C00260,ACME-L00672,Local Services Ads,386,answered_info,0,2026-06-02 11:31:24,Call Tracking
+ACME-C00261,ACME-L00775,Google Ads Call Extension,383,answered_info,0,2026-06-02 12:31:36,Google Ads
+ACME-C00262,ACME-L00625,Google Business Profile,93,answered_info,0,2026-06-02 15:01:26,Call Tracking
+ACME-C00263,ACME-L00975,Google Business Profile,50,answered_info,0,2026-06-02 15:58:00,Call Tracking
+ACME-C00264,ACME-L00529,Google Ads Call Extension,302,answered_info,0,2026-06-02 19:28:26,Google Ads
+ACME-C00265,ACME-L00978,Google Business Profile,389,answered_info,0,2026-06-02 20:57:53,Call Tracking
+ACME-C00266,ACME-L00905,Google Business Profile,312,answered_info,0,2026-06-02 22:27:31,Call Tracking
+ACME-C00267,ACME-L00979,Google Business Profile,325,answered_info,0,2026-06-02 22:57:12,Call Tracking
+ACME-C00268,ACME-L00851,Google Business Profile,0,missed,0,2026-06-03 04:14:01,Call Tracking
+ACME-C00269,ACME-L00696,Local Services Ads,274,answered_info,0,2026-06-03 06:43:29,Call Tracking
+ACME-C00270,ACME-L00983,Google Business Profile,383,answered_info,17750,2026-06-03 08:16:50,Call Tracking
+ACME-C00271,ACME-L00976,Local Services Ads,352,answered_info,0,2026-06-03 09:25:43,Call Tracking
+ACME-C00272,ACME-L00997,Google Business Profile,483,answered_booked,0,2026-06-03 16:04:53,Call Tracking
+ACME-C00273,ACME-L01001,Local Services Ads,349,answered_info,0,2026-06-03 19:47:00,Call Tracking
+ACME-C00274,ACME-L00917,Google Business Profile,55,voicemail,0,2026-06-04 03:02:46,Call Tracking
+ACME-C00275,ACME-L00720,Google Ads Call Extension,329,answered_info,0,2026-06-04 04:49:38,Google Ads
+ACME-C00276,ACME-L00664,Meta Click-to-Call,165,answered_info,0,2026-06-04 05:02:40,Meta Ads
+ACME-C00277,ACME-L01013,Local Services Ads,200,answered_info,0,2026-06-04 13:23:38,Call Tracking
+ACME-C00278,ACME-L00588,Google Ads Call Extension,0,missed,0,2026-06-04 18:09:14,Google Ads
+ACME-C00279,ACME-L01023,Google Business Profile,66,voicemail,0,2026-06-05 09:20:38,Call Tracking
+ACME-C00280,ACME-L00954,Google Business Profile,287,answered_info,0,2026-06-05 18:30:44,Call Tracking
+ACME-C00281,ACME-L00863,Local Services Ads,356,answered_info,11250,2026-06-05 21:02:10,Call Tracking
+ACME-C00282,ACME-L00970,Google Business Profile,363,answered_info,0,2026-06-06 04:54:23,Call Tracking
+ACME-C00283,ACME-L01035,Local Services Ads,86,answered_info,0,2026-06-06 07:37:35,Call Tracking
+ACME-C00284,ACME-L00942,Local Services Ads,659,answered_booked,18500,2026-06-06 15:59:56,Call Tracking
+ACME-C00285,ACME-L00923,Local Services Ads,241,answered_info,0,2026-06-06 21:35:53,Call Tracking
+ACME-C00286,ACME-L00633,Local Services Ads,317,answered_info,0,2026-06-07 07:18:55,Call Tracking
+ACME-C00287,ACME-L00803,Google Ads Call Extension,88,answered_info,0,2026-06-07 13:46:01,Google Ads
+ACME-C00288,ACME-L00775,Local Services Ads,341,answered_info,0,2026-06-07 23:48:14,Call Tracking
+ACME-C00289,ACME-L01056,Google Business Profile,118,answered_info,0,2026-06-08 12:18:23,Call Tracking
+ACME-C00290,ACME-L01057,Local Services Ads,337,answered_info,0,2026-06-08 12:27:59,Call Tracking
+ACME-C00291,ACME-L00882,Google Business Profile,0,missed,0,2026-06-08 12:55:20,Call Tracking
+ACME-C00292,ACME-L01062,Local Services Ads,54,voicemail,0,2026-06-08 14:15:04,Call Tracking
+ACME-C00293,ACME-L01017,Google Ads Call Extension,231,answered_info,0,2026-06-08 14:36:40,Google Ads
+ACME-C00294,ACME-L01068,Google Business Profile,303,answered_info,0,2026-06-08 17:07:44,Call Tracking
+ACME-C00295,ACME-L01074,Google Business Profile,332,answered_info,0,2026-06-09 10:07:04,Call Tracking
+ACME-C00296,ACME-L01081,Google Business Profile,322,answered_info,0,2026-06-09 11:41:42,Call Tracking
+ACME-C00297,ACME-L01082,Google Business Profile,320,answered_info,0,2026-06-09 12:12:56,Call Tracking
+ACME-C00298,ACME-L01086,Google Business Profile,223,answered_info,0,2026-06-09 13:43:55,Call Tracking
+ACME-C00299,ACME-L01020,Meta Click-to-Call,158,answered_info,0,2026-06-09 14:12:44,Meta Ads
+ACME-C00300,ACME-L01040,Local Services Ads,133,answered_info,0,2026-06-09 15:44:58,Call Tracking
+ACME-C00301,ACME-L00937,Local Services Ads,323,answered_info,0,2026-06-09 21:11:22,Call Tracking
+ACME-C00302,ACME-L00672,Google Business Profile,0,missed,0,2026-06-10 01:11:54,Call Tracking
+ACME-C00303,ACME-L01100,Local Services Ads,288,answered_info,0,2026-06-10 03:50:45,Call Tracking
+ACME-C00304,ACME-L00731,Google Ads Call Extension,209,answered_info,0,2026-06-10 04:47:06,Google Ads
+ACME-C00305,ACME-L00671,Google Business Profile,0,missed,0,2026-06-10 13:07:35,Call Tracking
+ACME-C00306,ACME-L01089,Google Business Profile,161,answered_info,0,2026-06-10 14:43:04,Call Tracking
+ACME-C00307,ACME-L01108,Referral Line,206,answered_booked,16300,2026-06-10 17:59:19,Referral
+ACME-C00308,ACME-L00723,Google Ads Call Extension,26,voicemail,0,2026-06-10 18:50:31,Google Ads
+ACME-C00309,ACME-L00932,Google Ads Call Extension,293,answered_info,0,2026-06-10 23:44:37,Google Ads
+ACME-C00310,ACME-L00735,Local Services Ads,156,answered_info,0,2026-06-11 00:26:03,Call Tracking
+ACME-C00311,ACME-L01118,Local Services Ads,213,answered_info,0,2026-06-11 00:46:19,Call Tracking
+ACME-C00312,ACME-L01072,Google Ads Call Extension,0,missed,0,2026-06-11 00:53:33,Google Ads
+ACME-C00313,ACME-L00750,Outbound Callback Number,179,answered_info,16050,2026-06-11 01:37:31,Outbound
+ACME-C00314,ACME-L00861,Google Ads Call Extension,276,answered_info,0,2026-06-11 05:32:27,Google Ads
+ACME-C00315,ACME-L00810,Google Business Profile,390,answered_info,0,2026-06-11 15:20:09,Call Tracking
+ACME-C00316,ACME-L01129,Google Business Profile,365,answered_info,0,2026-06-11 16:57:26,Call Tracking
+ACME-C00317,ACME-L00873,Local Services Ads,79,answered_info,0,2026-06-11 19:00:32,Call Tracking
+ACME-C00318,ACME-L00806,Local Services Ads,199,answered_info,0,2026-06-11 20:42:26,Call Tracking
+ACME-C00319,ACME-L00853,Google Ads Call Extension,0,missed,0,2026-06-11 21:33:18,Google Ads
+ACME-C00320,ACME-L00604,Local Services Ads,551,answered_booked,0,2026-06-11 23:40:34,Call Tracking
+ACME-C00321,ACME-L00784,Google Ads Call Extension,164,answered_info,0,2026-06-12 00:12:08,Google Ads
+ACME-C00322,ACME-L01089,Google Ads Call Extension,129,answered_info,0,2026-06-12 06:28:30,Google Ads
+ACME-C00323,ACME-L01136,Local Services Ads,383,answered_info,0,2026-06-12 09:24:54,Call Tracking
+ACME-C00324,ACME-L01137,Local Services Ads,297,answered_info,0,2026-06-12 09:51:12,Call Tracking
+ACME-C00325,ACME-L01142,Local Services Ads,62,answered_info,0,2026-06-12 14:15:57,Call Tracking
+ACME-C00326,ACME-L00755,Google Ads Call Extension,274,answered_info,0,2026-06-12 14:32:33,Google Ads
+ACME-C00327,ACME-L00801,Referral Line,173,answered_info,0,2026-06-12 17:25:32,Referral
+ACME-C00328,ACME-L00788,Local Services Ads,31,voicemail,0,2026-06-12 17:54:21,Call Tracking
+ACME-C00329,ACME-L00707,Outbound Callback Number,307,answered_info,0,2026-06-12 20:29:01,Outbound
+ACME-C00330,ACME-L00906,Google Ads Call Extension,254,answered_info,0,2026-06-13 01:08:15,Google Ads
+ACME-C00331,ACME-L00777,Google Business Profile,72,answered_info,0,2026-06-13 06:39:59,Call Tracking
+ACME-C00332,ACME-L00827,Local Services Ads,188,answered_info,0,2026-06-13 12:40:13,Call Tracking
+ACME-C00333,ACME-L01153,Local Services Ads,341,answered_info,0,2026-06-13 13:46:48,Call Tracking
+ACME-C00334,ACME-L00778,Google Business Profile,322,answered_info,0,2026-06-13 14:45:54,Call Tracking
+ACME-C00335,ACME-L01072,Google Business Profile,0,missed,0,2026-06-13 15:01:07,Call Tracking
+ACME-C00336,ACME-L01156,Local Services Ads,229,answered_info,0,2026-06-13 19:35:35,Call Tracking
+ACME-C00337,ACME-L01112,Google Ads Call Extension,275,answered_info,0,2026-06-13 22:32:23,Google Ads
+ACME-C00338,ACME-L01158,Local Services Ads,106,answered_info,0,2026-06-14 01:07:54,Call Tracking
+ACME-C00339,ACME-L00731,Google Ads Call Extension,264,answered_info,0,2026-06-14 11:12:31,Google Ads
+ACME-C00340,ACME-L01185,Local Services Ads,418,answered_info,0,2026-06-15 14:35:41,Call Tracking
+ACME-C00341,ACME-L01142,Google Business Profile,144,answered_info,0,2026-06-16 15:04:56,Call Tracking
+ACME-C00342,ACME-L01160,Referral Line,47,answered_info,0,2026-06-16 15:38:50,Referral
+ACME-C00343,ACME-L01220,Google Business Profile,67,answered_info,0,2026-06-17 15:10:36,Call Tracking
+ACME-C00344,ACME-L01107,Google Business Profile,0,missed,0,2026-06-18 03:21:37,Call Tracking
+ACME-C00345,ACME-L01211,Local Services Ads,0,missed,0,2026-06-18 21:39:20,Call Tracking
+ACME-C00346,ACME-L01244,Local Services Ads,237,answered_info,0,2026-06-19 00:33:49,Call Tracking
+ACME-C00347,ACME-L01249,Local Services Ads,0,missed,0,2026-06-19 10:49:45,Call Tracking
+ACME-C00348,ACME-L01251,Local Services Ads,244,answered_info,0,2026-06-19 11:38:41,Call Tracking
+ACME-C00349,ACME-L01001,Local Services Ads,119,answered_info,0,2026-06-19 22:31:00,Call Tracking
+ACME-C00350,ACME-L01246,Google Business Profile,0,missed,0,2026-06-20 03:25:59,Call Tracking
+ACME-C00351,ACME-L01053,Google Ads Call Extension,395,answered_info,0,2026-06-20 03:37:03,Google Ads
+ACME-C00352,ACME-L01268,Local Services Ads,0,missed,0,2026-06-20 11:35:57,Call Tracking
+ACME-C00353,ACME-L01109,Google Ads Call Extension,201,answered_info,0,2026-06-20 11:49:26,Google Ads
+ACME-C00354,ACME-L00801,Google Business Profile,286,answered_info,0,2026-06-20 12:13:08,Call Tracking
+ACME-C00355,ACME-L01040,Outbound Callback Number,384,answered_info,0,2026-06-20 13:47:48,Outbound
+ACME-C00356,ACME-L01225,Meta Click-to-Call,417,answered_info,0,2026-06-20 15:57:36,Meta Ads
+ACME-C00357,ACME-L01137,Google Business Profile,0,missed,0,2026-06-21 03:43:40,Call Tracking
+ACME-C00358,ACME-L00968,Google Ads Call Extension,75,voicemail,0,2026-06-21 11:30:45,Google Ads
+ACME-C00359,ACME-L00861,Google Business Profile,369,answered_info,0,2026-06-21 22:43:39,Call Tracking
+ACME-C00360,ACME-L01265,Outbound Callback Number,114,answered_info,0,2026-06-22 01:24:41,Outbound
+ACME-C00361,ACME-L01283,Local Services Ads,383,answered_info,0,2026-06-22 09:24:23,Call Tracking
+ACME-C00362,ACME-L01285,Local Services Ads,311,answered_info,0,2026-06-22 10:29:11,Call Tracking
+ACME-C00363,ACME-L01076,Local Services Ads,324,answered_info,0,2026-06-22 20:37:30,Call Tracking
+ACME-C00364,ACME-L00928,Google Ads Call Extension,117,answered_info,0,2026-06-23 02:51:20,Google Ads
+ACME-C00365,ACME-L00857,Google Business Profile,221,answered_info,0,2026-06-23 08:30:45,Call Tracking
+ACME-C00366,ACME-L01259,Google Business Profile,345,answered_info,0,2026-06-23 08:58:01,Call Tracking
+ACME-C00367,ACME-L01047,Google Ads Call Extension,0,missed,0,2026-06-23 10:00:03,Google Ads
+ACME-C00368,ACME-L01308,Google Business Profile,30,voicemail,0,2026-06-23 13:07:14,Call Tracking
+ACME-C00369,ACME-L01310,Local Services Ads,268,answered_info,0,2026-06-23 14:14:46,Call Tracking
+ACME-C00370,ACME-L01228,Meta Click-to-Call,94,answered_info,0,2026-06-23 18:36:28,Meta Ads
+ACME-C00371,ACME-L01323,Local Services Ads,0,missed,0,2026-06-24 10:22:23,Call Tracking
+ACME-C00372,ACME-L01047,Google Ads Call Extension,78,answered_info,0,2026-06-24 13:59:28,Google Ads
+ACME-C00373,ACME-L00937,Google Business Profile,363,answered_info,0,2026-06-24 17:05:31,Call Tracking
+ACME-C00374,ACME-L01002,Google Ads Call Extension,179,answered_info,0,2026-06-25 00:54:16,Google Ads
+ACME-C00375,ACME-L01281,Outbound Callback Number,241,answered_info,0,2026-06-25 01:07:19,Outbound
+ACME-C00376,ACME-L01268,Local Services Ads,0,missed,0,2026-06-25 01:12:07,Call Tracking
+ACME-C00377,ACME-L01265,Outbound Callback Number,207,answered_info,0,2026-06-25 02:47:11,Outbound
+ACME-C00378,ACME-L00996,Google Business Profile,49,voicemail,14000,2026-06-25 05:22:49,Call Tracking
+ACME-C00379,ACME-L00996,Outbound Callback Number,400,answered_booked,14000,2026-06-25 06:37:47,Outbound
+ACME-C00380,ACME-L01247,Google Business Profile,0,missed,0,2026-06-25 06:44:09,Call Tracking
+ACME-C00381,ACME-L01340,Google Business Profile,182,answered_booked,0,2026-06-25 08:34:08,Call Tracking
+ACME-C00382,ACME-L01344,Local Services Ads,335,answered_info,0,2026-06-25 11:06:39,Call Tracking
+ACME-C00383,ACME-L01350,Local Services Ads,0,missed,0,2026-06-25 14:12:38,Call Tracking
+ACME-C00384,ACME-L01219,Google Business Profile,215,answered_info,0,2026-06-26 01:33:41,Call Tracking
+ACME-C00385,ACME-L01075,Google Business Profile,42,voicemail,0,2026-06-26 02:58:09,Call Tracking
+ACME-C00386,ACME-L00916,Google Business Profile,314,answered_info,0,2026-06-26 05:44:29,Call Tracking
+ACME-C00387,ACME-L01225,Local Services Ads,190,answered_info,0,2026-06-26 09:13:20,Call Tracking
+ACME-C00388,ACME-L01370,Local Services Ads,188,answered_info,0,2026-06-26 11:26:29,Call Tracking
+ACME-C00389,ACME-L00974,Local Services Ads,72,voicemail,0,2026-06-26 17:48:24,Call Tracking
+ACME-C00390,ACME-L01252,Google Business Profile,52,voicemail,0,2026-06-27 05:09:42,Call Tracking
+ACME-C00391,ACME-L01139,Google Business Profile,103,answered_info,0,2026-06-27 10:08:43,Call Tracking
+ACME-C00392,ACME-L01278,Google Business Profile,279,answered_info,0,2026-06-27 15:45:26,Call Tracking
+ACME-C00393,ACME-L01393,Google Business Profile,245,answered_info,0,2026-06-28 05:05:47,Call Tracking
+ACME-C00394,ACME-L01332,Meta Click-to-Call,58,answered_info,0,2026-06-28 08:23:38,Meta Ads
+ACME-C00395,ACME-L00936,Google Business Profile,0,missed,0,2026-06-28 11:42:14,Call Tracking
+ACME-C00396,ACME-L01395,Google Business Profile,0,missed,0,2026-06-28 11:51:21,Call Tracking
+ACME-C00397,ACME-L01235,Google Business Profile,385,answered_info,0,2026-06-29 00:44:27,Call Tracking
+ACME-C00398,ACME-L01259,Google Business Profile,406,answered_info,0,2026-06-29 08:54:19,Call Tracking
+ACME-C00399,ACME-L01404,Google Business Profile,281,answered_info,0,2026-06-29 08:58:29,Call Tracking
+ACME-C00400,ACME-L01120,Google Ads Call Extension,415,answered_info,0,2026-06-29 09:54:52,Google Ads
+ACME-C00401,ACME-L00970,Google Ads Call Extension,181,answered_info,0,2026-06-29 13:14:42,Google Ads
+ACME-C00402,ACME-L01411,Google Business Profile,290,answered_info,0,2026-06-29 13:54:39,Call Tracking
+ACME-C00403,ACME-L01415,Google Business Profile,212,answered_info,0,2026-06-29 16:28:29,Call Tracking
+ACME-C00404,ACME-L01420,Local Services Ads,289,answered_info,0,2026-06-29 22:21:11,Call Tracking
+ACME-C00405,ACME-L01094,Local Services Ads,137,answered_info,0,2026-06-30 04:24:15,Call Tracking
+ACME-C00406,ACME-L01425,Google Business Profile,231,answered_info,0,2026-06-30 08:27:12,Call Tracking
+ACME-C00407,ACME-L01429,Local Services Ads,74,answered_info,0,2026-06-30 12:22:09,Call Tracking
+ACME-C00408,ACME-L01440,Google Business Profile,225,answered_info,0,2026-06-30 16:33:29,Call Tracking
+ACME-C00409,ACME-L01445,Google Business Profile,217,answered_info,0,2026-06-30 20:21:14,Call Tracking
+ACME-C00410,ACME-L01437,Google Business Profile,68,voicemail,0,2026-06-30 23:16:30,Call Tracking
+ACME-C00411,ACME-L00970,Local Services Ads,321,answered_info,0,2026-07-01 08:20:14,Call Tracking
+ACME-C00412,ACME-L01147,Meta Click-to-Call,0,missed,0,2026-07-01 10:49:09,Meta Ads
+ACME-C00413,ACME-L01094,Local Services Ads,310,answered_info,0,2026-07-01 12:34:02,Call Tracking
+ACME-C00414,ACME-L01463,Local Services Ads,278,answered_info,0,2026-07-01 16:03:48,Call Tracking
+ACME-C00415,ACME-L01398,Referral Line,105,answered_info,0,2026-07-02 09:07:09,Referral
+ACME-C00416,ACME-L01470,Google Business Profile,344,answered_info,0,2026-07-02 10:14:01,Call Tracking
+ACME-C00417,ACME-L01471,Local Services Ads,65,answered_info,0,2026-07-02 10:40:05,Call Tracking
+ACME-C00418,ACME-L01472,Local Services Ads,67,voicemail,0,2026-07-02 10:48:56,Call Tracking
+ACME-C00419,ACME-L01475,Google Business Profile,209,answered_info,0,2026-07-02 12:17:13,Call Tracking
+ACME-C00420,ACME-L01236,Local Services Ads,139,answered_info,0,2026-07-02 14:46:02,Call Tracking
+ACME-C00421,ACME-L01032,Meta Click-to-Call,84,answered_info,0,2026-07-02 21:47:17,Meta Ads
+ACME-C00422,ACME-L01399,Google Ads Call Extension,238,answered_info,0,2026-07-02 23:13:35,Google Ads
+ACME-C00423,ACME-L01412,Outbound Callback Number,320,answered_info,0,2026-07-03 04:36:08,Outbound
+ACME-C00424,ACME-L01420,Local Services Ads,250,answered_info,0,2026-07-03 07:30:38,Call Tracking
+ACME-C00425,ACME-L01391,Google Ads Call Extension,296,answered_info,0,2026-07-03 09:09:34,Google Ads
+ACME-C00426,ACME-L01488,Local Services Ads,0,missed,0,2026-07-03 10:15:54,Call Tracking
+ACME-C00427,ACME-L01492,Local Services Ads,265,answered_info,0,2026-07-03 14:07:56,Call Tracking
+ACME-C00428,ACME-L01473,Google Ads Call Extension,174,answered_info,0,2026-07-03 18:45:54,Google Ads
+ACME-C00429,ACME-L01504,Google Business Profile,206,answered_info,0,2026-07-03 19:34:52,Call Tracking
+ACME-C00430,ACME-L01372,Google Ads Call Extension,95,answered_info,0,2026-07-04 02:20:21,Google Ads
+ACME-C00431,ACME-L01272,Local Services Ads,91,answered_info,0,2026-07-04 04:07:07,Call Tracking
+ACME-C00432,ACME-L01177,Google Ads Call Extension,378,answered_info,0,2026-07-04 04:09:32,Google Ads
+ACME-C00433,ACME-L01420,Google Business Profile,211,answered_info,0,2026-07-04 06:34:13,Call Tracking
+ACME-C00434,ACME-L01443,Meta Click-to-Call,31,voicemail,0,2026-07-04 19:27:52,Meta Ads
+ACME-C00435,ACME-L01235,Meta Click-to-Call,117,answered_info,0,2026-07-04 20:24:26,Meta Ads
+ACME-C00436,ACME-L01343,Local Services Ads,180,answered_info,0,2026-07-05 01:53:01,Call Tracking
+ACME-C00437,ACME-L01244,Google Business Profile,60,answered_info,0,2026-07-05 02:42:55,Call Tracking
+ACME-C00438,ACME-L01445,Google Business Profile,54,answered_info,0,2026-07-05 05:46:21,Call Tracking
+ACME-C00439,ACME-L01259,Google Ads Call Extension,169,answered_info,0,2026-07-05 11:00:28,Google Ads
+ACME-C00440,ACME-L01398,Google Business Profile,245,answered_info,0,2026-07-05 11:07:45,Call Tracking
+ACME-C00441,ACME-L01481,Google Business Profile,0,missed,0,2026-07-05 19:21:40,Call Tracking
+ACME-C00442,ACME-L01407,Google Business Profile,59,answered_info,0,2026-07-05 22:15:57,Call Tracking
+ACME-C00443,ACME-L01485,Google Business Profile,313,answered_info,0,2026-07-05 23:11:20,Call Tracking
+ACME-C00444,ACME-L01173,Google Ads Call Extension,350,answered_info,0,2026-07-05 23:22:08,Google Ads
+ACME-C00445,ACME-L01281,Local Services Ads,71,answered_info,0,2026-07-05 23:40:27,Call Tracking
+ACME-C00446,ACME-L01424,Local Services Ads,291,answered_info,0,2026-07-06 03:48:54,Call Tracking
+ACME-C00447,ACME-L01507,Google Ads Call Extension,120,answered_info,0,2026-07-06 09:04:12,Google Ads
+ACME-C00448,ACME-L01535,Local Services Ads,519,answered_booked,0,2026-07-06 14:39:00,Call Tracking
+ACME-C00449,ACME-L01537,Google Business Profile,214,answered_info,0,2026-07-06 14:59:00,Call Tracking
+ACME-C00450,ACME-L01072,Google Business Profile,0,missed,0,2026-07-06 16:21:28,Call Tracking
+ACME-C00451,ACME-L01391,Local Services Ads,0,missed,0,2026-07-06 22:46:14,Call Tracking
+ACME-C00452,ACME-L01303,Google Ads Call Extension,331,answered_info,0,2026-07-07 01:16:13,Google Ads
+ACME-C00453,ACME-L01499,Google Business Profile,0,missed,0,2026-07-07 09:17:42,Call Tracking
+ACME-C00454,ACME-L01549,Local Services Ads,400,answered_info,0,2026-07-07 09:44:54,Call Tracking
+ACME-C00455,ACME-L01555,Google Business Profile,105,answered_info,0,2026-07-07 12:41:33,Call Tracking
+ACME-C00456,ACME-L01556,Local Services Ads,238,answered_info,0,2026-07-07 13:16:25,Call Tracking
+ACME-C00457,ACME-L01278,Referral Line,260,answered_info,0,2026-07-07 14:41:52,Referral
+ACME-C00458,ACME-L01490,Google Ads Call Extension,175,answered_info,0,2026-07-07 18:47:04,Google Ads
+ACME-C00459,ACME-L01570,Local Services Ads,0,missed,0,2026-07-08 09:15:34,Call Tracking
+ACME-C00460,ACME-L01581,Local Services Ads,367,answered_info,0,2026-07-08 16:46:26,Call Tracking
+ACME-C00461,ACME-L01583,Google Business Profile,405,answered_info,0,2026-07-08 19:34:13,Call Tracking
+ACME-C00462,ACME-L01563,Google Ads Call Extension,397,answered_info,0,2026-07-09 00:32:40,Google Ads
+ACME-C00463,ACME-L01460,Outbound Callback Number,29,voicemail,0,2026-07-09 02:21:28,Outbound
+ACME-C00464,ACME-L01398,Google Business Profile,364,answered_info,0,2026-07-09 08:09:53,Call Tracking
+ACME-C00465,ACME-L01503,Local Services Ads,145,answered_info,0,2026-07-09 09:05:21,Call Tracking
+ACME-C00466,ACME-L01552,Local Services Ads,373,answered_info,0,2026-07-09 09:23:52,Call Tracking
+ACME-C00467,ACME-L01236,Google Business Profile,155,answered_info,0,2026-07-09 15:38:48,Call Tracking
+ACME-C00468,ACME-L01173,Google Ads Call Extension,0,missed,0,2026-07-09 16:18:29,Google Ads
+ACME-C00469,ACME-L01601,Local Services Ads,379,answered_info,0,2026-07-09 18:00:31,Call Tracking
+ACME-C00470,ACME-L01172,Google Ads Call Extension,0,missed,0,2026-07-09 20:44:44,Google Ads
+ACME-C00471,ACME-L01211,Local Services Ads,338,answered_info,0,2026-07-09 21:02:52,Call Tracking
+ACME-C00472,ACME-L01605,Google Business Profile,143,answered_info,0,2026-07-10 08:02:17,Call Tracking
+ACME-C00473,ACME-L01109,Google Business Profile,394,answered_info,0,2026-07-10 08:18:41,Call Tracking
+ACME-C00474,ACME-L01611,Local Services Ads,248,answered_info,0,2026-07-10 11:42:24,Call Tracking
+ACME-C00475,ACME-L01613,Google Business Profile,148,answered_info,0,2026-07-10 12:49:44,Call Tracking
+ACME-C00476,ACME-L01614,Local Services Ads,51,answered_info,0,2026-07-10 13:46:33,Call Tracking
+ACME-C00477,ACME-L01137,Google Business Profile,179,answered_info,0,2026-07-10 14:35:22,Call Tracking
+ACME-C00478,ACME-L01616,Google Business Profile,320,answered_info,0,2026-07-10 14:42:45,Call Tracking
+ACME-C00479,ACME-L01430,Local Services Ads,226,answered_info,0,2026-07-10 16:09:02,Call Tracking
+ACME-C00480,ACME-L01173,Google Ads Call Extension,386,answered_info,0,2026-07-10 17:49:27,Google Ads
+ACME-C00481,ACME-L01529,Local Services Ads,120,answered_info,0,2026-07-11 02:37:04,Call Tracking
+ACME-C00482,ACME-L01290,Google Business Profile,0,missed,0,2026-07-11 20:24:53,Call Tracking
+ACME-C00483,ACME-L01288,Local Services Ads,154,answered_info,0,2026-07-12 03:26:41,Call Tracking
+ACME-C00484,ACME-L01279,Meta Click-to-Call,80,answered_info,0,2026-07-12 10:00:56,Meta Ads
+ACME-C00485,ACME-L01619,Google Business Profile,154,answered_info,0,2026-07-12 15:57:50,Call Tracking
+ACME-C00486,ACME-L01621,Google Business Profile,195,answered_info,0,2026-07-12 22:48:16,Call Tracking
+ACME-C00487,ACME-L01534,Local Services Ads,29,voicemail,0,2026-07-13 03:55:37,Call Tracking
+ACME-C00488,ACME-L01631,Local Services Ads,289,answered_info,0,2026-07-13 08:32:10,Call Tracking
+ACME-C00489,ACME-L01592,Local Services Ads,325,answered_info,0,2026-07-13 13:38:05,Call Tracking
+ACME-C00490,ACME-L01499,Google Ads Call Extension,389,answered_info,0,2026-07-13 14:28:33,Google Ads
+ACME-C00491,ACME-L01584,Meta Click-to-Call,93,answered_info,0,2026-07-13 23:48:37,Meta Ads
+ACME-C00492,ACME-L01334,Google Ads Call Extension,281,answered_info,0,2026-07-14 02:07:10,Google Ads
+ACME-C00493,ACME-L01638,Meta Click-to-Call,164,answered_info,0,2026-07-14 10:58:42,Meta Ads
+ACME-C00494,ACME-L01315,Referral Line,353,answered_info,0,2026-07-14 19:19:17,Referral
+ACME-C00495,ACME-L01454,Local Services Ads,0,missed,0,2026-07-14 21:21:26,Call Tracking
+ACME-C00496,ACME-L01269,Local Services Ads,157,answered_info,0,2026-07-14 21:58:00,Call Tracking
+ACME-C00497,ACME-L01449,Local Services Ads,91,answered_info,0,2026-07-14 23:17:34,Call Tracking
+ACME-C00498,ACME-L01555,Local Services Ads,113,answered_info,0,2026-07-15 00:44:16,Call Tracking
+ACME-C00499,ACME-L01617,Google Business Profile,395,answered_info,0,2026-07-15 04:45:23,Call Tracking
+ACME-C00500,ACME-L01420,Google Business Profile,65,answered_info,0,2026-07-15 13:03:57,Call Tracking
+ACME-C00501,ACME-L01683,Local Services Ads,317,answered_info,0,2026-07-15 16:18:52,Call Tracking
+ACME-C00502,ACME-L01603,Google Ads Call Extension,0,missed,0,2026-07-15 18:14:06,Google Ads
+ACME-C00503,ACME-L01455,Google Ads Call Extension,172,answered_info,0,2026-07-15 21:32:20,Google Ads
+ACME-C00504,ACME-L01638,Meta Click-to-Call,0,missed,0,2026-07-15 23:27:30,Meta Ads
+ACME-C00505,ACME-L01670,Google Ads Call Extension,84,answered_info,0,2026-07-16 04:28:23,Google Ads
+ACME-C00506,ACME-L01710,Local Services Ads,892,answered_booked,0,2026-07-16 17:03:21,Call Tracking
+ACME-C00507,ACME-L01712,Google Business Profile,112,answered_info,0,2026-07-16 17:59:42,Call Tracking
+ACME-C00508,ACME-L01713,Google Business Profile,220,answered_info,0,2026-07-16 17:59:50,Call Tracking
+ACME-C00509,ACME-L01529,Google Ads Call Extension,274,answered_info,0,2026-07-16 20:58:50,Google Ads
+ACME-C00510,ACME-L01510,Local Services Ads,119,answered_info,0,2026-07-16 23:29:09,Call Tracking
+ACME-C00511,ACME-L01716,Local Services Ads,0,missed,0,2026-07-17 00:52:15,Call Tracking
+ACME-C00512,ACME-L01721,Local Services Ads,350,answered_info,0,2026-07-17 10:41:01,Call Tracking
+ACME-C00513,ACME-L01725,Local Services Ads,0,missed,0,2026-07-17 11:39:38,Call Tracking
+ACME-C00514,ACME-L01728,Google Business Profile,453,answered_booked,0,2026-07-17 13:09:53,Call Tracking
+ACME-C00515,ACME-L01729,Google Business Profile,91,answered_info,0,2026-07-18 03:54:40,Call Tracking
+ACME-C00516,ACME-L01739,Google Business Profile,196,answered_info,0,2026-07-18 04:35:37,Call Tracking
+ACME-C00517,ACME-L01686,Local Services Ads,0,missed,0,2026-07-18 05:46:29,Call Tracking
+ACME-C00518,ACME-L01691,Google Business Profile,0,missed,0,2026-07-18 08:49:43,Call Tracking
+ACME-C00519,ACME-L01485,Google Ads Call Extension,0,missed,0,2026-07-18 15:01:10,Google Ads
+ACME-C00520,ACME-L01555,Local Services Ads,291,answered_info,0,2026-07-18 17:01:05,Call Tracking
+ACME-C00521,ACME-L01529,Google Ads Call Extension,142,answered_info,0,2026-07-18 18:44:50,Google Ads
+ACME-C00522,ACME-L01340,Google Business Profile,351,answered_booked,0,2026-07-18 22:36:06,Call Tracking
+ACME-C00523,ACME-L01490,Local Services Ads,418,answered_info,0,2026-07-19 00:31:52,Call Tracking
+ACME-C00524,ACME-L01290,Google Ads Call Extension,72,voicemail,0,2026-07-19 02:46:15,Google Ads
+ACME-C00525,ACME-L01293,Local Services Ads,265,answered_info,0,2026-07-19 04:39:59,Call Tracking
+ACME-C00526,ACME-L01729,Referral Line,411,answered_info,0,2026-07-19 11:54:54,Referral
+ACME-C00527,ACME-L01445,Google Business Profile,325,answered_info,0,2026-07-19 14:36:54,Call Tracking
+ACME-C00528,ACME-L01563,Google Ads Call Extension,73,answered_info,0,2026-07-19 20:30:55,Google Ads
+ACME-C00529,ACME-L01679,Google Business Profile,343,answered_info,0,2026-07-19 21:46:50,Call Tracking
+ACME-C00530,ACME-L01361,Google Business Profile,254,answered_info,0,2026-07-19 23:52:59,Call Tracking
+ACME-C00531,ACME-L01557,Google Ads Call Extension,277,answered_info,0,2026-07-20 00:41:48,Google Ads
+ACME-C00532,ACME-L01729,Google Business Profile,0,missed,0,2026-07-20 02:42:34,Call Tracking
+ACME-C00533,ACME-L01617,Google Ads Call Extension,327,answered_info,0,2026-07-20 11:32:26,Google Ads
+ACME-C00534,ACME-L01508,Local Services Ads,216,answered_info,0,2026-07-20 15:10:14,Call Tracking
+ACME-C00535,ACME-L01550,Google Ads Call Extension,327,answered_info,0,2026-07-21 01:21:50,Google Ads
+ACME-C00536,ACME-L01510,Meta Click-to-Call,54,voicemail,0,2026-07-21 05:47:02,Meta Ads
+ACME-C00537,ACME-L01456,Meta Click-to-Call,343,answered_info,0,2026-07-21 08:30:53,Meta Ads
+ACME-C00538,ACME-L01510,Meta Click-to-Call,361,answered_info,0,2026-07-21 22:07:26,Meta Ads
+ACME-C00539,ACME-L01784,Local Services Ads,123,answered_info,0,2026-07-22 00:37:33,Call Tracking
+ACME-C00540,ACME-L01735,Outbound Callback Number,217,answered_info,0,2026-07-22 04:52:57,Outbound
+ACME-C00541,ACME-L01647,Google Business Profile,385,answered_info,0,2026-07-22 14:23:17,Call Tracking
+ACME-C00542,ACME-L01550,Local Services Ads,133,answered_info,0,2026-07-22 15:04:36,Call Tracking
+ACME-C00543,ACME-L01730,Referral Line,0,missed,0,2026-07-22 16:49:11,Referral
+ACME-C00544,ACME-L01464,Google Ads Call Extension,155,answered_info,0,2026-07-22 17:52:13,Google Ads
+ACME-C00545,ACME-L01653,Local Services Ads,0,missed,0,2026-07-22 19:06:47,Call Tracking
+ACME-C00546,ACME-L01808,Google Business Profile,136,answered_info,0,2026-07-23 02:04:44,Call Tracking
+ACME-C00547,ACME-L01822,Local Services Ads,385,answered_info,0,2026-07-23 15:24:11,Call Tracking
+ACME-C00548,ACME-L01728,Google Business Profile,807,answered_booked,0,2026-07-23 18:27:26,Call Tracking
+ACME-C00549,ACME-L01457,Google Business Profile,132,answered_info,0,2026-07-23 18:53:26,Call Tracking
+ACME-C00550,ACME-L01699,Local Services Ads,0,missed,0,2026-07-24 07:41:15,Call Tracking
+ACME-C00551,ACME-L01684,Google Business Profile,347,answered_info,0,2026-07-24 12:06:34,Call Tracking
+ACME-C00552,ACME-L01506,Google Business Profile,320,answered_info,0,2026-07-24 14:48:08,Call Tracking
+ACME-C00553,ACME-L01840,Google Business Profile,140,answered_info,0,2026-07-24 16:21:46,Call Tracking
+ACME-C00554,ACME-L01842,Local Services Ads,272,answered_info,0,2026-07-24 16:55:51,Call Tracking
+ACME-C00555,ACME-L01836,Google Ads Call Extension,129,answered_info,0,2026-07-25 00:19:47,Google Ads
+ACME-C00556,ACME-L01481,Google Ads Call Extension,140,answered_info,0,2026-07-25 09:20:54,Google Ads
+ACME-C00557,ACME-L01427,Local Services Ads,418,answered_booked,14150,2026-07-25 15:19:43,Call Tracking
+ACME-C00558,ACME-L01584,Google Business Profile,112,answered_info,0,2026-07-25 22:27:50,Call Tracking
+ACME-C00559,ACME-L01728,Local Services Ads,820,answered_booked,0,2026-07-26 03:21:49,Call Tracking
+ACME-C00560,ACME-L01853,Local Services Ads,0,missed,0,2026-07-26 11:12:32,Call Tracking
+ACME-C00561,ACME-L01688,Local Services Ads,105,answered_info,0,2026-07-26 15:42:24,Call Tracking
+ACME-C00562,ACME-L01769,Google Business Profile,219,answered_info,0,2026-07-27 09:44:42,Call Tracking
+ACME-C00563,ACME-L01813,Google Ads Call Extension,49,voicemail,0,2026-07-27 13:56:20,Google Ads
+ACME-C00564,ACME-L01815,Local Services Ads,399,answered_info,0,2026-07-28 07:08:53,Call Tracking
+ACME-C00565,ACME-L01633,Google Business Profile,0,missed,0,2026-07-28 09:26:38,Call Tracking
+ACME-C00566,ACME-L01836,Google Ads Call Extension,0,missed,0,2026-07-28 15:28:19,Google Ads
+ACME-C00567,ACME-L01857,Google Business Profile,49,answered_info,0,2026-07-28 22:00:41,Call Tracking
+ACME-C00568,ACME-L01621,Local Services Ads,404,answered_info,0,2026-07-28 23:09:26,Call Tracking
+ACME-C00569,ACME-L01888,Local Services Ads,270,answered_info,0,2026-07-29 00:13:43,Call Tracking
+ACME-C00570,ACME-L01670,Google Business Profile,80,answered_info,0,2026-07-29 00:46:24,Call Tracking
+ACME-C00571,ACME-L01807,Google Ads Call Extension,87,answered_info,0,2026-07-29 04:13:00,Google Ads
+ACME-C00572,ACME-L01671,Referral Line,365,answered_info,0,2026-07-29 04:53:57,Referral
+ACME-C00573,ACME-L01908,Local Services Ads,347,answered_info,0,2026-07-29 15:55:31,Call Tracking
+ACME-C00574,ACME-L01909,Google Business Profile,266,answered_info,0,2026-07-29 22:04:13,Call Tracking
+ACME-C00575,ACME-L01841,Local Services Ads,64,answered_info,0,2026-07-30 10:09:30,Call Tracking
+ACME-C00576,ACME-L01508,Local Services Ads,27,voicemail,0,2026-07-30 11:11:15,Call Tracking
+ACME-C00577,ACME-L01922,Local Services Ads,237,answered_info,0,2026-07-30 17:12:42,Call Tracking
+ACME-C00578,ACME-L01927,Google Business Profile,184,answered_info,0,2026-07-31 09:40:59,Call Tracking
+ACME-C00579,ACME-L01828,Google Ads Call Extension,415,answered_info,0,2026-07-31 11:27:40,Google Ads
+ACME-C00580,ACME-L01945,Google Business Profile,247,answered_info,0,2026-08-01 09:10:31,Call Tracking
+ACME-C00581,ACME-L01781,Referral Line,200,answered_info,0,2026-08-01 15:19:07,Referral
+ACME-C00582,ACME-L01681,Google Business Profile,352,answered_info,0,2026-08-02 02:01:09,Call Tracking
+ACME-C00583,ACME-L01557,Local Services Ads,212,answered_info,0,2026-08-02 07:17:38,Call Tracking
+ACME-C00584,ACME-L01704,Google Business Profile,283,answered_info,0,2026-08-02 09:38:21,Call Tracking
+ACME-C00585,ACME-L01627,Google Business Profile,356,answered_info,0,2026-08-02 17:17:22,Call Tracking
+ACME-C00586,ACME-L01956,Local Services Ads,245,answered_info,0,2026-08-02 18:00:31,Call Tracking
+ACME-C00587,ACME-L01823,Google Business Profile,343,answered_info,0,2026-08-03 00:38:17,Call Tracking
+ACME-C00588,ACME-L01914,Meta Click-to-Call,381,answered_info,0,2026-08-03 02:46:52,Meta Ads
+ACME-C00589,ACME-L01657,Google Business Profile,73,answered_info,0,2026-08-03 07:21:10,Call Tracking
+ACME-C00590,ACME-L01871,Local Services Ads,315,answered_info,0,2026-08-03 17:55:06,Call Tracking
+ACME-C00591,ACME-L01706,Google Ads Call Extension,278,answered_info,0,2026-08-03 18:42:41,Google Ads
+ACME-C00592,ACME-L01973,Local Services Ads,0,missed,0,2026-08-04 00:07:46,Call Tracking
+ACME-C00593,ACME-L01927,Local Services Ads,50,voicemail,0,2026-08-04 03:07:14,Call Tracking
+ACME-C00594,ACME-L01980,Local Services Ads,0,missed,0,2026-08-04 09:42:31,Call Tracking
+ACME-C00595,ACME-L01596,Google Ads Call Extension,297,answered_info,0,2026-08-04 12:20:11,Google Ads
+ACME-C00596,ACME-L01962,Local Services Ads,141,answered_info,0,2026-08-04 16:04:32,Call Tracking
+ACME-C00597,ACME-L02004,Local Services Ads,0,missed,0,2026-08-05 09:08:57,Call Tracking
+ACME-C00598,ACME-L01657,Google Ads Call Extension,75,voicemail,0,2026-08-06 04:13:25,Google Ads
+ACME-C00599,ACME-L01588,Google Ads Call Extension,154,answered_info,0,2026-08-06 07:26:28,Google Ads
+ACME-C00600,ACME-L02021,Local Services Ads,328,answered_info,0,2026-08-06 15:06:05,Call Tracking
+ACME-C00601,ACME-L02030,Google Business Profile,60,voicemail,0,2026-08-06 16:32:40,Call Tracking
+ACME-C00602,ACME-L01903,Local Services Ads,326,answered_info,0,2026-08-06 16:50:25,Call Tracking
+ACME-C00603,ACME-L01735,Outbound Callback Number,0,missed,0,2026-08-07 07:20:48,Outbound
+ACME-C00604,ACME-L01757,Google Business Profile,146,answered_info,0,2026-08-07 11:24:27,Call Tracking
+ACME-C00605,ACME-L01745,Google Ads Call Extension,411,answered_info,0,2026-08-07 11:30:07,Google Ads
+ACME-C00606,ACME-L01588,Google Ads Call Extension,0,missed,0,2026-08-08 02:40:39,Google Ads
+ACME-C00607,ACME-L01819,Google Business Profile,282,answered_info,0,2026-08-08 05:45:46,Call Tracking
+ACME-C00608,ACME-L01816,Local Services Ads,263,answered_info,0,2026-08-08 07:05:13,Call Tracking
+ACME-C00609,ACME-L01626,Local Services Ads,340,answered_info,0,2026-08-08 07:56:05,Call Tracking
+ACME-C00610,ACME-L01854,Local Services Ads,390,answered_info,0,2026-08-08 10:57:30,Call Tracking
+ACME-C00611,ACME-L01723,Google Ads Call Extension,132,answered_info,0,2026-08-09 09:00:36,Google Ads
+ACME-C00612,ACME-L01786,Google Ads Call Extension,244,answered_info,0,2026-08-09 13:39:20,Google Ads
+ACME-C00613,ACME-L02004,Google Business Profile,408,answered_info,0,2026-08-10 08:03:38,Call Tracking
+ACME-C00614,ACME-L02068,Google Business Profile,149,answered_info,0,2026-08-10 08:05:40,Call Tracking
+ACME-C00615,ACME-L01768,Meta Click-to-Call,45,answered_info,0,2026-08-10 11:32:04,Meta Ads
+ACME-C00616,ACME-L02078,Local Services Ads,0,missed,0,2026-08-10 13:05:43,Call Tracking
+ACME-C00617,ACME-L01697,Local Services Ads,245,answered_info,0,2026-08-10 14:27:10,Call Tracking
+ACME-C00618,ACME-L01713,Google Business Profile,84,answered_info,0,2026-08-10 16:31:35,Call Tracking
+ACME-C00619,ACME-L01537,Google Business Profile,629,answered_booked,0,2026-08-11 09:49:29,Call Tracking
+ACME-C00620,ACME-L02099,Local Services Ads,76,answered_info,0,2026-08-11 10:16:03,Call Tracking
+ACME-C00621,ACME-L01947,Google Ads Call Extension,173,answered_info,0,2026-08-11 13:01:17,Google Ads
+ACME-C00622,ACME-L01762,Local Services Ads,295,answered_info,0,2026-08-11 16:21:29,Call Tracking
+ACME-C00623,ACME-L02108,Google Business Profile,53,answered_info,0,2026-08-11 16:31:21,Call Tracking
+ACME-C00624,ACME-L01947,Local Services Ads,206,answered_info,0,2026-08-11 20:21:57,Call Tracking
+ACME-C00625,ACME-L02002,Google Business Profile,302,answered_info,0,2026-08-12 01:22:53,Call Tracking
+ACME-C00626,ACME-L02120,Google Business Profile,0,missed,0,2026-08-12 11:18:29,Call Tracking
+ACME-C00627,ACME-L02126,Local Services Ads,408,answered_info,0,2026-08-12 13:36:21,Call Tracking
+ACME-C00628,ACME-L01797,Referral Line,396,answered_info,0,2026-08-12 14:39:28,Referral
+ACME-C00629,ACME-L01926,Local Services Ads,237,answered_info,0,2026-08-12 16:57:28,Call Tracking
+ACME-C00630,ACME-L01947,Local Services Ads,0,missed,0,2026-08-13 01:24:21,Call Tracking
+ACME-C00631,ACME-L02138,Google Business Profile,375,answered_info,0,2026-08-13 09:41:11,Call Tracking
+ACME-C00632,ACME-L02092,Local Services Ads,334,answered_info,0,2026-08-13 12:17:33,Call Tracking
+ACME-C00633,ACME-L02143,Local Services Ads,269,answered_info,0,2026-08-13 13:22:04,Call Tracking
+ACME-C00634,ACME-L02144,Google Business Profile,279,answered_info,0,2026-08-13 13:22:37,Call Tracking
+ACME-C00635,ACME-L02087,Google Ads Call Extension,149,answered_info,0,2026-08-13 21:37:38,Google Ads
+ACME-C00636,ACME-L02004,Google Business Profile,241,answered_info,0,2026-08-14 11:33:59,Call Tracking
+ACME-C00637,ACME-L02167,Google Business Profile,81,answered_info,0,2026-08-14 13:17:09,Call Tracking
+ACME-C00638,ACME-L01936,Local Services Ads,338,answered_info,0,2026-08-14 13:40:55,Call Tracking
+ACME-C00639,ACME-L02168,Google Business Profile,96,answered_info,0,2026-08-14 13:59:14,Call Tracking
+ACME-C00640,ACME-L02170,Local Services Ads,331,answered_info,0,2026-08-14 14:46:31,Call Tracking
+ACME-C00641,ACME-L02173,Google Business Profile,335,answered_info,0,2026-08-14 16:27:37,Call Tracking
+ACME-C00642,ACME-L02174,Local Services Ads,385,answered_info,0,2026-08-14 16:49:32,Call Tracking
+ACME-C00643,ACME-L02166,Meta Click-to-Call,324,answered_info,0,2026-08-14 23:38:13,Meta Ads
+ACME-C00644,ACME-L01854,Google Business Profile,276,answered_info,0,2026-08-15 02:10:54,Call Tracking
+ACME-C00645,ACME-L02046,Local Services Ads,194,answered_info,0,2026-08-15 05:18:25,Call Tracking
+ACME-C00646,ACME-L01781,Local Services Ads,40,voicemail,0,2026-08-15 12:40:29,Call Tracking
+ACME-C00647,ACME-L02164,Google Ads Call Extension,264,answered_info,0,2026-08-15 21:03:43,Google Ads
+ACME-C00648,ACME-L01757,Outbound Callback Number,182,answered_info,0,2026-08-16 05:55:45,Outbound
+ACME-C00649,ACME-L01768,Meta Click-to-Call,92,answered_info,0,2026-08-16 06:13:29,Meta Ads
+ACME-C00650,ACME-L01826,Meta Click-to-Call,46,voicemail,0,2026-08-17 15:04:50,Meta Ads
+ACME-C00651,ACME-L02056,Local Services Ads,190,answered_info,0,2026-08-17 16:31:54,Call Tracking
+ACME-C00652,ACME-L02000,Google Business Profile,335,answered_info,0,2026-08-17 22:47:33,Call Tracking
+ACME-C00653,ACME-L02038,Meta Click-to-Call,889,answered_booked,0,2026-08-18 15:14:47,Meta Ads
+ACME-C00654,ACME-L02226,Local Services Ads,0,missed,0,2026-08-19 00:16:24,Call Tracking
+ACME-C00655,ACME-L02074,Google Business Profile,0,missed,0,2026-08-19 02:37:14,Call Tracking
+ACME-C00656,ACME-L02236,Google Business Profile,53,voicemail,0,2026-08-19 10:57:46,Call Tracking
+ACME-C00657,ACME-L01807,Google Business Profile,72,voicemail,0,2026-08-19 14:30:47,Call Tracking
+ACME-C00658,ACME-L02002,Google Ads Call Extension,96,answered_info,0,2026-08-19 19:23:46,Google Ads
+ACME-C00659,ACME-L02258,Google Business Profile,229,answered_info,0,2026-08-20 09:05:07,Call Tracking
+ACME-C00660,ACME-L01587,Google Business Profile,246,answered_info,0,2026-08-20 14:37:48,Call Tracking
+ACME-C00661,ACME-L02118,Local Services Ads,259,answered_info,0,2026-08-21 03:34:20,Call Tracking
+ACME-C00662,ACME-L02274,Local Services Ads,112,answered_info,0,2026-08-21 03:54:41,Call Tracking
+ACME-C00663,ACME-L02276,Google Business Profile,0,missed,0,2026-08-21 06:25:41,Call Tracking
+ACME-C00664,ACME-L02242,Google Business Profile,301,answered_info,0,2026-08-21 11:01:23,Call Tracking
+ACME-C00665,ACME-L01823,Google Ads Call Extension,384,answered_info,0,2026-08-21 15:48:36,Google Ads
+ACME-C00666,ACME-L02288,Local Services Ads,0,missed,0,2026-08-21 20:31:02,Call Tracking
+ACME-C00667,ACME-L02095,Google Ads Call Extension,150,answered_info,0,2026-08-21 23:18:25,Google Ads
+ACME-C00668,ACME-L02003,Meta Click-to-Call,173,answered_info,0,2026-08-22 18:14:38,Meta Ads
+ACME-C00669,ACME-L01851,Meta Click-to-Call,94,answered_info,0,2026-08-23 06:45:27,Meta Ads
+ACME-C00670,ACME-L02307,Local Services Ads,123,answered_info,0,2026-08-23 08:46:30,Call Tracking
+ACME-C00671,ACME-L02309,Google Business Profile,127,answered_info,0,2026-08-23 09:57:25,Call Tracking
+ACME-C00672,ACME-L01949,Google Ads Call Extension,208,answered_info,0,2026-08-23 11:39:08,Google Ads
+ACME-C00673,ACME-L02313,Google Business Profile,26,voicemail,0,2026-08-23 16:52:49,Call Tracking
+ACME-C00674,ACME-L02292,Referral Line,407,answered_info,0,2026-08-23 17:06:42,Referral
+ACME-C00675,ACME-L01914,Local Services Ads,95,answered_info,0,2026-08-23 18:04:49,Call Tracking
+ACME-C00676,ACME-L01918,Meta Click-to-Call,0,missed,0,2026-08-24 15:25:33,Meta Ads
+ACME-C00677,ACME-L02337,Google Business Profile,243,answered_info,0,2026-08-25 04:23:28,Call Tracking
+ACME-C00678,ACME-L01958,Google Business Profile,401,answered_info,0,2026-08-25 10:26:03,Call Tracking
+ACME-C00679,ACME-L02345,Google Business Profile,58,answered_info,0,2026-08-25 12:04:47,Call Tracking
+ACME-C00680,ACME-L02289,Local Services Ads,418,answered_info,0,2026-08-25 18:41:17,Call Tracking
+ACME-C00681,ACME-L02292,Google Business Profile,411,answered_info,0,2026-08-25 21:24:13,Call Tracking
+ACME-C00682,ACME-L02239,Google Ads Call Extension,276,answered_info,0,2026-08-26 01:14:42,Google Ads
+ACME-C00683,ACME-L02356,Local Services Ads,393,answered_info,0,2026-08-26 07:51:37,Call Tracking
+ACME-C00684,ACME-L02212,Google Ads Call Extension,129,answered_info,0,2026-08-26 08:06:15,Google Ads
+ACME-C00685,ACME-L02358,Google Business Profile,124,answered_info,0,2026-08-26 09:50:57,Call Tracking
+ACME-C00686,ACME-L02360,Google Business Profile,276,answered_info,0,2026-08-26 10:08:04,Call Tracking
+ACME-C00687,ACME-L02366,Local Services Ads,287,answered_info,0,2026-08-26 10:55:06,Call Tracking
+ACME-C00688,ACME-L02374,Google Business Profile,239,answered_info,0,2026-08-26 16:56:57,Call Tracking
+ACME-C00689,ACME-L02250,Google Ads Call Extension,217,answered_info,0,2026-08-26 23:39:10,Google Ads
+ACME-C00690,ACME-L02378,Google Business Profile,122,answered_info,0,2026-08-27 09:10:55,Call Tracking
+ACME-C00691,ACME-L02242,Referral Line,157,answered_info,0,2026-08-27 23:50:14,Referral
+ACME-C00692,ACME-L02392,Local Services Ads,57,answered_info,0,2026-08-28 03:02:53,Call Tracking
+ACME-C00693,ACME-L02394,Local Services Ads,310,answered_info,0,2026-08-28 07:25:27,Call Tracking
+ACME-C00694,ACME-L02397,Google Business Profile,193,answered_info,0,2026-08-28 08:15:43,Call Tracking
+ACME-C00695,ACME-L01967,Meta Click-to-Call,233,answered_info,0,2026-08-28 09:22:08,Meta Ads
+ACME-C00696,ACME-L02398,Google Business Profile,394,answered_info,0,2026-08-28 09:35:07,Call Tracking
+ACME-C00697,ACME-L02410,Local Services Ads,378,answered_info,0,2026-08-28 17:40:23,Call Tracking
+ACME-C00698,ACME-L02411,Local Services Ads,0,missed,0,2026-08-28 18:31:09,Call Tracking
+ACME-C00699,ACME-L01967,Meta Click-to-Call,205,answered_info,0,2026-08-29 06:03:46,Meta Ads
+ACME-C00700,ACME-L01939,Referral Line,412,answered_info,0,2026-08-30 00:25:05,Referral
+ACME-C00701,ACME-L02046,Outbound Callback Number,197,answered_info,0,2026-08-30 04:00:58,Outbound
+ACME-C00702,ACME-L02420,Google Business Profile,31,voicemail,0,2026-08-30 06:12:31,Call Tracking
+ACME-C00703,ACME-L02175,Google Ads Call Extension,0,missed,0,2026-08-30 17:52:26,Google Ads
+ACME-C00704,ACME-L02246,Google Ads Call Extension,285,answered_info,0,2026-08-30 18:59:51,Google Ads
+ACME-C00705,ACME-L02302,Google Business Profile,395,answered_info,0,2026-08-30 22:22:32,Call Tracking
+ACME-C00706,ACME-L02029,Meta Click-to-Call,0,missed,0,2026-08-31 14:22:46,Meta Ads
+ACME-C00707,ACME-L02442,Local Services Ads,293,answered_info,0,2026-08-31 15:01:02,Call Tracking
+ACME-C00708,ACME-L02105,Referral Line,252,answered_info,0,2026-08-31 20:42:49,Referral
+ACME-C00709,ACME-L02430,Google Ads Call Extension,214,answered_info,0,2026-08-31 22:20:59,Google Ads
+ACME-C00710,ACME-L01962,Outbound Callback Number,259,answered_info,0,2026-08-31 23:10:18,Outbound
+ACME-C00711,ACME-L01972,Google Business Profile,300,answered_info,0,2026-09-01 00:53:36,Call Tracking
+ACME-C00712,ACME-L02449,Google Business Profile,0,missed,0,2026-09-01 06:25:57,Call Tracking
+ACME-C00713,ACME-L02061,Google Ads Call Extension,180,answered_info,0,2026-09-01 10:26:16,Google Ads
+ACME-C00714,ACME-L02461,Google Business Profile,174,answered_info,0,2026-09-01 15:49:03,Call Tracking
+ACME-C00715,ACME-L02462,Google Business Profile,0,missed,0,2026-09-01 16:03:00,Call Tracking
+ACME-C00716,ACME-L02467,Google Business Profile,354,answered_info,0,2026-09-02 05:07:17,Call Tracking
+ACME-C00717,ACME-L02289,Google Business Profile,211,answered_info,0,2026-09-02 07:05:24,Call Tracking
+ACME-C00718,ACME-L02095,Google Ads Call Extension,0,missed,0,2026-09-02 08:05:36,Google Ads
+ACME-C00719,ACME-L02477,Google Business Profile,389,answered_info,0,2026-09-02 12:21:25,Call Tracking
+ACME-C00720,ACME-L02301,Google Business Profile,166,answered_info,0,2026-09-02 14:07:40,Call Tracking
+ACME-C00721,ACME-L02486,Local Services Ads,78,answered_info,0,2026-09-02 17:15:07,Call Tracking
+ACME-C00722,ACME-L02102,Google Business Profile,118,answered_info,0,2026-09-02 20:07:37,Call Tracking
+ACME-C00723,ACME-L02137,Outbound Callback Number,406,answered_info,0,2026-09-02 22:46:12,Outbound
+ACME-C00724,ACME-L02472,Google Business Profile,777,answered_booked,0,2026-09-03 01:03:04,Call Tracking
+ACME-C00725,ACME-L02465,Google Ads Call Extension,0,missed,0,2026-09-03 03:57:52,Google Ads
+ACME-C00726,ACME-L02364,Local Services Ads,744,answered_booked,0,2026-09-03 04:33:24,Call Tracking
+ACME-C00727,ACME-L02491,Local Services Ads,200,answered_info,0,2026-09-03 09:41:43,Call Tracking
+ACME-C00728,ACME-L02277,Google Ads Call Extension,184,answered_info,0,2026-09-04 11:15:49,Google Ads
+ACME-C00729,ACME-L02486,Google Business Profile,154,answered_info,0,2026-09-04 15:29:12,Call Tracking
+ACME-C00730,ACME-L02255,Google Business Profile,191,answered_info,0,2026-09-04 16:42:53,Call Tracking
+ACME-C00731,ACME-L02325,Google Business Profile,52,voicemail,0,2026-09-04 17:10:49,Call Tracking
+ACME-C00732,ACME-L02318,Google Business Profile,130,answered_info,0,2026-09-05 01:52:17,Call Tracking
+ACME-C00733,ACME-L02530,Local Services Ads,410,answered_info,0,2026-09-05 03:18:45,Call Tracking
+ACME-C00734,ACME-L02481,Google Business Profile,177,answered_info,0,2026-09-05 05:03:23,Call Tracking
+ACME-C00735,ACME-L02246,Google Ads Call Extension,44,voicemail,0,2026-09-05 06:55:19,Google Ads
+ACME-C00736,ACME-L02124,Local Services Ads,386,answered_info,0,2026-09-05 08:59:47,Call Tracking
+ACME-C00737,ACME-L02056,Google Ads Call Extension,0,missed,0,2026-09-05 15:45:24,Google Ads
+ACME-C00738,ACME-L02467,Google Business Profile,339,answered_info,0,2026-09-05 20:48:15,Call Tracking
+ACME-C00739,ACME-L02480,Google Ads Call Extension,210,answered_info,0,2026-09-06 04:43:31,Google Ads
+ACME-C00740,ACME-L02537,Google Business Profile,419,answered_info,0,2026-09-06 07:47:31,Call Tracking
+ACME-C00741,ACME-L02250,Google Ads Call Extension,0,missed,0,2026-09-06 10:15:17,Google Ads
+ACME-C00742,ACME-L02220,Google Ads Call Extension,162,answered_info,0,2026-09-06 21:09:19,Google Ads
+ACME-C00743,ACME-L02342,Google Ads Call Extension,0,missed,0,2026-09-07 09:21:29,Google Ads
+ACME-C00744,ACME-L02460,Google Business Profile,203,answered_info,0,2026-09-07 12:33:39,Call Tracking
+ACME-C00745,ACME-L02121,Referral Line,153,answered_info,0,2026-09-07 13:51:18,Referral
+ACME-C00746,ACME-L02202,Google Ads Call Extension,374,answered_info,0,2026-09-07 16:06:07,Google Ads
+ACME-C00747,ACME-L02312,Google Ads Call Extension,354,answered_info,0,2026-09-08 02:37:10,Google Ads
+ACME-C00748,ACME-L02537,Google Business Profile,331,answered_info,0,2026-09-08 02:41:57,Call Tracking
+ACME-C00749,ACME-L02324,Local Services Ads,360,answered_info,0,2026-09-08 08:38:35,Call Tracking
+ACME-C00750,ACME-L02572,Google Business Profile,237,answered_info,0,2026-09-08 11:14:53,Call Tracking
+ACME-C00751,ACME-L02430,Google Business Profile,345,answered_booked,0,2026-09-08 16:12:00,Call Tracking
+ACME-C00752,ACME-L02586,Local Services Ads,189,answered_info,0,2026-09-08 18:53:08,Call Tracking
+ACME-C00753,ACME-L02184,Local Services Ads,45,voicemail,16100,2026-09-09 02:00:07,Call Tracking
+ACME-C00754,ACME-L02196,Referral Line,0,missed,0,2026-09-09 02:04:21,Referral
+ACME-C00755,ACME-L02453,Meta Click-to-Call,0,missed,0,2026-09-09 07:20:34,Meta Ads
+ACME-C00756,ACME-L02598,Local Services Ads,269,answered_info,0,2026-09-09 10:10:44,Call Tracking
+ACME-C00757,ACME-L02600,Google Business Profile,55,answered_info,0,2026-09-09 10:51:11,Call Tracking
+ACME-C00758,ACME-L02608,Google Business Profile,321,answered_info,0,2026-09-09 15:04:19,Call Tracking
+ACME-C00759,ACME-L02246,Google Ads Call Extension,116,answered_info,0,2026-09-10 00:00:53,Google Ads
+ACME-C00760,ACME-L02614,Local Services Ads,314,answered_info,0,2026-09-10 00:28:18,Call Tracking
+ACME-C00761,ACME-L02237,Local Services Ads,0,missed,0,2026-09-10 05:34:37,Call Tracking
+ACME-C00762,ACME-L02242,Google Business Profile,119,answered_info,0,2026-09-10 07:32:41,Call Tracking
+ACME-C00763,ACME-L02634,Google Business Profile,279,answered_info,0,2026-09-11 04:35:42,Call Tracking
+ACME-C00764,ACME-L02621,Local Services Ads,323,answered_info,0,2026-09-11 07:22:51,Call Tracking
+ACME-C00765,ACME-L02636,Local Services Ads,95,answered_info,0,2026-09-11 08:17:55,Call Tracking
+ACME-C00766,ACME-L02637,Google Business Profile,104,answered_info,0,2026-09-11 08:20:59,Call Tracking
+ACME-C00767,ACME-L02641,Google Business Profile,366,answered_info,0,2026-09-11 09:07:53,Call Tracking
+ACME-C00768,ACME-L02239,Google Ads Call Extension,240,answered_info,0,2026-09-11 11:35:58,Google Ads
+ACME-C00769,ACME-L02372,Google Business Profile,93,answered_info,0,2026-09-11 13:55:13,Call Tracking
+ACME-C00770,ACME-L02228,Google Ads Call Extension,166,answered_info,0,2026-09-11 18:03:12,Google Ads
+ACME-C00771,ACME-L02394,Local Services Ads,62,answered_info,0,2026-09-12 02:37:56,Call Tracking
+ACME-C00772,ACME-L02593,Google Ads Call Extension,297,answered_info,0,2026-09-12 04:24:50,Google Ads
+ACME-C00773,ACME-L02487,Google Business Profile,0,missed,0,2026-09-12 18:16:05,Call Tracking
+ACME-C00774,ACME-L02231,Google Business Profile,155,answered_info,0,2026-09-12 19:42:42,Call Tracking
+ACME-C00775,ACME-L02212,Google Business Profile,370,answered_info,0,2026-09-13 00:13:00,Call Tracking
+ACME-C00776,ACME-L02660,Local Services Ads,218,answered_info,0,2026-09-13 01:33:39,Call Tracking
+ACME-C00777,ACME-L02591,Google Business Profile,240,answered_info,0,2026-09-13 05:01:58,Call Tracking
+ACME-C00778,ACME-L02228,Local Services Ads,272,answered_info,0,2026-09-13 05:03:29,Call Tracking
+ACME-C00779,ACME-L02230,Meta Click-to-Call,234,answered_info,0,2026-09-13 07:35:33,Meta Ads
+ACME-C00780,ACME-L02467,Google Business Profile,297,answered_info,0,2026-09-13 13:46:04,Call Tracking
+ACME-C00781,ACME-L02604,Local Services Ads,84,answered_info,0,2026-09-14 08:27:30,Call Tracking
+ACME-C00782,ACME-L02678,Local Services Ads,303,answered_info,0,2026-09-14 12:43:49,Call Tracking
+ACME-C00783,ACME-L02309,Google Business Profile,371,answered_info,0,2026-09-15 05:17:53,Call Tracking
+ACME-C00784,ACME-L02573,Google Ads Call Extension,0,missed,0,2026-09-15 06:29:11,Google Ads
+ACME-C00785,ACME-L02239,Google Ads Call Extension,226,answered_info,0,2026-09-15 12:58:44,Google Ads
+ACME-C00786,ACME-L02702,Local Services Ads,0,missed,0,2026-09-15 15:05:42,Call Tracking
+ACME-C00787,ACME-L02707,Local Services Ads,136,answered_info,0,2026-09-15 17:07:28,Call Tracking
+ACME-C00788,ACME-L02363,Google Ads Call Extension,390,answered_info,0,2026-09-15 17:27:06,Google Ads
+ACME-C00789,ACME-L02573,Google Ads Call Extension,0,missed,0,2026-09-16 14:30:14,Google Ads
+ACME-C00790,ACME-L02237,Google Ads Call Extension,82,answered_info,0,2026-09-16 15:52:36,Google Ads
+ACME-C00791,ACME-L02703,Referral Line,323,answered_info,0,2026-09-16 16:05:08,Referral
+ACME-C00792,ACME-L02465,Google Ads Call Extension,113,answered_info,0,2026-09-16 18:06:25,Google Ads
+ACME-C00793,ACME-L02687,Local Services Ads,153,answered_info,0,2026-09-16 23:40:21,Call Tracking
+ACME-C00794,ACME-L02381,Google Ads Call Extension,166,answered_info,0,2026-09-17 05:58:37,Google Ads
+ACME-C00795,ACME-L02663,Google Business Profile,193,answered_info,0,2026-09-17 06:09:21,Call Tracking
+ACME-C00796,ACME-L02064,Google Business Profile,302,answered_booked,0,2026-09-17 12:06:41,Call Tracking
+ACME-C00797,ACME-L02735,Google Business Profile,93,answered_info,0,2026-09-17 12:45:08,Call Tracking
+ACME-C00798,ACME-L02738,Google Business Profile,0,missed,0,2026-09-17 14:08:20,Call Tracking
+ACME-C00799,ACME-L02742,Google Business Profile,257,answered_info,0,2026-09-17 16:01:08,Call Tracking
+ACME-C00800,ACME-L02644,Google Ads Call Extension,214,answered_info,0,2026-09-17 17:16:15,Google Ads
+ACME-C00801,ACME-L02467,Google Business Profile,59,answered_info,0,2026-09-17 21:46:01,Call Tracking
+ACME-C00802,ACME-L02387,Local Services Ads,54,answered_info,0,2026-09-18 06:09:19,Call Tracking
+ACME-C00803,ACME-L02760,Google Business Profile,372,answered_info,0,2026-09-18 10:54:12,Call Tracking
+ACME-C00804,ACME-L02767,Google Business Profile,0,missed,0,2026-09-18 14:18:30,Call Tracking
+ACME-C00805,ACME-L02774,Google Business Profile,0,missed,0,2026-09-18 15:12:13,Call Tracking
+ACME-C00806,ACME-L02777,Google Business Profile,127,answered_info,0,2026-09-18 15:36:02,Call Tracking
+ACME-C00807,ACME-L02591,Referral Line,389,answered_info,0,2026-09-18 20:50:03,Referral
+ACME-C00808,ACME-L02717,Referral Line,65,answered_info,0,2026-09-18 22:03:56,Referral
+ACME-C00809,ACME-L02660,Google Business Profile,255,answered_info,0,2026-09-19 02:26:04,Call Tracking
+ACME-C00810,ACME-L02325,Google Ads Call Extension,216,answered_info,0,2026-09-19 03:39:03,Google Ads
+ACME-C00811,ACME-L02325,Local Services Ads,208,answered_info,0,2026-09-19 17:54:34,Call Tracking
+ACME-C00812,ACME-L02727,Outbound Callback Number,199,answered_info,0,2026-09-19 23:23:58,Outbound
+ACME-C00813,ACME-L02730,Google Ads Call Extension,128,answered_info,0,2026-09-20 09:24:51,Google Ads
+ACME-C00814,ACME-L02703,Local Services Ads,0,missed,0,2026-09-20 12:40:58,Call Tracking
+ACME-C00815,ACME-L02687,Referral Line,401,answered_info,0,2026-09-20 13:10:32,Referral
+ACME-C00816,ACME-L02353,Google Business Profile,348,answered_info,0,2026-09-20 18:53:49,Call Tracking
+ACME-C00817,ACME-L02798,Local Services Ads,355,answered_info,0,2026-09-20 21:43:09,Call Tracking
+ACME-C00818,ACME-L02324,Google Ads Call Extension,417,answered_info,0,2026-09-20 21:50:36,Google Ads
+ACME-C00819,ACME-L02363,Google Ads Call Extension,194,answered_info,0,2026-09-21 02:10:43,Google Ads
+ACME-C00820,ACME-L02801,Local Services Ads,74,answered_info,0,2026-09-21 07:43:14,Call Tracking
+ACME-C00821,ACME-L02818,Local Services Ads,144,answered_info,0,2026-09-21 14:38:06,Call Tracking
+ACME-C00822,ACME-L02824,Local Services Ads,77,answered_info,0,2026-09-21 15:47:36,Call Tracking
+ACME-C00823,ACME-L02687,Referral Line,158,answered_info,0,2026-09-21 15:52:20,Referral
+ACME-C00824,ACME-L02320,Google Business Profile,262,answered_booked,0,2026-09-21 15:59:15,Call Tracking
+ACME-C00825,ACME-L02603,Google Ads Call Extension,62,voicemail,0,2026-09-21 16:38:39,Google Ads
+ACME-C00826,ACME-L02730,Local Services Ads,383,answered_info,0,2026-09-21 19:50:04,Call Tracking
+ACME-C00827,ACME-L02708,Google Ads Call Extension,315,answered_info,0,2026-09-21 23:24:24,Google Ads
+ACME-C00828,ACME-L02668,Google Business Profile,73,answered_info,0,2026-09-22 15:52:18,Call Tracking
+ACME-C00829,ACME-L02740,Local Services Ads,204,answered_info,0,2026-09-22 20:44:41,Call Tracking
+ACME-C00830,ACME-L02845,Google Business Profile,676,answered_booked,0,2026-09-23 09:09:17,Call Tracking
+ACME-C00831,ACME-L02854,Local Services Ads,207,answered_info,0,2026-09-23 13:25:29,Call Tracking
+ACME-C00832,ACME-L02856,Google Business Profile,294,answered_info,0,2026-09-23 14:43:30,Call Tracking
+ACME-C00833,ACME-L02862,Google Business Profile,181,answered_info,0,2026-09-23 23:45:26,Call Tracking
+ACME-C00834,ACME-L02730,Google Ads Call Extension,63,answered_info,0,2026-09-24 05:34:21,Google Ads
+ACME-C00835,ACME-L02512,Referral Line,102,answered_info,0,2026-09-24 09:23:44,Referral
+ACME-C00836,ACME-L02882,Local Services Ads,286,answered_info,0,2026-09-24 15:14:19,Call Tracking
+ACME-C00837,ACME-L02370,Google Business Profile,143,answered_info,0,2026-09-24 15:20:14,Call Tracking
+ACME-C00838,ACME-L02886,Local Services Ads,0,missed,0,2026-09-24 16:30:09,Call Tracking
+ACME-C00839,ACME-L02618,Google Ads Call Extension,0,missed,0,2026-09-24 16:36:39,Google Ads
+ACME-C00840,ACME-L02894,Google Business Profile,126,answered_info,0,2026-09-25 05:02:18,Call Tracking
+ACME-C00841,ACME-L02895,Local Services Ads,279,answered_info,0,2026-09-25 07:13:38,Call Tracking
+ACME-C00842,ACME-L02896,Local Services Ads,54,answered_info,0,2026-09-25 08:51:19,Call Tracking
+ACME-C00843,ACME-L02539,Outbound Callback Number,202,answered_info,0,2026-09-25 12:10:22,Outbound
+ACME-C00844,ACME-L02899,Local Services Ads,204,answered_info,0,2026-09-25 12:16:01,Call Tracking
+ACME-C00845,ACME-L02662,Google Business Profile,208,answered_info,0,2026-09-25 13:15:04,Call Tracking
+ACME-C00846,ACME-L02904,Google Business Profile,775,answered_booked,0,2026-09-25 18:59:10,Call Tracking
+ACME-C00847,ACME-L02908,Local Services Ads,80,answered_info,0,2026-09-26 04:54:56,Call Tracking
+ACME-C00848,ACME-L02478,Google Ads Call Extension,100,answered_info,0,2026-09-26 12:49:54,Google Ads
+ACME-C00849,ACME-L02913,Local Services Ads,394,answered_info,0,2026-09-26 22:11:10,Call Tracking
+ACME-C00850,ACME-L02914,Local Services Ads,254,answered_info,0,2026-09-27 01:01:28,Call Tracking
+ACME-C00851,ACME-L02603,Google Ads Call Extension,226,answered_info,0,2026-09-27 01:37:40,Google Ads
+ACME-C00852,ACME-L02916,Google Business Profile,140,answered_info,0,2026-09-27 05:01:03,Call Tracking
+ACME-C00853,ACME-L02394,Google Business Profile,388,answered_info,0,2026-09-27 05:03:35,Call Tracking
+ACME-C00854,ACME-L02510,Referral Line,402,answered_info,0,2026-09-27 05:25:58,Referral
+ACME-C00855,ACME-L02895,Local Services Ads,0,missed,0,2026-09-27 09:23:41,Call Tracking
+ACME-C00856,ACME-L02763,Google Business Profile,0,missed,0,2026-09-27 15:14:00,Call Tracking
+ACME-C00857,ACME-L02923,Google Business Profile,352,answered_info,0,2026-09-27 16:57:48,Call Tracking
+ACME-C00858,ACME-L02559,Google Business Profile,123,answered_info,0,2026-09-27 20:27:55,Call Tracking
+ACME-C00859,ACME-L02668,Local Services Ads,266,answered_info,0,2026-09-27 20:41:58,Call Tracking
+ACME-C00860,ACME-L02660,Local Services Ads,0,missed,0,2026-09-28 02:34:02,Call Tracking
+ACME-C00861,ACME-L02932,Local Services Ads,0,missed,0,2026-09-28 10:34:07,Call Tracking
+ACME-C00862,ACME-L02934,Google Business Profile,77,answered_info,0,2026-09-28 10:53:23,Call Tracking
+ACME-C00863,ACME-L02772,Google Ads Call Extension,52,voicemail,0,2026-09-28 23:59:27,Google Ads
+ACME-C00864,ACME-L02874,Google Ads Call Extension,349,answered_info,0,2026-09-29 04:55:23,Google Ads
+ACME-C00865,ACME-L02959,Local Services Ads,239,answered_info,0,2026-09-29 05:08:38,Call Tracking
+ACME-C00866,ACME-L02965,Google Business Profile,68,voicemail,0,2026-09-29 10:18:12,Call Tracking
+ACME-C00867,ACME-L02516,Google Business Profile,0,missed,0,2026-09-29 23:15:32,Call Tracking
+ACME-C00868,ACME-L02962,Google Ads Call Extension,90,answered_info,0,2026-09-30 02:14:00,Google Ads
+ACME-C00869,ACME-L02529,Local Services Ads,304,answered_info,0,2026-09-30 02:42:29,Call Tracking
+ACME-C00870,ACME-L02711,Google Ads Call Extension,248,answered_info,0,2026-09-30 03:05:52,Google Ads
+ACME-C00871,ACME-L02988,Google Business Profile,117,answered_info,0,2026-09-30 09:55:19,Call Tracking
+ACME-C00872,ACME-L02995,Google Business Profile,342,answered_info,0,2026-09-30 12:03:11,Call Tracking
+ACME-C00873,ACME-L02831,Meta Click-to-Call,310,answered_info,0,2026-09-30 14:21:07,Meta Ads

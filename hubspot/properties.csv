@@ -1,0 +1,12 @@
+object,label,internal_name,type,field_type,options,description
+"contacts, deals",Lead Source,gtm_lead_source,enumeration,select,Google Ads; Meta Ads; Outbound; Referral; Call Tracking,Standard portfolio channel (original source)
+contacts,UTM Source,gtm_utm_source,string,text,,utm_source of the converting session
+contacts,UTM Medium,gtm_utm_medium,string,text,,utm_medium of the converting session
+contacts,UTM Campaign,gtm_utm_campaign,string,text,,e.g. msp_q3_search
+"contacts, deals",Company Type,gtm_company_type,enumeration,select,HVAC; MSP,Which portfolio company owns the record
+"contacts, deals",Territory,gtm_territory,enumeration,select,AZ; CA; FL; GA; IL; MA; NC; NJ; NY; TX; Unassigned,"Sales territory, set by the AI agent from state"
+"contacts, deals",Fit Score,gtm_fit_score,number,number,,"0-100, set by the AI agent"
+deals,Gross Margin,gtm_gross_margin,number,number,,"Expected gross margin, percent (0-100)"
+"contacts, deals",Service Type,gtm_service_type,enumeration,select,Emergency; Installation; Maintenance,HVAC service line; drives pipeline choice
+contacts,Lead Created Date,gtm_lead_created_date,datetime,date,,Original lead creation time (kept separate from HubSpot createdate on import)
+"contacts, deals",Assigned Rep,gtm_assigned_rep,string,text,,Rep name from territory routing; map to HubSpot owners once users exist

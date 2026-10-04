@@ -1,0 +1,725 @@
+Email,Deal Name,Pipeline,Deal Stage,Amount,Close Date,Lead Source,Company Type,Gross Margin,Assigned Rep,Service Type,Deal ID (source)
+rachel.dennis@phillipsplc.example.com,Phillips PLC - Installation,Summit HVAC - Installation,Lost,28800,2026-04-07,Outbound,HVAC,43.4,Hannah Price,Installation,SUMM-D00001
+perry.cooke@hudsonpatel.example.com,Hudson-Patel - Installation,Summit HVAC - Installation,Lost,12500,2026-04-22,Outbound,HVAC,35.1,Lucia Romero,Installation,SUMM-D00002
+jennifer.davis@bellplc.example.com,Bell PLC - Installation,Summit HVAC - Installation,Lost,12900,2026-04-20,Outbound,HVAC,42.2,Caleb Turner,Installation,SUMM-D00003
+michael.wood@whitegroup.example.com,White Group - Emergency,Summit HVAC - Emergency,Lost,2550,2026-04-02,Google Ads,HVAC,55.7,Andre Coleman,Emergency,SUMM-D00004
+andrew.lee@andersonmaxwell.example.com,Anderson-Maxwell - Installation,Summit HVAC - Installation,Lost,15500,2026-04-07,Outbound,HVAC,,Ben Foster,Installation,SUMM-D00005
+julie.johnson@nelsonnobleandalvarado.example.com,Nelson Noble and Alvarado - Installation,Summit HVAC - Installation,Lost,30700,2026-05-09,Outbound,HVAC,45.5,Andre Coleman,Installation,SUMM-D00006
+gary.reese@paynebrownandherman.example.com,Payne Brown and Herman - Emergency,Summit HVAC - Emergency,Lost,2900,2026-04-08,Google Ads,HVAC,55.1,Hannah Price,Emergency,SUMM-D00007
+jeremy.anderson@woodardwhite.example.com,Woodard-White - Emergency,Summit HVAC - Emergency,Lost,3200,2026-04-04,Google Ads,HVAC,57.1,Caleb Turner,Emergency,SUMM-D00008
+kristen.weber@shawllc.example.com,Shaw LLC - Maintenance,Summit HVAC - Maintenance,Lost,5300,2026-04-09,Google Ads,HVAC,55.4,Caleb Turner,Maintenance,SUMM-D00009
+nathan.chavez@smithllc.example.com,Smith LLC - Maintenance,Summit HVAC - Maintenance,Lost,9950,2026-04-12,Call Tracking,HVAC,50.3,Andre Coleman,Maintenance,SUMM-D00010
+steven.robertson@murrayhubbardandmurphy.example.com,Murray Hubbard and Murphy - Maintenance,Summit HVAC - Maintenance,Lost,4650,2026-04-12,Outbound,HVAC,43.0,Andre Coleman,Maintenance,SUMM-D00011
+tom.mosley@chankeller.example.com,Chan-Keller - Emergency,Summit HVAC - Emergency,Lost,2450,2026-04-10,Google Ads,HVAC,48.3,Caleb Turner,Emergency,SUMM-D00012
+april.robertson@ellisfordandweaver.example.com,Ellis Ford and Weaver - Maintenance,Summit HVAC - Maintenance,Lost,12450,2026-04-10,Outbound,HVAC,47.8,Andre Coleman,Maintenance,SUMM-D00013
+daniel.long@espinozawardandmcdaniel.example.com,Espinoza Ward and Mcdaniel - Installation,Summit HVAC - Installation,Lost,11250,2026-04-06,Outbound,HVAC,45.5,Ben Foster,Installation,SUMM-D00014
+harold.lee@byrdltd.example.com,Byrd Ltd - Emergency,Summit HVAC - Emergency,Lost,5150,2026-04-04,Call Tracking,HVAC,63.0,Maya Ortiz,Emergency,SUMM-D00015
+richard.arnold@ellisllc.example.com,Ellis LLC - Maintenance,Summit HVAC - Maintenance,Lost,11800,2026-04-10,Outbound,HVAC,,Maya Ortiz,Maintenance,SUMM-D00016
+amanda.gibbs@hoopermadden.example.com,Hooper-Madden - Installation,Summit HVAC - Installation,Lost,16350,2026-04-17,Outbound,HVAC,36.2,Andre Coleman,Installation,SUMM-D00017
+monique.adams@butlercookanddavis.example.com,Butler Cook and Davis - Emergency,Summit HVAC - Emergency,Lost,2350,2026-04-06,Call Tracking,HVAC,48.8,Andre Coleman,Emergency,SUMM-D00018
+jack.harris@robertsoncarrollandthoma.example.com,Robertson Carroll and Thomas - Maintenance,Summit HVAC - Maintenance,Lost,9500,2026-04-14,Outbound,HVAC,51.5,Maya Ortiz,Maintenance,SUMM-D00019
+natalie.sanchez@morrisclarkeandandrade.example.com,Morris Clarke and Andrade - Emergency,Summit HVAC - Emergency,Won,3750,2026-04-08,Call Tracking,HVAC,53.7,Ben Foster,Emergency,SUMM-D00020
+nicholas.carroll@garrettinc.example.com,Garrett Inc - Maintenance,Summit HVAC - Maintenance,Lost,4600,2026-04-16,Outbound,HVAC,46.6,Maya Ortiz,Maintenance,SUMM-D00021
+david.griffin@francismueller.example.com,Francis-Mueller - Maintenance,Summit HVAC - Maintenance,Lost,9050,2026-04-08,Outbound,HVAC,53.7,Hannah Price,Maintenance,SUMM-D00022
+scott.contreras@ricemartinez.example.com,Rice-Martinez - Maintenance,Summit HVAC - Maintenance,Lost,9400,2026-04-20,Outbound,HVAC,,Ben Foster,Maintenance,SUMM-D00023
+bryan.johnson@santosdeananddecker.example.com,Santos Dean and Decker - Maintenance,Summit HVAC - Maintenance,Lost,5900,2026-04-11,Outbound,HVAC,55.5,Maya Ortiz,Maintenance,SUMM-D00024
+richard.bradford@jonesinc.example.com,Jones Inc - Emergency,Summit HVAC - Emergency,Lost,2750,2026-04-08,Meta Ads,HVAC,47.4,Ben Foster,Emergency,SUMM-D00025
+brenda.taylor@yorkplc.example.com,York PLC - Maintenance,Summit HVAC - Maintenance,Lost,4950,2026-04-15,Outbound,HVAC,51.4,Hannah Price,Maintenance,SUMM-D00026
+rebecca.morris@sandovalmurphy.example.com,Sandoval-Murphy - Emergency,Summit HVAC - Emergency,Won,2450,2026-04-11,Outbound,HVAC,57.1,Caleb Turner,Emergency,SUMM-D00027
+lisa.sanders@alexandergroup.example.com,Alexander Group - Installation,Summit HVAC - Installation,Lost,14900,2026-04-13,Outbound,HVAC,40.9,Lucia Romero,Installation,SUMM-D00028
+kari.nichols@scottklein.example.com,Scott-Klein - Emergency,Summit HVAC - Emergency,Lost,2050,2026-04-09,Outbound,HVAC,52.3,Lucia Romero,Emergency,SUMM-D00029
+rebecca.morgan@hendersonjosephandburns.example.com,Henderson Joseph and Burns - Installation,Summit HVAC - Installation,Lost,25400,2026-05-12,Outbound,HVAC,38.4,Caleb Turner,Installation,SUMM-D00030
+victor.johnson@farrellplc.example.com,Farrell PLC - Installation,Summit HVAC - Installation,Lost,16200,2026-04-20,Call Tracking,HVAC,39.7,Caleb Turner,Installation,SUMM-D00031
+tyrone.santos@rodgersnormanandhubbard.example.com,Rodgers Norman and Hubbard - Emergency,Summit HVAC - Emergency,Won,3050,2026-04-12,Call Tracking,HVAC,54.5,Maya Ortiz,Emergency,SUMM-D00032
+paul.hayes@millerltd.example.com,Miller Ltd - Maintenance,Summit HVAC - Maintenance,Lost,9750,2026-05-11,Google Ads,HVAC,51.5,Lucia Romero,Maintenance,SUMM-D00033
+david.mendoza@nobleinc.example.com,Noble Inc - Maintenance,Summit HVAC - Maintenance,Lost,6500,2026-05-04,Referral,HVAC,43.9,Andre Coleman,Maintenance,SUMM-D00034
+james.burton@danielsbush.example.com,Daniels-Bush - Maintenance,Summit HVAC - Maintenance,Lost,5700,2026-04-18,Referral,HVAC,54.0,Maya Ortiz,Maintenance,SUMM-D00035
+michael.cox@klinewrightandward.example.com,Kline Wright and Ward - Maintenance,Summit HVAC - Maintenance,Lost,5100,2026-04-17,Outbound,HVAC,47.4,Caleb Turner,Maintenance,SUMM-D00036
+michelle.martinez@perryjackson.example.com,Perry-Jackson - Emergency,Summit HVAC - Emergency,Lost,4250,2026-04-10,Call Tracking,HVAC,58.2,Caleb Turner,Emergency,SUMM-D00037
+michael.smith@jenkinsltd.example.com,Jenkins Ltd - Maintenance,Summit HVAC - Maintenance,Lost,8800,2026-04-16,Referral,HVAC,47.5,Caleb Turner,Maintenance,SUMM-D00038
+nicole.nguyen@arellanowilliamsandwest.example.com,Arellano Williams and West - Emergency,Summit HVAC - Emergency,Lost,2600,2026-04-12,Call Tracking,HVAC,63.4,Ben Foster,Emergency,SUMM-D00039
+duane.odonnell@perryllc.example.com,Perry LLC - Maintenance,Summit HVAC - Maintenance,Lost,6650,2026-04-14,Outbound,HVAC,47.9,Caleb Turner,Maintenance,SUMM-D00040
+jennifer.dodson@crawfordinc.example.com,Crawford Inc - Installation,Summit HVAC - Installation,Lost,12700,2026-04-14,Outbound,HVAC,,Lucia Romero,Installation,SUMM-D00041
+robert.hill@alexanderplc.example.com,Alexander PLC - Maintenance,Summit HVAC - Maintenance,Lost,16200,2026-04-21,Outbound,HVAC,46.1,Maya Ortiz,Maintenance,SUMM-D00042
+ruben.woods@blackburnjonesandwhitehe.example.com,Blackburn Jones and Whitehead - Installation,Summit HVAC - Installation,Lost,18550,2026-05-04,Outbound,HVAC,35.7,Lucia Romero,Installation,SUMM-D00043
+patricia.murphy@kellerramos.example.com,Keller-Ramos - Emergency,Summit HVAC - Emergency,Lost,3500,2026-04-13,Call Tracking,HVAC,56.0,Lucia Romero,Emergency,SUMM-D00044
+amanda.robinson@gilbertmedinaandshields.example.com,Gilbert Medina and Shields - Maintenance,Summit HVAC - Maintenance,Lost,6450,2026-04-20,Call Tracking,HVAC,45.7,Caleb Turner,Maintenance,SUMM-D00045
+andre.castillo@barrgroup.example.com,Barr Group - Installation,Summit HVAC - Installation,Lost,18300,2026-05-15,Outbound,HVAC,44.0,Maya Ortiz,Installation,SUMM-D00046
+gerald.todd@klinegroup.example.com,Kline Group - Maintenance,Summit HVAC - Maintenance,Lost,11100,2026-04-29,Google Ads,HVAC,49.4,Ben Foster,Maintenance,SUMM-D00047
+robert.johnson@warrenrodriguez.example.com,Warren-Rodriguez - Emergency,Summit HVAC - Emergency,Lost,2150,2026-04-19,Outbound,HVAC,64.1,Andre Coleman,Emergency,SUMM-D00048
+gail.lewis@jonessmith.example.com,Jones-Smith - Installation,Summit HVAC - Installation,Lost,24900,2026-04-29,Call Tracking,HVAC,40.9,Summit Dispatch Queue,Installation,SUMM-D00049
+charles.montgomery@freemanballard.example.com,Freeman-Ballard - Installation,Summit HVAC - Installation,Won,9350,2026-05-22,Outbound,HVAC,35.4,Ben Foster,Installation,SUMM-D00050
+mark.quinn@taylorcole.example.com,Taylor-Cole - Installation,Summit HVAC - Installation,Lost,20600,2026-04-24,Outbound,HVAC,47.6,Caleb Turner,Installation,SUMM-D00051
+kimberly.fernandez@whitellc.example.com,White LLC - Emergency,Summit HVAC - Emergency,Lost,3100,2026-04-14,Call Tracking,HVAC,55.8,Hannah Price,Emergency,SUMM-D00052
+emily.moran@reyesmeyer.example.com,Reyes-Meyer - Maintenance,Summit HVAC - Maintenance,Lost,5850,2026-04-24,Outbound,HVAC,50.7,Andre Coleman,Maintenance,SUMM-D00053
+kaitlyn.daniels@steelemiller.example.com,Steele-Miller - Installation,Summit HVAC - Installation,Won,9450,2026-05-13,Outbound,HVAC,,Caleb Turner,Installation,SUMM-D00054
+carol.harrison@lambertthomasandchung.example.com,Lambert Thomas and Chung - Maintenance,Summit HVAC - Maintenance,Won,6050,2026-04-29,Referral,HVAC,53.6,Hannah Price,Maintenance,SUMM-D00055
+meagan.henderson@moorephillipsandjohnson.example.com,Moore Phillips and Johnson - Maintenance,Summit HVAC - Maintenance,Lost,12850,2026-04-19,Referral,HVAC,,Caleb Turner,Maintenance,SUMM-D00056
+nicholas.jackson@figueroaltd.example.com,Figueroa Ltd - Maintenance,Summit HVAC - Maintenance,Lost,4650,2026-04-21,Referral,HVAC,52.0,Caleb Turner,Maintenance,SUMM-D00057
+candace.carter@bushscottandcolon.example.com,Bush Scott and Colon - Installation,Summit HVAC - Installation,Lost,13850,2026-05-16,Outbound,HVAC,35.2,Maya Ortiz,Installation,SUMM-D00058
+john.fisher@steincole.example.com,Stein-Cole - Installation,Summit HVAC - Installation,Lost,21400,2026-04-22,Referral,HVAC,,Hannah Price,Installation,SUMM-D00059
+cynthia.lee@hobbscowanandharris.example.com,Hobbs Cowan and Harris - Maintenance,Summit HVAC - Maintenance,Lost,7200,2026-04-23,Call Tracking,HVAC,54.3,Andre Coleman,Maintenance,SUMM-D00060
+vincent.smith@raymondjohnson.example.com,Raymond-Johnson - Maintenance,Summit HVAC - Maintenance,Lost,7750,2026-04-26,Google Ads,HVAC,48.2,Maya Ortiz,Maintenance,SUMM-D00061
+bailey.wilson@lewiswilsonandfoster.example.com,Lewis Wilson and Foster - Maintenance,Summit HVAC - Maintenance,Lost,6650,2026-04-22,Call Tracking,HVAC,50.8,Ben Foster,Maintenance,SUMM-D00062
+tina.clarke@smithmoralesandgraves.example.com,Smith Morales and Graves - Installation,Summit HVAC - Installation,Won,45500,2026-07-28,Referral,HVAC,38.0,Maya Ortiz,Installation,SUMM-D00063
+stephen.walker@morenoriddle.example.com,Moreno-Riddle - Installation,Summit HVAC - Installation,Lost,19650,2026-04-26,Call Tracking,HVAC,42.5,Maya Ortiz,Installation,SUMM-D00064
+lisa.steele@turnerdavis.example.com,Turner-Davis - Emergency,Summit HVAC - Emergency,Lost,4200,2026-04-19,Call Tracking,HVAC,59.1,Maya Ortiz,Emergency,SUMM-D00065
+scott.baker@smithcrawfordandhamilton.example.com,Smith Crawford and Hamilton - Emergency,Summit HVAC - Emergency,Lost,2900,2026-04-20,Google Ads,HVAC,55.7,Lucia Romero,Emergency,SUMM-D00066
+jacob.parker@dukemorenoandgreen.example.com,Duke Moreno and Green - Maintenance,Summit HVAC - Maintenance,Lost,7450,2026-04-30,Referral,HVAC,52.7,Ben Foster,Maintenance,SUMM-D00067
+william.scott@williamsrodriguez.example.com,Williams-Rodriguez - Maintenance,Summit HVAC - Maintenance,Won,5250,2026-05-17,Outbound,HVAC,50.5,Hannah Price,Maintenance,SUMM-D00068
+nancy.kerr@solisltd.example.com,Solis Ltd - Emergency,Summit HVAC - Emergency,Lost,2850,2026-04-21,Google Ads,HVAC,56.5,Caleb Turner,Emergency,SUMM-D00069
+jane.garcia@hoodplc.example.com,Hood PLC - Emergency,Summit HVAC - Emergency,Lost,2350,2026-04-22,Google Ads,HVAC,52.5,Maya Ortiz,Emergency,SUMM-D00070
+anna.cummings@riverallc.example.com,Rivera LLC - Maintenance,Summit HVAC - Maintenance,Lost,8250,2026-05-04,Google Ads,HVAC,50.8,Ben Foster,Maintenance,SUMM-D00071
+paul.moss@hobbschandler.example.com,Hobbs-Chandler - Emergency,Summit HVAC - Emergency,Won,2600,2026-04-22,Call Tracking,HVAC,51.8,Caleb Turner,Emergency,SUMM-D00072
+darius.rodriguez@roblesltd.example.com,Robles Ltd - Emergency,Summit HVAC - Emergency,Lost,3500,2026-04-21,Call Tracking,HVAC,49.4,Ben Foster,Emergency,SUMM-D00073
+julie.knight@fishertrujilloandwalker.example.com,Fisher Trujillo and Walker - Maintenance,Summit HVAC - Maintenance,Lost,13300,2026-05-02,Outbound,HVAC,54.8,Maya Ortiz,Maintenance,SUMM-D00074
+andrea.welch@durhamandsons.example.com,Durham and Sons - Emergency,Summit HVAC - Emergency,Lost,3300,2026-04-21,Call Tracking,HVAC,56.8,Caleb Turner,Emergency,SUMM-D00075
+annette.russell@mosleygentry.example.com,Mosley-Gentry - Maintenance,Summit HVAC - Maintenance,Lost,9100,2026-05-02,Meta Ads,HVAC,58.7,Caleb Turner,Maintenance,SUMM-D00076
+karen.gonzalez@kingwaltersandlara.example.com,King Walters and Lara - Emergency,Summit HVAC - Emergency,Lost,4250,2026-04-22,Referral,HVAC,52.6,Hannah Price,Emergency,SUMM-D00077
+gregory.hansen@marshallgroup.example.com,Marshall Group - Emergency,Summit HVAC - Emergency,Lost,1200,2026-04-25,Outbound,HVAC,51.5,Maya Ortiz,Emergency,SUMM-D00078
+tammy.chambers@fostermorgan.example.com,Foster-Morgan - Maintenance,Summit HVAC - Maintenance,Lost,6900,2026-05-02,Outbound,HVAC,50.8,Hannah Price,Maintenance,SUMM-D00079
+anna.thompson@fernandezhuff.example.com,Fernandez-Huff - Emergency,Summit HVAC - Emergency,Lost,3350,2026-04-22,Call Tracking,HVAC,58.7,Caleb Turner,Emergency,SUMM-D00080
+john.mccarthy@thomaschoi.example.com,Thomas-Choi - Maintenance,Summit HVAC - Maintenance,Lost,11050,2026-05-19,Outbound,HVAC,,Ben Foster,Maintenance,SUMM-D00081
+larry.smith@gonzalezleonardandrogers.example.com,Gonzalez Leonard and Rogers - Installation,Summit HVAC - Installation,Lost,14400,2026-06-08,Outbound,HVAC,46.3,Maya Ortiz,Installation,SUMM-D00082
+kevin.nguyen@smithsanchez.example.com,Smith-Sanchez - Installation,Summit HVAC - Installation,Lost,22300,2026-05-12,Outbound,HVAC,34.5,Maya Ortiz,Installation,SUMM-D00083
+david.callahan@webergroup.example.com,Weber Group - Emergency,Summit HVAC - Emergency,Lost,4100,2026-04-26,Call Tracking,HVAC,53.0,Ben Foster,Emergency,SUMM-D00084
+anthony.carter@browningfloresandwebb.example.com,Browning Flores and Webb - Maintenance,Summit HVAC - Maintenance,Lost,7000,2026-05-14,Outbound,HVAC,44.8,Maya Ortiz,Maintenance,SUMM-D00085
+michael.mitchell@roseharper.example.com,Rose-Harper - Emergency,Summit HVAC - Emergency,Lost,2700,2026-04-26,Google Ads,HVAC,51.8,Caleb Turner,Emergency,SUMM-D00086
+brenda.peterson@hudsonlee.example.com,Hudson-Lee - Installation,Summit HVAC - Installation,Won,8300,2026-05-22,Referral,HVAC,46.5,Caleb Turner,Installation,SUMM-D00087
+scott.wagner@rodgersllc.example.com,Rodgers LLC - Installation,Summit HVAC - Installation,Lost,19550,2026-05-03,Call Tracking,HVAC,34.5,Caleb Turner,Installation,SUMM-D00088
+julia.moore@ramirezwilson.example.com,Ramirez-Wilson - Installation,Summit HVAC - Installation,Lost,17750,2026-05-14,Referral,HVAC,46.6,Ben Foster,Installation,SUMM-D00089
+monique.williams@chavezjonesandjohnson.example.com,Chavez Jones and Johnson - Emergency,Summit HVAC - Emergency,Lost,1700,2026-04-26,Call Tracking,HVAC,51.6,Caleb Turner,Emergency,SUMM-D00090
+hector.hawkins@cruznobleandporter.example.com,Cruz Noble and Porter - Maintenance,Summit HVAC - Maintenance,Lost,7850,2026-04-30,Outbound,HVAC,51.1,Hannah Price,Maintenance,SUMM-D00091
+mary.wyatt@tuckervang.example.com,Tucker-Vang - Installation,Summit HVAC - Installation,Lost,10050,2026-05-21,Referral,HVAC,42.4,Hannah Price,Installation,SUMM-D00092
+justin.thomas@torreshardyandbenson.example.com,Torres Hardy and Benson - Installation,Summit HVAC - Installation,Lost,11500,2026-05-02,Outbound,HVAC,42.4,Andre Coleman,Installation,SUMM-D00093
+reginald.robinson@olsonandsons.example.com,Olson and Sons - Emergency,Summit HVAC - Emergency,Won,4900,2026-05-02,Google Ads,HVAC,54.2,Andre Coleman,Emergency,SUMM-D00094
+rebecca.flores@warrenreynolds.example.com,Warren-Reynolds - Installation,Summit HVAC - Installation,Won,24850,2026-06-11,Google Ads,HVAC,33.2,Ben Foster,Installation,SUMM-D00095
+darrell.black@larawarren.example.com,Lara-Warren - Installation,Summit HVAC - Installation,Lost,25500,2026-05-13,Call Tracking,HVAC,42.0,Maya Ortiz,Installation,SUMM-D00096
+sandra.mcclain@frenchbrown.example.com,French-Brown - Maintenance,Summit HVAC - Maintenance,Lost,8000,2026-05-04,Outbound,HVAC,41.3,Andre Coleman,Maintenance,SUMM-D00097
+david.hamilton@adamskennedy.example.com,Adams-Kennedy - Maintenance,Summit HVAC - Maintenance,Lost,5900,2026-05-02,Call Tracking,HVAC,50.0,Caleb Turner,Maintenance,SUMM-D00098
+kara.finley@burtonpineda.example.com,Burton-Pineda - Installation,Summit HVAC - Installation,Lost,15400,2026-06-01,Outbound,HVAC,41.2,Andre Coleman,Installation,SUMM-D00099
+nichole.riley@holmesgregoryandalexande.example.com,Holmes Gregory and Alexander - Maintenance,Summit HVAC - Maintenance,Lost,5300,2026-05-10,Call Tracking,HVAC,44.5,Maya Ortiz,Maintenance,SUMM-D00100
+katherine.palmer@zimmermanllc.example.com,Zimmerman LLC - Emergency,Summit HVAC - Emergency,Lost,1500,2026-05-01,Referral,HVAC,50.6,Andre Coleman,Emergency,SUMM-D00101
+david.richmond@williamsmayerandmclaughl.example.com,Williams Mayer and Mclaughlin - Emergency,Summit HVAC - Emergency,Lost,5450,2026-04-30,Call Tracking,HVAC,59.5,Ben Foster,Emergency,SUMM-D00102
+charles.jones@collinsjohnsonandgeorge.example.com,Collins Johnson and George - Maintenance,Summit HVAC - Maintenance,Lost,5100,2026-05-27,Google Ads,HVAC,53.9,Hannah Price,Maintenance,SUMM-D00103
+rachel.smith@gonzalezllc.example.com,Gonzalez LLC - Maintenance,Summit HVAC - Maintenance,Lost,10450,2026-05-24,Outbound,HVAC,45.0,Ben Foster,Maintenance,SUMM-D00104
+ryan.wise@mooreinc.example.com,Moore Inc - Maintenance,Summit HVAC - Maintenance,Lost,11800,2026-05-14,Call Tracking,HVAC,46.7,Caleb Turner,Maintenance,SUMM-D00105
+elizabeth.gibbs@gonzalezwhiteandyoung.example.com,Gonzalez White and Young - Maintenance,Summit HVAC - Maintenance,Lost,6500,2026-05-22,Outbound,HVAC,48.7,Ben Foster,Maintenance,SUMM-D00106
+jennifer.jones@hubbardsullivan.example.com,Hubbard-Sullivan - Maintenance,Summit HVAC - Maintenance,Lost,8550,2026-05-21,Referral,HVAC,51.1,Maya Ortiz,Maintenance,SUMM-D00107
+jacqueline.young@floreswilliamsandyoung.example.com,Flores Williams and Young - Installation,Summit HVAC - Installation,Lost,42350,2026-06-02,Outbound,HVAC,44.6,Caleb Turner,Installation,SUMM-D00108
+michelle.gonzalez@gibsonherrera.example.com,Gibson-Herrera - Installation,Summit HVAC - Installation,Lost,21800,2026-05-16,Outbound,HVAC,39.9,Andre Coleman,Installation,SUMM-D00109
+monica.collins@rodriguezllc.example.com,Rodriguez LLC - Installation,Summit HVAC - Installation,Lost,13700,2026-07-25,Outbound,HVAC,,Caleb Turner,Installation,SUMM-D00110
+michelle.bray@leonardrossandcase.example.com,Leonard Ross and Case - Emergency,Summit HVAC - Emergency,Lost,3300,2026-05-04,Call Tracking,HVAC,59.5,Ben Foster,Emergency,SUMM-D00111
+jeffery.gonzalez@davisbowers.example.com,Davis-Bowers - Maintenance,Summit HVAC - Maintenance,Lost,5450,2026-05-13,Call Tracking,HVAC,55.4,Caleb Turner,Maintenance,SUMM-D00112
+desiree.rowe@flynnperez.example.com,Flynn-Perez - Emergency,Summit HVAC - Emergency,Lost,3600,2026-05-03,Call Tracking,HVAC,56.7,Maya Ortiz,Emergency,SUMM-D00113
+larry.jones@simscole.example.com,Sims-Cole - Maintenance,Summit HVAC - Maintenance,Lost,6300,2026-05-14,Referral,HVAC,,Hannah Price,Maintenance,SUMM-D00114
+jeremy.carter@hughesllc.example.com,Hughes LLC - Emergency,Summit HVAC - Emergency,Lost,4200,2026-05-06,Referral,HVAC,55.8,Ben Foster,Emergency,SUMM-D00115
+kevin.rivera@collinsinc.example.com,Collins Inc - Maintenance,Summit HVAC - Maintenance,Lost,14650,2026-05-08,Call Tracking,HVAC,43.2,Andre Coleman,Maintenance,SUMM-D00116
+david.rose@williamsparkerandwhite.example.com,Williams Parker and White - Emergency,Summit HVAC - Emergency,Lost,4350,2026-05-07,Call Tracking,HVAC,63.4,Andre Coleman,Emergency,SUMM-D00117
+michael.hill@reyesjonesandvazquez.example.com,Reyes Jones and Vazquez - Maintenance,Summit HVAC - Maintenance,Lost,20400,2026-05-14,Outbound,HVAC,54.5,Maya Ortiz,Maintenance,SUMM-D00118
+antonio.hernandez@deckerllc.example.com,Decker LLC - Installation,Summit HVAC - Installation,Lost,18050,2026-05-23,Google Ads,HVAC,41.3,Caleb Turner,Installation,SUMM-D00119
+jacqueline.bright@poolesantos.example.com,Poole-Santos - Installation,Summit HVAC - Installation,Won,20200,2026-06-28,Outbound,HVAC,35.1,Maya Ortiz,Installation,SUMM-D00120
+sarah.hernandez@watkinswheeler.example.com,Watkins-Wheeler - Maintenance,Summit HVAC - Maintenance,Lost,13100,2026-05-12,Outbound,HVAC,46.2,Hannah Price,Maintenance,SUMM-D00121
+anthony.rodriguez@phillipsplc.example.com,Phillips PLC - Installation,Summit HVAC - Installation,Lost,9350,2026-05-26,Outbound,HVAC,,Hannah Price,Installation,SUMM-D00122
+stephanie.hubbard@cookhernandez.example.com,Cook-Hernandez - Installation,Summit HVAC - Installation,Lost,19450,2026-06-27,Outbound,HVAC,,Lucia Romero,Installation,SUMM-D00123
+roger.jones@thomaslongandevans.example.com,Thomas Long and Evans - Emergency,Summit HVAC - Emergency,Lost,1850,2026-05-08,Call Tracking,HVAC,55.6,Caleb Turner,Emergency,SUMM-D00124
+kathryn.gross@frazierltd.example.com,Frazier Ltd - Maintenance,Summit HVAC - Maintenance,Lost,7200,2026-05-18,Outbound,HVAC,48.3,Caleb Turner,Maintenance,SUMM-D00125
+veronica.hernandez@stricklandplc.example.com,Strickland PLC - Maintenance,Summit HVAC - Maintenance,Lost,5900,2026-05-24,Outbound,HVAC,44.7,Hannah Price,Maintenance,SUMM-D00126
+jessica.marquez@perezinc.example.com,Perez Inc - Installation,Summit HVAC - Installation,Lost,7950,2026-06-03,Google Ads,HVAC,49.3,Caleb Turner,Installation,SUMM-D00127
+diane.cochran@pricewood.example.com,Price-Wood - Maintenance,Summit HVAC - Maintenance,Won,7000,2026-06-10,Call Tracking,HVAC,47.1,Ben Foster,Maintenance,SUMM-D00128
+eric.lee@dominguezltd.example.com,Dominguez Ltd - Installation,Summit HVAC - Installation,Lost,19150,2026-05-16,Outbound,HVAC,38.4,Maya Ortiz,Installation,SUMM-D00129
+nichole.reyes@hillgroup.example.com,Hill Group - Installation,Summit HVAC - Installation,Lost,13200,2026-05-14,Outbound,HVAC,,Caleb Turner,Installation,SUMM-D00130
+melanie.evans@nelsonbennett.example.com,Nelson-Bennett - Emergency,Summit HVAC - Emergency,Won,2900,2026-05-12,Call Tracking,HVAC,53.7,Ben Foster,Emergency,SUMM-D00131
+justin.delacruz@leonardrobinson.example.com,Leonard-Robinson - Emergency,Summit HVAC - Emergency,Lost,2050,2026-05-10,Call Tracking,HVAC,50.3,Hannah Price,Emergency,SUMM-D00132
+melanie.burgess@carrtaylor.example.com,Carr-Taylor - Emergency,Summit HVAC - Emergency,Lost,3500,2026-05-10,Referral,HVAC,67.5,Andre Coleman,Emergency,SUMM-D00133
+maria.yates@marshyoung.example.com,Marsh-Young - Emergency,Summit HVAC - Emergency,Won,1550,2026-05-17,Call Tracking,HVAC,66.6,Ben Foster,Emergency,SUMM-D00134
+jasmine.dean@poolebradleyandfisher.example.com,Poole Bradley and Fisher - Installation,Summit HVAC - Installation,Lost,9300,2026-05-18,Outbound,HVAC,39.4,Andre Coleman,Installation,SUMM-D00135
+angel.peterson@salazarbrown.example.com,Salazar-Brown - Installation,Summit HVAC - Installation,Lost,5650,2026-05-27,Outbound,HVAC,41.0,Hannah Price,Installation,SUMM-D00136
+omar.brown@williamsinc.example.com,Williams Inc - Emergency,Summit HVAC - Emergency,Lost,2950,2026-05-11,Outbound,HVAC,52.0,Caleb Turner,Emergency,SUMM-D00137
+todd.perry@freygroup.example.com,Frey Group - Emergency,Summit HVAC - Emergency,Lost,4400,2026-05-12,Google Ads,HVAC,52.1,Maya Ortiz,Emergency,SUMM-D00138
+michele.hernandez@bautistagroup.example.com,Bautista Group - Maintenance,Summit HVAC - Maintenance,Lost,4700,2026-05-16,Call Tracking,HVAC,53.0,Caleb Turner,Maintenance,SUMM-D00139
+diane.dean@fosterbrownandpierce.example.com,Foster Brown and Pierce - Emergency,Summit HVAC - Emergency,Lost,2500,2026-05-12,Google Ads,HVAC,54.6,Hannah Price,Emergency,SUMM-D00140
+jeremiah.woods@rhodesgroup.example.com,Rhodes Group - Maintenance,Summit HVAC - Maintenance,Lost,7850,2026-05-17,Referral,HVAC,48.0,Lucia Romero,Maintenance,SUMM-D00141
+catherine.nelson@kennedysmith.example.com,Kennedy-Smith - Maintenance,Summit HVAC - Maintenance,Won,8500,2026-05-29,Outbound,HVAC,47.9,Lucia Romero,Maintenance,SUMM-D00142
+aaron.stephens@frazieryoung.example.com,Frazier-Young - Emergency,Summit HVAC - Emergency,Lost,3850,2026-05-13,Google Ads,HVAC,54.9,Andre Coleman,Emergency,SUMM-D00143
+kevin.romero@parsonsinc.example.com,Parsons Inc - Maintenance,Summit HVAC - Maintenance,Won,4050,2026-06-17,Outbound,HVAC,44.4,Ben Foster,Maintenance,SUMM-D00144
+wendy.duncan@lynchplc.example.com,Lynch PLC - Maintenance,Summit HVAC - Maintenance,Lost,6700,2026-05-19,Outbound,HVAC,55.2,Caleb Turner,Maintenance,SUMM-D00145
+samantha.lopez@hayeswalker.example.com,Hayes-Walker - Emergency,Summit HVAC - Emergency,Lost,3800,2026-05-14,Outbound,HVAC,54.7,Lucia Romero,Emergency,SUMM-D00146
+michael.moore@andersontorresandharris.example.com,Anderson Torres and Harris - Emergency,Summit HVAC - Emergency,Lost,4300,2026-05-14,Call Tracking,HVAC,52.9,Andre Coleman,Emergency,SUMM-D00147
+jason.payne@robbinsjensenandvega.example.com,Robbins Jensen and Vega - Emergency,Summit HVAC - Emergency,Lost,3000,2026-05-14,Google Ads,HVAC,,Hannah Price,Emergency,SUMM-D00148
+cindy.harmon@mullenltd.example.com,Mullen Ltd - Maintenance,Summit HVAC - Maintenance,Lost,7850,2026-06-07,Outbound,HVAC,51.2,Ben Foster,Maintenance,SUMM-D00149
+amanda.ferguson@rodriguezgroup.example.com,Rodriguez Group - Installation,Summit HVAC - Installation,Lost,10050,2026-05-14,Google Ads,HVAC,35.3,Caleb Turner,Installation,SUMM-D00150
+paige.scott@hicksjenkinsandross.example.com,Hicks Jenkins and Ross - Emergency,Summit HVAC - Emergency,Lost,6000,2026-05-14,Google Ads,HVAC,56.8,Caleb Turner,Emergency,SUMM-D00151
+brian.white@lynchplc.example.com,Lynch PLC - Installation,Summit HVAC - Installation,Lost,22850,2026-06-05,Referral,HVAC,38.8,Caleb Turner,Installation,SUMM-D00152
+judith.lewis@morrisdavisandcook.example.com,Morris Davis and Cook - Emergency,Summit HVAC - Emergency,Lost,1500,2026-05-15,Call Tracking,HVAC,59.1,Ben Foster,Emergency,SUMM-D00153
+matthew.tyler@clarkecasey.example.com,Clarke-Casey - Maintenance,Summit HVAC - Maintenance,Lost,9750,2026-05-23,Outbound,HVAC,46.6,Caleb Turner,Maintenance,SUMM-D00154
+joe.silva@peckllc.example.com,Peck LLC - Emergency,Summit HVAC - Emergency,Lost,1350,2026-05-18,Call Tracking,HVAC,51.0,Caleb Turner,Emergency,SUMM-D00155
+jorge.swanson@blackplc.example.com,Black PLC - Maintenance,Summit HVAC - Maintenance,Lost,8550,2026-06-05,Referral,HVAC,47.9,Maya Ortiz,Maintenance,SUMM-D00156
+logan.kelly@woodkennedyandhanson.example.com,Wood Kennedy and Hanson - Installation,Summit HVAC - Installation,Lost,10050,2026-06-15,Referral,HVAC,36.1,Andre Coleman,Installation,SUMM-D00157
+gina.taylor@harringtongroup.example.com,Harrington Group - Installation,Summit HVAC - Installation,Lost,15500,2026-06-21,Google Ads,HVAC,38.5,Summit Dispatch Queue,Installation,SUMM-D00158
+eric.waller@pachecoplc.example.com,Pacheco PLC - Maintenance,Summit HVAC - Maintenance,Lost,6750,2026-05-31,Outbound,HVAC,52.8,Caleb Turner,Maintenance,SUMM-D00159
+andrea.martin@reedwhite.example.com,Reed-White - Emergency,Summit HVAC - Emergency,Lost,2700,2026-05-16,Call Tracking,HVAC,,Andre Coleman,Emergency,SUMM-D00160
+joseph.andrews@graysmithandcrawford.example.com,Gray Smith and Crawford - Emergency,Summit HVAC - Emergency,Won,4950,2026-05-19,Outbound,HVAC,50.4,Maya Ortiz,Emergency,SUMM-D00161
+brian.davis@blackllc.example.com,Black LLC - Emergency,Summit HVAC - Emergency,Lost,3400,2026-05-18,Google Ads,HVAC,62.3,Caleb Turner,Emergency,SUMM-D00162
+matthew.taylor@santiagosmith.example.com,Santiago-Smith - Maintenance,Summit HVAC - Maintenance,Lost,4650,2026-06-07,Meta Ads,HVAC,48.6,Hannah Price,Maintenance,SUMM-D00163
+cheryl.smith@stanleysmith.example.com,Stanley-Smith - Emergency,Summit HVAC - Emergency,Lost,3250,2026-05-18,Google Ads,HVAC,48.9,Hannah Price,Emergency,SUMM-D00164
+james.jackson@rojascooperandmartin.example.com,Rojas Cooper and Martin - Emergency,Summit HVAC - Emergency,Lost,3300,2026-05-21,Call Tracking,HVAC,54.7,Hannah Price,Emergency,SUMM-D00165
+lisa.marks@lawrenceterryandfritz.example.com,Lawrence Terry and Fritz - Emergency,Summit HVAC - Emergency,Lost,3000,2026-05-18,Google Ads,HVAC,49.7,Lucia Romero,Emergency,SUMM-D00166
+jose.long@stoneltd.example.com,Stone Ltd - Maintenance,Summit HVAC - Maintenance,Lost,4300,2026-05-31,Outbound,HVAC,52.4,Lucia Romero,Maintenance,SUMM-D00167
+shelly.reed@ortizbryantandhunter.example.com,Ortiz Bryant and Hunter - Maintenance,Summit HVAC - Maintenance,Lost,3200,2026-05-27,Referral,HVAC,45.2,Caleb Turner,Maintenance,SUMM-D00168
+brian.parrish@curryltd.example.com,Curry Ltd - Installation,Summit HVAC - Installation,Lost,16200,2026-05-23,Call Tracking,HVAC,34.2,Hannah Price,Installation,SUMM-D00169
+melissa.james@robersoncole.example.com,Roberson-Cole - Installation,Summit HVAC - Installation,Lost,21000,2026-05-28,Referral,HVAC,40.9,Maya Ortiz,Installation,SUMM-D00170
+kyle.potts@millerperez.example.com,Miller-Perez - Emergency,Summit HVAC - Emergency,Won,1950,2026-05-21,Call Tracking,HVAC,59.4,Maya Ortiz,Emergency,SUMM-D00171
+nicole.vazquez@weberplc.example.com,Weber PLC - Maintenance,Summit HVAC - Maintenance,Lost,9950,2026-06-02,Outbound,HVAC,56.5,Caleb Turner,Maintenance,SUMM-D00172
+andrea.ho@williamsweber.example.com,Williams-Weber - Maintenance,Summit HVAC - Maintenance,Lost,6300,2026-05-31,Outbound,HVAC,49.1,Maya Ortiz,Maintenance,SUMM-D00173
+deborah.patel@owensburnsanddavis.example.com,Owens Burns and Davis - Emergency,Summit HVAC - Emergency,Lost,4900,2026-05-20,Referral,HVAC,50.0,Andre Coleman,Emergency,SUMM-D00174
+robert.tucker@portergonzalezandthornto.example.com,Porter Gonzalez and Thornton - Emergency,Summit HVAC - Emergency,Lost,2200,2026-05-20,Call Tracking,HVAC,52.9,Caleb Turner,Emergency,SUMM-D00175
+daniel.alexander@nixonallen.example.com,Nixon-Allen - Maintenance,Summit HVAC - Maintenance,Lost,9300,2026-05-25,Outbound,HVAC,55.7,Lucia Romero,Maintenance,SUMM-D00176
+justin.cooke@kramerltd.example.com,Kramer Ltd - Emergency,Summit HVAC - Emergency,Lost,6600,2026-05-21,Outbound,HVAC,57.6,Caleb Turner,Emergency,SUMM-D00177
+tammy.smith@brooksplc.example.com,Brooks PLC - Installation,Summit HVAC - Installation,Lost,11800,2026-07-24,Referral,HVAC,37.2,Andre Coleman,Installation,SUMM-D00178
+thomas.henson@alvaradobooker.example.com,Alvarado-Booker - Installation,Summit HVAC - Installation,Lost,33400,2026-07-27,Outbound,HVAC,43.0,Caleb Turner,Installation,SUMM-D00179
+william.chaney@calderoninc.example.com,Calderon Inc - Maintenance,Summit HVAC - Maintenance,Lost,10650,2026-06-06,Outbound,HVAC,44.8,Hannah Price,Maintenance,SUMM-D00180
+caleb.summers@andrewsscott.example.com,Andrews-Scott - Maintenance,Summit HVAC - Maintenance,Lost,4300,2026-06-02,Referral,HVAC,54.5,Lucia Romero,Maintenance,SUMM-D00181
+brian.long@townsendstone.example.com,Townsend-Stone - Emergency,Summit HVAC - Emergency,Lost,7050,2026-05-24,Outbound,HVAC,,Maya Ortiz,Emergency,SUMM-D00182
+michael.gonzalez@everettbishop.example.com,Everett-Bishop - Maintenance,Summit HVAC - Maintenance,Won,6850,2026-06-27,Outbound,HVAC,51.1,Caleb Turner,Maintenance,SUMM-D00183
+john.boyer@powellltd.example.com,Powell Ltd - Installation,Summit HVAC - Installation,Lost,11900,2026-06-12,Outbound,HVAC,37.8,Caleb Turner,Installation,SUMM-D00184
+john.trujillo@lopezcarter.example.com,Lopez-Carter - Installation,Summit HVAC - Installation,Lost,16550,2026-06-13,Outbound,HVAC,39.0,Caleb Turner,Installation,SUMM-D00185
+tonya.swanson@mcmillaninc.example.com,Mcmillan Inc - Emergency,Summit HVAC - Emergency,Won,6700,2026-05-29,Google Ads,HVAC,55.2,Hannah Price,Emergency,SUMM-D00186
+timothy.parks@pearsondaniels.example.com,Pearson-Daniels - Maintenance,Summit HVAC - Maintenance,Lost,7900,2026-06-06,Call Tracking,HVAC,53.9,Hannah Price,Maintenance,SUMM-D00187
+tommy.matthews@garciamckayandchristian.example.com,Garcia Mckay and Christian - Emergency,Summit HVAC - Emergency,Lost,2250,2026-05-25,Referral,HVAC,56.8,Hannah Price,Emergency,SUMM-D00188
+steven.lee@stevensmorrisonandsingle.example.com,Stevens Morrison and Singleton - Emergency,Summit HVAC - Emergency,Lost,5150,2026-05-23,Call Tracking,HVAC,57.4,Ben Foster,Emergency,SUMM-D00189
+matthew.johnson@howelittle.example.com,Howe-Little - Emergency,Summit HVAC - Emergency,Lost,3300,2026-05-23,Call Tracking,HVAC,54.7,Caleb Turner,Emergency,SUMM-D00190
+christine.estes@robertsplc.example.com,Roberts PLC - Maintenance,Summit HVAC - Maintenance,Lost,9300,2026-05-24,Outbound,HVAC,50.2,Lucia Romero,Maintenance,SUMM-D00191
+peter.mccall@barronhessandjones.example.com,Barron Hess and Jones - Emergency,Summit HVAC - Emergency,Lost,3300,2026-05-24,Referral,HVAC,54.7,Maya Ortiz,Emergency,SUMM-D00192
+jason.wood@holmesplc.example.com,Holmes PLC - Maintenance,Summit HVAC - Maintenance,Lost,4300,2026-05-27,Referral,HVAC,48.9,Hannah Price,Maintenance,SUMM-D00193
+nicole.nelson@reynoldshernandez.example.com,Reynolds-Hernandez - Maintenance,Summit HVAC - Maintenance,Won,5200,2026-06-09,Referral,HVAC,50.8,Andre Coleman,Maintenance,SUMM-D00194
+matthew.gonzalez@randallshaw.example.com,Randall-Shaw - Installation,Summit HVAC - Installation,Lost,17050,2026-06-01,Outbound,HVAC,44.2,Caleb Turner,Installation,SUMM-D00195
+jennifer.acosta@hernandezarnoldandnelson.example.com,Hernandez Arnold and Nelson - Emergency,Summit HVAC - Emergency,Lost,2550,2026-05-25,Call Tracking,HVAC,49.7,Caleb Turner,Emergency,SUMM-D00196
+lisa.white@kaufmanjonesanddavid.example.com,Kaufman Jones and David - Maintenance,Summit HVAC - Maintenance,Lost,9400,2026-06-28,Outbound,HVAC,51.5,Lucia Romero,Maintenance,SUMM-D00197
+kayla.garcia@garciabeard.example.com,Garcia-Beard - Emergency,Summit HVAC - Emergency,Lost,2400,2026-05-25,Call Tracking,HVAC,49.4,Lucia Romero,Emergency,SUMM-D00198
+ashley.harding@floydrusso.example.com,Floyd-Russo - Maintenance,Summit HVAC - Maintenance,Lost,9200,2026-05-29,Referral,HVAC,53.5,Hannah Price,Maintenance,SUMM-D00199
+johnathan.fisher@andersonwoodard.example.com,Anderson-Woodard - Maintenance,Summit HVAC - Maintenance,Lost,6350,2026-06-11,Referral,HVAC,45.3,Maya Ortiz,Maintenance,SUMM-D00200
+jeffrey.nelson@davislamandscott.example.com,Davis Lam and Scott - Emergency,Summit HVAC - Emergency,Lost,2250,2026-05-26,Call Tracking,HVAC,54.1,Ben Foster,Emergency,SUMM-D00201
+hannah.chavez@martinezltd.example.com,Martinez Ltd - Emergency,Summit HVAC - Emergency,Lost,3300,2026-05-28,Outbound,HVAC,52.7,Caleb Turner,Emergency,SUMM-D00202
+melissa.macias@hallboyle.example.com,Hall-Boyle - Maintenance,Summit HVAC - Maintenance,Lost,4950,2026-06-01,Referral,HVAC,,Ben Foster,Maintenance,SUMM-D00203
+kyle.finley@warnergroup.example.com,Warner Group - Emergency,Summit HVAC - Emergency,Lost,3200,2026-05-26,Google Ads,HVAC,,Hannah Price,Emergency,SUMM-D00204
+andrea.andrews@mcclurejones.example.com,Mcclure-Jones - Emergency,Summit HVAC - Emergency,Lost,2700,2026-05-29,Outbound,HVAC,58.5,Andre Coleman,Emergency,SUMM-D00205
+brittany.owens@parkergomezandsanchez.example.com,Parker Gomez and Sanchez - Maintenance,Summit HVAC - Maintenance,Lost,4750,2026-06-01,Call Tracking,HVAC,48.6,Caleb Turner,Maintenance,SUMM-D00206
+bob.brown@adamssalinas.example.com,Adams-Salinas - Emergency,Summit HVAC - Emergency,Won,4350,2026-06-01,Call Tracking,HVAC,57.4,Maya Ortiz,Emergency,SUMM-D00207
+heather.larsen@howardsanchezandrichmond.example.com,Howard Sanchez and Richmond - Maintenance,Summit HVAC - Maintenance,Lost,8000,2026-06-03,Referral,HVAC,57.0,Ben Foster,Maintenance,SUMM-D00208
+jose.davis@cabreraramosandlara.example.com,Cabrera Ramos and Lara - Installation,Summit HVAC - Installation,Lost,10050,2026-06-03,Referral,HVAC,41.7,Hannah Price,Installation,SUMM-D00209
+kathy.pollard@campbellmyersandwilliams.example.com,Campbell Myers and Williamson - Maintenance,Summit HVAC - Maintenance,Lost,10950,2026-06-09,Meta Ads,HVAC,55.8,Hannah Price,Maintenance,SUMM-D00210
+mario.taylor@wilsonparrishanddavis.example.com,Wilson Parrish and Davis - Maintenance,Summit HVAC - Maintenance,Lost,5900,2026-05-29,Google Ads,HVAC,57.7,Maya Ortiz,Maintenance,SUMM-D00211
+cynthia.bell@davisburns.example.com,Davis-Burns - Installation,Summit HVAC - Installation,Lost,14250,2026-06-07,Referral,HVAC,38.1,Andre Coleman,Installation,SUMM-D00212
+danielle.brown@carrollbrownandflores.example.com,Carroll Brown and Flores - Emergency,Summit HVAC - Emergency,Lost,4250,2026-05-29,Call Tracking,HVAC,52.9,Andre Coleman,Emergency,SUMM-D00213
+william.parker@johnsontaylor.example.com,Johnson-Taylor - Maintenance,Summit HVAC - Maintenance,Lost,8400,2026-06-13,Outbound,HVAC,50.6,Andre Coleman,Maintenance,SUMM-D00214
+mary.cooke@jonesjones.example.com,Jones-Jones - Emergency,Summit HVAC - Emergency,Lost,2650,2026-05-29,Call Tracking,HVAC,50.8,Hannah Price,Emergency,SUMM-D00215
+tyrone.glover@gilbertoneillandcarney.example.com,Gilbert Oneill and Carney - Emergency,Summit HVAC - Emergency,Lost,3200,2026-05-29,Google Ads,HVAC,58.1,Lucia Romero,Emergency,SUMM-D00216
+peter.short@hardinghernandez.example.com,Harding-Hernandez - Emergency,Summit HVAC - Emergency,Won,2400,2026-06-01,Outbound,HVAC,,Lucia Romero,Emergency,SUMM-D00217
+olivia.ford@neallinandgarza.example.com,Neal Lin and Garza - Maintenance,Summit HVAC - Maintenance,Lost,9250,2026-06-01,Outbound,HVAC,,Caleb Turner,Maintenance,SUMM-D00218
+stephanie.higgins@norriscox.example.com,Norris-Cox - Maintenance,Summit HVAC - Maintenance,Won,7900,2026-06-22,Referral,HVAC,,Maya Ortiz,Maintenance,SUMM-D00219
+traci.dean@bishopllc.example.com,Bishop LLC - Maintenance,Summit HVAC - Maintenance,Lost,3500,2026-06-11,Outbound,HVAC,47.3,Maya Ortiz,Maintenance,SUMM-D00220
+kirk.simmons@parklawrenceandlittle.example.com,Park Lawrence and Little - Maintenance,Summit HVAC - Maintenance,Lost,8350,2026-06-08,Outbound,HVAC,55.3,Maya Ortiz,Maintenance,SUMM-D00221
+jennifer.wilson@thompsonwilliamsonandric.example.com,Thompson Williamson and Richmond - Emergency,Summit HVAC - Emergency,Lost,2800,2026-06-03,Call Tracking,HVAC,51.0,Maya Ortiz,Emergency,SUMM-D00222
+elizabeth.lang@simpsonparkerandschmidt.example.com,Simpson Parker and Schmidt - Maintenance,Summit HVAC - Maintenance,Lost,11550,2026-06-11,Outbound,HVAC,54.1,Hannah Price,Maintenance,SUMM-D00223
+justin.davis@parkllc.example.com,Park LLC - Maintenance,Summit HVAC - Maintenance,Won,3650,2026-06-17,Outbound,HVAC,48.2,Caleb Turner,Maintenance,SUMM-D00224
+kimberly.garcia@norrishughes.example.com,Norris-Hughes - Maintenance,Summit HVAC - Maintenance,Lost,4350,2026-06-14,Outbound,HVAC,57.4,Andre Coleman,Maintenance,SUMM-D00225
+chad.adams@beasleybrown.example.com,Beasley-Brown - Installation,Summit HVAC - Installation,Lost,33350,2026-06-29,Google Ads,HVAC,40.4,Caleb Turner,Installation,SUMM-D00226
+dominic.moore@hughesshelton.example.com,Hughes-Shelton - Installation,Summit HVAC - Installation,Lost,16600,2026-06-18,Referral,HVAC,38.1,Caleb Turner,Installation,SUMM-D00227
+james.lee@millerperezandramirez.example.com,Miller Perez and Ramirez - Installation,Summit HVAC - Installation,Lost,8100,2026-06-25,Outbound,HVAC,45.8,Maya Ortiz,Installation,SUMM-D00228
+gary.andrews@wilsontaylor.example.com,Wilson-Taylor - Emergency,Summit HVAC - Emergency,Won,5150,2026-06-08,Google Ads,HVAC,53.3,Hannah Price,Emergency,SUMM-D00229
+mary.powers@haneytucker.example.com,Haney-Tucker - Installation,Summit HVAC - Installation,Lost,13650,2026-06-20,Referral,HVAC,34.8,Lucia Romero,Installation,SUMM-D00230
+tristan.fisher@abbottandsons.example.com,Abbott and Sons - Maintenance,Summit HVAC - Maintenance,Lost,8900,2026-06-10,Outbound,HVAC,51.3,Andre Coleman,Maintenance,SUMM-D00231
+megan.harding@williamsgonzalezandreyno.example.com,Williams Gonzalez and Reynolds - Maintenance,Summit HVAC - Maintenance,Lost,11150,2026-06-20,Referral,HVAC,58.2,Andre Coleman,Maintenance,SUMM-D00232
+sandra.carson@owenswashingtonandjones.example.com,Owens Washington and Jones - Maintenance,Summit HVAC - Maintenance,Lost,4450,2026-06-07,Meta Ads,HVAC,52.3,Lucia Romero,Maintenance,SUMM-D00233
+jennifer.gonzalez@royspencerandhall.example.com,Roy Spencer and Hall - Installation,Summit HVAC - Installation,Lost,25250,2026-06-08,Meta Ads,HVAC,41.6,Lucia Romero,Installation,SUMM-D00234
+angela.moore@bishopgroup.example.com,Bishop Group - Emergency,Summit HVAC - Emergency,Won,1850,2026-06-05,Call Tracking,HVAC,58.1,Andre Coleman,Emergency,SUMM-D00235
+eric.braun@whiteplc.example.com,White PLC - Maintenance,Summit HVAC - Maintenance,Lost,9600,2026-06-10,Outbound,HVAC,53.7,Caleb Turner,Maintenance,SUMM-D00236
+amy.robertson@wrightllc.example.com,Wright LLC - Installation,Summit HVAC - Installation,Lost,9100,2026-06-14,Referral,HVAC,39.1,Caleb Turner,Installation,SUMM-D00237
+pamela.curry@martininc.example.com,Martin Inc - Maintenance,Summit HVAC - Maintenance,Lost,5100,2026-06-11,Call Tracking,HVAC,56.7,Hannah Price,Maintenance,SUMM-D00238
+jennifer.moore@ramosshort.example.com,Ramos-Short - Installation,Summit HVAC - Installation,Won,4850,2026-07-27,Call Tracking,HVAC,38.0,Caleb Turner,Installation,SUMM-D00239
+michael.wood@crawfordnewman.example.com,Crawford-Newman - Maintenance,Summit HVAC - Maintenance,Lost,9300,2026-06-14,Outbound,HVAC,48.8,Ben Foster,Maintenance,SUMM-D00240
+janice.cook@freemankennedyandescobar.example.com,Freeman Kennedy and Escobar - Maintenance,Summit HVAC - Maintenance,Lost,10850,2026-06-15,Outbound,HVAC,52.9,Maya Ortiz,Maintenance,SUMM-D00241
+jesse.olson@walshbrownandbaldwin.example.com,Walsh Brown and Baldwin - Maintenance,Summit HVAC - Maintenance,Won,10200,2026-07-08,Google Ads,HVAC,52.3,Maya Ortiz,Maintenance,SUMM-D00242
+john.wong@odonnellinc.example.com,Odonnell Inc - Emergency,Summit HVAC - Emergency,Lost,2350,2026-06-04,Call Tracking,HVAC,59.9,Lucia Romero,Emergency,SUMM-D00243
+john.ramirez@simpsondonaldson.example.com,Simpson-Donaldson - Maintenance,Summit HVAC - Maintenance,Lost,5550,2026-06-20,Meta Ads,HVAC,49.9,Andre Coleman,Maintenance,SUMM-D00244
+isabella.harmon@hinessosaandmorrison.example.com,Hines Sosa and Morrison - Maintenance,Summit HVAC - Maintenance,Lost,10000,2026-06-15,Google Ads,HVAC,51.7,Caleb Turner,Maintenance,SUMM-D00245
+laura.arroyo@millergrayandwagner.example.com,Miller Gray and Wagner - Maintenance,Summit HVAC - Maintenance,Lost,6500,2026-06-15,Outbound,HVAC,53.8,Caleb Turner,Maintenance,SUMM-D00246
+aaron.richmond@richardsonlee.example.com,Richardson-Lee - Emergency,Summit HVAC - Emergency,Lost,4300,2026-06-05,Outbound,HVAC,56.2,Andre Coleman,Emergency,SUMM-D00247
+gabriella.martinez@howellsherman.example.com,Howell-Sherman - Maintenance,Summit HVAC - Maintenance,Won,5200,2026-06-21,Outbound,HVAC,49.8,Maya Ortiz,Maintenance,SUMM-D00248
+shari.pearson@craigandsons.example.com,Craig and Sons - Emergency,Summit HVAC - Emergency,Lost,4100,2026-06-06,Google Ads,HVAC,57.7,Maya Ortiz,Emergency,SUMM-D00249
+taylor.hayes@simpsonjacksonandkelley.example.com,Simpson Jackson and Kelley - Maintenance,Summit HVAC - Maintenance,Lost,17350,2026-06-23,Google Ads,HVAC,48.2,Andre Coleman,Maintenance,SUMM-D00250
+tara.thompson@williamscruzandcarroll.example.com,Williams Cruz and Carroll - Maintenance,Summit HVAC - Maintenance,Lost,16600,2026-07-05,Call Tracking,HVAC,45.6,Andre Coleman,Maintenance,SUMM-D00251
+jesus.walker@sosaphillips.example.com,Sosa-Phillips - Maintenance,Summit HVAC - Maintenance,Lost,5650,2026-06-08,Referral,HVAC,49.2,Maya Ortiz,Maintenance,SUMM-D00252
+jennifer.vasquez@meyerwood.example.com,Meyer-Wood - Maintenance,Summit HVAC - Maintenance,Lost,5350,2026-06-16,Outbound,HVAC,52.0,Maya Ortiz,Maintenance,SUMM-D00253
+sean.thomas@orozcoplc.example.com,Orozco PLC - Emergency,Summit HVAC - Emergency,Lost,3950,2026-06-07,Call Tracking,HVAC,56.6,Caleb Turner,Emergency,SUMM-D00254
+jimmy.hernandez@thomasrochaandgraham.example.com,Thomas Rocha and Graham - Maintenance,Summit HVAC - Maintenance,Lost,6300,2026-06-21,Outbound,HVAC,50.3,Hannah Price,Maintenance,SUMM-D00255
+cheryl.wolfe@morganbond.example.com,Morgan-Bond - Maintenance,Summit HVAC - Maintenance,Lost,4850,2026-06-23,Outbound,HVAC,50.1,Caleb Turner,Maintenance,SUMM-D00256
+elizabeth.martin@robertsmitchell.example.com,Roberts-Mitchell - Maintenance,Summit HVAC - Maintenance,Won,15800,2026-06-21,Referral,HVAC,44.0,Caleb Turner,Maintenance,SUMM-D00257
+matthew.smith@gonzalezhawkins.example.com,Gonzalez-Hawkins - Emergency,Summit HVAC - Emergency,Lost,4850,2026-06-08,Call Tracking,HVAC,45.2,Andre Coleman,Emergency,SUMM-D00258
+katie.becker@barnetthornandmcgee.example.com,Barnett Horn and Mcgee - Installation,Summit HVAC - Installation,Lost,13800,2026-06-21,Google Ads,HVAC,36.3,Lucia Romero,Installation,SUMM-D00259
+ryan.valdez@dodsonriosandbarnett.example.com,Dodson Rios and Barnett - Emergency,Summit HVAC - Emergency,Lost,3300,2026-06-07,Call Tracking,HVAC,52.2,Maya Ortiz,Emergency,SUMM-D00260
+brian.wong@bryantcopelandandeverett.example.com,Bryant Copeland and Everett - Emergency,Summit HVAC - Emergency,Lost,2750,2026-06-08,Call Tracking,HVAC,46.0,Andre Coleman,Emergency,SUMM-D00261
+donald.hunter@popemuellerandruiz.example.com,Pope Mueller and Ruiz - Emergency,Summit HVAC - Emergency,Lost,2150,2026-06-09,Call Tracking,HVAC,63.3,Lucia Romero,Emergency,SUMM-D00262
+evan.brown@perezjohnson.example.com,Perez-Johnson - Emergency,Summit HVAC - Emergency,Won,2800,2026-06-15,Referral,HVAC,55.3,Ben Foster,Emergency,SUMM-D00263
+lori.jefferson@weaverinc.example.com,Weaver Inc - Emergency,Summit HVAC - Emergency,Lost,4250,2026-06-11,Call Tracking,HVAC,49.9,Andre Coleman,Emergency,SUMM-D00264
+alexander.brown@smithmartin.example.com,Smith-Martin - Emergency,Summit HVAC - Emergency,Lost,2450,2026-06-09,Call Tracking,HVAC,46.4,Caleb Turner,Emergency,SUMM-D00265
+justin.fritz@garciamunoz.example.com,Garcia-Munoz - Maintenance,Summit HVAC - Maintenance,Lost,10750,2026-06-24,Google Ads,HVAC,,Summit Dispatch Queue,Maintenance,SUMM-D00266
+anthony.mcdowell@martinjohnson.example.com,Martin-Johnson - Maintenance,Summit HVAC - Maintenance,Lost,9900,2026-06-13,Outbound,HVAC,42.1,Lucia Romero,Maintenance,SUMM-D00267
+timothy.rodgers@kingevansandvaughan.example.com,King Evans and Vaughan - Maintenance,Summit HVAC - Maintenance,Lost,4100,2026-06-19,Meta Ads,HVAC,55.3,Andre Coleman,Maintenance,SUMM-D00268
+bradley.hart@gilbertltd.example.com,Gilbert Ltd - Maintenance,Summit HVAC - Maintenance,Lost,6300,2026-06-25,Outbound,HVAC,50.1,Caleb Turner,Maintenance,SUMM-D00269
+angela.gonzales@stevensplc.example.com,Stevens PLC - Emergency,Summit HVAC - Emergency,Won,3050,2026-06-13,Referral,HVAC,55.6,Hannah Price,Emergency,SUMM-D00270
+luis.smith@curtisholtandmcconnell.example.com,Curtis Holt and Mcconnell - Maintenance,Summit HVAC - Maintenance,Lost,13750,2026-07-07,Outbound,HVAC,50.3,Hannah Price,Maintenance,SUMM-D00271
+edgar.collins@johnsonbrooksandsandoval.example.com,Johnson Brooks and Sandoval - Emergency,Summit HVAC - Emergency,Lost,3550,2026-06-09,Outbound,HVAC,53.6,Ben Foster,Emergency,SUMM-D00272
+marcus.lawson@brownfullerandramirez.example.com,Brown Fuller and Ramirez - Maintenance,Summit HVAC - Maintenance,Lost,13950,2026-06-20,Referral,HVAC,66.8,Hannah Price,Maintenance,SUMM-D00273
+angela.davis@mortondavis.example.com,Morton-Davis - Emergency,Summit HVAC - Emergency,Won,2500,2026-06-15,Outbound,HVAC,55.0,Caleb Turner,Emergency,SUMM-D00274
+carl.levine@hoodgroup.example.com,Hood Group - Emergency,Summit HVAC - Emergency,Lost,3300,2026-06-11,Call Tracking,HVAC,57.6,Hannah Price,Emergency,SUMM-D00275
+michael.johnson@thomaswilliamsandhughes.example.com,Thomas Williams and Hughes - Installation,Summit HVAC - Installation,Won,11650,2026-07-30,Referral,HVAC,43.2,Maya Ortiz,Installation,SUMM-D00276
+desiree.davis@moralesplc.example.com,Morales PLC - Installation,Summit HVAC - Installation,Won,32950,2026-07-13,Google Ads,HVAC,45.2,Maya Ortiz,Installation,SUMM-D00277
+justin.ochoa@jonesbailey.example.com,Jones-Bailey - Maintenance,Summit HVAC - Maintenance,Won,7450,2026-07-05,Referral,HVAC,49.7,Hannah Price,Maintenance,SUMM-D00278
+brittany.payne@westgroup.example.com,West Group - Maintenance,Summit HVAC - Maintenance,Lost,7100,2026-06-18,Outbound,HVAC,51.4,Caleb Turner,Maintenance,SUMM-D00279
+michelle.sellers@baileydavisandhaynes.example.com,Bailey Davis and Haynes - Maintenance,Summit HVAC - Maintenance,Lost,5100,2026-06-24,Outbound,HVAC,50.3,Ben Foster,Maintenance,SUMM-D00280
+amy.rogers@youngltd.example.com,Young Ltd - Installation,Summit HVAC - Installation,Lost,22950,2026-08-14,Google Ads,HVAC,33.1,Caleb Turner,Installation,SUMM-D00281
+bernard.gilbert@romerohughesandwells.example.com,Romero Hughes and Wells - Maintenance,Summit HVAC - Maintenance,Lost,2450,2026-07-07,Call Tracking,HVAC,57.2,Maya Ortiz,Maintenance,SUMM-D00282
+whitney.pratt@bakerwallaceandjohnston.example.com,Baker Wallace and Johnston - Maintenance,Summit HVAC - Maintenance,Won,23950,2026-07-19,Meta Ads,HVAC,44.8,Maya Ortiz,Maintenance,SUMM-D00283
+taylor.hunt@rodriguezinc.example.com,Rodriguez Inc - Emergency,Summit HVAC - Emergency,Won,3950,2026-06-17,Call Tracking,HVAC,45.9,Caleb Turner,Emergency,SUMM-D00284
+maurice.barber@changinc.example.com,Chang Inc - Emergency,Summit HVAC - Emergency,Lost,5100,2026-06-15,Call Tracking,HVAC,57.2,Maya Ortiz,Emergency,SUMM-D00285
+david.smith@hansenbeasleyandgreene.example.com,Hansen Beasley and Greene - Maintenance,Summit HVAC - Maintenance,Lost,6300,2026-06-15,Outbound,HVAC,50.6,Caleb Turner,Maintenance,SUMM-D00286
+gary.cox@evansltd.example.com,Evans Ltd - Emergency,Summit HVAC - Emergency,Lost,1800,2026-06-15,Call Tracking,HVAC,51.9,Caleb Turner,Emergency,SUMM-D00287
+rodney.guzman@wallaceplc.example.com,Wallace PLC - Installation,Summit HVAC - Installation,Lost,10950,2026-07-02,Google Ads,HVAC,39.4,Ben Foster,Installation,SUMM-D00288
+kristin.carlson@hooverjohnsonandjackson.example.com,Hoover Johnson and Jackson - Installation,Summit HVAC - Installation,Lost,13450,2026-07-02,Referral,HVAC,43.6,Maya Ortiz,Installation,SUMM-D00289
+jerry.sanchez@walkerbrownandhicks.example.com,Walker Brown and Hicks - Maintenance,Summit HVAC - Maintenance,Lost,8600,2026-07-01,Outbound,HVAC,51.8,Maya Ortiz,Maintenance,SUMM-D00290
+christina.daniel@wellsnicholson.example.com,Wells-Nicholson - Installation,Summit HVAC - Installation,Lost,8250,2026-07-26,Outbound,HVAC,36.5,Caleb Turner,Installation,SUMM-D00291
+nina.webb@chandlerinc.example.com,Chandler Inc - Maintenance,Summit HVAC - Maintenance,Lost,7250,2026-06-21,Outbound,HVAC,54.0,Caleb Turner,Maintenance,SUMM-D00292
+michael.compton@blackgroup.example.com,Black Group - Emergency,Summit HVAC - Emergency,Lost,3800,2026-06-15,Call Tracking,HVAC,45.9,Andre Coleman,Emergency,SUMM-D00293
+megan.hughes@marshlowe.example.com,Marsh-Lowe - Installation,Summit HVAC - Installation,Lost,17250,2026-06-24,Call Tracking,HVAC,33.0,Andre Coleman,Installation,SUMM-D00294
+jesse.mcdaniel@sanchezandsons.example.com,Sanchez and Sons - Maintenance,Summit HVAC - Maintenance,Won,7800,2026-07-24,Outbound,HVAC,52.8,Lucia Romero,Maintenance,SUMM-D00295
+robert.ramirez@jonesfranklin.example.com,Jones-Franklin - Maintenance,Summit HVAC - Maintenance,Lost,4800,2026-07-12,Outbound,HVAC,44.9,Hannah Price,Maintenance,SUMM-D00296
+nancy.larson@arnoldllc.example.com,Arnold LLC - Installation,Summit HVAC - Installation,Lost,24100,2026-06-29,Referral,HVAC,40.7,Summit Dispatch Queue,Installation,SUMM-D00297
+nicole.price@mcconnellgroup.example.com,Mcconnell Group - Emergency,Summit HVAC - Emergency,Lost,2300,2026-06-20,Call Tracking,HVAC,53.0,Hannah Price,Emergency,SUMM-D00298
+christina.brown@matthewsinc.example.com,Matthews Inc - Maintenance,Summit HVAC - Maintenance,Lost,7000,2026-07-04,Outbound,HVAC,55.7,Maya Ortiz,Maintenance,SUMM-D00299
+patrick.edwards@rodriguezgonzalesandford.example.com,Rodriguez Gonzales and Ford - Emergency,Summit HVAC - Emergency,Lost,2250,2026-06-17,Call Tracking,HVAC,47.7,Caleb Turner,Emergency,SUMM-D00300
+christine.hernandez@walkerwalker.example.com,Walker-Walker - Maintenance,Summit HVAC - Maintenance,Lost,11300,2026-07-03,Referral,HVAC,56.0,Lucia Romero,Maintenance,SUMM-D00301
+kelsey.ewing@watkinsfarrell.example.com,Watkins-Farrell - Maintenance,Summit HVAC - Maintenance,Lost,4650,2026-06-27,Outbound,HVAC,41.2,Andre Coleman,Maintenance,SUMM-D00302
+molly.gregory@malonescott.example.com,Malone-Scott - Installation,Summit HVAC - Installation,Lost,27650,2026-06-22,Referral,HVAC,45.6,Caleb Turner,Installation,SUMM-D00303
+tanya.peck@davisgarcia.example.com,Davis-Garcia - Maintenance,Summit HVAC - Maintenance,Lost,4950,2026-06-23,Outbound,HVAC,46.7,Caleb Turner,Maintenance,SUMM-D00304
+tyler.kaiser@hamiltonbenitez.example.com,Hamilton-Benitez - Emergency,Summit HVAC - Emergency,Lost,3650,2026-06-20,Call Tracking,HVAC,54.1,Ben Foster,Emergency,SUMM-D00305
+tammy.carter@hillmack.example.com,Hill-Mack - Maintenance,Summit HVAC - Maintenance,Lost,5550,2026-06-19,Google Ads,HVAC,,Ben Foster,Maintenance,SUMM-D00306
+miguel.collins@millerandsons.example.com,Miller and Sons - Emergency,Summit HVAC - Emergency,Lost,2900,2026-06-19,Call Tracking,HVAC,54.2,Ben Foster,Emergency,SUMM-D00307
+shannon.hoffman@jacksonltd.example.com,Jackson Ltd - Emergency,Summit HVAC - Emergency,Lost,4400,2026-06-20,Call Tracking,HVAC,53.9,Andre Coleman,Emergency,SUMM-D00308
+sarah.mccann@brownbutler.example.com,Brown-Butler - Installation,Summit HVAC - Installation,Lost,12850,2026-06-28,Google Ads,HVAC,44.3,Maya Ortiz,Installation,SUMM-D00309
+michelle.hicks@harrishurst.example.com,Harris-Hurst - Installation,Summit HVAC - Installation,Lost,19000,2026-07-07,Google Ads,HVAC,39.7,Hannah Price,Installation,SUMM-D00310
+madison.baker@sanchezgroup.example.com,Sanchez Group - Maintenance,Summit HVAC - Maintenance,Lost,5800,2026-06-28,Outbound,HVAC,51.2,Caleb Turner,Maintenance,SUMM-D00311
+tracy.barr@maldonadoltd.example.com,Maldonado Ltd - Installation,Summit HVAC - Installation,Lost,8300,2026-08-02,Google Ads,HVAC,50.6,Caleb Turner,Installation,SUMM-D00312
+kirk.lopez@kelleygilmore.example.com,Kelley-Gilmore - Maintenance,Summit HVAC - Maintenance,Lost,7750,2026-06-28,Outbound,HVAC,50.9,Maya Ortiz,Maintenance,SUMM-D00313
+makayla.sutton@taylorltd.example.com,Taylor Ltd - Installation,Summit HVAC - Installation,Lost,11050,2026-06-25,Outbound,HVAC,39.3,Caleb Turner,Installation,SUMM-D00314
+david.martin@pinedaclark.example.com,Pineda-Clark - Installation,Summit HVAC - Installation,Lost,21650,2026-06-25,Outbound,HVAC,41.0,Hannah Price,Installation,SUMM-D00315
+jason.reed@calderonshaffer.example.com,Calderon-Shaffer - Maintenance,Summit HVAC - Maintenance,Lost,8500,2026-06-26,Outbound,HVAC,51.4,Caleb Turner,Maintenance,SUMM-D00316
+george.day@whiteltd.example.com,White Ltd - Emergency,Summit HVAC - Emergency,Lost,4000,2026-06-23,Google Ads,HVAC,57.8,Caleb Turner,Emergency,SUMM-D00317
+perry.fowler@holdersmithandhernandez.example.com,Holder Smith and Hernandez - Installation,Summit HVAC - Installation,Won,20950,2026-07-15,Google Ads,HVAC,36.7,Caleb Turner,Installation,SUMM-D00318
+aaron.burton@lopezdyer.example.com,Lopez-Dyer - Emergency,Summit HVAC - Emergency,Lost,4450,2026-06-21,Call Tracking,HVAC,52.6,Ben Foster,Emergency,SUMM-D00319
+christopher.bauer@wrightthompsonandwilson.example.com,Wright Thompson and Wilson - Maintenance,Summit HVAC - Maintenance,Lost,10550,2026-06-27,Outbound,HVAC,49.3,Lucia Romero,Maintenance,SUMM-D00320
+monique.marsh@gardnerbeard.example.com,Gardner-Beard - Emergency,Summit HVAC - Emergency,Lost,1750,2026-06-21,Call Tracking,HVAC,,Hannah Price,Emergency,SUMM-D00321
+casey.hood@bartonnguyenandrussell.example.com,Barton Nguyen and Russell - Maintenance,Summit HVAC - Maintenance,Lost,5500,2026-07-12,Referral,HVAC,47.3,Andre Coleman,Maintenance,SUMM-D00322
+mary.cooper@elliottmyers.example.com,Elliott-Myers - Maintenance,Summit HVAC - Maintenance,Lost,7300,2026-06-24,Outbound,HVAC,41.0,Andre Coleman,Maintenance,SUMM-D00323
+jeffrey.johnson@shieldsle.example.com,Shields-Le - Emergency,Summit HVAC - Emergency,Lost,3800,2026-06-22,Referral,HVAC,,Caleb Turner,Emergency,SUMM-D00324
+megan.harvey@reyesandsons.example.com,Reyes and Sons - Maintenance,Summit HVAC - Maintenance,Lost,11750,2026-06-25,Referral,HVAC,48.1,Ben Foster,Maintenance,SUMM-D00325
+kimberly.parker@harperkimandporter.example.com,Harper Kim and Porter - Maintenance,Summit HVAC - Maintenance,Lost,7800,2026-06-27,Call Tracking,HVAC,51.3,Andre Coleman,Maintenance,SUMM-D00326
+matthew.ashley@hickssmithandsherman.example.com,Hicks Smith and Sherman - Maintenance,Summit HVAC - Maintenance,Lost,5500,2026-07-05,Call Tracking,HVAC,,Ben Foster,Maintenance,SUMM-D00327
+jeremy.perez@mercadojones.example.com,Mercado-Jones - Emergency,Summit HVAC - Emergency,Lost,2750,2026-06-23,Referral,HVAC,54.6,Maya Ortiz,Emergency,SUMM-D00328
+derrick.donaldson@ellisonconley.example.com,Ellison-Conley - Maintenance,Summit HVAC - Maintenance,Lost,5400,2026-06-24,Google Ads,HVAC,49.1,Maya Ortiz,Maintenance,SUMM-D00329
+carol.nelson@greenemorrisandblevins.example.com,Greene Morris and Blevins - Maintenance,Summit HVAC - Maintenance,Lost,8550,2026-07-07,Call Tracking,HVAC,45.6,Lucia Romero,Maintenance,SUMM-D00330
+annette.carter@payneross.example.com,Payne-Ross - Maintenance,Summit HVAC - Maintenance,Won,8750,2026-07-20,Referral,HVAC,49.2,Caleb Turner,Maintenance,SUMM-D00331
+james.jensen@hernandezpattonandrasmus.example.com,Hernandez Patton and Rasmussen - Emergency,Summit HVAC - Emergency,Lost,2250,2026-06-23,Referral,HVAC,56.4,Caleb Turner,Emergency,SUMM-D00332
+reginald.martinez@chavezmackandvasquez.example.com,Chavez Mack and Vasquez - Maintenance,Summit HVAC - Maintenance,Lost,7450,2026-07-07,Referral,HVAC,50.0,Maya Ortiz,Maintenance,SUMM-D00333
+mark.shannon@schultzweissandreynolds.example.com,Schultz Weiss and Reynolds - Installation,Summit HVAC - Installation,Lost,24400,2026-08-07,Call Tracking,HVAC,40.4,Ben Foster,Installation,SUMM-D00334
+samantha.quinn@smithwood.example.com,Smith-Wood - Emergency,Summit HVAC - Emergency,Lost,2200,2026-06-24,Outbound,HVAC,,Maya Ortiz,Emergency,SUMM-D00335
+lindsay.ross@phillipsllc.example.com,Phillips LLC - Maintenance,Summit HVAC - Maintenance,Lost,9900,2026-07-03,Outbound,HVAC,45.4,Caleb Turner,Maintenance,SUMM-D00336
+john.cooper@robertsonlawrenceandcalh.example.com,Robertson Lawrence and Calhoun - Emergency,Summit HVAC - Emergency,Lost,5100,2026-06-25,Outbound,HVAC,48.6,Lucia Romero,Emergency,SUMM-D00337
+christopher.perkins@dorseykingandholloway.example.com,Dorsey King and Holloway - Installation,Summit HVAC - Installation,Lost,12750,2026-07-07,Referral,HVAC,38.0,Andre Coleman,Installation,SUMM-D00338
+michael.wong@graysteinandlewis.example.com,Gray Stein and Lewis - Maintenance,Summit HVAC - Maintenance,Lost,7000,2026-07-03,Outbound,HVAC,49.5,Hannah Price,Maintenance,SUMM-D00339
+michelle.johnson@hardymiller.example.com,Hardy-Miller - Maintenance,Summit HVAC - Maintenance,Lost,8450,2026-06-30,Call Tracking,HVAC,46.6,Maya Ortiz,Maintenance,SUMM-D00340
+amber.whitney@burkeinc.example.com,Burke Inc - Maintenance,Summit HVAC - Maintenance,Lost,4900,2026-07-19,Referral,HVAC,,Andre Coleman,Maintenance,SUMM-D00341
+dwayne.lane@jamesllc.example.com,James LLC - Installation,Summit HVAC - Installation,Lost,10300,2026-07-06,Referral,HVAC,42.0,Caleb Turner,Installation,SUMM-D00342
+kristen.lyons@carterchristensen.example.com,Carter-Christensen - Emergency,Summit HVAC - Emergency,Lost,3200,2026-06-26,Call Tracking,HVAC,55.7,Ben Foster,Emergency,SUMM-D00343
+brenda.villegas@barkerlewisandquinn.example.com,Barker Lewis and Quinn - Emergency,Summit HVAC - Emergency,Lost,3200,2026-06-26,Call Tracking,HVAC,60.0,Hannah Price,Emergency,SUMM-D00344
+shawn.johnson@phillipsphillipsandmille.example.com,Phillips Phillips and Miller - Maintenance,Summit HVAC - Maintenance,Lost,3950,2026-07-07,Outbound,HVAC,55.8,Caleb Turner,Maintenance,SUMM-D00345
+tiffany.floyd@gibsonbennettandhurst.example.com,Gibson Bennett and Hurst - Emergency,Summit HVAC - Emergency,Lost,3700,2026-06-27,Referral,HVAC,58.1,Caleb Turner,Emergency,SUMM-D00346
+robert.schroeder@whitesimpsonandparker.example.com,White Simpson and Parker - Maintenance,Summit HVAC - Maintenance,Lost,11600,2026-07-09,Google Ads,HVAC,56.3,Caleb Turner,Maintenance,SUMM-D00347
+linda.larson@wilsoninc.example.com,Wilson Inc - Emergency,Summit HVAC - Emergency,Lost,1500,2026-06-28,Call Tracking,HVAC,55.1,Ben Foster,Emergency,SUMM-D00348
+kelly.miller@davenportboyerandwatts.example.com,Davenport Boyer and Watts - Emergency,Summit HVAC - Emergency,Lost,3650,2026-06-26,Google Ads,HVAC,56.8,Caleb Turner,Emergency,SUMM-D00349
+travis.johnson@taylortorresandthomas.example.com,Taylor Torres and Thomas - Emergency,Summit HVAC - Emergency,Lost,4450,2026-06-26,Google Ads,HVAC,57.1,Hannah Price,Emergency,SUMM-D00350
+alexis.hubbard@lopezllc.example.com,Lopez LLC - Installation,Summit HVAC - Installation,Lost,11700,2026-07-07,Outbound,HVAC,42.3,Caleb Turner,Installation,SUMM-D00351
+catherine.anderson@perezplc.example.com,Perez PLC - Installation,Summit HVAC - Installation,Lost,21450,2026-07-04,Outbound,HVAC,,Caleb Turner,Installation,SUMM-D00352
+amy.campbell@allenrichardandrobertson.example.com,Allen Richard and Robertson - Maintenance,Summit HVAC - Maintenance,Won,4700,2026-07-26,Referral,HVAC,52.6,Lucia Romero,Maintenance,SUMM-D00353
+brian.aguilar@burgessgroup.example.com,Burgess Group - Maintenance,Summit HVAC - Maintenance,Lost,9050,2026-07-10,Google Ads,HVAC,48.0,Maya Ortiz,Maintenance,SUMM-D00354
+mark.thompson@smithmcdonaldandkidd.example.com,Smith Mcdonald and Kidd - Maintenance,Summit HVAC - Maintenance,Lost,7950,2026-07-05,Call Tracking,HVAC,52.7,Caleb Turner,Maintenance,SUMM-D00355
+charles.sanchez@larsongroup.example.com,Larson Group - Maintenance,Summit HVAC - Maintenance,Lost,6750,2026-07-05,Outbound,HVAC,48.2,Hannah Price,Maintenance,SUMM-D00356
+dominic.peterson@thomasreeves.example.com,Thomas-Reeves - Installation,Summit HVAC - Installation,Won,12700,2026-09-20,Outbound,HVAC,34.5,Hannah Price,Installation,SUMM-D00357
+tiffany.thompson@jamesmooreandpetersen.example.com,James Moore and Petersen - Emergency,Summit HVAC - Emergency,Lost,2350,2026-06-27,Outbound,HVAC,54.5,Lucia Romero,Emergency,SUMM-D00358
+jeffrey.sanders@greenaustin.example.com,Green-Austin - Installation,Summit HVAC - Installation,Lost,10000,2026-07-19,Outbound,HVAC,33.3,Hannah Price,Installation,SUMM-D00359
+robert.patterson@wardle.example.com,Ward-Le - Emergency,Summit HVAC - Emergency,Lost,3750,2026-07-02,Call Tracking,HVAC,57.1,Hannah Price,Emergency,SUMM-D00360
+dominique.garcia@mooneyinc.example.com,Mooney Inc - Maintenance,Summit HVAC - Maintenance,Lost,6250,2026-07-15,Call Tracking,HVAC,,Hannah Price,Maintenance,SUMM-D00361
+vicki.sparks@andersonlawsonandfleming.example.com,Anderson Lawson and Fleming - Maintenance,Summit HVAC - Maintenance,Lost,3050,2026-07-31,Outbound,HVAC,47.8,Maya Ortiz,Maintenance,SUMM-D00362
+robert.jackson@smithllc.example.com,Smith LLC - Maintenance,Summit HVAC - Maintenance,Lost,9650,2026-07-13,Call Tracking,HVAC,49.4,Andre Coleman,Maintenance,SUMM-D00363
+kimberly.ryan@edwardsltd.example.com,Edwards Ltd - Emergency,Summit HVAC - Emergency,Lost,2550,2026-07-03,Call Tracking,HVAC,59.5,Caleb Turner,Emergency,SUMM-D00364
+damon.mcclure@mendozamorgan.example.com,Mendoza-Morgan - Emergency,Summit HVAC - Emergency,Won,1800,2026-07-06,Google Ads,HVAC,56.5,Caleb Turner,Emergency,SUMM-D00365
+janet.coleman@zavalacampbellandwilliam.example.com,Zavala Campbell and Williams - Emergency,Summit HVAC - Emergency,Lost,4400,2026-07-04,Google Ads,HVAC,52.3,Caleb Turner,Emergency,SUMM-D00366
+lindsey.baker@brownalexander.example.com,Brown-Alexander - Emergency,Summit HVAC - Emergency,Lost,2500,2026-07-03,Call Tracking,HVAC,58.9,Andre Coleman,Emergency,SUMM-D00367
+jeffrey.smith@brownchan.example.com,Brown-Chan - Maintenance,Summit HVAC - Maintenance,Lost,8550,2026-07-09,Referral,HVAC,52.9,Caleb Turner,Maintenance,SUMM-D00368
+karen.jensen@fuenteshodgeandwilliams.example.com,Fuentes Hodge and Williams - Emergency,Summit HVAC - Emergency,Lost,3000,2026-07-01,Call Tracking,HVAC,60.6,Maya Ortiz,Emergency,SUMM-D00369
+stacy.martinez@olsonplc.example.com,Olson PLC - Maintenance,Summit HVAC - Maintenance,Lost,8050,2026-07-09,Referral,HVAC,49.1,Ben Foster,Maintenance,SUMM-D00370
+melvin.kirk@jonesmooreandrobinson.example.com,Jones Moore and Robinson - Emergency,Summit HVAC - Emergency,Lost,5100,2026-07-02,Referral,HVAC,58.3,Maya Ortiz,Emergency,SUMM-D00371
+kayla.jones@kleinltd.example.com,Klein Ltd - Installation,Summit HVAC - Installation,Won,12100,2026-08-17,Google Ads,HVAC,35.5,Hannah Price,Installation,SUMM-D00372
+christine.romero@hodgesoconnellandharmon.example.com,Hodges Oconnell and Harmon - Maintenance,Summit HVAC - Maintenance,Won,9350,2026-07-07,Outbound,HVAC,41.2,Ben Foster,Maintenance,SUMM-D00373
+bailey.brady@knightinc.example.com,Knight Inc - Maintenance,Summit HVAC - Maintenance,Lost,9650,2026-07-09,Outbound,HVAC,42.7,Caleb Turner,Maintenance,SUMM-D00374
+jeffrey.sanchez@turnerllc.example.com,Turner LLC - Installation,Summit HVAC - Installation,Lost,11100,2026-08-26,Call Tracking,HVAC,,Ben Foster,Installation,SUMM-D00375
+andre.west@hoodgroup.example.com,Hood Group - Maintenance,Summit HVAC - Maintenance,Lost,10650,2026-07-10,Outbound,HVAC,54.8,Hannah Price,Maintenance,SUMM-D00376
+pamela.young@greencarter.example.com,Green-Carter - Installation,Summit HVAC - Installation,Lost,24800,2026-07-11,Outbound,HVAC,36.7,Caleb Turner,Installation,SUMM-D00377
+carlos.hudson@pattondougherty.example.com,Patton-Dougherty - Emergency,Summit HVAC - Emergency,Lost,3100,2026-07-02,Google Ads,HVAC,,Caleb Turner,Emergency,SUMM-D00378
+melissa.harris@wallernavarro.example.com,Waller-Navarro - Maintenance,Summit HVAC - Maintenance,Lost,3650,2026-07-13,Outbound,HVAC,50.7,Maya Ortiz,Maintenance,SUMM-D00379
+jody.rivera@garciafrancisandclark.example.com,Garcia Francis and Clark - Emergency,Summit HVAC - Emergency,Lost,3250,2026-07-03,Call Tracking,HVAC,63.6,Lucia Romero,Emergency,SUMM-D00380
+virginia.contreras@hillmolina.example.com,Hill-Molina - Maintenance,Summit HVAC - Maintenance,Lost,8400,2026-07-10,Referral,HVAC,,Ben Foster,Maintenance,SUMM-D00381
+stephanie.welch@zimmermanford.example.com,Zimmerman-Ford - Maintenance,Summit HVAC - Maintenance,Lost,9800,2026-07-05,Outbound,HVAC,,Andre Coleman,Maintenance,SUMM-D00382
+cristina.fitzgerald@daviswilliamson.example.com,Davis-Williamson - Maintenance,Summit HVAC - Maintenance,Lost,10150,2026-07-16,Referral,HVAC,44.3,Hannah Price,Maintenance,SUMM-D00383
+john.rollins@murilloplc.example.com,Murillo PLC - Installation,Summit HVAC - Installation,Lost,11950,2026-09-10,Referral,HVAC,37.8,Andre Coleman,Installation,SUMM-D00384
+lisa.ferguson@kerrhayes.example.com,Kerr-Hayes - Emergency,Summit HVAC - Emergency,Lost,3000,2026-07-02,Referral,HVAC,60.3,Hannah Price,Emergency,SUMM-D00385
+john.johnson@smithandsons.example.com,Smith and Sons - Installation,Summit HVAC - Installation,Lost,17800,2026-07-14,Outbound,HVAC,40.2,Caleb Turner,Installation,SUMM-D00386
+andrew.oconnor@colemancannonandjones.example.com,Coleman Cannon and Jones - Maintenance,Summit HVAC - Maintenance,Won,5200,2026-07-22,Call Tracking,HVAC,47.5,Hannah Price,Maintenance,SUMM-D00387
+jonathan.hudson@fernandezwongandmathis.example.com,Fernandez Wong and Mathis - Installation,Summit HVAC - Installation,Lost,13350,2026-07-29,Referral,HVAC,40.3,Caleb Turner,Installation,SUMM-D00388
+jesse.cardenas@benitezinc.example.com,Benitez Inc - Installation,Summit HVAC - Installation,Lost,14400,2026-07-21,Google Ads,HVAC,33.5,Caleb Turner,Installation,SUMM-D00389
+karen.jones@deansmith.example.com,Dean-Smith - Maintenance,Summit HVAC - Maintenance,Lost,7150,2026-07-11,Referral,HVAC,49.2,Andre Coleman,Maintenance,SUMM-D00390
+brandon.malone@robertsbest.example.com,Roberts-Best - Maintenance,Summit HVAC - Maintenance,Lost,17250,2026-07-10,Outbound,HVAC,,Hannah Price,Maintenance,SUMM-D00391
+darryl.lambert@wolfemaxwell.example.com,Wolfe-Maxwell - Emergency,Summit HVAC - Emergency,Lost,2550,2026-07-05,Outbound,HVAC,54.6,Ben Foster,Emergency,SUMM-D00392
+shane.thompson@olsonplc.example.com,Olson PLC - Emergency,Summit HVAC - Emergency,Lost,1800,2026-07-08,Call Tracking,HVAC,57.8,Ben Foster,Emergency,SUMM-D00393
+gregory.payne@diazgroup.example.com,Diaz Group - Emergency,Summit HVAC - Emergency,Lost,2450,2026-07-07,Meta Ads,HVAC,56.6,Caleb Turner,Emergency,SUMM-D00394
+pamela.williams@watsonandsons.example.com,Watson and Sons - Emergency,Summit HVAC - Emergency,Won,4700,2026-07-11,Google Ads,HVAC,50.8,Maya Ortiz,Emergency,SUMM-D00395
+cheryl.gallagher@wagnerbennettandmccoy.example.com,Wagner Bennett and Mccoy - Maintenance,Summit HVAC - Maintenance,Lost,6400,2026-07-13,Referral,HVAC,53.6,Maya Ortiz,Maintenance,SUMM-D00396
+erik.harrison@shafferarnold.example.com,Shaffer-Arnold - Emergency,Summit HVAC - Emergency,Lost,5100,2026-07-07,Call Tracking,HVAC,53.1,Caleb Turner,Emergency,SUMM-D00397
+catherine.munoz@williamsjohnson.example.com,Williams-Johnson - Installation,Summit HVAC - Installation,Lost,10950,2026-07-17,Google Ads,HVAC,34.3,Maya Ortiz,Installation,SUMM-D00398
+tara.hernandez@robertshenryandmcdonald.example.com,Roberts Henry and Mcdonald - Emergency,Summit HVAC - Emergency,Lost,3850,2026-07-08,Call Tracking,HVAC,54.1,Hannah Price,Emergency,SUMM-D00399
+mark.edwards@buckjones.example.com,Buck-Jones - Maintenance,Summit HVAC - Maintenance,Lost,4300,2026-07-10,Outbound,HVAC,57.1,Caleb Turner,Maintenance,SUMM-D00400
+karen.mcintyre@hannaramseyandbrown.example.com,Hanna Ramsey and Brown - Installation,Summit HVAC - Installation,Lost,13300,2026-07-10,Outbound,HVAC,35.2,Ben Foster,Installation,SUMM-D00401
+nancy.charles@wiselawrence.example.com,Wise-Lawrence - Emergency,Summit HVAC - Emergency,Lost,1800,2026-07-07,Call Tracking,HVAC,58.0,Andre Coleman,Emergency,SUMM-D00402
+jordan.marshall@weberlambert.example.com,Weber-Lambert - Installation,Summit HVAC - Installation,Lost,11150,2026-07-13,Outbound,HVAC,38.0,Ben Foster,Installation,SUMM-D00403
+chad.taylor@quinnllc.example.com,Quinn LLC - Emergency,Summit HVAC - Emergency,Lost,4750,2026-07-11,Meta Ads,HVAC,60.0,Caleb Turner,Emergency,SUMM-D00404
+daniel.hines@smithplc.example.com,Smith PLC - Maintenance,Summit HVAC - Maintenance,Lost,10050,2026-07-15,Outbound,HVAC,50.5,Caleb Turner,Maintenance,SUMM-D00405
+julia.hudson@tuckerashleyandhatfield.example.com,Tucker Ashley and Hatfield - Installation,Summit HVAC - Installation,Lost,18500,2026-07-24,Outbound,HVAC,39.1,Andre Coleman,Installation,SUMM-D00406
+hailey.salazar@ramosinc.example.com,Ramos Inc - Emergency,Summit HVAC - Emergency,Won,2500,2026-07-12,Referral,HVAC,58.6,Lucia Romero,Emergency,SUMM-D00407
+denise.edwards@westgriffin.example.com,West-Griffin - Installation,Summit HVAC - Installation,Lost,15450,2026-07-25,Outbound,HVAC,42.6,Lucia Romero,Installation,SUMM-D00408
+margaret.becker@moralesstone.example.com,Morales-Stone - Emergency,Summit HVAC - Emergency,Lost,3450,2026-07-10,Call Tracking,HVAC,57.6,Hannah Price,Emergency,SUMM-D00409
+ryan.charles@alexanderinc.example.com,Alexander Inc - Emergency,Summit HVAC - Emergency,Lost,2850,2026-07-13,Outbound,HVAC,59.5,Caleb Turner,Emergency,SUMM-D00410
+mark.vasquez@rangelfarrell.example.com,Rangel-Farrell - Emergency,Summit HVAC - Emergency,Lost,5000,2026-07-11,Call Tracking,HVAC,55.7,Lucia Romero,Emergency,SUMM-D00411
+natasha.smith@arnoldinc.example.com,Arnold Inc - Maintenance,Summit HVAC - Maintenance,Lost,5250,2026-07-16,Google Ads,HVAC,48.1,Maya Ortiz,Maintenance,SUMM-D00412
+vicki.page@hahnfoxandrobinson.example.com,Hahn Fox and Robinson - Maintenance,Summit HVAC - Maintenance,Lost,3550,2026-08-29,Call Tracking,HVAC,49.9,Caleb Turner,Maintenance,SUMM-D00413
+jacob.garrison@eatonandsons.example.com,Eaton and Sons - Maintenance,Summit HVAC - Maintenance,Lost,7800,2026-07-30,Referral,HVAC,47.9,Andre Coleman,Maintenance,SUMM-D00414
+frank.moore@lopezllc.example.com,Lopez LLC - Emergency,Summit HVAC - Emergency,Lost,2850,2026-07-11,Outbound,HVAC,47.1,Caleb Turner,Emergency,SUMM-D00415
+luke.williams@drakeschmidtandpeterson.example.com,Drake Schmidt and Peterson - Maintenance,Summit HVAC - Maintenance,Lost,12300,2026-07-16,Outbound,HVAC,50.2,Andre Coleman,Maintenance,SUMM-D00416
+michelle.jackson@bentleywellsandrodriguez.example.com,Bentley Wells and Rodriguez - Emergency,Summit HVAC - Emergency,Lost,2100,2026-07-14,Google Ads,HVAC,56.4,Caleb Turner,Emergency,SUMM-D00417
+tina.ward@delacruzinc.example.com,Delacruz Inc - Maintenance,Summit HVAC - Maintenance,Lost,4950,2026-07-28,Referral,HVAC,44.9,Hannah Price,Maintenance,SUMM-D00418
+joann.hart@mcgeeplc.example.com,Mcgee PLC - Installation,Summit HVAC - Installation,Lost,16150,2026-07-22,Referral,HVAC,42.0,Hannah Price,Installation,SUMM-D00419
+ronald.carter@andersonromanandcervante.example.com,Anderson Roman and Cervantes - Installation,Summit HVAC - Installation,Lost,21900,2026-07-29,Referral,HVAC,35.2,Caleb Turner,Installation,SUMM-D00420
+matthew.blackwell@swansonmcgeeandmathis.example.com,Swanson Mcgee and Mathis - Maintenance,Summit HVAC - Maintenance,Lost,12850,2026-07-21,Call Tracking,HVAC,47.9,Caleb Turner,Maintenance,SUMM-D00421
+matthew.black@kinggroup.example.com,King Group - Maintenance,Summit HVAC - Maintenance,Lost,11900,2026-07-23,Outbound,HVAC,48.5,Hannah Price,Maintenance,SUMM-D00422
+hannah.flynn@martinezheathandwilliams.example.com,Martinez Heath and Williams - Installation,Summit HVAC - Installation,Lost,46900,2026-07-23,Outbound,HVAC,36.9,Hannah Price,Installation,SUMM-D00423
+christopher.anderson@branchburnsandgonzales.example.com,Branch Burns and Gonzales - Installation,Summit HVAC - Installation,Lost,29850,2026-07-24,Call Tracking,HVAC,31.6,Lucia Romero,Installation,SUMM-D00424
+chelsea.gross@martinalvarezandvang.example.com,Martin Alvarez and Vang - Maintenance,Summit HVAC - Maintenance,Lost,7700,2026-07-16,Google Ads,HVAC,52.5,Caleb Turner,Maintenance,SUMM-D00425
+kenneth.baker@collinsmooreandmiller.example.com,Collins Moore and Miller - Emergency,Summit HVAC - Emergency,Lost,2450,2026-07-14,Google Ads,HVAC,54.6,Ben Foster,Emergency,SUMM-D00426
+jessica.farmer@stevensongroup.example.com,Stevenson Group - Maintenance,Summit HVAC - Maintenance,Lost,5500,2026-07-21,Call Tracking,HVAC,,Maya Ortiz,Maintenance,SUMM-D00427
+michael.rose@gomezandsons.example.com,Gomez and Sons - Installation,Summit HVAC - Installation,Lost,20250,2026-07-31,Call Tracking,HVAC,37.8,Lucia Romero,Installation,SUMM-D00428
+timothy.gray@guzmansandovalandchapman.example.com,Guzman Sandoval and Chapman - Emergency,Summit HVAC - Emergency,Lost,2850,2026-07-16,Outbound,HVAC,54.5,Andre Coleman,Emergency,SUMM-D00429
+sharon.evans@stanleyjohnson.example.com,Stanley-Johnson - Emergency,Summit HVAC - Emergency,Lost,2350,2026-07-15,Outbound,HVAC,56.3,Caleb Turner,Emergency,SUMM-D00430
+michael.boone@robertsonltd.example.com,Robertson Ltd - Maintenance,Summit HVAC - Maintenance,Lost,4950,2026-07-20,Outbound,HVAC,53.4,Andre Coleman,Maintenance,SUMM-D00431
+rebecca.vazquez@gallowayjoyceandgarcia.example.com,Galloway Joyce and Garcia - Installation,Summit HVAC - Installation,Lost,9800,2026-07-21,Google Ads,HVAC,37.0,Maya Ortiz,Installation,SUMM-D00432
+jaclyn.hernandez@jacksonyoder.example.com,Jackson-Yoder - Maintenance,Summit HVAC - Maintenance,Lost,5850,2026-08-07,Outbound,HVAC,45.0,Andre Coleman,Maintenance,SUMM-D00433
+tyler.garrison@pricehortonandmonroe.example.com,Price Horton and Monroe - Emergency,Summit HVAC - Emergency,Lost,3050,2026-07-15,Google Ads,HVAC,53.6,Hannah Price,Emergency,SUMM-D00434
+tiffany.murray@deckermaloneandshaw.example.com,Decker Malone and Shaw - Installation,Summit HVAC - Installation,Lost,23200,2026-07-27,Call Tracking,HVAC,41.2,Maya Ortiz,Installation,SUMM-D00435
+desiree.yoder@morrisplc.example.com,Morris PLC - Maintenance,Summit HVAC - Maintenance,Lost,5700,2026-08-05,Referral,HVAC,46.6,Hannah Price,Maintenance,SUMM-D00436
+jennifer.horton@woodardinc.example.com,Woodard Inc - Maintenance,Summit HVAC - Maintenance,Lost,7300,2026-07-29,Google Ads,HVAC,55.4,Lucia Romero,Maintenance,SUMM-D00437
+brenda.craig@moorewebbandrichardson.example.com,Moore Webb and Richardson - Emergency,Summit HVAC - Emergency,Lost,5000,2026-07-18,Call Tracking,HVAC,51.3,Caleb Turner,Emergency,SUMM-D00438
+janet.figueroa@foxinc.example.com,Fox Inc - Emergency,Summit HVAC - Emergency,Lost,2300,2026-07-18,Google Ads,HVAC,55.4,Hannah Price,Emergency,SUMM-D00439
+aimee.curry@carrollandsons.example.com,Carroll and Sons - Emergency,Summit HVAC - Emergency,Lost,1850,2026-07-19,Call Tracking,HVAC,55.0,Maya Ortiz,Emergency,SUMM-D00440
+austin.martin@combssnyderandsolis.example.com,Combs Snyder and Solis - Installation,Summit HVAC - Installation,Lost,30600,2026-07-30,Referral,HVAC,38.0,Caleb Turner,Installation,SUMM-D00441
+kylie.ramirez@jonesinc.example.com,Jones Inc - Installation,Summit HVAC - Installation,Lost,15750,2026-08-08,Outbound,HVAC,42.7,Ben Foster,Installation,SUMM-D00442
+linda.martin@perrywalker.example.com,Perry-Walker - Installation,Summit HVAC - Installation,Lost,21200,2026-08-10,Google Ads,HVAC,39.4,Maya Ortiz,Installation,SUMM-D00443
+donna.jones@harmonhowardandmiranda.example.com,Harmon Howard and Miranda - Emergency,Summit HVAC - Emergency,Lost,1700,2026-07-19,Google Ads,HVAC,52.7,Hannah Price,Emergency,SUMM-D00444
+justin.frazier@evansbenton.example.com,Evans-Benton - Installation,Summit HVAC - Installation,Lost,13450,2026-07-31,Outbound,HVAC,43.8,Maya Ortiz,Installation,SUMM-D00445
+doris.richards@bartlettthompson.example.com,Bartlett-Thompson - Maintenance,Summit HVAC - Maintenance,Won,11800,2026-08-09,Outbound,HVAC,51.8,Andre Coleman,Maintenance,SUMM-D00446
+amanda.beard@jenkinswilkinson.example.com,Jenkins-Wilkinson - Maintenance,Summit HVAC - Maintenance,Lost,5150,2026-07-25,Outbound,HVAC,55.6,Maya Ortiz,Maintenance,SUMM-D00447
+courtney.davis@laneplc.example.com,Lane PLC - Maintenance,Summit HVAC - Maintenance,Lost,7050,2026-07-28,Google Ads,HVAC,46.3,Summit Dispatch Queue,Maintenance,SUMM-D00448
+william.romero@hernandezbrowning.example.com,Hernandez-Browning - Installation,Summit HVAC - Installation,Lost,13250,2026-08-02,Referral,HVAC,39.4,Andre Coleman,Installation,SUMM-D00449
+maria.roberts@brownward.example.com,Brown-Ward - Installation,Summit HVAC - Installation,Lost,15950,2026-08-12,Outbound,HVAC,,Ben Foster,Installation,SUMM-D00450
+paul.bowman@barnesgoodmanandlee.example.com,Barnes Goodman and Lee - Maintenance,Summit HVAC - Maintenance,Won,7000,2026-08-16,Outbound,HVAC,47.8,Maya Ortiz,Maintenance,SUMM-D00451
+stephanie.swanson@davissimsandstevenson.example.com,Davis Sims and Stevenson - Installation,Summit HVAC - Installation,Won,16850,2026-09-30,Referral,HVAC,,Andre Coleman,Installation,SUMM-D00452
+jamie.donaldson@brownkeyandjones.example.com,Brown Key and Jones - Maintenance,Summit HVAC - Maintenance,Lost,5600,2026-07-25,Call Tracking,HVAC,52.8,Maya Ortiz,Maintenance,SUMM-D00453
+gary.stevenson@frazierwilsonanddunlap.example.com,Frazier Wilson and Dunlap - Maintenance,Summit HVAC - Maintenance,Lost,9050,2026-08-02,Outbound,HVAC,,Maya Ortiz,Maintenance,SUMM-D00454
+amanda.anderson@harrisgoodwinandsmith.example.com,Harris Goodwin and Smith - Maintenance,Summit HVAC - Maintenance,Lost,3550,2026-08-27,Meta Ads,HVAC,46.2,Hannah Price,Maintenance,SUMM-D00455
+mitchell.scott@frazierschroederandclark.example.com,Frazier Schroeder and Clark - Emergency,Summit HVAC - Emergency,Lost,3650,2026-07-26,Call Tracking,HVAC,55.5,Maya Ortiz,Emergency,SUMM-D00456
+traci.mcintyre@martinezandsons.example.com,Martinez and Sons - Emergency,Summit HVAC - Emergency,Lost,2250,2026-07-26,Google Ads,HVAC,46.1,Caleb Turner,Emergency,SUMM-D00457
+tamara.schaefer@hayesgroup.example.com,Hayes Group - Maintenance,Summit HVAC - Maintenance,Lost,9550,2026-07-30,Google Ads,HVAC,52.8,Caleb Turner,Maintenance,SUMM-D00458
+krista.miller@myersgroup.example.com,Myers Group - Emergency,Summit HVAC - Emergency,Lost,4000,2026-07-25,Google Ads,HVAC,53.9,Caleb Turner,Emergency,SUMM-D00459
+rose.roberts@phelpsllc.example.com,Phelps LLC - Emergency,Summit HVAC - Emergency,Lost,2700,2026-07-24,Google Ads,HVAC,56.7,Caleb Turner,Emergency,SUMM-D00460
+matthew.kim@whitemadden.example.com,White-Madden - Emergency,Summit HVAC - Emergency,Won,3500,2026-07-27,Call Tracking,HVAC,52.7,Andre Coleman,Emergency,SUMM-D00461
+molly.vazquez@morganmarshandalexander.example.com,Morgan Marsh and Alexander - Emergency,Summit HVAC - Emergency,Lost,3000,2026-07-26,Outbound,HVAC,48.4,Caleb Turner,Emergency,SUMM-D00462
+eric.avery@hernandezwallaceandthomp.example.com,Hernandez Wallace and Thompson - Emergency,Summit HVAC - Emergency,Lost,4000,2026-07-25,Call Tracking,HVAC,57.6,Hannah Price,Emergency,SUMM-D00463
+cheryl.dunn@garciaguerreroandwright.example.com,Garcia Guerrero and Wright - Installation,Summit HVAC - Installation,Lost,18500,2026-07-27,Referral,HVAC,38.6,Ben Foster,Installation,SUMM-D00464
+danielle.jones@turnerturnerandwerner.example.com,Turner Turner and Werner - Emergency,Summit HVAC - Emergency,Lost,5450,2026-07-25,Referral,HVAC,52.2,Ben Foster,Emergency,SUMM-D00465
+kari.johnson@donaldsonhughesandfoster.example.com,Donaldson Hughes and Foster - Maintenance,Summit HVAC - Maintenance,Lost,4100,2026-07-27,Outbound,HVAC,43.2,Caleb Turner,Maintenance,SUMM-D00466
+scott.gregory@maysgroup.example.com,Mays Group - Emergency,Summit HVAC - Emergency,Lost,2600,2026-07-25,Call Tracking,HVAC,53.1,Hannah Price,Emergency,SUMM-D00467
+cynthia.jordan@rogersinc.example.com,Rogers Inc - Installation,Summit HVAC - Installation,Lost,29800,2026-08-07,Outbound,HVAC,43.9,Hannah Price,Installation,SUMM-D00468
+michelle.clark@wilkinsonwyattandlarsen.example.com,Wilkinson Wyatt and Larsen - Maintenance,Summit HVAC - Maintenance,Lost,4100,2026-08-04,Referral,HVAC,,Maya Ortiz,Maintenance,SUMM-D00469
+selena.mays@dawsongroup.example.com,Dawson Group - Installation,Summit HVAC - Installation,Lost,10050,2026-07-28,Outbound,HVAC,33.4,Maya Ortiz,Installation,SUMM-D00470
+timothy.hughes@mccoymccallandzamora.example.com,Mccoy Mccall and Zamora - Installation,Summit HVAC - Installation,Lost,9600,2026-07-29,Google Ads,HVAC,33.0,Andre Coleman,Installation,SUMM-D00471
+bonnie.scott@kimcervantesandruiz.example.com,Kim Cervantes and Ruiz - Maintenance,Summit HVAC - Maintenance,Lost,5600,2026-08-07,Outbound,HVAC,54.8,Maya Ortiz,Maintenance,SUMM-D00472
+jessica.evans@millerplc.example.com,Miller PLC - Installation,Summit HVAC - Installation,Lost,12800,2026-08-04,Referral,HVAC,46.4,Maya Ortiz,Installation,SUMM-D00473
+danny.hawkins@hansonmartin.example.com,Hanson-Martin - Emergency,Summit HVAC - Emergency,Lost,2400,2026-07-28,Google Ads,HVAC,54.9,Ben Foster,Emergency,SUMM-D00474
+amy.tucker@reidperezandwilliams.example.com,Reid Perez and Williams - Emergency,Summit HVAC - Emergency,Lost,3000,2026-07-29,Google Ads,HVAC,53.3,Andre Coleman,Emergency,SUMM-D00475
+gregory.winters@meadowswall.example.com,Meadows-Wall - Maintenance,Summit HVAC - Maintenance,Won,7700,2026-08-08,Call Tracking,HVAC,45.9,Hannah Price,Maintenance,SUMM-D00476
+julia.miller@smithmendoza.example.com,Smith-Mendoza - Maintenance,Summit HVAC - Maintenance,Lost,5750,2026-08-19,Referral,HVAC,52.2,Caleb Turner,Maintenance,SUMM-D00477
+cindy.shaw@russellplc.example.com,Russell PLC - Installation,Summit HVAC - Installation,Won,20100,2026-09-08,Referral,HVAC,42.5,Caleb Turner,Installation,SUMM-D00478
+charles.medina@adamsdorseyandperez.example.com,Adams Dorsey and Perez - Emergency,Summit HVAC - Emergency,Lost,3750,2026-07-29,Call Tracking,HVAC,56.4,Andre Coleman,Emergency,SUMM-D00479
+catherine.brown@collinsinc.example.com,Collins Inc - Installation,Summit HVAC - Installation,Lost,34300,2026-09-06,Outbound,HVAC,37.7,Andre Coleman,Installation,SUMM-D00480
+steven.bell@arnoldscottandruiz.example.com,Arnold Scott and Ruiz - Installation,Summit HVAC - Installation,Lost,16050,2026-09-14,Referral,HVAC,37.5,Hannah Price,Installation,SUMM-D00481
+nathaniel.king@cardenasmartinezandmedin.example.com,Cardenas Martinez and Medina - Maintenance,Summit HVAC - Maintenance,Won,11750,2026-09-29,Call Tracking,HVAC,51.1,Maya Ortiz,Maintenance,SUMM-D00482
+michael.velazquez@jimenezle.example.com,Jimenez-Le - Emergency,Summit HVAC - Emergency,Lost,4900,2026-07-30,Google Ads,HVAC,51.1,Caleb Turner,Emergency,SUMM-D00483
+andrew.johnson@johnsonandsons.example.com,Johnson and Sons - Installation,Summit HVAC - Installation,Lost,12750,2026-08-09,Outbound,HVAC,35.4,Andre Coleman,Installation,SUMM-D00484
+grace.rich@richardsltd.example.com,Richards Ltd - Installation,Summit HVAC - Installation,Lost,37600,2026-08-16,Outbound,HVAC,33.9,Summit Dispatch Queue,Installation,SUMM-D00485
+dean.lopez@parksinc.example.com,Parks Inc - Emergency,Summit HVAC - Emergency,Lost,3200,2026-07-30,Referral,HVAC,54.5,Caleb Turner,Emergency,SUMM-D00486
+angela.blake@reyeslaneandbrady.example.com,Reyes Lane and Brady - Installation,Summit HVAC - Installation,Lost,12900,2026-09-28,Google Ads,HVAC,45.0,Hannah Price,Installation,SUMM-D00487
+kimberly.bell@gomezmullins.example.com,Gomez-Mullins - Installation,Summit HVAC - Installation,Lost,15000,2026-08-17,Outbound,HVAC,42.5,Maya Ortiz,Installation,SUMM-D00488
+barbara.reese@floresmcdanielandmoore.example.com,Flores Mcdaniel and Moore - Maintenance,Summit HVAC - Maintenance,Won,6800,2026-08-30,Referral,HVAC,42.0,Hannah Price,Maintenance,SUMM-D00489
+deborah.frye@hartmaninc.example.com,Hartman Inc - Maintenance,Summit HVAC - Maintenance,Lost,5000,2026-08-16,Outbound,HVAC,50.8,Hannah Price,Maintenance,SUMM-D00490
+james.ellis@gomezfrederickandoliver.example.com,Gomez Frederick and Oliver - Maintenance,Summit HVAC - Maintenance,Lost,3450,2026-08-11,Outbound,HVAC,48.2,Andre Coleman,Maintenance,SUMM-D00491
+sarah.rose@perezjonesandlawson.example.com,Perez Jones and Lawson - Emergency,Summit HVAC - Emergency,Lost,4150,2026-08-01,Referral,HVAC,56.0,Maya Ortiz,Emergency,SUMM-D00492
+debra.owens@hendersonbryantandho.example.com,Henderson Bryant and Ho - Maintenance,Summit HVAC - Maintenance,Lost,4450,2026-08-25,Call Tracking,HVAC,53.4,Lucia Romero,Maintenance,SUMM-D00493
+gregory.salinas@burkewilsonandgarner.example.com,Burke Wilson and Garner - Installation,Summit HVAC - Installation,Lost,13250,2026-08-09,Outbound,HVAC,34.1,Caleb Turner,Installation,SUMM-D00494
+kenneth.smith@jamesllc.example.com,James LLC - Emergency,Summit HVAC - Emergency,Lost,1900,2026-08-05,Call Tracking,HVAC,55.5,Caleb Turner,Emergency,SUMM-D00495
+deborah.johnson@evansinc.example.com,Evans Inc - Maintenance,Summit HVAC - Maintenance,Won,6300,2026-08-30,Outbound,HVAC,61.2,Andre Coleman,Maintenance,SUMM-D00496
+gregory.kennedy@moodybakerandblanchard.example.com,Moody Baker and Blanchard - Installation,Summit HVAC - Installation,Lost,29900,2026-08-10,Google Ads,HVAC,40.9,Hannah Price,Installation,SUMM-D00497
+shari.white@smithinc.example.com,Smith Inc - Maintenance,Summit HVAC - Maintenance,Lost,15200,2026-08-13,Google Ads,HVAC,52.0,Maya Ortiz,Maintenance,SUMM-D00498
+kristina.west@scottsmithandwilson.example.com,Scott Smith and Wilson - Installation,Summit HVAC - Installation,Lost,14650,2026-08-16,Referral,HVAC,42.7,Andre Coleman,Installation,SUMM-D00499
+misty.taylor@estradachang.example.com,Estrada-Chang - Emergency,Summit HVAC - Emergency,Lost,4500,2026-08-07,Call Tracking,HVAC,58.4,Caleb Turner,Emergency,SUMM-D00500
+katrina.campbell@ibarraandsons.example.com,Ibarra and Sons - Maintenance,Summit HVAC - Maintenance,Lost,8850,2026-08-26,Outbound,HVAC,56.3,Lucia Romero,Maintenance,SUMM-D00501
+margaret.patterson@brennanholden.example.com,Brennan-Holden - Emergency,Summit HVAC - Emergency,Lost,4300,2026-08-03,Referral,HVAC,56.2,Caleb Turner,Emergency,SUMM-D00502
+elizabeth.elliott@birdcastro.example.com,Bird-Castro - Maintenance,Summit HVAC - Maintenance,Lost,6450,2026-08-07,Outbound,HVAC,,Ben Foster,Maintenance,SUMM-D00503
+john.wilson@millerkennedy.example.com,Miller-Kennedy - Maintenance,Summit HVAC - Maintenance,Lost,11300,2026-08-12,Call Tracking,HVAC,54.3,Hannah Price,Maintenance,SUMM-D00504
+aaron.ortega@nelsonandsons.example.com,Nelson and Sons - Maintenance,Summit HVAC - Maintenance,Won,3500,2026-08-25,Call Tracking,HVAC,48.3,Hannah Price,Maintenance,SUMM-D00505
+joseph.woods@jeffersonvalenzuelaandso.example.com,Jefferson Valenzuela and Solomon - Maintenance,Summit HVAC - Maintenance,Lost,6400,2026-08-13,Referral,HVAC,48.4,Hannah Price,Maintenance,SUMM-D00506
+james.miller@gregorybarber.example.com,Gregory-Barber - Emergency,Summit HVAC - Emergency,Lost,4100,2026-08-05,Outbound,HVAC,50.8,Lucia Romero,Emergency,SUMM-D00507
+kevin.hampton@hallwells.example.com,Hall-Wells - Installation,Summit HVAC - Installation,Lost,9300,2026-08-24,Referral,HVAC,35.2,Andre Coleman,Installation,SUMM-D00508
+andrew.hernandez@collinsbuck.example.com,Collins-Buck - Installation,Summit HVAC - Installation,Lost,15350,2026-08-19,Google Ads,HVAC,37.4,Andre Coleman,Installation,SUMM-D00509
+stephanie.hudson@kennedycollinsandkeith.example.com,Kennedy Collins and Keith - Installation,Summit HVAC - Installation,Proposal,23900,,Outbound,HVAC,32.6,Andre Coleman,Installation,SUMM-D00510
+ashley.white@padillaruiz.example.com,Padilla-Ruiz - Installation,Summit HVAC - Installation,Lost,12600,2026-08-21,Outbound,HVAC,33.4,Caleb Turner,Installation,SUMM-D00511
+sarah.hamilton@johnsonltd.example.com,Johnson Ltd - Maintenance,Summit HVAC - Maintenance,Lost,6200,2026-08-10,Outbound,HVAC,44.0,Lucia Romero,Maintenance,SUMM-D00512
+xavier.rowe@bryantmacdonaldandsmith.example.com,Bryant Macdonald and Smith - Maintenance,Summit HVAC - Maintenance,Lost,5400,2026-09-02,Call Tracking,HVAC,50.9,Lucia Romero,Maintenance,SUMM-D00513
+troy.graham@torresgroup.example.com,Torres Group - Maintenance,Summit HVAC - Maintenance,Lost,7550,2026-08-18,Outbound,HVAC,48.0,Maya Ortiz,Maintenance,SUMM-D00514
+daniel.marks@lewisllc.example.com,Lewis LLC - Maintenance,Summit HVAC - Maintenance,Lost,7800,2026-08-27,Referral,HVAC,47.6,Andre Coleman,Maintenance,SUMM-D00515
+rachel.nash@richardsonryanandjordan.example.com,Richardson Ryan and Jordan - Emergency,Summit HVAC - Emergency,Lost,2300,2026-08-08,Referral,HVAC,,Caleb Turner,Emergency,SUMM-D00516
+amy.vargas@meyermitchell.example.com,Meyer-Mitchell - Maintenance,Summit HVAC - Maintenance,Lost,5700,2026-08-19,Referral,HVAC,48.9,Andre Coleman,Maintenance,SUMM-D00517
+frank.ford@doyleandsons.example.com,Doyle and Sons - Installation,Summit HVAC - Installation,Lost,15700,2026-08-26,Call Tracking,HVAC,37.2,Maya Ortiz,Installation,SUMM-D00518
+peggy.logan@pricecooley.example.com,Price-Cooley - Installation,Summit HVAC - Installation,Lost,10000,2026-08-24,Outbound,HVAC,,Hannah Price,Installation,SUMM-D00519
+karen.moore@dunnandsons.example.com,Dunn and Sons - Installation,Summit HVAC - Installation,Lost,15600,2026-08-17,Referral,HVAC,33.6,Andre Coleman,Installation,SUMM-D00520
+george.edwards@newmancarsonandingram.example.com,Newman Carson and Ingram - Installation,Summit HVAC - Installation,Lost,36850,2026-09-01,Call Tracking,HVAC,41.3,Caleb Turner,Installation,SUMM-D00521
+lisa.evans@rodriguezlawsonanddorsey.example.com,Rodriguez Lawson and Dorsey - Maintenance,Summit HVAC - Maintenance,Lost,6600,2026-08-19,Outbound,HVAC,48.5,Caleb Turner,Maintenance,SUMM-D00522
+lisa.cameron@reyesterrellandbray.example.com,Reyes Terrell and Bray - Maintenance,Summit HVAC - Maintenance,Lost,17300,2026-08-16,Outbound,HVAC,49.9,Caleb Turner,Maintenance,SUMM-D00523
+kenneth.orozco@thompsonandsons.example.com,Thompson and Sons - Maintenance,Summit HVAC - Maintenance,Lost,8900,2026-08-18,Outbound,HVAC,49.8,Caleb Turner,Maintenance,SUMM-D00524
+dylan.wright@thomasreedandgarrison.example.com,Thomas Reed and Garrison - Emergency,Summit HVAC - Emergency,Lost,4100,2026-08-10,Call Tracking,HVAC,55.4,Hannah Price,Emergency,SUMM-D00525
+rebecca.daniel@stevensgroup.example.com,Stevens Group - Maintenance,Summit HVAC - Maintenance,Won,4400,2026-08-26,Call Tracking,HVAC,51.6,Caleb Turner,Maintenance,SUMM-D00526
+julie.kidd@coxgroup.example.com,Cox Group - Installation,Summit HVAC - Installation,Lost,12650,2026-08-18,Google Ads,HVAC,46.2,Caleb Turner,Installation,SUMM-D00527
+jeremiah.house@blairbriggs.example.com,Blair-Briggs - Maintenance,Summit HVAC - Maintenance,Lost,5600,2026-08-14,Outbound,HVAC,45.3,Caleb Turner,Maintenance,SUMM-D00528
+krista.williams@lawrencesampsonandlee.example.com,Lawrence Sampson and Lee - Maintenance,Summit HVAC - Maintenance,Lost,6150,2026-09-05,Meta Ads,HVAC,52.2,Caleb Turner,Maintenance,SUMM-D00529
+susan.rogers@khanhigginsandkim.example.com,Khan Higgins and Kim - Installation,Summit HVAC - Installation,Lost,14450,2026-09-10,Referral,HVAC,37.9,Lucia Romero,Installation,SUMM-D00530
+chelsea.lawrence@scottpageandperry.example.com,Scott Page and Perry - Emergency,Summit HVAC - Emergency,Lost,3650,2026-08-12,Call Tracking,HVAC,44.7,Andre Coleman,Emergency,SUMM-D00531
+cindy.hernandez@danielssimsandbrown.example.com,Daniels Sims and Brown - Maintenance,Summit HVAC - Maintenance,Lost,8500,2026-08-19,Referral,HVAC,,Maya Ortiz,Maintenance,SUMM-D00532
+mackenzie.gonzalez@nelsoninc.example.com,Nelson Inc - Installation,Summit HVAC - Installation,Lost,10650,2026-08-17,Referral,HVAC,34.8,Hannah Price,Installation,SUMM-D00533
+theresa.vaughan@stanleyhunterandware.example.com,Stanley Hunter and Ware - Maintenance,Summit HVAC - Maintenance,Lost,8350,2026-08-29,Referral,HVAC,51.7,Maya Ortiz,Maintenance,SUMM-D00534
+michelle.smith@jordanbolton.example.com,Jordan-Bolton - Maintenance,Summit HVAC - Maintenance,Won,7500,2026-09-15,Call Tracking,HVAC,49.9,Caleb Turner,Maintenance,SUMM-D00535
+cody.riley@johnsoninc.example.com,Johnson Inc - Maintenance,Summit HVAC - Maintenance,Lost,6900,2026-08-26,Outbound,HVAC,53.6,Caleb Turner,Maintenance,SUMM-D00536
+rebecca.ruiz@mcgeechenandpeterson.example.com,Mcgee Chen and Peterson - Maintenance,Summit HVAC - Maintenance,Lost,8450,2026-08-16,Referral,HVAC,52.5,Lucia Romero,Maintenance,SUMM-D00537
+timothy.mueller@hernandezjeffersonandwar.example.com,Hernandez Jefferson and Ward - Emergency,Summit HVAC - Emergency,Lost,3950,2026-08-13,Referral,HVAC,63.9,Caleb Turner,Emergency,SUMM-D00538
+elizabeth.leonard@ortegachungandwilson.example.com,Ortega Chung and Wilson - Emergency,Summit HVAC - Emergency,Lost,3650,2026-08-14,Call Tracking,HVAC,58.6,Hannah Price,Emergency,SUMM-D00539
+emma.vasquez@daviswilliamsandwilliams.example.com,Davis Williams and Williams - Maintenance,Summit HVAC - Maintenance,Won,8500,2026-09-08,Referral,HVAC,46.9,Caleb Turner,Maintenance,SUMM-D00540
+amanda.morris@brownjonesandwilliams.example.com,Brown Jones and Williams - Maintenance,Summit HVAC - Maintenance,Lost,6000,2026-08-25,Google Ads,HVAC,57.2,Caleb Turner,Maintenance,SUMM-D00541
+cheryl.cook@coxkelley.example.com,Cox-Kelley - Maintenance,Summit HVAC - Maintenance,Lost,4700,2026-09-04,Outbound,HVAC,58.7,Maya Ortiz,Maintenance,SUMM-D00542
+sandra.mendoza@williamsallen.example.com,Williams-Allen - Installation,Summit HVAC - Installation,Proposal,12400,,Outbound,HVAC,45.2,Maya Ortiz,Installation,SUMM-D00543
+angela.murphy@schwartzllc.example.com,Schwartz LLC - Maintenance,Summit HVAC - Maintenance,Lost,8200,2026-08-28,Outbound,HVAC,44.6,Caleb Turner,Maintenance,SUMM-D00544
+michael.monroe@williamsandsons.example.com,Williams and Sons - Emergency,Summit HVAC - Emergency,Lost,3800,2026-08-15,Call Tracking,HVAC,57.2,Caleb Turner,Emergency,SUMM-D00545
+tanya.johnson@andersenholmesandhardin.example.com,Andersen Holmes and Hardin - Emergency,Summit HVAC - Emergency,Lost,4850,2026-08-15,Google Ads,HVAC,52.9,Maya Ortiz,Emergency,SUMM-D00546
+john.preston@contrerasltd.example.com,Contreras Ltd - Installation,Summit HVAC - Installation,Lost,25750,2026-09-29,Outbound,HVAC,39.6,Caleb Turner,Installation,SUMM-D00547
+charles.roberts@kelleyllc.example.com,Kelley LLC - Emergency,Summit HVAC - Emergency,Lost,1150,2026-08-17,Referral,HVAC,57.2,Caleb Turner,Emergency,SUMM-D00548
+tyler.andrade@gonzalezkemp.example.com,Gonzalez-Kemp - Installation,Summit HVAC - Installation,Lost,20450,2026-08-26,Google Ads,HVAC,32.1,Maya Ortiz,Installation,SUMM-D00549
+rebecca.ward@daughertyplc.example.com,Daugherty PLC - Emergency,Summit HVAC - Emergency,Won,3550,2026-08-19,Call Tracking,HVAC,57.8,Andre Coleman,Emergency,SUMM-D00550
+thomas.maddox@burkefrost.example.com,Burke-Frost - Emergency,Summit HVAC - Emergency,Lost,6350,2026-08-17,Outbound,HVAC,54.5,Caleb Turner,Emergency,SUMM-D00551
+daniel.williams@mileszavala.example.com,Miles-Zavala - Emergency,Summit HVAC - Emergency,Lost,2850,2026-08-17,Call Tracking,HVAC,50.8,Caleb Turner,Emergency,SUMM-D00552
+christine.rose@turnerjohnsonandmann.example.com,Turner Johnson and Mann - Maintenance,Summit HVAC - Maintenance,Proposal,7700,,Referral,HVAC,51.8,Caleb Turner,Maintenance,SUMM-D00553
+kathleen.savage@cruzdixonandscott.example.com,Cruz Dixon and Scott - Installation,Summit HVAC - Installation,Lost,13800,2026-09-15,Google Ads,HVAC,39.1,Caleb Turner,Installation,SUMM-D00554
+cody.fernandez@mossdoyle.example.com,Moss-Doyle - Emergency,Summit HVAC - Emergency,Lost,6200,2026-08-18,Google Ads,HVAC,51.9,Lucia Romero,Emergency,SUMM-D00555
+timothy.porter@brownford.example.com,Brown-Ford - Maintenance,Summit HVAC - Maintenance,Lost,6600,2026-08-27,Call Tracking,HVAC,53.2,Maya Ortiz,Maintenance,SUMM-D00556
+joseph.ross@johnsonnichols.example.com,Johnson-Nichols - Installation,Summit HVAC - Installation,Lost,22900,2026-09-04,Outbound,HVAC,45.4,Andre Coleman,Installation,SUMM-D00557
+amy.cross@parksbeck.example.com,Parks-Beck - Maintenance,Summit HVAC - Maintenance,Lost,5400,2026-08-31,Outbound,HVAC,49.9,Caleb Turner,Maintenance,SUMM-D00558
+kelly.kim@adamscoleandpark.example.com,Adams Cole and Park - Emergency,Summit HVAC - Emergency,Lost,3550,2026-08-18,Outbound,HVAC,,Andre Coleman,Emergency,SUMM-D00559
+crystal.vazquez@morganbartonandhunt.example.com,Morgan Barton and Hunt - Emergency,Summit HVAC - Emergency,Lost,4000,2026-08-21,Call Tracking,HVAC,57.2,Ben Foster,Emergency,SUMM-D00560
+brittany.jackson@perezbrown.example.com,Perez-Brown - Installation,Summit HVAC - Installation,Lost,17400,2026-09-06,Outbound,HVAC,,Caleb Turner,Installation,SUMM-D00561
+tonya.walls@perezwilsonandbanks.example.com,Perez Wilson and Banks - Maintenance,Summit HVAC - Maintenance,Lost,7600,2026-08-28,Outbound,HVAC,55.8,Maya Ortiz,Maintenance,SUMM-D00562
+kenneth.perry@hurleyyoung.example.com,Hurley-Young - Maintenance,Summit HVAC - Maintenance,Lost,9950,2026-08-29,Outbound,HVAC,,Andre Coleman,Maintenance,SUMM-D00563
+david.miller@fletchersanchezandsmith.example.com,Fletcher Sanchez and Smith - Emergency,Summit HVAC - Emergency,Lost,3500,2026-08-22,Call Tracking,HVAC,53.8,Lucia Romero,Emergency,SUMM-D00564
+dawn.olson@reedross.example.com,Reed-Ross - Emergency,Summit HVAC - Emergency,Lost,3350,2026-08-19,Referral,HVAC,49.2,Caleb Turner,Emergency,SUMM-D00565
+emily.huerta@bowersramirezandking.example.com,Bowers Ramirez and King - Installation,Summit HVAC - Installation,Lost,8250,2026-08-31,Referral,HVAC,41.4,Maya Ortiz,Installation,SUMM-D00566
+brandy.bell@littlehawkinsandevans.example.com,Little Hawkins and Evans - Emergency,Summit HVAC - Emergency,Lost,3100,2026-08-21,Call Tracking,HVAC,60.4,Caleb Turner,Emergency,SUMM-D00567
+richard.roth@owensplc.example.com,Owens PLC - Emergency,Summit HVAC - Emergency,Lost,2050,2026-08-21,Outbound,HVAC,56.3,Caleb Turner,Emergency,SUMM-D00568
+cindy.pruitt@pottermason.example.com,Potter-Mason - Installation,Summit HVAC - Installation,Lost,12400,2026-08-30,Outbound,HVAC,38.7,Caleb Turner,Installation,SUMM-D00569
+james.morris@ruizlevine.example.com,Ruiz-Levine - Maintenance,Summit HVAC - Maintenance,Lost,7000,2026-08-27,Call Tracking,HVAC,50.4,Caleb Turner,Maintenance,SUMM-D00570
+john.young@abbottmillerandcalderon.example.com,Abbott Miller and Calderon - Maintenance,Summit HVAC - Maintenance,Lost,10250,2026-08-31,Outbound,HVAC,48.1,Lucia Romero,Maintenance,SUMM-D00571
+andrea.mullins@fitzpatrickltd.example.com,Fitzpatrick Ltd - Installation,Summit HVAC - Installation,Lost,13450,2026-09-03,Referral,HVAC,38.8,Caleb Turner,Installation,SUMM-D00572
+marie.wolf@brayinc.example.com,Bray Inc - Emergency,Summit HVAC - Emergency,Lost,2800,2026-08-23,Call Tracking,HVAC,56.6,Ben Foster,Emergency,SUMM-D00573
+lawrence.brooks@shafferltd.example.com,Shaffer Ltd - Installation,Summit HVAC - Installation,Lost,11000,2026-08-28,Outbound,HVAC,41.3,Caleb Turner,Installation,SUMM-D00574
+michael.ramirez@joycehowellandcox.example.com,Joyce Howell and Cox - Maintenance,Summit HVAC - Maintenance,Lost,6900,2026-09-03,Outbound,HVAC,52.1,Lucia Romero,Maintenance,SUMM-D00575
+heather.brown@martinezandsons.example.com,Martinez and Sons - Installation,Summit HVAC - Installation,Won,25100,2026-09-22,Outbound,HVAC,28.8,Caleb Turner,Installation,SUMM-D00576
+gregory.frey@nelsonhammond.example.com,Nelson-Hammond - Emergency,Summit HVAC - Emergency,Lost,3000,2026-08-22,Call Tracking,HVAC,47.1,Caleb Turner,Emergency,SUMM-D00577
+jennifer.hicks@terrysanchezanddunlap.example.com,Terry Sanchez and Dunlap - Emergency,Summit HVAC - Emergency,Lost,2950,2026-08-24,Call Tracking,HVAC,51.5,Hannah Price,Emergency,SUMM-D00578
+brittney.gonzalez@brownhollandandstuart.example.com,Brown Holland and Stuart - Emergency,Summit HVAC - Emergency,Lost,2000,2026-08-23,Referral,HVAC,64.3,Caleb Turner,Emergency,SUMM-D00579
+amber.rice@davisltd.example.com,Davis Ltd - Installation,Summit HVAC - Installation,Lost,15300,2026-09-09,Outbound,HVAC,41.3,Maya Ortiz,Installation,SUMM-D00580
+nicole.myers@gutierrezwhite.example.com,Gutierrez-White - Maintenance,Summit HVAC - Maintenance,Lost,9750,2026-09-05,Referral,HVAC,51.6,Ben Foster,Maintenance,SUMM-D00581
+kristin.mason@hallllc.example.com,Hall LLC - Emergency,Summit HVAC - Emergency,Lost,5000,2026-08-23,Google Ads,HVAC,,Caleb Turner,Emergency,SUMM-D00582
+amanda.pope@foleygroup.example.com,Foley Group - Maintenance,Summit HVAC - Maintenance,Proposal,8500,,Call Tracking,HVAC,55.7,Caleb Turner,Maintenance,SUMM-D00583
+melissa.johnson@martinezllc.example.com,Martinez LLC - Installation,Summit HVAC - Installation,Lost,19600,2026-09-09,Outbound,HVAC,,Maya Ortiz,Installation,SUMM-D00584
+kenneth.nelson@hallplc.example.com,Hall PLC - Installation,Summit HVAC - Installation,Lost,15200,2026-09-01,Outbound,HVAC,38.4,Andre Coleman,Installation,SUMM-D00585
+rachael.davis@liinc.example.com,Li Inc - Emergency,Summit HVAC - Emergency,Lost,6500,2026-08-25,Call Tracking,HVAC,51.8,Ben Foster,Emergency,SUMM-D00586
+vincent.maxwell@johnsoncuevas.example.com,Johnson-Cuevas - Maintenance,Summit HVAC - Maintenance,Lost,11200,2026-09-01,Outbound,HVAC,52.0,Maya Ortiz,Maintenance,SUMM-D00587
+ashley.brown@buchananchristensenandlo.example.com,Buchanan Christensen and Lopez - Installation,Summit HVAC - Installation,Lost,12750,2026-09-11,Outbound,HVAC,45.7,Andre Coleman,Installation,SUMM-D00588
+calvin.bailey@webbinc.example.com,Webb Inc - Emergency,Summit HVAC - Emergency,Lost,2250,2026-08-27,Call Tracking,HVAC,53.2,Caleb Turner,Emergency,SUMM-D00589
+richard.ortiz@peckfarrellandwood.example.com,Peck Farrell and Wood - Installation,Summit HVAC - Installation,Lost,16950,2026-09-09,Outbound,HVAC,52.8,Caleb Turner,Installation,SUMM-D00590
+michael.ross@gilbertcox.example.com,Gilbert-Cox - Installation,Summit HVAC - Installation,Won,16500,2026-09-16,Meta Ads,HVAC,44.0,Caleb Turner,Installation,SUMM-D00591
+desiree.taylor@aguilarjenkins.example.com,Aguilar-Jenkins - Installation,Summit HVAC - Installation,Lost,25700,2026-09-06,Referral,HVAC,36.7,Hannah Price,Installation,SUMM-D00592
+ricky.miller@parkerdowns.example.com,Parker-Downs - Installation,Summit HVAC - Installation,Qualified,19300,,Call Tracking,HVAC,34.2,Caleb Turner,Installation,SUMM-D00593
+tyler.hodges@bellloweryandcastro.example.com,Bell Lowery and Castro - Maintenance,Summit HVAC - Maintenance,Lost,7600,2026-09-03,Referral,HVAC,51.7,Summit Dispatch Queue,Maintenance,SUMM-D00594
+andrea.sanchez@mckeeandsons.example.com,Mckee and Sons - Maintenance,Summit HVAC - Maintenance,Won,14350,2026-09-26,Outbound,HVAC,,Caleb Turner,Maintenance,SUMM-D00595
+michael.le@kiddltd.example.com,Kidd Ltd - Installation,Summit HVAC - Installation,Lost,14500,2026-09-07,Outbound,HVAC,35.9,Caleb Turner,Installation,SUMM-D00596
+jonathan.gould@dennisstevensandlawson.example.com,Dennis Stevens and Lawson - Emergency,Summit HVAC - Emergency,Lost,3200,2026-08-28,Google Ads,HVAC,54.4,Lucia Romero,Emergency,SUMM-D00597
+amber.morris@copelandavilaandmorales.example.com,Copeland Avila and Morales - Maintenance,Summit HVAC - Maintenance,Lost,9250,2026-09-06,Outbound,HVAC,57.5,Andre Coleman,Maintenance,SUMM-D00598
+elizabeth.smith@collinscooper.example.com,Collins-Cooper - Emergency,Summit HVAC - Emergency,Lost,2550,2026-08-29,Call Tracking,HVAC,55.0,Ben Foster,Emergency,SUMM-D00599
+catherine.williams@mosleyyoung.example.com,Mosley-Young - Emergency,Summit HVAC - Emergency,Won,1450,2026-08-29,Call Tracking,HVAC,52.0,Hannah Price,Emergency,SUMM-D00600
+james.hanna@dennislinandharris.example.com,Dennis Lin and Harris - Maintenance,Summit HVAC - Maintenance,Lost,9450,2026-09-27,Referral,HVAC,50.5,Caleb Turner,Maintenance,SUMM-D00601
+john.jenkins@tannerllc.example.com,Tanner LLC - Emergency,Summit HVAC - Emergency,Won,3000,2026-09-01,Call Tracking,HVAC,47.5,Maya Ortiz,Emergency,SUMM-D00602
+juan.larsen@randalljohnson.example.com,Randall-Johnson - Installation,Summit HVAC - Installation,Lost,11450,2026-09-13,Outbound,HVAC,38.6,Lucia Romero,Installation,SUMM-D00603
+joseph.leon@morselopezandserrano.example.com,Morse Lopez and Serrano - Installation,Summit HVAC - Installation,Lost,16450,2026-09-18,Referral,HVAC,42.7,Lucia Romero,Installation,SUMM-D00604
+patrick.travis@calderonkelly.example.com,Calderon-Kelly - Maintenance,Summit HVAC - Maintenance,Lost,13900,2026-08-31,Outbound,HVAC,46.9,Caleb Turner,Maintenance,SUMM-D00605
+tracey.johnson@campbellscott.example.com,Campbell-Scott - Emergency,Summit HVAC - Emergency,Lost,2050,2026-08-29,Call Tracking,HVAC,54.1,Andre Coleman,Emergency,SUMM-D00606
+christopher.watson@ortegaltd.example.com,Ortega Ltd - Installation,Summit HVAC - Installation,Lost,11850,2026-09-11,Referral,HVAC,33.2,Caleb Turner,Installation,SUMM-D00607
+lance.stewart@mcintoshnolan.example.com,Mcintosh-Nolan - Maintenance,Summit HVAC - Maintenance,Won,7450,2026-09-28,Google Ads,HVAC,48.2,Lucia Romero,Maintenance,SUMM-D00608
+christopher.mayer@mcmillanllc.example.com,Mcmillan LLC - Installation,Summit HVAC - Installation,Lost,6150,2026-09-11,Outbound,HVAC,41.5,Caleb Turner,Installation,SUMM-D00609
+thomas.williams@summersmorenoandingram.example.com,Summers Moreno and Ingram - Maintenance,Summit HVAC - Maintenance,Lost,7750,2026-09-13,Outbound,HVAC,54.6,Andre Coleman,Maintenance,SUMM-D00610
+allen.wolfe@kanejonesandmills.example.com,Kane Jones and Mills - Installation,Summit HVAC - Installation,Lost,16250,2026-09-19,Referral,HVAC,39.2,Caleb Turner,Installation,SUMM-D00611
+sabrina.myers@williamszamoraandhawkins.example.com,Williams Zamora and Hawkins - Installation,Summit HVAC - Installation,Lost,16300,2026-09-15,Call Tracking,HVAC,,Maya Ortiz,Installation,SUMM-D00612
+randy.hernandez@holtbaileyandryan.example.com,Holt Bailey and Ryan - Emergency,Summit HVAC - Emergency,Lost,2300,2026-08-31,Referral,HVAC,60.1,Hannah Price,Emergency,SUMM-D00613
+danielle.roberts@waltongroup.example.com,Walton Group - Installation,Summit HVAC - Installation,Lost,17350,2026-09-17,Outbound,HVAC,36.7,Ben Foster,Installation,SUMM-D00614
+tara.sanders@fosterdouglasandharris.example.com,Foster Douglas and Harris - Installation,Summit HVAC - Installation,Lost,10050,2026-09-14,Outbound,HVAC,36.8,Caleb Turner,Installation,SUMM-D00615
+andrea.kirk@bellwilson.example.com,Bell-Wilson - Emergency,Summit HVAC - Emergency,Lost,4750,2026-09-01,Call Tracking,HVAC,50.8,Maya Ortiz,Emergency,SUMM-D00616
+joanna.johnson@coopercooke.example.com,Cooper-Cooke - Emergency,Summit HVAC - Emergency,Lost,2500,2026-08-31,Call Tracking,HVAC,57.2,Ben Foster,Emergency,SUMM-D00617
+jennifer.cook@carrilloramseyandhunter.example.com,Carrillo Ramsey and Hunter - Emergency,Summit HVAC - Emergency,Lost,3550,2026-09-01,Outbound,HVAC,53.8,Lucia Romero,Emergency,SUMM-D00618
+lisa.murphy@heathgrahamandmiller.example.com,Heath Graham and Miller - Maintenance,Summit HVAC - Maintenance,Lost,8650,2026-09-14,Outbound,HVAC,49.0,Maya Ortiz,Maintenance,SUMM-D00619
+linda.moody@hillcook.example.com,Hill-Cook - Emergency,Summit HVAC - Emergency,Lost,3600,2026-09-01,Google Ads,HVAC,61.5,Andre Coleman,Emergency,SUMM-D00620
+emily.williams@joneshayesandmontoya.example.com,Jones Hayes and Montoya - Installation,Summit HVAC - Installation,Lost,26950,2026-09-16,Google Ads,HVAC,40.4,Caleb Turner,Installation,SUMM-D00621
+daniel.torres@millerandsons.example.com,Miller and Sons - Maintenance,Summit HVAC - Maintenance,Lost,9400,2026-09-10,Outbound,HVAC,50.1,Ben Foster,Maintenance,SUMM-D00622
+michelle.jensen@sanchezhoward.example.com,Sanchez-Howard - Installation,Summit HVAC - Installation,Lost,24250,2026-09-10,Google Ads,HVAC,37.6,Hannah Price,Installation,SUMM-D00623
+james.leblanc@millsmurray.example.com,Mills-Murray - Maintenance,Summit HVAC - Maintenance,Lost,6000,2026-09-18,Outbound,HVAC,51.0,Hannah Price,Maintenance,SUMM-D00624
+amber.richards@lewisgroup.example.com,Lewis Group - Installation,Summit HVAC - Installation,Lost,11550,2026-09-27,Call Tracking,HVAC,34.3,Caleb Turner,Installation,SUMM-D00625
+john.douglas@glovermccoy.example.com,Glover-Mccoy - Installation,Summit HVAC - Installation,Lost,30800,2026-09-09,Call Tracking,HVAC,,Ben Foster,Installation,SUMM-D00626
+nicole.garcia@huntdavis.example.com,Hunt-Davis - Maintenance,Summit HVAC - Maintenance,Lost,7950,2026-09-29,Call Tracking,HVAC,50.0,Caleb Turner,Maintenance,SUMM-D00627
+phillip.hernandez@booneandsons.example.com,Boone and Sons - Installation,Summit HVAC - Installation,Contacted,10400,,Meta Ads,HVAC,,Ben Foster,Installation,SUMM-D00628
+edward.flores@velasquezgroup.example.com,Velasquez Group - Maintenance,Summit HVAC - Maintenance,Lost,8250,2026-09-28,Call Tracking,HVAC,51.0,Ben Foster,Maintenance,SUMM-D00629
+laura.reed@rodriguezcarey.example.com,Rodriguez-Carey - Emergency,Summit HVAC - Emergency,Lost,6150,2026-09-07,Outbound,HVAC,64.2,Caleb Turner,Emergency,SUMM-D00630
+arthur.small@blackhernandez.example.com,Black-Hernandez - Maintenance,Summit HVAC - Maintenance,Lost,6450,2026-09-14,Outbound,HVAC,,Caleb Turner,Maintenance,SUMM-D00631
+dennis.robles@davisgroup.example.com,Davis Group - Maintenance,Summit HVAC - Maintenance,Lost,3950,2026-09-20,Outbound,HVAC,50.4,Ben Foster,Maintenance,SUMM-D00632
+rebekah.mercer@bryanhicks.example.com,Bryan-Hicks - Emergency,Summit HVAC - Emergency,Lost,1400,2026-09-09,Call Tracking,HVAC,57.7,Maya Ortiz,Emergency,SUMM-D00633
+todd.allen@jonesllc.example.com,Jones LLC - Emergency,Summit HVAC - Emergency,Lost,2750,2026-09-09,Referral,HVAC,66.4,Andre Coleman,Emergency,SUMM-D00634
+sean.williams@phillipsthomas.example.com,Phillips-Thomas - Maintenance,Summit HVAC - Maintenance,Qualified,4900,,Outbound,HVAC,47.5,Caleb Turner,Maintenance,SUMM-D00635
+cassidy.smith@swansonllc.example.com,Swanson LLC - Emergency,Summit HVAC - Emergency,Lost,3550,2026-09-11,Call Tracking,HVAC,62.9,Caleb Turner,Emergency,SUMM-D00636
+kathryn.watson@rhodesgroup.example.com,Rhodes Group - Installation,Summit HVAC - Installation,Lost,21100,2026-09-27,Referral,HVAC,43.0,Lucia Romero,Installation,SUMM-D00637
+michael.vasquez@orrpriceandjohnson.example.com,Orr Price and Johnson - Maintenance,Summit HVAC - Maintenance,Proposal,5500,,Call Tracking,HVAC,52.2,Caleb Turner,Maintenance,SUMM-D00638
+rita.potter@sanchezltd.example.com,Sanchez Ltd - Maintenance,Summit HVAC - Maintenance,Lost,9600,2026-09-13,Outbound,HVAC,57.8,Caleb Turner,Maintenance,SUMM-D00639
+john.grant@harringtonreid.example.com,Harrington-Reid - Installation,Summit HVAC - Installation,Lost,10200,2026-09-20,Meta Ads,HVAC,37.9,Caleb Turner,Installation,SUMM-D00640
+erik.jordan@orrhughesandking.example.com,Orr Hughes and King - Maintenance,Summit HVAC - Maintenance,Lost,6250,2026-09-18,Outbound,HVAC,52.0,Caleb Turner,Maintenance,SUMM-D00641
+jonathan.stokes@robinsonplc.example.com,Robinson PLC - Emergency,Summit HVAC - Emergency,Lost,5900,2026-09-10,Call Tracking,HVAC,64.5,Andre Coleman,Emergency,SUMM-D00642
+samantha.shelton@pagellc.example.com,Page LLC - Installation,Summit HVAC - Installation,Contacted,33350,,Referral,HVAC,30.4,Andre Coleman,Installation,SUMM-D00643
+frank.foley@hernandezrodriguezandmen.example.com,Hernandez Rodriguez and Mendez - Maintenance,Summit HVAC - Maintenance,Lost,6800,2026-09-18,Google Ads,HVAC,52.7,Andre Coleman,Maintenance,SUMM-D00644
+edward.kelly@torresplc.example.com,Torres PLC - Maintenance,Summit HVAC - Maintenance,Lost,3250,2026-09-16,Referral,HVAC,49.0,Andre Coleman,Maintenance,SUMM-D00645
+joseph.bryant@scottbarnesandperez.example.com,Scott Barnes and Perez - Emergency,Summit HVAC - Emergency,Lost,3150,2026-09-13,Google Ads,HVAC,56.8,Hannah Price,Emergency,SUMM-D00646
+kelli.foster@bucklane.example.com,Buck-Lane - Installation,Summit HVAC - Installation,Lost,9750,2026-09-28,Meta Ads,HVAC,50.0,Andre Coleman,Installation,SUMM-D00647
+catherine.garcia@moralesjordan.example.com,Morales-Jordan - Emergency,Summit HVAC - Emergency,Lost,4800,2026-09-12,Call Tracking,HVAC,44.1,Maya Ortiz,Emergency,SUMM-D00648
+megan.rodriguez@hermanhudsonandcohen.example.com,Herman Hudson and Cohen - Emergency,Summit HVAC - Emergency,Won,3700,2026-09-15,Referral,HVAC,,Caleb Turner,Emergency,SUMM-D00649
+donald.williams@villarrealjosephandwilso.example.com,Villarreal Joseph and Wilson - Installation,Summit HVAC - Installation,Contacted,17850,,Outbound,HVAC,,Maya Ortiz,Installation,SUMM-D00650
+chad.roberts@hammondwilsonandcopeland.example.com,Hammond Wilson and Copeland - Maintenance,Summit HVAC - Maintenance,Lost,3900,2026-09-19,Call Tracking,HVAC,51.2,Maya Ortiz,Maintenance,SUMM-D00651
+stephen.moreno@lewisnguyen.example.com,Lewis-Nguyen - Emergency,Summit HVAC - Emergency,Lost,6000,2026-09-15,Google Ads,HVAC,55.3,Ben Foster,Emergency,SUMM-D00652
+jacqueline.glenn@simpsonandsons.example.com,Simpson and Sons - Installation,Summit HVAC - Installation,Lost,30200,2026-09-28,Referral,HVAC,38.7,Caleb Turner,Installation,SUMM-D00653
+james.morris@lopezgarrett.example.com,Lopez-Garrett - Maintenance,Summit HVAC - Maintenance,Proposal,4950,,Outbound,HVAC,50.0,Ben Foster,Maintenance,SUMM-D00654
+charles.stewart@duncanroweandsimon.example.com,Duncan Rowe and Simon - Emergency,Summit HVAC - Emergency,Lost,2100,2026-09-15,Call Tracking,HVAC,55.5,Caleb Turner,Emergency,SUMM-D00655
+mary.todd@wilkinsharper.example.com,Wilkins-Harper - Maintenance,Summit HVAC - Maintenance,Lost,12600,2026-09-22,Outbound,HVAC,53.1,Summit Dispatch Queue,Maintenance,SUMM-D00656
+william.graham@newtonhood.example.com,Newton-Hood - Emergency,Summit HVAC - Emergency,Lost,5850,2026-09-17,Call Tracking,HVAC,58.6,Caleb Turner,Emergency,SUMM-D00657
+kayla.lopez@knoxandsons.example.com,Knox and Sons - Maintenance,Summit HVAC - Maintenance,Qualified,6300,,Outbound,HVAC,45.3,Andre Coleman,Maintenance,SUMM-D00658
+katherine.perez@nicholsoncraigandnunez.example.com,Nicholson Craig and Nunez - Maintenance,Summit HVAC - Maintenance,Lost,5650,2026-09-22,Outbound,HVAC,44.0,Hannah Price,Maintenance,SUMM-D00659
+robert.carr@garciaadamsandsnyder.example.com,Garcia Adams and Snyder - Maintenance,Summit HVAC - Maintenance,Lost,6500,2026-09-19,Outbound,HVAC,49.8,Ben Foster,Maintenance,SUMM-D00660
+veronica.ramirez@smithllc.example.com,Smith LLC - Maintenance,Summit HVAC - Maintenance,Lost,8600,2026-09-30,Referral,HVAC,58.0,Andre Coleman,Maintenance,SUMM-D00661
+daniel.haas@reynoldsdickerson.example.com,Reynolds-Dickerson - Installation,Summit HVAC - Installation,Lost,10000,2026-09-20,Outbound,HVAC,36.5,Maya Ortiz,Installation,SUMM-D00662
+hailey.clarke@colemangroup.example.com,Coleman Group - Emergency,Summit HVAC - Emergency,Lost,2750,2026-09-16,Call Tracking,HVAC,63.5,Caleb Turner,Emergency,SUMM-D00663
+victoria.gregory@brownthompson.example.com,Brown-Thompson - Maintenance,Summit HVAC - Maintenance,Proposal,8050,,Outbound,HVAC,49.3,Hannah Price,Maintenance,SUMM-D00664
+julie.maldonado@martininc.example.com,Martin Inc - Maintenance,Summit HVAC - Maintenance,Lost,12150,2026-09-25,Outbound,HVAC,50.6,Hannah Price,Maintenance,SUMM-D00665
+nicholas.anderson@mendozaclarkandjimenez.example.com,Mendoza Clark and Jimenez - Emergency,Summit HVAC - Emergency,Lost,1600,2026-09-17,Referral,HVAC,49.2,Hannah Price,Emergency,SUMM-D00666
+james.taylor@sharpmercadoandgreen.example.com,Sharp Mercado and Green - Emergency,Summit HVAC - Emergency,Lost,3200,2026-09-17,Call Tracking,HVAC,,Ben Foster,Emergency,SUMM-D00667
+christie.leon@carrollmartin.example.com,Carroll-Martin - Emergency,Summit HVAC - Emergency,Lost,3650,2026-09-17,Google Ads,HVAC,53.6,Caleb Turner,Emergency,SUMM-D00668
+stacey.jenkins@henryplc.example.com,Henry PLC - Emergency,Summit HVAC - Emergency,Lost,4350,2026-09-17,Call Tracking,HVAC,50.5,Andre Coleman,Emergency,SUMM-D00669
+raymond.page@combsplc.example.com,Combs PLC - Emergency,Summit HVAC - Emergency,Lost,2200,2026-09-21,Google Ads,HVAC,57.0,Caleb Turner,Emergency,SUMM-D00670
+hayley.holmes@palmeratkinson.example.com,Palmer-Atkinson - Maintenance,Summit HVAC - Maintenance,Lost,8400,2026-09-27,Referral,HVAC,52.2,Caleb Turner,Maintenance,SUMM-D00671
+william.delgado@harpermartinezandjohnson.example.com,Harper Martinez and Johnson - Emergency,Summit HVAC - Emergency,Lost,4750,2026-09-20,Call Tracking,HVAC,51.5,Lucia Romero,Emergency,SUMM-D00672
+gary.mack@meyerandsons.example.com,Meyer and Sons - Maintenance,Summit HVAC - Maintenance,Lost,5000,2026-09-29,Google Ads,HVAC,51.3,Andre Coleman,Maintenance,SUMM-D00673
+kelsey.randolph@hamiltonboydandellis.example.com,Hamilton Boyd and Ellis - Emergency,Summit HVAC - Emergency,Lost,3500,2026-09-19,Call Tracking,HVAC,58.0,Hannah Price,Emergency,SUMM-D00674
+joshua.stephenson@murraygroup.example.com,Murray Group - Emergency,Summit HVAC - Emergency,Lost,2300,2026-09-20,Google Ads,HVAC,49.6,Caleb Turner,Emergency,SUMM-D00675
+melissa.gibbs@fieldsinc.example.com,Fields Inc - Maintenance,Summit HVAC - Maintenance,Lost,12950,2026-09-29,Outbound,HVAC,59.8,Ben Foster,Maintenance,SUMM-D00676
+andrew.ellis@oliverhumphrey.example.com,Oliver-Humphrey - Emergency,Summit HVAC - Emergency,Lost,2600,2026-09-21,Call Tracking,HVAC,,Andre Coleman,Emergency,SUMM-D00677
+robert.trujillo@alexanderllc.example.com,Alexander LLC - Installation,Summit HVAC - Installation,Contacted,19500,,Outbound,HVAC,35.0,Caleb Turner,Installation,SUMM-D00678
+chad.phillips@brownandsons.example.com,Brown and Sons - Emergency,Summit HVAC - Emergency,Lost,2300,2026-09-19,Call Tracking,HVAC,57.3,Caleb Turner,Emergency,SUMM-D00679
+matthew.davis@liinc.example.com,Li Inc - Maintenance,Summit HVAC - Maintenance,Lost,8300,2026-09-24,Outbound,HVAC,,Ben Foster,Maintenance,SUMM-D00680
+carolyn.alexander@browninc.example.com,Brown Inc - Installation,Summit HVAC - Installation,Contacted,17500,,Call Tracking,HVAC,36.6,Caleb Turner,Installation,SUMM-D00681
+stacey.richardson@pricetrujillo.example.com,Price-Trujillo - Emergency,Summit HVAC - Emergency,Lost,2500,2026-09-21,Referral,HVAC,54.2,Hannah Price,Emergency,SUMM-D00682
+amber.becker@dyerinc.example.com,Dyer Inc - Installation,Summit HVAC - Installation,Contacted,13200,,Referral,HVAC,,Caleb Turner,Installation,SUMM-D00683
+ann.davis@durhamfloyd.example.com,Durham-Floyd - Installation,Summit HVAC - Installation,Contacted,29100,,Outbound,HVAC,,Hannah Price,Installation,SUMM-D00684
+jacob.young@bestplc.example.com,Best PLC - Installation,Summit HVAC - Installation,New,14700,,Meta Ads,HVAC,40.5,Hannah Price,Installation,SUMM-D00685
+diane.morris@collinsmercado.example.com,Collins-Mercado - Emergency,Summit HVAC - Emergency,Lost,3550,2026-09-24,Call Tracking,HVAC,54.6,Ben Foster,Emergency,SUMM-D00686
+brianna.greer@phillipsoliverandjenkins.example.com,Phillips Oliver and Jenkins - Installation,Summit HVAC - Installation,Contacted,23400,,Meta Ads,HVAC,41.6,Hannah Price,Installation,SUMM-D00687
+matthew.taylor@christensenandsons.example.com,Christensen and Sons - Maintenance,Summit HVAC - Maintenance,Lost,5850,2026-09-25,Meta Ads,HVAC,46.0,Caleb Turner,Maintenance,SUMM-D00688
+anthony.henson@banksinc.example.com,Banks Inc - Emergency,Summit HVAC - Emergency,Lost,4600,2026-09-23,Call Tracking,HVAC,55.0,Hannah Price,Emergency,SUMM-D00689
+theresa.henry@smithcampbellandwiggins.example.com,Smith Campbell and Wiggins - Maintenance,Summit HVAC - Maintenance,Lost,4700,2026-09-27,Outbound,HVAC,51.6,Maya Ortiz,Maintenance,SUMM-D00690
+maria.johnson@mccarthyinc.example.com,Mccarthy Inc - Installation,Summit HVAC - Installation,New,16450,,Outbound,HVAC,41.7,Caleb Turner,Installation,SUMM-D00691
+kimberly.walker@browningandsons.example.com,Browning and Sons - Installation,Summit HVAC - Installation,Contacted,22750,,Outbound,HVAC,39.8,Caleb Turner,Installation,SUMM-D00692
+jamie.santiago@jamesmillerandfuller.example.com,James Miller and Fuller - Emergency,Summit HVAC - Emergency,Lost,4900,2026-09-23,Referral,HVAC,46.9,Ben Foster,Emergency,SUMM-D00693
+monica.gonzales@hoovergroup.example.com,Hoover Group - Installation,Summit HVAC - Installation,Contacted,13850,,Outbound,HVAC,,Caleb Turner,Installation,SUMM-D00694
+jamie.galvan@josephacostaandbarrett.example.com,Joseph Acosta and Barrett - Emergency,Summit HVAC - Emergency,Lost,2100,2026-09-22,Outbound,HVAC,59.9,Caleb Turner,Emergency,SUMM-D00695
+james.baldwin@vegagoodwin.example.com,Vega-Goodwin - Installation,Summit HVAC - Installation,Contacted,14400,,Call Tracking,HVAC,,Andre Coleman,Installation,SUMM-D00696
+lindsey.murray@curtisltd.example.com,Curtis Ltd - Emergency,Summit HVAC - Emergency,Lost,2250,2026-09-23,Referral,HVAC,,Andre Coleman,Emergency,SUMM-D00697
+aaron.ramos@baileyphillips.example.com,Bailey-Phillips - Emergency,Summit HVAC - Emergency,Lost,1650,2026-09-24,Call Tracking,HVAC,50.8,Andre Coleman,Emergency,SUMM-D00698
+anna.yu@ramirezandsons.example.com,Ramirez and Sons - Installation,Summit HVAC - Installation,Contacted,14500,,Meta Ads,HVAC,39.6,Andre Coleman,Installation,SUMM-D00699
+sara.davis@gibsonsimonandpruitt.example.com,Gibson Simon and Pruitt - Maintenance,Summit HVAC - Maintenance,Qualified,6050,,Outbound,HVAC,49.8,Andre Coleman,Maintenance,SUMM-D00700
+audrey.nelson@hubbardhardyandpope.example.com,Hubbard Hardy and Pope - Emergency,Summit HVAC - Emergency,Lost,1750,2026-09-25,Referral,HVAC,49.9,Lucia Romero,Emergency,SUMM-D00701
+allison.wright@clarklee.example.com,Clark-Lee - Maintenance,Summit HVAC - Maintenance,New,8000,,Call Tracking,HVAC,46.5,Ben Foster,Maintenance,SUMM-D00702
+michael.proctor@adamspalmer.example.com,Adams-Palmer - Maintenance,Summit HVAC - Maintenance,New,4200,,Call Tracking,HVAC,49.5,Maya Ortiz,Maintenance,SUMM-D00703
+douglas.campbell@nguyenortiz.example.com,Nguyen-Ortiz - Maintenance,Summit HVAC - Maintenance,New,6000,,Outbound,HVAC,51.8,Andre Coleman,Maintenance,SUMM-D00704
+catherine.dixon@harrisonhoustonandbell.example.com,Harrison Houston and Bell - Maintenance,Summit HVAC - Maintenance,Contacted,5350,,Google Ads,HVAC,48.2,Hannah Price,Maintenance,SUMM-D00705
+robert.wilson@williamsltd.example.com,Williams Ltd - Installation,Summit HVAC - Installation,New,27000,,Referral,HVAC,39.7,Andre Coleman,Installation,SUMM-D00706
+anne.stephens@thompsonllc.example.com,Thompson LLC - Emergency,Summit HVAC - Emergency,Won,4500,2026-09-28,Call Tracking,HVAC,,Andre Coleman,Emergency,SUMM-D00707
+danny.roberts@wilsonplc.example.com,Wilson PLC - Installation,Summit HVAC - Installation,New,25350,,Call Tracking,HVAC,29.7,Andre Coleman,Installation,SUMM-D00708
+nicole.baker@hernandezinc.example.com,Hernandez Inc - Maintenance,Summit HVAC - Maintenance,Contacted,6800,,Outbound,HVAC,55.1,Caleb Turner,Maintenance,SUMM-D00709
+adam.rodriguez@suarezthomas.example.com,Suarez-Thomas - Installation,Summit HVAC - Installation,New,16300,,Referral,HVAC,33.4,Maya Ortiz,Installation,SUMM-D00710
+karen.simmons@townsendatkinsandfrost.example.com,Townsend Atkins and Frost - Emergency,Summit HVAC - Emergency,Lost,2200,2026-09-28,Google Ads,HVAC,47.8,Caleb Turner,Emergency,SUMM-D00711
+jonathan.moody@flynnburke.example.com,Flynn-Burke - Emergency,Summit HVAC - Emergency,Lost,4900,2026-09-27,Call Tracking,HVAC,57.5,Caleb Turner,Emergency,SUMM-D00712
+daniel.hoover@adamsharrisandmiller.example.com,Adams Harris and Miller - Maintenance,Summit HVAC - Maintenance,Contacted,8150,,Outbound,HVAC,50.3,Caleb Turner,Maintenance,SUMM-D00713
+stephen.ford@bendermcgee.example.com,Bender-Mcgee - Maintenance,Summit HVAC - Maintenance,Lost,6250,2026-09-30,Meta Ads,HVAC,,Hannah Price,Maintenance,SUMM-D00714
+robert.reeves@reidshepardandbrown.example.com,Reid Shepard and Brown - Maintenance,Summit HVAC - Maintenance,Contacted,7100,,Referral,HVAC,52.1,Maya Ortiz,Maintenance,SUMM-D00715
+karen.carroll@bakerltd.example.com,Baker Ltd - Maintenance,Summit HVAC - Maintenance,Contacted,13150,,Meta Ads,HVAC,43.8,Hannah Price,Maintenance,SUMM-D00716
+eric.norton@wrightltd.example.com,Wright Ltd - Maintenance,Summit HVAC - Maintenance,New,10200,,Referral,HVAC,,Caleb Turner,Maintenance,SUMM-D00717
+richard.brandt@jacksonperez.example.com,Jackson-Perez - Emergency,Summit HVAC - Emergency,Lost,3500,2026-09-28,Call Tracking,HVAC,55.2,Ben Foster,Emergency,SUMM-D00718
+tanya.barrett@millerhodgesandjohnston.example.com,Miller Hodges and Johnston - Emergency,Summit HVAC - Emergency,Lost,1650,2026-09-29,Outbound,HVAC,54.1,Maya Ortiz,Emergency,SUMM-D00719
+heather.clark@berrylewisandhenry.example.com,Berry Lewis and Henry - Emergency,Summit HVAC - Emergency,Contacted,2200,,Call Tracking,HVAC,48.3,Ben Foster,Emergency,SUMM-D00720
+jamie.welch@hilljordan.example.com,Hill-Jordan - Emergency,Summit HVAC - Emergency,Lost,3350,2026-09-30,Call Tracking,HVAC,49.1,Lucia Romero,Emergency,SUMM-D00721
+joanna.nixon@allisonstone.example.com,Allison-Stone - Emergency,Summit HVAC - Emergency,Contacted,2950,,Call Tracking,HVAC,52.5,Maya Ortiz,Emergency,SUMM-D00722
+julie.chapman@freemanltd.example.com,Freeman Ltd - Emergency,Summit HVAC - Emergency,Contacted,2100,,Google Ads,HVAC,54.8,Hannah Price,Emergency,SUMM-D00723
+sandra.juarez@turnerjames.example.com,Turner-James - Emergency,Summit HVAC - Emergency,Lost,3450,2026-09-30,Referral,HVAC,49.2,Caleb Turner,Emergency,SUMM-D00724

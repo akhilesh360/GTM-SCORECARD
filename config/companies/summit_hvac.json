@@ -1,0 +1,245 @@
+{
+  "slug": "summit_hvac",
+  "name": "Summit HVAC",
+  "company_type": "HVAC",
+  "gtm_motion": "Outbound-heavy",
+  "economics": {
+    "target_acv": 8000,
+    "target_gross_margin": 0.45,
+    "customer_lifetime_years": 3.0,
+    "lifetime_note": "Commercial service relationships, ~33% annual churn"
+  },
+  "pipelines": {
+    "_rule": "pipeline chosen by service type; when the lead has no service_type, default_service_by_lead_source decides",
+    "Summit HVAC - Emergency": {
+      "service_type": "Emergency"
+    },
+    "Summit HVAC - Maintenance": {
+      "service_type": "Maintenance"
+    },
+    "Summit HVAC - Installation": {
+      "service_type": "Installation"
+    }
+  },
+  "territories": {
+    "TX": {
+      "states": [
+        "TX",
+        "OK"
+      ],
+      "owner": "Caleb Turner"
+    },
+    "AZ": {
+      "states": [
+        "AZ",
+        "NM",
+        "NV"
+      ],
+      "owner": "Maya Ortiz"
+    },
+    "GA": {
+      "states": [
+        "GA",
+        "SC"
+      ],
+      "owner": "Andre Coleman"
+    },
+    "FL": {
+      "states": [
+        "FL"
+      ],
+      "owner": "Hannah Price"
+    },
+    "NC": {
+      "states": [
+        "NC",
+        "VA"
+      ],
+      "owner": "Ben Foster"
+    },
+    "CA": {
+      "states": [
+        "CA"
+      ],
+      "owner": "Lucia Romero"
+    }
+  },
+  "unassigned_owner": "Summit Dispatch Queue",
+  "icp": {
+    "industries": [
+      "Commercial Real Estate",
+      "Retail",
+      "Restaurants",
+      "Healthcare",
+      "Education",
+      "Manufacturing"
+    ],
+    "employees_min": 50,
+    "employees_max": 1000
+  },
+  "synthetic": {
+    "seed": 11,
+    "leads_per_month": 300,
+    "lead_to_opp": 0.12,
+    "opp_to_won": 0.4,
+    "opp_per_deal": 0.3,
+    "channel_mix": {
+      "Outbound": 0.45,
+      "Call Tracking": 0.2,
+      "Google Ads": 0.15,
+      "Referral": 0.12,
+      "Meta Ads": 0.08
+    },
+    "opp_multiplier": {
+      "Outbound": 0.85,
+      "Call Tracking": 1.5,
+      "Google Ads": 1.1,
+      "Referral": 1.8,
+      "Meta Ads": 0.5
+    },
+    "win_multiplier": {
+      "Outbound": 0.9,
+      "Call Tracking": 1.3,
+      "Google Ads": 1.0,
+      "Referral": 1.4,
+      "Meta Ads": 0.7
+    },
+    "monthly_budget": {
+      "Outbound": 26000,
+      "Call Tracking": 12000,
+      "Google Ads": 10000,
+      "Referral": 4000,
+      "Meta Ads": 5000
+    },
+    "state_mix": {
+      "TX": 0.26,
+      "OK": 0.03,
+      "AZ": 0.13,
+      "NV": 0.03,
+      "GA": 0.12,
+      "SC": 0.04,
+      "FL": 0.15,
+      "NC": 0.1,
+      "VA": 0.04,
+      "CA": 0.08,
+      "LA": 0.02
+    },
+    "seasonality": [
+      0.85,
+      0.98,
+      1.18,
+      1.22,
+      1.1,
+      0.9
+    ],
+    "service_mix_by_channel": {
+      "Outbound": {
+        "Emergency": 0.1,
+        "Maintenance": 0.55,
+        "Installation": 0.35
+      },
+      "Call Tracking": {
+        "Emergency": 0.7,
+        "Maintenance": 0.2,
+        "Installation": 0.1
+      },
+      "Google Ads": {
+        "Emergency": 0.45,
+        "Maintenance": 0.3,
+        "Installation": 0.25
+      },
+      "Referral": {
+        "Emergency": 0.2,
+        "Maintenance": 0.4,
+        "Installation": 0.4
+      },
+      "Meta Ads": {
+        "Emergency": 0.25,
+        "Maintenance": 0.5,
+        "Installation": 0.25
+      }
+    },
+    "amount_by_pipeline": {
+      "Summit HVAC - Emergency": 3400,
+      "Summit HVAC - Maintenance": 7800,
+      "Summit HVAC - Installation": 18500
+    },
+    "margin_by_pipeline": {
+      "Summit HVAC - Emergency": 0.55,
+      "Summit HVAC - Maintenance": 0.5,
+      "Summit HVAC - Installation": 0.39
+    },
+    "stage_days_by_pipeline": {
+      "Summit HVAC - Emergency": {
+        "lead_to_deal": 0.3,
+        "New": 0.3,
+        "Contacted": 1,
+        "Qualified": 1,
+        "Proposal": 2
+      },
+      "Summit HVAC - Maintenance": {
+        "lead_to_deal": 2,
+        "New": 3,
+        "Contacted": 6,
+        "Qualified": 7,
+        "Proposal": 10
+      },
+      "Summit HVAC - Installation": {
+        "lead_to_deal": 3,
+        "New": 4,
+        "Contacted": 9,
+        "Qualified": 12,
+        "Proposal": 20
+      }
+    },
+    "speed_to_lead_median_hours": 6.0,
+    "call_share": 0.45,
+    "missed_call_rate": 0.24,
+    "missing_rates": {
+      "title": 0.15,
+      "territory": 0.09,
+      "utm_campaign": 0.12,
+      "gross_margin": 0.1,
+      "fit_score": 0.07
+    },
+    "touch_mix": {
+      "Call Tracking": 0.4,
+      "Google Ads": 0.25,
+      "Outbound": 0.2,
+      "Meta Ads": 0.08,
+      "Referral": 0.07
+    },
+    "extra_touches_mean": 1.2,
+    "campaigns": {
+      "Google Ads": [
+        "hvac_q2_search_emergency",
+        "hvac_q3_search_ac_repair",
+        "hvac_q3_search_install"
+      ],
+      "Meta Ads": [
+        "hvac_q2_facility_mgr",
+        "hvac_q3_maintenance_plan"
+      ]
+    },
+    "after_hours_share": 0.45,
+    "google_cpc": 6.0,
+    "titles": [
+      "Facilities Manager",
+      "Property Manager",
+      "Operations Director",
+      "Store Manager",
+      "Maintenance Supervisor",
+      "Owner",
+      "Building Engineer",
+      "Regional Facilities Lead"
+    ]
+  },
+  "default_service_by_lead_source": {
+    "Call Tracking": "Emergency",
+    "Google Ads": "Emergency",
+    "Meta Ads": "Maintenance",
+    "Outbound": "Maintenance",
+    "Referral": "Installation"
+  },
+  "slack_channel": "#summit-dispatch"
+}

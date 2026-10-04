@@ -1,0 +1,111 @@
+{
+  "_comment": "Portfolio-wide GTM standard. Every company maps onto these definitions; do not edit per company.",
+  "channels": [
+    "Google Ads",
+    "Meta Ads",
+    "Outbound",
+    "Referral",
+    "Call Tracking"
+  ],
+  "deal_stages": [
+    "New",
+    "Contacted",
+    "Qualified",
+    "Proposal",
+    "Won",
+    "Lost"
+  ],
+  "opportunity_stages": [
+    "Qualified",
+    "Proposal",
+    "Won"
+  ],
+  "opportunity_rule": "A deal counts as an opportunity once it has REACHED Qualified (stage_reached in Qualified/Proposal/Won), including deals later Lost.",
+  "paid_ad_channels": [
+    "Google Ads",
+    "Meta Ads"
+  ],
+  "required_fields": {
+    "leads": [
+      "email",
+      "title",
+      "created_date",
+      "lead_source",
+      "territory",
+      "fit_score"
+    ],
+    "leads_paid_only": [
+      "utm_source",
+      "utm_medium",
+      "utm_campaign"
+    ],
+    "deals": [
+      "amount",
+      "stage",
+      "lead_source",
+      "gross_margin",
+      "owner"
+    ]
+  },
+  "agent": {
+    "sla_minutes": 5,
+    "manual_minutes_per_step": {
+      "enrich_company": 6,
+      "score_fit": 3,
+      "assign_territory": 2,
+      "create_deal": 3,
+      "create_sla_task": 1,
+      "notify_rep": 1,
+      "log_activity": 1
+    },
+    "fit_weights": {
+      "employees": 30,
+      "industry": 30,
+      "territory": 20,
+      "source_quality": 20
+    },
+    "source_quality": {
+      "Referral": 1.0,
+      "Call Tracking": 0.85,
+      "Google Ads": 0.7,
+      "Outbound": 0.5,
+      "Meta Ads": 0.4
+    },
+    "hot_lead_threshold": 80
+  },
+  "benchmarks": {
+    "_comment": "Portfolio targets used for RAG status on the scorecard. direction: higher|lower is better.",
+    "ltv_to_cac": {
+      "target": 3.0,
+      "direction": "higher"
+    },
+    "cac_payback_months": {
+      "target": 12,
+      "direction": "lower"
+    },
+    "roas": {
+      "target": 1.5,
+      "direction": "higher"
+    },
+    "lead_to_opp": {
+      "target": 0.08,
+      "direction": "higher"
+    },
+    "opp_to_won": {
+      "target": 0.3,
+      "direction": "higher"
+    },
+    "speed_to_lead_hours": {
+      "target": 0.25,
+      "direction": "lower"
+    },
+    "data_completeness": {
+      "target": 0.9,
+      "direction": "higher"
+    },
+    "missed_call_rate": {
+      "target": 0.1,
+      "direction": "lower"
+    }
+  }
+}

@@ -1,0 +1,445 @@
+<title>Portfolio GTM Scorecard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Public+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: operating-partner board pack. Sticky masthead with company switch, scorecard first, then drill-down sections in a 12-col grid. */
+:root {
+  --page: #f6f7f8;
+  --surface: #fcfcfb;
+  --ink: #101418;
+  --ink-2: #4b535c;
+  --muted: #858c94;
+  --grid: #e2e4e6;
+  --axis: #c3c7cb;
+  --border: rgba(16, 20, 24, 0.10);
+  --accent: #1f3a5f;
+  --accent-wash: #e6ecf3;
+  --good: #0ca30c; --good-text: #006300;
+  --warn: #fab219; --warn-text: #8a5a00;
+  --bad: #d03b3b; --bad-text: #b02a2a;
+  --s1: #2a78d6; --s2: #eb6834; --s3: #1baf7a; --s4: #eda100; --s5: #e87ba4;
+  --seq: #2a78d6;
+  --font-display: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  --font-body: "Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --page: #0e1012; --surface: #181a1c; --ink: #f4f5f6; --ink-2: #c3c7cb; --muted: #8b9197;
+    --grid: #2a2d30; --axis: #3a3e42; --border: rgba(255, 255, 255, 0.10);
+    --accent: #9dbbe0; --accent-wash: #1f2a37;
+    --good-text: #3ec43e; --warn-text: #fab219; --bad-text: #ef7a7a;
+    --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500; --s5: #d55181; --seq: #3987e5;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --page: #0e1012; --surface: #181a1c; --ink: #f4f5f6; --ink-2: #c3c7cb; --muted: #8b9197;
+  --grid: #2a2d30; --axis: #3a3e42; --border: rgba(255, 255, 255, 0.10);
+  --accent: #9dbbe0; --accent-wash: #1f2a37;
+  --good-text: #3ec43e; --warn-text: #fab219; --bad-text: #ef7a7a;
+  --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500; --s5: #d55181; --seq: #3987e5;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--page); color: var(--ink); font-family: var(--font-body); font-size: 14px; line-height: 1.5; }
+.wrap { max-width: 1240px; margin: 0 auto; padding-inline: 16px; padding-block: 0 48px; }
+header.mast {
+  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--page);
+  border-bottom: 1px solid var(--border); margin-bottom: 24px;
+}
+.mast-inner { max-width: 1240px; margin: 0 auto; padding-inline: 16px; padding-block: 14px; display: flex; flex-wrap: wrap; gap: 12px 24px; align-items: center; justify-content: space-between; }
+.brand { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.eyebrow { font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+h1 { font-family: var(--font-display); font-size: 22px; font-weight: 700; margin: 0; letter-spacing: -0.01em; text-wrap: balance; }
+nav.jump { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 13px; }
+nav.jump a { color: var(--ink-2); text-decoration: none; }
+nav.jump a:hover, nav.jump a:focus-visible { color: var(--ink); text-decoration: underline; }
+.seg { display: inline-flex; border: 1px solid var(--border); border-radius: 8px; padding: 2px; background: var(--surface); }
+.seg button { font: inherit; font-weight: 600; font-size: 13px; border: 0; background: transparent; color: var(--ink-2); padding: 6px 12px; border-radius: 6px; cursor: pointer; }
+.seg button[aria-pressed="true"] { background: var(--accent); color: var(--surface); }
+.seg button:focus-visible, nav.jump a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+section { margin-top: 40px; scroll-margin-top: 96px; }
+h2 { font-family: var(--font-display); font-size: 18px; font-weight: 600; margin: 0 0 4px; text-wrap: balance; }
+.sub { color: var(--ink-2); margin: 0 0 16px; max-width: 72ch; }
+.grid { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 16px; }
+.panel { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 16px; min-width: 0; }
+.panel h3 { font-size: 13px; font-weight: 600; margin: 0 0 2px; }
+.panel .note { font-size: 12px; color: var(--muted); margin: 0 0 12px; }
+.c4 { grid-column: span 4; } .c6 { grid-column: span 6; } .c8 { grid-column: span 8; } .c12 { grid-column: span 12; }
+@media (max-width: 900px) { .c4, .c6, .c8 { grid-column: span 12; } }
+.tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; }
+.hero-groups { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 460px), 1fr)); gap: 16px; }
+.tile-group { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.tiles.four { grid-template-columns: repeat(auto-fit, minmax(105px, 1fr)); }
+.tile .foot .pill { margin-left: 0; }
+.tile { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 12px 14px; display: flex; flex-direction: column; gap: 2px; }
+.tile .label { font-size: 12px; color: var(--ink-2); }
+.tile .value { font-family: var(--font-display); font-size: 24px; font-weight: 600; letter-spacing: -0.01em; }
+.tile .foot { font-size: 12px; color: var(--muted); }
+.table-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+th, td { text-align: left; padding: 7px 10px; border-bottom: 1px solid var(--grid); vertical-align: top; }
+th { font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); font-weight: 600; white-space: nowrap; }
+td.num, th.num { text-align: right; white-space: nowrap; }
+tr.cat td { font-family: var(--font-display); font-weight: 600; font-size: 12px; color: var(--accent); background: var(--accent-wash); letter-spacing: 0.04em; text-transform: uppercase; padding-block: 5px; }
+td .def { display: block; font-size: 12px; color: var(--muted); }
+.pill { display: inline-flex; align-items: center; gap: 4px; font-size: 11px; font-weight: 600; padding: 1px 7px 1px 5px; border-radius: 999px; border: 1px solid currentColor; margin-left: 6px; vertical-align: 1px; }
+.pill svg { width: 10px; height: 10px; }
+.pill.green { color: var(--good-text); } .pill.amber { color: var(--warn-text); } .pill.red { color: var(--bad-text); }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 12px; color: var(--ink-2); margin: 0 0 10px; }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.legend i { width: 10px; height: 10px; border-radius: 3px; display: inline-block; }
+svg text { font-family: var(--font-body); }
+.chart { width: 100%; }
+.tip { position: fixed; pointer-events: none; z-index: 20; background: var(--ink); color: var(--surface); font-size: 12px; padding: 6px 9px; border-radius: 6px; max-width: 260px; line-height: 1.4; opacity: 0; transition: opacity .08s; }
+.tip b { font-weight: 600; }
+.callout { border-left: 3px solid var(--accent); padding: 4px 0 4px 12px; color: var(--ink-2); margin: 0 0 4px; max-width: 80ch; }
+.callout strong { color: var(--ink); }
+.agent-card { display: flex; flex-direction: column; gap: 4px; padding: 10px 0; border-bottom: 1px solid var(--grid); }
+.agent-card:last-child { border-bottom: 0; }
+.agent-card .row1 { display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline; }
+.agent-card .co { font-weight: 600; }
+.agent-card .meta { font-size: 12px; color: var(--muted); }
+.agent-card .why { font-size: 13px; color: var(--ink-2); }
+.slack { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 12px; background: var(--page); border: 1px solid var(--border); border-radius: 6px; padding: 8px 10px; margin-top: 6px; overflow-wrap: anywhere; }
+.bar-track { height: 8px; border-radius: 4px; background: var(--grid); position: relative; min-width: 60px; }
+.bar-fill { position: absolute; inset: 0 auto 0 0; border-radius: 4px; }
+footer { margin-top: 48px; color: var(--muted); font-size: 12px; }
+@media (prefers-reduced-motion: reduce) { .tip { transition: none; } }
+</style>
+
+<header class="mast">
+  <div class="mast-inner">
+    <div class="brand">
+      <span class="eyebrow" id="asof">Synthetic data</span>
+      <h1>Portfolio GTM Scorecard</h1>
+    </div>
+    <nav class="jump" aria-label="Sections">
+      <a href="#scorecard">Scorecard</a><a href="#channels">Channels</a><a href="#attribution">Attribution</a>
+      <a href="#agent">AI agent</a><a href="#calls">Call tracking</a><a href="#velocity">Velocity</a><a href="#quality">Data quality</a>
+    </nav>
+    <div class="seg" role="group" aria-label="Company for drill-down sections" id="companySwitch"></div>
+  </div>
+</header>
+
+<div class="wrap">
+  <section id="scorecard" style="margin-top:0">
+    <h2>Portfolio view</h2>
+    <p class="sub">Every metric uses the same definition at every company, so the two archetypes compare like for like. Status compares each value to the portfolio target.</p>
+    <div class="hero-groups" id="heroTiles"></div>
+    <div class="panel" style="margin-top:16px">
+      <div class="table-wrap"><table id="scoreTable"></table></div>
+    </div>
+  </section>
+
+  <section id="channels">
+    <h2>Channel performance <span class="co-name"></span></h2>
+    <p class="sub" id="channelCallout"></p>
+    <div class="legend" id="channelLegend"></div>
+    <div class="grid">
+      <div class="panel c4"><h3>CAC by channel</h3><p class="note">Channel spend / won deals. Lower is better.</p><div class="chart" id="chCac"></div></div>
+      <div class="panel c4"><h3>ROAS by channel</h3><p class="note">Bookings / channel spend.</p><div class="chart" id="chRoas"></div></div>
+      <div class="panel c4"><h3>LTV : CAC by channel</h3><p class="note">Portfolio target is 3.0x.</p><div class="chart" id="chLtv"></div></div>
+      <div class="panel c12"><h3>Channel funnel</h3><p class="note">Spend to leads to opportunities to won, with customer economics.</p><div class="table-wrap"><table id="channelTable"></table></div></div>
+    </div>
+  </section>
+
+  <section id="attribution">
+    <h2>Attribution comparison <span class="co-name"></span></h2>
+    <p class="sub" id="attrCallout"></p>
+    <div class="grid">
+      <div class="panel c8"><h3>Closed-won bookings credited to each channel</h3><p class="note">Same bookings, three rules. First-touch credits the source, last-touch the converting touch, linear splits evenly.</p><div class="legend" id="attrLegend"></div><div class="chart" id="attrChart"></div></div>
+      <div class="panel c4"><h3>ROAS under each model</h3><p class="note">Attributed bookings / channel spend.</p><div class="table-wrap"><table id="attrTable"></table></div></div>
+    </div>
+  </section>
+
+  <section id="agent">
+    <h2>AI automation impact <span class="co-name"></span></h2>
+    <p class="sub">Last 30 days of leads replayed through the AI lead agent: enrich, score, route, create deal, set a 5-minute SLA task, alert Slack, log activity.</p>
+    <div class="tiles" id="aiTiles"></div>
+    <div class="grid" style="margin-top:16px">
+      <div class="panel c6"><h3>Does the fit score predict conversion?</h3><p class="note">Lead-to-opportunity rate by fit-score band, all six months.</p><div class="chart" id="fitChart"></div></div>
+      <div class="panel c6"><h3>Highest-fit leads the agent processed</h3><p class="note">Routing, SLA task and the rationale the rep sees.</p><div id="agentSamples"></div></div>
+    </div>
+  </section>
+
+  <section id="calls">
+    <h2>Call-tracking impact <span class="co-name"></span></h2>
+    <p class="sub" id="callCallout"></p>
+    <div class="grid">
+      <div class="panel c6"><h3>Missed-call rate by tracking source</h3><p class="note">Portfolio target is 10% or lower.</p><div class="chart" id="missChart"></div></div>
+      <div class="panel c6"><h3>Calls by source</h3><p class="note">Revenue influenced counts won deals where the buyer called before close.</p><div class="table-wrap"><table id="callTable"></table></div></div>
+    </div>
+  </section>
+
+  <section id="velocity">
+    <h2>Pipeline velocity <span class="co-name"></span></h2>
+    <p class="sub">Average days a deal spends in each stage before moving on, per pipeline. Long Proposal stages are where cycle time hides.</p>
+    <div class="grid">
+      <div class="panel c6"><h3>Days in stage</h3><p class="note">Closed stage transitions only.</p><div class="table-wrap"><table id="stageTable"></table></div></div>
+      <div class="panel c6"><h3>Monthly trend</h3><p class="note">Leads created and bookings closed per month.</p><div class="chart" id="trendLeads"></div><div class="chart" id="trendBookings" style="margin-top:8px"></div></div>
+    </div>
+  </section>
+
+  <section id="quality">
+    <h2>Data completeness <span class="co-name"></span></h2>
+    <p class="sub">Share of records with each required CRM field populated. The scorecard metric counts a record as complete only when every required field is filled.</p>
+    <div class="panel"><div class="table-wrap"><table id="qualityTable"></table></div></div>
+  </section>
+
+  <footer id="foot"></footer>
+</div>
+<div class="tip" id="tip" role="tooltip"></div>
+
+<script>
+const D = /*__DATA__*/null;
+const CHANNELS = D.standard.channels;
+const CH_VAR = {}; CHANNELS.forEach((c, i) => CH_VAR[c] = `var(--s${i + 1})`);
+const COMPANIES = D.run_info.companies;
+let company = COMPANIES[0];
+try { const s = localStorage.getItem("gtm-company"); if (COMPANIES.includes(s)) company = s; } catch (e) {}
+
+const fmt = {
+  usd: v => v == null ? "–" : (Math.abs(v) >= 1e6 ? "$" + (v / 1e6).toFixed(2) + "M" : Math.abs(v) >= 1e4 ? "$" + (v / 1e3).toFixed(0) + "K" : "$" + Math.round(v).toLocaleString()),
+  usdFull: v => v == null ? "–" : "$" + Math.round(v).toLocaleString(),
+  pct: v => v == null ? "–" : (v * 100).toFixed(1) + "%",
+  x: v => v == null ? "–" : v.toFixed(2) + "x",
+  count: v => v == null ? "–" : Math.round(v).toLocaleString(),
+  months: v => v == null ? "–" : v.toFixed(1) + " mo",
+  days: v => v == null ? "–" : v.toFixed(1) + " d",
+  hours: v => v == null ? "–" : (v < 1 ? (v * 60).toFixed(0) + " min" : v.toFixed(1) + " h"),
+  seconds: v => v == null ? "–" : (v < 1 ? (v * 1000).toFixed(1) + " ms" : v.toFixed(1) + " s"),
+  usd_per_day: v => v == null ? "–" : "$" + Math.round(v).toLocaleString() + "/day",
+  years: v => v == null ? "–" : v.toFixed(1) + " yrs",
+};
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const ICON = {
+  green: '<svg viewBox="0 0 10 10" aria-hidden="true"><path d="M2 5.2l2 2 4-4.4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>',
+  amber: '<svg viewBox="0 0 10 10" aria-hidden="true"><path d="M5 1.5v4.5M5 7.6v.9" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>',
+  red: '<svg viewBox="0 0 10 10" aria-hidden="true"><path d="M2.5 2.5l5 5M7.5 2.5l-5 5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>',
+};
+const STATUS_LABEL = { green: "On target", amber: "Near", red: "Off target" };
+const pill = s => s ? `<span class="pill ${s}">${ICON[s]}${STATUS_LABEL[s]}</span>` : "";
+
+// ---------- tooltip ----------
+const tip = document.getElementById("tip");
+function bindTips(root) {
+  root.querySelectorAll("[data-tip]").forEach(el => {
+    el.addEventListener("mousemove", e => {
+      tip.innerHTML = el.getAttribute("data-tip"); tip.style.opacity = 1;
+      const x = Math.min(e.clientX + 14, window.innerWidth - tip.offsetWidth - 8);
+      tip.style.left = x + "px"; tip.style.top = (e.clientY + 14) + "px";
+    });
+    el.addEventListener("mouseleave", () => tip.style.opacity = 0);
+  });
+}
+
+// ---------- charts ----------
+function niceMax(v) { if (v <= 0) return 1; const p = Math.pow(10, Math.floor(Math.log10(v))); const n = v / p; return (n <= 1 ? 1 : n <= 2 ? 2 : n <= 2.5 ? 2.5 : n <= 5 ? 5 : 10) * p; }
+function roundedRight(x, y, w, h, r) {
+  r = Math.min(r, w, h / 2); if (w <= 0) return "";
+  return `M${x},${y}h${w - r}a${r},${r} 0 0 1 ${r},${r}v${h - 2 * r}a${r},${r} 0 0 1 -${r},${r}h-${w - r}z`;
+}
+function roundedTop(x, y, w, h, r) {
+  r = Math.min(r, w / 2, h); if (h <= 0) return "";
+  return `M${x},${y + h}v-${h - r}a${r},${r} 0 0 1 ${r},-${r}h${w - 2 * r}a${r},${r} 0 0 1 ${r},${r}v${h - r}z`;
+}
+// Horizontal bars: items [{label, value, color, text, tip}], optional target line
+function hbars(el, items, { format, target } = {}) {
+  const W = el.clientWidth || 320, labelW = Math.min(150, 14 + 6.6 * Math.max(...items.map(d => String(d.label).length))), valW = 64, rowH = 30, barH = 16, top = 4;
+  const H = top + items.length * rowH + 20;
+  const vals = items.map(d => d.value ?? 0);
+  const max = niceMax(Math.max(...vals, target || 0));
+  const plotW = Math.max(40, W - labelW - valW);
+  const sx = v => labelW + (v / max) * plotW;
+  let s = `<svg class="chart" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img">`;
+  [0, 0.5, 1].forEach(f => { const x = sx(max * f); s += `<line x1="${x}" x2="${x}" y1="${top}" y2="${H - 18}" stroke="var(--grid)" stroke-width="1"/><text x="${x}" y="${H - 4}" font-size="10" fill="var(--muted)" text-anchor="middle">${format(max * f)}</text>`; });
+  items.forEach((d, i) => {
+    const y = top + i * rowH + (rowH - barH) / 2;
+    s += `<text x="${labelW - 8}" y="${y + barH / 2 + 4}" font-size="12" fill="var(--ink-2)" text-anchor="end">${esc(d.label)}</text>`;
+    if (d.value == null) { s += `<text x="${labelW + 4}" y="${y + barH / 2 + 4}" font-size="12" fill="var(--muted)">n/a</text>`; return; }
+    const w = Math.max(2, sx(d.value) - labelW);
+    s += `<g data-tip="${esc(d.tip)}"><rect x="${labelW}" y="${y - 6}" width="${plotW + valW}" height="${barH + 12}" fill="transparent"/><path d="${roundedRight(labelW, y, w, barH, 4)}" fill="${d.color}"/></g>`;
+    s += `<text x="${labelW + w + 6}" y="${y + barH / 2 + 4}" font-size="12" fill="var(--ink)" font-weight="600">${esc(d.text ?? format(d.value))}</text>`;
+  });
+  if (target) { const x = sx(target); s += `<line x1="${x}" x2="${x}" y1="${top - 2}" y2="${H - 18}" stroke="var(--ink-2)" stroke-width="1.5"/><text x="${x + 4}" y="${top + 8}" font-size="10" fill="var(--ink-2)">target</text>`; }
+  el.innerHTML = s + "</svg>"; bindTips(el);
+}
+// Stacked horizontal bars: rows [{label, segments:[{key, value, color, tip}]}]
+function stacked(el, rows, total) {
+  const W = el.clientWidth || 600, labelW = 92, rowH = 46, barH = 26, gap = 2, top = 4;
+  const H = top + rows.length * rowH + 20;
+  const plotW = Math.max(60, W - labelW - 8);
+  let s = `<svg class="chart" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img">`;
+  [0, 0.25, 0.5, 0.75, 1].forEach(f => { const x = labelW + f * plotW; s += `<line x1="${x}" x2="${x}" y1="${top}" y2="${H - 18}" stroke="var(--grid)"/><text x="${x}" y="${H - 4}" font-size="10" fill="var(--muted)" text-anchor="${f === 0 ? "start" : f === 1 ? "end" : "middle"}">${fmt.usd(total * f)}</text>`; });
+  rows.forEach((r, i) => {
+    const y = top + i * rowH + (rowH - barH) / 2;
+    s += `<text x="${labelW - 8}" y="${y + barH / 2 + 4}" font-size="12" fill="var(--ink-2)" text-anchor="end">${esc(r.label)}</text>`;
+    let x = labelW; const segs = r.segments.filter(sg => sg.value > 0);
+    segs.forEach((sg, j) => {
+      const w = (sg.value / total) * plotW - (j < segs.length - 1 ? gap : 0);
+      const first = j === 0, last = j === segs.length - 1;
+      const path = last ? roundedRight(x, y, Math.max(w, 1), barH, 4) : `M${x},${y}h${Math.max(w, 1)}v${barH}h-${Math.max(w, 1)}z`;
+      s += `<path d="${path}" fill="${sg.color}" data-tip="${esc(sg.tip)}"/>`;
+      const label = fmt.pct(sg.value / total);
+      if (w > label.length * 7 + 12) s += `<text x="${x + w / 2}" y="${y + barH / 2 + 4}" font-size="11" fill="#fff" font-weight="600" text-anchor="middle" pointer-events="none">${label}</text>`;
+      x += w + gap;
+    });
+  });
+  el.innerHTML = s + "</svg>"; bindTips(el);
+}
+// Columns: single series [{label, value}]
+function columns(el, items, { format, title }) {
+  const W = el.clientWidth || 320, H = 132, left = 8, right = 8, top = 22, bottom = 22;
+  const max = niceMax(Math.max(...items.map(d => d.value)));
+  const band = (W - left - right) / items.length, bw = Math.min(24, band * 0.6);
+  let s = `<svg class="chart" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img"><text x="${left}" y="12" font-size="11" fill="var(--ink-2)" font-weight="600">${esc(title)}</text>`;
+  s += `<line x1="${left}" x2="${W - right}" y1="${H - bottom}" y2="${H - bottom}" stroke="var(--axis)"/>`;
+  items.forEach((d, i) => {
+    const h = (d.value / max) * (H - top - bottom), x = left + i * band + (band - bw) / 2, y = H - bottom - h;
+    s += `<g data-tip="<b>${esc(d.label)}</b><br>${esc(format(d.value))}"><rect x="${left + i * band}" y="${top}" width="${band}" height="${H - top - bottom}" fill="transparent"/><path d="${roundedTop(x, y, bw, h, 4)}" fill="var(--seq)"/></g>`;
+    s += `<text x="${x + bw / 2}" y="${H - 6}" font-size="10" fill="var(--muted)" text-anchor="middle">${esc(d.label)}</text>`;
+    if (i === items.length - 1 || d.value === Math.max(...items.map(t => t.value))) s += `<text x="${x + bw / 2}" y="${y - 4}" font-size="10" fill="var(--ink)" text-anchor="middle" font-weight="600">${esc(format(d.value))}</text>`;
+  });
+  el.innerHTML = s + "</svg>"; bindTips(el);
+}
+
+// ---------- sections ----------
+const byCo = (rows, co = company) => rows.filter(r => r.portfolio_company === co);
+const metric = (co, name) => (D.scorecard.find(r => r.portfolio_company === co && r.metric === name) || {});
+
+function renderSwitch() {
+  const el = document.getElementById("companySwitch");
+  el.innerHTML = COMPANIES.map(c => `<button type="button" aria-pressed="${c === company}" data-co="${esc(c)}">${esc(c)}</button>`).join("");
+  el.querySelectorAll("button").forEach(b => b.addEventListener("click", () => {
+    company = b.dataset.co; try { localStorage.setItem("gtm-company", company); } catch (e) {}
+    renderSwitch(); renderDetail();
+  }));
+}
+
+function renderScorecard() {
+  const keys = [["Bookings (closed-won revenue)", "usd"], ["Blended CAC", "usd"], ["LTV : CAC", "x"], ["CAC payback", "months"]];
+  document.getElementById("heroTiles").innerHTML = COMPANIES.map(co => `<div class="tile-group"><span class="eyebrow">${esc(co)} · ${esc((D.company_meta || {})[co] || "")}</span><div class="tiles four">` + keys.map(([k, u]) => {
+    const m = metric(co, k);
+    return `<div class="tile"><span class="label">${esc(k.replace(" (closed-won revenue)", ""))}</span><span class="value">${fmt[u](m.value)}</span><span class="foot">${m.status ? pill(m.status) : "&nbsp;"}</span></div>`;
+  }).join("") + `</div></div>`).join("");
+
+  const metrics = [...new Set(D.scorecard.map(r => r.category + "|" + r.metric))];
+  let html = `<thead><tr><th>Metric</th>${COMPANIES.map(c => `<th class="num">${esc(c)}</th>`).join("")}<th class="num">Target</th></tr></thead><tbody>`;
+  let cat = "";
+  metrics.forEach(key => {
+    const [c, name] = key.split("|");
+    if (c !== cat) { cat = c; html += `<tr class="cat"><td colspan="${COMPANIES.length + 2}">${esc(c)}</td></tr>`; }
+    const rows = COMPANIES.map(co => metric(co, name));
+    const ref = rows.find(r => r.unit) || {};
+    html += `<tr><td>${esc(name)}<span class="def">${esc(ref.definition)}</span></td>`;
+    rows.forEach(r => html += `<td class="num">${r.unit ? fmt[r.unit](r.value) : "–"}${pill(r.status)}</td>`);
+    html += `<td class="num">${ref.target != null ? fmt[ref.unit](ref.target) : ""}</td></tr>`;
+  });
+  document.getElementById("scoreTable").innerHTML = html + "</tbody>";
+}
+
+function legendHTML(keys, colorOf) { return keys.map(k => `<span><i style="background:${colorOf(k)}"></i>${esc(k)}</span>`).join(""); }
+
+function renderChannels() {
+  const rows = byCo(D.channel_performance).sort((a, b) => CHANNELS.indexOf(a.channel) - CHANNELS.indexOf(b.channel));
+  document.getElementById("channelLegend").innerHTML = legendHTML(rows.map(r => r.channel), c => CH_VAR[c]);
+  const mk = (key, f) => rows.map(r => ({ label: r.channel, value: r[key], color: CH_VAR[r.channel],
+    tip: `<b>${esc(r.channel)}</b><br>Spend ${fmt.usd(r.total_spend)} · Won ${r.won}<br>${esc(f(r[key]))}` }));
+  hbars(document.getElementById("chCac"), mk("cac", fmt.usd), { format: fmt.usd });
+  hbars(document.getElementById("chRoas"), mk("roas", fmt.x), { format: fmt.x });
+  hbars(document.getElementById("chLtv"), mk("ltv_to_cac", fmt.x), { format: fmt.x, target: D.standard.benchmarks.ltv_to_cac.target });
+  const best = [...rows].filter(r => r.cac).sort((a, b) => a.cac - b.cac)[0];
+  const worst = [...rows].filter(r => r.cac).sort((a, b) => b.cac - a.cac)[0];
+  document.getElementById("channelCallout").innerHTML = `<span class="callout" style="display:block"><strong>${esc(best.channel)}</strong> wins customers at ${fmt.usd(best.cac)} each; <strong>${esc(worst.channel)}</strong> costs ${fmt.usd(worst.cac)} and takes ${fmt.pct(worst.spend_share)} of spend for ${fmt.pct(worst.revenue_share || 0)} of bookings.</span>`;
+  let t = `<thead><tr><th>Channel</th><th class="num">Spend</th><th class="num">Leads</th><th class="num">Opps</th><th class="num">Won</th><th class="num">Bookings</th><th class="num">Lead→Opp</th><th class="num">Opp→Won</th><th class="num">CAC</th><th class="num">ROAS</th><th class="num">LTV</th><th class="num">LTV:CAC</th><th class="num">Payback</th></tr></thead><tbody>`;
+  rows.forEach(r => t += `<tr><td><span class="legend" style="margin:0"><span><i style="background:${CH_VAR[r.channel]}"></i>${esc(r.channel)}</span></span></td><td class="num">${fmt.usd(r.total_spend)}</td><td class="num">${fmt.count(r.leads)}</td><td class="num">${fmt.count(r.opps)}</td><td class="num">${fmt.count(r.won)}</td><td class="num">${fmt.usd(r.revenue)}</td><td class="num">${fmt.pct(r.lead_to_opp)}</td><td class="num">${fmt.pct(r.opp_to_won)}</td><td class="num">${fmt.usd(r.cac)}</td><td class="num">${fmt.x(r.roas)}</td><td class="num">${fmt.usd(r.ltv)}</td><td class="num">${fmt.x(r.ltv_to_cac)}</td><td class="num">${fmt.months(r.cac_payback_months)}</td></tr>`);
+  document.getElementById("channelTable").innerHTML = t + "</tbody>";
+}
+
+function renderAttribution() {
+  const rows = byCo(D.attribution).sort((a, b) => CHANNELS.indexOf(a.channel) - CHANNELS.indexOf(b.channel));
+  const models = [["First-touch", "first_touch"], ["Last-touch", "last_touch"], ["Linear", "linear"]];
+  const total = rows.reduce((s, r) => s + r.first_touch_revenue, 0);
+  document.getElementById("attrLegend").innerHTML = legendHTML(rows.map(r => r.channel), c => CH_VAR[c]);
+  stacked(document.getElementById("attrChart"), models.map(([label, k]) => ({ label, segments: rows.map(r => ({
+    key: r.channel, value: r[k + "_revenue"], color: CH_VAR[r.channel],
+    tip: `<b>${esc(r.channel)}</b> · ${label}<br>${fmt.usdFull(r[k + "_revenue"])} (${fmt.pct(r[k + "_revenue"] / total)})` })) })), total);
+  let t = `<thead><tr><th>Channel</th><th class="num">First</th><th class="num">Last</th><th class="num">Linear</th></tr></thead><tbody>`;
+  rows.forEach(r => t += `<tr><td>${esc(r.channel)}</td><td class="num">${fmt.x(r.first_touch_roas)}</td><td class="num">${fmt.x(r.last_touch_roas)}</td><td class="num">${fmt.x(r.linear_roas)}</td></tr>`);
+  document.getElementById("attrTable").innerHTML = t + "</tbody>";
+  const swing = rows.map(r => ({ c: r.channel, d: r.last_touch_revenue - r.first_touch_revenue })).sort((a, b) => Math.abs(b.d) - Math.abs(a.d));
+  const up = swing.find(s => s.d > 0), down = swing.find(s => s.d < 0);
+  document.getElementById("attrCallout").innerHTML = `<span class="callout" style="display:block">Switching from first-touch to last-touch moves <strong>${fmt.usd(up.d)}</strong> of bookings toward <strong>${esc(up.c)}</strong> and takes <strong>${fmt.usd(-down.d)}</strong> from <strong>${esc(down.c)}</strong>. Budget decisions should name the model they use.</span>`;
+}
+
+function renderAgent() {
+  const ai = byCo(D.ai_automation_impact)[0];
+  const base = metric(company, "Speed to lead (median)");
+  document.getElementById("aiTiles").innerHTML = ai ? [
+    ["Leads processed (30 days)", fmt.count(ai.leads_processed), "No manual touches"],
+    ["Manual steps eliminated", fmt.count(ai.steps_automated), "7 steps per lead"],
+    ["Rep hours saved", fmt.count(ai.hours_saved), "17 min of admin per lead"],
+    ["Speed to lead, before", fmt.hours(ai.baseline_speed_to_lead_hours), "Median, manual routing"],
+    ["Speed to lead, with agent", `${ai.sla_minutes} min SLA`, `Routed in ${fmt.seconds(ai.median_processing_seconds)}`],
+    ["Hot leads flagged", fmt.count(ai.hot_leads), `Fit score ${D.standard.agent.hot_lead_threshold}+`],
+  ].map(([l, v, f]) => `<div class="tile"><span class="label">${esc(l)}</span><span class="value">${esc(v)}</span><span class="foot">${esc(f)}</span></div>`).join("") : "<p>Run the agent replay to populate this section.</p>";
+  const fit = byCo(D.fit_score_validation);
+  hbars(document.getElementById("fitChart"), fit.map(r => ({ label: "Fit " + r.fit_band, value: r.lead_to_opp, color: "var(--seq)",
+    tip: `<b>Fit ${esc(r.fit_band)}</b><br>${r.leads} leads · ${r.opps} opps · ${r.won} won` })), { format: fmt.pct });
+  const samples = (D.agent_samples || []).filter(r => r.portfolio_company === company);
+  const ch = (D.slack_channels || {})[company];
+  const msg = (D.slack_samples || []).find(m => m.channel === ch);
+  document.getElementById("agentSamples").innerHTML = samples.map(r => `<div class="agent-card"><div class="row1"><span class="co">${esc(r.company)}</span><span class="meta">Fit ${r.fit_score} · ${esc(r.lead_source)} · ${esc(r.territory)} → ${esc(r.owner)}</span></div><div class="meta">${esc(r.pipeline)} · task due ${esc(r.task_due.replace("T", " ").slice(0, 16))}</div><div class="why">${esc(r.rationale)}</div></div>`).join("")
+    + (msg ? `<div class="meta" style="margin-top:8px">Latest Slack alert (mock)</div><div class="slack">${esc(msg.channel)} · ${esc(msg.text)}</div>` : "");
+}
+
+function renderCalls() {
+  const rows = byCo(D.call_tracking_impact).sort((a, b) => b.calls - a.calls);
+  hbars(document.getElementById("missChart"), rows.map(r => ({ label: r.source.replace("Google Ads Call Extension", "Google Ads ext.").replace("Outbound Callback Number", "Outbound callback").replace("Google Business Profile", "Google Business"), value: r.missed_rate,
+    color: CH_VAR[r.channel], tip: `<b>${esc(r.source)}</b><br>${r.missed} missed of ${r.calls} calls` })), { format: fmt.pct, target: D.standard.benchmarks.missed_call_rate.target });
+  let t = `<thead><tr><th>Source</th><th class="num">Calls</th><th class="num">Booked</th><th class="num">Avg length</th><th class="num">Revenue influenced</th></tr></thead><tbody>`;
+  rows.forEach(r => t += `<tr><td>${esc(r.source)}<span class="def">${esc(r.channel)}</span></td><td class="num">${fmt.count(r.calls)}</td><td class="num">${fmt.pct(r.booked_rate)}</td><td class="num">${Math.round(r.avg_duration_sec / 60 * 10) / 10} min</td><td class="num">${fmt.usd(r.revenue_influenced)}</td></tr>`);
+  document.getElementById("callTable").innerHTML = t + "</tbody>";
+  const m = metric(company, "Missed call rate"), inf = metric(company, "Call-influenced bookings"), n = metric(company, "Inbound calls tracked");
+  document.getElementById("callCallout").innerHTML = `<span class="callout" style="display:block"><strong>${fmt.pct(inf.value)}</strong> of bookings came from buyers who phoned in at least once, and <strong>${fmt.pct(m.value)}</strong> of ${fmt.count(n.value)} tracked calls went unanswered. Form-fill attribution alone would not show either number.</span>`;
+}
+
+function renderVelocity() {
+  const rows = byCo(D.stage_days);
+  const pipes = [...new Set(rows.map(r => r.pipeline))], stages = ["New", "Contacted", "Qualified", "Proposal"];
+  let t = `<thead><tr><th>Pipeline</th>${stages.map(s => `<th class="num">${s}</th>`).join("")}<th class="num">Total</th></tr></thead><tbody>`;
+  pipes.forEach(p => {
+    let tot = 0;
+    t += `<tr><td>${esc(p.split(" - ")[1] || p)}</td>` + stages.map(s => { const r = rows.find(x => x.pipeline === p && x.stage === s); tot += r ? r.avg_days : 0; return `<td class="num">${r ? fmt.days(r.avg_days) : "–"}</td>`; }).join("") + `<td class="num"><b>${fmt.days(tot)}</b></td></tr>`;
+  });
+  document.getElementById("stageTable").innerHTML = t + "</tbody>";
+  const mon = byCo(D.monthly_trend);
+  const lab = m => new Date(m + "-15").toLocaleString("en-US", { month: "short" });
+  columns(document.getElementById("trendLeads"), mon.map(r => ({ label: lab(r.month), value: r.leads })), { format: fmt.count, title: "Leads" });
+  columns(document.getElementById("trendBookings"), mon.map(r => ({ label: lab(r.month), value: r.revenue })), { format: fmt.usd, title: "Bookings" });
+}
+
+function renderQuality() {
+  const rows = byCo(D.data_completeness);
+  let t = `<thead><tr><th>Object</th><th>Field</th><th class="num">Records</th><th class="num">Populated</th><th style="width:30%">Status</th></tr></thead><tbody>`;
+  rows.forEach(r => {
+    const s = r.completeness >= 0.98 ? "green" : r.completeness >= 0.9 ? "amber" : "red";
+    const col = s === "green" ? "var(--good)" : s === "amber" ? "var(--warn)" : "var(--bad)";
+    t += `<tr><td>${esc(r.object)}</td><td><code>${esc(r.field)}</code></td><td class="num">${fmt.count(r.records)}</td><td class="num">${fmt.pct(r.completeness)}${pill(s)}</td><td><div class="bar-track"><div class="bar-fill" style="width:${(r.completeness * 100).toFixed(1)}%;background:${col}"></div></div></td></tr>`;
+  });
+  document.getElementById("qualityTable").innerHTML = t + "</tbody>";
+}
+
+function renderDetail() {
+  document.querySelectorAll(".co-name").forEach(e => e.textContent = "· " + company);
+  renderChannels(); renderAttribution(); renderAgent(); renderCalls(); renderVelocity(); renderQuality();
+}
+
+document.getElementById("asof").textContent = `Synthetic data · Apr–Sep 2026 · through ${D.run_info.data_through}`;
+document.getElementById("foot").textContent = `All companies and records are synthetic. Generated ${D.run_info.generated_at.replace("T", " ")} by run_all.py from output/*.csv; the same files feed the Looker Studio version.`;
+renderSwitch(); renderScorecard(); renderDetail();
+let rt; window.addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(renderDetail, 150); });
+</script>

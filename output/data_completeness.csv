@@ -1,0 +1,29 @@
+portfolio_company,object,field,completeness,records
+Acme MSP,leads,email,1.0,3006
+Acme MSP,leads,title,0.9357950765136394,3006
+Acme MSP,leads,created_date,1.0,3006
+Acme MSP,leads,lead_source,1.0,3006
+Acme MSP,leads,territory,0.9730538922155688,3006
+Acme MSP,leads,fit_score,0.959414504324684,3006
+Acme MSP,leads (paid ads),utm_source,1.0,1838
+Acme MSP,leads (paid ads),utm_medium,1.0,1838
+Acme MSP,leads (paid ads),utm_campaign,0.9494015233949945,1838
+Acme MSP,deals,amount,1.0,619
+Acme MSP,deals,stage,1.0,619
+Acme MSP,deals,lead_source,1.0,619
+Acme MSP,deals,gross_margin,0.9822294022617124,619
+Acme MSP,deals,owner,1.0,619
+Summit HVAC,leads,email,1.0,1779
+Summit HVAC,leads,title,0.8549747048903878,1779
+Summit HVAC,leads,created_date,1.0,1779
+Summit HVAC,leads,lead_source,1.0,1779
+Summit HVAC,leads,territory,0.8999437886453063,1779
+Summit HVAC,leads,fit_score,0.9331084879145587,1779
+Summit HVAC,leads (paid ads),utm_source,1.0,388
+Summit HVAC,leads (paid ads),utm_medium,1.0,388
+Summit HVAC,leads (paid ads),utm_campaign,0.8634020618556701,388
+Summit HVAC,deals,amount,1.0,724
+Summit HVAC,deals,stage,1.0,724
+Summit HVAC,deals,lead_source,1.0,724
+Summit HVAC,deals,gross_margin,0.9074585635359116,724
+Summit HVAC,deals,owner,1.0,724

@@ -1,0 +1,209 @@
+{
+  "slug": "acme_msp",
+  "name": "Acme MSP",
+  "company_type": "MSP",
+  "gtm_motion": "Inbound-heavy",
+  "economics": {
+    "target_acv": 15000,
+    "target_gross_margin": 0.6,
+    "customer_lifetime_years": 4.0,
+    "lifetime_note": "Managed-services contracts, ~25% annual logo churn"
+  },
+  "pipelines": {
+    "_rule": "pipeline chosen by lead_source",
+    "Acme MSP - Inbound": {
+      "lead_sources": [
+        "Google Ads",
+        "Meta Ads",
+        "Call Tracking"
+      ]
+    },
+    "Acme MSP - Outbound": {
+      "lead_sources": [
+        "Outbound"
+      ]
+    },
+    "Acme MSP - Referral": {
+      "lead_sources": [
+        "Referral"
+      ]
+    }
+  },
+  "territories": {
+    "NY": {
+      "states": [
+        "NY"
+      ],
+      "owner": "Dana Whitfield"
+    },
+    "NJ": {
+      "states": [
+        "NJ",
+        "PA"
+      ],
+      "owner": "Marcus Lee"
+    },
+    "MA": {
+      "states": [
+        "MA",
+        "CT",
+        "RI"
+      ],
+      "owner": "Priya Raman"
+    },
+    "TX": {
+      "states": [
+        "TX"
+      ],
+      "owner": "Jordan Ellis"
+    },
+    "CA": {
+      "states": [
+        "CA"
+      ],
+      "owner": "Sofia Alvarez"
+    },
+    "IL": {
+      "states": [
+        "IL"
+      ],
+      "owner": "Owen Brooks"
+    },
+    "FL": {
+      "states": [
+        "FL"
+      ],
+      "owner": "Grace Kim"
+    }
+  },
+  "unassigned_owner": "Acme Round Robin",
+  "icp": {
+    "industries": [
+      "Healthcare",
+      "Legal",
+      "Financial Services",
+      "Professional Services",
+      "Manufacturing"
+    ],
+    "employees_min": 20,
+    "employees_max": 500
+  },
+  "synthetic": {
+    "_comment": "Only used by src/generate_data.py. A real company replaces this block with real CSV exports.",
+    "seed": 7,
+    "leads_per_month": 500,
+    "lead_to_opp": 0.08,
+    "opp_to_won": 0.25,
+    "opp_per_deal": 0.4,
+    "channel_mix": {
+      "Google Ads": 0.4,
+      "Meta Ads": 0.2,
+      "Referral": 0.15,
+      "Outbound": 0.15,
+      "Call Tracking": 0.1
+    },
+    "opp_multiplier": {
+      "Google Ads": 1.0,
+      "Meta Ads": 0.6,
+      "Referral": 2.2,
+      "Outbound": 0.9,
+      "Call Tracking": 1.6
+    },
+    "win_multiplier": {
+      "Google Ads": 1.0,
+      "Meta Ads": 0.8,
+      "Referral": 1.6,
+      "Outbound": 0.8,
+      "Call Tracking": 1.2
+    },
+    "monthly_budget": {
+      "Google Ads": 38000,
+      "Meta Ads": 14000,
+      "Outbound": 22000,
+      "Referral": 6000,
+      "Call Tracking": 9000
+    },
+    "state_mix": {
+      "NY": 0.22,
+      "NJ": 0.1,
+      "PA": 0.05,
+      "MA": 0.1,
+      "CT": 0.04,
+      "TX": 0.14,
+      "CA": 0.15,
+      "IL": 0.08,
+      "FL": 0.08,
+      "OH": 0.02,
+      "WA": 0.02
+    },
+    "seasonality": [
+      0.92,
+      0.96,
+      1.0,
+      0.98,
+      1.04,
+      1.1
+    ],
+    "amount_by_pipeline": {
+      "Acme MSP - Inbound": 14000,
+      "Acme MSP - Outbound": 18000,
+      "Acme MSP - Referral": 15500
+    },
+    "margin_by_pipeline": {
+      "Acme MSP - Inbound": 0.6,
+      "Acme MSP - Outbound": 0.58,
+      "Acme MSP - Referral": 0.63
+    },
+    "stage_days": {
+      "lead_to_deal": 3,
+      "New": 4,
+      "Contacted": 8,
+      "Qualified": 12,
+      "Proposal": 18
+    },
+    "speed_to_lead_median_hours": 3.5,
+    "call_share": 0.18,
+    "missed_call_rate": 0.12,
+    "missing_rates": {
+      "title": 0.06,
+      "territory": 0.03,
+      "utm_campaign": 0.05,
+      "gross_margin": 0.02,
+      "fit_score": 0.04
+    },
+    "touch_mix": {
+      "Google Ads": 0.45,
+      "Meta Ads": 0.25,
+      "Call Tracking": 0.12,
+      "Referral": 0.05,
+      "Outbound": 0.13
+    },
+    "extra_touches_mean": 1.6,
+    "campaigns": {
+      "Google Ads": [
+        "msp_q2_search_brand",
+        "msp_q2_search_nonbrand",
+        "msp_q3_search",
+        "msp_q3_pmax"
+      ],
+      "Meta Ads": [
+        "msp_q2_leadgen",
+        "msp_q3_retargeting",
+        "msp_q3_cyber_guide"
+      ]
+    },
+    "after_hours_share": 0.2,
+    "google_cpc": 9.0,
+    "titles": [
+      "IT Director",
+      "Office Manager",
+      "CFO",
+      "COO",
+      "Practice Manager",
+      "Owner",
+      "Operations Manager",
+      "IT Manager"
+    ]
+  },
+  "slack_channel": "#acme-new-leads"
+}
