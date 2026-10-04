@@ -1,0 +1,751 @@
+Email,Activity date,Call outcome,Call title,Activity ID (source)
+sean.smith@johnstonsellers.example.com,2026-04-02 16:19:33,Left voicemail,Sales call,ACME-A000028
+alejandro.schwartz@aguilarandsons.example.com,2026-04-02 16:51:39,Left voicemail,Sales call,ACME-A000029
+shannon.goodwin@mahoneygroup.example.com,2026-04-02 21:28:45,Connected,Sales call,ACME-A000034
+robert.spencer@townsendclarkandgraham.example.com,2026-04-03 22:02:11,Connected,Sales call,ACME-A000061
+deanna.stephenson@turnermurrayandhaley.example.com,2026-04-04 15:19:37,No answer,Sales call,ACME-A000070
+shannon.goodwin@mahoneygroup.example.com,2026-04-05 11:15:32,No answer,Sales call,ACME-A000079
+jeffrey.perez@friedmandiaz.example.com,2026-04-05 16:45:12,Connected,Sales call,ACME-A000084
+michael.martin@adamslopezanddecker.example.com,2026-04-06 11:11:03,No answer,Sales call,ACME-A000095
+lance.allen@salazarharrison.example.com,2026-04-06 20:52:16,Left voicemail,Sales call,ACME-A000110
+carolyn.gray@melendezleeandprice.example.com,2026-04-07 10:11:31,No answer,Sales call,ACME-A000120
+deanna.stephenson@turnermurrayandhaley.example.com,2026-04-08 09:29:48,Connected,Sales call,ACME-A000150
+andrew.montgomery@griffingonzales.example.com,2026-04-08 11:04:23,No answer,Sales call,ACME-A000151
+sara.willis@brownfosteranderickson.example.com,2026-04-08 21:29:44,No answer,Sales call,ACME-A000170
+timothy.frank@brownflemingandschmidt.example.com,2026-04-08 23:58:48,Left voicemail,Sales call,ACME-A000173
+margaret.pace@berryfrancisandmartin.example.com,2026-04-10 03:53:25,Connected,Sales call,ACME-A000222
+amber.duncan@robertsandsons.example.com,2026-04-10 15:32:57,Connected,Sales call,ACME-A000234
+catherine.cox@leebrown.example.com,2026-04-11 19:55:19,Connected,Sales call,ACME-A000263
+anna.ortega@smithpittmanandmcdonald.example.com,2026-04-11 19:58:51,Connected,Sales call,ACME-A000264
+danielle.riggs@wilkinsking.example.com,2026-04-13 01:29:15,Connected,Sales call,ACME-A000294
+renee.hammond@williamswolf.example.com,2026-04-13 04:02:11,No answer,Sales call,ACME-A000297
+sara.willis@brownfosteranderickson.example.com,2026-04-13 04:43:59,No answer,Sales call,ACME-A000298
+robin.mcclain@alexanderandsons.example.com,2026-04-13 05:09:35,No answer,Sales call,ACME-A000299
+jill.rodriguez@brownhughesandgonzales.example.com,2026-04-13 08:52:56,Connected,Sales call,ACME-A000302
+brian.mcdonald@kennedyplc.example.com,2026-04-13 12:06:45,Left voicemail,Sales call,ACME-A000305
+duane.fischer@lucasdukeandbrown.example.com,2026-04-13 15:17:25,Left voicemail,Sales call,ACME-A000312
+theresa.williams@mezarayandsanders.example.com,2026-04-13 21:30:04,No answer,Sales call,ACME-A000328
+patricia.burton@williamsltd.example.com,2026-04-13 23:07:01,Connected,Sales call,ACME-A000332
+robin.mcclain@alexanderandsons.example.com,2026-04-14 00:55:22,No answer,Sales call,ACME-A000336
+renee.lewis@diazinc.example.com,2026-04-14 02:07:08,Connected,Sales call,ACME-A000339
+catherine.cox@leebrown.example.com,2026-04-14 03:37:36,Left voicemail,Sales call,ACME-A000340
+nicole.parks@smithinc.example.com,2026-04-14 04:28:51,Connected,Sales call,ACME-A000341
+andre.davis@whitewoodardandadams.example.com,2026-04-14 19:28:39,No answer,Sales call,ACME-A000361
+david.reynolds@silvaperezandwhite.example.com,2026-04-14 20:49:19,Left voicemail,Sales call,ACME-A000366
+jesus.murray@masongrayandhenson.example.com,2026-04-14 21:06:27,No answer,Sales call,ACME-A000367
+lance.allen@salazarharrison.example.com,2026-04-15 03:36:04,No answer,Sales call,ACME-A000384
+robert.spencer@townsendclarkandgraham.example.com,2026-04-15 08:04:55,No answer,Sales call,ACME-A000390
+marvin.malone@piercechavez.example.com,2026-04-15 15:49:44,No answer,Sales call,ACME-A000398
+brian.mcdonald@kennedyplc.example.com,2026-04-15 19:33:06,Connected,Sales call,ACME-A000405
+timothy.miller@kaiserowens.example.com,2026-04-16 09:26:17,Left voicemail,Sales call,ACME-A000424
+joanne.paul@nicholsonholmes.example.com,2026-04-16 12:30:05,Connected,Sales call,ACME-A000428
+renee.hammond@williamswolf.example.com,2026-04-16 18:59:59,No answer,Sales call,ACME-A000445
+victoria.walker@watsonandsons.example.com,2026-04-16 19:40:43,Connected,Sales call,ACME-A000446
+tina.hood@sullivanllc.example.com,2026-04-17 08:27:19,Left voicemail,Sales call,ACME-A000462
+sally.sanders@pagetran.example.com,2026-04-17 11:17:00,Connected,Sales call,ACME-A000467
+darin.schmidt@connerllc.example.com,2026-04-17 16:17:34,Connected,Sales call,ACME-A000476
+theresa.williams@mezarayandsanders.example.com,2026-04-18 22:43:26,Left voicemail,Sales call,ACME-A000514
+victoria.walker@watsonandsons.example.com,2026-04-19 00:28:26,No answer,Sales call,ACME-A000516
+thomas.hardy@smithlloydandjackson.example.com,2026-04-19 02:22:47,Connected,Sales call,ACME-A000523
+jeffrey.perez@friedmandiaz.example.com,2026-04-19 23:31:03,Left voicemail,Sales call,ACME-A000555
+david.reynolds@silvaperezandwhite.example.com,2026-04-20 08:33:30,Connected,Sales call,ACME-A000563
+phillip.hunter@reynoldssimpsonanddavenp.example.com,2026-04-20 14:54:46,Left voicemail,Sales call,ACME-A000575
+thomas.hardy@smithlloydandjackson.example.com,2026-04-21 02:44:45,No answer,Sales call,ACME-A000596
+katelyn.dickerson@wardgroup.example.com,2026-04-21 13:46:28,Connected,Sales call,ACME-A000612
+eric.henson@lopezandsons.example.com,2026-04-21 15:42:53,Connected,Sales call,ACME-A000617
+patricia.burton@williamsltd.example.com,2026-04-21 21:13:50,No answer,Sales call,ACME-A000628
+connor.hayes@brownleeandwilliams.example.com,2026-04-22 02:59:53,Connected,Sales call,ACME-A000633
+brett.thomas@mejiaanderson.example.com,2026-04-22 13:15:57,No answer,Sales call,ACME-A000650
+andre.davis@whitewoodardandadams.example.com,2026-04-22 14:44:23,Connected,Sales call,ACME-A000657
+margaret.pace@berryfrancisandmartin.example.com,2026-04-22 23:20:53,No answer,Sales call,ACME-A000666
+tamara.clark@mosesmartinez.example.com,2026-04-23 10:07:38,Connected,Sales call,ACME-A000675
+sandra.edwards@fieldsinc.example.com,2026-04-23 12:25:54,No answer,Sales call,ACME-A000679
+holly.lee@montoyajohnsonanddavis.example.com,2026-04-23 15:13:53,Connected,Sales call,ACME-A000686
+nicole.parks@smithinc.example.com,2026-04-23 19:26:53,Connected,Sales call,ACME-A000692
+thomas.hardy@smithlloydandjackson.example.com,2026-04-24 20:15:16,Connected,Sales call,ACME-A000730
+crystal.warner@adamsmccoy.example.com,2026-04-25 03:06:35,Left voicemail,Sales call,ACME-A000739
+sally.sanders@pagetran.example.com,2026-04-25 13:02:32,No answer,Sales call,ACME-A000755
+danielle.riggs@wilkinsking.example.com,2026-04-25 17:58:19,No answer,Sales call,ACME-A000762
+joanna.moore@haysltd.example.com,2026-04-27 09:30:17,Connected,Sales call,ACME-A000817
+renee.lewis@diazinc.example.com,2026-04-27 16:49:26,Connected,Sales call,ACME-A000827
+crystal.warner@adamsmccoy.example.com,2026-04-28 19:04:21,No answer,Sales call,ACME-A000889
+annette.rodriguez@barrygutierrezandbrown.example.com,2026-04-28 20:35:03,Left voicemail,Sales call,ACME-A000891
+jonathan.friedman@youngandsons.example.com,2026-04-29 16:12:38,Connected,Sales call,ACME-A000926
+susan.mccall@martinezplc.example.com,2026-04-29 19:59:06,Connected,Sales call,ACME-A000936
+michael.wright@owensmclean.example.com,2026-04-30 07:54:10,No answer,Sales call,ACME-A000951
+sarah.wright@brownholmesandrosario.example.com,2026-04-30 13:45:26,Connected,Sales call,ACME-A000964
+krystal.smith@hughesandsons.example.com,2026-04-30 19:39:58,No answer,Sales call,ACME-A000976
+chelsea.mosley@cranegroup.example.com,2026-04-30 21:57:02,Left voicemail,Sales call,ACME-A000982
+thomas.wilson@mosesguzman.example.com,2026-05-01 16:16:05,No answer,Sales call,ACME-A001016
+christopher.alvarado@moodyhall.example.com,2026-05-02 03:56:37,Connected,Sales call,ACME-A001037
+holly.lee@montoyajohnsonanddavis.example.com,2026-05-02 17:30:30,Left voicemail,Sales call,ACME-A001052
+mary.miller@castrojohnsonandyates.example.com,2026-05-03 02:53:26,No answer,Sales call,ACME-A001065
+jennifer.valenzuela@wilsonhouse.example.com,2026-05-05 03:41:54,No answer,Sales call,ACME-A001144
+jonathan.friedman@youngandsons.example.com,2026-05-05 05:03:47,No answer,Sales call,ACME-A001145
+daniel.schwartz@millerinc.example.com,2026-05-05 10:12:00,No answer,Sales call,ACME-A001151
+robin.blackburn@vancejonesandparrish.example.com,2026-05-05 11:33:14,No answer,Sales call,ACME-A001157
+rodney.ryan@howardllc.example.com,2026-05-05 12:50:54,Left voicemail,Sales call,ACME-A001160
+dustin.gardner@jenkinsevans.example.com,2026-05-05 22:25:42,Connected,Sales call,ACME-A001174
+derrick.benton@bradyjohnsonandnguyen.example.com,2026-05-06 03:59:59,Left voicemail,Sales call,ACME-A001183
+mary.flores@griffithweeks.example.com,2026-05-06 10:41:49,Left voicemail,Sales call,ACME-A001196
+claire.mccullough@morgangroup.example.com,2026-05-06 14:08:36,No answer,Sales call,ACME-A001204
+gabrielle.riley@jordanmcbrideandsantos.example.com,2026-05-06 14:24:53,No answer,Sales call,ACME-A001205
+amanda.wilson@hernandezllc.example.com,2026-05-07 02:45:54,No answer,Sales call,ACME-A001222
+chelsea.phillips@sharpllc.example.com,2026-05-07 10:32:53,No answer,Sales call,ACME-A001236
+karen.jimenez@bennettllc.example.com,2026-05-07 20:15:51,Left voicemail,Sales call,ACME-A001262
+emma.mcmahon@perezgroup.example.com,2026-05-07 20:29:43,Left voicemail,Sales call,ACME-A001263
+sean.carroll@mccartymartin.example.com,2026-05-08 13:03:19,Connected,Sales call,ACME-A001291
+dustin.gardner@jenkinsevans.example.com,2026-05-08 22:22:03,Connected,Sales call,ACME-A001308
+michael.mckinney@foleymaxwellandrice.example.com,2026-05-09 03:27:22,No answer,Sales call,ACME-A001323
+bradley.park@burnsandsons.example.com,2026-05-09 04:57:54,No answer,Sales call,ACME-A001327
+susan.mccall@martinezplc.example.com,2026-05-09 19:37:42,No answer,Sales call,ACME-A001346
+jeffrey.perez@friedmandiaz.example.com,2026-05-10 05:32:23,No answer,Sales call,ACME-A001360
+robin.blackburn@vancejonesandparrish.example.com,2026-05-10 14:39:30,No answer,Sales call,ACME-A001373
+henry.nielsen@olsengroup.example.com,2026-05-10 19:48:19,Connected,Sales call,ACME-A001378
+erin.jennings@adamsplc.example.com,2026-05-10 20:26:17,Left voicemail,Sales call,ACME-A001380
+lisa.mays@lanemoore.example.com,2026-05-10 23:46:10,No answer,Sales call,ACME-A001387
+lisa.mays@lanemoore.example.com,2026-05-11 01:21:52,No answer,Sales call,ACME-A001392
+brian.shaw@weberinc.example.com,2026-05-11 04:39:02,No answer,Sales call,ACME-A001401
+duane.harrell@brownreevesandtran.example.com,2026-05-11 06:25:15,Connected,Sales call,ACME-A001403
+sarah.wright@brownholmesandrosario.example.com,2026-05-11 10:37:55,Left voicemail,Sales call,ACME-A001411
+heather.cole@fostershea.example.com,2026-05-11 10:58:01,Left voicemail,Sales call,ACME-A001412
+john.james@blackwellbeckerandparker.example.com,2026-05-11 17:10:11,Connected,Sales call,ACME-A001431
+tracy.gibbs@rodriguezinc.example.com,2026-05-11 23:36:16,Left voicemail,Sales call,ACME-A001442
+kevin.hood@reyesandsons.example.com,2026-05-12 01:39:00,No answer,Sales call,ACME-A001448
+jacob.smith@bennettkingandsimmons.example.com,2026-05-12 09:08:45,Left voicemail,Sales call,ACME-A001457
+catherine.cox@leebrown.example.com,2026-05-13 01:11:41,No answer,Sales call,ACME-A001492
+brian.smith@allisonflemingandkeller.example.com,2026-05-13 12:35:22,No answer,Sales call,ACME-A001519
+emma.mcmahon@perezgroup.example.com,2026-05-13 21:27:06,No answer,Sales call,ACME-A001538
+daniel.schwartz@millerinc.example.com,2026-05-14 10:43:42,Left voicemail,Sales call,ACME-A001560
+michael.mckinney@foleymaxwellandrice.example.com,2026-05-14 11:44:25,Left voicemail,Sales call,ACME-A001561
+monica.fisher@robertsandsons.example.com,2026-05-14 15:43:38,Left voicemail,Sales call,ACME-A001576
+roger.pugh@sotowilson.example.com,2026-05-15 02:29:48,Left voicemail,Sales call,ACME-A001597
+jennifer.kane@floresplc.example.com,2026-05-15 12:32:55,Left voicemail,Sales call,ACME-A001618
+dustin.gardner@jenkinsevans.example.com,2026-05-15 14:27:14,Left voicemail,Sales call,ACME-A001623
+lisa.mays@lanemoore.example.com,2026-05-15 14:38:18,No answer,Sales call,ACME-A001624
+thomas.wilson@mosesguzman.example.com,2026-05-15 14:50:11,Connected,Sales call,ACME-A001625
+john.james@blackwellbeckerandparker.example.com,2026-05-15 15:26:05,No answer,Sales call,ACME-A001629
+james.ramirez@douglaspineda.example.com,2026-05-15 15:37:20,Connected,Sales call,ACME-A001630
+lisa.mays@lanemoore.example.com,2026-05-15 18:57:08,No answer,Sales call,ACME-A001635
+dustin.gardner@jenkinsevans.example.com,2026-05-15 21:39:31,No answer,Sales call,ACME-A001641
+john.james@blackwellbeckerandparker.example.com,2026-05-15 22:37:44,No answer,Sales call,ACME-A001647
+brian.shaw@weberinc.example.com,2026-05-16 01:36:06,Connected,Sales call,ACME-A001655
+derrick.benton@bradyjohnsonandnguyen.example.com,2026-05-16 05:08:20,Connected,Sales call,ACME-A001663
+krystal.smith@hughesandsons.example.com,2026-05-16 05:40:25,Left voicemail,Sales call,ACME-A001665
+donna.peterson@johnsonsandovalandphelps.example.com,2026-05-16 10:34:46,No answer,Sales call,ACME-A001676
+hunter.wilson@bellfuller.example.com,2026-05-16 16:48:30,Left voicemail,Sales call,ACME-A001687
+steven.morgan@roachandersonandbrown.example.com,2026-05-16 20:41:56,Connected,Sales call,ACME-A001690
+erin.jennings@adamsplc.example.com,2026-05-17 05:01:01,No answer,Sales call,ACME-A001703
+james.flores@lopezparkerandacevedo.example.com,2026-05-18 05:51:58,Left voicemail,Sales call,ACME-A001730
+brian.shaw@weberinc.example.com,2026-05-18 10:21:46,No answer,Sales call,ACME-A001739
+jacob.smith@bennettkingandsimmons.example.com,2026-05-18 17:22:01,Left voicemail,Sales call,ACME-A001747
+natalie.martinez@smithewingandstewart.example.com,2026-05-18 21:08:29,Connected,Sales call,ACME-A001758
+leroy.hernandez@walshosborne.example.com,2026-05-19 15:01:14,No answer,Sales call,ACME-A001796
+timothy.white@wilsongroup.example.com,2026-05-20 03:26:34,Connected,Sales call,ACME-A001816
+heather.long@bradymiller.example.com,2026-05-20 15:49:55,No answer,Sales call,ACME-A001835
+kelly.page@hillgroup.example.com,2026-05-20 18:56:43,Connected,Sales call,ACME-A001840
+dustin.gardner@jenkinsevans.example.com,2026-05-20 22:14:23,No answer,Sales call,ACME-A001847
+amanda.wilson@hernandezllc.example.com,2026-05-20 22:42:49,Connected,Sales call,ACME-A001848
+alexis.nichols@goldenchapmanandgonzalez.example.com,2026-05-21 12:11:15,Connected,Sales call,ACME-A001864
+matthew.brown@sullivanshelton.example.com,2026-05-21 12:44:08,No answer,Sales call,ACME-A001867
+patricia.miller@stantonphillipsandmcfarl.example.com,2026-05-21 16:59:17,Connected,Sales call,ACME-A001883
+patricia.miller@stantonphillipsandmcfarl.example.com,2026-05-21 23:15:29,No answer,Sales call,ACME-A001898
+jacob.smith@bennettkingandsimmons.example.com,2026-05-22 18:35:41,No answer,Sales call,ACME-A001946
+marissa.pham@gilesconwayandmcgee.example.com,2026-05-22 18:41:19,No answer,Sales call,ACME-A001947
+timothy.white@wilsongroup.example.com,2026-05-23 03:19:42,No answer,Sales call,ACME-A001969
+gregg.torres@lewisltd.example.com,2026-05-23 12:15:26,Left voicemail,Sales call,ACME-A001983
+natalie.martinez@smithewingandstewart.example.com,2026-05-23 17:47:22,Connected,Sales call,ACME-A001994
+james.ramirez@douglaspineda.example.com,2026-05-25 02:18:25,No answer,Sales call,ACME-A002042
+wendy.brock@perezdillon.example.com,2026-05-25 05:40:49,Left voicemail,Sales call,ACME-A002048
+james.ramirez@douglaspineda.example.com,2026-05-25 15:41:50,No answer,Sales call,ACME-A002073
+brian.davenport@coxcherry.example.com,2026-05-25 18:51:39,No answer,Sales call,ACME-A002082
+james.flores@lopezparkerandacevedo.example.com,2026-05-26 00:42:44,Left voicemail,Sales call,ACME-A002094
+elizabeth.brennan@woodmartin.example.com,2026-05-26 09:22:16,Left voicemail,Sales call,ACME-A002109
+brian.shaw@weberinc.example.com,2026-05-26 15:07:43,Connected,Sales call,ACME-A002117
+kimberly.parker@scottdawsonandhines.example.com,2026-05-27 10:05:06,No answer,Sales call,ACME-A002149
+brian.davenport@coxcherry.example.com,2026-05-27 11:44:49,No answer,Sales call,ACME-A002153
+monica.fisher@robertsandsons.example.com,2026-05-27 14:58:24,Connected,Sales call,ACME-A002159
+jennifer.newton@martinthompson.example.com,2026-05-27 15:26:39,Left voicemail,Sales call,ACME-A002162
+peter.smith@gatesandsons.example.com,2026-05-27 18:37:37,Connected,Sales call,ACME-A002169
+todd.macdonald@campbellrivera.example.com,2026-05-28 02:10:07,Connected,Sales call,ACME-A002180
+rebecca.riley@saundershubbard.example.com,2026-05-28 15:13:55,Left voicemail,Sales call,ACME-A002199
+heather.long@bradymiller.example.com,2026-05-28 17:17:43,Left voicemail,Sales call,ACME-A002203
+michael.herring@gilbertwalkerandrose.example.com,2026-05-29 07:22:22,Left voicemail,Sales call,ACME-A002225
+angel.martin@ayersgroup.example.com,2026-05-29 07:24:30,Connected,Sales call,ACME-A002226
+lisa.mays@lanemoore.example.com,2026-05-29 10:13:53,Left voicemail,Sales call,ACME-A002231
+brian.davenport@coxcherry.example.com,2026-05-29 22:55:03,Connected,Sales call,ACME-A002255
+patricia.miller@stantonphillipsandmcfarl.example.com,2026-05-30 05:02:36,Connected,Sales call,ACME-A002268
+henry.nielsen@olsengroup.example.com,2026-05-30 22:40:42,Connected,Sales call,ACME-A002291
+kelly.page@hillgroup.example.com,2026-05-31 03:34:43,Left voicemail,Sales call,ACME-A002299
+thomas.hunt@vaughanhall.example.com,2026-05-31 04:14:39,Connected,Sales call,ACME-A002301
+brittany.white@cochrangroup.example.com,2026-05-31 05:27:15,Connected,Sales call,ACME-A002303
+jennifer.kane@floresplc.example.com,2026-05-31 06:03:27,No answer,Sales call,ACME-A002304
+james.flores@lopezparkerandacevedo.example.com,2026-05-31 10:31:07,Connected,Sales call,ACME-A002313
+jennifer.newton@martinthompson.example.com,2026-05-31 14:41:24,No answer,Sales call,ACME-A002322
+oscar.franco@kingrios.example.com,2026-05-31 17:53:22,No answer,Sales call,ACME-A002328
+patricia.miller@stantonphillipsandmcfarl.example.com,2026-05-31 21:33:11,Connected,Sales call,ACME-A002338
+brian.davenport@coxcherry.example.com,2026-06-01 03:10:04,No answer,Sales call,ACME-A002350
+brittany.white@cochrangroup.example.com,2026-06-01 20:00:13,Left voicemail,Sales call,ACME-A002382
+ronald.torres@alvaradostrong.example.com,2026-06-02 12:15:51,No answer,Sales call,ACME-A002416
+bonnie.tanner@murilloandsons.example.com,2026-06-02 12:48:23,No answer,Sales call,ACME-A002417
+thomas.huang@dunnmiller.example.com,2026-06-02 14:08:38,No answer,Sales call,ACME-A002419
+lindsay.pollard@jacksonreedandgarcia.example.com,2026-06-02 14:31:46,Connected,Sales call,ACME-A002420
+kenneth.porter@davisrodriguez.example.com,2026-06-02 14:32:04,Connected,Sales call,ACME-A002421
+brian.shaw@weberinc.example.com,2026-06-02 15:55:43,Left voicemail,Sales call,ACME-A002426
+jennifer.petty@hoodreese.example.com,2026-06-02 16:06:09,Left voicemail,Sales call,ACME-A002428
+peter.coleman@kempgroup.example.com,2026-06-02 16:16:54,No answer,Sales call,ACME-A002430
+jessica.novak@johnsonstevensandtran.example.com,2026-06-02 17:58:56,Left voicemail,Sales call,ACME-A002432
+kimberly.harris@evansbrownandscott.example.com,2026-06-02 19:30:06,No answer,Sales call,ACME-A002434
+rebecca.reyes@smithandsons.example.com,2026-06-03 01:44:14,Left voicemail,Sales call,ACME-A002442
+philip.edwards@jenkinsvelazquez.example.com,2026-06-03 18:49:48,No answer,Sales call,ACME-A002478
+marissa.pham@gilesconwayandmcgee.example.com,2026-06-03 19:18:53,Connected,Sales call,ACME-A002479
+gregg.torres@lewisltd.example.com,2026-06-03 21:05:32,Left voicemail,Sales call,ACME-A002482
+martin.ross@barrerainc.example.com,2026-06-04 00:32:42,Connected,Sales call,ACME-A002490
+amy.bennett@greenoliverandjones.example.com,2026-06-04 08:21:52,No answer,Sales call,ACME-A002502
+monica.hampton@rivasroberts.example.com,2026-06-04 09:42:07,Left voicemail,Sales call,ACME-A002505
+kenneth.porter@davisrodriguez.example.com,2026-06-04 13:34:12,Connected,Sales call,ACME-A002516
+heather.blair@franklinllc.example.com,2026-06-04 14:39:35,No answer,Sales call,ACME-A002518
+anthony.wood@tannerleach.example.com,2026-06-04 15:05:25,Connected,Sales call,ACME-A002521
+gregory.townsend@campbellriveraandlane.example.com,2026-06-04 18:56:44,No answer,Sales call,ACME-A002528
+monica.fisher@robertsandsons.example.com,2026-06-04 22:39:37,No answer,Sales call,ACME-A002534
+jessica.novak@johnsonstevensandtran.example.com,2026-06-04 23:28:15,No answer,Sales call,ACME-A002537
+heather.cole@fostershea.example.com,2026-06-05 03:18:08,No answer,Sales call,ACME-A002542
+angel.martin@ayersgroup.example.com,2026-06-05 03:58:46,No answer,Sales call,ACME-A002543
+gregg.torres@lewisltd.example.com,2026-06-05 09:39:41,Left voicemail,Sales call,ACME-A002553
+jessica.novak@johnsonstevensandtran.example.com,2026-06-05 11:25:25,Left voicemail,Sales call,ACME-A002556
+mark.morris@herringhuberandsmith.example.com,2026-06-05 19:45:10,Connected,Sales call,ACME-A002577
+john.matthews@christensenabbott.example.com,2026-06-05 22:34:05,Left voicemail,Sales call,ACME-A002581
+kathy.johnson@davischristianandfitzger.example.com,2026-06-06 01:31:32,Left voicemail,Sales call,ACME-A002587
+heather.blair@franklinllc.example.com,2026-06-06 08:08:20,No answer,Sales call,ACME-A002597
+sydney.peterson@maldonadollc.example.com,2026-06-06 10:10:51,No answer,Sales call,ACME-A002601
+tracey.adams@powellacostaandwatson.example.com,2026-06-06 12:18:54,Left voicemail,Sales call,ACME-A002602
+angel.martin@ayersgroup.example.com,2026-06-06 21:19:54,Connected,Sales call,ACME-A002617
+philip.edwards@jenkinsvelazquez.example.com,2026-06-08 02:34:38,Connected,Sales call,ACME-A002655
+lance.allen@salazarharrison.example.com,2026-06-08 06:05:32,Connected,Sales call,ACME-A002661
+kristin.king@andrewsinc.example.com,2026-06-08 06:53:19,Left voicemail,Sales call,ACME-A002662
+joshua.herrera@gutierrezinc.example.com,2026-06-08 11:34:08,Connected,Sales call,ACME-A002668
+tracey.adams@powellacostaandwatson.example.com,2026-06-08 13:47:05,Connected,Sales call,ACME-A002674
+jennifer.petty@hoodreese.example.com,2026-06-08 15:58:26,Left voicemail,Sales call,ACME-A002680
+sue.miller@colemanmccannandarroyo.example.com,2026-06-08 16:35:00,No answer,Sales call,ACME-A002683
+jacob.hutchinson@wilsonkimandwallace.example.com,2026-06-08 23:20:55,Connected,Sales call,ACME-A002698
+todd.macdonald@campbellrivera.example.com,2026-06-09 03:17:50,Connected,Sales call,ACME-A002704
+peter.coleman@kempgroup.example.com,2026-06-09 04:55:08,Left voicemail,Sales call,ACME-A002708
+lauren.garcia@wilkinsonkelleyandhughes.example.com,2026-06-09 10:58:22,Left voicemail,Sales call,ACME-A002718
+adam.woodard@taylorfrost.example.com,2026-06-09 11:44:12,No answer,Sales call,ACME-A002720
+james.vargas@duffyruiz.example.com,2026-06-09 17:03:37,Connected,Sales call,ACME-A002740
+jeffrey.ramirez@dixonchapman.example.com,2026-06-09 22:46:57,Left voicemail,Sales call,ACME-A002755
+kimberly.parker@scottdawsonandhines.example.com,2026-06-10 00:38:46,Connected,Sales call,ACME-A002760
+jeffrey.ramirez@dixonchapman.example.com,2026-06-10 07:35:15,Connected,Sales call,ACME-A002775
+alexis.nichols@goldenchapmanandgonzalez.example.com,2026-06-10 08:31:39,Connected,Sales call,ACME-A002776
+lisa.mays@lanemoore.example.com,2026-06-10 10:52:20,No answer,Sales call,ACME-A002779
+marc.johnson@willisandrews.example.com,2026-06-10 18:50:06,Left voicemail,Sales call,ACME-A002794
+marc.johnson@willisandrews.example.com,2026-06-11 09:46:51,No answer,Sales call,ACME-A002819
+shelly.rivera@wardltd.example.com,2026-06-11 14:38:54,Connected,Sales call,ACME-A002824
+brittany.white@cochrangroup.example.com,2026-06-11 19:02:16,Left voicemail,Sales call,ACME-A002834
+paula.wilson@fieldssingh.example.com,2026-06-11 20:44:57,Connected,Sales call,ACME-A002838
+eric.hopkins@jonesinc.example.com,2026-06-12 02:44:01,Connected,Sales call,ACME-A002850
+david.white@littlellc.example.com,2026-06-12 02:44:41,Connected,Sales call,ACME-A002851
+philip.edwards@jenkinsvelazquez.example.com,2026-06-12 02:48:46,No answer,Sales call,ACME-A002852
+robert.cunningham@guerrerokingandmoon.example.com,2026-06-12 07:57:58,No answer,Sales call,ACME-A002861
+debra.joseph@greeneguerreroandrivera.example.com,2026-06-12 11:27:07,Connected,Sales call,ACME-A002866
+lauren.garcia@wilkinsonkelleyandhughes.example.com,2026-06-12 13:51:39,No answer,Sales call,ACME-A002873
+james.ramirez@douglaspineda.example.com,2026-06-13 00:03:50,Connected,Sales call,ACME-A002894
+dawn.jenkins@villarrealllc.example.com,2026-06-13 04:36:17,No answer,Sales call,ACME-A002903
+carrie.strong@scottblackandthompson.example.com,2026-06-13 11:52:15,Left voicemail,Sales call,ACME-A002920
+amanda.roberts@gonzalezinc.example.com,2026-06-13 17:43:43,Left voicemail,Sales call,ACME-A002930
+john.matthews@christensenabbott.example.com,2026-06-13 22:47:56,Left voicemail,Sales call,ACME-A002939
+victoria.johnson@huberleonardandcruz.example.com,2026-06-15 01:09:48,No answer,Sales call,ACME-A002978
+brent.haynes@weberinc.example.com,2026-06-15 11:44:27,No answer,Sales call,ACME-A003002
+ann.jackson@westllc.example.com,2026-06-15 21:09:09,Connected,Sales call,ACME-A003023
+ronald.torres@alvaradostrong.example.com,2026-06-16 07:47:14,Connected,Sales call,ACME-A003046
+heather.cole@fostershea.example.com,2026-06-16 08:40:06,Left voicemail,Sales call,ACME-A003050
+lance.allen@salazarharrison.example.com,2026-06-16 10:57:31,Left voicemail,Sales call,ACME-A003052
+todd.macdonald@campbellrivera.example.com,2026-06-16 18:09:22,Connected,Sales call,ACME-A003064
+dana.yang@bennettmartinez.example.com,2026-06-17 00:01:48,No answer,Sales call,ACME-A003078
+marc.johnson@willisandrews.example.com,2026-06-17 21:21:18,Connected,Sales call,ACME-A003119
+monica.hampton@rivasroberts.example.com,2026-06-17 21:46:03,Connected,Sales call,ACME-A003120
+lawrence.brandt@alexanderwillis.example.com,2026-06-17 23:54:54,No answer,Sales call,ACME-A003126
+lawrence.brandt@alexanderwillis.example.com,2026-06-18 03:39:30,No answer,Sales call,ACME-A003130
+edward.rodriguez@stephensmartin.example.com,2026-06-18 06:53:01,Left voicemail,Sales call,ACME-A003135
+jennifer.patel@steelerobertsonandbell.example.com,2026-06-18 18:46:38,Left voicemail,Sales call,ACME-A003156
+jennifer.petty@hoodreese.example.com,2026-06-19 06:14:52,No answer,Sales call,ACME-A003169
+colleen.faulkner@mccoyplc.example.com,2026-06-19 08:33:06,No answer,Sales call,ACME-A003173
+robert.gordon@andersondominguezandsmit.example.com,2026-06-19 17:24:47,No answer,Sales call,ACME-A003191
+david.robinson@davisdeanandcallahan.example.com,2026-06-19 17:59:36,No answer,Sales call,ACME-A003194
+james.vargas@duffyruiz.example.com,2026-06-20 08:33:10,Connected,Sales call,ACME-A003220
+heather.cole@fostershea.example.com,2026-06-20 16:09:25,Left voicemail,Sales call,ACME-A003231
+jennifer.patel@steelerobertsonandbell.example.com,2026-06-21 11:13:01,No answer,Sales call,ACME-A003255
+michael.hill@hensleywolfandpeters.example.com,2026-06-21 13:55:33,Connected,Sales call,ACME-A003261
+nicholas.clay@briggsbrown.example.com,2026-06-21 18:31:25,No answer,Sales call,ACME-A003267
+travis.poole@garrisonzhang.example.com,2026-06-22 02:30:34,Connected,Sales call,ACME-A003278
+nichole.martin@rodriguezbailey.example.com,2026-06-22 11:18:03,Left voicemail,Sales call,ACME-A003290
+david.robinson@davisdeanandcallahan.example.com,2026-06-22 15:53:36,Connected,Sales call,ACME-A003297
+christian.nguyen@nguyenpattersonandmartin.example.com,2026-06-22 20:00:49,No answer,Sales call,ACME-A003304
+brittany.bradford@millertorres.example.com,2026-06-23 08:59:08,Connected,Sales call,ACME-A003319
+matthew.sanders@harrisonfrederick.example.com,2026-06-23 10:54:53,No answer,Sales call,ACME-A003324
+leslie.benjamin@willisplc.example.com,2026-06-23 18:28:46,No answer,Sales call,ACME-A003338
+emily.walker@rogersadams.example.com,2026-06-24 00:25:30,No answer,Sales call,ACME-A003348
+briana.calderon@berryrodriguez.example.com,2026-06-24 02:24:25,Connected,Sales call,ACME-A003351
+ashley.davis@mooreplc.example.com,2026-06-24 11:12:30,No answer,Sales call,ACME-A003365
+nichole.martin@rodriguezbailey.example.com,2026-06-24 16:13:11,Left voicemail,Sales call,ACME-A003381
+joshua.brown@petersongroup.example.com,2026-06-24 17:45:11,Left voicemail,Sales call,ACME-A003384
+luis.martinez@basspowersandpaul.example.com,2026-06-24 20:44:27,Left voicemail,Sales call,ACME-A003389
+leslie.benjamin@willisplc.example.com,2026-06-25 06:24:02,Left voicemail,Sales call,ACME-A003401
+briana.calderon@berryrodriguez.example.com,2026-06-25 07:04:44,Connected,Sales call,ACME-A003402
+carla.daniel@mitchellgroup.example.com,2026-06-25 19:02:35,Connected,Sales call,ACME-A003424
+donna.peterson@johnsonsandovalandphelps.example.com,2026-06-25 23:53:20,Connected,Sales call,ACME-A003431
+donna.peterson@johnsonsandovalandphelps.example.com,2026-06-26 07:07:32,Connected,Sales call,ACME-A003453
+michael.mcdonald@mckenzieandsons.example.com,2026-06-26 08:10:14,No answer,Sales call,ACME-A003455
+paula.wilson@fieldssingh.example.com,2026-06-26 14:26:44,Left voicemail,Sales call,ACME-A003463
+carla.daniel@mitchellgroup.example.com,2026-06-26 17:57:35,Connected,Sales call,ACME-A003473
+carla.daniel@mitchellgroup.example.com,2026-06-26 19:06:12,Connected,Sales call,ACME-A003478
+michael.hill@hensleywolfandpeters.example.com,2026-06-27 05:56:41,Connected,Sales call,ACME-A003497
+bonnie.tanner@murilloandsons.example.com,2026-06-27 10:02:32,No answer,Sales call,ACME-A003501
+travis.poole@garrisonzhang.example.com,2026-06-27 13:18:44,No answer,Sales call,ACME-A003504
+brian.brown@oneillllc.example.com,2026-06-27 17:18:24,Left voicemail,Sales call,ACME-A003512
+monica.hampton@rivasroberts.example.com,2026-06-27 21:24:42,Connected,Sales call,ACME-A003519
+travis.poole@garrisonzhang.example.com,2026-06-28 00:20:42,Left voicemail,Sales call,ACME-A003526
+arthur.haynes@garciaschaeferandeaton.example.com,2026-06-28 00:48:30,No answer,Sales call,ACME-A003527
+stephanie.perez@jonesgriffinandsmith.example.com,2026-06-28 10:34:43,Connected,Sales call,ACME-A003543
+brent.haynes@weberinc.example.com,2026-06-29 00:04:13,No answer,Sales call,ACME-A003559
+jamie.davis@jonesdennisandthompson.example.com,2026-06-29 00:11:27,No answer,Sales call,ACME-A003561
+ashley.morris@harrisoninc.example.com,2026-06-29 23:56:58,Connected,Sales call,ACME-A003607
+carla.daniel@mitchellgroup.example.com,2026-06-30 01:38:56,No answer,Sales call,ACME-A003613
+kenneth.porter@davisrodriguez.example.com,2026-06-30 08:14:15,Connected,Sales call,ACME-A003621
+john.levine@colemanltd.example.com,2026-06-30 14:49:50,Connected,Sales call,ACME-A003635
+danielle.marquez@mooremoore.example.com,2026-06-30 17:03:50,No answer,Sales call,ACME-A003641
+robert.webster@kramerltd.example.com,2026-06-30 17:14:11,No answer,Sales call,ACME-A003642
+timothy.white@wilsongroup.example.com,2026-06-30 19:02:26,Left voicemail,Sales call,ACME-A003647
+jennifer.patel@steelerobertsonandbell.example.com,2026-06-30 19:47:57,Left voicemail,Sales call,ACME-A003650
+cynthia.steele@penalowe.example.com,2026-06-30 20:32:51,Left voicemail,Sales call,ACME-A003654
+travis.poole@garrisonzhang.example.com,2026-07-01 02:19:13,Left voicemail,Sales call,ACME-A003667
+stacy.douglas@conleymarshallandanderso.example.com,2026-07-01 03:35:32,Connected,Sales call,ACME-A003671
+brent.haynes@weberinc.example.com,2026-07-01 11:34:59,Connected,Sales call,ACME-A003682
+wyatt.cox@lawsongroup.example.com,2026-07-01 11:54:10,Connected,Sales call,ACME-A003684
+abigail.saunders@brightcrawfordandmiles.example.com,2026-07-01 13:00:55,Connected,Sales call,ACME-A003689
+leslie.benjamin@willisplc.example.com,2026-07-01 13:02:06,Connected,Sales call,ACME-A003690
+natalie.williams@stonejackson.example.com,2026-07-01 23:30:02,Connected,Sales call,ACME-A003709
+jacob.hutchinson@wilsonkimandwallace.example.com,2026-07-02 00:24:55,Connected,Sales call,ACME-A003710
+stephanie.taylor@deanmiddleton.example.com,2026-07-02 12:19:34,No answer,Sales call,ACME-A003724
+edward.rodriguez@stephensmartin.example.com,2026-07-02 15:38:57,Connected,Sales call,ACME-A003732
+carrie.strong@scottblackandthompson.example.com,2026-07-02 18:27:59,Left voicemail,Sales call,ACME-A003740
+kelly.harrison@millerltd.example.com,2026-07-02 18:42:30,No answer,Sales call,ACME-A003741
+karen.smith@taylorturner.example.com,2026-07-02 20:40:58,Left voicemail,Sales call,ACME-A003748
+eddie.perez@wattsltd.example.com,2026-07-02 22:00:16,Connected,Sales call,ACME-A003751
+eddie.perez@wattsltd.example.com,2026-07-03 00:53:54,Connected,Sales call,ACME-A003756
+rachel.bryant@santosinc.example.com,2026-07-03 00:57:43,Connected,Sales call,ACME-A003757
+timothy.thomas@rodriguezllc.example.com,2026-07-03 10:43:39,No answer,Sales call,ACME-A003770
+kristi.frank@robertsllc.example.com,2026-07-03 19:21:05,Left voicemail,Sales call,ACME-A003791
+travis.poole@garrisonzhang.example.com,2026-07-03 20:03:42,No answer,Sales call,ACME-A003793
+cynthia.cantu@mayllc.example.com,2026-07-05 05:27:27,Connected,Sales call,ACME-A003837
+stacy.douglas@conleymarshallandanderso.example.com,2026-07-05 08:07:15,No answer,Sales call,ACME-A003840
+stephanie.taylor@deanmiddleton.example.com,2026-07-05 15:06:06,No answer,Sales call,ACME-A003851
+joshua.brown@petersongroup.example.com,2026-07-05 18:49:07,No answer,Sales call,ACME-A003862
+travis.poole@garrisonzhang.example.com,2026-07-05 20:00:05,Left voicemail,Sales call,ACME-A003864
+brian.brown@oneillllc.example.com,2026-07-06 03:40:46,Left voicemail,Sales call,ACME-A003871
+robert.webster@kramerltd.example.com,2026-07-06 05:22:48,Left voicemail,Sales call,ACME-A003876
+robert.mann@clarkthomasandrobinson.example.com,2026-07-06 11:27:00,No answer,Sales call,ACME-A003891
+jason.goodwin@brookspoole.example.com,2026-07-06 16:48:40,No answer,Sales call,ACME-A003905
+steven.chase@westplc.example.com,2026-07-06 17:55:36,Left voicemail,Sales call,ACME-A003911
+monica.hampton@rivasroberts.example.com,2026-07-06 18:34:45,No answer,Sales call,ACME-A003914
+kevin.morales@georgefitzpatrickandkey.example.com,2026-07-06 22:43:48,Connected,Sales call,ACME-A003925
+karen.smith@taylorturner.example.com,2026-07-07 01:49:32,No answer,Sales call,ACME-A003935
+cynthia.cantu@mayllc.example.com,2026-07-07 19:39:20,Connected,Sales call,ACME-A003967
+rebecca.gardner@cooperltd.example.com,2026-07-07 20:28:08,No answer,Sales call,ACME-A003971
+alison.webster@watsonbishop.example.com,2026-07-08 01:00:44,Connected,Sales call,ACME-A003982
+rebecca.gardner@cooperltd.example.com,2026-07-08 02:14:49,No answer,Sales call,ACME-A003986
+christian.nguyen@nguyenpattersonandmartin.example.com,2026-07-08 06:14:17,Left voicemail,Sales call,ACME-A003991
+wyatt.cox@lawsongroup.example.com,2026-07-08 09:03:18,Connected,Sales call,ACME-A003995
+natalie.williams@stonejackson.example.com,2026-07-08 13:55:14,Connected,Sales call,ACME-A004009
+cynthia.steele@penalowe.example.com,2026-07-08 17:35:31,Left voicemail,Sales call,ACME-A004017
+wendy.taylor@nelsonllc.example.com,2026-07-08 17:41:11,Connected,Sales call,ACME-A004018
+timothy.thomas@rodriguezllc.example.com,2026-07-08 19:32:39,Left voicemail,Sales call,ACME-A004022
+leslie.benjamin@willisplc.example.com,2026-07-09 04:05:32,Left voicemail,Sales call,ACME-A004037
+dana.schmitt@williamsbaker.example.com,2026-07-09 10:30:30,No answer,Sales call,ACME-A004049
+george.wallace@andersonwalker.example.com,2026-07-09 11:02:58,No answer,Sales call,ACME-A004051
+mia.burns@bakercarrandmoore.example.com,2026-07-09 22:27:21,Connected,Sales call,ACME-A004082
+carla.daniel@mitchellgroup.example.com,2026-07-10 00:06:57,Connected,Sales call,ACME-A004087
+stacey.moran@mckenziegibbs.example.com,2026-07-10 01:21:21,Connected,Sales call,ACME-A004094
+edward.meyer@curtissandoval.example.com,2026-07-10 09:38:41,Connected,Sales call,ACME-A004108
+stephanie.perez@jonesgriffinandsmith.example.com,2026-07-10 12:06:56,No answer,Sales call,ACME-A004111
+sandra.hernandez@romanroberts.example.com,2026-07-10 16:25:02,Left voicemail,Sales call,ACME-A004121
+john.meyer@andrewsmorris.example.com,2026-07-12 08:31:44,Left voicemail,Sales call,ACME-A004185
+natalie.williams@stonejackson.example.com,2026-07-12 11:37:51,Connected,Sales call,ACME-A004190
+natalie.williams@stonejackson.example.com,2026-07-12 16:03:28,No answer,Sales call,ACME-A004194
+mia.burns@bakercarrandmoore.example.com,2026-07-12 20:55:04,Connected,Sales call,ACME-A004201
+carla.daniel@mitchellgroup.example.com,2026-07-13 07:29:26,Left voicemail,Sales call,ACME-A004215
+kristi.frank@robertsllc.example.com,2026-07-13 09:38:02,Left voicemail,Sales call,ACME-A004218
+barbara.clark@sheasmith.example.com,2026-07-13 10:19:55,No answer,Sales call,ACME-A004221
+david.nguyen@fosterandsons.example.com,2026-07-13 16:18:03,No answer,Sales call,ACME-A004239
+aaron.quinn@nortonmorris.example.com,2026-07-13 22:55:34,Left voicemail,Sales call,ACME-A004254
+kenneth.porter@davisrodriguez.example.com,2026-07-14 15:47:36,Left voicemail,Sales call,ACME-A004290
+ruth.miller@taylorandsons.example.com,2026-07-14 17:54:54,Left voicemail,Sales call,ACME-A004299
+stacy.douglas@conleymarshallandanderso.example.com,2026-07-15 00:52:39,Left voicemail,Sales call,ACME-A004318
+leslie.benjamin@willisplc.example.com,2026-07-15 06:56:31,No answer,Sales call,ACME-A004327
+gregory.townsend@campbellriveraandlane.example.com,2026-07-15 07:57:22,Left voicemail,Sales call,ACME-A004332
+angela.smith@morrisonarellano.example.com,2026-07-15 15:22:14,Left voicemail,Sales call,ACME-A004340
+monica.hampton@rivasroberts.example.com,2026-07-16 02:24:20,Connected,Sales call,ACME-A004374
+alison.webster@watsonbishop.example.com,2026-07-16 09:10:44,No answer,Sales call,ACME-A004387
+debra.wilson@weeksinc.example.com,2026-07-16 15:29:47,Connected,Sales call,ACME-A004401
+kelly.harrison@millerltd.example.com,2026-07-16 22:13:57,Left voicemail,Sales call,ACME-A004420
+michael.bray@nortongroup.example.com,2026-07-17 00:42:49,No answer,Sales call,ACME-A004425
+kenneth.porter@davisrodriguez.example.com,2026-07-17 07:03:03,No answer,Sales call,ACME-A004437
+stacy.douglas@conleymarshallandanderso.example.com,2026-07-17 08:04:43,No answer,Sales call,ACME-A004439
+monica.hampton@rivasroberts.example.com,2026-07-17 10:17:01,Left voicemail,Sales call,ACME-A004442
+kevin.morales@georgefitzpatrickandkey.example.com,2026-07-17 12:04:51,Left voicemail,Sales call,ACME-A004450
+edward.meyer@curtissandoval.example.com,2026-07-17 17:44:34,No answer,Sales call,ACME-A004464
+angela.fisher@kennedyshepardandmyers.example.com,2026-07-18 02:07:54,No answer,Sales call,ACME-A004491
+alison.webster@watsonbishop.example.com,2026-07-18 12:19:20,Left voicemail,Sales call,ACME-A004501
+kelly.page@hillgroup.example.com,2026-07-18 14:41:05,No answer,Sales call,ACME-A004506
+elizabeth.lopez@hardinnguyen.example.com,2026-07-18 14:58:46,Left voicemail,Sales call,ACME-A004508
+david.nguyen@fosterandsons.example.com,2026-07-18 18:04:08,Left voicemail,Sales call,ACME-A004513
+cynthia.cantu@mayllc.example.com,2026-07-18 20:29:10,Connected,Sales call,ACME-A004517
+richard.wilson@ramirezgonzalez.example.com,2026-07-19 02:17:32,Left voicemail,Sales call,ACME-A004526
+robert.webster@kramerltd.example.com,2026-07-19 18:52:16,Connected,Sales call,ACME-A004556
+michelle.harris@mcmillankimandpearson.example.com,2026-07-19 22:57:02,Left voicemail,Sales call,ACME-A004561
+albert.clark@rochamckayandanderson.example.com,2026-07-20 02:56:21,No answer,Sales call,ACME-A004564
+robert.adams@burnsgroup.example.com,2026-07-20 05:24:29,Connected,Sales call,ACME-A004568
+brittany.sosa@bradshawgroup.example.com,2026-07-20 12:19:25,Left voicemail,Sales call,ACME-A004575
+debra.wilson@weeksinc.example.com,2026-07-20 16:58:35,Connected,Sales call,ACME-A004583
+albert.clark@rochamckayandanderson.example.com,2026-07-21 08:54:50,Connected,Sales call,ACME-A004610
+ashley.wilcox@nguyenllc.example.com,2026-07-21 17:20:40,No answer,Sales call,ACME-A004628
+samantha.harrison@armstrongglassandspencer.example.com,2026-07-21 18:35:45,Connected,Sales call,ACME-A004631
+lisa.moreno@fullerplc.example.com,2026-07-21 18:41:50,No answer,Sales call,ACME-A004632
+rachel.bryant@santosinc.example.com,2026-07-21 19:08:47,No answer,Sales call,ACME-A004633
+edward.meyer@curtissandoval.example.com,2026-07-21 19:44:39,Connected,Sales call,ACME-A004635
+natalie.williams@stonejackson.example.com,2026-07-22 03:32:28,No answer,Sales call,ACME-A004647
+joseph.williams@fisherplc.example.com,2026-07-22 09:36:03,No answer,Sales call,ACME-A004654
+jennifer.little@huertahammondandryan.example.com,2026-07-22 09:47:00,No answer,Sales call,ACME-A004655
+richard.wilson@ramirezgonzalez.example.com,2026-07-22 10:15:26,Connected,Sales call,ACME-A004656
+christopher.rodriguez@frederickcruz.example.com,2026-07-22 11:37:39,Connected,Sales call,ACME-A004658
+andrew.ortega@mcclainnguyen.example.com,2026-07-22 14:14:09,No answer,Sales call,ACME-A004665
+richard.wilson@ramirezgonzalez.example.com,2026-07-23 01:15:16,Connected,Sales call,ACME-A004689
+sandra.hernandez@romanroberts.example.com,2026-07-23 07:20:44,Connected,Sales call,ACME-A004699
+aaron.quinn@nortonmorris.example.com,2026-07-23 07:28:02,No answer,Sales call,ACME-A004700
+steven.chase@westplc.example.com,2026-07-23 08:21:15,Connected,Sales call,ACME-A004702
+stacey.moran@mckenziegibbs.example.com,2026-07-23 14:09:46,Connected,Sales call,ACME-A004711
+stacey.moran@mckenziegibbs.example.com,2026-07-23 16:41:17,No answer,Sales call,ACME-A004719
+jasmin.ward@walkerwebb.example.com,2026-07-23 18:03:49,Connected,Sales call,ACME-A004723
+george.wallace@andersonwalker.example.com,2026-07-24 00:32:29,No answer,Sales call,ACME-A004737
+barbara.clark@sheasmith.example.com,2026-07-24 09:57:27,No answer,Sales call,ACME-A004753
+samantha.harrison@armstrongglassandspencer.example.com,2026-07-24 15:01:29,Connected,Sales call,ACME-A004765
+elizabeth.lopez@hardinnguyen.example.com,2026-07-24 15:02:02,No answer,Sales call,ACME-A004766
+crystal.johnson@hurleywrightandjones.example.com,2026-07-24 17:44:59,Connected,Sales call,ACME-A004777
+michael.mcdonald@mckenzieandsons.example.com,2026-07-24 18:36:00,Left voicemail,Sales call,ACME-A004778
+darrell.robertson@lutzandsons.example.com,2026-07-24 21:41:17,No answer,Sales call,ACME-A004787
+patricia.harris@clinevasquezandsmith.example.com,2026-07-24 23:55:24,No answer,Sales call,ACME-A004789
+amy.howard@taylordixonandhooper.example.com,2026-07-25 02:56:31,No answer,Sales call,ACME-A004794
+jennifer.little@huertahammondandryan.example.com,2026-07-25 16:50:58,Connected,Sales call,ACME-A004819
+angela.fisher@kennedyshepardandmyers.example.com,2026-07-25 22:04:17,Connected,Sales call,ACME-A004826
+brandi.jones@johnsonrosarioandferguso.example.com,2026-07-26 03:44:47,Left voicemail,Sales call,ACME-A004834
+maria.black@daviskirby.example.com,2026-07-27 18:27:16,No answer,Sales call,ACME-A004885
+laura.ruiz@cooleymichael.example.com,2026-07-28 05:03:21,Connected,Sales call,ACME-A004895
+allison.king@marshallsmith.example.com,2026-07-28 05:17:10,No answer,Sales call,ACME-A004898
+scott.bailey@maciasgroup.example.com,2026-07-28 22:40:28,No answer,Sales call,ACME-A004932
+ashley.harrington@hansonyoung.example.com,2026-07-29 00:58:20,No answer,Sales call,ACME-A004937
+jeffrey.nelson@hillandsons.example.com,2026-07-29 02:42:05,Connected,Sales call,ACME-A004939
+valerie.nguyen@garciaplc.example.com,2026-07-29 17:58:42,Connected,Sales call,ACME-A004974
+savannah.fisher@mejiaandsons.example.com,2026-07-29 20:38:39,Connected,Sales call,ACME-A004979
+brandi.jones@johnsonrosarioandferguso.example.com,2026-07-30 00:31:17,Left voicemail,Sales call,ACME-A004985
+jennifer.kane@floresplc.example.com,2026-07-30 04:52:00,No answer,Sales call,ACME-A004991
+jennifer.little@huertahammondandryan.example.com,2026-07-30 05:14:21,Connected,Sales call,ACME-A004992
+robert.wise@barkerplc.example.com,2026-07-30 08:21:29,Connected,Sales call,ACME-A004996
+robert.adams@burnsgroup.example.com,2026-07-30 16:19:07,No answer,Sales call,ACME-A005008
+julia.gonzalez@jonesolson.example.com,2026-07-30 18:06:35,No answer,Sales call,ACME-A005014
+manuel.kennedy@littlewhiteandperkins.example.com,2026-07-31 02:55:31,Connected,Sales call,ACME-A005025
+natalie.williams@stonejackson.example.com,2026-07-31 03:25:47,Connected,Sales call,ACME-A005026
+savannah.fisher@mejiaandsons.example.com,2026-07-31 11:49:19,No answer,Sales call,ACME-A005036
+william.allison@sweeneygraham.example.com,2026-07-31 21:19:25,No answer,Sales call,ACME-A005056
+michael.mcdonald@mckenzieandsons.example.com,2026-07-31 22:09:33,No answer,Sales call,ACME-A005057
+benjamin.esparza@lopezandsons.example.com,2026-07-31 22:12:23,Connected,Sales call,ACME-A005058
+kristin.diaz@collinswood.example.com,2026-07-31 23:47:56,Connected,Sales call,ACME-A005060
+stacey.moran@mckenziegibbs.example.com,2026-08-01 01:32:16,Left voicemail,Sales call,ACME-A005068
+ashley.rosario@carrillorodriguezandbear.example.com,2026-08-01 06:02:46,No answer,Sales call,ACME-A005072
+michael.mcdonald@mckenzieandsons.example.com,2026-08-01 11:29:06,No answer,Sales call,ACME-A005080
+robert.adams@burnsgroup.example.com,2026-08-02 01:50:59,Connected,Sales call,ACME-A005102
+valerie.nguyen@garciaplc.example.com,2026-08-02 02:22:55,No answer,Sales call,ACME-A005103
+george.wallace@andersonwalker.example.com,2026-08-03 01:40:22,No answer,Sales call,ACME-A005143
+lori.dennis@wilsonrodriguez.example.com,2026-08-03 01:45:43,Connected,Sales call,ACME-A005144
+marcus.harper@blackgroup.example.com,2026-08-03 05:19:33,Connected,Sales call,ACME-A005149
+julia.gonzalez@jonesolson.example.com,2026-08-03 06:22:39,Connected,Sales call,ACME-A005152
+andrew.ortega@mcclainnguyen.example.com,2026-08-03 06:40:32,No answer,Sales call,ACME-A005153
+danielle.marquez@mooremoore.example.com,2026-08-03 08:06:55,Connected,Sales call,ACME-A005156
+crystal.johnson@hurleywrightandjones.example.com,2026-08-03 11:27:33,No answer,Sales call,ACME-A005165
+andrew.ortega@mcclainnguyen.example.com,2026-08-03 16:56:37,No answer,Sales call,ACME-A005172
+valerie.nguyen@garciaplc.example.com,2026-08-04 08:38:58,Left voicemail,Sales call,ACME-A005202
+leslie.benjamin@willisplc.example.com,2026-08-04 13:40:34,Left voicemail,Sales call,ACME-A005215
+stacey.long@belljohnsonandbrown.example.com,2026-08-04 16:37:42,No answer,Sales call,ACME-A005221
+cassandra.garcia@campbellgroup.example.com,2026-08-05 02:48:40,Connected,Sales call,ACME-A005247
+stacey.hall@coxhowardandmedina.example.com,2026-08-05 08:26:28,Left voicemail,Sales call,ACME-A005265
+tracy.lewis@hubersanchez.example.com,2026-08-05 15:29:09,Left voicemail,Sales call,ACME-A005282
+brandi.jones@johnsonrosarioandferguso.example.com,2026-08-05 20:16:41,Connected,Sales call,ACME-A005288
+jasmin.ward@walkerwebb.example.com,2026-08-06 03:54:50,No answer,Sales call,ACME-A005297
+crystal.taylor@joneswalkerandmartinez.example.com,2026-08-06 12:03:36,Connected,Sales call,ACME-A005308
+julia.gonzalez@jonesolson.example.com,2026-08-06 18:10:15,Connected,Sales call,ACME-A005326
+brittany.thomas@acostarichardson.example.com,2026-08-07 03:37:59,Connected,Sales call,ACME-A005340
+george.wallace@andersonwalker.example.com,2026-08-07 04:28:05,Connected,Sales call,ACME-A005341
+ashley.wilcox@nguyenllc.example.com,2026-08-07 07:59:47,Connected,Sales call,ACME-A005350
+connie.stevens@hamiltonmorgan.example.com,2026-08-07 08:26:13,No answer,Sales call,ACME-A005352
+crystal.taylor@joneswalkerandmartinez.example.com,2026-08-07 14:00:11,No answer,Sales call,ACME-A005362
+christopher.rodriguez@frederickcruz.example.com,2026-08-07 19:20:26,Left voicemail,Sales call,ACME-A005371
+rebecca.gardner@cooperltd.example.com,2026-08-08 01:33:15,Connected,Sales call,ACME-A005387
+anthony.alexander@everettbuckleyandmoore.example.com,2026-08-08 07:21:08,Left voicemail,Sales call,ACME-A005397
+crystal.taylor@joneswalkerandmartinez.example.com,2026-08-08 17:13:02,No answer,Sales call,ACME-A005415
+karen.smith@taylorturner.example.com,2026-08-09 00:01:31,Left voicemail,Sales call,ACME-A005423
+ashley.harrington@hansonyoung.example.com,2026-08-09 00:45:22,Connected,Sales call,ACME-A005426
+richard.cortez@sanchezplc.example.com,2026-08-09 15:48:24,No answer,Sales call,ACME-A005445
+robin.fuentes@johnsonmoore.example.com,2026-08-09 19:51:34,No answer,Sales call,ACME-A005452
+angela.fisher@kennedyshepardandmyers.example.com,2026-08-10 03:53:55,No answer,Sales call,ACME-A005463
+crystal.johnson@hurleywrightandjones.example.com,2026-08-10 05:52:22,Left voicemail,Sales call,ACME-A005468
+nathan.padilla@hortonmiller.example.com,2026-08-10 17:12:14,Left voicemail,Sales call,ACME-A005487
+valerie.nguyen@garciaplc.example.com,2026-08-10 20:43:45,Left voicemail,Sales call,ACME-A005495
+donna.johnson@davisrossandsanchez.example.com,2026-08-11 04:38:07,No answer,Sales call,ACME-A005509
+samantha.reynolds@sloanplc.example.com,2026-08-11 04:55:42,Left voicemail,Sales call,ACME-A005510
+marcus.harper@blackgroup.example.com,2026-08-11 14:40:08,Connected,Sales call,ACME-A005527
+nicholas.powell@greenbuckandrobinson.example.com,2026-08-11 18:03:16,Connected,Sales call,ACME-A005539
+kenneth.porter@davisrodriguez.example.com,2026-08-11 18:25:44,No answer,Sales call,ACME-A005540
+beverly.atkins@thomasbakerandpage.example.com,2026-08-12 11:19:54,No answer,Sales call,ACME-A005566
+stacey.hall@coxhowardandmedina.example.com,2026-08-12 12:47:32,Left voicemail,Sales call,ACME-A005571
+julia.gonzalez@jonesolson.example.com,2026-08-12 21:58:35,No answer,Sales call,ACME-A005591
+angela.wright@olseninc.example.com,2026-08-13 12:52:16,No answer,Sales call,ACME-A005618
+tammy.smith@kingholt.example.com,2026-08-13 16:20:38,No answer,Sales call,ACME-A005624
+malik.delgado@nicholsonplc.example.com,2026-08-13 16:25:04,Connected,Sales call,ACME-A005625
+robin.fuentes@johnsonmoore.example.com,2026-08-13 17:49:25,No answer,Sales call,ACME-A005627
+cynthia.taylor@trevinoltd.example.com,2026-08-13 18:32:19,Connected,Sales call,ACME-A005630
+richard.cortez@sanchezplc.example.com,2026-08-14 12:33:19,No answer,Sales call,ACME-A005669
+john.hall@andersonhamilton.example.com,2026-08-14 12:55:19,Connected,Sales call,ACME-A005671
+henry.zavala@hayesbarrettandneal.example.com,2026-08-14 13:35:50,No answer,Sales call,ACME-A005674
+christopher.whitehead@parkergroup.example.com,2026-08-15 07:20:47,No answer,Sales call,ACME-A005709
+kevin.scott@turnerinc.example.com,2026-08-15 07:47:41,Left voicemail,Sales call,ACME-A005710
+julia.gonzalez@jonesolson.example.com,2026-08-15 11:13:46,No answer,Sales call,ACME-A005716
+devon.carter@acevedollc.example.com,2026-08-15 22:46:18,No answer,Sales call,ACME-A005733
+emily.lara@clarkplc.example.com,2026-08-16 00:27:32,Left voicemail,Sales call,ACME-A005736
+rhonda.hamilton@wolfanthonyandtaylor.example.com,2026-08-16 02:28:03,No answer,Sales call,ACME-A005740
+john.hall@andersonhamilton.example.com,2026-08-16 04:44:09,No answer,Sales call,ACME-A005743
+karen.smith@taylorturner.example.com,2026-08-16 05:30:21,Connected,Sales call,ACME-A005745
+angela.fisher@kennedyshepardandmyers.example.com,2026-08-16 06:24:32,No answer,Sales call,ACME-A005746
+richard.kelley@foxdunn.example.com,2026-08-16 07:27:04,Connected,Sales call,ACME-A005749
+michele.forbes@robinsonplc.example.com,2026-08-16 08:54:15,Connected,Sales call,ACME-A005753
+randy.foster@medinabell.example.com,2026-08-17 01:22:32,No answer,Sales call,ACME-A005778
+jasmin.ward@walkerwebb.example.com,2026-08-17 01:47:48,No answer,Sales call,ACME-A005780
+tammy.smith@kingholt.example.com,2026-08-17 09:03:12,Left voicemail,Sales call,ACME-A005789
+maureen.campos@riversandsons.example.com,2026-08-17 14:06:05,Connected,Sales call,ACME-A005802
+william.allison@sweeneygraham.example.com,2026-08-18 00:06:31,No answer,Sales call,ACME-A005822
+henry.zavala@hayesbarrettandneal.example.com,2026-08-18 07:16:54,No answer,Sales call,ACME-A005831
+kevin.scott@turnerinc.example.com,2026-08-18 22:10:57,Connected,Sales call,ACME-A005863
+kristin.diaz@collinswood.example.com,2026-08-18 22:35:44,No answer,Sales call,ACME-A005864
+billy.melton@bradleyplc.example.com,2026-08-19 17:04:09,No answer,Sales call,ACME-A005909
+nicholas.powell@greenbuckandrobinson.example.com,2026-08-19 19:22:27,Left voicemail,Sales call,ACME-A005914
+dustin.martinez@cookclay.example.com,2026-08-19 20:08:11,Left voicemail,Sales call,ACME-A005919
+kevin.morales@georgefitzpatrickandkey.example.com,2026-08-19 20:14:35,Connected,Sales call,ACME-A005922
+samuel.jordan@alvaradomayo.example.com,2026-08-20 10:16:25,Connected,Sales call,ACME-A005948
+laura.white@mcneilwilliamsandpark.example.com,2026-08-20 23:26:28,Connected,Sales call,ACME-A005974
+nicole.brady@andrewsandsons.example.com,2026-08-21 01:05:39,Left voicemail,Sales call,ACME-A005976
+samuel.jordan@alvaradomayo.example.com,2026-08-21 09:44:24,Connected,Sales call,ACME-A005989
+stephanie.dunn@jonesdouglas.example.com,2026-08-21 09:52:09,Connected,Sales call,ACME-A005991
+linda.monroe@carterinc.example.com,2026-08-21 12:33:51,Connected,Sales call,ACME-A005997
+benjamin.esparza@lopezandsons.example.com,2026-08-21 15:44:49,Connected,Sales call,ACME-A006007
+richard.brock@bennettplc.example.com,2026-08-21 21:56:38,Left voicemail,Sales call,ACME-A006020
+brandon.mendoza@lewisllc.example.com,2026-08-22 01:27:40,Connected,Sales call,ACME-A006027
+benjamin.esparza@lopezandsons.example.com,2026-08-22 04:17:59,Left voicemail,Sales call,ACME-A006038
+morgan.ortega@cantuhigginsandtrevino.example.com,2026-08-22 13:12:12,No answer,Sales call,ACME-A006053
+nathan.padilla@hortonmiller.example.com,2026-08-23 00:17:41,Connected,Sales call,ACME-A006071
+ruben.adkins@kellygordonandyoung.example.com,2026-08-23 06:08:51,No answer,Sales call,ACME-A006086
+damon.clay@pittsandsons.example.com,2026-08-23 10:29:49,No answer,Sales call,ACME-A006098
+laura.white@mcneilwilliamsandpark.example.com,2026-08-23 14:13:15,No answer,Sales call,ACME-A006104
+nathan.padilla@hortonmiller.example.com,2026-08-23 15:45:58,Connected,Sales call,ACME-A006108
+emily.lara@clarkplc.example.com,2026-08-23 21:20:01,No answer,Sales call,ACME-A006121
+glenn.beck@turnerreyesandfarley.example.com,2026-08-23 22:22:36,Connected,Sales call,ACME-A006125
+aaron.huang@alexanderjohnsonandgarci.example.com,2026-08-24 03:56:50,No answer,Sales call,ACME-A006135
+daniel.thomas@pagesmith.example.com,2026-08-24 06:29:31,Left voicemail,Sales call,ACME-A006139
+jeffrey.alvarado@ramossutton.example.com,2026-08-24 12:50:34,No answer,Sales call,ACME-A006150
+nicole.brady@andrewsandsons.example.com,2026-08-24 13:45:20,Left voicemail,Sales call,ACME-A006151
+kevin.morales@georgefitzpatrickandkey.example.com,2026-08-24 15:57:49,No answer,Sales call,ACME-A006158
+angela.martin@smithkellyandjones.example.com,2026-08-24 16:21:01,Connected,Sales call,ACME-A006159
+aaron.huang@alexanderjohnsonandgarci.example.com,2026-08-24 16:24:00,No answer,Sales call,ACME-A006160
+william.allison@sweeneygraham.example.com,2026-08-24 22:23:26,No answer,Sales call,ACME-A006169
+richard.kelley@foxdunn.example.com,2026-08-25 17:08:58,Connected,Sales call,ACME-A006204
+sydney.wallace@craigjensen.example.com,2026-08-26 09:30:52,No answer,Sales call,ACME-A006239
+eric.vasquez@kempdukeandkim.example.com,2026-08-26 12:06:03,Left voicemail,Sales call,ACME-A006243
+jeffrey.schmidt@andersonandsons.example.com,2026-08-26 15:41:35,Connected,Sales call,ACME-A006255
+cynthia.taylor@trevinoltd.example.com,2026-08-26 21:07:28,No answer,Sales call,ACME-A006274
+angela.wright@olseninc.example.com,2026-08-26 22:07:23,Connected,Sales call,ACME-A006276
+linda.monroe@carterinc.example.com,2026-08-27 15:00:57,Left voicemail,Sales call,ACME-A006313
+joshua.avila@martinezperkins.example.com,2026-08-27 21:29:54,No answer,Sales call,ACME-A006330
+samantha.reynolds@sloanplc.example.com,2026-08-27 23:26:38,No answer,Sales call,ACME-A006333
+tina.todd@parkerandsons.example.com,2026-08-28 05:24:30,Left voicemail,Sales call,ACME-A006343
+patricia.morales@millervelasquezandrichar.example.com,2026-08-28 15:01:11,Connected,Sales call,ACME-A006362
+nicholas.powell@greenbuckandrobinson.example.com,2026-08-28 19:12:31,No answer,Sales call,ACME-A006375
+nicholas.powell@greenbuckandrobinson.example.com,2026-08-28 21:59:20,Connected,Sales call,ACME-A006382
+mark.green@bridgesclarkeandgill.example.com,2026-08-29 08:49:15,No answer,Sales call,ACME-A006401
+benjamin.esparza@lopezandsons.example.com,2026-08-29 08:50:09,Connected,Sales call,ACME-A006402
+samuel.jordan@alvaradomayo.example.com,2026-08-29 09:49:08,No answer,Sales call,ACME-A006404
+laura.white@mcneilwilliamsandpark.example.com,2026-08-29 12:15:38,No answer,Sales call,ACME-A006409
+logan.campos@brennangroup.example.com,2026-08-29 17:04:48,Left voicemail,Sales call,ACME-A006416
+brandon.velez@tuckerschaefer.example.com,2026-08-29 18:38:29,Left voicemail,Sales call,ACME-A006420
+valerie.james@weaverinc.example.com,2026-08-29 19:29:20,Left voicemail,Sales call,ACME-A006421
+helen.morgan@cunninghamgomezandduncan.example.com,2026-08-29 20:31:20,Connected,Sales call,ACME-A006424
+john.hall@andersonhamilton.example.com,2026-08-30 02:08:01,No answer,Sales call,ACME-A006430
+angela.wright@olseninc.example.com,2026-08-30 05:14:00,No answer,Sales call,ACME-A006440
+sharon.alexander@riversramirez.example.com,2026-08-30 15:50:13,No answer,Sales call,ACME-A006465
+logan.campos@brennangroup.example.com,2026-08-31 10:02:59,Connected,Sales call,ACME-A006505
+dustin.martinez@cookclay.example.com,2026-08-31 14:46:49,No answer,Sales call,ACME-A006515
+valerie.james@weaverinc.example.com,2026-08-31 17:36:59,Connected,Sales call,ACME-A006522
+katelyn.bolton@mercadohaynesandking.example.com,2026-08-31 19:42:42,Connected,Sales call,ACME-A006527
+katelyn.bolton@mercadohaynesandking.example.com,2026-08-31 22:00:49,No answer,Sales call,ACME-A006533
+marc.evans@kempmccoyandguzman.example.com,2026-08-31 23:17:56,No answer,Sales call,ACME-A006536
+jason.mccullough@wilsonhobbsandgarcia.example.com,2026-09-01 09:59:19,Left voicemail,Sales call,ACME-A006553
+nathan.hoover@berrywagner.example.com,2026-09-01 17:02:09,No answer,Sales call,ACME-A006574
+nathan.padilla@hortonmiller.example.com,2026-09-01 18:01:47,Connected,Sales call,ACME-A006577
+katelyn.bolton@mercadohaynesandking.example.com,2026-09-01 19:36:17,Connected,Sales call,ACME-A006581
+valerie.james@weaverinc.example.com,2026-09-02 11:17:37,Left voicemail,Sales call,ACME-A006608
+jessica.cook@bullockbrownandmartin.example.com,2026-09-02 11:35:53,Left voicemail,Sales call,ACME-A006610
+dustin.martinez@cookclay.example.com,2026-09-02 17:19:45,Connected,Sales call,ACME-A006626
+morgan.ortega@cantuhigginsandtrevino.example.com,2026-09-02 18:56:50,Connected,Sales call,ACME-A006630
+matthew.velez@huffllc.example.com,2026-09-02 20:43:03,Connected,Sales call,ACME-A006635
+benjamin.esparza@lopezandsons.example.com,2026-09-03 03:49:19,No answer,Sales call,ACME-A006650
+benjamin.esparza@lopezandsons.example.com,2026-09-03 04:46:45,No answer,Sales call,ACME-A006654
+katelyn.bolton@mercadohaynesandking.example.com,2026-09-03 06:19:29,No answer,Sales call,ACME-A006656
+richard.kelley@foxdunn.example.com,2026-09-03 18:46:55,Left voicemail,Sales call,ACME-A006687
+sharon.alexander@riversramirez.example.com,2026-09-03 23:03:45,No answer,Sales call,ACME-A006699
+brandon.velez@tuckerschaefer.example.com,2026-09-04 09:09:48,Left voicemail,Sales call,ACME-A006713
+christopher.mendez@morrisfigueroa.example.com,2026-09-04 16:20:55,No answer,Sales call,ACME-A006731
+eric.mendoza@johnsonalexander.example.com,2026-09-05 07:09:18,No answer,Sales call,ACME-A006768
+kristin.taylor@jacksongravesandjames.example.com,2026-09-05 16:12:59,Connected,Sales call,ACME-A006785
+eric.vasquez@kempdukeandkim.example.com,2026-09-05 19:57:35,No answer,Sales call,ACME-A006787
+nicholas.peck@chaveztorresandruiz.example.com,2026-09-05 20:38:59,Left voicemail,Sales call,ACME-A006788
+eric.mendoza@johnsonalexander.example.com,2026-09-05 21:33:04,Left voicemail,Sales call,ACME-A006791
+samantha.mann@thomasplc.example.com,2026-09-07 02:07:39,Connected,Sales call,ACME-A006841
+scott.hinton@keynguyenandhopkins.example.com,2026-09-07 11:30:22,No answer,Sales call,ACME-A006854
+valerie.james@weaverinc.example.com,2026-09-07 14:15:28,Connected,Sales call,ACME-A006860
+valerie.james@weaverinc.example.com,2026-09-07 14:42:00,Connected,Sales call,ACME-A006863
+patricia.morales@millervelasquezandrichar.example.com,2026-09-07 15:15:12,Connected,Sales call,ACME-A006866
+christopher.mendez@morrisfigueroa.example.com,2026-09-07 15:15:57,No answer,Sales call,ACME-A006867
+katelyn.bolton@mercadohaynesandking.example.com,2026-09-07 22:59:59,No answer,Sales call,ACME-A006882
+carla.king@hillevans.example.com,2026-09-08 07:10:41,No answer,Sales call,ACME-A006895
+dana.anderson@hernandezharris.example.com,2026-09-08 13:14:30,No answer,Sales call,ACME-A006904
+ronald.adams@charlesstevens.example.com,2026-09-08 13:42:47,No answer,Sales call,ACME-A006906
+richard.kelley@foxdunn.example.com,2026-09-08 20:06:00,Connected,Sales call,ACME-A006921
+ruben.adkins@kellygordonandyoung.example.com,2026-09-08 22:43:05,Connected,Sales call,ACME-A006926
+james.tran@roachandsons.example.com,2026-09-09 15:09:48,No answer,Sales call,ACME-A006964
+matthew.velez@huffllc.example.com,2026-09-09 18:09:01,Connected,Sales call,ACME-A006975
+jeffery.kramer@nelsonlopez.example.com,2026-09-09 18:17:43,No answer,Sales call,ACME-A006976
+jessica.cook@bullockbrownandmartin.example.com,2026-09-09 19:23:30,No answer,Sales call,ACME-A006980
+samantha.mann@thomasplc.example.com,2026-09-10 03:21:11,No answer,Sales call,ACME-A006997
+jessica.cook@bullockbrownandmartin.example.com,2026-09-10 07:03:54,No answer,Sales call,ACME-A007006
+kerri.johnson@dukejonesandwilson.example.com,2026-09-10 10:41:15,No answer,Sales call,ACME-A007010
+jacob.carter@harveyinc.example.com,2026-09-10 16:18:02,Left voicemail,Sales call,ACME-A007026
+allison.williams@pattersonharrisonandcoll.example.com,2026-09-10 20:25:25,No answer,Sales call,ACME-A007032
+robert.morgan@hickskerrandmullins.example.com,2026-09-10 22:00:04,Left voicemail,Sales call,ACME-A007038
+kristin.taylor@jacksongravesandjames.example.com,2026-09-10 23:39:11,No answer,Sales call,ACME-A007043
+dana.anderson@hernandezharris.example.com,2026-09-10 23:48:46,Connected,Sales call,ACME-A007044
+james.tran@roachandsons.example.com,2026-09-11 08:41:34,Left voicemail,Sales call,ACME-A007060
+marc.flores@irwinfosterandcardenas.example.com,2026-09-11 09:11:51,Connected,Sales call,ACME-A007062
+laura.white@mcneilwilliamsandpark.example.com,2026-09-11 09:43:08,Connected,Sales call,ACME-A007066
+cynthia.taylor@trevinoltd.example.com,2026-09-11 10:23:15,Connected,Sales call,ACME-A007068
+valerie.james@weaverinc.example.com,2026-09-11 23:41:12,Connected,Sales call,ACME-A007101
+carrie.gregory@mendozaltd.example.com,2026-09-12 09:00:55,Left voicemail,Sales call,ACME-A007109
+laura.white@mcneilwilliamsandpark.example.com,2026-09-12 11:00:25,Connected,Sales call,ACME-A007110
+angela.martin@smithkellyandjones.example.com,2026-09-12 20:47:34,Connected,Sales call,ACME-A007128
+james.tran@roachandsons.example.com,2026-09-13 08:37:07,No answer,Sales call,ACME-A007152
+jean.perry@walterswolfe.example.com,2026-09-13 10:01:38,Left voicemail,Sales call,ACME-A007153
+laura.white@mcneilwilliamsandpark.example.com,2026-09-13 23:08:16,No answer,Sales call,ACME-A007170
+joseph.ford@jimenezplc.example.com,2026-09-13 23:53:44,Left voicemail,Sales call,ACME-A007173
+brandon.velez@tuckerschaefer.example.com,2026-09-14 03:51:15,No answer,Sales call,ACME-A007180
+laura.white@mcneilwilliamsandpark.example.com,2026-09-14 04:15:01,Connected,Sales call,ACME-A007182
+michael.kim@curryyoung.example.com,2026-09-14 07:04:41,Connected,Sales call,ACME-A007190
+mary.andrews@harrisjones.example.com,2026-09-14 12:46:43,No answer,Sales call,ACME-A007200
+joseph.ford@jimenezplc.example.com,2026-09-14 16:41:27,Connected,Sales call,ACME-A007208
+robin.stewart@camposgroup.example.com,2026-09-14 17:29:12,No answer,Sales call,ACME-A007213
+tammy.hamilton@gilesgroup.example.com,2026-09-14 21:12:07,No answer,Sales call,ACME-A007223
+nicholas.richardson@rileysawyerandcharles.example.com,2026-09-14 21:29:57,Connected,Sales call,ACME-A007224
+janet.reeves@carterllc.example.com,2026-09-15 20:33:23,Connected,Sales call,ACME-A007278
+emily.stokes@mooresimpson.example.com,2026-09-16 02:01:31,No answer,Sales call,ACME-A007288
+laura.white@mcneilwilliamsandpark.example.com,2026-09-16 04:06:42,No answer,Sales call,ACME-A007291
+emily.lara@clarkplc.example.com,2026-09-16 05:08:19,No answer,Sales call,ACME-A007295
+emily.stokes@mooresimpson.example.com,2026-09-16 12:46:09,No answer,Sales call,ACME-A007307
+william.hays@jonesltd.example.com,2026-09-16 16:34:48,Left voicemail,Sales call,ACME-A007318
+edwin.howard@reyescarlson.example.com,2026-09-16 20:11:11,Connected,Sales call,ACME-A007325
+marc.flores@irwinfosterandcardenas.example.com,2026-09-16 22:23:59,No answer,Sales call,ACME-A007331
+donald.rogers@payneplc.example.com,2026-09-17 04:32:29,No answer,Sales call,ACME-A007335
+christopher.hall@burnettstrickland.example.com,2026-09-17 15:17:50,No answer,Sales call,ACME-A007359
+teresa.phillips@blacksweeneyandcampbell.example.com,2026-09-17 16:09:34,Connected,Sales call,ACME-A007362
+michael.kim@curryyoung.example.com,2026-09-17 17:12:37,No answer,Sales call,ACME-A007365
+micheal.klein@wuinc.example.com,2026-09-17 22:35:54,No answer,Sales call,ACME-A007384
+robin.stewart@camposgroup.example.com,2026-09-18 02:47:07,Connected,Sales call,ACME-A007392
+jo.berger@scottsolis.example.com,2026-09-18 07:46:17,Connected,Sales call,ACME-A007401
+jason.adams@jacksongroup.example.com,2026-09-18 08:19:02,No answer,Sales call,ACME-A007404
+samantha.mann@thomasplc.example.com,2026-09-18 09:35:12,No answer,Sales call,ACME-A007408
+matthew.velez@huffllc.example.com,2026-09-18 10:45:00,No answer,Sales call,ACME-A007413
+robert.mccoy@williamsmillerandanderso.example.com,2026-09-18 15:46:27,Left voicemail,Sales call,ACME-A007420
+nicholas.peck@chaveztorresandruiz.example.com,2026-09-18 17:35:32,No answer,Sales call,ACME-A007431
+carla.king@hillevans.example.com,2026-09-18 17:37:31,Connected,Sales call,ACME-A007432
+jodi.bush@romanltd.example.com,2026-09-18 18:21:07,No answer,Sales call,ACME-A007434
+julia.moore@thompsonrichardsonandgut.example.com,2026-09-18 18:26:30,Left voicemail,Sales call,ACME-A007436
+erin.duke@callahanbrownandwarren.example.com,2026-09-19 02:02:05,Connected,Sales call,ACME-A007459
+nicholas.peck@chaveztorresandruiz.example.com,2026-09-19 06:20:00,Connected,Sales call,ACME-A007470
+alison.garcia@blakeboothandsilva.example.com,2026-09-19 10:33:10,No answer,Sales call,ACME-A007483
+william.hays@jonesltd.example.com,2026-09-19 16:39:11,Connected,Sales call,ACME-A007490
+matthew.velez@huffllc.example.com,2026-09-19 21:08:45,Connected,Sales call,ACME-A007497
+charles.brown@boyleinc.example.com,2026-09-20 00:00:06,Left voicemail,Sales call,ACME-A007502
+michael.kim@curryyoung.example.com,2026-09-20 01:16:55,Connected,Sales call,ACME-A007508
+jason.mccullough@wilsonhobbsandgarcia.example.com,2026-09-20 09:49:18,No answer,Sales call,ACME-A007520
+kerri.johnson@dukejonesandwilson.example.com,2026-09-20 10:25:43,No answer,Sales call,ACME-A007522
+jennifer.moore@hunterpowell.example.com,2026-09-20 16:25:07,Connected,Sales call,ACME-A007538
+william.hays@jonesltd.example.com,2026-09-20 18:58:36,No answer,Sales call,ACME-A007543
+donna.maldonado@estradaalexander.example.com,2026-09-20 19:32:21,Connected,Sales call,ACME-A007545
+robin.stewart@camposgroup.example.com,2026-09-21 04:03:18,Connected,Sales call,ACME-A007559
+greg.lawson@morrisandsons.example.com,2026-09-21 16:35:00,No answer,Sales call,ACME-A007594
+elizabeth.kim@howardhunt.example.com,2026-09-21 17:13:13,Connected,Sales call,ACME-A007596
+erin.duke@callahanbrownandwarren.example.com,2026-09-21 17:58:24,No answer,Sales call,ACME-A007603
+jennifer.moore@hunterpowell.example.com,2026-09-21 18:09:34,No answer,Sales call,ACME-A007604
+jeffery.kramer@nelsonlopez.example.com,2026-09-21 18:11:32,Left voicemail,Sales call,ACME-A007605
+emily.stokes@mooresimpson.example.com,2026-09-21 23:40:33,Left voicemail,Sales call,ACME-A007622
+samantha.warren@martinsharpandgolden.example.com,2026-09-22 04:04:17,Left voicemail,Sales call,ACME-A007638
+jason.adams@jacksongroup.example.com,2026-09-22 07:58:29,Connected,Sales call,ACME-A007647
+robin.fuentes@johnsonmoore.example.com,2026-09-22 12:09:52,No answer,Sales call,ACME-A007660
+mark.thompson@wilsonltd.example.com,2026-09-22 17:15:21,No answer,Sales call,ACME-A007681
+william.hays@jonesltd.example.com,2026-09-23 01:22:37,Connected,Sales call,ACME-A007703
+jo.berger@scottsolis.example.com,2026-09-23 02:57:05,Left voicemail,Sales call,ACME-A007708
+hunter.richardson@rodriguezplc.example.com,2026-09-23 13:54:33,No answer,Sales call,ACME-A007726
+elizabeth.kim@howardhunt.example.com,2026-09-23 15:01:21,Left voicemail,Sales call,ACME-A007730
+tina.thompson@pittmaninc.example.com,2026-09-23 18:55:13,No answer,Sales call,ACME-A007741
+billy.harris@burnettgroup.example.com,2026-09-23 19:47:36,Connected,Sales call,ACME-A007742
+jennifer.moore@hunterpowell.example.com,2026-09-23 19:54:23,No answer,Sales call,ACME-A007743
+nathan.hoover@berrywagner.example.com,2026-09-23 22:22:03,Left voicemail,Sales call,ACME-A007749
+krystal.willis@gomezltd.example.com,2026-09-24 05:50:25,No answer,Sales call,ACME-A007765
+carla.king@hillevans.example.com,2026-09-24 08:32:44,Connected,Sales call,ACME-A007777
+linda.smith@caldwellshaw.example.com,2026-09-24 12:07:21,Connected,Sales call,ACME-A007787
+jessica.cook@bullockbrownandmartin.example.com,2026-09-24 20:51:46,No answer,Sales call,ACME-A007826
+samantha.mann@thomasplc.example.com,2026-09-24 22:23:43,Connected,Sales call,ACME-A007831
+cynthia.taylor@trevinoltd.example.com,2026-09-25 04:38:04,Connected,Sales call,ACME-A007848
+susan.martin@lowerymills.example.com,2026-09-25 10:33:05,Connected,Sales call,ACME-A007861
+brian.campos@lopezdavis.example.com,2026-09-25 12:43:47,No answer,Sales call,ACME-A007870
+robin.fuentes@johnsonmoore.example.com,2026-09-25 15:25:21,No answer,Sales call,ACME-A007882
+jennifer.moore@hunterpowell.example.com,2026-09-25 15:26:58,Connected,Sales call,ACME-A007883
+trevor.hernandez@carterclark.example.com,2026-09-25 16:23:54,No answer,Sales call,ACME-A007887
+phillip.compton@thomasgrant.example.com,2026-09-25 19:12:26,Left voicemail,Sales call,ACME-A007898
+elizabeth.kim@howardhunt.example.com,2026-09-26 01:43:49,Left voicemail,Sales call,ACME-A007909
+jennifer.moore@hunterpowell.example.com,2026-09-26 03:41:39,No answer,Sales call,ACME-A007913
+don.parker@russellbrown.example.com,2026-09-26 04:08:47,Connected,Sales call,ACME-A007914
+jennifer.moore@hunterpowell.example.com,2026-09-26 04:15:59,Connected,Sales call,ACME-A007918
+janet.reeves@carterllc.example.com,2026-09-26 09:28:34,No answer,Sales call,ACME-A007932
+trevor.hernandez@carterclark.example.com,2026-09-26 09:30:06,Left voicemail,Sales call,ACME-A007933
+heather.taylor@taylorllc.example.com,2026-09-26 10:05:32,Connected,Sales call,ACME-A007937
+hunter.richardson@rodriguezplc.example.com,2026-09-27 11:13:34,No answer,Sales call,ACME-A008008
+jennifer.moore@hunterpowell.example.com,2026-09-28 11:58:23,No answer,Sales call,ACME-A008078
+samuel.fowler@bassgroup.example.com,2026-09-28 15:24:33,Connected,Sales call,ACME-A008096
+april.malone@mercadoortizandbarnes.example.com,2026-09-28 17:21:35,Left voicemail,Sales call,ACME-A008108
+diamond.allen@hartmandaniels.example.com,2026-09-28 21:12:51,Connected,Sales call,ACME-A008124
+whitney.davis@parsonsfuentes.example.com,2026-09-29 00:55:17,Connected,Sales call,ACME-A008138
+janet.reeves@carterllc.example.com,2026-09-29 04:41:10,No answer,Sales call,ACME-A008154
+samantha.mann@thomasplc.example.com,2026-09-29 05:19:00,Left voicemail,Sales call,ACME-A008159
+trevor.hernandez@carterclark.example.com,2026-09-29 06:00:38,No answer,Sales call,ACME-A008163
+jo.berger@scottsolis.example.com,2026-09-29 06:16:02,Left voicemail,Sales call,ACME-A008166
+timothy.nichols@wardhernandez.example.com,2026-09-29 11:36:20,No answer,Sales call,ACME-A008193
+brian.evans@wilsonmatthewsandtucker.example.com,2026-09-29 11:56:06,No answer,Sales call,ACME-A008196
+trevor.hernandez@carterclark.example.com,2026-09-29 19:11:00,No answer,Sales call,ACME-A008237
+whitney.davis@parsonsfuentes.example.com,2026-09-30 04:21:45,No answer,Sales call,ACME-A008278
+robert.morgan@hickskerrandmullins.example.com,2026-09-30 06:38:13,Left voicemail,Sales call,ACME-A008292
+blake.walker@kleinmiller.example.com,2026-09-30 16:34:55,No answer,Sales call,ACME-A008366
+blake.walker@kleinmiller.example.com,2026-09-30 21:47:17,No answer,Sales call,ACME-A008405

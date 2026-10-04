@@ -1,0 +1,827 @@
+Email,Activity date,Call outcome,Call title,Activity ID (source)
+russell.simpson@weavercarlson.example.com,2026-04-02 14:46:25,No answer,Sales call,SUMM-A000020
+april.robertson@ellisfordandweaver.example.com,2026-04-04 01:57:11,Connected,Sales call,SUMM-A000040
+harold.lee@byrdltd.example.com,2026-04-04 10:09:52,Left voicemail,Sales call,SUMM-A000043
+harold.lee@byrdltd.example.com,2026-04-04 10:59:41,No answer,Sales call,SUMM-A000044
+mario.stephens@carpentermurray.example.com,2026-04-04 21:05:01,No answer,Sales call,SUMM-A000053
+april.robertson@ellisfordandweaver.example.com,2026-04-05 20:10:06,No answer,Sales call,SUMM-A000068
+roy.johnson@robinsoninc.example.com,2026-04-06 07:13:06,No answer,Sales call,SUMM-A000074
+natalie.sanchez@morrisclarkeandandrade.example.com,2026-04-06 14:16:31,Connected,Sales call,SUMM-A000085
+natalie.sanchez@morrisclarkeandandrade.example.com,2026-04-06 20:12:43,Left voicemail,Sales call,SUMM-A000093
+nicholas.carroll@garrettinc.example.com,2026-04-07 09:44:25,Connected,Sales call,SUMM-A000100
+bryan.johnson@santosdeananddecker.example.com,2026-04-07 14:00:29,No answer,Sales call,SUMM-A000105
+nicholas.carroll@garrettinc.example.com,2026-04-07 17:40:49,Left voicemail,Sales call,SUMM-A000109
+natalie.sanchez@morrisclarkeandandrade.example.com,2026-04-07 20:56:56,Left voicemail,Sales call,SUMM-A000113
+melissa.hanson@porterporterandaguilar.example.com,2026-04-08 09:30:00,Connected,Sales call,SUMM-A000119
+bryan.johnson@santosdeananddecker.example.com,2026-04-08 15:54:30,No answer,Sales call,SUMM-A000127
+tyrone.santos@rodgersnormanandhubbard.example.com,2026-04-09 06:55:29,No answer,Sales call,SUMM-A000140
+michelle.martinez@perryjackson.example.com,2026-04-09 16:07:25,Connected,Sales call,SUMM-A000148
+sean.brown@jonesgroup.example.com,2026-04-09 17:13:47,Left voicemail,Sales call,SUMM-A000150
+rebecca.morris@sandovalmurphy.example.com,2026-04-09 21:52:51,Connected,Sales call,SUMM-A000157
+michelle.martinez@perryjackson.example.com,2026-04-09 23:44:53,No answer,Sales call,SUMM-A000162
+rebecca.morris@sandovalmurphy.example.com,2026-04-10 05:04:14,Connected,Sales call,SUMM-A000165
+april.robertson@ellisfordandweaver.example.com,2026-04-10 05:23:46,No answer,Sales call,SUMM-A000166
+michelle.martinez@perryjackson.example.com,2026-04-10 06:18:13,Connected,Sales call,SUMM-A000167
+kelly.booker@priceplc.example.com,2026-04-10 10:53:41,No answer,Sales call,SUMM-A000170
+michelle.martinez@perryjackson.example.com,2026-04-10 15:46:05,Connected,Sales call,SUMM-A000173
+nicole.nguyen@arellanowilliamsandwest.example.com,2026-04-11 00:54:19,Connected,Sales call,SUMM-A000183
+nicholas.carroll@garrettinc.example.com,2026-04-12 11:21:04,No answer,Sales call,SUMM-A000214
+nicole.nguyen@arellanowilliamsandwest.example.com,2026-04-12 16:02:49,No answer,Sales call,SUMM-A000217
+nicole.nguyen@arellanowilliamsandwest.example.com,2026-04-12 18:30:34,Connected,Sales call,SUMM-A000219
+sharon.sharp@williamsinc.example.com,2026-04-13 15:29:24,Connected,Sales call,SUMM-A000240
+nicholas.carroll@garrettinc.example.com,2026-04-14 01:26:58,Left voicemail,Sales call,SUMM-A000253
+charles.montgomery@freemanballard.example.com,2026-04-14 03:39:09,Connected,Sales call,SUMM-A000256
+robert.johnson@warrenrodriguez.example.com,2026-04-14 06:04:24,Connected,Sales call,SUMM-A000259
+mark.quinn@taylorcole.example.com,2026-04-14 10:04:57,Connected,Sales call,SUMM-A000263
+christina.lopez@leelaraandalvarez.example.com,2026-04-14 13:23:46,Connected,Sales call,SUMM-A000266
+kaitlyn.daniels@steelemiller.example.com,2026-04-15 01:41:36,No answer,Sales call,SUMM-A000284
+carol.harrison@lambertthomasandchung.example.com,2026-04-15 10:10:46,No answer,Sales call,SUMM-A000292
+robert.johnson@warrenrodriguez.example.com,2026-04-15 23:11:28,Connected,Sales call,SUMM-A000310
+nicholas.jackson@figueroaltd.example.com,2026-04-16 12:29:47,Connected,Sales call,SUMM-A000315
+jonathan.lambert@martinpalmerandsolomon.example.com,2026-04-16 20:48:22,Left voicemail,Sales call,SUMM-A000321
+carol.harrison@lambertthomasandchung.example.com,2026-04-16 22:15:59,No answer,Sales call,SUMM-A000322
+kevin.gibson@schwartzhall.example.com,2026-04-17 02:33:26,Connected,Sales call,SUMM-A000329
+mark.quinn@taylorcole.example.com,2026-04-17 13:24:49,No answer,Sales call,SUMM-A000331
+nicholas.jackson@figueroaltd.example.com,2026-04-17 19:56:58,Left voicemail,Sales call,SUMM-A000339
+tina.clarke@smithmoralesandgraves.example.com,2026-04-18 05:14:25,Left voicemail,Sales call,SUMM-A000342
+robert.johnson@warrenrodriguez.example.com,2026-04-18 08:24:53,Left voicemail,Sales call,SUMM-A000344
+sarah.madden@parkerjimenez.example.com,2026-04-18 19:26:14,No answer,Sales call,SUMM-A000352
+paul.moss@hobbschandler.example.com,2026-04-19 22:38:52,Connected,Sales call,SUMM-A000379
+paul.moss@hobbschandler.example.com,2026-04-20 12:47:17,Left voicemail,Sales call,SUMM-A000400
+joel.burns@buchananmoody.example.com,2026-04-20 19:07:47,Left voicemail,Sales call,SUMM-A000411
+paul.moss@hobbschandler.example.com,2026-04-21 03:37:16,No answer,Sales call,SUMM-A000425
+paul.moss@hobbschandler.example.com,2026-04-21 07:23:48,Left voicemail,Sales call,SUMM-A000431
+charles.montgomery@freemanballard.example.com,2026-04-21 18:10:40,Left voicemail,Sales call,SUMM-A000451
+charles.montgomery@freemanballard.example.com,2026-04-21 22:07:34,Connected,Sales call,SUMM-A000457
+nicole.munoz@shepardgonzalezandclemen.example.com,2026-04-22 01:20:58,Connected,Sales call,SUMM-A000460
+denise.harris@roblesblackburnandford.example.com,2026-04-22 07:58:28,Connected,Sales call,SUMM-A000469
+melissa.hanson@porterporterandaguilar.example.com,2026-04-22 09:22:37,No answer,Sales call,SUMM-A000470
+larry.smith@gonzalezleonardandrogers.example.com,2026-04-23 19:24:10,Connected,Sales call,SUMM-A000498
+alicia.moore@clarkdaniels.example.com,2026-04-23 19:27:48,No answer,Sales call,SUMM-A000499
+rachel.pitts@belljennings.example.com,2026-04-24 05:10:48,Left voicemail,Sales call,SUMM-A000504
+alexis.wagner@greenhiggins.example.com,2026-04-24 19:46:20,No answer,Sales call,SUMM-A000515
+anthony.carter@browningfloresandwebb.example.com,2026-04-25 02:43:52,Left voicemail,Sales call,SUMM-A000525
+carol.harrison@lambertthomasandchung.example.com,2026-04-26 07:12:50,Connected,Sales call,SUMM-A000550
+brenda.peterson@hudsonlee.example.com,2026-04-26 22:08:03,Left voicemail,Sales call,SUMM-A000567
+mary.wyatt@tuckervang.example.com,2026-04-27 09:53:24,No answer,Sales call,SUMM-A000579
+jerry.hale@burkecastillo.example.com,2026-04-27 12:16:41,No answer,Sales call,SUMM-A000581
+sean.brown@jonesgroup.example.com,2026-04-27 14:04:06,Connected,Sales call,SUMM-A000583
+reginald.robinson@olsonandsons.example.com,2026-04-27 19:10:40,No answer,Sales call,SUMM-A000589
+curtis.howell@griffinreyes.example.com,2026-04-27 22:51:15,Left voicemail,Sales call,SUMM-A000591
+kaitlyn.daniels@steelemiller.example.com,2026-04-28 12:32:49,Connected,Sales call,SUMM-A000600
+darrell.black@larawarren.example.com,2026-04-28 15:14:57,Connected,Sales call,SUMM-A000603
+anthony.carter@browningfloresandwebb.example.com,2026-04-29 00:30:33,No answer,Sales call,SUMM-A000614
+william.scott@williamsrodriguez.example.com,2026-04-29 10:43:57,Connected,Sales call,SUMM-A000623
+jerry.hale@burkecastillo.example.com,2026-04-30 06:22:58,Connected,Sales call,SUMM-A000637
+reginald.robinson@olsonandsons.example.com,2026-04-30 08:48:58,No answer,Sales call,SUMM-A000641
+leah.west@robersoninc.example.com,2026-04-30 15:18:40,Left voicemail,Sales call,SUMM-A000648
+ryan.wise@mooreinc.example.com,2026-04-30 17:37:59,No answer,Sales call,SUMM-A000650
+rebecca.flores@warrenreynolds.example.com,2026-05-01 10:05:29,Connected,Sales call,SUMM-A000673
+brenda.peterson@hudsonlee.example.com,2026-05-02 02:56:19,Connected,Sales call,SUMM-A000690
+reginald.robinson@olsonandsons.example.com,2026-05-02 04:10:22,No answer,Sales call,SUMM-A000692
+monica.collins@rodriguezllc.example.com,2026-05-02 08:11:41,Connected,Sales call,SUMM-A000696
+michelle.gonzalez@gibsonherrera.example.com,2026-05-02 19:22:36,Left voicemail,Sales call,SUMM-A000701
+judy.miller@robertsoninc.example.com,2026-05-03 00:04:32,Connected,Sales call,SUMM-A000705
+darrell.black@larawarren.example.com,2026-05-03 02:50:08,No answer,Sales call,SUMM-A000708
+michelle.bray@leonardrossandcase.example.com,2026-05-03 06:47:28,Connected,Sales call,SUMM-A000713
+michael.martinez@jonesfarrellandgrant.example.com,2026-05-03 08:08:32,No answer,Sales call,SUMM-A000716
+amy.sandoval@foxandsons.example.com,2026-05-03 09:58:46,Left voicemail,Sales call,SUMM-A000718
+wanda.mclaughlin@robinsonmartinandrichard.example.com,2026-05-04 07:38:32,No answer,Sales call,SUMM-A000734
+larry.jones@simscole.example.com,2026-05-04 18:11:09,No answer,Sales call,SUMM-A000739
+jennifer.jones@hubbardsullivan.example.com,2026-05-05 06:38:05,No answer,Sales call,SUMM-A000753
+rickey.rogers@cantrellandsons.example.com,2026-05-05 16:22:46,Left voicemail,Sales call,SUMM-A000762
+michael.brown@orrinc.example.com,2026-05-05 23:21:10,Connected,Sales call,SUMM-A000771
+renee.munoz@jonesandsons.example.com,2026-05-06 08:58:16,Left voicemail,Sales call,SUMM-A000778
+joel.burns@buchananmoody.example.com,2026-05-06 09:21:56,Left voicemail,Sales call,SUMM-A000779
+jacqueline.bright@poolesantos.example.com,2026-05-06 12:48:13,Connected,Sales call,SUMM-A000782
+allison.kelley@houstonbrown.example.com,2026-05-06 13:24:20,Connected,Sales call,SUMM-A000783
+larry.smith@gonzalezleonardandrogers.example.com,2026-05-06 22:33:56,No answer,Sales call,SUMM-A000792
+tina.clarke@smithmoralesandgraves.example.com,2026-05-07 03:29:47,No answer,Sales call,SUMM-A000798
+stephanie.hubbard@cookhernandez.example.com,2026-05-07 04:53:03,Connected,Sales call,SUMM-A000800
+anthony.rodriguez@phillipsplc.example.com,2026-05-07 06:11:48,No answer,Sales call,SUMM-A000803
+anthony.carter@browningfloresandwebb.example.com,2026-05-07 08:15:18,Connected,Sales call,SUMM-A000804
+rickey.rogers@cantrellandsons.example.com,2026-05-07 11:54:27,No answer,Sales call,SUMM-A000809
+kaitlyn.daniels@steelemiller.example.com,2026-05-07 15:13:48,Connected,Sales call,SUMM-A000813
+larry.jones@simscole.example.com,2026-05-07 19:58:05,Connected,Sales call,SUMM-A000823
+joel.burns@buchananmoody.example.com,2026-05-07 21:50:52,Left voicemail,Sales call,SUMM-A000825
+larry.smith@gonzalezleonardandrogers.example.com,2026-05-08 11:07:59,No answer,Sales call,SUMM-A000838
+linda.irwin@norrisgroup.example.com,2026-05-08 13:15:44,No answer,Sales call,SUMM-A000841
+larry.jones@simscole.example.com,2026-05-09 03:24:18,Connected,Sales call,SUMM-A000857
+jasmine.dean@poolebradleyandfisher.example.com,2026-05-10 03:17:09,No answer,Sales call,SUMM-A000877
+william.scott@williamsrodriguez.example.com,2026-05-10 12:43:38,Connected,Sales call,SUMM-A000886
+maria.yates@marshyoung.example.com,2026-05-10 20:43:10,Left voicemail,Sales call,SUMM-A000895
+david.davis@jonesandsons.example.com,2026-05-11 13:26:31,Left voicemail,Sales call,SUMM-A000908
+melanie.evans@nelsonbennett.example.com,2026-05-11 17:31:44,No answer,Sales call,SUMM-A000914
+nicholas.weaver@mcdonaldcopelandandmason.example.com,2026-05-12 01:37:42,No answer,Sales call,SUMM-A000929
+melanie.evans@nelsonbennett.example.com,2026-05-12 04:35:06,No answer,Sales call,SUMM-A000933
+todd.perry@freygroup.example.com,2026-05-12 05:40:24,Connected,Sales call,SUMM-A000935
+kevin.romero@parsonsinc.example.com,2026-05-12 18:33:24,No answer,Sales call,SUMM-A000954
+anthony.jackson@basshardyandthompson.example.com,2026-05-12 21:28:27,Connected,Sales call,SUMM-A000959
+rebecca.flores@warrenreynolds.example.com,2026-05-12 23:01:09,No answer,Sales call,SUMM-A000963
+todd.perry@freygroup.example.com,2026-05-12 23:13:17,No answer,Sales call,SUMM-A000965
+william.knight@danielacevedo.example.com,2026-05-13 00:30:11,Left voicemail,Sales call,SUMM-A000970
+diane.cochran@pricewood.example.com,2026-05-13 11:35:05,No answer,Sales call,SUMM-A000988
+kaitlyn.daniels@steelemiller.example.com,2026-05-13 13:30:44,Left voicemail,Sales call,SUMM-A000989
+paige.scott@hicksjenkinsandross.example.com,2026-05-13 21:51:40,Connected,Sales call,SUMM-A000997
+william.scott@williamsrodriguez.example.com,2026-05-14 04:40:48,No answer,Sales call,SUMM-A001007
+jacqueline.bright@poolesantos.example.com,2026-05-14 15:09:16,Left voicemail,Sales call,SUMM-A001021
+wanda.mclaughlin@robinsonmartinandrichard.example.com,2026-05-15 00:06:52,No answer,Sales call,SUMM-A001031
+alexis.wagner@greenhiggins.example.com,2026-05-15 05:02:50,No answer,Sales call,SUMM-A001034
+michele.donovan@cherryandsons.example.com,2026-05-15 12:35:04,Connected,Sales call,SUMM-A001039
+jennifer.jones@hubbardsullivan.example.com,2026-05-15 15:11:17,Connected,Sales call,SUMM-A001046
+kathleen.glass@walkerjonesandparker.example.com,2026-05-15 15:40:44,No answer,Sales call,SUMM-A001047
+catherine.nelson@kennedysmith.example.com,2026-05-15 16:54:46,Left voicemail,Sales call,SUMM-A001050
+catherine.nelson@kennedysmith.example.com,2026-05-15 19:06:32,Left voicemail,Sales call,SUMM-A001055
+jeffrey.lloyd@woodwardinc.example.com,2026-05-15 21:27:26,Left voicemail,Sales call,SUMM-A001058
+eric.waller@pachecoplc.example.com,2026-05-16 04:23:28,Left voicemail,Sales call,SUMM-A001064
+andrea.martin@reedwhite.example.com,2026-05-16 05:19:48,Connected,Sales call,SUMM-A001068
+andrea.martin@reedwhite.example.com,2026-05-16 06:07:40,Left voicemail,Sales call,SUMM-A001069
+gina.taylor@harringtongroup.example.com,2026-05-16 07:16:13,Connected,Sales call,SUMM-A001072
+maria.yates@marshyoung.example.com,2026-05-16 17:08:53,Connected,Sales call,SUMM-A001082
+allison.kelley@houstonbrown.example.com,2026-05-16 20:36:22,Left voicemail,Sales call,SUMM-A001086
+angel.peterson@salazarbrown.example.com,2026-05-17 00:38:38,Connected,Sales call,SUMM-A001093
+eric.waller@pachecoplc.example.com,2026-05-17 21:31:27,Left voicemail,Sales call,SUMM-A001112
+shelly.reed@ortizbryantandhunter.example.com,2026-05-18 03:00:08,Connected,Sales call,SUMM-A001119
+tina.clarke@smithmoralesandgraves.example.com,2026-05-18 03:09:13,No answer,Sales call,SUMM-A001120
+hunter.freeman@henrysims.example.com,2026-05-18 07:01:18,No answer,Sales call,SUMM-A001126
+eric.waller@pachecoplc.example.com,2026-05-18 11:22:17,Left voicemail,Sales call,SUMM-A001134
+tina.rodriguez@franklinrivas.example.com,2026-05-18 12:21:41,Connected,Sales call,SUMM-A001135
+jasmine.dean@poolebradleyandfisher.example.com,2026-05-18 13:29:09,Left voicemail,Sales call,SUMM-A001137
+kyle.potts@millerperez.example.com,2026-05-18 14:42:17,No answer,Sales call,SUMM-A001138
+robin.nicholson@mendozarogersandgarrett.example.com,2026-05-18 18:23:59,Connected,Sales call,SUMM-A001146
+andrea.ho@williamsweber.example.com,2026-05-18 22:54:02,No answer,Sales call,SUMM-A001151
+joseph.andrews@graysmithandcrawford.example.com,2026-05-18 23:55:23,Left voicemail,Sales call,SUMM-A001153
+diane.cochran@pricewood.example.com,2026-05-19 00:49:17,Connected,Sales call,SUMM-A001156
+stephanie.lee@reynoldsinc.example.com,2026-05-19 05:19:40,No answer,Sales call,SUMM-A001160
+deborah.patel@owensburnsanddavis.example.com,2026-05-19 07:53:17,Left voicemail,Sales call,SUMM-A001164
+linda.irwin@norrisgroup.example.com,2026-05-19 11:07:44,Left voicemail,Sales call,SUMM-A001167
+brian.parrish@curryltd.example.com,2026-05-19 22:50:52,Left voicemail,Sales call,SUMM-A001178
+shelly.reed@ortizbryantandhunter.example.com,2026-05-20 14:44:53,No answer,Sales call,SUMM-A001199
+justin.cooke@kramerltd.example.com,2026-05-20 15:21:14,Left voicemail,Sales call,SUMM-A001202
+kyle.potts@millerperez.example.com,2026-05-20 18:02:01,Connected,Sales call,SUMM-A001206
+deborah.patel@owensburnsanddavis.example.com,2026-05-20 19:38:18,Left voicemail,Sales call,SUMM-A001209
+brian.parrish@curryltd.example.com,2026-05-21 00:25:03,No answer,Sales call,SUMM-A001215
+catherine.nelson@kennedysmith.example.com,2026-05-21 06:27:27,Left voicemail,Sales call,SUMM-A001221
+erin.miller@moralesmitchell.example.com,2026-05-21 06:29:43,No answer,Sales call,SUMM-A001223
+justin.cooke@kramerltd.example.com,2026-05-21 14:20:22,Left voicemail,Sales call,SUMM-A001228
+anthony.jackson@basshardyandthompson.example.com,2026-05-21 18:02:20,No answer,Sales call,SUMM-A001231
+robert.welch@adamsllc.example.com,2026-05-21 23:48:50,No answer,Sales call,SUMM-A001240
+michael.gonzalez@everettbishop.example.com,2026-05-22 00:05:17,No answer,Sales call,SUMM-A001241
+angel.peterson@salazarbrown.example.com,2026-05-22 00:44:07,No answer,Sales call,SUMM-A001243
+linda.irwin@norrisgroup.example.com,2026-05-22 07:13:59,No answer,Sales call,SUMM-A001249
+tonya.swanson@mcmillaninc.example.com,2026-05-22 11:17:14,No answer,Sales call,SUMM-A001254
+tommy.matthews@garciamckayandchristian.example.com,2026-05-22 15:21:48,No answer,Sales call,SUMM-A001258
+andrea.ho@williamsweber.example.com,2026-05-22 19:08:48,Left voicemail,Sales call,SUMM-A001261
+tyler.brown@mcdowelljones.example.com,2026-05-22 21:25:26,Connected,Sales call,SUMM-A001266
+catherine.nelson@kennedysmith.example.com,2026-05-23 10:32:47,No answer,Sales call,SUMM-A001280
+tracey.roberts@mcdonaldplc.example.com,2026-05-23 13:11:47,Left voicemail,Sales call,SUMM-A001283
+matthew.johnson@howelittle.example.com,2026-05-23 13:48:47,Connected,Sales call,SUMM-A001285
+matthew.johnson@howelittle.example.com,2026-05-23 14:09:01,No answer,Sales call,SUMM-A001286
+matthew.johnson@howelittle.example.com,2026-05-23 16:37:53,No answer,Sales call,SUMM-A001288
+matthew.johnson@howelittle.example.com,2026-05-23 17:45:30,Left voicemail,Sales call,SUMM-A001289
+matthew.johnson@howelittle.example.com,2026-05-23 18:23:53,Left voicemail,Sales call,SUMM-A001290
+amanda.cole@bennettbeardanddavenport.example.com,2026-05-23 18:53:58,Left voicemail,Sales call,SUMM-A001292
+tommy.matthews@garciamckayandchristian.example.com,2026-05-23 23:04:56,Connected,Sales call,SUMM-A001297
+nicole.nelson@reynoldshernandez.example.com,2026-05-24 00:19:44,No answer,Sales call,SUMM-A001298
+michael.gonzalez@everettbishop.example.com,2026-05-24 01:16:31,Left voicemail,Sales call,SUMM-A001300
+albert.shaw@belljordan.example.com,2026-05-24 06:30:04,No answer,Sales call,SUMM-A001308
+shelly.reed@ortizbryantandhunter.example.com,2026-05-24 15:07:33,Connected,Sales call,SUMM-A001317
+logan.kelly@woodkennedyandhanson.example.com,2026-05-25 05:00:37,Connected,Sales call,SUMM-A001328
+jennifer.acosta@hernandezarnoldandnelson.example.com,2026-05-25 05:50:44,No answer,Sales call,SUMM-A001334
+sara.davis@bradleyplc.example.com,2026-05-25 13:28:23,Connected,Sales call,SUMM-A001343
+jennifer.acosta@hernandezarnoldandnelson.example.com,2026-05-25 16:44:28,No answer,Sales call,SUMM-A001345
+michael.brown@orrinc.example.com,2026-05-26 02:26:07,No answer,Sales call,SUMM-A001355
+stephanie.hubbard@cookhernandez.example.com,2026-05-26 04:22:13,No answer,Sales call,SUMM-A001359
+sherry.holland@lawrenceaguirre.example.com,2026-05-26 08:45:53,No answer,Sales call,SUMM-A001364
+catherine.nelson@kennedysmith.example.com,2026-05-26 13:37:19,Left voicemail,Sales call,SUMM-A001373
+david.mcdowell@butlervasquezandwilson.example.com,2026-05-26 13:42:39,Left voicemail,Sales call,SUMM-A001374
+jacqueline.bright@poolesantos.example.com,2026-05-26 15:57:47,No answer,Sales call,SUMM-A001378
+jeffrey.russell@archerjordanandestes.example.com,2026-05-26 20:04:34,Connected,Sales call,SUMM-A001384
+tonya.swanson@mcmillaninc.example.com,2026-05-27 04:00:46,No answer,Sales call,SUMM-A001396
+bob.brown@adamssalinas.example.com,2026-05-27 11:39:59,Connected,Sales call,SUMM-A001402
+matthew.malone@kingbaldwinandmurphy.example.com,2026-05-28 08:45:45,No answer,Sales call,SUMM-A001438
+john.trujillo@lopezcarter.example.com,2026-05-28 10:01:48,Connected,Sales call,SUMM-A001439
+bob.brown@adamssalinas.example.com,2026-05-28 13:47:51,No answer,Sales call,SUMM-A001445
+bob.brown@adamssalinas.example.com,2026-05-28 15:11:52,No answer,Sales call,SUMM-A001449
+tyrone.glover@gilbertoneillandcarney.example.com,2026-05-28 22:38:02,No answer,Sales call,SUMM-A001462
+bob.brown@adamssalinas.example.com,2026-05-29 02:17:56,No answer,Sales call,SUMM-A001465
+nicole.nelson@reynoldshernandez.example.com,2026-05-29 07:03:12,Connected,Sales call,SUMM-A001473
+tyrone.glover@gilbertoneillandcarney.example.com,2026-05-29 09:49:55,Connected,Sales call,SUMM-A001483
+peter.short@hardinghernandez.example.com,2026-05-29 20:09:55,Connected,Sales call,SUMM-A001496
+tyrone.glover@gilbertoneillandcarney.example.com,2026-05-29 23:08:25,Left voicemail,Sales call,SUMM-A001499
+daniel.webb@lopezsanfordandlittle.example.com,2026-05-30 04:20:18,Connected,Sales call,SUMM-A001503
+tina.rodriguez@franklinrivas.example.com,2026-05-30 08:35:04,Left voicemail,Sales call,SUMM-A001507
+eric.waller@pachecoplc.example.com,2026-05-30 09:15:10,Connected,Sales call,SUMM-A001508
+peter.short@hardinghernandez.example.com,2026-05-30 11:47:01,Left voicemail,Sales call,SUMM-A001510
+bob.brown@adamssalinas.example.com,2026-05-30 12:06:56,Connected,Sales call,SUMM-A001512
+emily.gibson@foxrogers.example.com,2026-05-30 13:19:16,Connected,Sales call,SUMM-A001516
+peter.short@hardinghernandez.example.com,2026-05-30 14:51:29,Left voicemail,Sales call,SUMM-A001517
+stephanie.higgins@norriscox.example.com,2026-05-30 22:29:40,No answer,Sales call,SUMM-A001524
+michele.donovan@cherryandsons.example.com,2026-05-31 02:10:25,Connected,Sales call,SUMM-A001535
+aaron.ortiz@boydduke.example.com,2026-05-31 03:10:54,Connected,Sales call,SUMM-A001536
+justin.davis@parkllc.example.com,2026-05-31 11:28:17,No answer,Sales call,SUMM-A001546
+nicole.nelson@reynoldshernandez.example.com,2026-05-31 16:13:49,Connected,Sales call,SUMM-A001550
+bob.brown@adamssalinas.example.com,2026-05-31 23:53:18,No answer,Sales call,SUMM-A001564
+scott.best@barnescampbell.example.com,2026-06-01 00:45:48,Connected,Sales call,SUMM-A001566
+james.lee@millerperezandramirez.example.com,2026-06-01 09:40:50,Connected,Sales call,SUMM-A001571
+john.trujillo@lopezcarter.example.com,2026-06-01 15:15:12,No answer,Sales call,SUMM-A001576
+gary.andrews@wilsontaylor.example.com,2026-06-01 16:59:05,Connected,Sales call,SUMM-A001577
+mark.thompson@lucasllc.example.com,2026-06-01 18:19:52,Connected,Sales call,SUMM-A001584
+mark.thompson@lucasllc.example.com,2026-06-02 07:48:55,Left voicemail,Sales call,SUMM-A001601
+juan.wagner@ramosplc.example.com,2026-06-02 19:02:46,No answer,Sales call,SUMM-A001612
+traci.dean@bishopllc.example.com,2026-06-02 22:07:50,Left voicemail,Sales call,SUMM-A001616
+micheal.smith@johnsonsolomonandoconnel.example.com,2026-06-03 12:52:37,Left voicemail,Sales call,SUMM-A001642
+angela.moore@bishopgroup.example.com,2026-06-04 06:42:04,No answer,Sales call,SUMM-A001656
+pamela.curry@martininc.example.com,2026-06-04 07:53:10,Connected,Sales call,SUMM-A001657
+justin.davis@parkllc.example.com,2026-06-04 09:44:17,No answer,Sales call,SUMM-A001660
+kevin.romero@parsonsinc.example.com,2026-06-04 09:54:07,No answer,Sales call,SUMM-A001661
+melissa.hall@stewartltd.example.com,2026-06-04 12:06:38,No answer,Sales call,SUMM-A001664
+sherri.mcbride@gomezgroup.example.com,2026-06-04 12:46:50,No answer,Sales call,SUMM-A001665
+stephanie.higgins@norriscox.example.com,2026-06-04 13:37:58,Left voicemail,Sales call,SUMM-A001668
+john.wong@odonnellinc.example.com,2026-06-04 15:14:13,Left voicemail,Sales call,SUMM-A001671
+stephanie.hubbard@cookhernandez.example.com,2026-06-04 16:11:22,Connected,Sales call,SUMM-A001676
+christopher.lara@allengroup.example.com,2026-06-04 21:14:51,Left voicemail,Sales call,SUMM-A001683
+michael.wood@crawfordnewman.example.com,2026-06-04 21:26:53,Connected,Sales call,SUMM-A001684
+gabriella.martinez@howellsherman.example.com,2026-06-04 23:35:16,Connected,Sales call,SUMM-A001690
+traci.dean@bishopllc.example.com,2026-06-04 23:36:42,No answer,Sales call,SUMM-A001691
+stephanie.higgins@norriscox.example.com,2026-06-05 01:28:41,Connected,Sales call,SUMM-A001696
+jennifer.moore@ramosshort.example.com,2026-06-05 04:44:17,Connected,Sales call,SUMM-A001701
+daniel.webb@lopezsanfordandlittle.example.com,2026-06-05 13:52:15,No answer,Sales call,SUMM-A001712
+sherri.mcbride@gomezgroup.example.com,2026-06-05 16:12:01,Left voicemail,Sales call,SUMM-A001715
+tyler.rodriguez@harrisphillipsandgordon.example.com,2026-06-05 17:24:04,No answer,Sales call,SUMM-A001717
+kimberly.moore@adkinsplc.example.com,2026-06-05 18:25:25,Connected,Sales call,SUMM-A001722
+adrian.chang@davisdean.example.com,2026-06-05 21:02:47,No answer,Sales call,SUMM-A001726
+gary.andrews@wilsontaylor.example.com,2026-06-05 23:27:45,Connected,Sales call,SUMM-A001731
+gary.andrews@wilsontaylor.example.com,2026-06-06 02:59:07,Connected,Sales call,SUMM-A001738
+nicole.nelson@reynoldshernandez.example.com,2026-06-06 05:21:26,Left voicemail,Sales call,SUMM-A001742
+justin.davis@parkllc.example.com,2026-06-06 06:42:27,No answer,Sales call,SUMM-A001743
+jesus.walker@sosaphillips.example.com,2026-06-06 20:13:29,Left voicemail,Sales call,SUMM-A001758
+tracey.roberts@mcdonaldplc.example.com,2026-06-06 20:14:50,Connected,Sales call,SUMM-A001759
+william.walton@williamsinc.example.com,2026-06-06 20:22:38,Left voicemail,Sales call,SUMM-A001761
+timothy.parks@pearsondaniels.example.com,2026-06-06 22:04:39,Left voicemail,Sales call,SUMM-A001763
+traci.dean@bishopllc.example.com,2026-06-06 23:25:43,No answer,Sales call,SUMM-A001765
+krystal.evans@robinsongomez.example.com,2026-06-07 00:04:09,Left voicemail,Sales call,SUMM-A001766
+james.lee@millerperezandramirez.example.com,2026-06-07 01:04:14,No answer,Sales call,SUMM-A001767
+gabriella.martinez@howellsherman.example.com,2026-06-07 03:47:41,Left voicemail,Sales call,SUMM-A001772
+katie.becker@barnetthornandmcgee.example.com,2026-06-07 13:58:09,No answer,Sales call,SUMM-A001787
+jesus.walker@sosaphillips.example.com,2026-06-07 15:47:53,No answer,Sales call,SUMM-A001790
+elizabeth.martin@robertsmitchell.example.com,2026-06-07 15:56:31,Connected,Sales call,SUMM-A001791
+chelsea.sawyer@garciajohnson.example.com,2026-06-07 16:31:18,Left voicemail,Sales call,SUMM-A001794
+aaron.benitez@gonzalezpatelandperkins.example.com,2026-06-08 06:01:42,Connected,Sales call,SUMM-A001817
+tina.clarke@smithmoralesandgraves.example.com,2026-06-08 06:08:31,Connected,Sales call,SUMM-A001818
+emily.gibson@foxrogers.example.com,2026-06-08 11:19:23,Left voicemail,Sales call,SUMM-A001828
+debbie.wood@leenunezandhoward.example.com,2026-06-08 11:38:45,Left voicemail,Sales call,SUMM-A001829
+nicole.nelson@reynoldshernandez.example.com,2026-06-08 14:22:24,Connected,Sales call,SUMM-A001832
+sherry.holland@lawrenceaguirre.example.com,2026-06-08 14:31:26,No answer,Sales call,SUMM-A001833
+kevin.romero@parsonsinc.example.com,2026-06-08 16:16:06,Connected,Sales call,SUMM-A001838
+evan.brown@perezjohnson.example.com,2026-06-08 16:50:56,No answer,Sales call,SUMM-A001839
+jennifer.moore@ramosshort.example.com,2026-06-08 18:38:04,No answer,Sales call,SUMM-A001844
+anthony.mcdowell@martinjohnson.example.com,2026-06-08 19:40:38,Connected,Sales call,SUMM-A001845
+gregory.joseph@howardmartinandoneal.example.com,2026-06-08 22:06:08,No answer,Sales call,SUMM-A001851
+maureen.allison@dodsonltd.example.com,2026-06-09 09:59:20,No answer,Sales call,SUMM-A001864
+thomas.downs@wallacegroup.example.com,2026-06-09 11:40:26,Left voicemail,Sales call,SUMM-A001867
+stephanie.higgins@norriscox.example.com,2026-06-09 17:11:50,No answer,Sales call,SUMM-A001881
+karen.tucker@gonzalezgroup.example.com,2026-06-09 21:01:17,Left voicemail,Sales call,SUMM-A001883
+lori.jefferson@weaverinc.example.com,2026-06-10 05:16:58,Left voicemail,Sales call,SUMM-A001897
+gina.taylor@harringtongroup.example.com,2026-06-10 08:08:54,No answer,Sales call,SUMM-A001901
+evan.brown@perezjohnson.example.com,2026-06-10 09:18:32,Left voicemail,Sales call,SUMM-A001904
+angela.gonzales@stevensplc.example.com,2026-06-10 12:51:41,Left voicemail,Sales call,SUMM-A001907
+denise.anderson@douglasphillips.example.com,2026-06-10 17:29:52,No answer,Sales call,SUMM-A001914
+angela.davis@mortondavis.example.com,2026-06-10 20:35:58,No answer,Sales call,SUMM-A001919
+anthony.mcdowell@martinjohnson.example.com,2026-06-11 03:23:23,Connected,Sales call,SUMM-A001929
+timothy.clark@shaffertorres.example.com,2026-06-11 03:27:04,Left voicemail,Sales call,SUMM-A001930
+angela.davis@mortondavis.example.com,2026-06-11 06:06:29,No answer,Sales call,SUMM-A001936
+angela.gonzales@stevensplc.example.com,2026-06-11 06:34:17,No answer,Sales call,SUMM-A001938
+angela.gonzales@stevensplc.example.com,2026-06-11 06:41:54,Connected,Sales call,SUMM-A001939
+desiree.davis@moralesplc.example.com,2026-06-11 08:47:42,Left voicemail,Sales call,SUMM-A001941
+douglas.fischer@garcialtd.example.com,2026-06-11 17:02:18,No answer,Sales call,SUMM-A001953
+katie.becker@barnetthornandmcgee.example.com,2026-06-11 20:39:31,Left voicemail,Sales call,SUMM-A001958
+justin.davis@parkllc.example.com,2026-06-11 21:59:56,Connected,Sales call,SUMM-A001963
+justin.ochoa@jonesbailey.example.com,2026-06-11 22:08:46,Left voicemail,Sales call,SUMM-A001964
+evan.brown@perezjohnson.example.com,2026-06-11 22:51:23,No answer,Sales call,SUMM-A001966
+david.mcdowell@butlervasquezandwilson.example.com,2026-06-12 01:15:26,Left voicemail,Sales call,SUMM-A001968
+kevin.romero@parsonsinc.example.com,2026-06-12 03:37:29,No answer,Sales call,SUMM-A001971
+lance.reyes@wallacellc.example.com,2026-06-12 04:09:31,No answer,Sales call,SUMM-A001973
+robin.white@hahnltd.example.com,2026-06-12 07:21:49,Left voicemail,Sales call,SUMM-A001976
+desiree.davis@moralesplc.example.com,2026-06-12 07:42:08,Connected,Sales call,SUMM-A001978
+michael.wood@crawfordnewman.example.com,2026-06-12 07:47:59,No answer,Sales call,SUMM-A001979
+barbara.wright@hernandezsmith.example.com,2026-06-12 09:59:31,Connected,Sales call,SUMM-A001982
+kevin.romero@parsonsinc.example.com,2026-06-12 12:11:23,Connected,Sales call,SUMM-A001986
+sheryl.duncan@hendricksgilbert.example.com,2026-06-13 03:17:07,Connected,Sales call,SUMM-A002012
+taylor.hunt@rodriguezinc.example.com,2026-06-13 04:18:46,Connected,Sales call,SUMM-A002013
+anthony.mcdowell@martinjohnson.example.com,2026-06-13 05:29:29,Connected,Sales call,SUMM-A002015
+angela.gonzales@stevensplc.example.com,2026-06-13 12:54:45,Left voicemail,Sales call,SUMM-A002029
+evan.brown@perezjohnson.example.com,2026-06-13 14:57:51,No answer,Sales call,SUMM-A002030
+kimberly.moore@adkinsplc.example.com,2026-06-13 15:45:29,No answer,Sales call,SUMM-A002032
+justin.fritz@garciamunoz.example.com,2026-06-14 05:36:35,No answer,Sales call,SUMM-A002054
+taylor.hunt@rodriguezinc.example.com,2026-06-14 09:24:41,No answer,Sales call,SUMM-A002057
+kevin.romero@parsonsinc.example.com,2026-06-14 19:32:33,Connected,Sales call,SUMM-A002073
+justin.davis@parkllc.example.com,2026-06-14 22:47:46,No answer,Sales call,SUMM-A002078
+elizabeth.martin@robertsmitchell.example.com,2026-06-15 03:38:46,No answer,Sales call,SUMM-A002083
+logan.kelly@woodkennedyandhanson.example.com,2026-06-15 05:25:12,No answer,Sales call,SUMM-A002084
+whitney.pratt@bakerwallaceandjohnston.example.com,2026-06-15 06:36:47,Left voicemail,Sales call,SUMM-A002086
+justin.davis@parkllc.example.com,2026-06-15 09:53:03,No answer,Sales call,SUMM-A002091
+angela.davis@mortondavis.example.com,2026-06-15 13:02:28,Connected,Sales call,SUMM-A002094
+kathy.rodriguez@lopezlongandfarrell.example.com,2026-06-15 13:40:10,Connected,Sales call,SUMM-A002095
+holly.williams@crawfordgriffinandjohnso.example.com,2026-06-15 16:06:32,No answer,Sales call,SUMM-A002101
+elizabeth.martin@robertsmitchell.example.com,2026-06-15 23:03:26,Left voicemail,Sales call,SUMM-A002109
+jesse.mcdaniel@sanchezandsons.example.com,2026-06-16 00:53:48,Left voicemail,Sales call,SUMM-A002111
+felicia.smith@jonesllc.example.com,2026-06-16 11:25:00,No answer,Sales call,SUMM-A002122
+nicole.price@mcconnellgroup.example.com,2026-06-16 16:29:16,Connected,Sales call,SUMM-A002128
+gregory.joseph@howardmartinandoneal.example.com,2026-06-16 16:35:08,No answer,Sales call,SUMM-A002129
+nicole.price@mcconnellgroup.example.com,2026-06-16 19:51:28,Left voicemail,Sales call,SUMM-A002132
+juan.wagner@ramosplc.example.com,2026-06-16 21:06:52,Left voicemail,Sales call,SUMM-A002135
+nicole.price@mcconnellgroup.example.com,2026-06-16 23:51:31,Left voicemail,Sales call,SUMM-A002139
+sheryl.duncan@hendricksgilbert.example.com,2026-06-17 13:43:09,Connected,Sales call,SUMM-A002159
+gabriella.martinez@howellsherman.example.com,2026-06-17 19:09:35,Connected,Sales call,SUMM-A002170
+nicole.price@mcconnellgroup.example.com,2026-06-17 21:07:27,No answer,Sales call,SUMM-A002177
+jesse.olson@walshbrownandbaldwin.example.com,2026-06-17 22:58:50,Left voicemail,Sales call,SUMM-A002179
+kevin.arnold@khanllc.example.com,2026-06-18 01:21:57,No answer,Sales call,SUMM-A002184
+brandi.wade@leesmithandbrown.example.com,2026-06-18 01:28:55,Left voicemail,Sales call,SUMM-A002185
+patricia.alvarado@jacksongarrett.example.com,2026-06-18 05:28:46,No answer,Sales call,SUMM-A002188
+whitney.pratt@bakerwallaceandjohnston.example.com,2026-06-18 10:50:57,Left voicemail,Sales call,SUMM-A002200
+nicole.price@mcconnellgroup.example.com,2026-06-18 17:04:19,Connected,Sales call,SUMM-A002207
+aaron.benitez@gonzalezpatelandperkins.example.com,2026-06-19 02:02:36,No answer,Sales call,SUMM-A002220
+kathy.rodriguez@lopezlongandfarrell.example.com,2026-06-19 06:37:42,No answer,Sales call,SUMM-A002227
+jennifer.moore@ramosshort.example.com,2026-06-19 07:59:06,Connected,Sales call,SUMM-A002231
+jesse.olson@walshbrownandbaldwin.example.com,2026-06-19 16:11:20,Connected,Sales call,SUMM-A002241
+karen.tucker@gonzalezgroup.example.com,2026-06-20 04:29:39,No answer,Sales call,SUMM-A002260
+justin.fritz@garciamunoz.example.com,2026-06-20 16:20:03,Left voicemail,Sales call,SUMM-A002273
+lance.reyes@wallacellc.example.com,2026-06-21 01:54:52,Connected,Sales call,SUMM-A002282
+perry.fowler@holdersmithandhernandez.example.com,2026-06-21 10:28:00,No answer,Sales call,SUMM-A002285
+jacob.finley@navarroball.example.com,2026-06-21 21:44:56,No answer,Sales call,SUMM-A002300
+adrian.chang@davisdean.example.com,2026-06-22 00:09:09,Connected,Sales call,SUMM-A002305
+derrick.donaldson@ellisonconley.example.com,2026-06-22 02:49:28,Connected,Sales call,SUMM-A002309
+derrick.donaldson@ellisonconley.example.com,2026-06-22 05:14:21,Left voicemail,Sales call,SUMM-A002314
+george.day@whiteltd.example.com,2026-06-22 05:35:07,Left voicemail,Sales call,SUMM-A002315
+jeremy.perez@mercadojones.example.com,2026-06-22 10:50:45,No answer,Sales call,SUMM-A002321
+ryan.williams@ashleyllc.example.com,2026-06-22 13:29:23,No answer,Sales call,SUMM-A002324
+george.day@whiteltd.example.com,2026-06-22 18:05:35,Connected,Sales call,SUMM-A002333
+adrian.chang@davisdean.example.com,2026-06-22 22:25:50,Connected,Sales call,SUMM-A002340
+brandi.wade@leesmithandbrown.example.com,2026-06-23 01:17:05,No answer,Sales call,SUMM-A002344
+george.day@whiteltd.example.com,2026-06-23 03:53:17,Left voicemail,Sales call,SUMM-A002351
+jeanette.spencer@mcculloughwalters.example.com,2026-06-23 04:51:42,Connected,Sales call,SUMM-A002353
+sherri.mcbride@gomezgroup.example.com,2026-06-23 05:17:29,No answer,Sales call,SUMM-A002354
+justin.fritz@garciamunoz.example.com,2026-06-23 06:10:38,Left voicemail,Sales call,SUMM-A002356
+mark.shannon@schultzweissandreynolds.example.com,2026-06-23 07:53:44,No answer,Sales call,SUMM-A002360
+george.day@whiteltd.example.com,2026-06-23 09:47:38,Connected,Sales call,SUMM-A002366
+george.day@whiteltd.example.com,2026-06-23 14:47:25,Left voicemail,Sales call,SUMM-A002370
+david.jones@langnguyenandlee.example.com,2026-06-24 01:58:02,Left voicemail,Sales call,SUMM-A002387
+micheal.smith@johnsonsolomonandoconnel.example.com,2026-06-24 03:49:58,No answer,Sales call,SUMM-A002391
+lance.reyes@wallacellc.example.com,2026-06-24 10:30:47,Connected,Sales call,SUMM-A002399
+timothy.clark@shaffertorres.example.com,2026-06-24 13:37:20,No answer,Sales call,SUMM-A002412
+justin.ochoa@jonesbailey.example.com,2026-06-24 17:29:57,No answer,Sales call,SUMM-A002418
+kimberly.moore@adkinsplc.example.com,2026-06-25 08:19:16,No answer,Sales call,SUMM-A002438
+robert.white@jenningsgroup.example.com,2026-06-25 17:57:12,Left voicemail,Sales call,SUMM-A002454
+maria.mcguire@wagnerstoneandirwin.example.com,2026-06-25 20:32:24,Connected,Sales call,SUMM-A002458
+kristen.lyons@carterchristensen.example.com,2026-06-25 21:45:16,No answer,Sales call,SUMM-A002463
+linda.larson@wilsoninc.example.com,2026-06-25 23:15:42,No answer,Sales call,SUMM-A002466
+gregory.joseph@howardmartinandoneal.example.com,2026-06-26 01:27:19,No answer,Sales call,SUMM-A002469
+adrian.chang@davisdean.example.com,2026-06-26 05:11:56,Connected,Sales call,SUMM-A002477
+robert.white@jenningsgroup.example.com,2026-06-26 14:27:29,No answer,Sales call,SUMM-A002491
+kristen.lyons@carterchristensen.example.com,2026-06-26 21:37:27,No answer,Sales call,SUMM-A002505
+justin.ochoa@jonesbailey.example.com,2026-06-26 22:58:28,Connected,Sales call,SUMM-A002510
+patricia.alvarado@jacksongarrett.example.com,2026-06-26 23:34:02,Left voicemail,Sales call,SUMM-A002512
+jeffrey.sanders@greenaustin.example.com,2026-06-27 06:26:00,No answer,Sales call,SUMM-A002525
+andrew.terry@atkinsbrownandgarcia.example.com,2026-06-27 09:27:04,Left voicemail,Sales call,SUMM-A002528
+karen.tucker@gonzalezgroup.example.com,2026-06-27 12:31:40,Left voicemail,Sales call,SUMM-A002533
+desiree.davis@moralesplc.example.com,2026-06-28 02:49:37,Connected,Sales call,SUMM-A002550
+linda.larson@wilsoninc.example.com,2026-06-28 07:00:43,Left voicemail,Sales call,SUMM-A002554
+brandi.wade@leesmithandbrown.example.com,2026-06-28 09:21:30,Connected,Sales call,SUMM-A002556
+sara.ruiz@smithsanders.example.com,2026-06-28 21:29:47,Left voicemail,Sales call,SUMM-A002568
+desiree.davis@moralesplc.example.com,2026-06-29 03:39:42,No answer,Sales call,SUMM-A002579
+damon.mcclure@mendozamorgan.example.com,2026-06-29 16:55:11,No answer,Sales call,SUMM-A002594
+emily.allen@garzainc.example.com,2026-06-29 17:36:47,Connected,Sales call,SUMM-A002596
+karen.tucker@gonzalezgroup.example.com,2026-06-29 20:17:01,No answer,Sales call,SUMM-A002602
+kimberly.ryan@edwardsltd.example.com,2026-06-30 00:36:24,Connected,Sales call,SUMM-A002605
+kimberly.ryan@edwardsltd.example.com,2026-06-30 09:55:10,Left voicemail,Sales call,SUMM-A002611
+jessica.hoffman@gonzalezlevineandrice.example.com,2026-06-30 18:53:25,Left voicemail,Sales call,SUMM-A002622
+kayla.jones@kleinltd.example.com,2026-07-01 04:33:39,Left voicemail,Sales call,SUMM-A002636
+denise.anderson@douglasphillips.example.com,2026-07-01 05:15:45,Left voicemail,Sales call,SUMM-A002638
+kimberly.ryan@edwardsltd.example.com,2026-07-01 11:07:01,Connected,Sales call,SUMM-A002645
+bailey.brady@knightinc.example.com,2026-07-01 20:23:44,Left voicemail,Sales call,SUMM-A002661
+danielle.preston@davismorganandreeves.example.com,2026-07-01 22:45:23,Left voicemail,Sales call,SUMM-A002666
+perry.fowler@holdersmithandhernandez.example.com,2026-07-02 00:36:06,Left voicemail,Sales call,SUMM-A002670
+christine.romero@hodgesoconnellandharmon.example.com,2026-07-02 00:44:18,Connected,Sales call,SUMM-A002672
+carlos.hudson@pattondougherty.example.com,2026-07-02 03:40:27,Left voicemail,Sales call,SUMM-A002678
+sara.ruiz@smithsanders.example.com,2026-07-02 03:57:14,No answer,Sales call,SUMM-A002679
+carlos.hudson@pattondougherty.example.com,2026-07-02 04:53:40,Connected,Sales call,SUMM-A002682
+desiree.davis@moralesplc.example.com,2026-07-02 08:31:27,Connected,Sales call,SUMM-A002691
+kimberly.ryan@edwardsltd.example.com,2026-07-02 10:28:10,No answer,Sales call,SUMM-A002696
+jeffrey.sanders@greenaustin.example.com,2026-07-02 10:59:32,Connected,Sales call,SUMM-A002697
+christine.romero@hodgesoconnellandharmon.example.com,2026-07-02 14:49:29,No answer,Sales call,SUMM-A002703
+annette.carter@payneross.example.com,2026-07-02 19:16:49,No answer,Sales call,SUMM-A002711
+jesse.mcdaniel@sanchezandsons.example.com,2026-07-02 19:58:46,No answer,Sales call,SUMM-A002712
+bailey.brady@knightinc.example.com,2026-07-03 01:50:25,Left voicemail,Sales call,SUMM-A002718
+bailey.brady@knightinc.example.com,2026-07-03 08:48:19,Left voicemail,Sales call,SUMM-A002734
+kimberly.ryan@edwardsltd.example.com,2026-07-03 13:18:51,No answer,Sales call,SUMM-A002740
+damon.mcclure@mendozamorgan.example.com,2026-07-03 13:20:40,Connected,Sales call,SUMM-A002741
+jesse.mcdaniel@sanchezandsons.example.com,2026-07-03 15:17:52,No answer,Sales call,SUMM-A002745
+kimberly.ryan@edwardsltd.example.com,2026-07-03 16:56:56,Connected,Sales call,SUMM-A002751
+damon.mcclure@mendozamorgan.example.com,2026-07-03 22:14:30,No answer,Sales call,SUMM-A002764
+brandon.malone@robertsbest.example.com,2026-07-04 11:50:17,Left voicemail,Sales call,SUMM-A002779
+sara.ruiz@smithsanders.example.com,2026-07-04 21:26:03,Connected,Sales call,SUMM-A002795
+perry.fowler@holdersmithandhernandez.example.com,2026-07-05 07:28:36,No answer,Sales call,SUMM-A002806
+justin.ochoa@jonesbailey.example.com,2026-07-05 12:31:33,Connected,Sales call,SUMM-A002818
+melissa.harris@wallernavarro.example.com,2026-07-06 01:22:27,Connected,Sales call,SUMM-A002834
+pamela.williams@watsonandsons.example.com,2026-07-06 03:12:41,Left voicemail,Sales call,SUMM-A002837
+cheryl.gallagher@wagnerbennettandmccoy.example.com,2026-07-06 07:38:20,Left voicemail,Sales call,SUMM-A002843
+william.jones@floresllc.example.com,2026-07-06 09:17:51,Connected,Sales call,SUMM-A002846
+pamela.williams@watsonandsons.example.com,2026-07-07 01:07:06,Left voicemail,Sales call,SUMM-A002870
+david.jones@langnguyenandlee.example.com,2026-07-07 02:26:36,Left voicemail,Sales call,SUMM-A002873
+alex.alvarez@chenmcdonald.example.com,2026-07-07 03:36:44,Connected,Sales call,SUMM-A002876
+whitney.pratt@bakerwallaceandjohnston.example.com,2026-07-08 04:31:50,Connected,Sales call,SUMM-A002925
+robert.jackson@smithllc.example.com,2026-07-08 07:30:09,Left voicemail,Sales call,SUMM-A002927
+brandon.malone@robertsbest.example.com,2026-07-08 14:40:57,No answer,Sales call,SUMM-A002933
+jennifer.moore@ramosshort.example.com,2026-07-08 20:03:04,No answer,Sales call,SUMM-A002949
+julia.hudson@tuckerashleyandhatfield.example.com,2026-07-08 22:51:22,No answer,Sales call,SUMM-A002954
+hailey.salazar@ramosinc.example.com,2026-07-09 09:54:30,Left voicemail,Sales call,SUMM-A002964
+perry.fowler@holdersmithandhernandez.example.com,2026-07-09 15:15:59,Connected,Sales call,SUMM-A002970
+david.walker@wilsonoliver.example.com,2026-07-09 17:17:39,Left voicemail,Sales call,SUMM-A002973
+bailey.brady@knightinc.example.com,2026-07-09 21:57:37,Connected,Sales call,SUMM-A002981
+hailey.salazar@ramosinc.example.com,2026-07-10 04:26:32,No answer,Sales call,SUMM-A002992
+jacob.garrison@eatonandsons.example.com,2026-07-10 06:57:10,Connected,Sales call,SUMM-A002996
+pamela.williams@watsonandsons.example.com,2026-07-10 10:23:35,Connected,Sales call,SUMM-A003005
+pamela.williams@watsonandsons.example.com,2026-07-10 10:59:27,No answer,Sales call,SUMM-A003008
+luke.williams@drakeschmidtandpeterson.example.com,2026-07-10 13:51:28,Left voicemail,Sales call,SUMM-A003013
+julia.hudson@tuckerashleyandhatfield.example.com,2026-07-10 15:35:08,No answer,Sales call,SUMM-A003019
+jacob.garrison@eatonandsons.example.com,2026-07-10 21:22:43,Connected,Sales call,SUMM-A003028
+hailey.salazar@ramosinc.example.com,2026-07-11 00:11:30,Connected,Sales call,SUMM-A003035
+robert.white@jenningsgroup.example.com,2026-07-11 06:46:00,Connected,Sales call,SUMM-A003044
+lisa.swanson@chenavilaandsaunders.example.com,2026-07-11 07:01:01,No answer,Sales call,SUMM-A003045
+william.jones@floresllc.example.com,2026-07-11 08:13:47,Left voicemail,Sales call,SUMM-A003046
+tina.ward@delacruzinc.example.com,2026-07-11 08:50:10,Left voicemail,Sales call,SUMM-A003047
+jason.johnson@chavezllc.example.com,2026-07-12 06:45:48,Connected,Sales call,SUMM-A003081
+jacob.garrison@eatonandsons.example.com,2026-07-12 08:39:06,Left voicemail,Sales call,SUMM-A003083
+hailey.salazar@ramosinc.example.com,2026-07-12 14:20:31,Connected,Sales call,SUMM-A003092
+william.martinez@youngloganandfrank.example.com,2026-07-12 15:35:39,Left voicemail,Sales call,SUMM-A003093
+anthony.knight@jacksonellis.example.com,2026-07-13 04:04:54,Connected,Sales call,SUMM-A003107
+perry.fowler@holdersmithandhernandez.example.com,2026-07-13 05:11:09,Connected,Sales call,SUMM-A003109
+robert.jones@piercecurry.example.com,2026-07-13 10:15:31,Left voicemail,Sales call,SUMM-A003116
+jeffrey.sanchez@turnerllc.example.com,2026-07-13 11:46:10,Connected,Sales call,SUMM-A003119
+christopher.anderson@branchburnsandgonzales.example.com,2026-07-13 12:37:18,Left voicemail,Sales call,SUMM-A003121
+perry.fowler@holdersmithandhernandez.example.com,2026-07-13 14:39:47,No answer,Sales call,SUMM-A003126
+robert.jackson@smithllc.example.com,2026-07-13 19:33:15,Left voicemail,Sales call,SUMM-A003131
+jennifer.moore@ramosshort.example.com,2026-07-13 20:44:19,No answer,Sales call,SUMM-A003133
+annette.carter@payneross.example.com,2026-07-13 20:55:28,No answer,Sales call,SUMM-A003137
+jesse.mcdaniel@sanchezandsons.example.com,2026-07-13 21:25:45,Connected,Sales call,SUMM-A003138
+hannah.flynn@martinezheathandwilliams.example.com,2026-07-14 00:01:43,No answer,Sales call,SUMM-A003144
+mark.shannon@schultzweissandreynolds.example.com,2026-07-14 04:50:48,No answer,Sales call,SUMM-A003148
+michael.boone@robertsonltd.example.com,2026-07-14 18:59:33,No answer,Sales call,SUMM-A003170
+april.diaz@butlerhawkins.example.com,2026-07-14 21:04:36,No answer,Sales call,SUMM-A003173
+monica.collins@rodriguezllc.example.com,2026-07-15 02:08:29,No answer,Sales call,SUMM-A003178
+lynn.navarro@brownalexander.example.com,2026-07-15 04:18:13,No answer,Sales call,SUMM-A003183
+brian.perkins@washingtonllc.example.com,2026-07-15 07:11:25,No answer,Sales call,SUMM-A003189
+michael.boone@robertsonltd.example.com,2026-07-15 11:28:33,Left voicemail,Sales call,SUMM-A003198
+martin.reynolds@hallbauerandstewart.example.com,2026-07-15 14:09:50,Connected,Sales call,SUMM-A003204
+hannah.flynn@martinezheathandwilliams.example.com,2026-07-15 16:38:39,No answer,Sales call,SUMM-A003207
+april.diaz@butlerhawkins.example.com,2026-07-15 18:29:30,Left voicemail,Sales call,SUMM-A003213
+michael.boone@robertsonltd.example.com,2026-07-17 02:02:48,No answer,Sales call,SUMM-A003260
+michael.boone@robertsonltd.example.com,2026-07-17 03:56:36,No answer,Sales call,SUMM-A003261
+lee.duncan@jarvisplc.example.com,2026-07-17 04:26:49,Connected,Sales call,SUMM-A003262
+brenda.craig@moorewebbandrichardson.example.com,2026-07-17 07:04:24,Connected,Sales call,SUMM-A003264
+barbara.walker@leeplc.example.com,2026-07-17 09:17:33,Connected,Sales call,SUMM-A003266
+shannon.wang@alvaradoarias.example.com,2026-07-17 14:49:21,No answer,Sales call,SUMM-A003274
+michael.white@walkerandersonandwilliam.example.com,2026-07-17 15:09:28,Connected,Sales call,SUMM-A003275
+michael.boone@robertsonltd.example.com,2026-07-18 02:31:23,Left voicemail,Sales call,SUMM-A003284
+brenda.craig@moorewebbandrichardson.example.com,2026-07-18 06:02:10,Connected,Sales call,SUMM-A003289
+whitney.pratt@bakerwallaceandjohnston.example.com,2026-07-18 12:47:11,Connected,Sales call,SUMM-A003299
+brenda.craig@moorewebbandrichardson.example.com,2026-07-18 16:23:49,Connected,Sales call,SUMM-A003302
+christopher.anderson@branchburnsandgonzales.example.com,2026-07-18 19:15:36,No answer,Sales call,SUMM-A003306
+michael.parker@hansonsmithandreyes.example.com,2026-07-18 22:46:57,No answer,Sales call,SUMM-A003310
+brenda.craig@moorewebbandrichardson.example.com,2026-07-18 23:27:33,Connected,Sales call,SUMM-A003312
+annette.carter@payneross.example.com,2026-07-19 09:06:11,Connected,Sales call,SUMM-A003325
+danielle.preston@davismorganandreeves.example.com,2026-07-19 11:08:27,Connected,Sales call,SUMM-A003327
+julia.hudson@tuckerashleyandhatfield.example.com,2026-07-19 12:13:19,Connected,Sales call,SUMM-A003328
+michael.boone@robertsonltd.example.com,2026-07-19 16:06:32,No answer,Sales call,SUMM-A003335
+michael.boone@robertsonltd.example.com,2026-07-20 01:35:10,Left voicemail,Sales call,SUMM-A003347
+doris.richards@bartlettthompson.example.com,2026-07-20 02:09:03,Connected,Sales call,SUMM-A003348
+michael.boone@robertsonltd.example.com,2026-07-20 16:11:25,Left voicemail,Sales call,SUMM-A003361
+christopher.scott@moorebryant.example.com,2026-07-21 01:59:57,Left voicemail,Sales call,SUMM-A003371
+andrew.oconnor@colemancannonandjones.example.com,2026-07-21 15:26:46,Left voicemail,Sales call,SUMM-A003389
+jessica.cunningham@whitewaltonandtravis.example.com,2026-07-21 16:57:24,No answer,Sales call,SUMM-A003393
+kevin.james@adamswillisandchavez.example.com,2026-07-21 19:37:28,Connected,Sales call,SUMM-A003396
+paul.bowman@barnesgoodmanandlee.example.com,2026-07-21 20:03:20,Left voicemail,Sales call,SUMM-A003397
+michael.rose@gomezandsons.example.com,2026-07-22 11:14:28,No answer,Sales call,SUMM-A003409
+michael.johnson@thomaswilliamsandhughes.example.com,2026-07-22 20:51:19,No answer,Sales call,SUMM-A003417
+tyler.montoya@camposandsons.example.com,2026-07-22 23:12:14,No answer,Sales call,SUMM-A003419
+april.diaz@butlerhawkins.example.com,2026-07-22 23:46:07,No answer,Sales call,SUMM-A003420
+kimberly.long@haynesrichardsandsnyder.example.com,2026-07-23 00:38:35,No answer,Sales call,SUMM-A003422
+jacob.garrison@eatonandsons.example.com,2026-07-23 15:29:14,No answer,Sales call,SUMM-A003433
+linda.cuevas@licontreras.example.com,2026-07-23 20:00:49,Left voicemail,Sales call,SUMM-A003446
+doris.richards@bartlettthompson.example.com,2026-07-24 00:05:10,Connected,Sales call,SUMM-A003451
+tina.clarke@smithmoralesandgraves.example.com,2026-07-24 20:50:32,No answer,Sales call,SUMM-A003489
+lisa.swanson@chenavilaandsaunders.example.com,2026-07-24 20:57:46,No answer,Sales call,SUMM-A003490
+matthew.kim@whitemadden.example.com,2026-07-24 23:09:05,Connected,Sales call,SUMM-A003493
+selena.mays@dawsongroup.example.com,2026-07-25 15:12:30,No answer,Sales call,SUMM-A003514
+timothy.hughes@mccoymccallandzamora.example.com,2026-07-25 18:34:02,Connected,Sales call,SUMM-A003520
+kimberly.long@haynesrichardsandsnyder.example.com,2026-07-25 20:52:02,Connected,Sales call,SUMM-A003524
+tyler.montoya@camposandsons.example.com,2026-07-25 23:14:12,No answer,Sales call,SUMM-A003528
+matthew.kim@whitemadden.example.com,2026-07-25 23:49:23,Connected,Sales call,SUMM-A003531
+andrea.fuller@fordtoddandsmith.example.com,2026-07-26 04:02:36,No answer,Sales call,SUMM-A003541
+timothy.hughes@mccoymccallandzamora.example.com,2026-07-26 10:13:16,Connected,Sales call,SUMM-A003546
+matthew.kim@whitemadden.example.com,2026-07-26 15:29:01,Left voicemail,Sales call,SUMM-A003553
+julia.miller@smithmendoza.example.com,2026-07-27 12:07:49,Connected,Sales call,SUMM-A003571
+cindy.shaw@russellplc.example.com,2026-07-27 17:29:13,Connected,Sales call,SUMM-A003582
+selena.mays@dawsongroup.example.com,2026-07-27 21:17:26,Left voicemail,Sales call,SUMM-A003592
+timothy.hughes@mccoymccallandzamora.example.com,2026-07-27 21:38:47,No answer,Sales call,SUMM-A003594
+paul.bowman@barnesgoodmanandlee.example.com,2026-07-28 00:43:07,No answer,Sales call,SUMM-A003597
+nicole.brown@mullinsinc.example.com,2026-07-28 16:38:32,Left voicemail,Sales call,SUMM-A003619
+alicia.griffin@browngroup.example.com,2026-07-28 20:38:02,No answer,Sales call,SUMM-A003628
+nathaniel.king@cardenasmartinezandmedin.example.com,2026-07-28 20:47:53,Left voicemail,Sales call,SUMM-A003629
+doris.richards@bartlettthompson.example.com,2026-07-29 06:13:10,Left voicemail,Sales call,SUMM-A003639
+lisa.swanson@chenavilaandsaunders.example.com,2026-07-29 06:14:26,Left voicemail,Sales call,SUMM-A003640
+lee.duncan@jarvisplc.example.com,2026-07-29 08:20:21,Connected,Sales call,SUMM-A003643
+grace.rich@richardsltd.example.com,2026-07-29 10:06:02,Left voicemail,Sales call,SUMM-A003646
+doris.richards@bartlettthompson.example.com,2026-07-29 11:24:00,No answer,Sales call,SUMM-A003647
+rachel.smith@gomezlesterandjackson.example.com,2026-07-29 16:16:34,Left voicemail,Sales call,SUMM-A003651
+robert.beltran@crawfordhawkinsandking.example.com,2026-07-30 06:52:49,No answer,Sales call,SUMM-A003676
+grace.rich@richardsltd.example.com,2026-07-30 19:05:38,Connected,Sales call,SUMM-A003691
+grace.rich@richardsltd.example.com,2026-07-30 21:13:21,No answer,Sales call,SUMM-A003695
+jacob.garrison@eatonandsons.example.com,2026-07-30 23:41:18,Connected,Sales call,SUMM-A003701
+grace.rich@richardsltd.example.com,2026-07-31 01:51:36,No answer,Sales call,SUMM-A003703
+deborah.frye@hartmaninc.example.com,2026-07-31 01:57:29,Left voicemail,Sales call,SUMM-A003704
+jessica.cunningham@whitewaltonandtravis.example.com,2026-07-31 02:27:12,Connected,Sales call,SUMM-A003705
+cindy.shaw@russellplc.example.com,2026-07-31 04:37:03,Left voicemail,Sales call,SUMM-A003708
+deborah.johnson@evansinc.example.com,2026-07-31 15:52:12,Connected,Sales call,SUMM-A003722
+peter.wheeler@jensenmiller.example.com,2026-08-01 04:20:39,No answer,Sales call,SUMM-A003734
+carla.rogers@brooksllc.example.com,2026-08-01 06:49:14,Left voicemail,Sales call,SUMM-A003735
+kristina.west@scottsmithandwilson.example.com,2026-08-01 07:04:48,Connected,Sales call,SUMM-A003736
+andrew.hartman@nortonbridges.example.com,2026-08-01 10:16:12,No answer,Sales call,SUMM-A003738
+michael.parker@hansonsmithandreyes.example.com,2026-08-01 10:16:25,Connected,Sales call,SUMM-A003739
+tanya.smith@youngdiaz.example.com,2026-08-02 05:36:43,Left voicemail,Sales call,SUMM-A003753
+alicia.griffin@browngroup.example.com,2026-08-02 07:32:28,No answer,Sales call,SUMM-A003756
+shannon.wang@alvaradoarias.example.com,2026-08-02 10:55:38,Connected,Sales call,SUMM-A003758
+mark.shannon@schultzweissandreynolds.example.com,2026-08-02 14:01:50,No answer,Sales call,SUMM-A003763
+doris.richards@bartlettthompson.example.com,2026-08-03 09:35:35,No answer,Sales call,SUMM-A003788
+deborah.frye@hartmaninc.example.com,2026-08-03 19:23:58,No answer,Sales call,SUMM-A003803
+nicole.brown@mullinsinc.example.com,2026-08-03 21:26:26,Connected,Sales call,SUMM-A003806
+michael.parker@hansonsmithandreyes.example.com,2026-08-04 00:52:26,Left voicemail,Sales call,SUMM-A003817
+alicia.griffin@browngroup.example.com,2026-08-04 08:40:52,Connected,Sales call,SUMM-A003822
+kenneth.smith@jamesllc.example.com,2026-08-04 15:30:32,Left voicemail,Sales call,SUMM-A003828
+deborah.frye@hartmaninc.example.com,2026-08-04 17:18:07,Connected,Sales call,SUMM-A003829
+gregory.winters@meadowswall.example.com,2026-08-04 22:48:46,Left voicemail,Sales call,SUMM-A003838
+shannon.wang@alvaradoarias.example.com,2026-08-05 00:04:41,No answer,Sales call,SUMM-A003841
+cindy.shaw@russellplc.example.com,2026-08-05 00:30:02,No answer,Sales call,SUMM-A003842
+tiffany.calderon@banksnewman.example.com,2026-08-05 02:25:12,Connected,Sales call,SUMM-A003845
+traci.brady@thorntonrhodesanddiaz.example.com,2026-08-05 04:30:20,Left voicemail,Sales call,SUMM-A003849
+stephanie.hudson@kennedycollinsandkeith.example.com,2026-08-05 06:57:19,No answer,Sales call,SUMM-A003852
+gregory.winters@meadowswall.example.com,2026-08-05 06:59:39,Connected,Sales call,SUMM-A003853
+kenneth.smith@jamesllc.example.com,2026-08-05 16:04:42,Left voicemail,Sales call,SUMM-A003865
+cheryl.dixon@bondgroup.example.com,2026-08-05 16:37:27,Connected,Sales call,SUMM-A003870
+gregory.winters@meadowswall.example.com,2026-08-05 18:56:12,Connected,Sales call,SUMM-A003875
+jacqueline.clark@mackgroup.example.com,2026-08-06 10:11:35,Connected,Sales call,SUMM-A003886
+troy.graham@torresgroup.example.com,2026-08-06 16:44:58,Left voicemail,Sales call,SUMM-A003895
+melissa.cook@nelsonllc.example.com,2026-08-07 08:19:20,No answer,Sales call,SUMM-A003914
+troy.graham@torresgroup.example.com,2026-08-07 09:44:34,Left voicemail,Sales call,SUMM-A003915
+dan.mccann@smithllc.example.com,2026-08-07 15:36:57,No answer,Sales call,SUMM-A003929
+mark.shannon@schultzweissandreynolds.example.com,2026-08-07 16:36:24,No answer,Sales call,SUMM-A003930
+dennis.moss@lopezkennedyandjackson.example.com,2026-08-07 17:47:07,No answer,Sales call,SUMM-A003933
+joseph.anderson@wardwashington.example.com,2026-08-07 18:19:27,Connected,Sales call,SUMM-A003935
+melissa.cook@nelsonllc.example.com,2026-08-07 21:12:05,Left voicemail,Sales call,SUMM-A003939
+tiffany.calderon@banksnewman.example.com,2026-08-07 21:40:57,Connected,Sales call,SUMM-A003940
+dennis.moss@lopezkennedyandjackson.example.com,2026-08-08 12:28:20,No answer,Sales call,SUMM-A003966
+deborah.johnson@evansinc.example.com,2026-08-08 17:55:13,Left voicemail,Sales call,SUMM-A003973
+andrea.fuller@fordtoddandsmith.example.com,2026-08-08 18:55:43,Left voicemail,Sales call,SUMM-A003975
+rachel.smith@gomezlesterandjackson.example.com,2026-08-09 02:33:55,Connected,Sales call,SUMM-A003981
+kimberly.long@haynesrichardsandsnyder.example.com,2026-08-09 10:42:19,Left voicemail,Sales call,SUMM-A003991
+grace.rich@richardsltd.example.com,2026-08-09 15:57:43,No answer,Sales call,SUMM-A004001
+jonathan.adams@lopezcampbellandstephens.example.com,2026-08-10 10:27:20,Left voicemail,Sales call,SUMM-A004022
+adam.hunter@hernandezstephensandcamp.example.com,2026-08-10 16:36:06,No answer,Sales call,SUMM-A004026
+deborah.johnson@evansinc.example.com,2026-08-10 17:48:48,Connected,Sales call,SUMM-A004027
+cindy.hernandez@danielssimsandbrown.example.com,2026-08-10 23:33:48,Left voicemail,Sales call,SUMM-A004032
+mackenzie.gonzalez@nelsoninc.example.com,2026-08-11 12:18:36,Left voicemail,Sales call,SUMM-A004042
+krista.williams@lawrencesampsonandlee.example.com,2026-08-11 13:56:59,No answer,Sales call,SUMM-A004047
+michelle.smith@jordanbolton.example.com,2026-08-11 14:21:42,Connected,Sales call,SUMM-A004048
+adam.hunter@hernandezstephensandcamp.example.com,2026-08-11 22:15:12,No answer,Sales call,SUMM-A004065
+rebecca.ruiz@mcgeechenandpeterson.example.com,2026-08-12 00:34:09,Connected,Sales call,SUMM-A004068
+emma.vasquez@daviswilliamsandwilliams.example.com,2026-08-12 08:56:35,Connected,Sales call,SUMM-A004076
+deborah.johnson@evansinc.example.com,2026-08-12 13:25:11,Left voicemail,Sales call,SUMM-A004080
+julia.miller@smithmendoza.example.com,2026-08-12 14:48:24,Connected,Sales call,SUMM-A004081
+mackenzie.gonzalez@nelsoninc.example.com,2026-08-13 00:39:32,Connected,Sales call,SUMM-A004096
+patrick.adkins@stewartplc.example.com,2026-08-13 06:02:37,Left voicemail,Sales call,SUMM-A004103
+elizabeth.king@williamsbrewer.example.com,2026-08-13 08:41:43,Connected,Sales call,SUMM-A004106
+melanie.smith@medinaplc.example.com,2026-08-13 10:22:58,Connected,Sales call,SUMM-A004111
+joel.cruz@schultzltd.example.com,2026-08-13 15:14:39,No answer,Sales call,SUMM-A004120
+aaron.ortega@nelsonandsons.example.com,2026-08-13 16:21:24,No answer,Sales call,SUMM-A004122
+angela.murphy@schwartzllc.example.com,2026-08-13 20:33:00,Left voicemail,Sales call,SUMM-A004127
+stephanie.swanson@davissimsandstevenson.example.com,2026-08-14 13:45:11,Connected,Sales call,SUMM-A004138
+barbara.reese@floresmcdanielandmoore.example.com,2026-08-14 21:10:34,No answer,Sales call,SUMM-A004146
+barbara.reese@floresmcdanielandmoore.example.com,2026-08-15 00:27:52,No answer,Sales call,SUMM-A004151
+kayla.jones@kleinltd.example.com,2026-08-15 17:54:58,Connected,Sales call,SUMM-A004177
+rebecca.ruiz@mcgeechenandpeterson.example.com,2026-08-15 18:32:22,No answer,Sales call,SUMM-A004180
+dominic.peterson@thomasreeves.example.com,2026-08-15 22:05:28,Connected,Sales call,SUMM-A004184
+rebecca.ward@daughertyplc.example.com,2026-08-16 03:46:40,Left voicemail,Sales call,SUMM-A004198
+tyler.andrade@gonzalezkemp.example.com,2026-08-16 04:18:07,No answer,Sales call,SUMM-A004199
+rebecca.ward@daughertyplc.example.com,2026-08-16 13:08:04,No answer,Sales call,SUMM-A004214
+deborah.frye@hartmaninc.example.com,2026-08-16 16:33:17,No answer,Sales call,SUMM-A004219
+deborah.frye@hartmaninc.example.com,2026-08-16 23:27:34,Left voicemail,Sales call,SUMM-A004229
+barbara.reese@floresmcdanielandmoore.example.com,2026-08-17 00:24:13,Left voicemail,Sales call,SUMM-A004230
+rebecca.daniel@stevensgroup.example.com,2026-08-17 00:31:46,No answer,Sales call,SUMM-A004232
+melanie.smith@medinaplc.example.com,2026-08-17 06:36:11,No answer,Sales call,SUMM-A004245
+christina.levine@mcneilgroup.example.com,2026-08-17 06:38:37,No answer,Sales call,SUMM-A004246
+nathaniel.king@cardenasmartinezandmedin.example.com,2026-08-18 00:54:33,Left voicemail,Sales call,SUMM-A004275
+joseph.ross@johnsonnichols.example.com,2026-08-18 02:25:21,Connected,Sales call,SUMM-A004279
+edgar.walker@campbellmay.example.com,2026-08-18 07:29:03,Left voicemail,Sales call,SUMM-A004284
+kenneth.perry@hurleyyoung.example.com,2026-08-18 11:32:21,Connected,Sales call,SUMM-A004292
+kristen.barker@lewisgroup.example.com,2026-08-18 13:00:24,No answer,Sales call,SUMM-A004297
+emma.vasquez@daviswilliamsandwilliams.example.com,2026-08-18 14:26:44,Connected,Sales call,SUMM-A004301
+tracey.andersen@riveralewisandallen.example.com,2026-08-18 16:39:47,Connected,Sales call,SUMM-A004303
+sarah.ali@leeandsons.example.com,2026-08-18 17:20:29,No answer,Sales call,SUMM-A004306
+emma.vasquez@daviswilliamsandwilliams.example.com,2026-08-18 22:29:06,Left voicemail,Sales call,SUMM-A004316
+cindy.hernandez@danielssimsandbrown.example.com,2026-08-19 08:45:37,No answer,Sales call,SUMM-A004331
+traci.brady@thorntonrhodesanddiaz.example.com,2026-08-20 08:33:42,Left voicemail,Sales call,SUMM-A004361
+michelle.smith@jordanbolton.example.com,2026-08-21 06:37:00,No answer,Sales call,SUMM-A004394
+adam.hunter@hernandezstephensandcamp.example.com,2026-08-21 08:59:46,No answer,Sales call,SUMM-A004398
+michelle.smith@jordanbolton.example.com,2026-08-21 09:42:22,Left voicemail,Sales call,SUMM-A004401
+alex.huang@jonessanchezandanderson.example.com,2026-08-21 14:25:20,No answer,Sales call,SUMM-A004410
+kenneth.perry@hurleyyoung.example.com,2026-08-21 19:26:40,Connected,Sales call,SUMM-A004422
+tiffany.ali@dawsongroup.example.com,2026-08-21 21:30:10,Connected,Sales call,SUMM-A004425
+heather.brown@martinezandsons.example.com,2026-08-22 05:30:28,Connected,Sales call,SUMM-A004439
+joseph.ross@johnsonnichols.example.com,2026-08-22 10:32:09,No answer,Sales call,SUMM-A004446
+brittney.gonzalez@brownhollandandstuart.example.com,2026-08-22 14:32:18,Left voicemail,Sales call,SUMM-A004455
+brittney.gonzalez@brownhollandandstuart.example.com,2026-08-22 15:52:31,Connected,Sales call,SUMM-A004457
+nathaniel.king@cardenasmartinezandmedin.example.com,2026-08-22 17:35:07,No answer,Sales call,SUMM-A004460
+jonathan.adams@lopezcampbellandstephens.example.com,2026-08-22 23:28:14,No answer,Sales call,SUMM-A004475
+brittney.gonzalez@brownhollandandstuart.example.com,2026-08-23 00:42:15,No answer,Sales call,SUMM-A004479
+jennifer.garcia@kimwilsonandking.example.com,2026-08-23 09:32:37,No answer,Sales call,SUMM-A004489
+emma.vasquez@daviswilliamsandwilliams.example.com,2026-08-23 11:35:04,No answer,Sales call,SUMM-A004494
+brittney.gonzalez@brownhollandandstuart.example.com,2026-08-23 13:04:33,No answer,Sales call,SUMM-A004495
+kristin.mason@hallllc.example.com,2026-08-23 13:17:25,Left voicemail,Sales call,SUMM-A004497
+brittney.gonzalez@brownhollandandstuart.example.com,2026-08-23 17:00:14,No answer,Sales call,SUMM-A004502
+kristin.mason@hallllc.example.com,2026-08-23 21:30:52,Connected,Sales call,SUMM-A004509
+tyler.andrade@gonzalezkemp.example.com,2026-08-24 00:23:37,Connected,Sales call,SUMM-A004513
+deborah.johnson@evansinc.example.com,2026-08-24 00:51:46,Connected,Sales call,SUMM-A004514
+michelle.smith@jordanbolton.example.com,2026-08-24 18:31:40,No answer,Sales call,SUMM-A004534
+amanda.pope@foleygroup.example.com,2026-08-24 18:32:35,Left voicemail,Sales call,SUMM-A004535
+vincent.maxwell@johnsoncuevas.example.com,2026-08-25 01:03:38,Left voicemail,Sales call,SUMM-A004545
+krista.williams@lawrencesampsonandlee.example.com,2026-08-25 05:07:00,No answer,Sales call,SUMM-A004550
+barbara.reese@floresmcdanielandmoore.example.com,2026-08-25 10:47:28,Left voicemail,Sales call,SUMM-A004554
+steven.higgins@carrobrienandcoleman.example.com,2026-08-26 01:21:33,Left voicemail,Sales call,SUMM-A004581
+melanie.smith@medinaplc.example.com,2026-08-26 02:29:44,No answer,Sales call,SUMM-A004583
+michael.ross@gilbertcox.example.com,2026-08-26 04:05:20,Connected,Sales call,SUMM-A004586
+vincent.maxwell@johnsoncuevas.example.com,2026-08-26 11:20:54,Connected,Sales call,SUMM-A004591
+vincent.maxwell@johnsoncuevas.example.com,2026-08-26 14:27:50,No answer,Sales call,SUMM-A004594
+amanda.pope@foleygroup.example.com,2026-08-26 16:27:20,No answer,Sales call,SUMM-A004598
+andrea.sanchez@mckeeandsons.example.com,2026-08-26 16:48:39,Connected,Sales call,SUMM-A004599
+michael.le@kiddltd.example.com,2026-08-26 17:40:55,Connected,Sales call,SUMM-A004601
+michael.ross@gilbertcox.example.com,2026-08-27 09:45:28,No answer,Sales call,SUMM-A004622
+stephanie.wilson@zimmermanconradandturner.example.com,2026-08-27 10:57:05,Left voicemail,Sales call,SUMM-A004625
+stephanie.wilson@zimmermanconradandturner.example.com,2026-08-27 12:12:13,No answer,Sales call,SUMM-A004626
+sarah.ali@leeandsons.example.com,2026-08-27 13:16:30,No answer,Sales call,SUMM-A004629
+jennifer.myers@grantdouglas.example.com,2026-08-27 19:49:33,No answer,Sales call,SUMM-A004637
+elizabeth.smith@collinscooper.example.com,2026-08-27 21:39:06,No answer,Sales call,SUMM-A004643
+patricia.rodriguez@lopezplc.example.com,2026-08-27 22:10:29,No answer,Sales call,SUMM-A004644
+john.jenkins@tannerllc.example.com,2026-08-28 08:51:55,No answer,Sales call,SUMM-A004657
+angela.murphy@schwartzllc.example.com,2026-08-28 18:46:33,Connected,Sales call,SUMM-A004668
+patrick.travis@calderonkelly.example.com,2026-08-28 22:41:17,Connected,Sales call,SUMM-A004672
+cindy.shaw@russellplc.example.com,2026-08-29 01:56:34,No answer,Sales call,SUMM-A004677
+john.jenkins@tannerllc.example.com,2026-08-29 08:55:27,Connected,Sales call,SUMM-A004691
+paul.banks@suttonandsons.example.com,2026-08-29 09:04:15,Left voicemail,Sales call,SUMM-A004692
+catherine.williams@mosleyyoung.example.com,2026-08-29 09:31:37,No answer,Sales call,SUMM-A004693
+catherine.williams@mosleyyoung.example.com,2026-08-29 09:57:54,No answer,Sales call,SUMM-A004695
+john.jenkins@tannerllc.example.com,2026-08-29 12:04:05,No answer,Sales call,SUMM-A004698
+lance.stewart@mcintoshnolan.example.com,2026-08-29 12:05:11,No answer,Sales call,SUMM-A004699
+patrick.travis@calderonkelly.example.com,2026-08-30 01:52:14,No answer,Sales call,SUMM-A004715
+adam.hunter@hernandezstephensandcamp.example.com,2026-08-30 05:31:03,Connected,Sales call,SUMM-A004720
+adam.hunter@hernandezstephensandcamp.example.com,2026-08-30 17:28:11,No answer,Sales call,SUMM-A004733
+joanna.johnson@coopercooke.example.com,2026-08-30 22:59:59,Connected,Sales call,SUMM-A004739
+tara.sanders@fosterdouglasandharris.example.com,2026-08-31 05:14:21,No answer,Sales call,SUMM-A004746
+michael.ross@gilbertcox.example.com,2026-08-31 08:02:12,No answer,Sales call,SUMM-A004750
+lance.stewart@mcintoshnolan.example.com,2026-08-31 09:08:08,Left voicemail,Sales call,SUMM-A004752
+john.jenkins@tannerllc.example.com,2026-08-31 12:29:41,Left voicemail,Sales call,SUMM-A004758
+heather.brown@martinezandsons.example.com,2026-09-01 05:26:00,Left voicemail,Sales call,SUMM-A004791
+michelle.jensen@sanchezhoward.example.com,2026-09-01 16:53:31,No answer,Sales call,SUMM-A004805
+arthur.mills@youngwestandpeters.example.com,2026-09-01 17:23:28,No answer,Sales call,SUMM-A004807
+stephanie.hudson@kennedycollinsandkeith.example.com,2026-09-01 18:20:40,Connected,Sales call,SUMM-A004811
+andrea.sanchez@mckeeandsons.example.com,2026-09-01 22:47:00,No answer,Sales call,SUMM-A004815
+andre.fuller@collinsbrown.example.com,2026-09-02 16:42:10,Left voicemail,Sales call,SUMM-A004829
+andre.fuller@collinsbrown.example.com,2026-09-02 21:47:04,Connected,Sales call,SUMM-A004834
+joseph.ross@johnsonnichols.example.com,2026-09-03 23:05:17,No answer,Sales call,SUMM-A004852
+tara.sanders@fosterdouglasandharris.example.com,2026-09-03 23:34:52,Connected,Sales call,SUMM-A004854
+emma.vasquez@daviswilliamsandwilliams.example.com,2026-09-04 12:33:18,No answer,Sales call,SUMM-A004866
+tracey.andersen@riveralewisandallen.example.com,2026-09-04 12:42:49,No answer,Sales call,SUMM-A004868
+michelle.jensen@sanchezhoward.example.com,2026-09-04 13:39:05,Connected,Sales call,SUMM-A004871
+cindy.shaw@russellplc.example.com,2026-09-04 15:01:58,Left voicemail,Sales call,SUMM-A004874
+sara.ortiz@ashleyjohnson.example.com,2026-09-04 20:39:39,No answer,Sales call,SUMM-A004879
+john.walker@harveyandsons.example.com,2026-09-04 20:44:26,Left voicemail,Sales call,SUMM-A004881
+lance.stewart@mcintoshnolan.example.com,2026-09-05 03:55:09,Left voicemail,Sales call,SUMM-A004889
+anthony.fields@holmeswilliamsonandblair.example.com,2026-09-05 04:40:15,Left voicemail,Sales call,SUMM-A004892
+tara.sanders@fosterdouglasandharris.example.com,2026-09-05 13:03:44,Left voicemail,Sales call,SUMM-A004904
+laura.reed@rodriguezcarey.example.com,2026-09-05 20:38:07,No answer,Sales call,SUMM-A004913
+laura.reed@rodriguezcarey.example.com,2026-09-06 05:50:55,Connected,Sales call,SUMM-A004922
+laura.reed@rodriguezcarey.example.com,2026-09-06 10:36:02,Connected,Sales call,SUMM-A004928
+laura.reed@rodriguezcarey.example.com,2026-09-06 13:16:47,Left voicemail,Sales call,SUMM-A004930
+heather.brown@martinezandsons.example.com,2026-09-06 23:47:58,Left voicemail,Sales call,SUMM-A004940
+michael.ross@gilbertcox.example.com,2026-09-07 12:54:42,Connected,Sales call,SUMM-A004955
+laura.reed@rodriguezcarey.example.com,2026-09-07 13:00:52,Left voicemail,Sales call,SUMM-A004956
+dennis.robles@davisgroup.example.com,2026-09-07 16:34:32,No answer,Sales call,SUMM-A004961
+nathaniel.king@cardenasmartinezandmedin.example.com,2026-09-08 01:43:19,Left voicemail,Sales call,SUMM-A004973
+michelle.jensen@sanchezhoward.example.com,2026-09-08 14:06:10,Connected,Sales call,SUMM-A004985
+nicole.lawrence@pacechambers.example.com,2026-09-08 16:38:56,Connected,Sales call,SUMM-A004989
+andrea.sanchez@mckeeandsons.example.com,2026-09-09 03:18:26,Connected,Sales call,SUMM-A005003
+michelle.jensen@sanchezhoward.example.com,2026-09-09 10:25:50,Left voicemail,Sales call,SUMM-A005006
+bryce.mcneil@rogershowe.example.com,2026-09-10 05:31:18,Connected,Sales call,SUMM-A005029
+christian.baker@bradleyplc.example.com,2026-09-10 08:40:30,Connected,Sales call,SUMM-A005033
+john.james@browngroup.example.com,2026-09-10 22:30:21,Left voicemail,Sales call,SUMM-A005047
+fernando.porter@diazinc.example.com,2026-09-11 20:05:01,Left voicemail,Sales call,SUMM-A005068
+willie.hoffman@landryandsons.example.com,2026-09-11 22:23:01,Left voicemail,Sales call,SUMM-A005071
+andre.fuller@collinsbrown.example.com,2026-09-12 03:59:34,Left voicemail,Sales call,SUMM-A005077
+dennis.robles@davisgroup.example.com,2026-09-12 04:37:19,No answer,Sales call,SUMM-A005079
+michael.ross@gilbertcox.example.com,2026-09-12 05:15:02,No answer,Sales call,SUMM-A005081
+joshua.white@coxadams.example.com,2026-09-12 20:08:07,Left voicemail,Sales call,SUMM-A005090
+stephen.moreno@lewisnguyen.example.com,2026-09-13 12:53:34,Left voicemail,Sales call,SUMM-A005105
+anthony.trujillo@guerramcintoshandrangel.example.com,2026-09-13 21:17:21,Left voicemail,Sales call,SUMM-A005117
+alexandria.cooper@gatesking.example.com,2026-09-14 14:44:40,No answer,Sales call,SUMM-A005138
+stephen.moreno@lewisnguyen.example.com,2026-09-14 15:23:28,Connected,Sales call,SUMM-A005141
+arthur.small@blackhernandez.example.com,2026-09-14 16:43:10,Connected,Sales call,SUMM-A005144
+stephen.moreno@lewisnguyen.example.com,2026-09-14 18:18:09,Connected,Sales call,SUMM-A005145
+arthur.small@blackhernandez.example.com,2026-09-14 21:30:17,Connected,Sales call,SUMM-A005148
+megan.rodriguez@hermanhudsonandcohen.example.com,2026-09-15 02:06:33,Connected,Sales call,SUMM-A005153
+gregory.clark@callahanmendez.example.com,2026-09-15 14:17:07,Left voicemail,Sales call,SUMM-A005171
+nicole.lawrence@pacechambers.example.com,2026-09-15 14:20:28,Left voicemail,Sales call,SUMM-A005172
+stephen.moreno@lewisnguyen.example.com,2026-09-15 15:59:03,Connected,Sales call,SUMM-A005174
+jason.delgado@higginsmalone.example.com,2026-09-16 05:07:46,No answer,Sales call,SUMM-A005190
+lance.stewart@mcintoshnolan.example.com,2026-09-16 10:01:35,Connected,Sales call,SUMM-A005201
+james.taylor@sharpmercadoandgreen.example.com,2026-09-16 17:38:30,Connected,Sales call,SUMM-A005208
+hailey.clarke@colemangroup.example.com,2026-09-16 18:26:09,No answer,Sales call,SUMM-A005210
+heather.brown@martinezandsons.example.com,2026-09-17 02:43:51,Left voicemail,Sales call,SUMM-A005219
+jesus.brown@simpsonhartandclark.example.com,2026-09-17 03:59:22,No answer,Sales call,SUMM-A005221
+gary.mack@meyerandsons.example.com,2026-09-17 11:31:44,Connected,Sales call,SUMM-A005236
+daniel.haas@reynoldsdickerson.example.com,2026-09-17 18:12:49,Connected,Sales call,SUMM-A005244
+andrea.sanchez@mckeeandsons.example.com,2026-09-17 19:14:55,Connected,Sales call,SUMM-A005248
+lance.stewart@mcintoshnolan.example.com,2026-09-17 22:10:06,No answer,Sales call,SUMM-A005253
+jason.delgado@higginsmalone.example.com,2026-09-18 04:24:22,No answer,Sales call,SUMM-A005258
+michael.manning@hayesgroup.example.com,2026-09-18 14:58:12,No answer,Sales call,SUMM-A005272
+jason.delgado@higginsmalone.example.com,2026-09-18 16:21:11,Connected,Sales call,SUMM-A005276
+daniel.haas@reynoldsdickerson.example.com,2026-09-18 23:10:32,No answer,Sales call,SUMM-A005286
+john.james@browngroup.example.com,2026-09-19 09:41:21,Connected,Sales call,SUMM-A005305
+amanda.pope@foleygroup.example.com,2026-09-19 12:05:25,No answer,Sales call,SUMM-A005307
+erica.ward@jonesspencer.example.com,2026-09-19 19:33:05,No answer,Sales call,SUMM-A005318
+tammy.gardner@parsonsandsons.example.com,2026-09-20 02:16:19,No answer,Sales call,SUMM-A005331
+sandy.flores@rileywilson.example.com,2026-09-20 17:50:41,No answer,Sales call,SUMM-A005355
+amanda.pope@foleygroup.example.com,2026-09-21 01:14:19,No answer,Sales call,SUMM-A005363
+matthew.taylor@christensenandsons.example.com,2026-09-21 17:19:58,Left voicemail,Sales call,SUMM-A005380
+dorothy.martin@wardwilliams.example.com,2026-09-22 06:21:31,Connected,Sales call,SUMM-A005398
+theresa.henry@smithcampbellandwiggins.example.com,2026-09-22 16:37:44,No answer,Sales call,SUMM-A005409
+dawn.ellison@wyattharrisandsmith.example.com,2026-09-22 18:05:36,Left voicemail,Sales call,SUMM-A005415
+andre.fuller@collinsbrown.example.com,2026-09-22 21:39:49,No answer,Sales call,SUMM-A005422
+erica.ward@jonesspencer.example.com,2026-09-23 11:33:33,No answer,Sales call,SUMM-A005451
+john.james@browngroup.example.com,2026-09-23 13:06:06,Connected,Sales call,SUMM-A005454
+andrea.sanchez@mckeeandsons.example.com,2026-09-23 14:39:35,Connected,Sales call,SUMM-A005462
+sara.davis@gibsonsimonandpruitt.example.com,2026-09-23 19:44:00,Connected,Sales call,SUMM-A005469
+dorothy.martin@wardwilliams.example.com,2026-09-23 21:16:14,Connected,Sales call,SUMM-A005472
+sara.davis@gibsonsimonandpruitt.example.com,2026-09-24 02:05:29,Left voicemail,Sales call,SUMM-A005478
+aaron.ramos@baileyphillips.example.com,2026-09-24 05:28:31,Left voicemail,Sales call,SUMM-A005480
+theresa.henry@smithcampbellandwiggins.example.com,2026-09-24 08:19:50,Left voicemail,Sales call,SUMM-A005485
+theresa.henry@smithcampbellandwiggins.example.com,2026-09-24 08:25:13,No answer,Sales call,SUMM-A005486
+anne.stephens@thompsonllc.example.com,2026-09-24 14:44:34,Left voicemail,Sales call,SUMM-A005498
+matthew.taylor@christensenandsons.example.com,2026-09-24 18:21:34,No answer,Sales call,SUMM-A005503
+gary.mack@meyerandsons.example.com,2026-09-25 09:35:38,Connected,Sales call,SUMM-A005527
+matthew.taylor@christensenandsons.example.com,2026-09-25 10:45:41,No answer,Sales call,SUMM-A005529
+catherine.dixon@harrisonhoustonandbell.example.com,2026-09-25 16:49:02,Connected,Sales call,SUMM-A005536
+nicole.baker@hernandezinc.example.com,2026-09-25 17:05:49,No answer,Sales call,SUMM-A005538
+sara.davis@gibsonsimonandpruitt.example.com,2026-09-25 20:57:15,Connected,Sales call,SUMM-A005547
+monica.gonzales@hoovergroup.example.com,2026-09-25 22:11:58,No answer,Sales call,SUMM-A005551
+allison.wright@clarklee.example.com,2026-09-26 01:07:07,Left voicemail,Sales call,SUMM-A005562
+maria.johnson@mccarthyinc.example.com,2026-09-26 01:57:40,No answer,Sales call,SUMM-A005564
+catherine.dixon@harrisonhoustonandbell.example.com,2026-09-26 04:26:52,Left voicemail,Sales call,SUMM-A005569
+monica.gonzales@hoovergroup.example.com,2026-09-26 12:21:22,Left voicemail,Sales call,SUMM-A005586
+anne.stephens@thompsonllc.example.com,2026-09-26 15:25:05,Connected,Sales call,SUMM-A005591
+nicole.baker@hernandezinc.example.com,2026-09-26 17:39:11,Connected,Sales call,SUMM-A005596
+stephanie.hudson@kennedycollinsandkeith.example.com,2026-09-27 00:09:27,Connected,Sales call,SUMM-A005603
+catherine.dixon@harrisonhoustonandbell.example.com,2026-09-27 00:43:40,Connected,Sales call,SUMM-A005604
+amanda.pope@foleygroup.example.com,2026-09-27 08:38:06,Connected,Sales call,SUMM-A005616
+tammy.gardner@parsonsandsons.example.com,2026-09-27 08:52:05,No answer,Sales call,SUMM-A005618
+nathaniel.king@cardenasmartinezandmedin.example.com,2026-09-27 08:59:00,Left voicemail,Sales call,SUMM-A005619
+allison.wright@clarklee.example.com,2026-09-27 12:56:13,No answer,Sales call,SUMM-A005626
+allison.wright@clarklee.example.com,2026-09-27 14:44:42,No answer,Sales call,SUMM-A005632
+theresa.henry@smithcampbellandwiggins.example.com,2026-09-27 15:16:32,Connected,Sales call,SUMM-A005634
+stephen.ford@bendermcgee.example.com,2026-09-27 22:24:41,No answer,Sales call,SUMM-A005643
+monica.gonzales@hoovergroup.example.com,2026-09-28 01:16:52,Left voicemail,Sales call,SUMM-A005650
+sara.davis@gibsonsimonandpruitt.example.com,2026-09-28 13:22:19,Left voicemail,Sales call,SUMM-A005673
+gregory.clark@callahanmendez.example.com,2026-09-28 15:08:30,Connected,Sales call,SUMM-A005675
+angela.stewart@villarrealandsons.example.com,2026-09-28 16:13:16,Connected,Sales call,SUMM-A005678
+dale.hensley@gateswebster.example.com,2026-09-29 05:27:16,No answer,Sales call,SUMM-A005704
+dale.hensley@gateswebster.example.com,2026-09-29 07:50:14,No answer,Sales call,SUMM-A005709
+nicole.baker@hernandezinc.example.com,2026-09-29 11:25:49,No answer,Sales call,SUMM-A005713
+monica.gonzales@hoovergroup.example.com,2026-09-29 13:10:51,Left voicemail,Sales call,SUMM-A005721
+dale.hensley@gateswebster.example.com,2026-09-29 15:49:08,No answer,Sales call,SUMM-A005731
+jeffrey.arnold@powellgilesandpennington.example.com,2026-09-29 19:12:09,No answer,Sales call,SUMM-A005738
+dale.hensley@gateswebster.example.com,2026-09-30 01:35:34,No answer,Sales call,SUMM-A005756
+john.james@browngroup.example.com,2026-09-30 01:40:13,Connected,Sales call,SUMM-A005757
+dawn.ellison@wyattharrisandsmith.example.com,2026-09-30 01:49:48,No answer,Sales call,SUMM-A005758
+james.williams@owensllc.example.com,2026-09-30 02:35:33,Connected,Sales call,SUMM-A005762
+jamie.welch@hilljordan.example.com,2026-09-30 03:12:04,Connected,Sales call,SUMM-A005763
+james.williams@owensllc.example.com,2026-09-30 05:10:32,No answer,Sales call,SUMM-A005770
+james.williams@owensllc.example.com,2026-09-30 07:49:36,Left voicemail,Sales call,SUMM-A005775
+jeffrey.arnold@powellgilesandpennington.example.com,2026-09-30 08:50:35,No answer,Sales call,SUMM-A005779
+stephen.ford@bendermcgee.example.com,2026-09-30 11:29:15,No answer,Sales call,SUMM-A005789
+jeffrey.arnold@powellgilesandpennington.example.com,2026-09-30 15:53:24,Left voicemail,Sales call,SUMM-A005801
+tammy.gardner@parsonsandsons.example.com,2026-09-30 17:21:59,Left voicemail,Sales call,SUMM-A005806
+maria.johnson@mccarthyinc.example.com,2026-09-30 19:09:10,Left voicemail,Sales call,SUMM-A005817
+kiara.roach@martinezgroup.example.com,2026-09-30 19:27:46,Connected,Sales call,SUMM-A005820
+james.williams@owensllc.example.com,2026-09-30 20:17:56,No answer,Sales call,SUMM-A005822
+kiara.roach@martinezgroup.example.com,2026-09-30 20:52:58,Connected,Sales call,SUMM-A005826
+haley.harvey@andersongroup.example.com,2026-09-30 20:59:32,No answer,Sales call,SUMM-A005828
+kiara.roach@martinezgroup.example.com,2026-09-30 23:16:20,Left voicemail,Sales call,SUMM-A005836

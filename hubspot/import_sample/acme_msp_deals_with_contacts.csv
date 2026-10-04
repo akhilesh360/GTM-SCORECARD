@@ -1,0 +1,143 @@
+Email,Deal Name,Pipeline,GTM Motion,Deal Stage,Amount,Close Date,Lead Source,Company Type,Gross Margin,Assigned Rep,Service Type,Deal ID (source)
+marvin.malone@piercechavez.example.com,Pierce-Chavez - Referral,GTM Pipeline,Referral,Won,17750,2026-05-05,Referral,MSP,60.5,Dana Whitfield,,ACME-D00014
+deanna.stephenson@turnermurrayandhaley.example.com,Turner Murray and Haley - Inbound,GTM Pipeline,Inbound,Lost,13450,2026-04-09,Call Tracking,MSP,65.6,Jordan Ellis,,ACME-D00016
+jeffrey.perez@friedmandiaz.example.com,Friedman-Diaz - Referral,GTM Pipeline,Referral,Lost,10450,2026-05-24,Referral,MSP,58.5,Priya Raman,,ACME-D00018
+michael.martin@adamslopezanddecker.example.com,Adams Lopez and Decker - Outbound,GTM Pipeline,Outbound,Lost,13600,2026-04-19,Outbound,MSP,50.5,Priya Raman,,ACME-D00020
+lance.allen@salazarharrison.example.com,Salazar-Harrison - Referral,GTM Pipeline,Referral,Won,16450,2026-06-18,Referral,MSP,68.0,Marcus Lee,,ACME-D00023
+carolyn.gray@melendezleeandprice.example.com,Melendez Lee and Price - Inbound,GTM Pipeline,Inbound,Lost,15750,2026-04-21,Google Ads,MSP,58.7,Priya Raman,,ACME-D00026
+jamie.baker@beasleyjohnson.example.com,Beasley-Johnson - Inbound,GTM Pipeline,Inbound,Lost,8350,2026-04-20,Google Ads,MSP,59.4,Owen Brooks,,ACME-D00028
+victoria.walker@watsonandsons.example.com,Watson and Sons - Inbound,GTM Pipeline,Inbound,Lost,13450,2026-04-20,Google Ads,MSP,59.3,Jordan Ellis,,ACME-D00032
+sara.willis@brownfosteranderickson.example.com,Brown Foster and Erickson - Outbound,GTM Pipeline,Outbound,Lost,14200,2026-04-23,Outbound,MSP,62.8,Dana Whitfield,,ACME-D00034
+jennifer.valenzuela@wilsonhouse.example.com,Wilson-House - Referral,GTM Pipeline,Referral,Won,22050,2026-06-09,Referral,MSP,66.0,Dana Whitfield,,ACME-D00035
+erin.jennings@adamsplc.example.com,Adams PLC - Inbound,GTM Pipeline,Inbound,Won,20350,2026-05-22,Google Ads,MSP,63.1,Owen Brooks,,ACME-D00040
+thomas.huang@dunnmiller.example.com,Dunn-Miller - Inbound,GTM Pipeline,Inbound,Won,7950,2026-06-08,Google Ads,MSP,60.6,Dana Whitfield,,ACME-D00043
+catherine.cox@leebrown.example.com,Lee-Brown - Inbound,GTM Pipeline,Inbound,Won,9600,2026-05-13,Call Tracking,MSP,59.8,Acme Round Robin,,ACME-D00045
+thomas.hardy@smithlloydandjackson.example.com,Smith Lloyd and Jackson - Inbound,GTM Pipeline,Inbound,Lost,12750,2026-04-26,Call Tracking,MSP,69.3,Acme Round Robin,,ACME-D00047
+patricia.miller@stantonphillipsandmcfarl.example.com,Stanton Phillips and Mcfarland - Inbound,GTM Pipeline,Inbound,Won,17650,2026-06-01,Meta Ads,MSP,56.5,Sofia Alvarez,,ACME-D00053
+darin.schmidt@connerllc.example.com,Conner LLC - Inbound,GTM Pipeline,Inbound,Lost,14050,2026-05-15,Google Ads,MSP,64.3,Dana Whitfield,,ACME-D00062
+lori.jackson@robinsonatkinsanddavis.example.com,Robinson Atkins and Davis - Referral,GTM Pipeline,Referral,Won,14550,2026-07-27,Referral,MSP,63.4,Marcus Lee,,ACME-D00064
+brett.thomas@mejiaanderson.example.com,Mejia-Anderson - Inbound,GTM Pipeline,Inbound,Lost,11750,2026-04-28,Google Ads,MSP,65.4,Dana Whitfield,,ACME-D00071
+holly.lee@montoyajohnsonanddavis.example.com,Montoya Johnson and Davis - Inbound,GTM Pipeline,Inbound,Lost,11500,2026-05-06,Google Ads,MSP,59.8,Sofia Alvarez,,ACME-D00073
+jacob.smith@bennettkingandsimmons.example.com,Bennett King and Simmons - Inbound,GTM Pipeline,Inbound,Lost,19500,2026-05-29,Google Ads,MSP,66.0,Owen Brooks,,ACME-D00076
+lisa.mays@lanemoore.example.com,Lane-Moore - Inbound,GTM Pipeline,Inbound,Lost,10350,2026-06-10,Meta Ads,MSP,66.6,Priya Raman,,ACME-D00084
+susan.mccall@martinezplc.example.com,Martinez PLC - Inbound,GTM Pipeline,Inbound,Lost,17800,2026-05-12,Meta Ads,MSP,61.6,Dana Whitfield,,ACME-D00088
+tristan.robinson@kellycarr.example.com,Kelly-Carr - Referral,GTM Pipeline,Referral,Lost,15100,2026-05-31,Referral,MSP,67.7,Dana Whitfield,,ACME-D00089
+jonathan.friedman@youngandsons.example.com,Young and Sons - Inbound,GTM Pipeline,Inbound,Lost,22750,2026-05-06,Google Ads,MSP,56.7,Marcus Lee,,ACME-D00090
+dustin.gardner@jenkinsevans.example.com,Jenkins-Evans - Inbound,GTM Pipeline,Inbound,Won,22200,2026-05-25,Google Ads,MSP,66.9,Sofia Alvarez,,ACME-D00096
+derrick.benton@bradyjohnsonandnguyen.example.com,Brady Johnson and Nguyen - Referral,GTM Pipeline,Referral,Lost,9400,2026-05-28,Referral,MSP,64.2,Acme Round Robin,,ACME-D00101
+brittany.white@cochrangroup.example.com,Cochran Group - Inbound,GTM Pipeline,Inbound,Won,19500,2026-07-19,Call Tracking,MSP,68.9,Marcus Lee,,ACME-D00107
+heather.cole@fostershea.example.com,Foster-Shea - Inbound,GTM Pipeline,Inbound,Won,21900,2026-06-24,Google Ads,MSP,55.5,Sofia Alvarez,,ACME-D00110
+sydney.peterson@maldonadollc.example.com,Maldonado LLC - Referral,GTM Pipeline,Referral,Won,12500,2026-06-11,Referral,MSP,65.6,Marcus Lee,,ACME-D00111
+emma.mcmahon@perezgroup.example.com,Perez Group - Inbound,GTM Pipeline,Inbound,Lost,10100,2026-05-25,Meta Ads,MSP,61.1,Priya Raman,,ACME-D00112
+michael.mckinney@foleymaxwellandrice.example.com,Foley Maxwell and Rice - Outbound,GTM Pipeline,Outbound,Lost,15450,2026-05-16,Outbound,MSP,64.2,Dana Whitfield,,ACME-D00113
+henry.nielsen@olsengroup.example.com,Olsen Group - Inbound,GTM Pipeline,Inbound,Won,17800,2026-06-03,Google Ads,MSP,56.2,Jordan Ellis,,ACME-D00120
+brian.shaw@weberinc.example.com,Weber Inc - Referral,GTM Pipeline,Referral,Won,18250,2026-06-02,Referral,MSP,58.2,Sofia Alvarez,,ACME-D00125
+monica.fisher@robertsandsons.example.com,Roberts and Sons - Referral,GTM Pipeline,Referral,Won,10200,2026-06-11,Referral,MSP,58.8,Dana Whitfield,,ACME-D00139
+jennifer.kane@floresplc.example.com,Flores PLC - Referral,GTM Pipeline,Referral,Won,9850,2026-07-30,Referral,MSP,51.2,Jordan Ellis,,ACME-D00141
+james.ramirez@douglaspineda.example.com,Douglas-Pineda - Inbound,GTM Pipeline,Inbound,Won,10450,2026-06-18,Call Tracking,MSP,60.4,Priya Raman,,ACME-D00142
+regina.cole@adamsharris.example.com,Adams-Harris - Inbound,GTM Pipeline,Inbound,Lost,17200,2026-05-26,Google Ads,MSP,57.5,Grace Kim,,ACME-D00143
+donna.peterson@johnsonsandovalandphelps.example.com,Johnson Sandoval and Phelps - Inbound,GTM Pipeline,Inbound,Won,17350,2026-06-29,Google Ads,MSP,54.3,Owen Brooks,,ACME-D00144
+bonnie.tanner@murilloandsons.example.com,Murillo and Sons - Inbound,GTM Pipeline,Inbound,Won,14450,2026-06-27,Call Tracking,MSP,61.7,Priya Raman,,ACME-D00147
+heather.blair@franklinllc.example.com,Franklin LLC - Outbound,GTM Pipeline,Outbound,Won,16050,2026-07-06,Outbound,MSP,56.7,Owen Brooks,,ACME-D00149
+timothy.white@wilsongroup.example.com,Wilson Group - Inbound,GTM Pipeline,Inbound,Lost,14600,2026-07-12,Google Ads,MSP,54.7,Marcus Lee,,ACME-D00150
+kelly.page@hillgroup.example.com,Hill Group - Outbound,GTM Pipeline,Outbound,Lost,18450,2026-08-07,Outbound,MSP,55.8,Acme Round Robin,,ACME-D00152
+alexandra.morrow@rodriguezgarciaandjackso.example.com,Rodriguez Garcia and Jackson - Inbound,GTM Pipeline,Inbound,Lost,14550,2026-06-03,Google Ads,MSP,59.0,Priya Raman,,ACME-D00154
+john.matthews@christensenabbott.example.com,Christensen-Abbott - Referral,GTM Pipeline,Referral,Won,23200,2026-06-22,Referral,MSP,61.1,Jordan Ellis,,ACME-D00173
+elizabeth.brennan@woodmartin.example.com,Wood-Martin - Inbound,GTM Pipeline,Inbound,Won,11250,2026-07-10,Google Ads,MSP,66.5,Dana Whitfield,,ACME-D00176
+jennifer.newton@martinthompson.example.com,Martin-Thompson - Inbound,GTM Pipeline,Inbound,Won,13250,2026-06-13,Google Ads,MSP,60.6,Priya Raman,,ACME-D00180
+kimberly.parker@scottdawsonandhines.example.com,Scott Dawson and Hines - Referral,GTM Pipeline,Referral,Lost,31500,2026-07-05,Referral,MSP,58.9,Dana Whitfield,,ACME-D00183
+kathy.johnson@davischristianandfitzger.example.com,Davis Christian and Fitzgerald - Referral,GTM Pipeline,Referral,Won,10850,2026-07-11,Referral,MSP,66.3,Dana Whitfield,,ACME-D00184
+angel.martin@ayersgroup.example.com,Ayers Group - Referral,GTM Pipeline,Referral,Lost,20150,2026-06-29,Referral,MSP,60.3,Owen Brooks,,ACME-D00187
+lauren.garcia@wilkinsonkelleyandhughes.example.com,Wilkinson Kelley and Hughes - Inbound,GTM Pipeline,Inbound,Won,18500,2026-06-30,Google Ads,MSP,60.0,Grace Kim,,ACME-D00192
+joshua.herrera@gutierrezinc.example.com,Gutierrez Inc - Referral,GTM Pipeline,Referral,Lost,10550,2026-06-09,Referral,MSP,64.6,Dana Whitfield,,ACME-D00194
+kenneth.porter@davisrodriguez.example.com,Davis-Rodriguez - Inbound,GTM Pipeline,Inbound,Won,15250,2026-08-24,Meta Ads,MSP,64.2,Priya Raman,,ACME-D00199
+jessica.novak@johnsonstevensandtran.example.com,Johnson Stevens and Tran - Inbound,GTM Pipeline,Inbound,Lost,16250,2026-06-07,Google Ads,MSP,56.5,Priya Raman,,ACME-D00201
+philip.edwards@jenkinsvelazquez.example.com,Jenkins-Velazquez - Inbound,GTM Pipeline,Inbound,Lost,12600,2026-06-15,Call Tracking,MSP,61.2,Dana Whitfield,,ACME-D00203
+brittany.bradford@millertorres.example.com,Miller-Torres - Inbound,GTM Pipeline,Inbound,Won,17750,2026-07-19,Call Tracking,MSP,64.8,Grace Kim,,ACME-D00204
+monica.hampton@rivasroberts.example.com,Rivas-Roberts - Outbound,GTM Pipeline,Outbound,Won,14000,2026-07-20,Outbound,MSP,49.8,Priya Raman,,ACME-D00209
+amy.bennett@greenoliverandjones.example.com,Green Oliver and Jones - Inbound,GTM Pipeline,Inbound,Lost,9800,2026-06-15,Google Ads,MSP,63.0,Sofia Alvarez,,ACME-D00211
+gregory.townsend@campbellriveraandlane.example.com,Campbell Rivera and Lane - Inbound,GTM Pipeline,Inbound,Won,13150,2026-07-21,Google Ads,MSP,57.6,Acme Round Robin,,ACME-D00216
+tracey.adams@powellacostaandwatson.example.com,Powell Acosta and Watson - Inbound,GTM Pipeline,Inbound,Lost,13000,2026-06-15,Call Tracking,MSP,60.9,Marcus Lee,,ACME-D00222
+jacob.hutchinson@wilsonkimandwallace.example.com,Wilson Kim and Wallace - Referral,GTM Pipeline,Referral,Won,8950,2026-07-17,Referral,MSP,60.1,Priya Raman,,ACME-D00224
+jeffrey.ramirez@dixonchapman.example.com,Dixon-Chapman - Inbound,GTM Pipeline,Inbound,Lost,16000,2026-06-12,Google Ads,MSP,61.1,Owen Brooks,,ACME-D00226
+amanda.roberts@gonzalezinc.example.com,Gonzalez Inc - Inbound,GTM Pipeline,Inbound,Lost,17900,2026-06-16,Google Ads,MSP,58.3,Owen Brooks,,ACME-D00230
+brent.haynes@weberinc.example.com,Weber Inc - Referral,GTM Pipeline,Referral,Won,16300,2026-07-01,Referral,MSP,61.4,Sofia Alvarez,,ACME-D00231
+kimberly.tran@sandersllc.example.com,Sanders LLC - Outbound,GTM Pipeline,Outbound,Won,17000,2026-07-07,Outbound,MSP,55.1,Dana Whitfield,,ACME-D00236
+colleen.faulkner@mccoyplc.example.com,Mccoy PLC - Referral,GTM Pipeline,Referral,Lost,16000,2026-06-23,Referral,MSP,68.0,Owen Brooks,,ACME-D00241
+jennifer.patel@steelerobertsonandbell.example.com,Steele Robertson and Bell - Inbound,GTM Pipeline,Inbound,Lost,26250,2026-06-30,Meta Ads,MSP,63.8,Sofia Alvarez,,ACME-D00250
+travis.poole@garrisonzhang.example.com,Garrison-Zhang - Inbound,GTM Pipeline,Inbound,Lost,5950,2026-07-05,Call Tracking,MSP,61.8,Marcus Lee,,ACME-D00251
+michael.hill@hensleywolfandpeters.example.com,Hensley Wolf and Peters - Referral,GTM Pipeline,Referral,Lost,15050,2026-08-09,Referral,MSP,56.7,Sofia Alvarez,,ACME-D00253
+jamie.davis@jonesdennisandthompson.example.com,Jones Dennis and Thompson - Inbound,GTM Pipeline,Inbound,Lost,14450,2026-06-30,Meta Ads,MSP,59.5,Jordan Ellis,,ACME-D00255
+leslie.benjamin@willisplc.example.com,Willis PLC - Outbound,GTM Pipeline,Outbound,Won,11850,2026-08-06,Outbound,MSP,56.1,Grace Kim,,ACME-D00257
+joe.caldwell@browningkerr.example.com,Browning-Kerr - Inbound,GTM Pipeline,Inbound,Lost,8700,2026-07-16,Call Tracking,MSP,55.5,Sofia Alvarez,,ACME-D00261
+michael.mcdonald@mckenzieandsons.example.com,Mckenzie and Sons - Inbound,GTM Pipeline,Inbound,Won,14000,2026-08-11,Google Ads,MSP,56.0,Sofia Alvarez,,ACME-D00264
+brian.brown@oneillllc.example.com,Oneill LLC - Inbound,GTM Pipeline,Inbound,Lost,18550,2026-07-12,Google Ads,MSP,61.9,Sofia Alvarez,,ACME-D00270
+mia.burns@bakercarrandmoore.example.com,Baker Carr and Moore - Outbound,GTM Pipeline,Outbound,Lost,26650,2026-07-15,Outbound,MSP,57.8,Dana Whitfield,,ACME-D00273
+danielle.marquez@mooremoore.example.com,Moore-Moore - Referral,GTM Pipeline,Referral,Won,14150,2026-08-12,Referral,MSP,59.8,Jordan Ellis,,ACME-D00278
+robert.webster@kramerltd.example.com,Kramer Ltd - Inbound,GTM Pipeline,Inbound,Lost,15850,2026-07-21,Google Ads,MSP,60.8,Priya Raman,,ACME-D00280
+natalie.williams@stonejackson.example.com,Stone-Jackson - Inbound,GTM Pipeline,Inbound,Lost,15600,2026-08-07,Call Tracking,MSP,63.7,Acme Round Robin,,ACME-D00283
+karen.smith@taylorturner.example.com,Taylor-Turner - Referral,GTM Pipeline,Referral,Won,13250,2026-09-07,Referral,MSP,64.2,Owen Brooks,,ACME-D00284
+sandra.hernandez@romanroberts.example.com,Roman-Roberts - Inbound,GTM Pipeline,Inbound,Lost,10500,2026-07-24,Google Ads,MSP,54.5,Owen Brooks,,ACME-D00285
+melinda.galloway@smithltd.example.com,Smith Ltd - Inbound,GTM Pipeline,Inbound,Lost,6550,2026-07-22,Meta Ads,MSP,52.5,Marcus Lee,,ACME-D00288
+richard.wilson@ramirezgonzalez.example.com,Ramirez-Gonzalez - Referral,GTM Pipeline,Referral,Won,15400,2026-07-29,Referral,MSP,59.8,Marcus Lee,,ACME-D00295
+kevin.morales@georgefitzpatrickandkey.example.com,George Fitzpatrick and Key - Inbound,GTM Pipeline,Inbound,Lost,11050,2026-09-09,Call Tracking,MSP,58.6,Marcus Lee,,ACME-D00298
+rebecca.gardner@cooperltd.example.com,Cooper Ltd - Inbound,GTM Pipeline,Inbound,Won,11650,2026-08-21,Google Ads,MSP,59.3,Jordan Ellis,,ACME-D00306
+george.wallace@andersonwalker.example.com,Anderson-Walker - Inbound,GTM Pipeline,Inbound,Won,18100,2026-08-14,Meta Ads,MSP,64.2,Owen Brooks,,ACME-D00315
+stacey.moran@mckenziegibbs.example.com,Mckenzie-Gibbs - Inbound,GTM Pipeline,Inbound,Lost,14900,2026-08-19,Meta Ads,MSP,62.2,Sofia Alvarez,,ACME-D00320
+aaron.quinn@nortonmorris.example.com,Norton-Morris - Inbound,GTM Pipeline,Inbound,Lost,18750,2026-08-03,Google Ads,MSP,59.7,Owen Brooks,,ACME-D00326
+angela.fisher@kennedyshepardandmyers.example.com,Kennedy Shepard and Myers - Referral,GTM Pipeline,Referral,Won,18700,2026-09-02,Referral,MSP,67.6,Grace Kim,,ACME-D00339
+brittany.sosa@bradshawgroup.example.com,Bradshaw Group - Inbound,GTM Pipeline,Inbound,Lost,8600,2026-07-27,Call Tracking,MSP,58.9,Dana Whitfield,,ACME-D00342
+jasmin.ward@walkerwebb.example.com,Walker-Webb - Inbound,GTM Pipeline,Inbound,Won,16350,2026-09-01,Meta Ads,MSP,57.6,Sofia Alvarez,,ACME-D00346
+robert.adams@burnsgroup.example.com,Burns Group - Outbound,GTM Pipeline,Outbound,Lost,18450,2026-08-03,Outbound,MSP,58.1,Jordan Ellis,,ACME-D00349
+manuel.kennedy@littlewhiteandperkins.example.com,Little White and Perkins - Inbound,GTM Pipeline,Inbound,Lost,11400,2026-08-09,Google Ads,MSP,61.2,Dana Whitfield,,ACME-D00353
+joseph.williams@fisherplc.example.com,Fisher PLC - Referral,GTM Pipeline,Referral,Lost,17100,2026-07-26,Referral,MSP,,Sofia Alvarez,,ACME-D00354
+kathy.dixon@johnsonirwin.example.com,Johnson-Irwin - Inbound,GTM Pipeline,Inbound,Lost,7950,2026-08-01,Call Tracking,MSP,56.1,Dana Whitfield,,ACME-D00355
+andrew.ortega@mcclainnguyen.example.com,Mcclain-Nguyen - Inbound,GTM Pipeline,Inbound,Lost,8800,2026-08-07,Google Ads,MSP,61.5,Sofia Alvarez,,ACME-D00358
+savannah.fisher@mejiaandsons.example.com,Mejia and Sons - Inbound,GTM Pipeline,Inbound,Lost,15850,2026-08-07,Google Ads,MSP,59.0,Marcus Lee,,ACME-D00362
+ashley.rosario@carrillorodriguezandbear.example.com,Carrillo Rodriguez and Beard - Inbound,GTM Pipeline,Inbound,Lost,15700,2026-08-09,Google Ads,MSP,59.5,Marcus Lee,,ACME-D00375
+valerie.nguyen@garciaplc.example.com,Garcia PLC - Inbound,GTM Pipeline,Inbound,Lost,12450,2026-08-11,Call Tracking,MSP,67.1,Marcus Lee,,ACME-D00384
+tracy.lewis@hubersanchez.example.com,Huber-Sanchez - Inbound,GTM Pipeline,Inbound,Won,10900,2026-08-28,Google Ads,MSP,60.8,Priya Raman,,ACME-D00386
+benjamin.esparza@lopezandsons.example.com,Lopez and Sons - Referral,GTM Pipeline,Referral,Won,11400,2026-09-07,Referral,MSP,63.7,Priya Raman,,ACME-D00390
+william.allison@sweeneygraham.example.com,Sweeney-Graham - Inbound,GTM Pipeline,Inbound,Won,12100,2026-09-28,Google Ads,MSP,57.0,Grace Kim,,ACME-D00393
+jon.jacobs@nelsonnguyen.example.com,Nelson-Nguyen - Inbound,GTM Pipeline,Inbound,Lost,9100,2026-08-26,Meta Ads,MSP,58.9,Sofia Alvarez,,ACME-D00403
+crystal.taylor@joneswalkerandmartinez.example.com,Jones Walker and Martinez - Inbound,GTM Pipeline,Inbound,Lost,14550,2026-08-09,Google Ads,MSP,55.7,Dana Whitfield,,ACME-D00412
+connie.stevens@hamiltonmorgan.example.com,Hamilton-Morgan - Outbound,GTM Pipeline,Outbound,Lost,17900,2026-08-22,Outbound,MSP,62.1,Sofia Alvarez,,ACME-D00417
+robin.fuentes@johnsonmoore.example.com,Johnson-Moore - Inbound,GTM Pipeline,Inbound,Lost,7400,2026-09-27,Google Ads,MSP,53.5,Sofia Alvarez,,ACME-D00424
+nathan.padilla@hortonmiller.example.com,Horton-Miller - Inbound,GTM Pipeline,Inbound,Lost,8900,2026-09-01,Google Ads,MSP,62.8,Owen Brooks,,ACME-D00426
+donna.johnson@davisrossandsanchez.example.com,Davis Ross and Sanchez - Inbound,GTM Pipeline,Inbound,Lost,15650,2026-08-28,Google Ads,MSP,59.7,Marcus Lee,,ACME-D00427
+nicholas.powell@greenbuckandrobinson.example.com,Green Buck and Robinson - Outbound,GTM Pipeline,Outbound,Lost,15850,2026-08-28,Outbound,MSP,64.3,Dana Whitfield,,ACME-D00430
+eric.mendoza@johnsonalexander.example.com,Johnson-Alexander - Outbound,GTM Pipeline,Outbound,Lost,25100,2026-09-09,Outbound,MSP,52.3,Sofia Alvarez,,ACME-D00434
+tammy.smith@kingholt.example.com,King-Holt - Inbound,GTM Pipeline,Inbound,Lost,12300,2026-08-22,Call Tracking,MSP,53.4,Owen Brooks,,ACME-D00437
+cynthia.taylor@trevinoltd.example.com,Trevino Ltd - Referral,GTM Pipeline,Referral,Proposal,10950,,Referral,MSP,57.2,Marcus Lee,,ACME-D00440
+emily.lara@clarkplc.example.com,Clark PLC - Inbound,GTM Pipeline,Inbound,Won,15050,2026-09-30,Google Ads,MSP,62.3,Sofia Alvarez,,ACME-D00447
+richard.kelley@foxdunn.example.com,Fox-Dunn - Inbound,GTM Pipeline,Inbound,Won,16100,2026-09-12,Google Ads,MSP,50.8,Jordan Ellis,,ACME-D00449
+laura.white@mcneilwilliamsandpark.example.com,Mcneil Williams and Park - Inbound,GTM Pipeline,Inbound,Won,6950,2026-09-20,Google Ads,MSP,47.6,Sofia Alvarez,,ACME-D00451
+billy.melton@bradleyplc.example.com,Bradley PLC - Outbound,GTM Pipeline,Outbound,Lost,17650,2026-08-27,Outbound,MSP,55.5,Owen Brooks,,ACME-D00460
+samuel.jordan@alvaradomayo.example.com,Alvarado-Mayo - Inbound,GTM Pipeline,Inbound,Won,10400,2026-09-26,Google Ads,MSP,53.2,Jordan Ellis,,ACME-D00463
+brandon.mendoza@lewisllc.example.com,Lewis LLC - Referral,GTM Pipeline,Referral,Lost,17250,2026-09-04,Referral,MSP,58.7,Marcus Lee,,ACME-D00470
+jeffrey.schmidt@andersonandsons.example.com,Anderson and Sons - Inbound,GTM Pipeline,Inbound,Lost,15650,2026-08-27,Google Ads,MSP,59.7,Priya Raman,,ACME-D00473
+matthew.velez@huffllc.example.com,Huff LLC - Referral,GTM Pipeline,Referral,Won,17150,2026-09-21,Referral,MSP,63.9,Dana Whitfield,,ACME-D00488
+sydney.wallace@craigjensen.example.com,Craig-Jensen - Referral,GTM Pipeline,Referral,Lost,20850,2026-09-15,Referral,MSP,,Jordan Ellis,,ACME-D00489
+samantha.mann@thomasplc.example.com,Thomas PLC - Inbound,GTM Pipeline,Inbound,Proposal,8800,,Google Ads,MSP,65.9,Dana Whitfield,,ACME-D00490
+brandon.velez@tuckerschaefer.example.com,Tucker-Schaefer - Referral,GTM Pipeline,Referral,Won,11650,2026-09-29,Referral,MSP,70.2,Sofia Alvarez,,ACME-D00499
+valerie.james@weaverinc.example.com,Weaver Inc - Outbound,GTM Pipeline,Outbound,Lost,22100,2026-09-11,Outbound,MSP,63.1,Dana Whitfield,,ACME-D00500
+katelyn.bolton@mercadohaynesandking.example.com,Mercado Haynes and King - Inbound,GTM Pipeline,Inbound,Lost,10650,2026-09-12,Google Ads,MSP,63.7,Marcus Lee,,ACME-D00502
+nathan.hoover@berrywagner.example.com,Berry-Wagner - Referral,GTM Pipeline,Referral,Proposal,12200,,Referral,MSP,64.4,Dana Whitfield,,ACME-D00509
+jessica.cook@bullockbrownandmartin.example.com,Bullock Brown and Martin - Inbound,GTM Pipeline,Inbound,Proposal,15550,,Google Ads,MSP,61.6,Priya Raman,,ACME-D00511
+nicholas.peck@chaveztorresandruiz.example.com,Chavez Torres and Ruiz - Referral,GTM Pipeline,Referral,Contacted,22900,,Referral,MSP,56.6,Priya Raman,,ACME-D00523
+carla.king@hillevans.example.com,Hill-Evans - Inbound,GTM Pipeline,Inbound,Qualified,28650,,Google Ads,MSP,58.4,Dana Whitfield,,ACME-D00528
+erin.duke@callahanbrownandwarren.example.com,Callahan Brown and Warren - Inbound,GTM Pipeline,Inbound,Qualified,14050,,Google Ads,MSP,56.4,Sofia Alvarez,,ACME-D00532
+nicholas.richardson@rileysawyerandcharles.example.com,Riley Sawyer and Charles - Inbound,GTM Pipeline,Inbound,Lost,25050,2026-09-20,Call Tracking,MSP,54.4,Dana Whitfield,,ACME-D00536
+james.tran@roachandsons.example.com,Roach and Sons - Outbound,GTM Pipeline,Outbound,Lost,18550,2026-09-29,Outbound,MSP,60.0,Sofia Alvarez,,ACME-D00537
+michael.kim@curryyoung.example.com,Curry-Young - Referral,GTM Pipeline,Referral,Lost,11500,2026-09-21,Referral,MSP,60.9,Grace Kim,,ACME-D00540
+don.parker@russellbrown.example.com,Russell-Brown - Inbound,GTM Pipeline,Inbound,Contacted,7650,,Call Tracking,MSP,63.3,Owen Brooks,,ACME-D00543
+joseph.ford@jimenezplc.example.com,Jimenez PLC - Inbound,GTM Pipeline,Inbound,Lost,14350,2026-09-16,Google Ads,MSP,57.8,Grace Kim,,ACME-D00544
+heather.taylor@taylorllc.example.com,Taylor LLC - Referral,GTM Pipeline,Referral,Lost,12800,2026-09-29,Referral,MSP,71.1,Jordan Ellis,,ACME-D00562
+emily.stokes@mooresimpson.example.com,Moore-Simpson - Inbound,GTM Pipeline,Inbound,Lost,12900,2026-09-23,Google Ads,MSP,61.9,Dana Whitfield,,ACME-D00566
+william.hays@jonesltd.example.com,Jones Ltd - Referral,GTM Pipeline,Referral,Lost,6700,2026-09-23,Referral,MSP,64.4,Marcus Lee,,ACME-D00569
+jason.adams@jacksongroup.example.com,Jackson Group - Inbound,GTM Pipeline,Inbound,Contacted,21150,,Google Ads,MSP,60.9,Marcus Lee,,ACME-D00577
+alison.garcia@blakeboothandsilva.example.com,Blake Booth and Silva - Referral,GTM Pipeline,Referral,New,9800,,Referral,MSP,49.9,Marcus Lee,,ACME-D00585
+jennifer.moore@hunterpowell.example.com,Hunter-Powell - Inbound,GTM Pipeline,Inbound,Proposal,7850,,Google Ads,MSP,62.2,Dana Whitfield,,ACME-D00589
+tina.thompson@pittmaninc.example.com,Pittman Inc - Outbound,GTM Pipeline,Outbound,Contacted,16700,,Outbound,MSP,55.1,Acme Round Robin,,ACME-D00603
+hunter.richardson@rodriguezplc.example.com,Rodriguez PLC - Outbound,GTM Pipeline,Outbound,New,22800,,Outbound,MSP,56.6,Sofia Alvarez,,ACME-D00604
+trevor.hernandez@carterclark.example.com,Carter-Clark - Referral,GTM Pipeline,Referral,New,13850,,Referral,MSP,68.2,Dana Whitfield,,ACME-D00608

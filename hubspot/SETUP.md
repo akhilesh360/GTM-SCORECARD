@@ -55,7 +55,11 @@ Contacts get 10 custom properties and deals get 8. If your portal reports a cust
 
 ## 2. Import the data
 
-Files are in `hubspot/import/`, one set per company. Import in this order (Contacts → Import →
+**Free CRM caps contacts at 1,000.** The full files hold 4,785 contacts, so on free import the capped set in
+`hubspot/import_sample/` instead: 450 contacts per company (900 total), every won deal kept, and every deal and
+activity linked to a contact in the sample. Rebuild it with `python -m gtm.hubspot export --sample 450`.
+
+Files are in `hubspot/import/` (full) and `hubspot/import_sample/` (free tier), one set per company. Import in this order (Contacts → Import →
 *Start an import* → *File from computer*):
 
 | Order | File | Import type | Notes |

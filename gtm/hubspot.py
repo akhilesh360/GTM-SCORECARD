@@ -103,9 +103,20 @@ def lifecycle(row):
     return "lead"
 
 
-def export():
+def sample_leads(leads, deals, n, seed=42):
+    """Up to n leads for a capped CRM (HubSpot free = 1,000 contacts): every lead with a Won deal,
+    then a seeded random mix of the rest, so the sample keeps wins, open/lost deals and plain leads."""
+    won = set(deals.loc[deals.stage == "Won", "lead_id"])
+    keep = leads[leads.lead_id.isin(won)].head(n)
+    rest = leads[~leads.lead_id.isin(won)]
+    fill = rest.sample(n=min(len(rest), n - len(keep)), random_state=seed) if n > len(keep) else rest.iloc[:0]
+    return pd.concat([keep, fill]).sort_values("lead_id")
+
+
+def export(sample=None):
     companies, standard = load_companies(), load_standard()
-    (HS_DIR / "import").mkdir(parents=True, exist_ok=True)
+    out_dir = HS_DIR / ("import_sample" if sample else "import")
+    out_dir.mkdir(parents=True, exist_ok=True)
     props = property_specs(companies, standard)
     pd.DataFrame([{"object": ", ".join(p["objects"]), "label": p["label"], "internal_name": p["name"],
                    "type": p["type"], "field_type": p["fieldType"],
@@ -118,6 +129,9 @@ def export():
     for c in companies:
         leads = pd.read_csv(DATA_DIR / c["slug"] / "leads.csv", dtype=str)
         deals = pd.read_csv(DATA_DIR / c["slug"] / "deals.csv", dtype={"deal_id": str})
+        if sample:
+            leads = sample_leads(leads, deals, sample).reset_index(drop=True)
+            deals = deals[deals.lead_id.isin(leads.lead_id)].reset_index(drop=True)
         merged = leads.merge(deals[["lead_id", "deal_id", "stage", "stage_reached"]], on="lead_id", how="left")
         names = leads.contact_name.str.split(" ", n=1, expand=True)
         contacts = pd.DataFrame({
@@ -128,7 +142,7 @@ def export():
             "Lead Created Date": leads.created_date.str[:10],
             "Lifecycle Stage": merged.apply(lifecycle, axis=1), "Record ID (source)": leads.lead_id,
         })
-        contacts.to_csv(HS_DIR / "import" / f"{c['slug']}_contacts.csv", index=False)
+        contacts.to_csv(out_dir / f"{c['slug']}_contacts.csv", index=False)
 
         d = deals.merge(leads[["lead_id", "email"]], on="lead_id", how="left")
         service = d.pipeline.str.split(" - ").str[-1].where(d.pipeline.str.split(" - ").str[-1].isin(
@@ -140,7 +154,7 @@ def export():
             "Lead Source": d.lead_source, "Company Type": c["company_type"],
             "Gross Margin": (d.gross_margin * 100).round(1), "Assigned Rep": d.owner, "Service Type": service,
             "Deal ID (source)": d.deal_id,
-        }).to_csv(HS_DIR / "import" / f"{c['slug']}_deals_with_contacts.csv", index=False)
+        }).to_csv(out_dir / f"{c['slug']}_deals_with_contacts.csv", index=False)
 
         # activities -> HubSpot Calls, Meetings and Notes imports, associated to contacts by email
         acts = pd.read_csv(DATA_DIR / c["slug"] / "activities.csv").merge(leads[["lead_id", "email"]], on="lead_id")
@@ -149,17 +163,19 @@ def export():
         calls_ = acts[acts.type == "call"]
         pd.DataFrame({"Email": calls_.email, "Activity date": calls_.date, "Call outcome": calls_.outcome.map(call_out),
                       "Call title": "Sales call", "Activity ID (source)": calls_.activity_id}) \
-            .to_csv(HS_DIR / "import" / f"{c['slug']}_activities_calls.csv", index=False)
+            .to_csv(out_dir / f"{c['slug']}_activities_calls.csv", index=False)
         meets = acts[acts.type == "meeting"]
         pd.DataFrame({"Email": meets.email, "Meeting start time": meets.date, "Meeting outcome": meets.outcome.map(meet_out),
                       "Meeting name": "Discovery meeting", "Activity ID (source)": meets.activity_id}) \
-            .to_csv(HS_DIR / "import" / f"{c['slug']}_activities_meetings.csv", index=False)
+            .to_csv(out_dir / f"{c['slug']}_activities_meetings.csv", index=False)
         emails = acts[acts.type == "email"]
         pd.DataFrame({"Email": emails.email, "Activity date": emails.date,
                       "Note body": "Sales email (" + emails.owner + "): " + emails.outcome,
                       "Activity ID (source)": emails.activity_id}) \
-            .to_csv(HS_DIR / "import" / f"{c['slug']}_activities_emails_as_notes.csv", index=False)
-    print(f"Wrote HubSpot specs and import files to {HS_DIR}")
+            .to_csv(out_dir / f"{c['slug']}_activities_emails_as_notes.csv", index=False)
+        if sample:
+            print(f"{c['name']}: {len(leads)} contacts, {len(deals)} deals ({(deals.stage == 'Won').sum()} won)")
+    print(f"Wrote HubSpot specs and import files to {out_dir}")
 
 
 def setup(apply=False):
@@ -208,5 +224,6 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("cmd", choices=["export", "setup", "check"])
     ap.add_argument("--apply", action="store_true")
+    ap.add_argument("--sample", type=int, help="export: cap contacts per company (HubSpot free allows 1,000 total)")
     a = ap.parse_args()
-    {"export": export, "setup": lambda: setup(a.apply), "check": check}[a.cmd]()
+    {"export": lambda: export(a.sample), "setup": lambda: setup(a.apply), "check": check}[a.cmd]()

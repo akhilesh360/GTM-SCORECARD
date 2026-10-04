@@ -1,0 +1,451 @@
+First Name,Last Name,Email,Company Name,Job Title,Lead Source,UTM Source,UTM Medium,UTM Campaign,Company Type,Territory,Fit Score,Lead Created Date,Lifecycle Stage,Record ID (source)
+Russell,Simpson,russell.simpson@weavercarlson.example.com,Weaver-Carlson,,Meta Ads,facebook,paid_social,hvac_q2_facility_mgr,HVAC,GA,88,2026-04-02,lead,SUMM-L00016
+Amber,Wood,amber.wood@andersonrivera.example.com,Anderson-Rivera,,Call Tracking,callrail,phone,gbp_listing,HVAC,FL,70,2026-04-03,lead,SUMM-L00024
+Mario,Stephens,mario.stephens@carpentermurray.example.com,Carpenter-Murray,Facilities Manager,Referral,,,,HVAC,TX,73,2026-04-03,lead,SUMM-L00030
+April,Robertson,april.robertson@ellisfordandweaver.example.com,Ellis Ford and Weaver,Maintenance Supervisor,Outbound,,,,HVAC,GA,63,2026-04-03,salesqualifiedlead,SUMM-L00031
+Harold,Lee,harold.lee@byrdltd.example.com,Byrd Ltd,Property Manager,Call Tracking,callrail,phone,local_services,HVAC,AZ,97,2026-04-04,salesqualifiedlead,SUMM-L00033
+Natalie,Sanchez,natalie.sanchez@morrisclarkeandandrade.example.com,Morris Clarke and Andrade,Operations Director,Call Tracking,callrail,phone,local_services,HVAC,NC,97,2026-04-06,customer,SUMM-L00044
+Roy,Johnson,roy.johnson@robinsoninc.example.com,Robinson Inc,Regional Facilities Lead,Google Ads,google,cpc,hvac_q2_search_emergency,HVAC,TX,37,2026-04-06,lead,SUMM-L00045
+Nicholas,Carroll,nicholas.carroll@garrettinc.example.com,Garrett Inc,,Outbound,,,,HVAC,AZ,63,2026-04-06,opportunity,SUMM-L00046
+Bryan,Johnson,bryan.johnson@santosdeananddecker.example.com,Santos Dean and Decker,Facilities Manager,Outbound,,,,HVAC,AZ,90,2026-04-06,salesqualifiedlead,SUMM-L00051
+Richard,Bradford,richard.bradford@jonesinc.example.com,Jones Inc,Regional Facilities Lead,Meta Ads,facebook,paid_social,,HVAC,NC,31,2026-04-07,salesqualifiedlead,SUMM-L00053
+Rebecca,Morris,rebecca.morris@sandovalmurphy.example.com,Sandoval-Murphy,Operations Director,Outbound,,,,HVAC,TX,63,2026-04-07,customer,SUMM-L00056
+Melissa,Hanson,melissa.hanson@porterporterandaguilar.example.com,Porter Porter and Aguilar,Property Manager,Call Tracking,callrail,phone,local_services,HVAC,TX,67,2026-04-08,lead,SUMM-L00059
+Sarah,Stevens,sarah.stevens@martinezdavisandjackson.example.com,Martinez Davis and Jackson,,Call Tracking,callrail,phone,local_services,HVAC,TX,70,2026-04-08,lead,SUMM-L00062
+Tyrone,Santos,tyrone.santos@rodgersnormanandhubbard.example.com,Rodgers Norman and Hubbard,Building Engineer,Call Tracking,callrail,phone,gbp_listing,HVAC,AZ,97,2026-04-08,customer,SUMM-L00065
+Curtis,Howell,curtis.howell@griffinreyes.example.com,Griffin-Reyes,Regional Facilities Lead,Outbound,,,,HVAC,GA,90,2026-04-08,lead,SUMM-L00069
+Michael,Cox,michael.cox@klinewrightandward.example.com,Kline Wright and Ward,Facilities Manager,Outbound,,,,HVAC,TX,90,2026-04-09,salesqualifiedlead,SUMM-L00071
+Michelle,Martinez,michelle.martinez@perryjackson.example.com,Perry-Jackson,Operations Director,Call Tracking,callrail,phone,gbp_listing,HVAC,TX,97,2026-04-09,salesqualifiedlead,SUMM-L00073
+Sean,Brown,sean.brown@jonesgroup.example.com,Jones Group,Store Manager,Referral,,,,HVAC,CA,54,2026-04-09,lead,SUMM-L00074
+Jeffrey,Ramirez,jeffrey.ramirez@johnsonjohnson.example.com,Johnson-Johnson,,Google Ads,google,cpc,hvac_q2_search_emergency,HVAC,TX,67,2026-04-09,lead,SUMM-L00077
+Kelly,Booker,kelly.booker@priceplc.example.com,Price PLC,Maintenance Supervisor,Call Tracking,callrail,phone,local_services,HVAC,GA,61,2026-04-10,lead,SUMM-L00080
+Nicole,Nguyen,nicole.nguyen@arellanowilliamsandwest.example.com,Arellano Williams and West,Facilities Manager,Call Tracking,callrail,phone,gbp_listing,HVAC,NC,,2026-04-10,salesqualifiedlead,SUMM-L00082
+Christopher,Fowler,christopher.fowler@reyesaguilarandlynch.example.com,Reyes Aguilar and Lynch,Facilities Manager,Google Ads,google,cpc,hvac_q2_search_emergency,HVAC,FL,67,2026-04-13,lead,SUMM-L00103
+Sharon,Sharp,sharon.sharp@williamsinc.example.com,Williams Inc,Maintenance Supervisor,Google Ads,google,cpc,hvac_q2_search_emergency,HVAC,TX,94,2026-04-13,lead,SUMM-L00104
+Robert,Johnson,robert.johnson@warrenrodriguez.example.com,Warren-Rodriguez,,Outbound,,,,HVAC,Unassigned,63,2026-04-13,opportunity,SUMM-L00105
+Charles,Montgomery,charles.montgomery@freemanballard.example.com,Freeman-Ballard,Facilities Manager,Outbound,,,,HVAC,NC,67,2026-04-13,customer,SUMM-L00110
+Mark,Quinn,mark.quinn@taylorcole.example.com,Taylor-Cole,Operations Director,Outbound,,,,HVAC,TX,90,2026-04-14,salesqualifiedlead,SUMM-L00112
+Christina,Lopez,christina.lopez@leelaraandalvarez.example.com,Lee Lara and Alvarez,Facilities Manager,Outbound,,,,HVAC,TX,90,2026-04-14,lead,SUMM-L00114
+Kaitlyn,Daniels,kaitlyn.daniels@steelemiller.example.com,Steele-Miller,Store Manager,Outbound,,,,HVAC,TX,37,2026-04-14,customer,SUMM-L00118
+Amy,Sandoval,amy.sandoval@foxandsons.example.com,Fox and Sons,Facilities Manager,Outbound,,,,HVAC,TX,33,2026-04-15,lead,SUMM-L00121
+Carol,Harrison,carol.harrison@lambertthomasandchung.example.com,Lambert Thomas and Chung,Maintenance Supervisor,Referral,,,,HVAC,FL,,2026-04-15,customer,SUMM-L00122
+Kevin,Gibson,kevin.gibson@schwartzhall.example.com,Schwartz-Hall,Property Manager,Outbound,,,,HVAC,NC,60,2026-04-16,lead,SUMM-L00130
+Nicholas,Jackson,nicholas.jackson@figueroaltd.example.com,Figueroa Ltd,Building Engineer,Referral,,,,HVAC,TX,70,2026-04-16,salesqualifiedlead,SUMM-L00131
+Jonathan,Lambert,jonathan.lambert@martinpalmerandsolomon.example.com,Martin Palmer and Solomon,Building Engineer,Call Tracking,callrail,phone,gbp_listing,HVAC,TX,97,2026-04-16,lead,SUMM-L00135
+Tina,Clarke,tina.clarke@smithmoralesandgraves.example.com,Smith Morales and Graves,,Referral,,,,HVAC,AZ,73,2026-04-17,customer,SUMM-L00140
+Sarah,Madden,sarah.madden@parkerjimenez.example.com,Parker-Jimenez,,Outbound,,,,HVAC,Unassigned,90,2026-04-18,lead,SUMM-L00143
+William,Scott,william.scott@williamsrodriguez.example.com,Williams-Rodriguez,Facilities Manager,Outbound,,,,HVAC,FL,90,2026-04-19,customer,SUMM-L00148
+Alexandria,Berry,alexandria.berry@clarkrosalesandschmitt.example.com,Clark Rosales and Schmitt,Property Manager,Meta Ads,facebook,paid_social,hvac_q2_facility_mgr,HVAC,NC,61,2026-04-19,lead,SUMM-L00150
+Paul,Moss,paul.moss@hobbschandler.example.com,Hobbs-Chandler,Property Manager,Call Tracking,callrail,phone,gbp_listing,HVAC,TX,70,2026-04-19,customer,SUMM-L00153
+Joel,Burns,joel.burns@buchananmoody.example.com,Buchanan-Moody,Maintenance Supervisor,Call Tracking,callrail,phone,local_services,HVAC,NC,70,2026-04-20,lead,SUMM-L00158
+Nicole,Munoz,nicole.munoz@shepardgonzalezandclemen.example.com,Shepard Gonzalez and Clements,Regional Facilities Lead,Outbound,,,,HVAC,GA,90,2026-04-21,lead,SUMM-L00172
+Denise,Harris,denise.harris@roblesblackburnandford.example.com,Robles Blackburn and Ford,Building Engineer,Outbound,,,,HVAC,GA,90,2026-04-21,lead,SUMM-L00173
+Rachel,Pitts,rachel.pitts@belljennings.example.com,Bell-Jennings,Regional Facilities Lead,Meta Ads,facebook,paid_social,hvac_q2_facility_mgr,HVAC,FL,88,2026-04-22,lead,SUMM-L00178
+Renee,Munoz,renee.munoz@jonesandsons.example.com,Jones and Sons,Operations Director,Outbound,,,,HVAC,GA,33,2026-04-23,lead,SUMM-L00180
+Alicia,Moore,alicia.moore@clarkdaniels.example.com,Clark-Daniels,Maintenance Supervisor,Call Tracking,callrail,phone,gbp_listing,HVAC,FL,89,2026-04-23,lead,SUMM-L00183
+Larry,Smith,larry.smith@gonzalezleonardandrogers.example.com,Gonzalez Leonard and Rogers,,Outbound,,,,HVAC,AZ,90,2026-04-23,opportunity,SUMM-L00185
+Alexis,Wagner,alexis.wagner@greenhiggins.example.com,Green-Higgins,Facilities Manager,Outbound,,,,HVAC,FL,,2026-04-24,lead,SUMM-L00194
+Anthony,Carter,anthony.carter@browningfloresandwebb.example.com,Browning Flores and Webb,Operations Director,Outbound,,,,HVAC,AZ,63,2026-04-24,opportunity,SUMM-L00195
+Brenda,Peterson,brenda.peterson@hudsonlee.example.com,Hudson-Lee,Operations Director,Referral,,,,HVAC,TX,,2026-04-25,customer,SUMM-L00198
+Scott,Wagner,scott.wagner@rodgersllc.example.com,Rodgers LLC,Building Engineer,Call Tracking,callrail,phone,gbp_listing,HVAC,TX,40,2026-04-25,salesqualifiedlead,SUMM-L00199
+Leah,West,leah.west@robersoninc.example.com,Roberson Inc,Property Manager,Outbound,,,,HVAC,TX,63,2026-04-25,lead,SUMM-L00203
+Mary,Wyatt,mary.wyatt@tuckervang.example.com,Tucker-Vang,Store Manager,Referral,,,,HVAC,FL,73,2026-04-26,salesqualifiedlead,SUMM-L00209
+Maria,Young,maria.young@gibsonjohnson.example.com,Gibson-Johnson,Maintenance Supervisor,Google Ads,google,cpc,hvac_q2_search_emergency,HVAC,GA,67,2026-04-27,lead,SUMM-L00210
+Jerry,Hale,jerry.hale@burkecastillo.example.com,Burke-Castillo,Regional Facilities Lead,Google Ads,google,cpc,hvac_q2_search_emergency,HVAC,NC,94,2026-04-27,lead,SUMM-L00214
+Reginald,Robinson,reginald.robinson@olsonandsons.example.com,Olson and Sons,Maintenance Supervisor,Google Ads,google,cpc,hvac_q2_search_emergency,HVAC,Unassigned,94,2026-04-27,customer,SUMM-L00220
+Rebecca,Flores,rebecca.flores@warrenreynolds.example.com,Warren-Reynolds,Regional Facilities Lead,Google Ads,google,cpc,hvac_q2_search_emergency,HVAC,NC,67,2026-04-28,customer,SUMM-L00222
+Kelly,Daniel,kelly.daniel@millerwalkerandrose.example.com,Miller Walker and Rose,Maintenance Supervisor,Google Ads,google,cpc,hvac_q2_search_emergency,HVAC,NC,67,2026-04-28,lead,SUMM-L00223
+Darrell,Black,darrell.black@larawarren.example.com,Lara-Warren,Regional Facilities Lead,Call Tracking,callrail,phone,gbp_listing,HVAC,AZ,70,2026-04-28,salesqualifiedlead,SUMM-L00225
+Katherine,Palmer,katherine.palmer@zimmermanllc.example.com,Zimmerman LLC,Facilities Manager,Referral,,,,HVAC,GA,100,2026-04-29,salesqualifiedlead,SUMM-L00233
+Ryan,Wise,ryan.wise@mooreinc.example.com,Moore Inc,Facilities Manager,Call Tracking,callrail,phone,gbp_listing,HVAC,TX,97,2026-04-30,salesqualifiedlead,SUMM-L00239
+Jennifer,Jones,jennifer.jones@hubbardsullivan.example.com,Hubbard-Sullivan,Facilities Manager,Referral,,,,HVAC,AZ,,2026-04-30,salesqualifiedlead,SUMM-L00244
+Judy,Miller,judy.miller@robertsoninc.example.com,Robertson Inc,Facilities Manager,Outbound,,,,HVAC,Unassigned,13,2026-05-01,lead,SUMM-L00250
+Michelle,Gonzalez,michelle.gonzalez@gibsonherrera.example.com,Gibson-Herrera,Owner,Outbound,,,,HVAC,GA,90,2026-05-02,salesqualifiedlead,SUMM-L00252
+Monica,Collins,monica.collins@rodriguezllc.example.com,Rodriguez LLC,Property Manager,Outbound,,,,HVAC,TX,63,2026-05-02,opportunity,SUMM-L00253
+Michelle,Bray,michelle.bray@leonardrossandcase.example.com,Leonard Ross and Case,,Call Tracking,callrail,phone,local_services,HVAC,NC,70,2026-05-02,salesqualifiedlead,SUMM-L00257
+Michael,Martinez,michael.martinez@jonesfarrellandgrant.example.com,Jones Farrell and Grant,Owner,Outbound,,,,HVAC,Unassigned,52,2026-05-03,lead,SUMM-L00260
+Wanda,Mclaughlin,wanda.mclaughlin@robinsonmartinandrichard.example.com,Robinson Martin and Richards,Operations Director,Google Ads,google,cpc,hvac_q2_search_emergency,HVAC,NC,65,2026-05-04,lead,SUMM-L00263
+Larry,Jones,larry.jones@simscole.example.com,Sims-Cole,,Referral,,,,HVAC,FL,73,2026-05-04,salesqualifiedlead,SUMM-L00264
+Rickey,Rogers,rickey.rogers@cantrellandsons.example.com,Cantrell and Sons,Regional Facilities Lead,Outbound,,,,HVAC,NC,60,2026-05-05,lead,SUMM-L00272
+Richard,Douglas,richard.douglas@cookeltd.example.com,Cooke Ltd,Building Engineer,Call Tracking,callrail,phone,gbp_listing,HVAC,TX,47,2026-05-05,lead,SUMM-L00274
+Michael,Brown,michael.brown@orrinc.example.com,Orr Inc,Store Manager,Outbound,,,,HVAC,Unassigned,90,2026-05-05,lead,SUMM-L00278
+Thomas,Benson,thomas.benson@pearsoninc.example.com,Pearson Inc,Maintenance Supervisor,Outbound,,,,HVAC,Unassigned,76,2026-05-05,lead,SUMM-L00279
+Jacqueline,Bright,jacqueline.bright@poolesantos.example.com,Poole-Santos,Property Manager,Outbound,,,,HVAC,AZ,90,2026-05-06,customer,SUMM-L00282
+Allison,Kelley,allison.kelley@houstonbrown.example.com,Houston-Brown,Operations Director,Outbound,,,,HVAC,AZ,90,2026-05-06,lead,SUMM-L00284
+Nicholas,Weaver,nicholas.weaver@mcdonaldcopelandandmason.example.com,Mcdonald Copeland and Mason,Owner,Outbound,,,,HVAC,TX,60,2026-05-06,lead,SUMM-L00285
+Anthony,Rodriguez,anthony.rodriguez@phillipsplc.example.com,Phillips PLC,Owner,Outbound,,,,HVAC,FL,90,2026-05-06,salesqualifiedlead,SUMM-L00288
+Stephanie,Hubbard,stephanie.hubbard@cookhernandez.example.com,Cook-Hernandez,Operations Director,Outbound,,,,HVAC,Unassigned,90,2026-05-07,salesqualifiedlead,SUMM-L00289
+Diane,Cochran,diane.cochran@pricewood.example.com,Price-Wood,Building Engineer,Call Tracking,callrail,phone,local_services,HVAC,NC,57,2026-05-07,customer,SUMM-L00297
+Linda,Irwin,linda.irwin@norrisgroup.example.com,Norris Group,Property Manager,Outbound,,,,HVAC,CA,60,2026-05-08,lead,SUMM-L00304
+Melanie,Evans,melanie.evans@nelsonbennett.example.com,Nelson-Bennett,Facilities Manager,Call Tracking,callrail,phone,local_services,HVAC,NC,90,2026-05-09,customer,SUMM-L00307
+Maria,Yates,maria.yates@marshyoung.example.com,Marsh-Young,,Call Tracking,callrail,phone,gbp_listing,HVAC,NC,97,2026-05-09,customer,SUMM-L00313
+Jasmine,Dean,jasmine.dean@poolebradleyandfisher.example.com,Poole Bradley and Fisher,Property Manager,Outbound,,,,HVAC,GA,90,2026-05-09,opportunity,SUMM-L00314
+Angel,Peterson,angel.peterson@salazarbrown.example.com,Salazar-Brown,Facilities Manager,Outbound,,,,HVAC,FL,63,2026-05-09,salesqualifiedlead,SUMM-L00315
+Albert,Shaw,albert.shaw@belljordan.example.com,Bell-Jordan,Owner,Outbound,,,,HVAC,GA,90,2026-05-09,lead,SUMM-L00317
+Todd,Perry,todd.perry@freygroup.example.com,Frey Group,,Google Ads,google,cpc,hvac_q2_search_emergency,HVAC,AZ,94,2026-05-10,salesqualifiedlead,SUMM-L00320
+David,Davis,david.davis@jonesandsons.example.com,Jones and Sons,Maintenance Supervisor,Outbound,,,,HVAC,GA,33,2026-05-11,lead,SUMM-L00323
+Catherine,Nelson,catherine.nelson@kennedysmith.example.com,Kennedy-Smith,Building Engineer,Outbound,,,,HVAC,CA,63,2026-05-11,customer,SUMM-L00332
+Aaron,Ortiz,aaron.ortiz@boydduke.example.com,Boyd-Duke,Regional Facilities Lead,Call Tracking,callrail,phone,gbp_listing,HVAC,TX,97,2026-05-11,lead,SUMM-L00334
+Kevin,Romero,kevin.romero@parsonsinc.example.com,Parsons Inc,Regional Facilities Lead,Outbound,,,,HVAC,NC,88,2026-05-12,customer,SUMM-L00338
+William,Knight,william.knight@danielacevedo.example.com,Daniel-Acevedo,Building Engineer,Meta Ads,facebook,paid_social,,HVAC,NC,78,2026-05-12,lead,SUMM-L00341
+Anthony,Jackson,anthony.jackson@basshardyandthompson.example.com,Bass Hardy and Thompson,Facilities Manager,Outbound,,,,HVAC,AZ,90,2026-05-12,lead,SUMM-L00343
+Paige,Scott,paige.scott@hicksjenkinsandross.example.com,Hicks Jenkins and Ross,Store Manager,Google Ads,google,cpc,hvac_q2_search_emergency,HVAC,TX,94,2026-05-13,salesqualifiedlead,SUMM-L00350
+Michael,Molina,michael.molina@leonardllc.example.com,Leonard LLC,Store Manager,Outbound,,,,HVAC,GA,,2026-05-13,lead,SUMM-L00351
+Michele,Donovan,michele.donovan@cherryandsons.example.com,Cherry and Sons,Operations Director,Outbound,,,,HVAC,NC,60,2026-05-14,lead,SUMM-L00358
+Jeffrey,Lloyd,jeffrey.lloyd@woodwardinc.example.com,Woodward Inc,,Call Tracking,callrail,phone,local_services,HVAC,GA,97,2026-05-15,lead,SUMM-L00361
+Kathleen,Glass,kathleen.glass@walkerjonesandparker.example.com,Walker Jones and Parker,Operations Director,Call Tracking,callrail,phone,local_services,HVAC,GA,97,2026-05-15,lead,SUMM-L00363
+Logan,Kelly,logan.kelly@woodkennedyandhanson.example.com,Wood Kennedy and Hanson,Owner,Referral,,,,HVAC,Unassigned,73,2026-05-15,opportunity,SUMM-L00369
+Gina,Taylor,gina.taylor@harringtongroup.example.com,Harrington Group,Maintenance Supervisor,Google Ads,google,cpc,hvac_q2_search_emergency,HVAC,Unassigned,74,2026-05-16,salesqualifiedlead,SUMM-L00370
+Eric,Waller,eric.waller@pachecoplc.example.com,Pacheco PLC,Property Manager,Outbound,,,,HVAC,Unassigned,52,2026-05-16,salesqualifiedlead,SUMM-L00371
+Andrea,Martin,andrea.martin@reedwhite.example.com,Reed-White,Facilities Manager,Call Tracking,callrail,phone,gbp_listing,HVAC,GA,70,2026-05-16,salesqualifiedlead,SUMM-L00372
+Joseph,Andrews,joseph.andrews@graysmithandcrawford.example.com,Gray Smith and Crawford,Facilities Manager,Outbound,,,,HVAC,AZ,56,2026-05-16,customer,SUMM-L00374
+Hunter,Freeman,hunter.freeman@henrysims.example.com,Henry-Sims,Owner,Google Ads,google,cpc,,HVAC,TX,94,2026-05-17,lead,SUMM-L00385
+Shelly,Reed,shelly.reed@ortizbryantandhunter.example.com,Ortiz Bryant and Hunter,Property Manager,Referral,,,,HVAC,TX,98,2026-05-17,salesqualifiedlead,SUMM-L00386
+Brian,Parrish,brian.parrish@curryltd.example.com,Curry Ltd,Operations Director,Call Tracking,callrail,phone,local_services,HVAC,Unassigned,70,2026-05-18,salesqualifiedlead,SUMM-L00387
+Robin,Nicholson,robin.nicholson@mendozarogersandgarrett.example.com,Mendoza Rogers and Garrett,Building Engineer,Meta Ads,facebook,paid_social,hvac_q2_facility_mgr,HVAC,AZ,88,2026-05-18,lead,SUMM-L00391
+Tina,Rodriguez,tina.rodriguez@franklinrivas.example.com,Franklin-Rivas,Maintenance Supervisor,Outbound,,,,HVAC,FL,90,2026-05-18,lead,SUMM-L00394
+Kyle,Potts,kyle.potts@millerperez.example.com,Miller-Perez,Maintenance Supervisor,Call Tracking,callrail,phone,gbp_listing,HVAC,AZ,70,2026-05-18,customer,SUMM-L00398
+Andrea,Ho,andrea.ho@williamsweber.example.com,Williams-Weber,Maintenance Supervisor,Outbound,,,,HVAC,AZ,90,2026-05-18,salesqualifiedlead,SUMM-L00402
+Stephanie,Lee,stephanie.lee@reynoldsinc.example.com,Reynolds Inc,Operations Director,Google Ads,google,cpc,hvac_q2_search_emergency,HVAC,TX,37,2026-05-18,lead,SUMM-L00403
+Deborah,Patel,deborah.patel@owensburnsanddavis.example.com,Owens Burns and Davis,,Referral,,,,HVAC,GA,73,2026-05-18,salesqualifiedlead,SUMM-L00404
+Justin,Cooke,justin.cooke@kramerltd.example.com,Kramer Ltd,Building Engineer,Outbound,,,,HVAC,TX,59,2026-05-20,salesqualifiedlead,SUMM-L00415
+Erin,Miller,erin.miller@moralesmitchell.example.com,Morales-Mitchell,Building Engineer,Referral,,,,HVAC,CA,73,2026-05-21,lead,SUMM-L00419
+Gilbert,Doyle,gilbert.doyle@campbellinc.example.com,Campbell Inc,Regional Facilities Lead,Outbound,,,,HVAC,TX,77,2026-05-21,lead,SUMM-L00426
+Robert,Welch,robert.welch@adamsllc.example.com,Adams LLC,Operations Director,Outbound,,,,HVAC,TX,63,2026-05-21,lead,SUMM-L00429
+Michael,Gonzalez,michael.gonzalez@everettbishop.example.com,Everett-Bishop,Operations Director,Outbound,,,,HVAC,TX,90,2026-05-21,customer,SUMM-L00430
+John,Trujillo,john.trujillo@lopezcarter.example.com,Lopez-Carter,Operations Director,Outbound,,,,HVAC,TX,90,2026-05-22,salesqualifiedlead,SUMM-L00433
+Tonya,Swanson,tonya.swanson@mcmillaninc.example.com,Mcmillan Inc,,Google Ads,google,cpc,hvac_q2_search_emergency,HVAC,FL,94,2026-05-22,customer,SUMM-L00435
+Timothy,Parks,timothy.parks@pearsondaniels.example.com,Pearson-Daniels,,Call Tracking,callrail,phone,gbp_listing,HVAC,FL,70,2026-05-22,salesqualifiedlead,SUMM-L00436
+Tommy,Matthews,tommy.matthews@garciamckayandchristian.example.com,Garcia Mckay and Christian,Building Engineer,Referral,,,,HVAC,Unassigned,72,2026-05-22,salesqualifiedlead,SUMM-L00438
+Tyler,Brown,tyler.brown@mcdowelljones.example.com,Mcdowell-Jones,Maintenance Supervisor,Google Ads,google,cpc,hvac_q2_search_emergency,HVAC,GA,67,2026-05-22,lead,SUMM-L00439
+Amanda,Cole,amanda.cole@bennettbeardanddavenport.example.com,Bennett Beard and Davenport,Building Engineer,Outbound,,,,HVAC,GA,60,2026-05-22,lead,SUMM-L00443
+Matthew,Johnson,matthew.johnson@howelittle.example.com,Howe-Little,Owner,Call Tracking,callrail,phone,gbp_listing,HVAC,TX,,2026-05-22,salesqualifiedlead,SUMM-L00445
+Tracey,Roberts,tracey.roberts@mcdonaldplc.example.com,Mcdonald PLC,Owner,Referral,,,,HVAC,GA,73,2026-05-23,lead,SUMM-L00449
+Nicole,Nelson,nicole.nelson@reynoldshernandez.example.com,Reynolds-Hernandez,,Referral,,,,HVAC,GA,100,2026-05-23,customer,SUMM-L00450
+Jennifer,Acosta,jennifer.acosta@hernandezarnoldandnelson.example.com,Hernandez Arnold and Nelson,Store Manager,Call Tracking,callrail,phone,gbp_listing,HVAC,Unassigned,70,2026-05-24,salesqualifiedlead,SUMM-L00453
+Sherry,Holland,sherry.holland@lawrenceaguirre.example.com,Lawrence-Aguirre,Operations Director,Outbound,,,,HVAC,GA,80,2026-05-24,lead,SUMM-L00457
+Sara,Davis,sara.davis@bradleyplc.example.com,Bradley PLC,Regional Facilities Lead,Call Tracking,callrail,phone,gbp_listing,HVAC,GA,97,2026-05-25,lead,SUMM-L00462
+David,Mcdowell,david.mcdowell@butlervasquezandwilson.example.com,Butler Vasquez and Wilson,Facilities Manager,Outbound,,,,HVAC,TX,63,2026-05-25,lead,SUMM-L00463
+Jeffrey,Russell,jeffrey.russell@archerjordanandestes.example.com,Archer Jordan and Estes,Maintenance Supervisor,Google Ads,google,cpc,hvac_q2_search_emergency,HVAC,AZ,94,2026-05-26,lead,SUMM-L00474
+Brittany,Owens,brittany.owens@parkergomezandsanchez.example.com,Parker Gomez and Sanchez,Building Engineer,Call Tracking,callrail,phone,local_services,HVAC,TX,97,2026-05-26,salesqualifiedlead,SUMM-L00477
+Bob,Brown,bob.brown@adamssalinas.example.com,Adams-Salinas,Owner,Call Tracking,callrail,phone,local_services,HVAC,AZ,97,2026-05-26,customer,SUMM-L00478
+Julie,Mcbride,julie.mcbride@smithmendozaandrodriguez.example.com,Smith Mendoza and Rodriguez,Maintenance Supervisor,Outbound,,,,HVAC,GA,90,2026-05-28,lead,SUMM-L00487
+Matthew,Malone,matthew.malone@kingbaldwinandmurphy.example.com,King Baldwin and Murphy,Facilities Manager,Outbound,,,,HVAC,AZ,63,2026-05-28,lead,SUMM-L00489
+Tyrone,Glover,tyrone.glover@gilbertoneillandcarney.example.com,Gilbert Oneill and Carney,Building Engineer,Google Ads,google,cpc,hvac_q2_search_emergency,HVAC,CA,94,2026-05-28,salesqualifiedlead,SUMM-L00496
+Peter,Short,peter.short@hardinghernandez.example.com,Harding-Hernandez,Operations Director,Outbound,,,,HVAC,CA,63,2026-05-28,customer,SUMM-L00497
+Stephanie,Higgins,stephanie.higgins@norriscox.example.com,Norris-Cox,Property Manager,Referral,,,,HVAC,AZ,,2026-05-29,customer,SUMM-L00501
+Daniel,Webb,daniel.webb@lopezsanfordandlittle.example.com,Lopez Sanford and Little,Operations Director,Call Tracking,callrail,phone,local_services,HVAC,FL,70,2026-05-29,lead,SUMM-L00505
+Emily,Gibson,emily.gibson@foxrogers.example.com,Fox-Rogers,Store Manager,Outbound,,,,HVAC,CA,54,2026-05-30,lead,SUMM-L00506
+Traci,Dean,traci.dean@bishopllc.example.com,Bishop LLC,Facilities Manager,Outbound,,,,HVAC,AZ,42,2026-05-30,opportunity,SUMM-L00508
+James,Barnett,james.barnett@mcdowellluna.example.com,Mcdowell-Luna,Regional Facilities Lead,Call Tracking,callrail,phone,gbp_listing,HVAC,FL,96,2026-05-30,lead,SUMM-L00509
+Allison,Hayes,allison.hayes@robertsoninc.example.com,Robertson Inc,Building Engineer,Outbound,,,,HVAC,Unassigned,13,2026-05-30,lead,SUMM-L00510
+Jessica,Nichols,jessica.nichols@bondlynchandstephens.example.com,Bond Lynch and Stephens,Maintenance Supervisor,Outbound,,,,HVAC,TX,90,2026-05-30,lead,SUMM-L00512
+Jennifer,Wilson,jennifer.wilson@thompsonwilliamsonandric.example.com,Thompson Williamson and Richmond,Maintenance Supervisor,Call Tracking,callrail,phone,local_services,HVAC,AZ,70,2026-05-30,salesqualifiedlead,SUMM-L00513
+Justin,Davis,justin.davis@parkllc.example.com,Park LLC,Maintenance Supervisor,Outbound,,,,HVAC,TX,63,2026-05-31,customer,SUMM-L00516
+Mark,Thompson,mark.thompson@lucasllc.example.com,Lucas LLC,Facilities Manager,Outbound,,,,HVAC,CA,63,2026-05-31,lead,SUMM-L00521
+Scott,Best,scott.best@barnescampbell.example.com,Barnes-Campbell,Store Manager,Call Tracking,callrail,phone,local_services,HVAC,Unassigned,70,2026-05-31,lead,SUMM-L00523
+James,Lee,james.lee@millerperezandramirez.example.com,Miller Perez and Ramirez,Owner,Outbound,,,,HVAC,AZ,63,2026-06-01,salesqualifiedlead,SUMM-L00525
+Gary,Andrews,gary.andrews@wilsontaylor.example.com,Wilson-Taylor,Regional Facilities Lead,Google Ads,google,cpc,hvac_q2_search_emergency,HVAC,FL,37,2026-06-01,customer,SUMM-L00527
+Juan,Wagner,juan.wagner@ramosplc.example.com,Ramos PLC,Property Manager,Outbound,,,,HVAC,AZ,60,2026-06-02,lead,SUMM-L00535
+Angela,Moore,angela.moore@bishopgroup.example.com,Bishop Group,Operations Director,Call Tracking,callrail,phone,local_services,HVAC,GA,97,2026-06-02,customer,SUMM-L00539
+Christina,Little,christina.little@stevenssmith.example.com,Stevens-Smith,Maintenance Supervisor,Outbound,,,,HVAC,FL,63,2026-06-02,lead,SUMM-L00544
+Randall,Singleton,randall.singleton@berryinc.example.com,Berry Inc,Owner,Outbound,,,,HVAC,FL,90,2026-06-03,lead,SUMM-L00548
+Micheal,Smith,micheal.smith@johnsonsolomonandoconnel.example.com,Johnson Solomon and Oconnell,Property Manager,Call Tracking,callrail,phone,gbp_listing,HVAC,NC,96,2026-06-03,lead,SUMM-L00552
+Pamela,Curry,pamela.curry@martininc.example.com,Martin Inc,Property Manager,Call Tracking,callrail,phone,gbp_listing,HVAC,FL,70,2026-06-03,salesqualifiedlead,SUMM-L00557
+Aaron,Benitez,aaron.benitez@gonzalezpatelandperkins.example.com,Gonzalez Patel and Perkins,,Outbound,,,,HVAC,TX,63,2026-06-03,lead,SUMM-L00559
+Tyler,Davis,tyler.davis@adamsarmstrongandgreen.example.com,Adams Armstrong and Green,Maintenance Supervisor,Outbound,,,,HVAC,FL,90,2026-06-03,lead,SUMM-L00560
+Jennifer,Moore,jennifer.moore@ramosshort.example.com,Ramos-Short,,Call Tracking,callrail,phone,gbp_listing,HVAC,TX,54,2026-06-04,customer,SUMM-L00562
+Michael,Wood,michael.wood@crawfordnewman.example.com,Crawford-Newman,Regional Facilities Lead,Outbound,,,,HVAC,NC,47,2026-06-04,salesqualifiedlead,SUMM-L00563
+Jesse,Olson,jesse.olson@walshbrownandbaldwin.example.com,Walsh Brown and Baldwin,Building Engineer,Google Ads,google,cpc,,HVAC,AZ,67,2026-06-04,customer,SUMM-L00565
+Melissa,Hall,melissa.hall@stewartltd.example.com,Stewart Ltd,Maintenance Supervisor,Outbound,,,,HVAC,TX,90,2026-06-04,lead,SUMM-L00566
+John,Wong,john.wong@odonnellinc.example.com,Odonnell Inc,Facilities Manager,Call Tracking,callrail,phone,local_services,HVAC,CA,97,2026-06-04,salesqualifiedlead,SUMM-L00567
+Sherri,Mcbride,sherri.mcbride@gomezgroup.example.com,Gomez Group,Building Engineer,Google Ads,google,cpc,hvac_q2_search_emergency,HVAC,CA,67,2026-06-04,lead,SUMM-L00570
+Gabriella,Martinez,gabriella.martinez@howellsherman.example.com,Howell-Sherman,Regional Facilities Lead,Outbound,,,,HVAC,AZ,90,2026-06-04,customer,SUMM-L00575
+Christopher,Lara,christopher.lara@allengroup.example.com,Allen Group,Property Manager,Outbound,,,,HVAC,CA,63,2026-06-04,lead,SUMM-L00576
+Kimberly,Moore,kimberly.moore@adkinsplc.example.com,Adkins PLC,Regional Facilities Lead,Outbound,,,,HVAC,TX,75,2026-06-05,lead,SUMM-L00581
+Tyler,Rodriguez,tyler.rodriguez@harrisphillipsandgordon.example.com,Harris Phillips and Gordon,Owner,Outbound,,,,HVAC,GA,90,2026-06-05,lead,SUMM-L00585
+Jeremy,Barker,jeremy.barker@wagnerwatts.example.com,Wagner-Watts,Operations Director,Meta Ads,facebook,paid_social,,HVAC,FL,81,2026-06-05,lead,SUMM-L00587
+Adrian,Chang,adrian.chang@davisdean.example.com,Davis-Dean,Store Manager,Meta Ads,facebook,paid_social,hvac_q2_facility_mgr,HVAC,Unassigned,41,2026-06-05,lead,SUMM-L00588
+Jesus,Walker,jesus.walker@sosaphillips.example.com,Sosa-Phillips,Facilities Manager,Referral,,,,HVAC,AZ,70,2026-06-05,salesqualifiedlead,SUMM-L00590
+Steven,Kelley,steven.kelley@williamsbrown.example.com,Williams-Brown,Regional Facilities Lead,Outbound,,,,HVAC,NC,53,2026-06-05,lead,SUMM-L00593
+William,Walton,william.walton@williamsinc.example.com,Williams Inc,,Meta Ads,facebook,paid_social,hvac_q2_facility_mgr,HVAC,TX,88,2026-06-06,lead,SUMM-L00600
+Krystal,Evans,krystal.evans@robinsongomez.example.com,Robinson-Gomez,Property Manager,Outbound,,,,HVAC,Unassigned,39,2026-06-06,lead,SUMM-L00603
+Elizabeth,Martin,elizabeth.martin@robertsmitchell.example.com,Roberts-Mitchell,Regional Facilities Lead,Referral,,,,HVAC,Unassigned,73,2026-06-07,customer,SUMM-L00607
+Katie,Becker,katie.becker@barnetthornandmcgee.example.com,Barnett Horn and Mcgee,Operations Director,Google Ads,google,cpc,hvac_q2_search_emergency,HVAC,CA,93,2026-06-07,salesqualifiedlead,SUMM-L00609
+Chelsea,Sawyer,chelsea.sawyer@garciajohnson.example.com,Garcia-Johnson,Store Manager,Referral,,,,HVAC,NC,43,2026-06-07,lead,SUMM-L00610
+Michelle,Rice,michelle.rice@mcneilhicksandcooper.example.com,Mcneil Hicks and Cooper,Maintenance Supervisor,Outbound,,,,HVAC,GA,63,2026-06-08,lead,SUMM-L00617
+Evan,Brown,evan.brown@perezjohnson.example.com,Perez-Johnson,Regional Facilities Lead,Referral,,,,HVAC,NC,73,2026-06-08,customer,SUMM-L00618
+Lori,Jefferson,lori.jefferson@weaverinc.example.com,Weaver Inc,Maintenance Supervisor,Call Tracking,callrail,phone,local_services,HVAC,GA,68,2026-06-08,opportunity,SUMM-L00620
+Debbie,Wood,debbie.wood@leenunezandhoward.example.com,Lee Nunez and Howard,Operations Director,Call Tracking,callrail,phone,local_services,HVAC,TX,97,2026-06-08,lead,SUMM-L00623
+Justin,Fritz,justin.fritz@garciamunoz.example.com,Garcia-Munoz,Regional Facilities Lead,Google Ads,google,cpc,hvac_q2_search_emergency,HVAC,Unassigned,47,2026-06-08,opportunity,SUMM-L00624
+Anthony,Mcdowell,anthony.mcdowell@martinjohnson.example.com,Martin-Johnson,Regional Facilities Lead,Outbound,,,,HVAC,CA,90,2026-06-08,salesqualifiedlead,SUMM-L00625
+Gregory,Joseph,gregory.joseph@howardmartinandoneal.example.com,Howard Martin and Oneal,Property Manager,Meta Ads,facebook,paid_social,,HVAC,GA,88,2026-06-08,lead,SUMM-L00626
+Felicia,Smith,felicia.smith@jonesllc.example.com,Jones LLC,Owner,Google Ads,google,cpc,hvac_q2_search_emergency,HVAC,GA,94,2026-06-08,lead,SUMM-L00628
+Angela,Gonzales,angela.gonzales@stevensplc.example.com,Stevens PLC,Regional Facilities Lead,Referral,,,,HVAC,FL,85,2026-06-09,customer,SUMM-L00631
+Maureen,Allison,maureen.allison@dodsonltd.example.com,Dodson Ltd,Owner,Referral,,,,HVAC,NC,100,2026-06-09,lead,SUMM-L00634
+Thomas,Downs,thomas.downs@wallacegroup.example.com,Wallace Group,,Meta Ads,facebook,paid_social,,HVAC,AZ,61,2026-06-09,lead,SUMM-L00635
+Karen,Tucker,karen.tucker@gonzalezgroup.example.com,Gonzalez Group,Maintenance Supervisor,Outbound,,,,HVAC,GA,52,2026-06-09,lead,SUMM-L00637
+Angela,Davis,angela.davis@mortondavis.example.com,Morton-Davis,Building Engineer,Outbound,,,,HVAC,TX,63,2026-06-10,customer,SUMM-L00647
+Lance,Reyes,lance.reyes@wallacellc.example.com,Wallace LLC,Building Engineer,Outbound,,,,HVAC,FL,61,2026-06-10,lead,SUMM-L00648
+Denise,Anderson,denise.anderson@douglasphillips.example.com,Douglas-Phillips,Maintenance Supervisor,Google Ads,google,cpc,hvac_q2_search_emergency,HVAC,TX,67,2026-06-10,lead,SUMM-L00650
+Jessica,Hoffman,jessica.hoffman@gonzalezlevineandrice.example.com,Gonzalez Levine and Rice,Owner,Meta Ads,facebook,paid_social,hvac_q2_facility_mgr,HVAC,TX,88,2026-06-10,lead,SUMM-L00651
+Timothy,Clark,timothy.clark@shaffertorres.example.com,Shaffer-Torres,Regional Facilities Lead,Outbound,,,,HVAC,Unassigned,15,2026-06-11,lead,SUMM-L00654
+Michael,Johnson,michael.johnson@thomaswilliamsandhughes.example.com,Thomas Williams and Hughes,Regional Facilities Lead,Referral,,,,HVAC,AZ,86,2026-06-11,customer,SUMM-L00655
+Desiree,Davis,desiree.davis@moralesplc.example.com,Morales PLC,Facilities Manager,Google Ads,google,cpc,hvac_q2_search_emergency,HVAC,AZ,56,2026-06-11,customer,SUMM-L00656
+Robin,White,robin.white@hahnltd.example.com,Hahn Ltd,Facilities Manager,Outbound,,,,HVAC,TX,63,2026-06-11,lead,SUMM-L00657
+George,Gibson,george.gibson@greenandsons.example.com,Green and Sons,Regional Facilities Lead,Outbound,,,,HVAC,FL,90,2026-06-11,lead,SUMM-L00658
+Justin,Ochoa,justin.ochoa@jonesbailey.example.com,Jones-Bailey,Regional Facilities Lead,Referral,,,,HVAC,FL,100,2026-06-11,customer,SUMM-L00659
+Douglas,Fischer,douglas.fischer@garcialtd.example.com,Garcia Ltd,Regional Facilities Lead,Referral,,,,HVAC,TX,100,2026-06-11,lead,SUMM-L00660
+Barbara,Wright,barbara.wright@hernandezsmith.example.com,Hernandez-Smith,Facilities Manager,Google Ads,google,cpc,hvac_q2_search_emergency,HVAC,GA,67,2026-06-12,lead,SUMM-L00668
+Shawn,Sanders,shawn.sanders@suttonholtandgarner.example.com,Sutton Holt and Garner,Operations Director,Outbound,,,,HVAC,TX,63,2026-06-12,lead,SUMM-L00669
+Kevin,Arnold,kevin.arnold@khanllc.example.com,Khan LLC,Owner,Google Ads,google,cpc,hvac_q2_search_emergency,HVAC,AZ,,2026-06-12,lead,SUMM-L00671
+Whitney,Pratt,whitney.pratt@bakerwallaceandjohnston.example.com,Baker Wallace and Johnston,,Meta Ads,facebook,paid_social,hvac_q2_facility_mgr,HVAC,AZ,88,2026-06-12,customer,SUMM-L00674
+Taylor,Hunt,taylor.hunt@rodriguezinc.example.com,Rodriguez Inc,,Call Tracking,callrail,phone,local_services,HVAC,TX,70,2026-06-12,customer,SUMM-L00677
+Sheryl,Duncan,sheryl.duncan@hendricksgilbert.example.com,Hendricks-Gilbert,Operations Director,Call Tracking,callrail,phone,local_services,HVAC,TX,70,2026-06-12,lead,SUMM-L00679
+Jesse,Mcdaniel,jesse.mcdaniel@sanchezandsons.example.com,Sanchez and Sons,Property Manager,Outbound,,,,HVAC,CA,54,2026-06-15,customer,SUMM-L00692
+Holly,Williams,holly.williams@crawfordgriffinandjohnso.example.com,Crawford Griffin and Johnson,Property Manager,Outbound,,,,HVAC,TX,63,2026-06-15,lead,SUMM-L00693
+Kathy,Rodriguez,kathy.rodriguez@lopezlongandfarrell.example.com,Lopez Long and Farrell,Regional Facilities Lead,Outbound,,,,HVAC,GA,90,2026-06-15,lead,SUMM-L00694
+Nicole,Price,nicole.price@mcconnellgroup.example.com,Mcconnell Group,Operations Director,Call Tracking,callrail,phone,gbp_listing,HVAC,FL,70,2026-06-16,opportunity,SUMM-L00703
+Roger,Taylor,roger.taylor@brownwilsonandmiller.example.com,Brown Wilson and Miller,Property Manager,Google Ads,google,cpc,hvac_q2_search_emergency,HVAC,NC,53,2026-06-17,lead,SUMM-L00713
+Brandi,Wade,brandi.wade@leesmithandbrown.example.com,Lee Smith and Brown,Regional Facilities Lead,Call Tracking,callrail,phone,local_services,HVAC,CA,70,2026-06-17,lead,SUMM-L00721
+Patricia,Alvarado,patricia.alvarado@jacksongarrett.example.com,Jackson-Garrett,Store Manager,Outbound,,,,HVAC,TX,88,2026-06-17,lead,SUMM-L00723
+George,Day,george.day@whiteltd.example.com,White Ltd,Property Manager,Google Ads,google,cpc,,HVAC,TX,,2026-06-19,opportunity,SUMM-L00737
+Perry,Fowler,perry.fowler@holdersmithandhernandez.example.com,Holder Smith and Hernandez,,Google Ads,google,cpc,hvac_q2_search_emergency,HVAC,TX,87,2026-06-19,customer,SUMM-L00739
+Ryan,Williams,ryan.williams@ashleyllc.example.com,Ashley LLC,Store Manager,Call Tracking,callrail,phone,local_services,HVAC,TX,97,2026-06-21,lead,SUMM-L00748
+Megan,Harvey,megan.harvey@reyesandsons.example.com,Reyes and Sons,Store Manager,Referral,,,,HVAC,NC,78,2026-06-21,salesqualifiedlead,SUMM-L00750
+Jacob,Finley,jacob.finley@navarroball.example.com,Navarro-Ball,Facilities Manager,Google Ads,google,cpc,hvac_q2_search_emergency,HVAC,GA,67,2026-06-21,lead,SUMM-L00751
+Jeremy,Perez,jeremy.perez@mercadojones.example.com,Mercado-Jones,Maintenance Supervisor,Referral,,,,HVAC,AZ,73,2026-06-22,salesqualifiedlead,SUMM-L00755
+Derrick,Donaldson,derrick.donaldson@ellisonconley.example.com,Ellison-Conley,Store Manager,Google Ads,google,cpc,,HVAC,AZ,,2026-06-22,salesqualifiedlead,SUMM-L00756
+Jeanette,Spencer,jeanette.spencer@mcculloughwalters.example.com,Mccullough-Walters,Store Manager,Meta Ads,facebook,paid_social,hvac_q2_facility_mgr,HVAC,GA,61,2026-06-22,lead,SUMM-L00759
+Annette,Carter,annette.carter@payneross.example.com,Payne-Ross,Regional Facilities Lead,Referral,,,,HVAC,Unassigned,100,2026-06-22,customer,SUMM-L00763
+Andrew,Terry,andrew.terry@atkinsbrownandgarcia.example.com,Atkins Brown and Garcia,Owner,Google Ads,google,cpc,hvac_q2_search_emergency,HVAC,GA,94,2026-06-22,lead,SUMM-L00765
+Jason,Johnson,jason.johnson@chavezllc.example.com,Chavez LLC,Maintenance Supervisor,Call Tracking,callrail,phone,gbp_listing,HVAC,GA,,2026-06-23,lead,SUMM-L00769
+Mark,Shannon,mark.shannon@schultzweissandreynolds.example.com,Schultz Weiss and Reynolds,Facilities Manager,Call Tracking,callrail,phone,local_services,HVAC,NC,68,2026-06-23,opportunity,SUMM-L00772
+David,Jones,david.jones@langnguyenandlee.example.com,Lang Nguyen and Lee,,Google Ads,google,cpc,hvac_q2_search_emergency,HVAC,NC,41,2026-06-23,lead,SUMM-L00781
+Kristen,Lyons,kristen.lyons@carterchristensen.example.com,Carter-Christensen,Maintenance Supervisor,Call Tracking,callrail,phone,local_services,HVAC,NC,97,2026-06-24,salesqualifiedlead,SUMM-L00790
+Robert,White,robert.white@jenningsgroup.example.com,Jennings Group,Maintenance Supervisor,Outbound,,,,HVAC,Unassigned,,2026-06-25,lead,SUMM-L00797
+Maria,Mcguire,maria.mcguire@wagnerstoneandirwin.example.com,Wagner Stone and Irwin,Property Manager,Meta Ads,facebook,paid_social,hvac_q2_facility_mgr,HVAC,GA,88,2026-06-25,lead,SUMM-L00799
+Linda,Larson,linda.larson@wilsoninc.example.com,Wilson Inc,,Call Tracking,callrail,phone,gbp_listing,HVAC,NC,97,2026-06-25,salesqualifiedlead,SUMM-L00801
+Robert,Gray,robert.gray@serranogroup.example.com,Serrano Group,Property Manager,Outbound,,,,HVAC,NC,90,2026-06-25,lead,SUMM-L00804
+Alex,Alvarez,alex.alvarez@chenmcdonald.example.com,Chen-Mcdonald,,Call Tracking,callrail,phone,local_services,HVAC,CA,97,2026-06-26,lead,SUMM-L00809
+Rebekah,West,rebekah.west@smithmadden.example.com,Smith-Madden,Owner,Outbound,,,,HVAC,FL,90,2026-06-26,lead,SUMM-L00810
+Amy,Campbell,amy.campbell@allenrichardandrobertson.example.com,Allen Richard and Robertson,Facilities Manager,Referral,,,,HVAC,CA,93,2026-06-26,customer,SUMM-L00811
+Dominic,Peterson,dominic.peterson@thomasreeves.example.com,Thomas-Reeves,Property Manager,Outbound,,,,HVAC,FL,90,2026-06-26,customer,SUMM-L00817
+Jeffrey,Sanders,jeffrey.sanders@greenaustin.example.com,Green-Austin,Store Manager,Outbound,,,,HVAC,FL,84,2026-06-27,salesqualifiedlead,SUMM-L00821
+Emily,Allen,emily.allen@garzainc.example.com,Garza Inc,Regional Facilities Lead,Outbound,,,,HVAC,GA,80,2026-06-27,lead,SUMM-L00824
+Lynn,Navarro,lynn.navarro@brownalexander.example.com,Brown-Alexander,Owner,Call Tracking,callrail,phone,gbp_listing,HVAC,Unassigned,97,2026-06-27,lead,SUMM-L00825
+Sara,Ruiz,sara.ruiz@smithsanders.example.com,Smith-Sanders,Owner,Call Tracking,callrail,phone,gbp_listing,HVAC,AZ,70,2026-06-28,lead,SUMM-L00832
+Robert,Jackson,robert.jackson@smithllc.example.com,Smith LLC,Maintenance Supervisor,Call Tracking,callrail,phone,local_services,HVAC,GA,97,2026-06-29,salesqualifiedlead,SUMM-L00834
+Kimberly,Ryan,kimberly.ryan@edwardsltd.example.com,Edwards Ltd,Facilities Manager,Call Tracking,callrail,phone,local_services,HVAC,TX,97,2026-06-29,opportunity,SUMM-L00839
+Damon,Mcclure,damon.mcclure@mendozamorgan.example.com,Mendoza-Morgan,,Google Ads,google,cpc,hvac_q2_search_emergency,HVAC,TX,67,2026-06-29,customer,SUMM-L00841
+Alexis,Brown,alexis.brown@davisinc.example.com,Davis Inc,Store Manager,Referral,,,,HVAC,NC,,2026-06-30,lead,SUMM-L00854
+Kayla,Jones,kayla.jones@kleinltd.example.com,Klein Ltd,Building Engineer,Google Ads,google,cpc,hvac_q3_search_install,HVAC,FL,94,2026-07-01,customer,SUMM-L00858
+Christine,Romero,christine.romero@hodgesoconnellandharmon.example.com,Hodges Oconnell and Harmon,Owner,Outbound,,,,HVAC,NC,80,2026-07-01,customer,SUMM-L00859
+Bailey,Brady,bailey.brady@knightinc.example.com,Knight Inc,Maintenance Supervisor,Outbound,,,,HVAC,TX,90,2026-07-01,salesqualifiedlead,SUMM-L00860
+Jeffrey,Sanchez,jeffrey.sanchez@turnerllc.example.com,Turner LLC,,Call Tracking,callrail,phone,gbp_listing,HVAC,NC,70,2026-07-01,opportunity,SUMM-L00861
+Shawn,Hurst,shawn.hurst@munozwoods.example.com,Munoz-Woods,Store Manager,Outbound,,,,HVAC,Unassigned,49,2026-07-01,lead,SUMM-L00866
+Michael,Ware,michael.ware@rojasstevenson.example.com,Rojas-Stevenson,Property Manager,Google Ads,google,cpc,hvac_q3_search_ac_repair,HVAC,FL,67,2026-07-01,lead,SUMM-L00867
+Danielle,Preston,danielle.preston@davismorganandreeves.example.com,Davis Morgan and Reeves,Maintenance Supervisor,Call Tracking,callrail,phone,gbp_listing,HVAC,AZ,70,2026-07-01,lead,SUMM-L00868
+Carlos,Hudson,carlos.hudson@pattondougherty.example.com,Patton-Dougherty,Owner,Google Ads,google,cpc,hvac_q3_search_ac_repair,HVAC,TX,,2026-07-01,salesqualifiedlead,SUMM-L00869
+Melissa,Harris,melissa.harris@wallernavarro.example.com,Waller-Navarro,Store Manager,Outbound,,,,HVAC,Unassigned,90,2026-07-01,salesqualifiedlead,SUMM-L00870
+Andrew,Oconnor,andrew.oconnor@colemancannonandjones.example.com,Coleman Cannon and Jones,Building Engineer,Call Tracking,callrail,phone,gbp_listing,HVAC,FL,92,2026-07-02,customer,SUMM-L00884
+Brandon,Malone,brandon.malone@robertsbest.example.com,Roberts-Best,,Outbound,,,,HVAC,FL,90,2026-07-03,salesqualifiedlead,SUMM-L00896
+William,Jones,william.jones@floresllc.example.com,Flores LLC,Owner,Call Tracking,callrail,phone,local_services,HVAC,FL,97,2026-07-05,lead,SUMM-L00915
+Pamela,Williams,pamela.williams@watsonandsons.example.com,Watson and Sons,,Google Ads,google,cpc,hvac_q3_search_ac_repair,HVAC,AZ,67,2026-07-05,customer,SUMM-L00916
+Cheryl,Gallagher,cheryl.gallagher@wagnerbennettandmccoy.example.com,Wagner Bennett and Mccoy,Property Manager,Referral,,,,HVAC,AZ,100,2026-07-06,salesqualifiedlead,SUMM-L00917
+William,Martinez,william.martinez@youngloganandfrank.example.com,Young Logan and Frank,Regional Facilities Lead,Outbound,,,,HVAC,GA,40,2026-07-08,lead,SUMM-L00944
+Julia,Hudson,julia.hudson@tuckerashleyandhatfield.example.com,Tucker Ashley and Hatfield,Facilities Manager,Outbound,,,,HVAC,GA,90,2026-07-08,salesqualifiedlead,SUMM-L00952
+Hailey,Salazar,hailey.salazar@ramosinc.example.com,Ramos Inc,Store Manager,Referral,,,,HVAC,CA,100,2026-07-09,customer,SUMM-L00953
+David,Walker,david.walker@wilsonoliver.example.com,Wilson-Oliver,Building Engineer,Meta Ads,facebook,paid_social,hvac_q3_maintenance_plan,HVAC,FL,32,2026-07-09,lead,SUMM-L00957
+Kirsten,Anderson,kirsten.anderson@russellblackwell.example.com,Russell-Blackwell,Property Manager,Meta Ads,facebook,paid_social,hvac_q3_maintenance_plan,HVAC,NC,61,2026-07-09,lead,SUMM-L00958
+Lisa,Swanson,lisa.swanson@chenavilaandsaunders.example.com,Chen Avila and Saunders,Building Engineer,Google Ads,google,cpc,hvac_q3_search_ac_repair,HVAC,FL,47,2026-07-09,lead,SUMM-L00963
+Natasha,Smith,natasha.smith@arnoldinc.example.com,Arnold Inc,Operations Director,Google Ads,google,cpc,hvac_q3_search_install,HVAC,AZ,94,2026-07-10,salesqualifiedlead,SUMM-L00967
+Jacob,Garrison,jacob.garrison@eatonandsons.example.com,Eaton and Sons,Owner,Referral,,,,HVAC,GA,,2026-07-10,opportunity,SUMM-L00970
+Luke,Williams,luke.williams@drakeschmidtandpeterson.example.com,Drake Schmidt and Peterson,,Outbound,,,,HVAC,GA,90,2026-07-10,salesqualifiedlead,SUMM-L00976
+Tina,Ward,tina.ward@delacruzinc.example.com,Delacruz Inc,Property Manager,Referral,,,,HVAC,FL,100,2026-07-11,salesqualifiedlead,SUMM-L00978
+Andrew,Hartman,andrew.hartman@nortonbridges.example.com,Norton-Bridges,,Meta Ads,facebook,paid_social,hvac_q3_maintenance_plan,HVAC,AZ,54,2026-07-12,lead,SUMM-L00984
+Martin,Reynolds,martin.reynolds@hallbauerandstewart.example.com,Hall Bauer and Stewart,Regional Facilities Lead,Outbound,,,,HVAC,TX,63,2026-07-12,lead,SUMM-L00991
+Anthony,Knight,anthony.knight@jacksonellis.example.com,Jackson-Ellis,Operations Director,Outbound,,,,HVAC,TX,84,2026-07-12,lead,SUMM-L00992
+Robert,Jones,robert.jones@piercecurry.example.com,Pierce-Curry,Facilities Manager,Call Tracking,callrail,phone,local_services,HVAC,AZ,57,2026-07-12,lead,SUMM-L00993
+Hannah,Flynn,hannah.flynn@martinezheathandwilliams.example.com,Martinez Heath and Williams,Operations Director,Outbound,,,,HVAC,FL,63,2026-07-13,salesqualifiedlead,SUMM-L00995
+Christopher,Anderson,christopher.anderson@branchburnsandgonzales.example.com,Branch Burns and Gonzales,,Call Tracking,callrail,phone,local_services,HVAC,Unassigned,70,2026-07-13,salesqualifiedlead,SUMM-L00996
+Michael,Rose,michael.rose@gomezandsons.example.com,Gomez and Sons,Building Engineer,Call Tracking,callrail,phone,local_services,HVAC,CA,97,2026-07-13,salesqualifiedlead,SUMM-L01003
+April,Diaz,april.diaz@butlerhawkins.example.com,Butler-Hawkins,Facilities Manager,Google Ads,google,cpc,hvac_q3_search_ac_repair,HVAC,TX,67,2026-07-14,lead,SUMM-L01016
+Michael,Boone,michael.boone@robertsonltd.example.com,Robertson Ltd,Owner,Outbound,,,,HVAC,GA,68,2026-07-14,opportunity,SUMM-L01017
+Brian,Perkins,brian.perkins@washingtonllc.example.com,Washington LLC,,Google Ads,google,cpc,hvac_q3_search_ac_repair,HVAC,FL,37,2026-07-14,lead,SUMM-L01019
+Tanya,Smith,tanya.smith@youngdiaz.example.com,Young-Diaz,Building Engineer,Call Tracking,callrail,phone,local_services,HVAC,NC,40,2026-07-16,lead,SUMM-L01035
+Christina,Austin,christina.austin@beltrandavis.example.com,Beltran-Davis,Facilities Manager,Outbound,,,,HVAC,FL,63,2026-07-16,lead,SUMM-L01036
+Seth,Pitts,seth.pitts@armstrongjohnson.example.com,Armstrong-Johnson,Owner,Outbound,,,,HVAC,Unassigned,63,2026-07-16,lead,SUMM-L01039
+Brenda,Craig,brenda.craig@moorewebbandrichardson.example.com,Moore Webb and Richardson,Maintenance Supervisor,Call Tracking,callrail,phone,local_services,HVAC,TX,,2026-07-16,salesqualifiedlead,SUMM-L01041
+Shannon,Wang,shannon.wang@alvaradoarias.example.com,Alvarado-Arias,Facilities Manager,Google Ads,google,cpc,,HVAC,Unassigned,,2026-07-16,lead,SUMM-L01046
+Lee,Duncan,lee.duncan@jarvisplc.example.com,Jarvis PLC,Store Manager,Call Tracking,callrail,phone,local_services,HVAC,Unassigned,70,2026-07-16,lead,SUMM-L01050
+Barbara,Walker,barbara.walker@leeplc.example.com,Lee PLC,Property Manager,Outbound,,,,HVAC,Unassigned,90,2026-07-17,lead,SUMM-L01054
+Michael,White,michael.white@walkerandersonandwilliam.example.com,Walker Anderson and Williamson,Building Engineer,Outbound,,,,HVAC,CA,90,2026-07-17,lead,SUMM-L01058
+Michael,Parker,michael.parker@hansonsmithandreyes.example.com,Hanson Smith and Reyes,Maintenance Supervisor,Outbound,,,,HVAC,GA,90,2026-07-18,lead,SUMM-L01062
+Doris,Richards,doris.richards@bartlettthompson.example.com,Bartlett-Thompson,Operations Director,Outbound,,,,HVAC,GA,90,2026-07-19,customer,SUMM-L01069
+Jessica,Cunningham,jessica.cunningham@whitewaltonandtravis.example.com,White Walton and Travis,Store Manager,Outbound,,,,HVAC,CA,33,2026-07-20,lead,SUMM-L01080
+Christopher,Scott,christopher.scott@moorebryant.example.com,Moore-Bryant,Regional Facilities Lead,Outbound,,,,HVAC,FL,90,2026-07-21,lead,SUMM-L01081
+Kevin,James,kevin.james@adamswillisandchavez.example.com,Adams Willis and Chavez,Maintenance Supervisor,Meta Ads,facebook,paid_social,,HVAC,AZ,88,2026-07-21,lead,SUMM-L01083
+Paul,Bowman,paul.bowman@barnesgoodmanandlee.example.com,Barnes Goodman and Lee,,Outbound,,,,HVAC,AZ,63,2026-07-21,customer,SUMM-L01090
+Stephanie,Swanson,stephanie.swanson@davissimsandstevenson.example.com,Davis Sims and Stevenson,Regional Facilities Lead,Referral,,,,HVAC,GA,100,2026-07-21,customer,SUMM-L01092
+Kimberly,Long,kimberly.long@haynesrichardsandsnyder.example.com,Haynes Richards and Snyder,Facilities Manager,Outbound,,,,HVAC,TX,47,2026-07-22,lead,SUMM-L01102
+Tyler,Montoya,tyler.montoya@camposandsons.example.com,Campos and Sons,Property Manager,Outbound,,,,HVAC,NC,,2026-07-22,lead,SUMM-L01103
+Cheryl,Dixon,cheryl.dixon@bondgroup.example.com,Bond Group,Facilities Manager,Outbound,,,,HVAC,FL,60,2026-07-23,lead,SUMM-L01108
+Linda,Cuevas,linda.cuevas@licontreras.example.com,Li-Contreras,Building Engineer,Google Ads,google,cpc,hvac_q3_search_ac_repair,HVAC,GA,94,2026-07-23,lead,SUMM-L01111
+Matthew,Kim,matthew.kim@whitemadden.example.com,White-Madden,,Call Tracking,callrail,phone,gbp_listing,HVAC,GA,70,2026-07-23,customer,SUMM-L01112
+Tina,Cohen,tina.cohen@davismcclainandsandoval.example.com,Davis Mcclain and Sandoval,Facilities Manager,Outbound,,,,HVAC,NC,40,2026-07-24,lead,SUMM-L01124
+Joshua,Brown,joshua.brown@wagnerberg.example.com,Wagner-Berg,Property Manager,Outbound,,,,HVAC,AZ,90,2026-07-24,lead,SUMM-L01130
+Melissa,Cook,melissa.cook@nelsonllc.example.com,Nelson LLC,Operations Director,Call Tracking,callrail,phone,gbp_listing,HVAC,NC,70,2026-07-24,lead,SUMM-L01131
+Selena,Mays,selena.mays@dawsongroup.example.com,Dawson Group,Operations Director,Outbound,,,,HVAC,AZ,50,2026-07-25,salesqualifiedlead,SUMM-L01135
+Andrea,Fuller,andrea.fuller@fordtoddandsmith.example.com,Ford Todd and Smith,Owner,Call Tracking,callrail,phone,local_services,HVAC,TX,65,2026-07-25,lead,SUMM-L01136
+Timothy,Hughes,timothy.hughes@mccoymccallandzamora.example.com,Mccoy Mccall and Zamora,Maintenance Supervisor,Google Ads,google,cpc,hvac_q3_search_ac_repair,HVAC,GA,67,2026-07-25,salesqualifiedlead,SUMM-L01137
+Joseph,White,joseph.white@williamsallen.example.com,Williams-Allen,Building Engineer,Call Tracking,callrail,phone,local_services,HVAC,AZ,70,2026-07-26,lead,SUMM-L01141
+Elizabeth,King,elizabeth.king@williamsbrewer.example.com,Williams-Brewer,Maintenance Supervisor,Outbound,,,,HVAC,FL,63,2026-07-27,lead,SUMM-L01146
+Gregory,Winters,gregory.winters@meadowswall.example.com,Meadows-Wall,Property Manager,Call Tracking,callrail,phone,gbp_listing,HVAC,FL,97,2026-07-27,customer,SUMM-L01149
+Julia,Miller,julia.miller@smithmendoza.example.com,Smith-Mendoza,Operations Director,Referral,,,,HVAC,TX,62,2026-07-27,salesqualifiedlead,SUMM-L01152
+Cindy,Shaw,cindy.shaw@russellplc.example.com,Russell PLC,Operations Director,Referral,,,,HVAC,TX,100,2026-07-27,customer,SUMM-L01153
+Jacqueline,Clark,jacqueline.clark@mackgroup.example.com,Mack Group,Maintenance Supervisor,Outbound,,,,HVAC,FL,63,2026-07-27,lead,SUMM-L01155
+Nicole,Brown,nicole.brown@mullinsinc.example.com,Mullins Inc,Owner,Outbound,,,,HVAC,NC,85,2026-07-28,lead,SUMM-L01164
+Alicia,Griffin,alicia.griffin@browngroup.example.com,Brown Group,Store Manager,Meta Ads,facebook,paid_social,hvac_q3_maintenance_plan,HVAC,CA,61,2026-07-28,lead,SUMM-L01166
+Nathaniel,King,nathaniel.king@cardenasmartinezandmedin.example.com,Cardenas Martinez and Medina,Property Manager,Call Tracking,callrail,phone,local_services,HVAC,Unassigned,97,2026-07-28,customer,SUMM-L01167
+Grace,Rich,grace.rich@richardsltd.example.com,Richards Ltd,Property Manager,Outbound,,,,HVAC,Unassigned,15,2026-07-29,opportunity,SUMM-L01172
+Rachel,Smith,rachel.smith@gomezlesterandjackson.example.com,Gomez Lester and Jackson,Regional Facilities Lead,Call Tracking,callrail,phone,gbp_listing,HVAC,NC,40,2026-07-29,lead,SUMM-L01176
+Robert,Beltran,robert.beltran@crawfordhawkinsandking.example.com,Crawford Hawkins and King,Building Engineer,Outbound,,,,HVAC,FL,,2026-07-29,lead,SUMM-L01177
+Patrick,Adkins,patrick.adkins@stewartplc.example.com,Stewart PLC,Facilities Manager,Call Tracking,callrail,phone,local_services,HVAC,NC,70,2026-07-29,lead,SUMM-L01178
+Michael,Moore,michael.moore@jordanllc.example.com,Jordan LLC,Property Manager,Outbound,,,,HVAC,AZ,,2026-07-29,lead,SUMM-L01180
+Barbara,Reese,barbara.reese@floresmcdanielandmoore.example.com,Flores Mcdaniel and Moore,,Referral,,,,HVAC,FL,100,2026-07-30,customer,SUMM-L01185
+Deborah,Frye,deborah.frye@hartmaninc.example.com,Hartman Inc,Maintenance Supervisor,Outbound,,,,HVAC,Unassigned,63,2026-07-30,opportunity,SUMM-L01186
+Peter,Wheeler,peter.wheeler@jensenmiller.example.com,Jensen-Miller,Operations Director,Call Tracking,callrail,phone,local_services,HVAC,NC,70,2026-07-31,lead,SUMM-L01194
+Kenneth,Smith,kenneth.smith@jamesllc.example.com,James LLC,Maintenance Supervisor,Call Tracking,callrail,phone,local_services,HVAC,TX,97,2026-07-31,opportunity,SUMM-L01195
+Deborah,Johnson,deborah.johnson@evansinc.example.com,Evans Inc,,Outbound,,,,HVAC,GA,90,2026-07-31,customer,SUMM-L01199
+Gregory,Kennedy,gregory.kennedy@moodybakerandblanchard.example.com,Moody Baker and Blanchard,Property Manager,Google Ads,google,cpc,hvac_q3_search_ac_repair,HVAC,FL,94,2026-07-31,salesqualifiedlead,SUMM-L01202
+Kristina,West,kristina.west@scottsmithandwilson.example.com,Scott Smith and Wilson,Facilities Manager,Referral,,,,HVAC,GA,73,2026-08-01,salesqualifiedlead,SUMM-L01207
+Carla,Rogers,carla.rogers@brooksllc.example.com,Brooks LLC,Regional Facilities Lead,Call Tracking,callrail,phone,local_services,HVAC,NC,97,2026-08-01,lead,SUMM-L01208
+Kristina,Bauer,kristina.bauer@williamsharrington.example.com,Williams-Harrington,Maintenance Supervisor,Outbound,,,,HVAC,AZ,63,2026-08-03,lead,SUMM-L01219
+Christian,Cabrera,christian.cabrera@coxllc.example.com,Cox LLC,Owner,Call Tracking,callrail,phone,gbp_listing,HVAC,FL,70,2026-08-03,lead,SUMM-L01223
+Aaron,Ortega,aaron.ortega@nelsonandsons.example.com,Nelson and Sons,Operations Director,Call Tracking,callrail,phone,local_services,HVAC,FL,60,2026-08-03,customer,SUMM-L01224
+Monique,Mccarthy,monique.mccarthy@careyyoung.example.com,Carey-Young,Maintenance Supervisor,Google Ads,google,cpc,hvac_q3_search_install,HVAC,FL,66,2026-08-03,lead,SUMM-L01228
+Traci,Brady,traci.brady@thorntonrhodesanddiaz.example.com,Thornton Rhodes and Diaz,,Outbound,,,,HVAC,GA,60,2026-08-04,lead,SUMM-L01239
+Tiffany,Calderon,tiffany.calderon@banksnewman.example.com,Banks-Newman,,Outbound,,,,HVAC,GA,90,2026-08-05,lead,SUMM-L01241
+Stephanie,Hudson,stephanie.hudson@kennedycollinsandkeith.example.com,Kennedy Collins and Keith,Owner,Outbound,,,,HVAC,GA,63,2026-08-05,opportunity,SUMM-L01242
+Jennifer,Garcia,jennifer.garcia@kimwilsonandking.example.com,Kim Wilson and King,Property Manager,Outbound,,,,HVAC,TX,63,2026-08-06,lead,SUMM-L01250
+Troy,Graham,troy.graham@torresgroup.example.com,Torres Group,Property Manager,Outbound,,,,HVAC,AZ,90,2026-08-06,salesqualifiedlead,SUMM-L01252
+Steven,Higgins,steven.higgins@carrobrienandcoleman.example.com,Carr Obrien and Coleman,,Google Ads,google,cpc,hvac_q3_search_ac_repair,HVAC,AZ,67,2026-08-06,lead,SUMM-L01255
+Frank,Ford,frank.ford@doyleandsons.example.com,Doyle and Sons,Maintenance Supervisor,Call Tracking,callrail,phone,local_services,HVAC,AZ,56,2026-08-07,salesqualifiedlead,SUMM-L01259
+Kristen,Barker,kristen.barker@lewisgroup.example.com,Lewis Group,Maintenance Supervisor,Call Tracking,callrail,phone,gbp_listing,HVAC,TX,70,2026-08-07,lead,SUMM-L01260
+Joseph,Anderson,joseph.anderson@wardwashington.example.com,Ward-Washington,Operations Director,Outbound,,,,HVAC,FL,63,2026-08-07,lead,SUMM-L01261
+Stephanie,Wilson,stephanie.wilson@zimmermanconradandturner.example.com,Zimmerman Conrad and Turner,Facilities Manager,Outbound,,,,HVAC,CA,63,2026-08-07,lead,SUMM-L01265
+Dan,Mccann,dan.mccann@smithllc.example.com,Smith LLC,,Outbound,,,,HVAC,GA,90,2026-08-07,lead,SUMM-L01267
+Dennis,Moss,dennis.moss@lopezkennedyandjackson.example.com,Lopez Kennedy and Jackson,,Outbound,,,,HVAC,CA,,2026-08-07,lead,SUMM-L01268
+Amy,Lewis,amy.lewis@stewartllc.example.com,Stewart LLC,Store Manager,Call Tracking,callrail,phone,gbp_listing,HVAC,Unassigned,35,2026-08-07,lead,SUMM-L01269
+Nathan,Schroeder,nathan.schroeder@curtisalvarezandescobar.example.com,Curtis Alvarez and Escobar,Property Manager,Referral,,,,HVAC,AZ,70,2026-08-07,lead,SUMM-L01274
+Rebecca,Daniel,rebecca.daniel@stevensgroup.example.com,Stevens Group,Operations Director,Call Tracking,callrail,phone,gbp_listing,HVAC,TX,,2026-08-09,customer,SUMM-L01286
+Jonathan,Smith,jonathan.smith@danielssullivanandgonzal.example.com,Daniels Sullivan and Gonzalez,Property Manager,Referral,,,,HVAC,GA,73,2026-08-09,lead,SUMM-L01293
+Jonathan,Adams,jonathan.adams@lopezcampbellandstephens.example.com,Lopez Campbell and Stephens,Maintenance Supervisor,Meta Ads,facebook,paid_social,hvac_q3_maintenance_plan,HVAC,GA,53,2026-08-10,lead,SUMM-L01295
+Adam,Hunter,adam.hunter@hernandezstephensandcamp.example.com,Hernandez Stephens and Campbell,Store Manager,Referral,,,,HVAC,AZ,92,2026-08-10,lead,SUMM-L01297
+Krista,Williams,krista.williams@lawrencesampsonandlee.example.com,Lawrence Sampson and Lee,,Meta Ads,facebook,paid_social,hvac_q3_maintenance_plan,HVAC,TX,88,2026-08-10,opportunity,SUMM-L01298
+Melanie,Smith,melanie.smith@medinaplc.example.com,Medina PLC,Facilities Manager,Outbound,,,,HVAC,AZ,76,2026-08-10,lead,SUMM-L01301
+Cindy,Hernandez,cindy.hernandez@danielssimsandbrown.example.com,Daniels Sims and Brown,Property Manager,Referral,,,,HVAC,AZ,100,2026-08-10,salesqualifiedlead,SUMM-L01303
+Mackenzie,Gonzalez,mackenzie.gonzalez@nelsoninc.example.com,Nelson Inc,,Referral,,,,HVAC,FL,100,2026-08-11,salesqualifiedlead,SUMM-L01304
+Michelle,Smith,michelle.smith@jordanbolton.example.com,Jordan-Bolton,Operations Director,Call Tracking,callrail,phone,local_services,HVAC,TX,92,2026-08-11,customer,SUMM-L01308
+Rebecca,Ruiz,rebecca.ruiz@mcgeechenandpeterson.example.com,Mcgee Chen and Peterson,Operations Director,Referral,,,,HVAC,CA,73,2026-08-11,salesqualifiedlead,SUMM-L01312
+Emma,Vasquez,emma.vasquez@daviswilliamsandwilliams.example.com,Davis Williams and Williams,Property Manager,Referral,,,,HVAC,TX,100,2026-08-12,customer,SUMM-L01316
+Joel,Cruz,joel.cruz@schultzltd.example.com,Schultz Ltd,Facilities Manager,Referral,,,,HVAC,Unassigned,73,2026-08-13,lead,SUMM-L01327
+Wanda,Everett,wanda.everett@hartplc.example.com,Hart PLC,,Outbound,,,,HVAC,Unassigned,90,2026-08-13,lead,SUMM-L01329
+Angela,Murphy,angela.murphy@schwartzllc.example.com,Schwartz LLC,Operations Director,Outbound,,,,HVAC,TX,90,2026-08-13,salesqualifiedlead,SUMM-L01331
+Charles,Roberts,charles.roberts@kelleyllc.example.com,Kelley LLC,Operations Director,Referral,,,,HVAC,TX,73,2026-08-15,salesqualifiedlead,SUMM-L01347
+Tyler,Andrade,tyler.andrade@gonzalezkemp.example.com,Gonzalez-Kemp,,Google Ads,google,cpc,hvac_q3_search_install,HVAC,AZ,94,2026-08-15,salesqualifiedlead,SUMM-L01351
+Rebecca,Ward,rebecca.ward@daughertyplc.example.com,Daugherty PLC,Regional Facilities Lead,Call Tracking,callrail,phone,local_services,HVAC,GA,70,2026-08-16,customer,SUMM-L01353
+Christina,Levine,christina.levine@mcneilgroup.example.com,Mcneil Group,Maintenance Supervisor,Referral,,,,HVAC,Unassigned,79,2026-08-16,lead,SUMM-L01357
+Alex,Huang,alex.huang@jonessanchezandanderson.example.com,Jones Sanchez and Anderson,,Outbound,,,,HVAC,TX,47,2026-08-17,lead,SUMM-L01363
+Edgar,Walker,edgar.walker@campbellmay.example.com,Campbell-May,Store Manager,Outbound,,,,HVAC,FL,63,2026-08-17,lead,SUMM-L01365
+Joseph,Ross,joseph.ross@johnsonnichols.example.com,Johnson-Nichols,Regional Facilities Lead,Outbound,,,,HVAC,GA,90,2026-08-17,salesqualifiedlead,SUMM-L01372
+Jeffrey,Rivera,jeffrey.rivera@robinsontownsendandhenry.example.com,Robinson Townsend and Henry,Maintenance Supervisor,Outbound,,,,HVAC,FL,63,2026-08-18,lead,SUMM-L01380
+Tracey,Andersen,tracey.andersen@riveralewisandallen.example.com,Rivera Lewis and Allen,Owner,Outbound,,,,HVAC,FL,50,2026-08-18,lead,SUMM-L01381
+Kenneth,Perry,kenneth.perry@hurleyyoung.example.com,Hurley-Young,Property Manager,Outbound,,,,HVAC,GA,90,2026-08-18,salesqualifiedlead,SUMM-L01382
+Sarah,Ali,sarah.ali@leeandsons.example.com,Lee and Sons,Building Engineer,Outbound,,,,HVAC,Unassigned,43,2026-08-18,lead,SUMM-L01389
+Joshua,Lane,joshua.lane@moraplc.example.com,Mora PLC,,Outbound,,,,HVAC,FL,60,2026-08-18,lead,SUMM-L01390
+Tiffany,Ali,tiffany.ali@dawsongroup.example.com,Dawson Group,Property Manager,Outbound,,,,HVAC,AZ,50,2026-08-20,lead,SUMM-L01402
+Laura,Martinez,laura.martinez@parkplc.example.com,Park PLC,Operations Director,Outbound,,,,HVAC,AZ,,2026-08-20,lead,SUMM-L01405
+Paul,Banks,paul.banks@suttonandsons.example.com,Sutton and Sons,,Call Tracking,callrail,phone,gbp_listing,HVAC,Unassigned,56,2026-08-21,lead,SUMM-L01411
+Daniel,Luna,daniel.luna@campospadillaandowens.example.com,Campos Padilla and Owens,Property Manager,Google Ads,google,cpc,hvac_q3_search_install,HVAC,CA,67,2026-08-21,lead,SUMM-L01415
+Jamie,Conrad,jamie.conrad@harrisllc.example.com,Harris LLC,Store Manager,Google Ads,google,cpc,hvac_q3_search_install,HVAC,GA,94,2026-08-21,lead,SUMM-L01418
+Heather,Brown,heather.brown@martinezandsons.example.com,Martinez and Sons,Store Manager,Outbound,,,,HVAC,TX,63,2026-08-21,customer,SUMM-L01420
+Brittney,Gonzalez,brittney.gonzalez@brownhollandandstuart.example.com,Brown Holland and Stuart,,Referral,,,,HVAC,TX,73,2026-08-22,opportunity,SUMM-L01426
+Timothy,Warren,timothy.warren@morgankelly.example.com,Morgan-Kelly,Regional Facilities Lead,Call Tracking,callrail,phone,local_services,HVAC,NC,86,2026-08-22,lead,SUMM-L01428
+Kristin,Mason,kristin.mason@hallllc.example.com,Hall LLC,Building Engineer,Google Ads,google,cpc,hvac_q3_search_install,HVAC,TX,84,2026-08-23,salesqualifiedlead,SUMM-L01434
+Larry,Franklin,larry.franklin@gonzaleslynch.example.com,Gonzales-Lynch,Building Engineer,Outbound,,,,HVAC,TX,63,2026-08-24,lead,SUMM-L01442
+Amanda,Pope,amanda.pope@foleygroup.example.com,Foley Group,Regional Facilities Lead,Call Tracking,callrail,phone,gbp_listing,HVAC,TX,85,2026-08-24,opportunity,SUMM-L01443
+Vincent,Maxwell,vincent.maxwell@johnsoncuevas.example.com,Johnson-Cuevas,,Outbound,,,,HVAC,AZ,63,2026-08-24,salesqualifiedlead,SUMM-L01449
+Michael,Ross,michael.ross@gilbertcox.example.com,Gilbert-Cox,Regional Facilities Lead,Meta Ads,facebook,paid_social,,HVAC,TX,70,2026-08-25,customer,SUMM-L01457
+Andrea,Sanchez,andrea.sanchez@mckeeandsons.example.com,Mckee and Sons,Operations Director,Outbound,,,,HVAC,TX,90,2026-08-26,customer,SUMM-L01464
+Michael,Le,michael.le@kiddltd.example.com,Kidd Ltd,Store Manager,Outbound,,,,HVAC,TX,63,2026-08-26,salesqualifiedlead,SUMM-L01465
+Elizabeth,Smith,elizabeth.smith@collinscooper.example.com,Collins-Cooper,Store Manager,Call Tracking,callrail,phone,gbp_listing,HVAC,NC,70,2026-08-27,salesqualifiedlead,SUMM-L01475
+Jennifer,Myers,jennifer.myers@grantdouglas.example.com,Grant-Douglas,Building Engineer,Referral,,,,HVAC,TX,74,2026-08-27,lead,SUMM-L01476
+Patricia,Rodriguez,patricia.rodriguez@lopezplc.example.com,Lopez PLC,Operations Director,Outbound,,,,HVAC,TX,90,2026-08-27,lead,SUMM-L01477
+Catherine,Williams,catherine.williams@mosleyyoung.example.com,Mosley-Young,Facilities Manager,Call Tracking,callrail,phone,gbp_listing,HVAC,FL,70,2026-08-27,customer,SUMM-L01479
+John,Jenkins,john.jenkins@tannerllc.example.com,Tanner LLC,,Call Tracking,callrail,phone,local_services,HVAC,Unassigned,97,2026-08-28,customer,SUMM-L01483
+Willie,Hoffman,willie.hoffman@landryandsons.example.com,Landry and Sons,,Referral,,,,HVAC,CA,,2026-08-28,lead,SUMM-L01484
+Douglas,Barnes,douglas.barnes@coffeygreen.example.com,Coffey-Green,Maintenance Supervisor,Outbound,,,,HVAC,FL,90,2026-08-28,lead,SUMM-L01489
+Patrick,Travis,patrick.travis@calderonkelly.example.com,Calderon-Kelly,Maintenance Supervisor,Outbound,,,,HVAC,TX,63,2026-08-28,salesqualifiedlead,SUMM-L01490
+Lance,Stewart,lance.stewart@mcintoshnolan.example.com,Mcintosh-Nolan,,Google Ads,google,cpc,hvac_q3_search_install,HVAC,CA,94,2026-08-29,customer,SUMM-L01497
+Tara,Sanders,tara.sanders@fosterdouglasandharris.example.com,Foster Douglas and Harris,Facilities Manager,Outbound,,,,HVAC,TX,52,2026-08-30,salesqualifiedlead,SUMM-L01506
+Joanna,Johnson,joanna.johnson@coopercooke.example.com,Cooper-Cooke,Building Engineer,Call Tracking,callrail,phone,local_services,HVAC,NC,70,2026-08-30,salesqualifiedlead,SUMM-L01508
+Kenneth,Reynolds,kenneth.reynolds@forbesday.example.com,Forbes-Day,Facilities Manager,Outbound,,,,HVAC,FL,63,2026-09-01,lead,SUMM-L01522
+Arthur,Mills,arthur.mills@youngwestandpeters.example.com,Young West and Peters,Regional Facilities Lead,Referral,,,,HVAC,GA,53,2026-09-01,lead,SUMM-L01523
+Michelle,Jensen,michelle.jensen@sanchezhoward.example.com,Sanchez-Howard,Property Manager,Google Ads,google,cpc,hvac_q3_search_install,HVAC,FL,94,2026-09-01,salesqualifiedlead,SUMM-L01525
+Andre,Fuller,andre.fuller@collinsbrown.example.com,Collins-Brown,Maintenance Supervisor,Google Ads,google,cpc,hvac_q3_search_ac_repair,HVAC,Unassigned,74,2026-09-02,lead,SUMM-L01530
+Fernando,Porter,fernando.porter@diazinc.example.com,Diaz Inc,Facilities Manager,Outbound,,,,HVAC,TX,53,2026-09-02,lead,SUMM-L01534
+Alexandria,Cooper,alexandria.cooper@gatesking.example.com,Gates-King,Owner,Google Ads,google,cpc,hvac_q3_search_ac_repair,HVAC,GA,73,2026-09-03,lead,SUMM-L01537
+Anthony,Fields,anthony.fields@holmeswilliamsonandblair.example.com,Holmes Williamson and Blair,Regional Facilities Lead,Google Ads,google,cpc,hvac_q3_search_ac_repair,HVAC,Unassigned,94,2026-09-03,lead,SUMM-L01538
+Amanda,Rodriguez,amanda.rodriguez@blacklittleandkelly.example.com,Black Little and Kelly,Store Manager,Outbound,,,,HVAC,FL,63,2026-09-04,lead,SUMM-L01543
+Sara,Ortiz,sara.ortiz@ashleyjohnson.example.com,Ashley-Johnson,Property Manager,Call Tracking,callrail,phone,gbp_listing,HVAC,TX,70,2026-09-04,lead,SUMM-L01549
+John,Walker,john.walker@harveyandsons.example.com,Harvey and Sons,Maintenance Supervisor,Meta Ads,facebook,paid_social,hvac_q3_maintenance_plan,HVAC,TX,,2026-09-04,lead,SUMM-L01550
+Laura,Reed,laura.reed@rodriguezcarey.example.com,Rodriguez-Carey,Operations Director,Outbound,,,,HVAC,TX,63,2026-09-05,salesqualifiedlead,SUMM-L01556
+Joshua,White,joshua.white@coxadams.example.com,Cox-Adams,Operations Director,Outbound,,,,HVAC,GA,63,2026-09-06,lead,SUMM-L01560
+Arthur,Small,arthur.small@blackhernandez.example.com,Black-Hernandez,,Outbound,,,,HVAC,TX,63,2026-09-06,salesqualifiedlead,SUMM-L01561
+Dennis,Robles,dennis.robles@davisgroup.example.com,Davis Group,Building Engineer,Outbound,,,,HVAC,NC,90,2026-09-06,salesqualifiedlead,SUMM-L01562
+Cynthia,Davis,cynthia.davis@shawmartinez.example.com,Shaw-Martinez,,Google Ads,google,cpc,hvac_q3_search_ac_repair,HVAC,Unassigned,94,2026-09-08,lead,SUMM-L01578
+Sarah,Humphrey,sarah.humphrey@montgomerymathewsandestr.example.com,Montgomery Mathews and Estrada,Building Engineer,Call Tracking,callrail,phone,gbp_listing,HVAC,GA,97,2026-09-08,lead,SUMM-L01580
+Nicole,Lawrence,nicole.lawrence@pacechambers.example.com,Pace-Chambers,Owner,Google Ads,google,cpc,hvac_q3_search_install,HVAC,NC,,2026-09-08,lead,SUMM-L01582
+Bryce,Mcneil,bryce.mcneil@rogershowe.example.com,Rogers-Howe,,Call Tracking,callrail,phone,local_services,HVAC,GA,,2026-09-09,lead,SUMM-L01589
+Christian,Baker,christian.baker@bradleyplc.example.com,Bradley PLC,Facilities Manager,Outbound,,,,HVAC,GA,90,2026-09-09,lead,SUMM-L01591
+Jason,Delgado,jason.delgado@higginsmalone.example.com,Higgins-Malone,Operations Director,Outbound,,,,HVAC,CA,90,2026-09-09,lead,SUMM-L01592
+Larry,Smith,larry.smith@craigllc.example.com,Craig LLC,Maintenance Supervisor,Google Ads,google,cpc,hvac_q3_search_ac_repair,HVAC,CA,72,2026-09-10,lead,SUMM-L01602
+John,James,john.james@browngroup.example.com,Brown Group,Owner,Outbound,,,,HVAC,CA,63,2026-09-10,lead,SUMM-L01603
+Megan,Rodriguez,megan.rodriguez@hermanhudsonandcohen.example.com,Herman Hudson and Cohen,Owner,Referral,,,,HVAC,TX,73,2026-09-12,customer,SUMM-L01615
+Michael,Manning,michael.manning@hayesgroup.example.com,Hayes Group,Property Manager,Outbound,,,,HVAC,TX,90,2026-09-12,lead,SUMM-L01617
+Anthony,Trujillo,anthony.trujillo@guerramcintoshandrangel.example.com,Guerra Mcintosh and Rangel,,Outbound,,,,HVAC,TX,63,2026-09-12,lead,SUMM-L01618
+Stephen,Moreno,stephen.moreno@lewisnguyen.example.com,Lewis-Nguyen,Store Manager,Google Ads,google,cpc,,HVAC,NC,94,2026-09-13,salesqualifiedlead,SUMM-L01622
+Daniel,Haas,daniel.haas@reynoldsdickerson.example.com,Reynolds-Dickerson,Regional Facilities Lead,Outbound,,,,HVAC,Unassigned,63,2026-09-15,salesqualifiedlead,SUMM-L01640
+Hailey,Clarke,hailey.clarke@colemangroup.example.com,Coleman Group,,Call Tracking,callrail,phone,local_services,HVAC,TX,47,2026-09-15,salesqualifiedlead,SUMM-L01641
+Gregory,Clark,gregory.clark@callahanmendez.example.com,Callahan-Mendez,,Outbound,,,,HVAC,Unassigned,70,2026-09-15,lead,SUMM-L01643
+James,Taylor,james.taylor@sharpmercadoandgreen.example.com,Sharp Mercado and Green,,Call Tracking,callrail,phone,local_services,HVAC,NC,97,2026-09-16,salesqualifiedlead,SUMM-L01655
+Jesus,Brown,jesus.brown@simpsonhartandclark.example.com,Simpson Hart and Clark,Facilities Manager,Meta Ads,facebook,paid_social,hvac_q3_maintenance_plan,HVAC,TX,48,2026-09-17,lead,SUMM-L01662
+Gary,Mack,gary.mack@meyerandsons.example.com,Meyer and Sons,Owner,Google Ads,google,cpc,hvac_q3_search_install,HVAC,GA,94,2026-09-17,salesqualifiedlead,SUMM-L01665
+Erica,Ward,erica.ward@jonesspencer.example.com,Jones-Spencer,Maintenance Supervisor,Referral,,,,HVAC,Unassigned,73,2026-09-19,lead,SUMM-L01675
+Tammy,Gardner,tammy.gardner@parsonsandsons.example.com,Parsons and Sons,Owner,Outbound,,,,HVAC,NC,33,2026-09-19,lead,SUMM-L01678
+Sandy,Flores,sandy.flores@rileywilson.example.com,Riley-Wilson,Maintenance Supervisor,Referral,,,,HVAC,NC,100,2026-09-20,lead,SUMM-L01684
+Dorothy,Martin,dorothy.martin@wardwilliams.example.com,Ward-Williams,Building Engineer,Outbound,,,,HVAC,TX,,2026-09-21,lead,SUMM-L01687
+Matthew,Taylor,matthew.taylor@christensenandsons.example.com,Christensen and Sons,Owner,Meta Ads,facebook,paid_social,,HVAC,TX,50,2026-09-21,salesqualifiedlead,SUMM-L01690
+Dawn,Ellison,dawn.ellison@wyattharrisandsmith.example.com,Wyatt Harris and Smith,Regional Facilities Lead,Meta Ads,facebook,paid_social,hvac_q3_maintenance_plan,HVAC,TX,88,2026-09-21,lead,SUMM-L01691
+Theresa,Henry,theresa.henry@smithcampbellandwiggins.example.com,Smith Campbell and Wiggins,Regional Facilities Lead,Outbound,,,,HVAC,Unassigned,90,2026-09-22,salesqualifiedlead,SUMM-L01697
+Maria,Johnson,maria.johnson@mccarthyinc.example.com,Mccarthy Inc,Building Engineer,Outbound,,,,HVAC,TX,45,2026-09-22,salesqualifiedlead,SUMM-L01700
+Monica,Gonzales,monica.gonzales@hoovergroup.example.com,Hoover Group,Operations Director,Outbound,,,,HVAC,TX,90,2026-09-22,salesqualifiedlead,SUMM-L01704
+Ashley,Price,ashley.price@millerllc.example.com,Miller LLC,Owner,Outbound,,,,HVAC,CA,40,2026-09-22,lead,SUMM-L01705
+Aaron,Ramos,aaron.ramos@baileyphillips.example.com,Bailey-Phillips,Store Manager,Call Tracking,callrail,phone,local_services,HVAC,GA,92,2026-09-23,salesqualifiedlead,SUMM-L01714
+Sara,Davis,sara.davis@gibsonsimonandpruitt.example.com,Gibson Simon and Pruitt,Facilities Manager,Outbound,,,,HVAC,GA,80,2026-09-23,opportunity,SUMM-L01716
+Allison,Wright,allison.wright@clarklee.example.com,Clark-Lee,Facilities Manager,Call Tracking,callrail,phone,local_services,HVAC,Unassigned,66,2026-09-23,salesqualifiedlead,SUMM-L01718
+Catherine,Dixon,catherine.dixon@harrisonhoustonandbell.example.com,Harrison Houston and Bell,Maintenance Supervisor,Google Ads,google,cpc,hvac_q3_search_install,HVAC,FL,94,2026-09-24,salesqualifiedlead,SUMM-L01722
+Anne,Stephens,anne.stephens@thompsonllc.example.com,Thompson LLC,Facilities Manager,Call Tracking,callrail,phone,local_services,HVAC,GA,97,2026-09-24,customer,SUMM-L01725
+Curtis,Walker,curtis.walker@nelsongroup.example.com,Nelson Group,Regional Facilities Lead,Google Ads,google,cpc,,HVAC,AZ,94,2026-09-24,lead,SUMM-L01728
+Nicole,Baker,nicole.baker@hernandezinc.example.com,Hernandez Inc,,Outbound,,,,HVAC,TX,65,2026-09-25,salesqualifiedlead,SUMM-L01736
+Michael,Lee,michael.lee@carlsongalvan.example.com,Carlson-Galvan,Facilities Manager,Outbound,,,,HVAC,GA,90,2026-09-26,lead,SUMM-L01743
+Stephen,Ford,stephen.ford@bendermcgee.example.com,Bender-Mcgee,Operations Director,Meta Ads,facebook,paid_social,hvac_q3_maintenance_plan,HVAC,FL,88,2026-09-27,salesqualifiedlead,SUMM-L01746
+Angela,Stewart,angela.stewart@villarrealandsons.example.com,Villarreal and Sons,Property Manager,Outbound,,,,HVAC,TX,90,2026-09-28,lead,SUMM-L01757
+Dale,Hensley,dale.hensley@gateswebster.example.com,Gates-Webster,Facilities Manager,Referral,,,,HVAC,AZ,78,2026-09-28,lead,SUMM-L01758
+Jamie,Welch,jamie.welch@hilljordan.example.com,Hill-Jordan,Store Manager,Call Tracking,callrail,phone,local_services,HVAC,CA,,2026-09-29,salesqualifiedlead,SUMM-L01761
+Jeffrey,Arnold,jeffrey.arnold@powellgilesandpennington.example.com,Powell Giles and Pennington,Regional Facilities Lead,Google Ads,google,cpc,hvac_q3_search_install,HVAC,Unassigned,54,2026-09-29,lead,SUMM-L01768
+James,Williams,james.williams@owensllc.example.com,Owens LLC,,Meta Ads,facebook,paid_social,hvac_q3_maintenance_plan,HVAC,Unassigned,61,2026-09-29,lead,SUMM-L01769
+Haley,Harvey,haley.harvey@andersongroup.example.com,Anderson Group,Building Engineer,Outbound,,,,HVAC,CA,90,2026-09-29,lead,SUMM-L01770
+Kiara,Roach,kiara.roach@martinezgroup.example.com,Martinez Group,Owner,Referral,,,,HVAC,FL,73,2026-09-30,lead,SUMM-L01775

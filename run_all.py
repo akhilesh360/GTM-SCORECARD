@@ -19,5 +19,5 @@ if __name__ == "__main__":
     print("2/6 cleaning and normalizing raw data");  clean.main()
     print("3/6 replaying last 30 days of leads through the AI agent");  agent_replay.main(30)
     print("4/6 running attribution & financial model");  model.main()
-    print("5/6 exporting HubSpot specs and import files");  hubspot.export()
+    print("5/6 exporting HubSpot specs and import files");  hubspot.export(); hubspot.export(sample=450)
     print("6/6 building dashboard");  dashboard_build.main()

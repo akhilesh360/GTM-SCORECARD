@@ -1,0 +1,451 @@
+First Name,Last Name,Email,Company Name,Job Title,Lead Source,UTM Source,UTM Medium,UTM Campaign,Company Type,Territory,Fit Score,Lead Created Date,Lifecycle Stage,Record ID (source)
+Shannon,Goodwin,shannon.goodwin@mahoneygroup.example.com,Mahoney Group,IT Manager,Google Ads,google,cpc,msp_q2_search_nonbrand,MSP,TX,75,2026-04-02,lead,ACME-L00030
+Sean,Smith,sean.smith@johnstonsellers.example.com,Johnston-Sellers,COO,Google Ads,google,cpc,msp_q2_search_nonbrand,MSP,TX,94,2026-04-02,lead,ACME-L00031
+Alejandro,Schwartz,alejandro.schwartz@aguilarandsons.example.com,Aguilar and Sons,Operations Manager,Referral,,,,MSP,NY,73,2026-04-02,lead,ACME-L00033
+Eugene,Casey,eugene.casey@kingandsons.example.com,King and Sons,Owner,Google Ads,google,cpc,msp_q2_search_brand,MSP,CA,,2026-04-03,lead,ACME-L00044
+Kristin,Burton,kristin.burton@frenchterry.example.com,French-Terry,IT Director,Meta Ads,facebook,paid_social,msp_q2_leadgen,MSP,NY,88,2026-04-03,lead,ACME-L00045
+Timothy,Frank,timothy.frank@brownflemingandschmidt.example.com,Brown Fleming and Schmidt,Office Manager,Outbound,,,,MSP,MA,63,2026-04-03,lead,ACME-L00046
+Marvin,Malone,marvin.malone@piercechavez.example.com,Pierce-Chavez,COO,Referral,,,,MSP,NY,73,2026-04-03,customer,ACME-L00051
+Robert,Spencer,robert.spencer@townsendclarkandgraham.example.com,Townsend Clark and Graham,CFO,Meta Ads,facebook,paid_social,msp_q2_leadgen,MSP,FL,88,2026-04-03,lead,ACME-L00053
+Deanna,Stephenson,deanna.stephenson@turnermurrayandhaley.example.com,Turner Murray and Haley,Office Manager,Call Tracking,callrail,phone,gbp_listing,MSP,TX,70,2026-04-04,salesqualifiedlead,ACME-L00058
+Jeffrey,Perez,jeffrey.perez@friedmandiaz.example.com,Friedman-Diaz,Office Manager,Referral,,,,MSP,MA,73,2026-04-05,opportunity,ACME-L00065
+Nicole,Parks,nicole.parks@smithinc.example.com,Smith Inc,Office Manager,Call Tracking,callrail,phone,local_services,MSP,CA,70,2026-04-06,lead,ACME-L00069
+Michael,Martin,michael.martin@adamslopezanddecker.example.com,Adams Lopez and Decker,COO,Outbound,,,,MSP,MA,90,2026-04-06,salesqualifiedlead,ACME-L00072
+William,Aguirre,william.aguirre@obriengonzalezandramirez.example.com,Obrien Gonzalez and Ramirez,COO,Call Tracking,callrail,phone,local_services,MSP,IL,70,2026-04-06,lead,ACME-L00075
+Lance,Allen,lance.allen@salazarharrison.example.com,Salazar-Harrison,IT Manager,Referral,,,,MSP,NJ,73,2026-04-06,customer,ACME-L00082
+Amber,Duncan,amber.duncan@robertsandsons.example.com,Roberts and Sons,IT Director,Google Ads,google,cpc,msp_q2_search_brand,MSP,NY,64,2026-04-06,lead,ACME-L00083
+Carolyn,Gray,carolyn.gray@melendezleeandprice.example.com,Melendez Lee and Price,CFO,Google Ads,google,cpc,msp_q2_search_brand,MSP,MA,67,2026-04-07,salesqualifiedlead,ACME-L00090
+Jamie,Baker,jamie.baker@beasleyjohnson.example.com,Beasley-Johnson,IT Director,Google Ads,google,cpc,msp_q2_search_nonbrand,MSP,IL,94,2026-04-07,salesqualifiedlead,ACME-L00096
+Peter,Berg,peter.berg@kingbrown.example.com,King-Brown,Owner,Google Ads,google,cpc,msp_q2_search_nonbrand,MSP,NJ,94,2026-04-07,lead,ACME-L00105
+Andrew,Montgomery,andrew.montgomery@griffingonzales.example.com,Griffin-Gonzales,IT Director,Google Ads,google,cpc,msp_q2_search_brand,MSP,CA,67,2026-04-08,lead,ACME-L00111
+Victoria,Walker,victoria.walker@watsonandsons.example.com,Watson and Sons,Owner,Google Ads,google,cpc,msp_q2_search_brand,MSP,TX,67,2026-04-08,salesqualifiedlead,ACME-L00114
+Sara,Willis,sara.willis@brownfosteranderickson.example.com,Brown Foster and Erickson,Practice Manager,Outbound,,,,MSP,NY,63,2026-04-08,opportunity,ACME-L00123
+Jennifer,Valenzuela,jennifer.valenzuela@wilsonhouse.example.com,Wilson-House,Owner,Referral,,,,MSP,NY,70,2026-04-08,customer,ACME-L00126
+Connor,Hayes,connor.hayes@brownleeandwilliams.example.com,Brown Lee and Williams,Practice Manager,Google Ads,google,cpc,msp_q2_search_nonbrand,MSP,CA,67,2026-04-08,lead,ACME-L00128
+Erin,Jennings,erin.jennings@adamsplc.example.com,Adams PLC,Owner,Google Ads,google,cpc,msp_q2_search_nonbrand,MSP,IL,94,2026-04-09,customer,ACME-L00136
+Tina,Hood,tina.hood@sullivanllc.example.com,Sullivan LLC,IT Manager,Meta Ads,facebook,paid_social,msp_q2_leadgen,MSP,CA,61,2026-04-09,lead,ACME-L00146
+Margaret,Pace,margaret.pace@berryfrancisandmartin.example.com,Berry Francis and Martin,CFO,Referral,,,,MSP,Unassigned,80,2026-04-09,lead,ACME-L00149
+Thomas,Huang,thomas.huang@dunnmiller.example.com,Dunn-Miller,COO,Google Ads,google,cpc,msp_q2_search_nonbrand,MSP,NY,94,2026-04-10,customer,ACME-L00159
+Catherine,Cox,catherine.cox@leebrown.example.com,Lee-Brown,IT Director,Call Tracking,callrail,phone,gbp_listing,MSP,Unassigned,77,2026-04-11,customer,ACME-L00168
+Anna,Ortega,anna.ortega@smithpittmanandmcdonald.example.com,Smith Pittman and Mcdonald,CFO,Meta Ads,facebook,paid_social,msp_q2_leadgen,MSP,IL,58,2026-04-11,lead,ACME-L00169
+Danielle,Riggs,danielle.riggs@wilkinsking.example.com,Wilkins-King,COO,Google Ads,google,cpc,msp_q2_search_nonbrand,MSP,NY,93,2026-04-12,lead,ACME-L00177
+Renee,Hammond,renee.hammond@williamswolf.example.com,Williams-Wolf,IT Director,Google Ads,google,cpc,msp_q2_search_nonbrand,MSP,IL,67,2026-04-12,lead,ACME-L00181
+Andre,Davis,andre.davis@whitewoodardandadams.example.com,White Woodard and Adams,COO,Google Ads,google,cpc,msp_q2_search_nonbrand,MSP,CA,67,2026-04-12,lead,ACME-L00182
+Robin,Mcclain,robin.mcclain@alexanderandsons.example.com,Alexander and Sons,COO,Google Ads,google,cpc,msp_q2_search_nonbrand,MSP,MA,67,2026-04-13,lead,ACME-L00184
+Jill,Rodriguez,jill.rodriguez@brownhughesandgonzales.example.com,Brown Hughes and Gonzales,IT Manager,Google Ads,google,cpc,msp_q2_search_brand,MSP,NY,67,2026-04-13,lead,ACME-L00185
+Duane,Fischer,duane.fischer@lucasdukeandbrown.example.com,Lucas Duke and Brown,IT Director,Google Ads,google,cpc,msp_q2_search_nonbrand,MSP,NY,67,2026-04-13,lead,ACME-L00190
+Brian,Mcdonald,brian.mcdonald@kennedyplc.example.com,Kennedy PLC,CFO,Google Ads,google,cpc,,MSP,IL,94,2026-04-13,lead,ACME-L00191
+Theresa,Williams,theresa.williams@mezarayandsanders.example.com,Meza Ray and Sanders,CFO,Meta Ads,facebook,paid_social,msp_q2_leadgen,MSP,Unassigned,88,2026-04-13,lead,ACME-L00195
+Thomas,Hardy,thomas.hardy@smithlloydandjackson.example.com,Smith Lloyd and Jackson,Practice Manager,Call Tracking,callrail,phone,gbp_listing,MSP,Unassigned,77,2026-04-13,salesqualifiedlead,ACME-L00199
+Patricia,Burton,patricia.burton@williamsltd.example.com,Williams Ltd,Operations Manager,Outbound,,,,MSP,NY,,2026-04-13,lead,ACME-L00201
+Renee,Lewis,renee.lewis@diazinc.example.com,Diaz Inc,IT Director,Google Ads,google,cpc,msp_q2_search_nonbrand,MSP,IL,37,2026-04-14,lead,ACME-L00203
+Jesus,Murray,jesus.murray@masongrayandhenson.example.com,Mason Gray and Henson,IT Director,Referral,,,,MSP,MA,59,2026-04-14,lead,ACME-L00210
+David,Reynolds,david.reynolds@silvaperezandwhite.example.com,Silva Perez and White,,Outbound,,,,MSP,NJ,90,2026-04-14,lead,ACME-L00218
+Timothy,Miller,timothy.miller@kaiserowens.example.com,Kaiser-Owens,Office Manager,Referral,,,,MSP,NY,73,2026-04-15,lead,ACME-L00225
+Patricia,Miller,patricia.miller@stantonphillipsandmcfarl.example.com,Stanton Phillips and Mcfarland,,Meta Ads,facebook,paid_social,msp_q2_leadgen,MSP,CA,88,2026-04-15,customer,ACME-L00226
+Joanne,Paul,joanne.paul@nicholsonholmes.example.com,Nicholson-Holmes,IT Manager,Meta Ads,facebook,paid_social,msp_q2_leadgen,MSP,NJ,88,2026-04-16,lead,ACME-L00241
+Laurie,Zimmerman,laurie.zimmerman@poolemooreandsmith.example.com,Poole Moore and Smith,CFO,Referral,,,,MSP,NY,73,2026-04-16,lead,ACME-L00247
+Sally,Sanders,sally.sanders@pagetran.example.com,Page-Tran,Practice Manager,Outbound,,,,MSP,NY,90,2026-04-17,lead,ACME-L00254
+Darin,Schmidt,darin.schmidt@connerllc.example.com,Conner LLC,IT Manager,Google Ads,google,cpc,msp_q2_search_nonbrand,MSP,NY,94,2026-04-17,salesqualifiedlead,ACME-L00259
+Claire,Mccullough,claire.mccullough@morgangroup.example.com,Morgan Group,Office Manager,Google Ads,google,cpc,msp_q2_search_nonbrand,MSP,NY,94,2026-04-17,lead,ACME-L00264
+Lori,Jackson,lori.jackson@robinsonatkinsanddavis.example.com,Robinson Atkins and Davis,IT Director,Referral,,,,MSP,NJ,73,2026-04-19,customer,ACME-L00280
+Phillip,Hunter,phillip.hunter@reynoldssimpsonanddavenp.example.com,Reynolds Simpson and Davenport,CFO,Referral,,,,MSP,MA,100,2026-04-20,lead,ACME-L00291
+Duane,Harrell,duane.harrell@brownreevesandtran.example.com,Brown Reeves and Tran,IT Director,Meta Ads,facebook,paid_social,msp_q2_leadgen,MSP,NY,88,2026-04-20,lead,ACME-L00298
+Eric,Henson,eric.henson@lopezandsons.example.com,Lopez and Sons,CFO,Outbound,,,,MSP,MA,90,2026-04-21,lead,ACME-L00305
+Katelyn,Dickerson,katelyn.dickerson@wardgroup.example.com,Ward Group,Office Manager,Google Ads,google,cpc,msp_q2_search_nonbrand,MSP,MA,94,2026-04-21,lead,ACME-L00307
+Kevin,Hood,kevin.hood@reyesandsons.example.com,Reyes and Sons,Practice Manager,Google Ads,google,cpc,msp_q2_search_nonbrand,MSP,MA,,2026-04-22,lead,ACME-L00318
+Brett,Thomas,brett.thomas@mejiaanderson.example.com,Mejia-Anderson,IT Manager,Google Ads,google,cpc,msp_q2_search_nonbrand,MSP,NY,42,2026-04-22,salesqualifiedlead,ACME-L00322
+Erica,Chavez,erica.chavez@jordanmarshallandwilliam.example.com,Jordan Marshall and Williams,Practice Manager,Google Ads,google,cpc,msp_q2_search_brand,MSP,NY,67,2026-04-22,lead,ACME-L00327
+Tamara,Clark,tamara.clark@mosesmartinez.example.com,Moses-Martinez,CFO,Google Ads,google,cpc,msp_q2_search_brand,MSP,FL,45,2026-04-23,lead,ACME-L00330
+Sandra,Edwards,sandra.edwards@fieldsinc.example.com,Fields Inc,IT Director,Outbound,,,,MSP,CA,63,2026-04-23,lead,ACME-L00331
+Holly,Lee,holly.lee@montoyajohnsonanddavis.example.com,Montoya Johnson and Davis,Office Manager,Google Ads,google,cpc,msp_q2_search_nonbrand,MSP,CA,94,2026-04-23,salesqualifiedlead,ACME-L00333
+Jacob,Smith,jacob.smith@bennettkingandsimmons.example.com,Bennett King and Simmons,Owner,Google Ads,google,cpc,,MSP,IL,94,2026-04-23,opportunity,ACME-L00340
+William,Eaton,william.eaton@andersonwilkins.example.com,Anderson-Wilkins,Operations Manager,Google Ads,google,cpc,msp_q2_search_brand,MSP,NJ,94,2026-04-23,lead,ACME-L00341
+Crystal,Warner,crystal.warner@adamsmccoy.example.com,Adams-Mccoy,Practice Manager,Call Tracking,callrail,phone,gbp_listing,MSP,NY,70,2026-04-25,lead,ACME-L00363
+Joanna,Moore,joanna.moore@haysltd.example.com,Hays Ltd,Owner,Referral,,,,MSP,Unassigned,80,2026-04-27,lead,ACME-L00375
+Maurice,Day,maurice.day@mendozaltd.example.com,Mendoza Ltd,Practice Manager,Google Ads,google,cpc,msp_q2_search_brand,MSP,NY,69,2026-04-27,lead,ACME-L00377
+Lisa,Mays,lisa.mays@lanemoore.example.com,Lane-Moore,Office Manager,Meta Ads,facebook,paid_social,msp_q2_leadgen,MSP,MA,57,2026-04-28,opportunity,ACME-L00396
+Annette,Rodriguez,annette.rodriguez@barrygutierrezandbrown.example.com,Barry Gutierrez and Brown,CFO,Meta Ads,facebook,paid_social,msp_q2_leadgen,MSP,NJ,88,2026-04-28,lead,ACME-L00402
+Karen,Jimenez,karen.jimenez@bennettllc.example.com,Bennett LLC,Office Manager,Google Ads,google,cpc,msp_q2_search_brand,MSP,NY,94,2026-04-29,lead,ACME-L00411
+Susan,Mccall,susan.mccall@martinezplc.example.com,Martinez PLC,Practice Manager,Meta Ads,facebook,paid_social,msp_q2_leadgen,MSP,NY,88,2026-04-29,salesqualifiedlead,ACME-L00419
+Tristan,Robinson,tristan.robinson@kellycarr.example.com,Kelly-Carr,IT Director,Referral,,,,MSP,NY,73,2026-04-29,salesqualifiedlead,ACME-L00420
+Jonathan,Friedman,jonathan.friedman@youngandsons.example.com,Young and Sons,IT Manager,Google Ads,google,cpc,msp_q2_search_nonbrand,MSP,NJ,94,2026-04-29,salesqualifiedlead,ACME-L00423
+Michael,Wright,michael.wright@owensmclean.example.com,Owens-Mclean,Owner,Meta Ads,facebook,paid_social,msp_q2_leadgen,MSP,NJ,88,2026-04-29,lead,ACME-L00429
+Sarah,Wright,sarah.wright@brownholmesandrosario.example.com,Brown Holmes and Rosario,IT Manager,Outbound,,,,MSP,IL,62,2026-04-30,lead,ACME-L00439
+Robin,Blackburn,robin.blackburn@vancejonesandparrish.example.com,Vance Jones and Parrish,CFO,Meta Ads,facebook,paid_social,msp_q2_leadgen,MSP,CA,74,2026-04-30,lead,ACME-L00441
+Thomas,Wilson,thomas.wilson@mosesguzman.example.com,Moses-Guzman,,Referral,,,,MSP,NJ,81,2026-04-30,lead,ACME-L00445
+Chelsea,Mosley,chelsea.mosley@cranegroup.example.com,Crane Group,Operations Manager,Referral,,,,MSP,TX,75,2026-04-30,lead,ACME-L00448
+Krystal,Smith,krystal.smith@hughesandsons.example.com,Hughes and Sons,COO,Google Ads,google,cpc,msp_q2_search_nonbrand,MSP,IL,67,2026-04-30,lead,ACME-L00452
+Christopher,Alvarado,christopher.alvarado@moodyhall.example.com,Moody-Hall,IT Manager,Google Ads,google,cpc,msp_q2_search_brand,MSP,NY,51,2026-05-01,lead,ACME-L00469
+Amanda,Wilson,amanda.wilson@hernandezllc.example.com,Hernandez LLC,COO,Google Ads,google,cpc,msp_q2_search_brand,MSP,TX,37,2026-05-01,lead,ACME-L00472
+Mary,Miller,mary.miller@castrojohnsonandyates.example.com,Castro Johnson and Yates,,Google Ads,google,cpc,msp_q2_search_brand,MSP,NJ,94,2026-05-03,lead,ACME-L00480
+Jacob,Ryan,jacob.ryan@holmesinc.example.com,Holmes Inc,COO,Meta Ads,facebook,paid_social,msp_q2_leadgen,MSP,NY,58,2026-05-03,lead,ACME-L00487
+Dustin,Gardner,dustin.gardner@jenkinsevans.example.com,Jenkins-Evans,COO,Google Ads,google,cpc,msp_q2_search_nonbrand,MSP,CA,67,2026-05-04,customer,ACME-L00499
+Anna,Hampton,anna.hampton@myersjacksonandchoi.example.com,Myers Jackson and Choi,IT Manager,Google Ads,google,cpc,msp_q2_search_nonbrand,MSP,TX,94,2026-05-04,lead,ACME-L00505
+Daniel,Schwartz,daniel.schwartz@millerinc.example.com,Miller Inc,IT Director,Meta Ads,facebook,paid_social,msp_q2_leadgen,MSP,CA,61,2026-05-05,lead,ACME-L00517
+Rodney,Ryan,rodney.ryan@howardllc.example.com,Howard LLC,Operations Manager,Referral,,,,MSP,TX,73,2026-05-05,lead,ACME-L00521
+Derrick,Benton,derrick.benton@bradyjohnsonandnguyen.example.com,Brady Johnson and Nguyen,Office Manager,Referral,,,,MSP,Unassigned,,2026-05-06,opportunity,ACME-L00531
+Mary,Flores,mary.flores@griffithweeks.example.com,Griffith-Weeks,COO,Meta Ads,facebook,paid_social,msp_q2_leadgen,MSP,FL,61,2026-05-06,lead,ACME-L00537
+Gabrielle,Riley,gabrielle.riley@jordanmcbrideandsantos.example.com,Jordan Mcbride and Santos,IT Director,Outbound,,,,MSP,NY,63,2026-05-06,lead,ACME-L00538
+Holly,Smith,holly.smith@douglascurtis.example.com,Douglas-Curtis,IT Director,Outbound,,,,MSP,NJ,63,2026-05-06,lead,ACME-L00543
+Michael,Christensen,michael.christensen@ayersfoxandroberts.example.com,Ayers Fox and Roberts,Practice Manager,Referral,,,,MSP,NY,73,2026-05-06,lead,ACME-L00545
+Brittany,White,brittany.white@cochrangroup.example.com,Cochran Group,CFO,Call Tracking,callrail,phone,local_services,MSP,NJ,70,2026-05-06,customer,ACME-L00552
+Chelsea,Phillips,chelsea.phillips@sharpllc.example.com,Sharp LLC,Practice Manager,Google Ads,google,cpc,,MSP,NY,67,2026-05-07,lead,ACME-L00554
+Heather,Cole,heather.cole@fostershea.example.com,Foster-Shea,Operations Manager,Google Ads,google,cpc,msp_q2_search_brand,MSP,CA,94,2026-05-07,customer,ACME-L00563
+Sydney,Peterson,sydney.peterson@maldonadollc.example.com,Maldonado LLC,Operations Manager,Referral,,,,MSP,NJ,100,2026-05-07,customer,ACME-L00566
+Emma,Mcmahon,emma.mcmahon@perezgroup.example.com,Perez Group,IT Manager,Meta Ads,facebook,paid_social,msp_q2_leadgen,MSP,MA,88,2026-05-07,salesqualifiedlead,ACME-L00568
+Michael,Mckinney,michael.mckinney@foleymaxwellandrice.example.com,Foley Maxwell and Rice,Practice Manager,Outbound,,,,MSP,NY,90,2026-05-07,salesqualifiedlead,ACME-L00570
+Sean,Carroll,sean.carroll@mccartymartin.example.com,Mccarty-Martin,,Outbound,,,,MSP,Unassigned,43,2026-05-08,lead,ACME-L00577
+Bradley,Park,bradley.park@burnsandsons.example.com,Burns and Sons,,Google Ads,google,cpc,msp_q2_search_nonbrand,MSP,TX,67,2026-05-08,lead,ACME-L00578
+Hunter,Wilson,hunter.wilson@bellfuller.example.com,Bell-Fuller,IT Director,Google Ads,google,cpc,msp_q2_search_brand,MSP,Unassigned,78,2026-05-09,lead,ACME-L00594
+Henry,Nielsen,henry.nielsen@olsengroup.example.com,Olsen Group,CFO,Google Ads,google,cpc,msp_q2_search_brand,MSP,TX,67,2026-05-10,customer,ACME-L00601
+Brian,Shaw,brian.shaw@weberinc.example.com,Weber Inc,CFO,Referral,,,,MSP,CA,100,2026-05-11,customer,ACME-L00607
+John,James,john.james@blackwellbeckerandparker.example.com,Blackwell Becker and Parker,IT Manager,Google Ads,google,cpc,msp_q2_search_brand,MSP,MA,67,2026-05-11,lead,ACME-L00614
+Gina,Page,gina.page@youngvasquezandodonnell.example.com,Young Vasquez and Odonnell,IT Manager,Google Ads,google,cpc,msp_q2_search_nonbrand,MSP,Unassigned,84,2026-05-11,lead,ACME-L00617
+Tracy,Gibbs,tracy.gibbs@rodriguezinc.example.com,Rodriguez Inc,IT Director,Meta Ads,facebook,paid_social,msp_q2_leadgen,MSP,MA,61,2026-05-11,lead,ACME-L00620
+Michael,Herring,michael.herring@gilbertwalkerandrose.example.com,Gilbert Walker and Rose,Owner,Call Tracking,callrail,phone,local_services,MSP,FL,70,2026-05-12,lead,ACME-L00627
+Brian,Smith,brian.smith@allisonflemingandkeller.example.com,Allison Fleming and Keller,Operations Manager,Google Ads,google,cpc,msp_q2_search_nonbrand,MSP,TX,50,2026-05-13,lead,ACME-L00657
+Kimberly,Ward,kimberly.ward@matthewsgroup.example.com,Matthews Group,COO,Referral,,,,MSP,FL,100,2026-05-13,lead,ACME-L00666
+Monica,Fisher,monica.fisher@robertsandsons.example.com,Roberts and Sons,Operations Manager,Referral,,,,MSP,NY,70,2026-05-14,customer,ACME-L00680
+Roger,Pugh,roger.pugh@sotowilson.example.com,Soto-Wilson,Office Manager,Meta Ads,facebook,paid_social,msp_q2_leadgen,MSP,CA,53,2026-05-14,lead,ACME-L00686
+Wendy,Brock,wendy.brock@perezdillon.example.com,Perez-Dillon,Practice Manager,Referral,,,,MSP,FL,85,2026-05-14,lead,ACME-L00692
+James,Flores,james.flores@lopezparkerandacevedo.example.com,Lopez Parker and Acevedo,Practice Manager,Meta Ads,facebook,paid_social,msp_q2_leadgen,MSP,NJ,55,2026-05-14,lead,ACME-L00694
+Oscar,Franco,oscar.franco@kingrios.example.com,King-Rios,Operations Manager,Google Ads,google,cpc,msp_q2_search_nonbrand,MSP,NY,67,2026-05-14,lead,ACME-L00695
+Jennifer,Kane,jennifer.kane@floresplc.example.com,Flores PLC,Office Manager,Referral,,,,MSP,TX,100,2026-05-15,customer,ACME-L00700
+James,Ramirez,james.ramirez@douglaspineda.example.com,Douglas-Pineda,Office Manager,Call Tracking,callrail,phone,local_services,MSP,MA,70,2026-05-15,customer,ACME-L00706
+Regina,Cole,regina.cole@adamsharris.example.com,Adams-Harris,IT Manager,Google Ads,google,cpc,msp_q2_search_brand,MSP,FL,67,2026-05-15,salesqualifiedlead,ACME-L00709
+Donna,Peterson,donna.peterson@johnsonsandovalandphelps.example.com,Johnson Sandoval and Phelps,CFO,Google Ads,google,cpc,msp_q2_search_nonbrand,MSP,IL,94,2026-05-15,customer,ACME-L00713
+Steven,Morgan,steven.morgan@roachandersonandbrown.example.com,Roach Anderson and Brown,COO,Meta Ads,facebook,paid_social,msp_q2_leadgen,MSP,NJ,88,2026-05-16,lead,ACME-L00719
+Michael,Lopez,michael.lopez@millerandsons.example.com,Miller and Sons,CFO,Call Tracking,callrail,phone,local_services,MSP,TX,97,2026-05-18,lead,ACME-L00724
+Natalie,Martinez,natalie.martinez@smithewingandstewart.example.com,Smith Ewing and Stewart,IT Manager,Referral,,,,MSP,FL,73,2026-05-18,lead,ACME-L00737
+Bonnie,Tanner,bonnie.tanner@murilloandsons.example.com,Murillo and Sons,Practice Manager,Call Tracking,callrail,phone,local_services,MSP,MA,97,2026-05-18,customer,ACME-L00739
+Leroy,Hernandez,leroy.hernandez@walshosborne.example.com,Walsh-Osborne,COO,Google Ads,google,cpc,msp_q2_search_brand,MSP,FL,67,2026-05-19,lead,ACME-L00749
+Heather,Blair,heather.blair@franklinllc.example.com,Franklin LLC,Office Manager,Outbound,,,,MSP,IL,63,2026-05-19,customer,ACME-L00750
+Timothy,White,timothy.white@wilsongroup.example.com,Wilson Group,COO,Google Ads,google,cpc,msp_q2_search_brand,MSP,NJ,94,2026-05-20,opportunity,ACME-L00757
+Kelly,Page,kelly.page@hillgroup.example.com,Hill Group,IT Director,Outbound,,,,MSP,Unassigned,43,2026-05-20,opportunity,ACME-L00762
+Heather,Long,heather.long@bradymiller.example.com,Brady-Miller,Operations Manager,Referral,,,,MSP,TX,73,2026-05-20,lead,ACME-L00765
+Alexandra,Morrow,alexandra.morrow@rodriguezgarciaandjackso.example.com,Rodriguez Garcia and Jackson,COO,Google Ads,google,cpc,msp_q2_search_brand,MSP,MA,39,2026-05-20,salesqualifiedlead,ACME-L00776
+Alexis,Nichols,alexis.nichols@goldenchapmanandgonzalez.example.com,Golden Chapman and Gonzalez,Owner,Google Ads,google,cpc,msp_q2_search_nonbrand,MSP,Unassigned,74,2026-05-21,lead,ACME-L00785
+Amanda,Garcia,amanda.garcia@wuinc.example.com,Wu Inc,Operations Manager,Google Ads,google,cpc,msp_q2_search_brand,MSP,IL,94,2026-05-21,lead,ACME-L00788
+Matthew,Brown,matthew.brown@sullivanshelton.example.com,Sullivan-Shelton,Operations Manager,Outbound,,,,MSP,CA,63,2026-05-21,lead,ACME-L00793
+Rebecca,Reyes,rebecca.reyes@smithandsons.example.com,Smith and Sons,Office Manager,Referral,,,,MSP,MA,73,2026-05-21,lead,ACME-L00806
+Austin,Taylor,austin.taylor@kochinc.example.com,Koch Inc,COO,Outbound,,,,MSP,MA,90,2026-05-22,lead,ACME-L00819
+Marissa,Pham,marissa.pham@gilesconwayandmcgee.example.com,Giles Conway and Mcgee,CFO,Google Ads,google,cpc,,MSP,Unassigned,94,2026-05-22,lead,ACME-L00823
+Gregg,Torres,gregg.torres@lewisltd.example.com,Lewis Ltd,COO,Referral,,,,MSP,Unassigned,100,2026-05-23,lead,ACME-L00830
+John,Matthews,john.matthews@christensenabbott.example.com,Christensen-Abbott,IT Manager,Referral,,,,MSP,TX,73,2026-05-25,customer,ACME-L00848
+Brian,Davenport,brian.davenport@coxcherry.example.com,Cox-Cherry,IT Director,Google Ads,google,cpc,msp_q2_search_brand,MSP,NY,94,2026-05-25,lead,ACME-L00851
+Thomas,Hunt,thomas.hunt@vaughanhall.example.com,Vaughan-Hall,IT Director,Google Ads,google,cpc,msp_q2_search_brand,MSP,IL,64,2026-05-25,lead,ACME-L00860
+Elizabeth,Brennan,elizabeth.brennan@woodmartin.example.com,Wood-Martin,Office Manager,Google Ads,google,cpc,msp_q2_search_nonbrand,MSP,NY,94,2026-05-25,customer,ACME-L00863
+Manuel,Thompson,manuel.thompson@cherryplc.example.com,Cherry PLC,Owner,Meta Ads,facebook,paid_social,msp_q2_leadgen,MSP,CA,61,2026-05-26,lead,ACME-L00867
+Ronald,Torres,ronald.torres@alvaradostrong.example.com,Alvarado-Strong,Practice Manager,Google Ads,google,cpc,msp_q2_search_nonbrand,MSP,MA,67,2026-05-26,lead,ACME-L00868
+Jennifer,Newton,jennifer.newton@martinthompson.example.com,Martin-Thompson,IT Director,Google Ads,google,cpc,msp_q2_search_nonbrand,MSP,MA,75,2026-05-26,customer,ACME-L00871
+Dawn,Jenkins,dawn.jenkins@villarrealllc.example.com,Villarreal LLC,IT Manager,Call Tracking,callrail,phone,gbp_listing,MSP,MA,70,2026-05-26,lead,ACME-L00881
+Shelly,Rivera,shelly.rivera@wardltd.example.com,Ward Ltd,COO,Google Ads,google,cpc,msp_q2_search_brand,MSP,Unassigned,74,2026-05-26,lead,ACME-L00882
+Kimberly,Parker,kimberly.parker@scottdawsonandhines.example.com,Scott Dawson and Hines,COO,Referral,,,,MSP,NY,100,2026-05-26,opportunity,ACME-L00883
+Kathy,Johnson,kathy.johnson@davischristianandfitzger.example.com,Davis Christian and Fitzgerald,IT Director,Referral,,,,MSP,NY,100,2026-05-27,customer,ACME-L00885
+Eric,Hopkins,eric.hopkins@jonesinc.example.com,Jones Inc,,Call Tracking,callrail,phone,gbp_listing,MSP,TX,,2026-05-27,lead,ACME-L00887
+Todd,Macdonald,todd.macdonald@campbellrivera.example.com,Campbell-Rivera,IT Manager,Google Ads,google,cpc,msp_q2_search_nonbrand,MSP,NJ,67,2026-05-27,lead,ACME-L00892
+Peter,Smith,peter.smith@gatesandsons.example.com,Gates and Sons,Practice Manager,Referral,,,,MSP,NJ,73,2026-05-27,lead,ACME-L00894
+Rebecca,Riley,rebecca.riley@saundershubbard.example.com,Saunders-Hubbard,COO,Meta Ads,facebook,paid_social,msp_q2_leadgen,MSP,MA,39,2026-05-28,lead,ACME-L00904
+Angel,Martin,angel.martin@ayersgroup.example.com,Ayers Group,IT Director,Referral,,,,MSP,IL,73,2026-05-29,salesqualifiedlead,ACME-L00914
+Kristin,King,kristin.king@andrewsinc.example.com,Andrews Inc,Owner,Outbound,,,,MSP,MA,,2026-05-29,lead,ACME-L00922
+Lauren,Garcia,lauren.garcia@wilkinsonkelleyandhughes.example.com,Wilkinson Kelley and Hughes,COO,Google Ads,google,cpc,msp_q2_search_nonbrand,MSP,FL,94,2026-06-01,customer,ACME-L00942
+Joshua,Herrera,joshua.herrera@gutierrezinc.example.com,Gutierrez Inc,Practice Manager,Referral,,,,MSP,NY,100,2026-06-01,salesqualifiedlead,ACME-L00953
+James,Vargas,james.vargas@duffyruiz.example.com,Duffy-Ruiz,Office Manager,Call Tracking,callrail,phone,gbp_listing,MSP,FL,97,2026-06-01,lead,ACME-L00956
+Kimberly,Harris,kimberly.harris@evansbrownandscott.example.com,Evans Brown and Scott,IT Manager,Meta Ads,facebook,paid_social,msp_q2_leadgen,MSP,TX,88,2026-06-02,lead,ACME-L00963
+Peter,Coleman,peter.coleman@kempgroup.example.com,Kemp Group,Operations Manager,Referral,,,,MSP,NY,73,2026-06-02,lead,ACME-L00966
+Lindsay,Pollard,lindsay.pollard@jacksonreedandgarcia.example.com,Jackson Reed and Garcia,IT Manager,Google Ads,google,cpc,msp_q2_search_brand,MSP,MA,94,2026-06-02,lead,ACME-L00968
+Kenneth,Porter,kenneth.porter@davisrodriguez.example.com,Davis-Rodriguez,CFO,Meta Ads,facebook,paid_social,msp_q2_leadgen,MSP,MA,88,2026-06-02,customer,ACME-L00969
+Jennifer,Petty,jennifer.petty@hoodreese.example.com,Hood-Reese,,Referral,,,,MSP,CA,73,2026-06-02,lead,ACME-L00972
+Jessica,Novak,jessica.novak@johnsonstevensandtran.example.com,Johnson Stevens and Tran,,Google Ads,google,cpc,msp_q2_search_brand,MSP,MA,67,2026-06-02,salesqualifiedlead,ACME-L00976
+Philip,Edwards,philip.edwards@jenkinsvelazquez.example.com,Jenkins-Velazquez,COO,Call Tracking,callrail,phone,gbp_listing,MSP,NY,70,2026-06-02,salesqualifiedlead,ACME-L00979
+Brittany,Bradford,brittany.bradford@millertorres.example.com,Miller-Torres,,Call Tracking,callrail,phone,local_services,MSP,FL,70,2026-06-03,customer,ACME-L00983
+Martin,Ross,martin.ross@barrerainc.example.com,Barrera Inc,Operations Manager,Referral,,,,MSP,MA,43,2026-06-03,lead,ACME-L00990
+Monica,Hampton,monica.hampton@rivasroberts.example.com,Rivas-Roberts,Owner,Outbound,,,,MSP,MA,63,2026-06-03,customer,ACME-L00996
+Amy,Bennett,amy.bennett@greenoliverandjones.example.com,Green Oliver and Jones,Office Manager,Google Ads,google,cpc,msp_q2_search_nonbrand,MSP,CA,94,2026-06-03,salesqualifiedlead,ACME-L00998
+Anthony,Wood,anthony.wood@tannerleach.example.com,Tanner-Leach,IT Director,Meta Ads,facebook,paid_social,msp_q2_leadgen,MSP,NY,61,2026-06-04,lead,ACME-L01008
+Gregory,Townsend,gregory.townsend@campbellriveraandlane.example.com,Campbell Rivera and Lane,Office Manager,Google Ads,google,cpc,msp_q2_search_nonbrand,MSP,Unassigned,47,2026-06-04,customer,ACME-L01010
+Mark,Morris,mark.morris@herringhuberandsmith.example.com,Herring Huber and Smith,IT Manager,Meta Ads,facebook,paid_social,msp_q2_leadgen,MSP,NJ,88,2026-06-05,lead,ACME-L01029
+Nichole,Martin,nichole.martin@rodriguezbailey.example.com,Rodriguez-Bailey,CFO,Outbound,,,,MSP,NY,63,2026-06-05,lead,ACME-L01030
+Emily,Walker,emily.walker@rogersadams.example.com,Rogers-Adams,IT Manager,Outbound,,,,MSP,FL,90,2026-06-05,lead,ACME-L01031
+Tracey,Adams,tracey.adams@powellacostaandwatson.example.com,Powell Acosta and Watson,IT Director,Call Tracking,callrail,phone,gbp_listing,MSP,NJ,70,2026-06-06,salesqualifiedlead,ACME-L01035
+Sue,Miller,sue.miller@colemanmccannandarroyo.example.com,Coleman Mccann and Arroyo,IT Manager,Meta Ads,facebook,paid_social,msp_q2_leadgen,MSP,CA,88,2026-06-08,lead,ACME-L01064
+Jacob,Hutchinson,jacob.hutchinson@wilsonkimandwallace.example.com,Wilson Kim and Wallace,CFO,Referral,,,,MSP,MA,73,2026-06-08,customer,ACME-L01071
+Adam,Woodard,adam.woodard@taylorfrost.example.com,Taylor-Frost,COO,Google Ads,google,cpc,msp_q2_search_brand,MSP,CA,94,2026-06-09,lead,ACME-L01078
+Jeffrey,Ramirez,jeffrey.ramirez@dixonchapman.example.com,Dixon-Chapman,Practice Manager,Google Ads,google,cpc,msp_q2_search_nonbrand,MSP,IL,67,2026-06-09,salesqualifiedlead,ACME-L01089
+Robert,Cunningham,robert.cunningham@guerrerokingandmoon.example.com,Guerrero King and Moon,IT Manager,Referral,,,,MSP,CA,73,2026-06-10,lead,ACME-L01102
+Amanda,Roberts,amanda.roberts@gonzalezinc.example.com,Gonzalez Inc,Office Manager,Google Ads,google,cpc,msp_q2_search_nonbrand,MSP,IL,67,2026-06-10,salesqualifiedlead,ACME-L01104
+Brent,Haynes,brent.haynes@weberinc.example.com,Weber Inc,COO,Referral,,,,MSP,CA,100,2026-06-10,customer,ACME-L01108
+Briana,Calderon,briana.calderon@berryrodriguez.example.com,Berry-Rodriguez,IT Director,Outbound,,,,MSP,NY,63,2026-06-10,lead,ACME-L01110
+Marc,Johnson,marc.johnson@willisandrews.example.com,Willis-Andrews,CFO,Google Ads,google,cpc,msp_q2_search_nonbrand,MSP,NY,67,2026-06-10,lead,ACME-L01112
+David,White,david.white@littlellc.example.com,Little LLC,IT Manager,Meta Ads,facebook,paid_social,msp_q2_leadgen,MSP,Unassigned,41,2026-06-11,lead,ACME-L01125
+Paula,Wilson,paula.wilson@fieldssingh.example.com,Fields-Singh,Office Manager,Call Tracking,callrail,phone,gbp_listing,MSP,MA,70,2026-06-11,lead,ACME-L01129
+Kimberly,Tran,kimberly.tran@sandersllc.example.com,Sanders LLC,Operations Manager,Outbound,,,,MSP,NY,63,2026-06-11,customer,ACME-L01130
+Debra,Joseph,debra.joseph@greeneguerreroandrivera.example.com,Greene Guerrero and Rivera,IT Director,Google Ads,google,cpc,msp_q2_search_nonbrand,MSP,TX,67,2026-06-12,lead,ACME-L01138
+Victoria,Johnson,victoria.johnson@huberleonardandcruz.example.com,Huber Leonard and Cruz,CFO,Google Ads,google,cpc,msp_q2_search_brand,MSP,MA,94,2026-06-12,lead,ACME-L01139
+Angela,Sullivan,angela.sullivan@martinsutton.example.com,Martin-Sutton,Practice Manager,Meta Ads,facebook,paid_social,msp_q2_leadgen,MSP,NY,66,2026-06-12,lead,ACME-L01147
+Carrie,Strong,carrie.strong@scottblackandthompson.example.com,Scott Black and Thompson,Operations Manager,Meta Ads,facebook,paid_social,msp_q2_leadgen,MSP,TX,,2026-06-13,lead,ACME-L01149
+Nicholas,Clay,nicholas.clay@briggsbrown.example.com,Briggs-Brown,COO,Call Tracking,callrail,phone,local_services,MSP,CA,70,2026-06-14,lead,ACME-L01158
+Colleen,Faulkner,colleen.faulkner@mccoyplc.example.com,Mccoy PLC,Owner,Referral,,,,MSP,IL,78,2026-06-14,salesqualifiedlead,ACME-L01160
+Gabriel,Patton,gabriel.patton@langltd.example.com,Lang Ltd,CFO,Meta Ads,facebook,paid_social,msp_q2_leadgen,MSP,CA,61,2026-06-14,lead,ACME-L01161
+Ann,Jackson,ann.jackson@westllc.example.com,West LLC,,Meta Ads,facebook,paid_social,msp_q2_leadgen,MSP,MA,61,2026-06-15,lead,ACME-L01184
+Dana,Yang,dana.yang@bennettmartinez.example.com,Bennett-Martinez,COO,Google Ads,google,cpc,msp_q2_search_brand,MSP,FL,94,2026-06-16,lead,ACME-L01207
+Lawrence,Brandt,lawrence.brandt@alexanderwillis.example.com,Alexander-Willis,IT Director,Call Tracking,callrail,phone,local_services,MSP,CA,70,2026-06-17,lead,ACME-L01220
+Edward,Rodriguez,edward.rodriguez@stephensmartin.example.com,Stephens-Martin,Operations Manager,Meta Ads,facebook,paid_social,msp_q2_leadgen,MSP,MA,88,2026-06-18,lead,ACME-L01228
+Jennifer,Patel,jennifer.patel@steelerobertsonandbell.example.com,Steele Robertson and Bell,Owner,Meta Ads,facebook,paid_social,msp_q2_leadgen,MSP,CA,42,2026-06-18,salesqualifiedlead,ACME-L01237
+Travis,Poole,travis.poole@garrisonzhang.example.com,Garrison-Zhang,COO,Call Tracking,callrail,phone,gbp_listing,MSP,NJ,97,2026-06-19,salesqualifiedlead,ACME-L01244
+Eric,Gonzales,eric.gonzales@fordmooreandlewis.example.com,Ford Moore and Lewis,Owner,Referral,,,,MSP,NJ,99,2026-06-19,lead,ACME-L01246
+David,Robinson,david.robinson@davisdeanandcallahan.example.com,Davis Dean and Callahan,COO,Referral,,,,MSP,IL,73,2026-06-19,lead,ACME-L01254
+Ashley,Morris,ashley.morris@harrisoninc.example.com,Harrison Inc,COO,Google Ads,google,cpc,msp_q2_search_brand,MSP,CA,37,2026-06-19,lead,ACME-L01255
+Robert,Gordon,robert.gordon@andersondominguezandsmit.example.com,Anderson Dominguez and Smith,COO,Referral,,,,MSP,NJ,73,2026-06-19,lead,ACME-L01258
+Jennifer,Curry,jennifer.curry@cherryltd.example.com,Cherry Ltd,COO,Google Ads,google,cpc,msp_q2_search_brand,MSP,NY,78,2026-06-19,lead,ACME-L01259
+Michael,Hill,michael.hill@hensleywolfandpeters.example.com,Hensley Wolf and Peters,CFO,Referral,,,,MSP,CA,73,2026-06-21,opportunity,ACME-L01275
+Tina,Adams,tina.adams@herrerahernandez.example.com,Herrera-Hernandez,IT Manager,Google Ads,google,cpc,msp_q2_search_nonbrand,MSP,NY,67,2026-06-21,lead,ACME-L01277
+Jason,Goodwin,jason.goodwin@brookspoole.example.com,Brooks-Poole,IT Manager,Google Ads,google,cpc,msp_q2_search_nonbrand,MSP,NY,94,2026-06-22,lead,ACME-L01286
+Deborah,Daniels,deborah.daniels@bauergroup.example.com,Bauer Group,Operations Manager,Google Ads,google,cpc,msp_q2_search_nonbrand,MSP,CA,67,2026-06-22,lead,ACME-L01288
+Jamie,Davis,jamie.davis@jonesdennisandthompson.example.com,Jones Dennis and Thompson,COO,Meta Ads,facebook,paid_social,msp_q2_leadgen,MSP,TX,88,2026-06-22,opportunity,ACME-L01296
+Christian,Nguyen,christian.nguyen@nguyenpattersonandmartin.example.com,Nguyen Patterson and Martinez,Owner,Google Ads,google,cpc,msp_q2_search_brand,MSP,NJ,67,2026-06-22,lead,ACME-L01297
+Leslie,Benjamin,leslie.benjamin@willisplc.example.com,Willis PLC,Office Manager,Outbound,,,,MSP,FL,63,2026-06-23,customer,ACME-L01302
+Chase,Butler,chase.butler@jamesltd.example.com,James Ltd,CFO,Google Ads,google,cpc,msp_q2_search_brand,MSP,MA,69,2026-06-23,lead,ACME-L01304
+Matthew,Sanders,matthew.sanders@harrisonfrederick.example.com,Harrison-Frederick,CFO,Outbound,,,,MSP,CA,90,2026-06-23,lead,ACME-L01305
+Ashley,Davis,ashley.davis@mooreplc.example.com,Moore PLC,Practice Manager,Outbound,,,,MSP,NY,90,2026-06-24,lead,ACME-L01320
+Luis,Martinez,luis.martinez@basspowersandpaul.example.com,Bass Powers and Paul,CFO,Meta Ads,facebook,paid_social,msp_q2_leadgen,MSP,IL,82,2026-06-24,lead,ACME-L01332
+Joshua,Brown,joshua.brown@petersongroup.example.com,Peterson Group,CFO,Meta Ads,facebook,paid_social,msp_q2_leadgen,MSP,NY,88,2026-06-24,lead,ACME-L01333
+Melanie,Phillips,melanie.phillips@cooperortiz.example.com,Cooper-Ortiz,Office Manager,Meta Ads,facebook,paid_social,msp_q2_leadgen,MSP,NY,61,2026-06-25,lead,ACME-L01341
+Joe,Caldwell,joe.caldwell@browningkerr.example.com,Browning-Kerr,Operations Manager,Call Tracking,callrail,phone,local_services,MSP,CA,67,2026-06-25,salesqualifiedlead,ACME-L01350
+Carla,Daniel,carla.daniel@mitchellgroup.example.com,Mitchell Group,CFO,Meta Ads,facebook,paid_social,msp_q2_leadgen,MSP,CA,,2026-06-25,lead,ACME-L01356
+Michael,Mcdonald,michael.mcdonald@mckenzieandsons.example.com,Mckenzie and Sons,Practice Manager,Google Ads,google,cpc,msp_q2_search_nonbrand,MSP,CA,90,2026-06-26,customer,ACME-L01363
+Brian,Brown,brian.brown@oneillllc.example.com,Oneill LLC,IT Director,Google Ads,google,cpc,msp_q2_search_brand,MSP,CA,59,2026-06-27,salesqualifiedlead,ACME-L01387
+Arthur,Haynes,arthur.haynes@garciaschaeferandeaton.example.com,Garcia Schaefer and Eaton,Owner,Google Ads,google,cpc,msp_q2_search_nonbrand,MSP,CA,94,2026-06-27,lead,ACME-L01391
+Angela,Smith,angela.smith@morrisonarellano.example.com,Morrison-Arellano,CFO,Outbound,,,,MSP,MA,63,2026-06-28,lead,ACME-L01392
+Stephanie,Perez,stephanie.perez@jonesgriffinandsmith.example.com,Jones Griffin and Smith,COO,Google Ads,google,cpc,msp_q2_search_nonbrand,MSP,IL,67,2026-06-28,lead,ACME-L01394
+Mia,Burns,mia.burns@bakercarrandmoore.example.com,Baker Carr and Moore,COO,Outbound,,,,MSP,NY,63,2026-06-29,salesqualifiedlead,ACME-L01401
+Danielle,Marquez,danielle.marquez@mooremoore.example.com,Moore-Moore,Practice Manager,Referral,,,,MSP,TX,100,2026-06-30,customer,ACME-L01427
+Cynthia,Steele,cynthia.steele@penalowe.example.com,Pena-Lowe,IT Director,Call Tracking,callrail,phone,gbp_listing,MSP,IL,58,2026-06-30,lead,ACME-L01429
+John,Levine,john.levine@colemanltd.example.com,Coleman Ltd,Office Manager,Google Ads,google,cpc,msp_q2_search_nonbrand,MSP,MA,67,2026-06-30,lead,ACME-L01431
+Robert,Webster,robert.webster@kramerltd.example.com,Kramer Ltd,Practice Manager,Google Ads,google,cpc,msp_q2_search_nonbrand,MSP,MA,37,2026-06-30,opportunity,ACME-L01434
+Stacy,Douglas,stacy.douglas@conleymarshallandanderso.example.com,Conley Marshall and Anderson,,Outbound,,,,MSP,NY,63,2026-07-01,lead,ACME-L01446
+Wyatt,Cox,wyatt.cox@lawsongroup.example.com,Lawson Group,COO,Meta Ads,facebook,paid_social,,MSP,CA,88,2026-07-01,lead,ACME-L01453
+Abigail,Saunders,abigail.saunders@brightcrawfordandmiles.example.com,Bright Crawford and Miles,,Google Ads,google,cpc,msp_q3_pmax,MSP,Unassigned,17,2026-07-01,lead,ACME-L01455
+Natalie,Williams,natalie.williams@stonejackson.example.com,Stone-Jackson,,Call Tracking,callrail,phone,gbp_listing,MSP,Unassigned,50,2026-07-01,opportunity,ACME-L01463
+Timothy,Thomas,timothy.thomas@rodriguezllc.example.com,Rodriguez LLC,IT Manager,Call Tracking,callrail,phone,local_services,MSP,NJ,70,2026-07-02,lead,ACME-L01471
+Stephanie,Taylor,stephanie.taylor@deanmiddleton.example.com,Dean-Middleton,CFO,Call Tracking,callrail,phone,gbp_listing,MSP,NJ,70,2026-07-02,lead,ACME-L01472
+Kelly,Harrison,kelly.harrison@millerltd.example.com,Miller Ltd,CFO,Google Ads,google,cpc,msp_q3_search,MSP,MA,,2026-07-02,lead,ACME-L01473
+Eddie,Perez,eddie.perez@wattsltd.example.com,Watts Ltd,Office Manager,Google Ads,google,cpc,msp_q3_pmax,MSP,NJ,67,2026-07-02,lead,ACME-L01480
+Karen,Smith,karen.smith@taylorturner.example.com,Taylor-Turner,Owner,Referral,,,,MSP,IL,100,2026-07-02,customer,ACME-L01482
+Rachel,Bryant,rachel.bryant@santosinc.example.com,Santos Inc,,Google Ads,google,cpc,msp_q3_search,MSP,CA,67,2026-07-02,lead,ACME-L01483
+Kristi,Frank,kristi.frank@robertsllc.example.com,Roberts LLC,CFO,Referral,,,,MSP,TX,73,2026-07-03,lead,ACME-L01487
+Sandra,Hernandez,sandra.hernandez@romanroberts.example.com,Roman-Roberts,CFO,Google Ads,google,cpc,msp_q3_search,MSP,IL,64,2026-07-03,salesqualifiedlead,ACME-L01490
+Michael,Bray,michael.bray@nortongroup.example.com,Norton Group,IT Manager,Google Ads,google,cpc,msp_q3_pmax,MSP,NJ,84,2026-07-03,lead,ACME-L01493
+Melinda,Galloway,melinda.galloway@smithltd.example.com,Smith Ltd,,Meta Ads,facebook,paid_social,msp_q3_cyber_guide,MSP,NJ,,2026-07-03,salesqualifiedlead,ACME-L01502
+Cynthia,Cantu,cynthia.cantu@mayllc.example.com,May LLC,CFO,Meta Ads,facebook,paid_social,msp_q3_retargeting,MSP,Unassigned,53,2026-07-05,lead,ACME-L01509
+Robert,Mann,robert.mann@clarkthomasandrobinson.example.com,Clark Thomas and Robinson,CFO,Meta Ads,facebook,paid_social,msp_q3_cyber_guide,MSP,TX,46,2026-07-06,lead,ACME-L01525
+Richard,Wilson,richard.wilson@ramirezgonzalez.example.com,Ramirez-Gonzalez,IT Manager,Referral,,,,MSP,NJ,73,2026-07-06,customer,ACME-L01526
+Steven,Chase,steven.chase@westplc.example.com,West PLC,Operations Manager,Google Ads,google,cpc,msp_q3_pmax,MSP,TX,94,2026-07-06,lead,ACME-L01529
+Kevin,Morales,kevin.morales@georgefitzpatrickandkey.example.com,George Fitzpatrick and Key,IT Director,Call Tracking,callrail,phone,local_services,MSP,NJ,97,2026-07-06,opportunity,ACME-L01535
+Samantha,Harrison,samantha.harrison@armstrongglassandspencer.example.com,Armstrong Glass and Spencer,Operations Manager,Outbound,,,,MSP,NY,63,2026-07-06,lead,ACME-L01541
+Rebecca,Gardner,rebecca.gardner@cooperltd.example.com,Cooper Ltd,CFO,Google Ads,google,cpc,msp_q3_search,MSP,TX,67,2026-07-07,customer,ACME-L01561
+Alison,Webster,alison.webster@watsonbishop.example.com,Watson-Bishop,IT Manager,Meta Ads,facebook,paid_social,msp_q3_retargeting,MSP,NJ,61,2026-07-07,lead,ACME-L01564
+Wendy,Taylor,wendy.taylor@nelsonllc.example.com,Nelson LLC,Owner,Referral,,,,MSP,TX,45,2026-07-08,lead,ACME-L01578
+John,Meyer,john.meyer@andrewsmorris.example.com,Andrews-Morris,Office Manager,Google Ads,google,cpc,msp_q3_pmax,MSP,CA,67,2026-07-08,lead,ACME-L01582
+Dana,Schmitt,dana.schmitt@williamsbaker.example.com,Williams-Baker,CFO,Meta Ads,facebook,paid_social,msp_q3_cyber_guide,MSP,IL,88,2026-07-09,lead,ACME-L01586
+George,Wallace,george.wallace@andersonwalker.example.com,Anderson-Walker,Operations Manager,Meta Ads,facebook,paid_social,msp_q3_retargeting,MSP,IL,88,2026-07-09,customer,ACME-L01589
+Jessica,Shannon,jessica.shannon@perrybellandford.example.com,Perry Bell and Ford,IT Director,Outbound,,,,MSP,MA,90,2026-07-09,lead,ACME-L01599
+Stacey,Moran,stacey.moran@mckenziegibbs.example.com,Mckenzie-Gibbs,COO,Meta Ads,facebook,paid_social,msp_q3_retargeting,MSP,CA,61,2026-07-09,opportunity,ACME-L01602
+Edward,Meyer,edward.meyer@curtissandoval.example.com,Curtis-Sandoval,CFO,Call Tracking,callrail,phone,gbp_listing,MSP,NJ,70,2026-07-10,lead,ACME-L01605
+John,Brooks,john.brooks@brownplc.example.com,Brown PLC,COO,Meta Ads,facebook,paid_social,msp_q3_cyber_guide,MSP,MA,61,2026-07-10,lead,ACME-L01618
+Barbara,Clark,barbara.clark@sheasmith.example.com,Shea-Smith,Office Manager,Meta Ads,facebook,paid_social,,MSP,CA,58,2026-07-13,lead,ACME-L01636
+David,Nguyen,david.nguyen@fosterandsons.example.com,Foster and Sons,Office Manager,Meta Ads,facebook,paid_social,msp_q3_cyber_guide,MSP,MA,58,2026-07-13,lead,ACME-L01638
+Aaron,Quinn,aaron.quinn@nortonmorris.example.com,Norton-Morris,Operations Manager,Google Ads,google,cpc,,MSP,IL,94,2026-07-13,opportunity,ACME-L01642
+Michelle,Harris,michelle.harris@mcmillankimandpearson.example.com,Mcmillan Kim and Pearson,Owner,Meta Ads,facebook,paid_social,msp_q3_cyber_guide,MSP,Unassigned,88,2026-07-14,lead,ACME-L01647
+Ruth,Miller,ruth.miller@taylorandsons.example.com,Taylor and Sons,IT Manager,Referral,,,,MSP,NJ,73,2026-07-14,lead,ACME-L01661
+Lacey,Burch,lacey.burch@floresgroup.example.com,Flores Group,CFO,Outbound,,,,MSP,TX,63,2026-07-16,lead,ACME-L01696
+Angela,Fisher,angela.fisher@kennedyshepardandmyers.example.com,Kennedy Shepard and Myers,IT Manager,Referral,,,,MSP,Unassigned,100,2026-07-16,customer,ACME-L01700
+Debra,Wilson,debra.wilson@weeksinc.example.com,Weeks Inc,COO,Meta Ads,facebook,paid_social,msp_q3_retargeting,MSP,CA,88,2026-07-16,lead,ACME-L01701
+Albert,Clark,albert.clark@rochamckayandanderson.example.com,Rocha Mckay and Anderson,IT Manager,Google Ads,google,cpc,msp_q3_search,MSP,TX,67,2026-07-16,lead,ACME-L01711
+Brittany,Sosa,brittany.sosa@bradshawgroup.example.com,Bradshaw Group,Office Manager,Call Tracking,callrail,phone,gbp_listing,MSP,NY,70,2026-07-17,salesqualifiedlead,ACME-L01716
+Elizabeth,Lopez,elizabeth.lopez@hardinnguyen.example.com,Hardin-Nguyen,Practice Manager,Call Tracking,callrail,phone,local_services,MSP,NY,70,2026-07-17,lead,ACME-L01725
+Jasmin,Ward,jasmin.ward@walkerwebb.example.com,Walker-Webb,CFO,Meta Ads,facebook,paid_social,msp_q3_cyber_guide,MSP,CA,88,2026-07-18,customer,ACME-L01741
+Derrick,Hale,derrick.hale@romeroinc.example.com,Romero Inc,IT Director,Outbound,,,,MSP,IL,63,2026-07-20,lead,ACME-L01752
+Robert,Adams,robert.adams@burnsgroup.example.com,Burns Group,IT Director,Outbound,,,,MSP,TX,90,2026-07-20,salesqualifiedlead,ACME-L01754
+Ashley,Wilcox,ashley.wilcox@nguyenllc.example.com,Nguyen LLC,,Google Ads,google,cpc,msp_q3_pmax,MSP,MA,67,2026-07-21,lead,ACME-L01772
+Lisa,Moreno,lisa.moreno@fullerplc.example.com,Fuller PLC,Owner,Google Ads,google,cpc,msp_q3_pmax,MSP,NJ,82,2026-07-21,lead,ACME-L01773
+Manuel,Kennedy,manuel.kennedy@littlewhiteandperkins.example.com,Little White and Perkins,IT Manager,Google Ads,google,cpc,msp_q3_search,MSP,Unassigned,88,2026-07-21,salesqualifiedlead,ACME-L01779
+Joseph,Williams,joseph.williams@fisherplc.example.com,Fisher PLC,,Referral,,,,MSP,CA,73,2026-07-21,salesqualifiedlead,ACME-L01780
+Kathy,Dixon,kathy.dixon@johnsonirwin.example.com,Johnson-Irwin,Owner,Call Tracking,callrail,phone,local_services,MSP,NY,97,2026-07-22,salesqualifiedlead,ACME-L01784
+Jennifer,Little,jennifer.little@huertahammondandryan.example.com,Huerta Hammond and Ryan,Practice Manager,Meta Ads,facebook,paid_social,msp_q3_cyber_guide,MSP,NJ,58,2026-07-22,lead,ACME-L01785
+Christopher,Rodriguez,christopher.rodriguez@frederickcruz.example.com,Frederick-Cruz,Operations Manager,Meta Ads,facebook,paid_social,msp_q3_retargeting,MSP,NJ,66,2026-07-22,lead,ACME-L01789
+Andrew,Ortega,andrew.ortega@mcclainnguyen.example.com,Mcclain-Nguyen,IT Manager,Google Ads,google,cpc,,MSP,CA,94,2026-07-22,salesqualifiedlead,ACME-L01792
+Savannah,Fisher,savannah.fisher@mejiaandsons.example.com,Mejia and Sons,Owner,Google Ads,google,cpc,msp_q3_search,MSP,NJ,37,2026-07-23,salesqualifiedlead,ACME-L01825
+Cynthia,Doyle,cynthia.doyle@millergroup.example.com,Miller Group,Owner,Meta Ads,facebook,paid_social,msp_q3_retargeting,MSP,FL,88,2026-07-23,lead,ACME-L01826
+Darrell,Robertson,darrell.robertson@lutzandsons.example.com,Lutz and Sons,Operations Manager,Meta Ads,facebook,paid_social,msp_q3_cyber_guide,MSP,NJ,74,2026-07-24,lead,ACME-L01839
+Crystal,Johnson,crystal.johnson@hurleywrightandjones.example.com,Hurley Wright and Jones,Owner,Call Tracking,callrail,phone,local_services,MSP,TX,97,2026-07-24,lead,ACME-L01842
+Patricia,Harris,patricia.harris@clinevasquezandsmith.example.com,Cline Vasquez and Smith,Operations Manager,Google Ads,google,cpc,msp_q3_search,MSP,NJ,94,2026-07-24,lead,ACME-L01845
+Amy,Howard,amy.howard@taylordixonandhooper.example.com,Taylor Dixon and Hooper,Practice Manager,Referral,,,,MSP,IL,70,2026-07-25,lead,ACME-L01846
+Brandi,Jones,brandi.jones@johnsonrosarioandferguso.example.com,Johnson Rosario and Ferguson,Operations Manager,Meta Ads,facebook,paid_social,msp_q3_cyber_guide,MSP,NJ,61,2026-07-25,lead,ACME-L01851
+Laura,Ruiz,laura.ruiz@cooleymichael.example.com,Cooley-Michael,,Google Ads,google,cpc,msp_q3_pmax,MSP,NY,67,2026-07-27,lead,ACME-L01857
+Maria,Black,maria.black@daviskirby.example.com,Davis-Kirby,IT Director,Meta Ads,facebook,paid_social,msp_q3_cyber_guide,MSP,MA,88,2026-07-27,lead,ACME-L01860
+Allison,King,allison.king@marshallsmith.example.com,Marshall-Smith,COO,Outbound,,,,MSP,NY,90,2026-07-27,lead,ACME-L01862
+Scott,Bailey,scott.bailey@maciasgroup.example.com,Macias Group,IT Manager,Outbound,,,,MSP,NY,63,2026-07-28,lead,ACME-L01875
+Ashley,Rosario,ashley.rosario@carrillorodriguezandbear.example.com,Carrillo Rodriguez and Beard,Owner,Google Ads,google,cpc,msp_q3_pmax,MSP,NJ,69,2026-07-28,salesqualifiedlead,ACME-L01877
+Robert,Wise,robert.wise@barkerplc.example.com,Barker PLC,COO,Google Ads,google,cpc,msp_q3_pmax,MSP,FL,67,2026-07-28,lead,ACME-L01881
+Ashley,Harrington,ashley.harrington@hansonyoung.example.com,Hanson-Young,Owner,Outbound,,,,MSP,NJ,63,2026-07-28,lead,ACME-L01886
+Jeffrey,Nelson,jeffrey.nelson@hillandsons.example.com,Hill and Sons,IT Director,Meta Ads,facebook,paid_social,msp_q3_retargeting,MSP,TX,88,2026-07-29,lead,ACME-L01889
+Stacey,Long,stacey.long@belljohnsonandbrown.example.com,Bell Johnson and Brown,Owner,Google Ads,google,cpc,msp_q3_search,MSP,NY,67,2026-07-29,lead,ACME-L01904
+Valerie,Nguyen,valerie.nguyen@garciaplc.example.com,Garcia PLC,,Call Tracking,callrail,phone,gbp_listing,MSP,NJ,40,2026-07-29,salesqualifiedlead,ACME-L01908
+Rhonda,Hamilton,rhonda.hamilton@wolfanthonyandtaylor.example.com,Wolf Anthony and Taylor,Office Manager,Call Tracking,callrail,phone,gbp_listing,MSP,NJ,70,2026-07-29,lead,ACME-L01909
+Julia,Gonzalez,julia.gonzalez@jonesolson.example.com,Jones-Olson,Practice Manager,Google Ads,google,cpc,msp_q3_search,MSP,TX,40,2026-07-30,lead,ACME-L01913
+Janet,Smith,janet.smith@calhounandsons.example.com,Calhoun and Sons,CFO,Referral,,,,MSP,FL,88,2026-07-30,lead,ACME-L01916
+Tracy,Lewis,tracy.lewis@hubersanchez.example.com,Huber-Sanchez,Office Manager,Google Ads,google,cpc,msp_q3_search,MSP,MA,94,2026-07-30,customer,ACME-L01921
+Benjamin,Esparza,benjamin.esparza@lopezandsons.example.com,Lopez and Sons,CFO,Referral,,,,MSP,MA,100,2026-07-31,customer,ACME-L01928
+William,Allison,william.allison@sweeneygraham.example.com,Sweeney-Graham,Operations Manager,Google Ads,google,cpc,msp_q3_search,MSP,FL,67,2026-07-31,customer,ACME-L01932
+Kristin,Diaz,kristin.diaz@collinswood.example.com,Collins-Wood,Operations Manager,Google Ads,google,cpc,msp_q3_search,MSP,CA,94,2026-07-31,lead,ACME-L01936
+Marcus,Harper,marcus.harper@blackgroup.example.com,Black Group,COO,Referral,,,,MSP,TX,70,2026-08-02,lead,ACME-L01958
+Lori,Dennis,lori.dennis@wilsonrodriguez.example.com,Wilson-Rodriguez,COO,Google Ads,google,cpc,msp_q3_pmax,MSP,TX,94,2026-08-02,lead,ACME-L01960
+Jon,Jacobs,jon.jacobs@nelsonnguyen.example.com,Nelson-Nguyen,Operations Manager,Meta Ads,facebook,paid_social,msp_q3_retargeting,MSP,CA,61,2026-08-04,salesqualifiedlead,ACME-L01978
+Cassandra,Garcia,cassandra.garcia@campbellgroup.example.com,Campbell Group,Operations Manager,Referral,,,,MSP,MA,78,2026-08-05,lead,ACME-L01997
+Stacey,Hall,stacey.hall@coxhowardandmedina.example.com,Cox Howard and Medina,Owner,Meta Ads,facebook,paid_social,msp_q3_cyber_guide,MSP,CA,61,2026-08-05,lead,ACME-L01999
+Richard,Cortez,richard.cortez@sanchezplc.example.com,Sanchez PLC,Owner,Google Ads,google,cpc,msp_q3_pmax,MSP,TX,,2026-08-05,lead,ACME-L02001
+Crystal,Taylor,crystal.taylor@joneswalkerandmartinez.example.com,Jones Walker and Martinez,IT Director,Google Ads,google,cpc,msp_q3_search,MSP,NY,94,2026-08-05,salesqualifiedlead,ACME-L02011
+Brittany,Thomas,brittany.thomas@acostarichardson.example.com,Acosta-Richardson,,Google Ads,google,cpc,msp_q3_search,MSP,FL,,2026-08-06,lead,ACME-L02023
+Connie,Stevens,connie.stevens@hamiltonmorgan.example.com,Hamilton-Morgan,Practice Manager,Outbound,,,,MSP,CA,90,2026-08-07,salesqualifiedlead,ACME-L02033
+Richard,Brock,richard.brock@bennettplc.example.com,Bennett PLC,CFO,Outbound,,,,MSP,NY,90,2026-08-07,lead,ACME-L02052
+Jeffrey,Simmons,jeffrey.simmons@parrishmiller.example.com,Parrish-Miller,COO,Google Ads,google,cpc,msp_q3_pmax,MSP,FL,55,2026-08-08,lead,ACME-L02056
+Anthony,Alexander,anthony.alexander@everettbuckleyandmoore.example.com,Everett Buckley and Moore,IT Manager,Outbound,,,,MSP,NJ,63,2026-08-08,lead,ACME-L02057
+Jeffrey,Alvarado,jeffrey.alvarado@ramossutton.example.com,Ramos-Sutton,Practice Manager,Outbound,,,,MSP,TX,63,2026-08-08,lead,ACME-L02058
+Robin,Fuentes,robin.fuentes@johnsonmoore.example.com,Johnson-Moore,IT Director,Google Ads,google,cpc,msp_q3_search,MSP,CA,67,2026-08-09,opportunity,ACME-L02064
+Nathan,Padilla,nathan.padilla@hortonmiller.example.com,Horton-Miller,Practice Manager,Google Ads,google,cpc,msp_q3_search,MSP,IL,94,2026-08-10,salesqualifiedlead,ACME-L02077
+Donna,Johnson,donna.johnson@davisrossandsanchez.example.com,Davis Ross and Sanchez,CFO,Google Ads,google,cpc,msp_q3_pmax,MSP,NJ,67,2026-08-10,salesqualifiedlead,ACME-L02079
+Samantha,Reynolds,samantha.reynolds@sloanplc.example.com,Sloan PLC,IT Manager,Outbound,,,,MSP,TX,90,2026-08-10,lead,ACME-L02085
+Beverly,Atkins,beverly.atkins@thomasbakerandpage.example.com,Thomas Baker and Page,Practice Manager,Google Ads,google,cpc,msp_q3_pmax,MSP,MA,64,2026-08-11,lead,ACME-L02095
+Nicholas,Powell,nicholas.powell@greenbuckandrobinson.example.com,Green Buck and Robinson,CFO,Outbound,,,,MSP,NY,63,2026-08-11,salesqualifiedlead,ACME-L02098
+Eric,Mendoza,eric.mendoza@johnsonalexander.example.com,Johnson-Alexander,Office Manager,Outbound,,,,MSP,CA,60,2026-08-12,salesqualifiedlead,ACME-L02125
+Glenn,Beck,glenn.beck@turnerreyesandfarley.example.com,Turner Reyes and Farley,IT Manager,Outbound,,,,MSP,FL,90,2026-08-12,lead,ACME-L02132
+Angela,Wright,angela.wright@olseninc.example.com,Olsen Inc,Owner,Outbound,,,,MSP,FL,90,2026-08-13,lead,ACME-L02135
+Malik,Delgado,malik.delgado@nicholsonplc.example.com,Nicholson PLC,Operations Manager,Referral,,,,MSP,NJ,67,2026-08-13,lead,ACME-L02136
+Tammy,Smith,tammy.smith@kingholt.example.com,King-Holt,CFO,Call Tracking,callrail,phone,gbp_listing,MSP,IL,97,2026-08-13,salesqualifiedlead,ACME-L02143
+Cynthia,Taylor,cynthia.taylor@trevinoltd.example.com,Trevino Ltd,Practice Manager,Referral,,,,MSP,NJ,73,2026-08-13,opportunity,ACME-L02149
+John,Hall,john.hall@andersonhamilton.example.com,Anderson-Hamilton,CFO,Google Ads,google,cpc,msp_q3_search,MSP,MA,94,2026-08-14,lead,ACME-L02158
+Henry,Zavala,henry.zavala@hayesbarrettandneal.example.com,Hayes Barrett and Neal,COO,Google Ads,google,cpc,msp_q3_pmax,MSP,CA,94,2026-08-14,lead,ACME-L02160
+Kevin,Scott,kevin.scott@turnerinc.example.com,Turner Inc,CFO,Meta Ads,facebook,paid_social,msp_q3_retargeting,MSP,TX,31,2026-08-14,lead,ACME-L02165
+Linda,Monroe,linda.monroe@carterinc.example.com,Carter Inc,Practice Manager,Call Tracking,callrail,phone,gbp_listing,MSP,CA,51,2026-08-14,lead,ACME-L02174
+Christopher,Whitehead,christopher.whitehead@parkergroup.example.com,Parker Group,Owner,Meta Ads,facebook,paid_social,msp_q3_retargeting,MSP,MA,88,2026-08-14,lead,ACME-L02176
+Logan,Campos,logan.campos@brennangroup.example.com,Brennan Group,IT Director,Google Ads,google,cpc,msp_q3_search,MSP,CA,67,2026-08-15,lead,ACME-L02177
+Devon,Carter,devon.carter@acevedollc.example.com,Acevedo LLC,Owner,Google Ads,google,cpc,msp_q3_pmax,MSP,TX,94,2026-08-15,lead,ACME-L02179
+Emily,Lara,emily.lara@clarkplc.example.com,Clark PLC,Practice Manager,Google Ads,google,cpc,msp_q3_pmax,MSP,CA,94,2026-08-15,customer,ACME-L02181
+Richard,Kelley,richard.kelley@foxdunn.example.com,Fox-Dunn,COO,Google Ads,google,cpc,msp_q3_pmax,MSP,TX,67,2026-08-16,customer,ACME-L02184
+Michele,Forbes,michele.forbes@robinsonplc.example.com,Robinson PLC,Operations Manager,Google Ads,google,cpc,msp_q3_search,MSP,MA,94,2026-08-16,lead,ACME-L02185
+Laura,White,laura.white@mcneilwilliamsandpark.example.com,Mcneil Williams and Park,Practice Manager,Google Ads,google,cpc,msp_q3_search,MSP,CA,94,2026-08-16,customer,ACME-L02190
+Randy,Foster,randy.foster@medinabell.example.com,Medina-Bell,Office Manager,Meta Ads,facebook,paid_social,,MSP,CA,76,2026-08-16,lead,ACME-L02192
+Maureen,Campos,maureen.campos@riversandsons.example.com,Rivers and Sons,IT Manager,Referral,,,,MSP,IL,73,2026-08-17,lead,ACME-L02196
+Nicole,Brady,nicole.brady@andrewsandsons.example.com,Andrews and Sons,Office Manager,Meta Ads,facebook,paid_social,msp_q3_cyber_guide,MSP,NJ,61,2026-08-17,lead,ACME-L02205
+Billy,Melton,billy.melton@bradleyplc.example.com,Bradley PLC,IT Director,Outbound,,,,MSP,IL,63,2026-08-19,salesqualifiedlead,ACME-L02235
+Samuel,Jordan,samuel.jordan@alvaradomayo.example.com,Alvarado-Mayo,CFO,Google Ads,google,cpc,msp_q3_pmax,MSP,TX,,2026-08-19,customer,ACME-L02249
+Dustin,Martinez,dustin.martinez@cookclay.example.com,Cook-Clay,Office Manager,Referral,,,,MSP,TX,100,2026-08-19,lead,ACME-L02252
+Mariah,Wheeler,mariah.wheeler@williamssmall.example.com,Williams-Small,Owner,Google Ads,google,cpc,msp_q3_search,MSP,NY,88,2026-08-20,lead,ACME-L02265
+Stephanie,Dunn,stephanie.dunn@jonesdouglas.example.com,Jones-Douglas,Owner,Referral,,,,MSP,NY,100,2026-08-20,lead,ACME-L02267
+Helen,Morgan,helen.morgan@cunninghamgomezandduncan.example.com,Cunningham Gomez and Duncan,Practice Manager,Google Ads,google,cpc,msp_q3_search,MSP,NY,67,2026-08-21,lead,ACME-L02279
+Brandon,Mendoza,brandon.mendoza@lewisllc.example.com,Lewis LLC,COO,Referral,,,,MSP,NJ,100,2026-08-21,salesqualifiedlead,ACME-L02289
+Morgan,Ortega,morgan.ortega@cantuhigginsandtrevino.example.com,Cantu Higgins and Trevino,Practice Manager,Google Ads,google,cpc,msp_q3_pmax,MSP,NY,94,2026-08-22,lead,ACME-L02293
+Ruben,Adkins,ruben.adkins@kellygordonandyoung.example.com,Kelly Gordon and Young,Office Manager,Google Ads,google,cpc,,MSP,MA,53,2026-08-22,lead,ACME-L02295
+Jeffrey,Schmidt,jeffrey.schmidt@andersonandsons.example.com,Anderson and Sons,Owner,Google Ads,google,cpc,msp_q3_search,MSP,MA,94,2026-08-22,salesqualifiedlead,ACME-L02296
+Damon,Clay,damon.clay@pittsandsons.example.com,Pitts and Sons,IT Manager,Referral,,,,MSP,NJ,100,2026-08-23,lead,ACME-L02308
+Aaron,Huang,aaron.huang@alexanderjohnsonandgarci.example.com,Alexander Johnson and Garcia,Practice Manager,Google Ads,google,cpc,msp_q3_search,MSP,NY,67,2026-08-24,lead,ACME-L02318
+Daniel,Thomas,daniel.thomas@pagesmith.example.com,Page-Smith,IT Director,Meta Ads,facebook,paid_social,,MSP,TX,88,2026-08-24,lead,ACME-L02319
+Angela,Martin,angela.martin@smithkellyandjones.example.com,Smith Kelly and Jones,IT Director,Google Ads,google,cpc,msp_q3_search,MSP,CA,67,2026-08-24,lead,ACME-L02329
+Matthew,Velez,matthew.velez@huffllc.example.com,Huff LLC,Owner,Referral,,,,MSP,NY,100,2026-08-25,customer,ACME-L02352
+Sydney,Wallace,sydney.wallace@craigjensen.example.com,Craig-Jensen,Owner,Referral,,,,MSP,TX,73,2026-08-26,salesqualifiedlead,ACME-L02354
+Samantha,Mann,samantha.mann@thomasplc.example.com,Thomas PLC,COO,Google Ads,google,cpc,msp_q3_pmax,MSP,NY,67,2026-08-26,opportunity,ACME-L02359
+Eric,Vasquez,eric.vasquez@kempdukeandkim.example.com,Kemp Duke and Kim,Operations Manager,Google Ads,google,cpc,msp_q3_pmax,MSP,NJ,82,2026-08-26,lead,ACME-L02362
+Julie,Clark,julie.clark@allenpeterson.example.com,Allen-Peterson,IT Director,Google Ads,google,cpc,msp_q3_pmax,MSP,MA,94,2026-08-27,lead,ACME-L02382
+Ryan,Smith,ryan.smith@ramirezplc.example.com,Ramirez PLC,COO,Google Ads,google,cpc,msp_q3_pmax,MSP,NY,67,2026-08-27,lead,ACME-L02385
+Joshua,Avila,joshua.avila@martinezperkins.example.com,Martinez-Perkins,Operations Manager,Outbound,,,,MSP,NJ,89,2026-08-27,lead,ACME-L02388
+Tina,Todd,tina.todd@parkerandsons.example.com,Parker and Sons,Practice Manager,Outbound,,,,MSP,IL,90,2026-08-27,lead,ACME-L02389
+Mark,Green,mark.green@bridgesclarkeandgill.example.com,Bridges Clarke and Gill,Office Manager,Google Ads,google,cpc,msp_q3_pmax,MSP,TX,67,2026-08-28,lead,ACME-L02395
+Patricia,Morales,patricia.morales@millervelasquezandrichar.example.com,Miller Velasquez and Richardson,CFO,Meta Ads,facebook,paid_social,msp_q3_cyber_guide,MSP,FL,,2026-08-28,lead,ACME-L02400
+Kimberly,Wood,kimberly.wood@kaufmanltd.example.com,Kaufman Ltd,IT Manager,Google Ads,google,cpc,msp_q3_pmax,MSP,CA,67,2026-08-28,lead,ACME-L02408
+Brandon,Velez,brandon.velez@tuckerschaefer.example.com,Tucker-Schaefer,IT Director,Referral,,,,MSP,CA,100,2026-08-29,customer,ACME-L02416
+Valerie,James,valerie.james@weaverinc.example.com,Weaver Inc,Office Manager,Outbound,,,,MSP,NY,63,2026-08-29,salesqualifiedlead,ACME-L02417
+Sharon,Alexander,sharon.alexander@riversramirez.example.com,Rivers-Ramirez,Operations Manager,Referral,,,,MSP,NY,73,2026-08-30,lead,ACME-L02422
+Katelyn,Bolton,katelyn.bolton@mercadohaynesandking.example.com,Mercado Haynes and King,CFO,Google Ads,google,cpc,msp_q3_pmax,MSP,NJ,94,2026-08-31,opportunity,ACME-L02430
+Sue,Wright,sue.wright@mcdanielhoandharrington.example.com,Mcdaniel Ho and Harrington,Owner,Google Ads,google,cpc,msp_q3_search,MSP,NY,67,2026-08-31,lead,ACME-L02435
+Marc,Evans,marc.evans@kempmccoyandguzman.example.com,Kemp Mccoy and Guzman,,Outbound,,,,MSP,MA,90,2026-08-31,lead,ACME-L02441
+Haley,Brown,haley.brown@hartriveraandlee.example.com,Hart Rivera and Lee,Office Manager,Meta Ads,facebook,paid_social,msp_q3_retargeting,MSP,TX,88,2026-09-01,lead,ACME-L02446
+Jason,Mccullough,jason.mccullough@wilsonhobbsandgarcia.example.com,Wilson Hobbs and Garcia,Owner,Call Tracking,callrail,phone,local_services,MSP,NY,97,2026-09-01,lead,ACME-L02449
+Victoria,Gibson,victoria.gibson@carlsonjamesandbrown.example.com,Carlson James and Brown,Practice Manager,Google Ads,google,cpc,msp_q3_pmax,MSP,MA,67,2026-09-01,lead,ACME-L02452
+Nathan,Hoover,nathan.hoover@berrywagner.example.com,Berry-Wagner,CFO,Referral,,,,MSP,NY,73,2026-09-01,opportunity,ACME-L02463
+Jessica,Cook,jessica.cook@bullockbrownandmartin.example.com,Bullock Brown and Martin,CFO,Google Ads,google,cpc,msp_q3_search,MSP,MA,67,2026-09-02,opportunity,ACME-L02472
+Jean,Perry,jean.perry@walterswolfe.example.com,Walters-Wolfe,Office Manager,Outbound,,,,MSP,CA,87,2026-09-02,lead,ACME-L02481
+Mike,Jones,mike.jones@walterskingandfriedman.example.com,Walters King and Friedman,,Meta Ads,facebook,paid_social,msp_q3_cyber_guide,MSP,NY,74,2026-09-03,lead,ACME-L02499
+Christopher,Mendez,christopher.mendez@morrisfigueroa.example.com,Morris-Figueroa,Practice Manager,Referral,,,,MSP,TX,73,2026-09-04,lead,ACME-L02512
+Kristin,Taylor,kristin.taylor@jacksongravesandjames.example.com,Jackson Graves and James,Office Manager,Google Ads,google,cpc,msp_q3_search,MSP,MA,63,2026-09-04,lead,ACME-L02516
+Nicholas,Peck,nicholas.peck@chaveztorresandruiz.example.com,Chavez Torres and Ruiz,Office Manager,Referral,,,,MSP,MA,61,2026-09-04,salesqualifiedlead,ACME-L02520
+Scott,Hinton,scott.hinton@keynguyenandhopkins.example.com,Key Nguyen and Hopkins,IT Manager,Google Ads,google,cpc,msp_q3_search,MSP,TX,94,2026-09-07,lead,ACME-L02552
+Carla,King,carla.king@hillevans.example.com,Hill-Evans,CFO,Google Ads,google,cpc,msp_q3_pmax,MSP,NY,60,2026-09-07,opportunity,ACME-L02553
+Dana,Anderson,dana.anderson@hernandezharris.example.com,Hernandez-Harris,Operations Manager,Outbound,,,,MSP,NY,90,2026-09-08,lead,ACME-L02564
+Marc,Flores,marc.flores@irwinfosterandcardenas.example.com,Irwin Foster and Cardenas,Practice Manager,Meta Ads,facebook,paid_social,msp_q3_cyber_guide,MSP,MA,61,2026-09-08,lead,ACME-L02567
+Ronald,Adams,ronald.adams@charlesstevens.example.com,Charles-Stevens,Practice Manager,Call Tracking,callrail,phone,local_services,MSP,MA,70,2026-09-08,lead,ACME-L02572
+Erin,Duke,erin.duke@callahanbrownandwarren.example.com,Callahan Brown and Warren,Practice Manager,Google Ads,google,cpc,msp_q3_pmax,MSP,CA,67,2026-09-08,opportunity,ACME-L02579
+Jeffery,Kramer,jeffery.kramer@nelsonlopez.example.com,Nelson-Lopez,Office Manager,Google Ads,google,cpc,msp_q3_pmax,MSP,NY,67,2026-09-09,lead,ACME-L02593
+Nicholas,Richardson,nicholas.richardson@rileysawyerandcharles.example.com,Riley Sawyer and Charles,Owner,Call Tracking,callrail,phone,gbp_listing,MSP,NY,97,2026-09-09,salesqualifiedlead,ACME-L02600
+James,Tran,james.tran@roachandsons.example.com,Roach and Sons,Office Manager,Outbound,,,,MSP,CA,63,2026-09-09,salesqualifiedlead,ACME-L02606
+Allison,Williams,allison.williams@pattersonharrisonandcoll.example.com,Patterson Harrison and Collins,Practice Manager,Google Ads,google,cpc,msp_q3_pmax,MSP,TX,64,2026-09-09,lead,ACME-L02611
+Kerri,Johnson,kerri.johnson@dukejonesandwilson.example.com,Duke Jones and Wilson,COO,Outbound,,,,MSP,TX,,2026-09-10,lead,ACME-L02621
+Michael,Kim,michael.kim@curryyoung.example.com,Curry-Young,Owner,Referral,,,,MSP,FL,73,2026-09-10,salesqualifiedlead,ACME-L02622
+Jacob,Carter,jacob.carter@harveyinc.example.com,Harvey Inc,Operations Manager,Google Ads,google,cpc,msp_q3_pmax,MSP,NY,37,2026-09-10,lead,ACME-L02626
+Allen,Patrick,allen.patrick@reeseinc.example.com,Reese Inc,Office Manager,Google Ads,google,cpc,,MSP,FL,67,2026-09-10,lead,ACME-L02628
+Robert,Morgan,robert.morgan@hickskerrandmullins.example.com,Hicks Kerr and Mullins,IT Manager,Outbound,,,,MSP,FL,90,2026-09-10,lead,ACME-L02629
+Don,Parker,don.parker@russellbrown.example.com,Russell-Brown,Owner,Call Tracking,callrail,phone,local_services,MSP,IL,70,2026-09-11,salesqualifiedlead,ACME-L02637
+Joseph,Ford,joseph.ford@jimenezplc.example.com,Jimenez PLC,IT Manager,Google Ads,google,cpc,msp_q3_search,MSP,FL,67,2026-09-11,salesqualifiedlead,ACME-L02646
+Carrie,Gregory,carrie.gregory@mendozaltd.example.com,Mendoza Ltd,Office Manager,Outbound,,,,MSP,NY,65,2026-09-11,lead,ACME-L02650
+Donald,Rogers,donald.rogers@payneplc.example.com,Payne PLC,CFO,Google Ads,google,cpc,msp_q3_pmax,MSP,MA,67,2026-09-14,lead,ACME-L02668
+Mary,Andrews,mary.andrews@harrisjones.example.com,Harris-Jones,Operations Manager,Outbound,,,,MSP,TX,63,2026-09-14,lead,ACME-L02677
+Robin,Stewart,robin.stewart@camposgroup.example.com,Campos Group,Practice Manager,Google Ads,google,cpc,msp_q3_pmax,MSP,NY,94,2026-09-14,lead,ACME-L02682
+Tammy,Hamilton,tammy.hamilton@gilesgroup.example.com,Giles Group,IT Manager,Meta Ads,facebook,paid_social,msp_q3_retargeting,MSP,NY,88,2026-09-14,lead,ACME-L02686
+Heather,Taylor,heather.taylor@taylorllc.example.com,Taylor LLC,,Referral,,,,MSP,TX,100,2026-09-14,salesqualifiedlead,ACME-L02687
+Janet,Reeves,janet.reeves@carterllc.example.com,Carter LLC,Operations Manager,Outbound,,,,MSP,NY,63,2026-09-15,lead,ACME-L02699
+Emily,Stokes,emily.stokes@mooresimpson.example.com,Moore-Simpson,COO,Google Ads,google,cpc,msp_q3_search,MSP,NY,67,2026-09-15,salesqualifiedlead,ACME-L02709
+Donna,Maldonado,donna.maldonado@estradaalexander.example.com,Estrada-Alexander,Office Manager,Outbound,,,,MSP,TX,63,2026-09-16,lead,ACME-L02712
+Edwin,Howard,edwin.howard@reyescarlson.example.com,Reyes-Carlson,Operations Manager,Google Ads,google,cpc,msp_q3_pmax,MSP,NY,94,2026-09-16,lead,ACME-L02714
+William,Hays,william.hays@jonesltd.example.com,Jones Ltd,IT Manager,Referral,,,,MSP,NJ,100,2026-09-16,salesqualifiedlead,ACME-L02715
+Teresa,Phillips,teresa.phillips@blacksweeneyandcampbell.example.com,Black Sweeney and Campbell,Operations Manager,Google Ads,google,cpc,msp_q3_search,MSP,MA,94,2026-09-17,lead,ACME-L02733
+Christopher,Hall,christopher.hall@burnettstrickland.example.com,Burnett-Strickland,Owner,Referral,,,,MSP,TX,100,2026-09-17,lead,ACME-L02734
+Charles,Brown,charles.brown@boyleinc.example.com,Boyle Inc,CFO,Google Ads,google,cpc,msp_q3_search,MSP,MA,94,2026-09-17,lead,ACME-L02743
+Micheal,Klein,micheal.klein@wuinc.example.com,Wu Inc,IT Director,Meta Ads,facebook,paid_social,msp_q3_retargeting,MSP,IL,,2026-09-17,lead,ACME-L02747
+Jason,Adams,jason.adams@jacksongroup.example.com,Jackson Group,Operations Manager,Google Ads,google,cpc,msp_q3_pmax,MSP,NJ,56,2026-09-18,salesqualifiedlead,ACME-L02752
+Jo,Berger,jo.berger@scottsolis.example.com,Scott-Solis,Office Manager,Google Ads,google,cpc,,MSP,IL,67,2026-09-18,lead,ACME-L02753
+Todd,Thompson,todd.thompson@bennettwrightandgentry.example.com,Bennett Wright and Gentry,Owner,Google Ads,google,cpc,msp_q3_pmax,MSP,NY,67,2026-09-18,lead,ACME-L02755
+Jodi,Bush,jodi.bush@romanltd.example.com,Roman Ltd,Office Manager,Google Ads,google,cpc,msp_q3_search,MSP,CA,68,2026-09-18,lead,ACME-L02757
+Robert,Mccoy,robert.mccoy@williamsmillerandanderso.example.com,Williams Miller and Anderson,Practice Manager,Referral,,,,MSP,CA,100,2026-09-18,lead,ACME-L02764
+Julia,Moore,julia.moore@thompsonrichardsonandgut.example.com,Thompson Richardson and Gutierrez,CFO,Google Ads,google,cpc,msp_q3_search,MSP,NY,67,2026-09-18,lead,ACME-L02776
+Brian,Anderson,brian.anderson@rodriguezaguilar.example.com,Rodriguez-Aguilar,CFO,Meta Ads,facebook,paid_social,msp_q3_cyber_guide,MSP,NY,61,2026-09-18,lead,ACME-L02786
+Gail,Hogan,gail.hogan@jamessoto.example.com,James-Soto,Office Manager,Outbound,,,,MSP,Unassigned,43,2026-09-19,lead,ACME-L02788
+Alison,Garcia,alison.garcia@blakeboothandsilva.example.com,Blake Booth and Silva,IT Manager,Referral,,,,MSP,NJ,100,2026-09-19,salesqualifiedlead,ACME-L02790
+Jennifer,Moore,jennifer.moore@hunterpowell.example.com,Hunter-Powell,IT Director,Google Ads,google,cpc,msp_q3_search,MSP,NY,67,2026-09-20,opportunity,ACME-L02794
+Brian,Campos,brian.campos@lopezdavis.example.com,Lopez-Davis,Owner,Google Ads,google,cpc,msp_q3_search,MSP,NJ,67,2026-09-20,lead,ACME-L02799
+Elizabeth,Kim,elizabeth.kim@howardhunt.example.com,Howard-Hunt,IT Manager,Google Ads,google,cpc,msp_q3_search,MSP,Unassigned,,2026-09-21,lead,ACME-L02815
+Gwendolyn,Oliver,gwendolyn.oliver@youngmorales.example.com,Young-Morales,IT Director,Google Ads,google,cpc,,MSP,NJ,94,2026-09-21,lead,ACME-L02819
+Greg,Lawson,greg.lawson@morrisandsons.example.com,Morris and Sons,Practice Manager,Referral,,,,MSP,NY,73,2026-09-21,lead,ACME-L02822
+Samantha,Warren,samantha.warren@martinsharpandgolden.example.com,Martin Sharp and Golden,COO,Google Ads,google,cpc,msp_q3_search,MSP,NY,94,2026-09-22,lead,ACME-L02830
+Mark,Thompson,mark.thompson@wilsonltd.example.com,Wilson Ltd,COO,Meta Ads,facebook,paid_social,msp_q3_retargeting,MSP,MA,61,2026-09-22,lead,ACME-L02839
+Tonya,Davis,tonya.davis@sullivanchurch.example.com,Sullivan-Church,Office Manager,Meta Ads,facebook,paid_social,msp_q3_retargeting,MSP,MA,,2026-09-23,lead,ACME-L02846
+Tina,Thompson,tina.thompson@pittmaninc.example.com,Pittman Inc,CFO,Outbound,,,,MSP,Unassigned,30,2026-09-23,salesqualifiedlead,ACME-L02848
+Hunter,Richardson,hunter.richardson@rodriguezplc.example.com,Rodriguez PLC,Practice Manager,Outbound,,,,MSP,CA,63,2026-09-23,salesqualifiedlead,ACME-L02849
+Billy,Harris,billy.harris@burnettgroup.example.com,Burnett Group,Operations Manager,Meta Ads,facebook,paid_social,msp_q3_retargeting,MSP,Unassigned,41,2026-09-23,lead,ACME-L02857
+Krystal,Willis,krystal.willis@gomezltd.example.com,Gomez Ltd,IT Manager,Meta Ads,facebook,paid_social,msp_q3_retargeting,MSP,MA,72,2026-09-24,lead,ACME-L02866
+Linda,Smith,linda.smith@caldwellshaw.example.com,Caldwell-Shaw,CFO,Outbound,,,,MSP,MA,60,2026-09-24,lead,ACME-L02870
+Diamond,Allen,diamond.allen@hartmandaniels.example.com,Hartman-Daniels,Practice Manager,Google Ads,google,cpc,msp_q3_search,MSP,NJ,67,2026-09-24,lead,ACME-L02884
+Russell,Dixon,russell.dixon@turnerevans.example.com,Turner-Evans,Operations Manager,Meta Ads,facebook,paid_social,msp_q3_cyber_guide,MSP,NJ,61,2026-09-24,lead,ACME-L02890
+Susan,Martin,susan.martin@lowerymills.example.com,Lowery-Mills,Owner,Call Tracking,callrail,phone,gbp_listing,MSP,NJ,97,2026-09-25,lead,ACME-L02896
+Trevor,Hernandez,trevor.hernandez@carterclark.example.com,Carter-Clark,Owner,Referral,,,,MSP,NY,73,2026-09-25,salesqualifiedlead,ACME-L02897
+Phillip,Compton,phillip.compton@thomasgrant.example.com,Thomas-Grant,Office Manager,Meta Ads,facebook,paid_social,msp_q3_retargeting,MSP,NJ,61,2026-09-25,lead,ACME-L02903
+Christopher,Morris,christopher.morris@jacobssmith.example.com,Jacobs-Smith,COO,Google Ads,google,cpc,msp_q3_search,MSP,MA,94,2026-09-27,lead,ACME-L02926
+Samuel,Fowler,samuel.fowler@bassgroup.example.com,Bass Group,Owner,Meta Ads,facebook,paid_social,msp_q3_retargeting,MSP,MA,88,2026-09-28,lead,ACME-L02937
+April,Malone,april.malone@mercadoortizandbarnes.example.com,Mercado Ortiz and Barnes,IT Director,Google Ads,google,cpc,msp_q3_pmax,MSP,Unassigned,94,2026-09-28,lead,ACME-L02941
+Whitney,Davis,whitney.davis@parsonsfuentes.example.com,Parsons-Fuentes,CFO,Google Ads,google,cpc,msp_q3_pmax,MSP,CA,67,2026-09-29,lead,ACME-L02956
+Timothy,Nichols,timothy.nichols@wardhernandez.example.com,Ward-Hernandez,Operations Manager,Call Tracking,callrail,phone,local_services,MSP,NY,93,2026-09-29,lead,ACME-L02959
+Brian,Evans,brian.evans@wilsonmatthewsandtucker.example.com,Wilson Matthews and Tucker,Owner,Meta Ads,facebook,paid_social,msp_q3_retargeting,MSP,IL,88,2026-09-29,lead,ACME-L02966
+Timothy,Lynch,timothy.lynch@hoovergroup.example.com,Hoover Group,IT Director,Referral,,,,MSP,NY,57,2026-09-29,lead,ACME-L02974
+Laura,Ortiz,laura.ortiz@murphyplc.example.com,Murphy PLC,Operations Manager,Call Tracking,callrail,phone,local_services,MSP,FL,70,2026-09-30,lead,ACME-L02995
+Blake,Walker,blake.walker@kleinmiller.example.com,Klein-Miller,Operations Manager,Google Ads,google,cpc,msp_q3_search,MSP,MA,67,2026-09-30,lead,ACME-L03001
+Scott,Benton,scott.benton@ayalaacostaandmeyer.example.com,Ayala Acosta and Meyer,COO,Google Ads,google,cpc,msp_q3_search,MSP,MA,67,2026-09-30,lead,ACME-L03003
