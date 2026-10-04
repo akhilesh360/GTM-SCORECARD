@@ -25,4 +25,4 @@ Data & Ops,Call-influenced bookings,pct,Share of bookings where the buyer phoned
 AI Agent,Leads processed by agent,count,Leads run through the AI agent end to end,564.0,260.0
 AI Agent,Manual steps eliminated,count,Automated steps x leads,3948.0,1820.0
 AI Agent,Rep hours saved,hours,Steps x manual minutes per step,159.8,73.66666666666667
-AI Agent,"Routing time (agent, median)",seconds,Webhook received to deal + task created,0.0004,0.0004
+AI Agent,"Routing time (agent, median)",seconds,Webhook received to deal + task created,0.0003,0.0005

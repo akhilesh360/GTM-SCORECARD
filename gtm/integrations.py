@@ -120,6 +120,9 @@ class SlackWebhook:
         return True
 
 
+DEEPSEEK_STATUS = {"calls": 0, "ok": 0, "last_error": None}  # read by agent_replay / deepseek_check
+
+
 def deepseek_score(lead, enriched, cfg, rule_score, components):
     """Ask DeepSeek (deepseek-chat, JSON mode) for a fit score, reason and territory.
 
@@ -144,6 +147,7 @@ def deepseek_score(lead, enriched, cfg, rule_score, components):
         'Score this lead 0-100 on ICP fit. Return json: {"fit_score": int, "reason": str (max 30 words, '
         'what the rep should lead with), "territory": str or null}'
     )
+    DEEPSEEK_STATUS["calls"] += 1
     try:
         res = _http("POST", f"{base}/chat/completions", key, {
             "model": os.environ.get("DEEPSEEK_MODEL", "deepseek-chat"),
@@ -154,7 +158,11 @@ def deepseek_score(lead, enriched, cfg, rule_score, components):
         out = json.loads(res["choices"][0]["message"]["content"])
         score = int(round(float(out["fit_score"])))
         if not 0 <= score <= 100:
-            return None
+            raise ValueError(f"fit_score out of range: {score}")
+        DEEPSEEK_STATUS["ok"] += 1
         return {"fit_score": score, "reason": str(out.get("reason") or "").strip(), "territory": out.get("territory")}
-    except (urllib.error.URLError, KeyError, IndexError, TimeoutError, ValueError, TypeError):
-        return None
+    except urllib.error.HTTPError as e:
+        DEEPSEEK_STATUS["last_error"] = f"HTTP {e.code}: {e.read()[:200].decode(errors='replace')}"
+    except (urllib.error.URLError, KeyError, IndexError, TimeoutError, ValueError, TypeError) as e:
+        DEEPSEEK_STATUS["last_error"] = f"{type(e).__name__}: {e}"
+    return None

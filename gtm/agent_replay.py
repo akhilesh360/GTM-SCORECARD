@@ -13,6 +13,7 @@ import pandas as pd
 
 from .agent import LeadAgent
 from .config import DATA_DIR, OUTPUT_DIR, load_companies
+from .integrations import DEEPSEEK_STATUS
 from .mocks import MockHubSpot, MockSlack
 
 
@@ -33,7 +34,8 @@ def main(days=30, llm_limit=25):
             created = datetime.fromisoformat(lead["created_date"])
             if created >= cutoff:
                 # cap paid LLM calls in a bulk replay; the rest use the rules score
-                agent.use_llm = llm_on and sum(r["score_source"] == "deepseek" for r in runs) < llm_limit
+                # (attempts count, so a bad key or outage costs at most llm_limit calls)
+                agent.use_llm = llm_on and DEEPSEEK_STATUS["calls"] < llm_limit
                 runs.append(agent.process_lead(dict(lead, company_slug=cfg["slug"]), now=created))
     crm.dump()
     df = pd.DataFrame(runs)
@@ -41,6 +43,13 @@ def main(days=30, llm_limit=25):
     print(df.groupby("portfolio_company").agg(leads=("lead_id", "count"), hot=("hot_lead", "sum"),
                                               median_sec=("processing_seconds", "median"),
                                               hours_saved=("minutes_saved", lambda s: s.sum() / 60)))
+    if not llm_on:
+        print("DeepSeek: off (no DEEPSEEK_API_KEY in .env), all leads used the rules score")
+    else:
+        print(f"DeepSeek: scored {DEEPSEEK_STATUS['ok']} of {DEEPSEEK_STATUS['calls']} calls "
+              f"(--llm-limit {llm_limit}); other leads used the rules score")
+        if DEEPSEEK_STATUS["last_error"]:
+            print(f"DeepSeek last error: {DEEPSEEK_STATUS['last_error']}")
     return df
 
 
