@@ -5,3 +5,4 @@ output/mock_crm/
 output/slack_outbox.jsonl
 playbook/_dash_shot.*
 .env
+.venv/

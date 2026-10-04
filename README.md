@@ -13,6 +13,7 @@ All companies, people and records are synthetic.
 ## Run it
 
 ```bash
+python3 -m venv .venv && source .venv/bin/activate   # avoids Homebrew's externally-managed pip error
 pip install -r requirements.txt
 cp .env.example .env         # optional: add DEEPSEEK_API_KEY (and HubSpot/Slack if you have them)
 python run_all.py            # raw data -> cleaning -> AI agent replay -> model -> HubSpot files -> dashboard
