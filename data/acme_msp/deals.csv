@@ -1,579 +1,579 @@
 deal_id,lead_id,company,stage,amount,close_date,lead_source,gross_margin,pipeline,owner,created_date,stage_reached
-ACME-D00001,ACME-L00005,Martin Pham and Woods,Lost,8100,2026-04-23,Google Ads,0.602,Acme MSP - Inbound,Dana Whitfield,2026-04-01 17:33:40,Qualified
-ACME-D00002,ACME-L00012,Pitts-Smith,Lost,23150,2026-04-18,Call Tracking,0.599,Acme MSP - Inbound,Dana Whitfield,2026-04-02 23:26:13,Contacted
-ACME-D00003,ACME-L00016,Morgan-Williams,Lost,14400,2026-04-09,Google Ads,0.629,Acme MSP - Inbound,Dana Whitfield,2026-04-08 10:40:18,New
-ACME-D00004,ACME-L00019,Stephens Martin and Simmons,Lost,20850,2026-04-21,Referral,0.574,Acme MSP - Referral,Grace Kim,2026-04-05 06:07:13,Contacted
-ACME-D00005,ACME-L00021,Wilson Price and Dawson,Lost,27850,2026-04-21,Meta Ads,0.535,Acme MSP - Inbound,Dana Whitfield,2026-04-03 17:18:48,Contacted
-ACME-D00006,ACME-L00022,Massey Benjamin and Harris,Lost,16050,2026-04-13,Google Ads,0.627,Acme MSP - Inbound,Owen Brooks,2026-04-02 23:53:59,Contacted
-ACME-D00007,ACME-L00025,Pittman LLC,Lost,27100,2026-04-13,Outbound,0.578,Acme MSP - Outbound,Priya Raman,2026-04-03 22:06:52,Qualified
-ACME-D00008,ACME-L00027,Mckenzie PLC,Lost,28800,2026-04-25,Referral,0.663,Acme MSP - Referral,Dana Whitfield,2026-04-06 15:04:31,Contacted
-ACME-D00009,ACME-L00029,Roberts PLC,Lost,13100,2026-04-07,Google Ads,0.597,Acme MSP - Inbound,Jordan Ellis,2026-04-05 06:43:11,New
-ACME-D00010,ACME-L00032,Wells Watson and Calhoun,Lost,8250,2026-05-25,Call Tracking,0.589,Acme MSP - Inbound,Jordan Ellis,2026-04-10 14:04:54,Proposal
-ACME-D00011,ACME-L00035,Benson-Harper,Lost,16900,2026-04-10,Google Ads,0.57,Acme MSP - Inbound,Dana Whitfield,2026-04-03 18:42:38,Contacted
-ACME-D00012,ACME-L00037,Frank-Giles,Lost,10950,2026-04-19,Call Tracking,0.647,Acme MSP - Inbound,Dana Whitfield,2026-04-03 21:03:24,Contacted
-ACME-D00013,ACME-L00039,Jackson and Sons,Lost,12250,2026-04-19,Google Ads,0.613,Acme MSP - Inbound,Dana Whitfield,2026-04-03 23:30:31,Contacted
-ACME-D00014,ACME-L00051,Pierce-Chavez,Won,17750,2026-05-05,Referral,0.605,Acme MSP - Referral,Dana Whitfield,2026-04-05 22:24:10,Won
-ACME-D00015,ACME-L00057,Miller Walton and Chen,Lost,16100,2026-05-20,Referral,0.645,Acme MSP - Referral,Grace Kim,2026-04-07 04:48:34,Proposal
-ACME-D00016,ACME-L00058,Turner Murray and Haley,Lost,13450,2026-04-09,Call Tracking,0.656,Acme MSP - Inbound,Jordan Ellis,2026-04-06 09:28:03,Contacted
-ACME-D00017,ACME-L00059,Mccormick-Cook,Lost,12500,2026-06-01,Meta Ads,0.6,Acme MSP - Inbound,Marcus Lee,2026-04-09 05:03:42,Proposal
-ACME-D00018,ACME-L00065,Friedman-Diaz,Lost,10450,2026-05-24,Referral,0.585,Acme MSP - Referral,Priya Raman,2026-04-07 04:08:34,Proposal
-ACME-D00019,ACME-L00068,Oliver Inc,Lost,28950,2026-05-05,Outbound,0.578,Acme MSP - Outbound,Priya Raman,2026-04-11 01:41:07,Contacted
-ACME-D00020,ACME-L00072,Adams Lopez and Decker,Lost,13600,2026-04-19,Outbound,0.505,Acme MSP - Outbound,Priya Raman,2026-04-11 03:59:15,Contacted
-ACME-D00021,ACME-L00073,Stokes-Davis,Lost,15550,2026-04-15,Referral,0.634,Acme MSP - Referral,Acme Round Robin,2026-04-07 15:28:04,Contacted
-ACME-D00022,ACME-L00080,Carter-Carey,Lost,14450,2026-04-17,Outbound,0.518,Acme MSP - Outbound,Grace Kim,2026-04-09 02:50:28,Contacted
-ACME-D00023,ACME-L00082,Salazar-Harrison,Won,16450,2026-06-18,Referral,0.68,Acme MSP - Referral,Marcus Lee,2026-04-08 04:21:52,Won
-ACME-D00024,ACME-L00087,Alvarado-Smith,Lost,17500,2026-04-18,Referral,0.656,Acme MSP - Referral,Priya Raman,2026-04-11 23:54:53,Contacted
-ACME-D00025,ACME-L00088,Ward Lucas and Smith,Lost,7700,2026-05-06,Google Ads,0.59,Acme MSP - Inbound,Priya Raman,2026-04-11 01:51:01,Proposal
-ACME-D00026,ACME-L00090,Melendez Lee and Price,Lost,15750,2026-04-21,Google Ads,0.587,Acme MSP - Inbound,Priya Raman,2026-04-11 15:18:37,Contacted
-ACME-D00027,ACME-L00094,Gentry-Shepard,Lost,8500,2026-04-22,Call Tracking,0.594,Acme MSP - Inbound,Marcus Lee,2026-04-09 04:08:11,Contacted
-ACME-D00028,ACME-L00096,Beasley-Johnson,Lost,8350,2026-04-20,Google Ads,0.594,Acme MSP - Inbound,Owen Brooks,2026-04-10 04:21:41,Contacted
-ACME-D00029,ACME-L00104,Wilson-Irwin,Lost,18450,2026-04-19,Referral,0.602,Acme MSP - Referral,Priya Raman,2026-04-09 05:15:25,Contacted
-ACME-D00030,ACME-L00109,Gillespie Brewer and Torres,Lost,12200,2026-04-11,Google Ads,0.581,Acme MSP - Inbound,Grace Kim,2026-04-09 10:38:44,New
-ACME-D00031,ACME-L00112,Maldonado-Sullivan,Lost,19200,2026-04-17,Call Tracking,0.584,Acme MSP - Inbound,Sofia Alvarez,2026-04-14 13:14:17,New
-ACME-D00032,ACME-L00114,Watson and Sons,Lost,13450,2026-04-20,Google Ads,0.593,Acme MSP - Inbound,Jordan Ellis,2026-04-10 03:26:52,Contacted
-ACME-D00033,ACME-L00116,Shaffer Group,Lost,7050,2026-04-28,Google Ads,,Acme MSP - Inbound,Marcus Lee,2026-04-10 05:43:03,Contacted
-ACME-D00034,ACME-L00123,Brown Foster and Erickson,Lost,14200,2026-04-23,Outbound,0.628,Acme MSP - Outbound,Dana Whitfield,2026-04-09 05:17:14,Qualified
-ACME-D00035,ACME-L00126,Wilson-House,Won,22050,2026-06-09,Referral,0.66,Acme MSP - Referral,Dana Whitfield,2026-04-14 09:38:04,Won
-ACME-D00036,ACME-L00127,Fowler Cardenas and Cabrera,Lost,13850,2026-05-19,Meta Ads,0.626,Acme MSP - Inbound,Sofia Alvarez,2026-04-09 10:31:01,Proposal
-ACME-D00037,ACME-L00129,Castaneda Moore and Orozco,Lost,19750,2026-04-18,Google Ads,0.618,Acme MSP - Inbound,Jordan Ellis,2026-04-13 19:10:33,Contacted
-ACME-D00038,ACME-L00133,Love-Lee,Lost,20900,2026-04-18,Google Ads,0.662,Acme MSP - Inbound,Jordan Ellis,2026-04-10 00:28:24,New
-ACME-D00039,ACME-L00135,Harris PLC,Lost,19250,2026-04-24,Google Ads,0.641,Acme MSP - Inbound,Jordan Ellis,2026-04-11 07:23:06,Qualified
-ACME-D00040,ACME-L00136,Adams PLC,Won,20350,2026-05-22,Google Ads,0.631,Acme MSP - Inbound,Owen Brooks,2026-04-13 07:38:41,Won
-ACME-D00041,ACME-L00148,Norton Ltd,Lost,9650,2026-05-06,Call Tracking,0.606,Acme MSP - Inbound,Marcus Lee,2026-04-11 13:01:55,Proposal
-ACME-D00042,ACME-L00150,Ford-Paul,Lost,12250,2026-04-22,Outbound,0.63,Acme MSP - Outbound,Sofia Alvarez,2026-04-12 06:21:00,Contacted
-ACME-D00043,ACME-L00159,Dunn-Miller,Won,7950,2026-06-08,Google Ads,0.606,Acme MSP - Inbound,Dana Whitfield,2026-04-14 07:49:56,Won
-ACME-D00044,ACME-L00166,Atkinson-Lowe,Lost,25700,2026-05-05,Google Ads,0.641,Acme MSP - Inbound,Jordan Ellis,2026-04-13 11:58:58,Proposal
-ACME-D00045,ACME-L00168,Lee-Brown,Won,9600,2026-05-13,Call Tracking,0.598,Acme MSP - Inbound,Acme Round Robin,2026-04-16 19:30:46,Won
-ACME-D00046,ACME-L00173,Thomas-Bowman,Lost,13350,2026-04-17,Google Ads,0.51,Acme MSP - Inbound,Jordan Ellis,2026-04-15 11:42:56,Contacted
-ACME-D00047,ACME-L00199,Smith Lloyd and Jackson,Lost,12750,2026-04-26,Call Tracking,0.693,Acme MSP - Inbound,Acme Round Robin,2026-04-17 00:38:31,Contacted
-ACME-D00048,ACME-L00202,Gonzalez-Flores,Lost,14750,2026-04-30,Referral,0.631,Acme MSP - Referral,Sofia Alvarez,2026-04-15 08:49:25,Contacted
-ACME-D00049,ACME-L00205,Jones Kelly and Sanchez,Lost,9000,2026-04-24,Call Tracking,0.524,Acme MSP - Inbound,Sofia Alvarez,2026-04-15 22:49:53,Contacted
-ACME-D00050,ACME-L00208,Perkins-Miller,Lost,18900,2026-04-29,Google Ads,0.593,Acme MSP - Inbound,Grace Kim,2026-04-16 22:53:49,Contacted
-ACME-D00051,ACME-L00212,Young-Avila,Lost,17550,2026-04-18,Google Ads,0.533,Acme MSP - Inbound,Owen Brooks,2026-04-15 03:44:14,New
-ACME-D00052,ACME-L00216,Thomas Hester and Robles,Lost,7200,2026-05-08,Referral,0.629,Acme MSP - Referral,Dana Whitfield,2026-04-16 20:53:44,Contacted
-ACME-D00053,ACME-L00226,Stanton Phillips and Mcfarland,Won,17650,2026-06-01,Meta Ads,0.565,Acme MSP - Inbound,Sofia Alvarez,2026-04-17 09:36:25,Won
-ACME-D00054,ACME-L00232,Bautista Rodriguez and Carlson,Lost,8800,2026-04-30,Referral,0.626,Acme MSP - Referral,Grace Kim,2026-04-21 21:38:28,Contacted
-ACME-D00055,ACME-L00234,Butler-Williams,Lost,21950,2026-06-09,Google Ads,0.556,Acme MSP - Inbound,Sofia Alvarez,2026-04-21 01:34:48,Proposal
-ACME-D00056,ACME-L00240,Wheeler-Lane,Lost,18000,2026-04-29,Referral,0.588,Acme MSP - Referral,Acme Round Robin,2026-04-19 11:31:46,Contacted
-ACME-D00057,ACME-L00242,Williams Evans and Smith,Lost,11900,2026-04-25,Meta Ads,0.579,Acme MSP - Inbound,Sofia Alvarez,2026-04-19 19:22:19,New
-ACME-D00058,ACME-L00243,Bates-Briggs,Lost,18300,2026-04-26,Meta Ads,0.665,Acme MSP - Inbound,Dana Whitfield,2026-04-20 08:14:28,Contacted
-ACME-D00059,ACME-L00246,Aguirre LLC,Lost,27350,2026-04-28,Referral,0.675,Acme MSP - Referral,Sofia Alvarez,2026-04-18 02:37:11,Contacted
-ACME-D00060,ACME-L00256,Mcgee-Marshall,Lost,11500,2026-05-06,Google Ads,0.598,Acme MSP - Inbound,Grace Kim,2026-04-20 03:57:51,Contacted
-ACME-D00061,ACME-L00258,Myers PLC,Lost,7550,2026-05-09,Google Ads,0.583,Acme MSP - Inbound,Sofia Alvarez,2026-04-18 14:56:30,Contacted
-ACME-D00062,ACME-L00259,Conner LLC,Lost,14050,2026-05-15,Google Ads,0.643,Acme MSP - Inbound,Dana Whitfield,2026-04-20 03:10:24,Contacted
-ACME-D00063,ACME-L00273,Jenkins Inc,Lost,30150,2026-04-25,Outbound,0.602,Acme MSP - Outbound,Owen Brooks,2026-04-21 12:21:56,New
-ACME-D00064,ACME-L00280,Robinson Atkins and Davis,Won,14550,2026-07-27,Referral,0.634,Acme MSP - Referral,Marcus Lee,2026-04-21 02:23:45,Won
-ACME-D00065,ACME-L00282,Graham Zavala and Brock,Lost,12650,2026-05-18,Google Ads,0.564,Acme MSP - Inbound,Dana Whitfield,2026-04-24 05:03:04,Qualified
-ACME-D00066,ACME-L00286,Snyder-Mason,Lost,20900,2026-05-18,Referral,0.684,Acme MSP - Referral,Sofia Alvarez,2026-04-25 03:49:33,Qualified
-ACME-D00067,ACME-L00290,Glass-Evans,Lost,17000,2026-05-17,Google Ads,0.608,Acme MSP - Inbound,Marcus Lee,2026-04-25 19:38:51,Proposal
-ACME-D00068,ACME-L00303,Lopez PLC,Lost,16550,2026-04-29,Outbound,0.585,Acme MSP - Outbound,Priya Raman,2026-04-24 14:12:59,Contacted
-ACME-D00069,ACME-L00309,Norris-Scott,Lost,10350,2026-04-29,Referral,,Acme MSP - Referral,Owen Brooks,2026-04-23 06:29:36,Contacted
-ACME-D00070,ACME-L00313,Chaney Fields and Williams,Lost,12200,2026-05-25,Referral,0.698,Acme MSP - Referral,Sofia Alvarez,2026-04-23 05:22:15,Proposal
-ACME-D00071,ACME-L00322,Mejia-Anderson,Lost,11750,2026-04-28,Google Ads,0.654,Acme MSP - Inbound,Dana Whitfield,2026-04-24 01:31:33,New
-ACME-D00072,ACME-L00323,Cain-Coffey,Lost,29050,2026-05-13,Call Tracking,0.57,Acme MSP - Inbound,Sofia Alvarez,2026-04-27 17:45:17,Qualified
-ACME-D00073,ACME-L00333,Montoya Johnson and Davis,Lost,11500,2026-05-06,Google Ads,0.598,Acme MSP - Inbound,Sofia Alvarez,2026-04-26 07:59:42,New
-ACME-D00074,ACME-L00336,Figueroa Group,Lost,22200,2026-05-06,Call Tracking,,Acme MSP - Inbound,Acme Round Robin,2026-04-25 13:46:58,Contacted
-ACME-D00075,ACME-L00337,Mullins-Wright,Lost,18400,2026-05-20,Outbound,,Acme MSP - Outbound,Owen Brooks,2026-04-24 02:28:51,Proposal
-ACME-D00076,ACME-L00340,Bennett King and Simmons,Lost,19500,2026-05-29,Google Ads,0.66,Acme MSP - Inbound,Owen Brooks,2026-04-26 04:09:17,Qualified
-ACME-D00077,ACME-L00346,Love PLC,Lost,16650,2026-05-11,Meta Ads,0.609,Acme MSP - Inbound,Marcus Lee,2026-04-27 08:39:38,Contacted
-ACME-D00078,ACME-L00347,Holmes-Guerrero,Lost,15550,2026-05-24,Outbound,0.606,Acme MSP - Outbound,Owen Brooks,2026-04-28 16:26:05,Contacted
-ACME-D00079,ACME-L00352,Holder PLC,Lost,19950,2026-05-05,Google Ads,0.608,Acme MSP - Inbound,Priya Raman,2026-04-26 15:05:15,Contacted
-ACME-D00080,ACME-L00358,Wolfe Mathews and Kim,Lost,17700,2026-05-14,Outbound,0.512,Acme MSP - Outbound,Owen Brooks,2026-04-26 08:55:26,Qualified
-ACME-D00081,ACME-L00359,Gordon York and Montgomery,Lost,21350,2026-05-07,Call Tracking,0.632,Acme MSP - Inbound,Dana Whitfield,2026-04-24 21:55:50,Contacted
-ACME-D00082,ACME-L00369,Brady Ltd,Lost,10250,2026-06-08,Google Ads,0.578,Acme MSP - Inbound,Owen Brooks,2026-05-01 19:17:32,Proposal
-ACME-D00083,ACME-L00376,Bailey Inc,Lost,20050,2026-05-16,Google Ads,0.617,Acme MSP - Inbound,Dana Whitfield,2026-04-27 19:06:09,Contacted
-ACME-D00084,ACME-L00396,Lane-Moore,Lost,10350,2026-06-10,Meta Ads,0.666,Acme MSP - Inbound,Priya Raman,2026-05-01 07:57:46,Proposal
-ACME-D00085,ACME-L00404,Fuller-Leonard,Lost,15600,2026-05-15,Referral,0.665,Acme MSP - Referral,Jordan Ellis,2026-05-03 00:41:35,New
-ACME-D00086,ACME-L00412,Vaughn Inc,Lost,6350,2026-05-16,Referral,0.572,Acme MSP - Referral,Jordan Ellis,2026-04-30 09:35:06,Contacted
-ACME-D00087,ACME-L00417,Lin Snyder and Smith,Lost,15750,2026-06-03,Outbound,0.594,Acme MSP - Outbound,Priya Raman,2026-04-30 16:28:26,Qualified
-ACME-D00088,ACME-L00419,Martinez PLC,Lost,17800,2026-05-12,Meta Ads,0.616,Acme MSP - Inbound,Dana Whitfield,2026-04-30 04:28:59,Contacted
-ACME-D00089,ACME-L00420,Kelly-Carr,Lost,15100,2026-05-31,Referral,0.677,Acme MSP - Referral,Dana Whitfield,2026-05-01 04:15:52,Contacted
-ACME-D00090,ACME-L00423,Young and Sons,Lost,22750,2026-05-06,Google Ads,0.567,Acme MSP - Inbound,Marcus Lee,2026-05-04 00:43:19,New
-ACME-D00091,ACME-L00449,Reed-Miller,Lost,19750,2026-06-13,Google Ads,0.559,Acme MSP - Inbound,Priya Raman,2026-05-03 22:12:43,Proposal
-ACME-D00092,ACME-L00453,Boyer Horton and Green,Lost,10750,2026-05-25,Meta Ads,,Acme MSP - Inbound,Marcus Lee,2026-05-06 22:40:17,Contacted
-ACME-D00093,ACME-L00463,Perry-Wells,Lost,17150,2026-05-19,Outbound,0.611,Acme MSP - Outbound,Dana Whitfield,2026-05-03 04:24:36,Contacted
-ACME-D00094,ACME-L00485,Graham Smith and Mahoney,Lost,9600,2026-05-07,Meta Ads,0.596,Acme MSP - Inbound,Marcus Lee,2026-05-04 01:49:48,New
-ACME-D00095,ACME-L00489,Brown Perez and Johnson,Lost,20050,2026-05-08,Referral,0.596,Acme MSP - Referral,Dana Whitfield,2026-05-05 22:22:41,Contacted
-ACME-D00096,ACME-L00499,Jenkins-Evans,Won,22200,2026-05-25,Google Ads,0.669,Acme MSP - Inbound,Sofia Alvarez,2026-05-06 10:40:59,Won
-ACME-D00097,ACME-L00501,Huerta Brown and Mendez,Lost,12550,2026-06-08,Google Ads,0.628,Acme MSP - Inbound,Marcus Lee,2026-05-05 13:52:25,Proposal
-ACME-D00098,ACME-L00509,Johnson-Reyes,Lost,7900,2026-05-25,Google Ads,0.581,Acme MSP - Inbound,Sofia Alvarez,2026-05-07 04:24:56,Contacted
-ACME-D00099,ACME-L00515,Coleman-Rogers,Lost,9000,2026-05-16,Referral,0.662,Acme MSP - Referral,Owen Brooks,2026-05-07 20:38:03,New
-ACME-D00100,ACME-L00523,Sanchez Group,Lost,12000,2026-05-25,Referral,0.669,Acme MSP - Referral,Jordan Ellis,2026-05-06 10:08:27,Contacted
-ACME-D00101,ACME-L00531,Brady Johnson and Nguyen,Lost,9400,2026-05-28,Referral,0.642,Acme MSP - Referral,Acme Round Robin,2026-05-09 01:08:47,Proposal
-ACME-D00102,ACME-L00532,Gardner Carter and Sanders,Lost,21350,2026-06-12,Google Ads,0.612,Acme MSP - Inbound,Marcus Lee,2026-05-09 19:23:29,Proposal
-ACME-D00103,ACME-L00536,Dixon LLC,Lost,22700,2026-05-13,Referral,0.663,Acme MSP - Referral,Sofia Alvarez,2026-05-11 00:42:33,New
-ACME-D00104,ACME-L00547,Cantrell-Combs,Lost,9950,2026-05-23,Google Ads,0.612,Acme MSP - Inbound,Sofia Alvarez,2026-05-08 17:03:33,Contacted
-ACME-D00105,ACME-L00549,Moran Moreno and Rowe,Lost,14300,2026-05-17,Referral,0.602,Acme MSP - Referral,Acme Round Robin,2026-05-09 05:36:41,Contacted
-ACME-D00106,ACME-L00550,Woodward Schmidt and Bautista,Lost,17000,2026-05-21,Outbound,0.597,Acme MSP - Outbound,Jordan Ellis,2026-05-11 03:11:36,Contacted
-ACME-D00107,ACME-L00552,Cochran Group,Won,19500,2026-07-19,Call Tracking,0.689,Acme MSP - Inbound,Marcus Lee,2026-05-09 03:20:38,Won
-ACME-D00108,ACME-L00555,Wong-Martin,Lost,17250,2026-06-10,Referral,0.679,Acme MSP - Referral,Priya Raman,2026-05-15 04:39:23,Qualified
-ACME-D00109,ACME-L00562,Kerr Grimes and Mccann,Lost,16800,2026-05-30,Outbound,0.583,Acme MSP - Outbound,Dana Whitfield,2026-05-08 15:53:04,Proposal
-ACME-D00110,ACME-L00563,Foster-Shea,Won,21900,2026-06-24,Google Ads,0.555,Acme MSP - Inbound,Sofia Alvarez,2026-05-09 11:04:54,Won
-ACME-D00111,ACME-L00566,Maldonado LLC,Won,12500,2026-06-11,Referral,0.656,Acme MSP - Referral,Marcus Lee,2026-05-13 07:05:34,Won
-ACME-D00112,ACME-L00568,Perez Group,Lost,10100,2026-05-25,Meta Ads,0.611,Acme MSP - Inbound,Priya Raman,2026-05-11 03:43:20,Contacted
-ACME-D00113,ACME-L00570,Foley Maxwell and Rice,Lost,15450,2026-05-16,Outbound,0.642,Acme MSP - Outbound,Dana Whitfield,2026-05-09 07:42:37,Contacted
-ACME-D00114,ACME-L00575,Taylor Russell and Williams,Lost,16450,2026-05-14,Meta Ads,0.634,Acme MSP - Inbound,Dana Whitfield,2026-05-09 16:28:17,Contacted
-ACME-D00115,ACME-L00576,Malone Ltd,Lost,10900,2026-05-25,Outbound,0.633,Acme MSP - Outbound,Dana Whitfield,2026-05-12 01:41:01,Contacted
-ACME-D00116,ACME-L00580,Watson Ltd,Lost,25550,2026-06-02,Google Ads,0.561,Acme MSP - Inbound,Dana Whitfield,2026-05-10 20:44:51,Qualified
-ACME-D00117,ACME-L00582,Pearson Randolph and Douglas,Lost,25900,2026-05-27,Google Ads,0.632,Acme MSP - Inbound,Sofia Alvarez,2026-05-12 01:29:19,Contacted
-ACME-D00118,ACME-L00584,Elliott Inc,Lost,16150,2026-06-14,Outbound,0.516,Acme MSP - Outbound,Jordan Ellis,2026-05-10 05:54:56,Proposal
-ACME-D00119,ACME-L00596,Elliott Group,Lost,19050,2026-05-28,Referral,0.631,Acme MSP - Referral,Dana Whitfield,2026-05-13 06:03:29,Qualified
-ACME-D00120,ACME-L00601,Olsen Group,Won,17800,2026-06-03,Google Ads,0.562,Acme MSP - Inbound,Jordan Ellis,2026-05-11 18:16:23,Won
-ACME-D00121,ACME-L00602,Morris Johnson and Morris,Lost,25800,2026-06-01,Outbound,0.613,Acme MSP - Outbound,Owen Brooks,2026-05-12 16:50:29,Qualified
-ACME-D00122,ACME-L00603,Burton PLC,Lost,14400,2026-07-16,Outbound,0.601,Acme MSP - Outbound,Sofia Alvarez,2026-05-12 21:08:22,Proposal
-ACME-D00123,ACME-L00604,Collins Baker and Williams,Lost,12800,2026-06-22,Google Ads,0.552,Acme MSP - Inbound,Marcus Lee,2026-05-13 15:15:01,Proposal
-ACME-D00124,ACME-L00605,Bishop Sullivan and Luna,Lost,32200,2026-06-11,Outbound,0.599,Acme MSP - Outbound,Jordan Ellis,2026-05-14 15:43:56,Qualified
-ACME-D00125,ACME-L00607,Weber Inc,Won,18250,2026-06-02,Referral,0.582,Acme MSP - Referral,Sofia Alvarez,2026-05-13 04:30:44,Won
-ACME-D00126,ACME-L00609,Holland Ruiz and Peterson,Lost,16600,2026-05-28,Google Ads,0.608,Acme MSP - Inbound,Priya Raman,2026-05-14 00:39:24,Contacted
-ACME-D00127,ACME-L00621,Smith and Sons,Lost,13200,2026-06-02,Google Ads,0.602,Acme MSP - Inbound,Priya Raman,2026-05-13 20:54:45,Qualified
-ACME-D00128,ACME-L00634,Hood Ltd,Lost,16150,2026-05-30,Referral,0.626,Acme MSP - Referral,Sofia Alvarez,2026-05-15 23:11:26,Contacted
-ACME-D00129,ACME-L00635,Skinner Brock and Fitzgerald,Lost,16550,2026-05-23,Google Ads,0.624,Acme MSP - Inbound,Sofia Alvarez,2026-05-16 23:12:04,Contacted
-ACME-D00130,ACME-L00647,Burns-Smith,Lost,8550,2026-06-20,Google Ads,0.709,Acme MSP - Inbound,Marcus Lee,2026-05-16 13:30:14,Proposal
-ACME-D00131,ACME-L00650,Taylor Inc,Lost,14400,2026-07-13,Call Tracking,0.648,Acme MSP - Inbound,Dana Whitfield,2026-05-17 09:46:31,Proposal
-ACME-D00132,ACME-L00652,Sanchez-Barrett,Lost,7900,2026-06-01,Google Ads,0.549,Acme MSP - Inbound,Marcus Lee,2026-05-14 12:53:05,Proposal
-ACME-D00133,ACME-L00654,Gordon-Shannon,Lost,27750,2026-05-28,Outbound,0.603,Acme MSP - Outbound,Priya Raman,2026-05-14 09:25:29,Contacted
-ACME-D00134,ACME-L00658,Baldwin LLC,Lost,10950,2026-05-31,Call Tracking,0.579,Acme MSP - Inbound,Priya Raman,2026-05-14 21:00:17,Contacted
-ACME-D00135,ACME-L00659,Lee Powell and Campbell,Lost,10100,2026-05-24,Call Tracking,0.585,Acme MSP - Inbound,Jordan Ellis,2026-05-17 04:58:22,Contacted
-ACME-D00136,ACME-L00662,Wilson Group,Lost,10000,2026-06-17,Referral,0.619,Acme MSP - Referral,Marcus Lee,2026-05-17 15:24:36,Contacted
-ACME-D00137,ACME-L00665,Brown-Smith,Lost,14000,2026-05-20,Referral,0.606,Acme MSP - Referral,Acme Round Robin,2026-05-16 09:45:38,Contacted
-ACME-D00138,ACME-L00667,Stuart and Sons,Lost,16200,2026-05-31,Referral,0.543,Acme MSP - Referral,Sofia Alvarez,2026-05-17 09:36:05,Qualified
-ACME-D00139,ACME-L00680,Roberts and Sons,Won,10200,2026-06-11,Referral,0.588,Acme MSP - Referral,Dana Whitfield,2026-05-18 23:08:16,Won
-ACME-D00140,ACME-L00698,Carrillo-Harris,Lost,11400,2026-05-26,Google Ads,0.611,Acme MSP - Inbound,Dana Whitfield,2026-05-19 09:09:18,Contacted
-ACME-D00141,ACME-L00700,Flores PLC,Won,9850,2026-07-30,Referral,0.512,Acme MSP - Referral,Jordan Ellis,2026-05-24 07:35:45,Won
-ACME-D00142,ACME-L00706,Douglas-Pineda,Won,10450,2026-06-18,Call Tracking,0.604,Acme MSP - Inbound,Priya Raman,2026-05-19 11:39:38,Won
-ACME-D00143,ACME-L00709,Adams-Harris,Lost,17200,2026-05-26,Google Ads,0.575,Acme MSP - Inbound,Grace Kim,2026-05-17 14:21:13,Contacted
-ACME-D00144,ACME-L00713,Johnson Sandoval and Phelps,Won,17350,2026-06-29,Google Ads,0.543,Acme MSP - Inbound,Owen Brooks,2026-05-16 14:16:43,Won
-ACME-D00145,ACME-L00714,Martin Hunt and Rodriguez,Lost,10850,2026-05-18,Call Tracking,0.604,Acme MSP - Inbound,Marcus Lee,2026-05-17 20:17:41,Contacted
-ACME-D00146,ACME-L00736,Scott Short and Haynes,Lost,8100,2026-05-25,Meta Ads,0.591,Acme MSP - Inbound,Jordan Ellis,2026-05-20 22:00:18,New
-ACME-D00147,ACME-L00739,Murillo and Sons,Won,14450,2026-06-27,Call Tracking,0.617,Acme MSP - Inbound,Priya Raman,2026-05-19 08:14:39,Won
-ACME-D00148,ACME-L00740,Smith Taylor and Larson,Lost,11550,2026-06-02,Call Tracking,0.615,Acme MSP - Inbound,Acme Round Robin,2026-05-21 04:30:48,Qualified
-ACME-D00149,ACME-L00750,Franklin LLC,Won,16050,2026-07-06,Outbound,0.567,Acme MSP - Outbound,Owen Brooks,2026-05-22 11:55:24,Won
-ACME-D00150,ACME-L00757,Wilson Group,Lost,14600,2026-07-12,Google Ads,0.547,Acme MSP - Inbound,Marcus Lee,2026-05-23 12:17:58,Proposal
-ACME-D00151,ACME-L00760,Cruz PLC,Lost,9250,2026-05-28,Outbound,0.558,Acme MSP - Outbound,Dana Whitfield,2026-05-21 08:58:36,Contacted
-ACME-D00152,ACME-L00762,Hill Group,Lost,18450,2026-08-07,Outbound,0.558,Acme MSP - Outbound,Acme Round Robin,2026-05-23 23:45:21,Proposal
-ACME-D00153,ACME-L00774,Bender Alexander and Mccarthy,Lost,19300,2026-06-09,Google Ads,0.625,Acme MSP - Inbound,Grace Kim,2026-05-22 04:33:44,Qualified
-ACME-D00154,ACME-L00776,Rodriguez Garcia and Jackson,Lost,14550,2026-06-03,Google Ads,0.59,Acme MSP - Inbound,Priya Raman,2026-05-23 18:48:43,Contacted
-ACME-D00155,ACME-L00779,Williams Casey and York,Lost,15200,2026-06-23,Call Tracking,0.61,Acme MSP - Inbound,Jordan Ellis,2026-05-27 22:44:20,Qualified
-ACME-D00156,ACME-L00782,Huff-Ballard,Lost,10400,2026-06-01,Outbound,0.534,Acme MSP - Outbound,Sofia Alvarez,2026-05-24 17:36:42,Contacted
-ACME-D00157,ACME-L00783,Galvan and Sons,Lost,19550,2026-06-12,Referral,0.655,Acme MSP - Referral,Marcus Lee,2026-05-22 16:32:41,Contacted
-ACME-D00158,ACME-L00796,Williams-Miles,Lost,11950,2026-06-03,Google Ads,0.659,Acme MSP - Inbound,Sofia Alvarez,2026-05-22 01:37:46,Contacted
-ACME-D00159,ACME-L00797,Smith-Riley,Lost,12400,2026-06-13,Call Tracking,0.604,Acme MSP - Inbound,Grace Kim,2026-05-24 07:59:24,Contacted
-ACME-D00160,ACME-L00802,Conrad-Holt,Lost,11550,2026-06-24,Call Tracking,0.569,Acme MSP - Inbound,Grace Kim,2026-05-25 03:23:10,Qualified
-ACME-D00161,ACME-L00809,Hill LLC,Lost,17400,2026-05-31,Google Ads,0.575,Acme MSP - Inbound,Marcus Lee,2026-05-26 04:06:43,Contacted
-ACME-D00162,ACME-L00813,Ryan-Norris,Lost,14600,2026-05-31,Outbound,0.588,Acme MSP - Outbound,Marcus Lee,2026-05-29 21:28:13,New
-ACME-D00163,ACME-L00814,Costa-Beard,Lost,17550,2026-06-12,Referral,0.646,Acme MSP - Referral,Jordan Ellis,2026-05-25 10:36:06,Contacted
-ACME-D00164,ACME-L00816,Burke Inc,Lost,9150,2026-06-19,Google Ads,0.583,Acme MSP - Inbound,Sofia Alvarez,2026-05-23 15:02:02,Qualified
-ACME-D00165,ACME-L00821,Bernard-Jones,Lost,15300,2026-07-02,Outbound,0.592,Acme MSP - Outbound,Priya Raman,2026-05-24 07:13:52,Proposal
-ACME-D00166,ACME-L00822,Hamilton Ltd,Lost,8250,2026-06-03,Google Ads,0.576,Acme MSP - Inbound,Jordan Ellis,2026-05-23 03:14:34,Contacted
-ACME-D00167,ACME-L00826,Lewis Ltd,Lost,16750,2026-06-11,Google Ads,0.633,Acme MSP - Inbound,Marcus Lee,2026-05-26 08:59:46,Contacted
-ACME-D00168,ACME-L00829,Salazar-Byrd,Lost,14650,2026-05-31,Referral,0.645,Acme MSP - Referral,Dana Whitfield,2026-05-25 00:17:44,Contacted
-ACME-D00169,ACME-L00832,Mcdonald-Shah,Lost,12700,2026-06-04,Google Ads,0.658,Acme MSP - Inbound,Marcus Lee,2026-05-24 21:03:19,Contacted
-ACME-D00170,ACME-L00835,Sims Ltd,Lost,26050,2026-06-02,Outbound,0.604,Acme MSP - Outbound,Priya Raman,2026-05-27 12:52:20,Contacted
-ACME-D00171,ACME-L00843,Collins Group,Lost,11650,2026-06-06,Meta Ads,0.611,Acme MSP - Inbound,Sofia Alvarez,2026-05-28 23:45:00,Contacted
-ACME-D00172,ACME-L00845,Ellis PLC,Lost,14750,2026-06-22,Google Ads,0.629,Acme MSP - Inbound,Sofia Alvarez,2026-05-29 16:23:22,Qualified
-ACME-D00173,ACME-L00848,Christensen-Abbott,Won,23200,2026-06-22,Referral,0.611,Acme MSP - Referral,Jordan Ellis,2026-05-29 10:52:48,Won
-ACME-D00174,ACME-L00856,Estrada George and Murray,Lost,26250,2026-06-26,Referral,0.703,Acme MSP - Referral,Owen Brooks,2026-06-06 16:01:54,Qualified
-ACME-D00175,ACME-L00857,Krueger LLC,Lost,11300,2026-06-25,Google Ads,0.629,Acme MSP - Inbound,Priya Raman,2026-05-30 19:04:22,Contacted
-ACME-D00176,ACME-L00863,Wood-Martin,Won,11250,2026-07-10,Google Ads,0.665,Acme MSP - Inbound,Dana Whitfield,2026-05-30 14:29:22,Won
-ACME-D00177,ACME-L00865,Smith and Sons,Lost,9200,2026-06-14,Referral,0.679,Acme MSP - Referral,Priya Raman,2026-05-31 02:48:21,Contacted
-ACME-D00178,ACME-L00866,Thomas Ltd,Lost,19150,2026-06-10,Referral,0.64,Acme MSP - Referral,Dana Whitfield,2026-05-29 04:46:46,Contacted
-ACME-D00179,ACME-L00869,Madden Chavez and Ramirez,Lost,10350,2026-06-20,Referral,0.623,Acme MSP - Referral,Jordan Ellis,2026-06-01 20:24:58,Proposal
-ACME-D00180,ACME-L00871,Martin-Thompson,Won,13250,2026-06-13,Google Ads,0.606,Acme MSP - Inbound,Priya Raman,2026-05-29 23:36:17,Won
-ACME-D00181,ACME-L00874,Carlson-Alexander,Lost,10100,2026-09-06,Google Ads,0.631,Acme MSP - Inbound,Owen Brooks,2026-05-27 11:01:00,Proposal
-ACME-D00182,ACME-L00875,Hicks-Reid,Lost,13250,2026-07-11,Google Ads,0.563,Acme MSP - Inbound,Jordan Ellis,2026-05-29 19:37:37,Proposal
-ACME-D00183,ACME-L00883,Scott Dawson and Hines,Lost,31500,2026-07-05,Referral,0.589,Acme MSP - Referral,Dana Whitfield,2026-05-28 20:20:39,Proposal
-ACME-D00184,ACME-L00885,Davis Christian and Fitzgerald,Won,10850,2026-07-11,Referral,0.663,Acme MSP - Referral,Dana Whitfield,2026-05-27 22:02:52,Won
-ACME-D00185,ACME-L00897,Webb-Brown,Lost,12650,2026-06-27,Referral,0.594,Acme MSP - Referral,Jordan Ellis,2026-05-31 04:57:30,Contacted
-ACME-D00186,ACME-L00903,Sanders Perry and May,Lost,12900,2026-06-23,Meta Ads,0.583,Acme MSP - Inbound,Owen Brooks,2026-05-29 04:54:27,Proposal
-ACME-D00187,ACME-L00914,Ayers Group,Lost,20150,2026-06-29,Referral,0.603,Acme MSP - Referral,Owen Brooks,2026-05-30 14:56:47,Contacted
-ACME-D00188,ACME-L00917,Allen-Martinez,Lost,5750,2026-06-05,Meta Ads,0.589,Acme MSP - Inbound,Dana Whitfield,2026-05-30 04:40:36,New
-ACME-D00189,ACME-L00923,Jones Smith and Ward,Lost,22100,2026-06-07,Outbound,0.664,Acme MSP - Outbound,Marcus Lee,2026-06-05 07:29:32,New
-ACME-D00190,ACME-L00924,Schmidt-Hall,Lost,17100,2026-06-08,Google Ads,0.66,Acme MSP - Inbound,Dana Whitfield,2026-05-31 20:24:15,Contacted
-ACME-D00191,ACME-L00938,May Walters and Bush,Lost,12550,2026-07-03,Referral,0.664,Acme MSP - Referral,Dana Whitfield,2026-06-01 01:47:01,Qualified
-ACME-D00192,ACME-L00942,Wilkinson Kelley and Hughes,Won,18500,2026-06-30,Google Ads,0.6,Acme MSP - Inbound,Grace Kim,2026-06-04 14:36:50,Won
-ACME-D00193,ACME-L00943,Allen PLC,Lost,7950,2026-06-10,Call Tracking,0.576,Acme MSP - Inbound,Marcus Lee,2026-06-05 10:06:08,Contacted
-ACME-D00194,ACME-L00953,Gutierrez Inc,Lost,10550,2026-06-09,Referral,0.646,Acme MSP - Referral,Dana Whitfield,2026-06-06 00:46:25,New
-ACME-D00195,ACME-L00955,Campbell Ltd,Lost,16000,2026-06-06,Referral,0.716,Acme MSP - Referral,Priya Raman,2026-06-03 02:49:20,New
-ACME-D00196,ACME-L00959,Gonzalez LLC,Lost,17700,2026-06-07,Google Ads,0.621,Acme MSP - Inbound,Jordan Ellis,2026-06-03 12:08:24,New
-ACME-D00197,ACME-L00962,Gibbs-Lawrence,Lost,17700,2026-07-01,Referral,0.571,Acme MSP - Referral,Marcus Lee,2026-06-07 09:24:12,Qualified
-ACME-D00198,ACME-L00967,Weaver Inc,Lost,12950,2026-06-27,Referral,0.613,Acme MSP - Referral,Dana Whitfield,2026-06-04 21:09:40,Contacted
-ACME-D00199,ACME-L00969,Davis-Rodriguez,Won,15250,2026-08-24,Meta Ads,0.642,Acme MSP - Inbound,Priya Raman,2026-06-09 02:47:08,Won
-ACME-D00200,ACME-L00971,Harris-Ellison,Lost,12000,2026-06-10,Google Ads,0.568,Acme MSP - Inbound,Marcus Lee,2026-06-05 15:44:45,Contacted
-ACME-D00201,ACME-L00976,Johnson Stevens and Tran,Lost,16250,2026-06-07,Google Ads,0.565,Acme MSP - Inbound,Priya Raman,2026-06-03 22:58:41,Contacted
-ACME-D00202,ACME-L00978,Cross Martinez and Perez,Lost,34350,2026-06-10,Call Tracking,0.544,Acme MSP - Inbound,Marcus Lee,2026-06-05 17:25:47,Contacted
-ACME-D00203,ACME-L00979,Jenkins-Velazquez,Lost,12600,2026-06-15,Call Tracking,0.612,Acme MSP - Inbound,Dana Whitfield,2026-06-06 10:28:22,Contacted
-ACME-D00204,ACME-L00983,Miller-Torres,Won,17750,2026-07-19,Call Tracking,0.648,Acme MSP - Inbound,Grace Kim,2026-06-05 02:00:48,Won
-ACME-D00205,ACME-L00985,Johnson PLC,Lost,17300,2026-07-28,Referral,0.666,Acme MSP - Referral,Priya Raman,2026-06-06 02:10:21,Proposal
-ACME-D00206,ACME-L00989,Walls-Smith,Lost,9900,2026-07-19,Google Ads,0.559,Acme MSP - Inbound,Dana Whitfield,2026-06-10 07:48:17,Proposal
-ACME-D00207,ACME-L00992,Williams Taylor and Cooley,Lost,15500,2026-07-08,Google Ads,0.493,Acme MSP - Inbound,Marcus Lee,2026-06-05 02:49:43,Proposal
-ACME-D00208,ACME-L00995,Garcia Inc,Lost,18050,2026-06-12,Google Ads,0.509,Acme MSP - Inbound,Sofia Alvarez,2026-06-08 01:26:06,Contacted
-ACME-D00209,ACME-L00996,Rivas-Roberts,Won,14000,2026-07-20,Outbound,0.498,Acme MSP - Outbound,Priya Raman,2026-06-06 21:04:14,Won
-ACME-D00210,ACME-L00997,Porter and Sons,Lost,8200,2026-07-05,Call Tracking,0.592,Acme MSP - Inbound,Jordan Ellis,2026-06-06 00:01:46,Proposal
-ACME-D00211,ACME-L00998,Green Oliver and Jones,Lost,9800,2026-06-15,Google Ads,0.63,Acme MSP - Inbound,Sofia Alvarez,2026-06-04 08:04:52,Contacted
-ACME-D00212,ACME-L01000,Lutz-Fuentes,Lost,9350,2026-06-20,Referral,0.632,Acme MSP - Referral,Dana Whitfield,2026-06-06 22:24:55,Qualified
-ACME-D00213,ACME-L01001,Wood-Kramer,Lost,11550,2026-06-23,Call Tracking,0.635,Acme MSP - Inbound,Grace Kim,2026-06-07 09:19:41,Contacted
-ACME-D00214,ACME-L01005,Smith Flores and Walter,Lost,15550,2026-06-17,Meta Ads,0.613,Acme MSP - Inbound,Jordan Ellis,2026-06-05 19:27:19,Contacted
-ACME-D00215,ACME-L01006,Cruz Pratt and Ruiz,Lost,7600,2026-06-16,Google Ads,0.617,Acme MSP - Inbound,Sofia Alvarez,2026-06-07 03:28:40,Contacted
-ACME-D00216,ACME-L01010,Campbell Rivera and Lane,Won,13150,2026-07-21,Google Ads,0.576,Acme MSP - Inbound,Acme Round Robin,2026-06-07 20:08:03,Won
-ACME-D00217,ACME-L01017,Daniels Ltd,Lost,11600,2026-06-10,Google Ads,0.604,Acme MSP - Inbound,Priya Raman,2026-06-07 12:59:45,New
-ACME-D00218,ACME-L01022,Johnson Woods and Miller,Lost,11900,2026-07-01,Meta Ads,0.546,Acme MSP - Inbound,Marcus Lee,2026-06-07 16:39:02,Qualified
-ACME-D00219,ACME-L01024,Melendez-Donaldson,Lost,11000,2026-06-19,Outbound,0.633,Acme MSP - Outbound,Sofia Alvarez,2026-06-08 21:36:21,Qualified
-ACME-D00220,ACME-L01025,Wilson-Wheeler,Lost,11300,2026-06-19,Outbound,0.564,Acme MSP - Outbound,Grace Kim,2026-06-06 00:37:36,Qualified
-ACME-D00221,ACME-L01033,Black-Jefferson,Lost,19450,2026-06-22,Google Ads,0.595,Acme MSP - Inbound,Dana Whitfield,2026-06-09 00:24:27,Qualified
-ACME-D00222,ACME-L01035,Powell Acosta and Watson,Lost,13000,2026-06-15,Call Tracking,0.609,Acme MSP - Inbound,Marcus Lee,2026-06-11 12:05:53,New
-ACME-D00223,ACME-L01037,Kramer Klein and Mueller,Lost,9950,2026-07-05,Referral,0.635,Acme MSP - Referral,Jordan Ellis,2026-06-10 15:51:03,Qualified
-ACME-D00224,ACME-L01071,Wilson Kim and Wallace,Won,8950,2026-07-17,Referral,0.601,Acme MSP - Referral,Priya Raman,2026-06-14 13:02:13,Won
-ACME-D00225,ACME-L01082,Moore and Sons,Lost,13350,2026-06-13,Call Tracking,0.643,Acme MSP - Inbound,Owen Brooks,2026-06-11 20:41:22,New
-ACME-D00226,ACME-L01089,Dixon-Chapman,Lost,16000,2026-06-12,Google Ads,0.611,Acme MSP - Inbound,Owen Brooks,2026-06-10 23:14:57,New
-ACME-D00227,ACME-L01097,White Mcintyre and Ryan,Lost,12400,2026-06-13,Referral,0.655,Acme MSP - Referral,Jordan Ellis,2026-06-10 21:05:10,Contacted
-ACME-D00228,ACME-L01098,Salazar LLC,Lost,17100,2026-06-26,Referral,0.638,Acme MSP - Referral,Jordan Ellis,2026-06-15 05:19:43,Contacted
-ACME-D00229,ACME-L01100,Fischer Ltd,Lost,14300,2026-06-21,Call Tracking,0.625,Acme MSP - Inbound,Dana Whitfield,2026-06-13 03:11:04,Contacted
-ACME-D00230,ACME-L01104,Gonzalez Inc,Lost,17900,2026-06-16,Google Ads,0.583,Acme MSP - Inbound,Owen Brooks,2026-06-11 16:35:53,New
-ACME-D00231,ACME-L01108,Weber Inc,Won,16300,2026-07-01,Referral,0.614,Acme MSP - Referral,Sofia Alvarez,2026-06-10 20:39:08,Won
-ACME-D00232,ACME-L01117,Martin Jacobson and Lee,Lost,18750,2026-08-16,Meta Ads,0.465,Acme MSP - Inbound,Sofia Alvarez,2026-06-13 03:14:53,Proposal
-ACME-D00233,ACME-L01121,Harris-Martinez,Lost,11200,2026-06-18,Outbound,0.588,Acme MSP - Outbound,Dana Whitfield,2026-06-14 11:19:10,New
-ACME-D00234,ACME-L01124,Jacobs-White,Lost,21350,2026-06-29,Google Ads,0.647,Acme MSP - Inbound,Jordan Ellis,2026-06-14 16:57:49,Contacted
-ACME-D00235,ACME-L01126,Becker LLC,Lost,32750,2026-07-19,Google Ads,0.617,Acme MSP - Inbound,Grace Kim,2026-06-12 08:41:13,Qualified
-ACME-D00236,ACME-L01130,Sanders LLC,Won,17000,2026-07-07,Outbound,0.551,Acme MSP - Outbound,Dana Whitfield,2026-06-12 03:40:53,Won
-ACME-D00237,ACME-L01143,Vazquez Myers and Hernandez,Lost,9550,2026-07-04,Google Ads,0.589,Acme MSP - Inbound,Dana Whitfield,2026-06-15 18:17:20,Qualified
-ACME-D00238,ACME-L01144,Anderson Johnson and Jordan,Lost,8350,2026-06-19,Referral,0.575,Acme MSP - Referral,Jordan Ellis,2026-06-13 10:00:05,Contacted
-ACME-D00239,ACME-L01152,Cox Garcia and Rosales,Lost,13350,2026-07-25,Google Ads,0.561,Acme MSP - Inbound,Grace Kim,2026-06-15 17:07:33,Proposal
-ACME-D00240,ACME-L01155,Gates Sanchez and Matthews,Lost,16900,2026-07-05,Meta Ads,0.601,Acme MSP - Inbound,Priya Raman,2026-06-16 08:27:43,Contacted
-ACME-D00241,ACME-L01160,Mccoy PLC,Lost,16000,2026-06-23,Referral,0.68,Acme MSP - Referral,Owen Brooks,2026-06-14 19:08:33,Contacted
-ACME-D00242,ACME-L01181,Hartman Grimes and Chapman,Lost,11300,2026-06-25,Outbound,0.588,Acme MSP - Outbound,Owen Brooks,2026-06-17 21:34:09,New
-ACME-D00243,ACME-L01183,Bryant-Boyer,Lost,15550,2026-06-17,Google Ads,0.631,Acme MSP - Inbound,Marcus Lee,2026-06-16 18:40:42,New
-ACME-D00244,ACME-L01189,Harmon Group,Lost,11800,2026-07-09,Outbound,0.577,Acme MSP - Outbound,Priya Raman,2026-06-18 08:45:43,Qualified
-ACME-D00245,ACME-L01192,Lewis LLC,Lost,11000,2026-07-03,Google Ads,0.58,Acme MSP - Inbound,Marcus Lee,2026-06-19 01:31:36,Contacted
-ACME-D00246,ACME-L01196,Maxwell Griffin and Parks,Lost,17800,2026-07-08,Outbound,0.588,Acme MSP - Outbound,Dana Whitfield,2026-06-18 07:46:29,Contacted
-ACME-D00247,ACME-L01210,Chavez Allen and Mcdonald,Lost,12150,2026-07-26,Referral,0.607,Acme MSP - Referral,Jordan Ellis,2026-06-22 00:18:35,Contacted
-ACME-D00248,ACME-L01214,Gibson-Allison,Lost,9900,2026-07-27,Google Ads,0.619,Acme MSP - Inbound,Jordan Ellis,2026-06-20 01:02:37,Proposal
-ACME-D00249,ACME-L01233,Tucker LLC,Lost,10600,2026-07-10,Meta Ads,0.604,Acme MSP - Inbound,Dana Whitfield,2026-06-20 18:27:38,Qualified
-ACME-D00250,ACME-L01237,Steele Robertson and Bell,Lost,26250,2026-06-30,Meta Ads,0.638,Acme MSP - Inbound,Sofia Alvarez,2026-06-20 15:56:17,Contacted
-ACME-D00251,ACME-L01244,Garrison-Zhang,Lost,5950,2026-07-05,Call Tracking,0.618,Acme MSP - Inbound,Marcus Lee,2026-06-21 17:00:13,Contacted
-ACME-D00252,ACME-L01248,Pena PLC,Lost,22500,2026-06-27,Google Ads,0.591,Acme MSP - Inbound,Dana Whitfield,2026-06-21 12:25:58,Contacted
-ACME-D00253,ACME-L01275,Hensley Wolf and Peters,Lost,15050,2026-08-09,Referral,0.567,Acme MSP - Referral,Sofia Alvarez,2026-06-24 20:51:00,Proposal
-ACME-D00254,ACME-L01280,Clark Rich and Howard,Lost,10400,2026-08-31,Google Ads,0.61,Acme MSP - Inbound,Dana Whitfield,2026-06-27 02:37:09,Proposal
-ACME-D00255,ACME-L01296,Jones Dennis and Thompson,Lost,14450,2026-06-30,Meta Ads,0.595,Acme MSP - Inbound,Jordan Ellis,2026-06-24 01:06:12,Qualified
-ACME-D00256,ACME-L01301,Cox LLC,Lost,17500,2026-07-07,Referral,0.721,Acme MSP - Referral,Dana Whitfield,2026-06-25 12:30:32,Contacted
-ACME-D00257,ACME-L01302,Willis PLC,Won,11850,2026-08-06,Outbound,0.561,Acme MSP - Outbound,Grace Kim,2026-06-23 18:50:09,Won
-ACME-D00258,ACME-L01327,Hernandez Inc,Lost,20150,2026-06-30,Referral,0.68,Acme MSP - Referral,Priya Raman,2026-06-26 12:49:59,New
-ACME-D00259,ACME-L01338,Williams Inc,Lost,15650,2026-07-11,Outbound,0.582,Acme MSP - Outbound,Marcus Lee,2026-06-27 10:29:20,Contacted
-ACME-D00260,ACME-L01340,Taylor Chambers and Davidson,Lost,13650,2026-07-24,Call Tracking,0.63,Acme MSP - Inbound,Grace Kim,2026-06-25 19:28:13,Proposal
-ACME-D00261,ACME-L01350,Browning-Kerr,Lost,8700,2026-07-16,Call Tracking,0.555,Acme MSP - Inbound,Sofia Alvarez,2026-07-02 18:09:08,Contacted
-ACME-D00262,ACME-L01351,Mack Rivas and Alvarez,Lost,14400,2026-07-16,Google Ads,0.631,Acme MSP - Inbound,Jordan Ellis,2026-06-27 07:29:30,Qualified
-ACME-D00263,ACME-L01354,Sutton Griffin and Swanson,Lost,20150,2026-07-04,Referral,0.677,Acme MSP - Referral,Marcus Lee,2026-06-27 06:06:20,Contacted
-ACME-D00264,ACME-L01363,Mckenzie and Sons,Won,14000,2026-08-11,Google Ads,0.56,Acme MSP - Inbound,Sofia Alvarez,2026-06-30 20:58:48,Won
-ACME-D00265,ACME-L01364,Thompson-Wilson,Lost,13800,2026-07-10,Google Ads,0.544,Acme MSP - Inbound,Marcus Lee,2026-07-05 16:53:38,Contacted
-ACME-D00266,ACME-L01367,Woodard Group,Lost,16800,2026-08-14,Meta Ads,0.626,Acme MSP - Inbound,Owen Brooks,2026-06-30 19:38:47,Proposal
-ACME-D00267,ACME-L01369,Johnson Shaw and Roach,Lost,8350,2026-07-15,Meta Ads,0.618,Acme MSP - Inbound,Priya Raman,2026-06-27 11:38:45,Contacted
-ACME-D00268,ACME-L01377,Rodriguez Hill and Turner,Lost,15100,2026-07-27,Google Ads,0.566,Acme MSP - Inbound,Dana Whitfield,2026-06-29 10:58:24,Contacted
-ACME-D00269,ACME-L01384,Nolan-Jordan,Lost,16400,2026-07-04,Outbound,0.638,Acme MSP - Outbound,Owen Brooks,2026-07-01 09:42:36,New
-ACME-D00270,ACME-L01387,Oneill LLC,Lost,18550,2026-07-12,Google Ads,0.619,Acme MSP - Inbound,Sofia Alvarez,2026-06-30 19:00:34,Contacted
-ACME-D00271,ACME-L01395,Brandt Williams and Patrick,Lost,6050,2026-07-07,Call Tracking,0.644,Acme MSP - Inbound,Grace Kim,2026-06-30 00:04:50,New
-ACME-D00272,ACME-L01398,Miller-Middleton,Lost,30350,2026-07-12,Referral,0.684,Acme MSP - Referral,Sofia Alvarez,2026-07-02 16:33:53,Contacted
-ACME-D00273,ACME-L01401,Baker Carr and Moore,Lost,26650,2026-07-15,Outbound,0.578,Acme MSP - Outbound,Dana Whitfield,2026-07-01 05:51:13,Contacted
-ACME-D00274,ACME-L01403,Smith-Page,Lost,32750,2026-07-08,Outbound,0.566,Acme MSP - Outbound,Priya Raman,2026-07-02 05:27:23,Contacted
-ACME-D00275,ACME-L01407,Scott-Wolfe,Lost,12900,2026-07-23,Referral,0.643,Acme MSP - Referral,Marcus Lee,2026-07-03 17:37:31,Contacted
-ACME-D00276,ACME-L01415,Williams-Johns,Lost,13500,2026-07-22,Call Tracking,0.593,Acme MSP - Inbound,Grace Kim,2026-06-30 22:56:31,Qualified
-ACME-D00277,ACME-L01426,Smith and Sons,Lost,9800,2026-07-17,Google Ads,0.59,Acme MSP - Inbound,Priya Raman,2026-07-10 20:02:49,Contacted
-ACME-D00278,ACME-L01427,Moore-Moore,Won,14150,2026-08-12,Referral,0.598,Acme MSP - Referral,Jordan Ellis,2026-07-02 02:11:16,Won
-ACME-D00279,ACME-L01428,Steele-Watson,Lost,13200,2026-09-20,Google Ads,0.652,Acme MSP - Inbound,Dana Whitfield,2026-07-02 15:47:43,Proposal
-ACME-D00280,ACME-L01434,Kramer Ltd,Lost,15850,2026-07-21,Google Ads,0.608,Acme MSP - Inbound,Priya Raman,2026-07-01 05:50:45,Qualified
-ACME-D00281,ACME-L01441,Bowen and Sons,Lost,12750,2026-07-06,Meta Ads,0.596,Acme MSP - Inbound,Dana Whitfield,2026-07-05 23:09:42,New
-ACME-D00282,ACME-L01452,Jenkins PLC,Lost,16400,2026-07-09,Outbound,0.567,Acme MSP - Outbound,Marcus Lee,2026-07-04 23:04:16,Contacted
-ACME-D00283,ACME-L01463,Stone-Jackson,Lost,15600,2026-08-07,Call Tracking,0.637,Acme MSP - Inbound,Acme Round Robin,2026-07-04 00:37:10,Qualified
-ACME-D00284,ACME-L01482,Taylor-Turner,Won,13250,2026-09-07,Referral,0.642,Acme MSP - Referral,Owen Brooks,2026-07-06 23:48:07,Won
-ACME-D00285,ACME-L01490,Roman-Roberts,Lost,10500,2026-07-24,Google Ads,0.545,Acme MSP - Inbound,Owen Brooks,2026-07-09 11:28:08,Contacted
-ACME-D00286,ACME-L01497,Oliver Group,Lost,12400,2026-07-22,Referral,0.681,Acme MSP - Referral,Jordan Ellis,2026-07-04 13:53:11,Contacted
-ACME-D00287,ACME-L01499,Bruce and Sons,Lost,17750,2026-07-14,Google Ads,0.572,Acme MSP - Inbound,Dana Whitfield,2026-07-05 19:27:44,Contacted
-ACME-D00288,ACME-L01502,Smith Ltd,Lost,6550,2026-07-22,Meta Ads,0.525,Acme MSP - Inbound,Marcus Lee,2026-07-06 01:22:05,Contacted
-ACME-D00289,ACME-L01504,Bryant-Medina,Lost,14250,2026-07-19,Call Tracking,0.604,Acme MSP - Inbound,Dana Whitfield,2026-07-06 02:29:12,Contacted
-ACME-D00290,ACME-L01505,Clark-Jones,Lost,9050,2026-08-13,Google Ads,0.552,Acme MSP - Inbound,Dana Whitfield,2026-07-04 16:50:54,Proposal
-ACME-D00291,ACME-L01510,Wiggins-Martin,Lost,14900,2026-07-22,Meta Ads,0.602,Acme MSP - Inbound,Dana Whitfield,2026-07-07 07:32:07,Contacted
-ACME-D00292,ACME-L01511,Williams-Bowman,Lost,18050,2026-07-17,Google Ads,0.531,Acme MSP - Inbound,Sofia Alvarez,2026-07-06 17:08:58,Contacted
-ACME-D00293,ACME-L01518,Miller PLC,Lost,21350,2026-07-28,Google Ads,0.579,Acme MSP - Inbound,Marcus Lee,2026-07-10 09:58:50,Contacted
-ACME-D00294,ACME-L01523,Jackson-Edwards,Lost,12450,2026-09-01,Outbound,0.542,Acme MSP - Outbound,Acme Round Robin,2026-07-09 04:46:51,Proposal
-ACME-D00295,ACME-L01526,Ramirez-Gonzalez,Won,15400,2026-07-29,Referral,0.598,Acme MSP - Referral,Marcus Lee,2026-07-07 07:40:51,Won
-ACME-D00296,ACME-L01532,Mullins Anderson and Davies,Lost,11650,2026-07-18,Referral,0.663,Acme MSP - Referral,Owen Brooks,2026-07-11 19:08:50,Contacted
-ACME-D00297,ACME-L01534,Pollard-Harris,Lost,25550,2026-07-25,Meta Ads,0.542,Acme MSP - Inbound,Marcus Lee,2026-07-11 12:08:23,Contacted
-ACME-D00298,ACME-L01535,George Fitzpatrick and Key,Lost,11050,2026-09-09,Call Tracking,0.586,Acme MSP - Inbound,Marcus Lee,2026-07-09 15:12:13,Proposal
-ACME-D00299,ACME-L01537,Watson Key and Williams,Lost,8250,2026-08-17,Call Tracking,0.589,Acme MSP - Inbound,Jordan Ellis,2026-07-10 18:12:13,Proposal
-ACME-D00300,ACME-L01544,Greer Ltd,Lost,13650,2026-07-13,Meta Ads,0.589,Acme MSP - Inbound,Dana Whitfield,2026-07-07 23:59:05,New
-ACME-D00301,ACME-L01552,Trevino-Orozco,Lost,19250,2026-07-09,Meta Ads,0.578,Acme MSP - Inbound,Owen Brooks,2026-07-07 23:21:03,New
-ACME-D00302,ACME-L01553,Montgomery-Goodman,Lost,10550,2026-07-15,Google Ads,0.598,Acme MSP - Inbound,Priya Raman,2026-07-11 04:33:04,Contacted
-ACME-D00303,ACME-L01555,Moore Wright and Jones,Lost,10100,2026-07-22,Call Tracking,0.58,Acme MSP - Inbound,Jordan Ellis,2026-07-11 13:45:41,Contacted
-ACME-D00304,ACME-L01559,Moore Joyce and Valdez,Lost,10650,2026-07-12,Google Ads,0.667,Acme MSP - Inbound,Marcus Lee,2026-07-10 15:35:29,New
-ACME-D00305,ACME-L01560,Hernandez Booth and Green,Lost,11850,2026-07-16,Referral,0.677,Acme MSP - Referral,Dana Whitfield,2026-07-07 20:48:55,Contacted
-ACME-D00306,ACME-L01561,Cooper Ltd,Won,11650,2026-08-21,Google Ads,0.593,Acme MSP - Inbound,Jordan Ellis,2026-07-09 00:43:05,Won
-ACME-D00307,ACME-L01563,Barber Inc,Lost,16850,2026-07-22,Google Ads,0.651,Acme MSP - Inbound,Priya Raman,2026-07-10 03:15:46,Contacted
-ACME-D00308,ACME-L01565,Reyes PLC,Lost,7400,2026-07-20,Meta Ads,0.606,Acme MSP - Inbound,Marcus Lee,2026-07-09 08:27:39,Contacted
-ACME-D00309,ACME-L01568,Brown-Lawson,Lost,10400,2026-07-18,Referral,0.626,Acme MSP - Referral,Marcus Lee,2026-07-10 18:17:31,Contacted
-ACME-D00310,ACME-L01570,Hall-Turner,Lost,13300,2026-07-19,Call Tracking,0.561,Acme MSP - Inbound,Sofia Alvarez,2026-07-11 17:33:36,New
-ACME-D00311,ACME-L01571,Smith Monroe and Hancock,Lost,9500,2026-08-07,Google Ads,0.584,Acme MSP - Inbound,Priya Raman,2026-07-09 19:25:58,Qualified
-ACME-D00312,ACME-L01581,Cook-Fischer,Lost,16850,2026-07-28,Call Tracking,0.534,Acme MSP - Inbound,Priya Raman,2026-07-09 14:30:09,Contacted
-ACME-D00313,ACME-L01585,Miller-Williams,Lost,21850,2026-07-15,Referral,0.698,Acme MSP - Referral,Dana Whitfield,2026-07-11 10:43:10,Contacted
-ACME-D00314,ACME-L01587,Farrell-Miller,Lost,24050,2026-09-04,Google Ads,0.611,Acme MSP - Inbound,Owen Brooks,2026-07-12 09:31:47,Proposal
-ACME-D00315,ACME-L01589,Anderson-Walker,Won,18100,2026-08-14,Meta Ads,0.642,Acme MSP - Inbound,Owen Brooks,2026-07-13 17:53:53,Won
-ACME-D00316,ACME-L01590,Lara LLC,Lost,17250,2026-09-14,Outbound,0.58,Acme MSP - Outbound,Marcus Lee,2026-07-13 07:06:54,Proposal
-ACME-D00317,ACME-L01593,Myers-Dalton,Lost,14950,2026-07-24,Google Ads,0.618,Acme MSP - Inbound,Grace Kim,2026-07-10 08:20:53,Qualified
-ACME-D00318,ACME-L01595,Short Shelton and Franco,Lost,11950,2026-07-30,Referral,0.633,Acme MSP - Referral,Jordan Ellis,2026-07-12 15:44:52,Contacted
-ACME-D00319,ACME-L01601,Roberts-Davis,Lost,15700,2026-07-27,Call Tracking,0.606,Acme MSP - Inbound,Dana Whitfield,2026-07-12 05:34:33,Contacted
-ACME-D00320,ACME-L01602,Mckenzie-Gibbs,Lost,14900,2026-08-19,Meta Ads,0.622,Acme MSP - Inbound,Sofia Alvarez,2026-07-14 08:45:05,Proposal
-ACME-D00321,ACME-L01603,Moore Robinson and Martinez,Lost,9350,2026-07-17,Google Ads,0.535,Acme MSP - Inbound,Dana Whitfield,2026-07-10 06:55:31,Contacted
-ACME-D00322,ACME-L01607,Miller Ltd,Lost,13600,2026-07-17,Google Ads,0.563,Acme MSP - Inbound,Priya Raman,2026-07-12 11:36:21,Contacted
-ACME-D00323,ACME-L01613,Vargas Miller and Maddox,Lost,16400,2026-07-15,Google Ads,0.605,Acme MSP - Inbound,Dana Whitfield,2026-07-12 08:56:53,New
-ACME-D00324,ACME-L01617,Arnold Hughes and Fletcher,Lost,13200,2026-07-20,Google Ads,0.677,Acme MSP - Inbound,Jordan Ellis,2026-07-13 08:06:24,Contacted
-ACME-D00325,ACME-L01625,Fowler Inc,Lost,9000,2026-07-17,Google Ads,0.601,Acme MSP - Inbound,Priya Raman,2026-07-13 19:44:54,Contacted
-ACME-D00326,ACME-L01642,Norton-Morris,Lost,18750,2026-08-03,Google Ads,0.597,Acme MSP - Inbound,Owen Brooks,2026-07-15 14:25:26,Qualified
-ACME-D00327,ACME-L01643,Mayer-Vasquez,Lost,8800,2026-08-04,Google Ads,0.684,Acme MSP - Inbound,Dana Whitfield,2026-07-19 03:45:26,Contacted
-ACME-D00328,ACME-L01644,Cordova LLC,Lost,10900,2026-07-27,Google Ads,0.577,Acme MSP - Inbound,Owen Brooks,2026-07-15 05:43:04,Contacted
-ACME-D00329,ACME-L01653,Haynes-Carlson,Lost,8150,2026-07-31,Google Ads,0.49,Acme MSP - Inbound,Priya Raman,2026-07-18 10:29:52,Contacted
-ACME-D00330,ACME-L01666,Cisneros Clark and Lopez,Lost,15050,2026-08-02,Meta Ads,0.59,Acme MSP - Inbound,Owen Brooks,2026-07-18 20:36:31,Proposal
-ACME-D00331,ACME-L01670,Newton-Snyder,Lost,25850,2026-07-29,Google Ads,0.625,Acme MSP - Inbound,Sofia Alvarez,2026-07-18 15:17:34,Contacted
-ACME-D00332,ACME-L01674,Gonzales Mooney and Ellison,Lost,13050,2026-07-24,Google Ads,0.48,Acme MSP - Inbound,Jordan Ellis,2026-07-20 12:03:27,New
-ACME-D00333,ACME-L01676,Garner Gilbert and Blankenship,Lost,11600,2026-08-06,Google Ads,0.607,Acme MSP - Inbound,Acme Round Robin,2026-07-17 02:55:58,Qualified
-ACME-D00334,ACME-L01677,Martinez-Greer,Lost,18600,2026-08-06,Referral,0.567,Acme MSP - Referral,Priya Raman,2026-07-26 09:11:20,Contacted
-ACME-D00335,ACME-L01679,Rich Perez and Williams,Lost,13700,2026-07-27,Google Ads,0.596,Acme MSP - Inbound,Priya Raman,2026-07-18 06:22:30,Contacted
-ACME-D00336,ACME-L01683,Fernandez Group,Lost,13200,2026-08-04,Call Tracking,0.6,Acme MSP - Inbound,Priya Raman,2026-07-19 04:03:40,Contacted
-ACME-D00337,ACME-L01691,Patel and Sons,Lost,8900,2026-07-20,Google Ads,0.583,Acme MSP - Inbound,Jordan Ellis,2026-07-17 17:51:24,New
-ACME-D00338,ACME-L01699,Wagner LLC,Lost,15300,2026-07-25,Google Ads,0.529,Acme MSP - Inbound,Dana Whitfield,2026-07-17 07:10:12,Contacted
-ACME-D00339,ACME-L01700,Kennedy Shepard and Myers,Won,18700,2026-09-02,Referral,0.676,Acme MSP - Referral,Grace Kim,2026-07-22 12:20:06,Won
-ACME-D00340,ACME-L01705,Johnson Group,Lost,6450,2026-09-14,Google Ads,0.641,Acme MSP - Inbound,Marcus Lee,2026-07-19 16:35:57,Proposal
-ACME-D00341,ACME-L01710,Rios-Romero,Lost,13050,2026-08-04,Call Tracking,0.716,Acme MSP - Inbound,Marcus Lee,2026-07-18 01:06:23,Qualified
-ACME-D00342,ACME-L01716,Bradshaw Group,Lost,8600,2026-07-27,Call Tracking,0.589,Acme MSP - Inbound,Dana Whitfield,2026-07-19 00:26:57,Contacted
-ACME-D00343,ACME-L01728,Hall-James,Lost,13050,2026-09-09,Call Tracking,0.6,Acme MSP - Inbound,Marcus Lee,2026-07-20 16:47:18,Proposal
-ACME-D00344,ACME-L01729,Anderson Bishop and Weber,Lost,12100,2026-07-25,Referral,0.683,Acme MSP - Referral,Priya Raman,2026-07-21 14:18:59,Contacted
-ACME-D00345,ACME-L01735,Santos Murphy and George,Lost,14350,2026-08-07,Outbound,0.563,Acme MSP - Outbound,Marcus Lee,2026-07-22 18:00:29,Contacted
-ACME-D00346,ACME-L01741,Walker-Webb,Won,16350,2026-09-01,Meta Ads,0.576,Acme MSP - Inbound,Sofia Alvarez,2026-07-22 08:35:41,Won
-ACME-D00347,ACME-L01742,Barrett-Jones,Lost,15300,2026-08-16,Meta Ads,0.617,Acme MSP - Inbound,Dana Whitfield,2026-07-19 03:31:47,Qualified
-ACME-D00348,ACME-L01750,Thomas-Levy,Lost,11900,2026-07-25,Outbound,0.577,Acme MSP - Outbound,Dana Whitfield,2026-07-20 01:03:42,Contacted
-ACME-D00349,ACME-L01754,Burns Group,Lost,18450,2026-08-03,Outbound,0.581,Acme MSP - Outbound,Jordan Ellis,2026-07-24 20:44:43,Contacted
-ACME-D00350,ACME-L01755,Ramirez Fox and Mendoza,Lost,13850,2026-08-02,Google Ads,0.633,Acme MSP - Inbound,Priya Raman,2026-07-21 13:45:36,Qualified
-ACME-D00351,ACME-L01761,Snyder LLC,Lost,9050,2026-07-31,Meta Ads,0.563,Acme MSP - Inbound,Marcus Lee,2026-07-22 16:37:09,New
-ACME-D00352,ACME-L01770,Murphy and Sons,Lost,25800,2026-08-20,Referral,0.607,Acme MSP - Referral,Marcus Lee,2026-07-21 18:43:22,Qualified
-ACME-D00353,ACME-L01779,Little White and Perkins,Lost,11400,2026-08-09,Google Ads,0.612,Acme MSP - Inbound,Dana Whitfield,2026-07-26 00:26:57,Contacted
-ACME-D00354,ACME-L01780,Fisher PLC,Lost,17100,2026-07-26,Referral,,Acme MSP - Referral,Sofia Alvarez,2026-07-25 20:56:47,New
-ACME-D00355,ACME-L01784,Johnson-Irwin,Lost,7950,2026-08-01,Call Tracking,0.561,Acme MSP - Inbound,Dana Whitfield,2026-07-26 00:54:59,Contacted
-ACME-D00356,ACME-L01790,Haas PLC,Lost,9100,2026-07-28,Google Ads,0.672,Acme MSP - Inbound,Dana Whitfield,2026-07-23 10:28:23,New
-ACME-D00357,ACME-L01791,Ritter Ltd,Lost,23000,2026-08-15,Outbound,0.556,Acme MSP - Outbound,Owen Brooks,2026-07-26 07:16:25,Contacted
-ACME-D00358,ACME-L01792,Mcclain-Nguyen,Lost,8800,2026-08-07,Google Ads,0.615,Acme MSP - Inbound,Sofia Alvarez,2026-07-23 19:52:58,Contacted
-ACME-D00359,ACME-L01797,Wilkerson-Torres,Lost,10550,2026-08-25,Referral,0.612,Acme MSP - Referral,Jordan Ellis,2026-07-25 01:49:50,Proposal
-ACME-D00360,ACME-L01818,Cruz Archer and Myers,Lost,11350,2026-07-29,Meta Ads,0.606,Acme MSP - Inbound,Grace Kim,2026-07-26 07:28:36,New
-ACME-D00361,ACME-L01821,Vasquez and Sons,Lost,20200,2026-08-23,Referral,0.635,Acme MSP - Referral,Marcus Lee,2026-07-29 20:15:19,Contacted
-ACME-D00362,ACME-L01825,Mejia and Sons,Lost,15850,2026-08-07,Google Ads,0.59,Acme MSP - Inbound,Marcus Lee,2026-07-26 05:29:25,Contacted
-ACME-D00363,ACME-L01830,Owens Brennan and Schmitt,Lost,8000,2026-08-23,Meta Ads,0.637,Acme MSP - Inbound,Priya Raman,2026-07-26 22:49:38,Contacted
-ACME-D00364,ACME-L01831,Klein Inc,Lost,24400,2026-08-11,Google Ads,0.467,Acme MSP - Inbound,Dana Whitfield,2026-07-27 20:38:59,Contacted
-ACME-D00365,ACME-L01838,Mendoza Hood and Davis,Lost,6900,2026-08-20,Meta Ads,0.592,Acme MSP - Inbound,Sofia Alvarez,2026-07-27 14:36:52,Proposal
-ACME-D00366,ACME-L01841,Evans-Dawson,Lost,6450,2026-08-01,Google Ads,0.533,Acme MSP - Inbound,Dana Whitfield,2026-07-26 19:04:21,Contacted
-ACME-D00367,ACME-L01849,Howell-Turner,Lost,9350,2026-08-08,Google Ads,0.542,Acme MSP - Inbound,Dana Whitfield,2026-07-28 05:02:37,Contacted
-ACME-D00368,ACME-L01855,Bentley-Adams,Lost,12950,2026-08-24,Google Ads,0.55,Acme MSP - Inbound,Owen Brooks,2026-07-28 00:38:15,Contacted
+ACME-D00001,ACME-L00005,Martin Pham and Woods,Lost,8100,2026-04-23 00:00:00,Google Ads,0.602,Acme MSP - Inbound,Dana Whitfield,2026-04-01 17:33:40,Qualified
+ACME-D00002,ACME-L00012,Pitts-Smith,Lost,23150,2026-04-18 00:00:00,Call Tracking,0.599,Acme MSP - Inbound,Dana Whitfield,2026-04-02 23:26:13,Contacted
+ACME-D00003,ACME-L00016,Morgan-Williams,Lost,14400,2026-04-09 00:00:00,Google Ads,0.629,Acme MSP - Inbound,Dana Whitfield,2026-04-08 10:40:18,New
+ACME-D00004,ACME-L00019,Stephens Martin and Simmons,Lost,20850,2026-04-21 00:00:00,Referral,0.574,Acme MSP - Referral,Grace Kim,2026-04-05 06:07:13,Contacted
+ACME-D00005,ACME-L00021,Wilson Price and Dawson,Lost,27850,2026-04-21 00:00:00,Meta Ads,0.535,Acme MSP - Inbound,Dana Whitfield,2026-04-03 17:18:48,Contacted
+ACME-D00006,ACME-L00022,Massey Benjamin and Harris,Lost,16050,2026-04-13 00:00:00,Google Ads,0.627,Acme MSP - Inbound,Owen Brooks,2026-04-02 23:53:59,Contacted
+ACME-D00007,ACME-L00025,Pittman LLC,Lost,27100,2026-04-13 00:00:00,Outbound,0.578,Acme MSP - Outbound,Priya Raman,2026-04-03 22:06:52,Qualified
+ACME-D00008,ACME-L00027,Mckenzie PLC,Lost,28800,2026-04-25 00:00:00,Referral,0.663,Acme MSP - Referral,Dana Whitfield,2026-04-06 15:04:31,Contacted
+ACME-D00009,ACME-L00029,Roberts PLC,Lost,13100,2026-04-07 00:00:00,Google Ads,0.597,Acme MSP - Inbound,Jordan Ellis,2026-04-05 06:43:11,New
+ACME-D00010,ACME-L00032,Wells Watson and Calhoun,Lost,8250,2026-05-25 00:00:00,Call Tracking,0.589,Acme MSP - Inbound,Jordan Ellis,2026-04-10 14:04:54,Proposal
+ACME-D00011,ACME-L00035,Benson-Harper,Lost,16900,2026-04-10 00:00:00,Google Ads,0.57,Acme MSP - Inbound,Dana Whitfield,2026-04-03 18:42:38,Contacted
+ACME-D00012,ACME-L00037,Frank-Giles,Lost,10950,2026-04-19 00:00:00,Call Tracking,0.647,Acme MSP - Inbound,Dana Whitfield,2026-04-03 21:03:24,Contacted
+ACME-D00013,ACME-L00039,Jackson and Sons,Lost,12250,2026-04-19 00:00:00,Google Ads,0.613,Acme MSP - Inbound,Dana Whitfield,2026-04-03 23:30:31,Contacted
+ACME-D00014,ACME-L00051,Pierce-Chavez,Won,17750,2026-05-05 00:00:00,Referral,0.605,Acme MSP - Referral,Dana Whitfield,2026-04-05 22:24:10,Won
+ACME-D00015,ACME-L00057,Miller Walton and Chen,Lost,16100,2026-05-20 00:00:00,Referral,0.645,Acme MSP - Referral,Grace Kim,2026-04-07 04:48:34,Proposal
+ACME-D00016,ACME-L00058,Turner Murray and Haley,Lost,13450,2026-04-09 00:00:00,Call Tracking,0.656,Acme MSP - Inbound,Jordan Ellis,2026-04-06 09:28:03,Contacted
+ACME-D00017,ACME-L00059,Mccormick-Cook,Lost,12500,2026-06-01 00:00:00,Meta Ads,0.6,Acme MSP - Inbound,Marcus Lee,2026-04-09 05:03:42,Proposal
+ACME-D00018,ACME-L00065,Friedman-Diaz,Lost,10450,2026-05-24 00:00:00,Referral,0.585,Acme MSP - Referral,Priya Raman,2026-04-07 04:08:34,Proposal
+ACME-D00019,ACME-L00068,Oliver Inc,Lost,28950,2026-05-05 00:00:00,Outbound,0.578,Acme MSP - Outbound,Priya Raman,2026-04-11 01:41:07,Contacted
+ACME-D00020,ACME-L00072,Adams Lopez and Decker,Lost,13600,2026-04-19 00:00:00,Outbound,0.505,Acme MSP - Outbound,Priya Raman,2026-04-11 03:59:15,Contacted
+ACME-D00021,ACME-L00073,Stokes-Davis,Lost,15550,2026-04-15 00:00:00,Referral,0.634,Acme MSP - Referral,Acme Round Robin,2026-04-07 15:28:04,Contacted
+ACME-D00022,ACME-L00080,Carter-Carey,Lost,14450,2026-04-17 00:00:00,Outbound,0.518,Acme MSP - Outbound,Grace Kim,2026-04-09 02:50:28,Contacted
+ACME-D00023,ACME-L00082,Salazar-Harrison,Won,16450,2026-06-18 00:00:00,Referral,0.68,Acme MSP - Referral,Marcus Lee,2026-04-08 04:21:52,Won
+ACME-D00024,ACME-L00087,Alvarado-Smith,Lost,17500,2026-04-18 00:00:00,Referral,0.656,Acme MSP - Referral,Priya Raman,2026-04-11 23:54:53,Contacted
+ACME-D00025,ACME-L00088,Ward Lucas and Smith,Lost,7700,2026-05-06 00:00:00,Google Ads,0.59,Acme MSP - Inbound,Priya Raman,2026-04-11 01:51:01,Proposal
+ACME-D00026,ACME-L00090,Melendez Lee and Price,Lost,15750,2026-04-21 00:00:00,Google Ads,0.587,Acme MSP - Inbound,Priya Raman,2026-04-11 15:18:37,Contacted
+ACME-D00027,ACME-L00094,Gentry-Shepard,Lost,8500,2026-04-22 00:00:00,Call Tracking,0.594,Acme MSP - Inbound,Marcus Lee,2026-04-09 04:08:11,Contacted
+ACME-D00028,ACME-L00096,Beasley-Johnson,Lost,8350,2026-04-20 00:00:00,Google Ads,0.594,Acme MSP - Inbound,Owen Brooks,2026-04-10 04:21:41,Contacted
+ACME-D00029,ACME-L00104,Wilson-Irwin,Lost,18450,2026-04-19 00:00:00,Referral,0.602,Acme MSP - Referral,Priya Raman,2026-04-09 05:15:25,Contacted
+ACME-D00030,ACME-L00109,Gillespie Brewer and Torres,Lost,12200,2026-04-11 00:00:00,Google Ads,0.581,Acme MSP - Inbound,Grace Kim,2026-04-09 10:38:44,New
+ACME-D00031,ACME-L00112,Maldonado-Sullivan,Lost,19200,2026-04-17 00:00:00,Call Tracking,0.584,Acme MSP - Inbound,Sofia Alvarez,2026-04-14 13:14:17,New
+ACME-D00032,ACME-L00114,Watson and Sons,Lost,13450,2026-04-20 00:00:00,Google Ads,0.593,Acme MSP - Inbound,Jordan Ellis,2026-04-10 03:26:52,Contacted
+ACME-D00033,ACME-L00116,Shaffer Group,Lost,7050,2026-04-28 00:00:00,Google Ads,,Acme MSP - Inbound,Marcus Lee,2026-04-10 05:43:03,Contacted
+ACME-D00034,ACME-L00123,Brown Foster and Erickson,Lost,14200,2026-04-23 00:00:00,Outbound,0.628,Acme MSP - Outbound,Dana Whitfield,2026-04-09 05:17:14,Qualified
+ACME-D00035,ACME-L00126,Wilson-House,Won,22050,2026-06-09 00:00:00,Referral,0.66,Acme MSP - Referral,Dana Whitfield,2026-04-14 09:38:04,Won
+ACME-D00036,ACME-L00127,Fowler Cardenas and Cabrera,Lost,13850,2026-05-19 00:00:00,Meta Ads,0.626,Acme MSP - Inbound,Sofia Alvarez,2026-04-09 10:31:01,Proposal
+ACME-D00037,ACME-L00129,Castaneda Moore and Orozco,Lost,19750,2026-04-18 00:00:00,Google Ads,0.618,Acme MSP - Inbound,Jordan Ellis,2026-04-13 19:10:33,Contacted
+ACME-D00038,ACME-L00133,Love-Lee,Lost,20900,2026-04-18 00:00:00,Google Ads,0.662,Acme MSP - Inbound,Jordan Ellis,2026-04-10 00:28:24,New
+ACME-D00039,ACME-L00135,Harris PLC,Lost,19250,2026-04-24 00:00:00,Google Ads,0.641,Acme MSP - Inbound,Jordan Ellis,2026-04-11 07:23:06,Qualified
+ACME-D00040,ACME-L00136,Adams PLC,Won,20350,2026-05-22 00:00:00,Google Ads,0.631,Acme MSP - Inbound,Owen Brooks,2026-04-13 07:38:41,Won
+ACME-D00041,ACME-L00148,Norton Ltd,Lost,9650,2026-05-06 00:00:00,Call Tracking,0.606,Acme MSP - Inbound,Marcus Lee,2026-04-11 13:01:55,Proposal
+ACME-D00042,ACME-L00150,Ford-Paul,Lost,12250,2026-04-22 00:00:00,Outbound,0.63,Acme MSP - Outbound,Sofia Alvarez,2026-04-12 06:21:00,Contacted
+ACME-D00043,ACME-L00159,Dunn-Miller,Won,7950,2026-06-08 00:00:00,Google Ads,0.606,Acme MSP - Inbound,Dana Whitfield,2026-04-14 07:49:56,Won
+ACME-D00044,ACME-L00166,Atkinson-Lowe,Lost,25700,2026-05-05 00:00:00,Google Ads,0.641,Acme MSP - Inbound,Jordan Ellis,2026-04-13 11:58:58,Proposal
+ACME-D00045,ACME-L00168,Lee-Brown,Won,9600,2026-05-13 00:00:00,Call Tracking,0.598,Acme MSP - Inbound,Acme Round Robin,2026-04-16 19:30:46,Won
+ACME-D00046,ACME-L00173,Thomas-Bowman,Lost,13350,2026-04-17 00:00:00,Google Ads,0.51,Acme MSP - Inbound,Jordan Ellis,2026-04-15 11:42:56,Contacted
+ACME-D00047,ACME-L00199,Smith Lloyd and Jackson,Lost,12750,2026-04-26 00:00:00,Call Tracking,0.693,Acme MSP - Inbound,Acme Round Robin,2026-04-17 00:38:31,Contacted
+ACME-D00048,ACME-L00202,Gonzalez-Flores,Lost,14750,2026-04-30 00:00:00,Referral,0.631,Acme MSP - Referral,Sofia Alvarez,2026-04-15 08:49:25,Contacted
+ACME-D00049,ACME-L00205,Jones Kelly and Sanchez,Lost,9000,2026-04-24 00:00:00,Call Tracking,0.524,Acme MSP - Inbound,Sofia Alvarez,2026-04-15 22:49:53,Contacted
+ACME-D00050,ACME-L00208,Perkins-Miller,Lost,18900,2026-04-29 00:00:00,Google Ads,0.593,Acme MSP - Inbound,Grace Kim,2026-04-16 22:53:49,Contacted
+ACME-D00051,ACME-L00212,Young-Avila,Lost,17550,2026-04-18 00:00:00,Google Ads,0.533,Acme MSP - Inbound,Owen Brooks,2026-04-15 03:44:14,New
+ACME-D00052,ACME-L00216,Thomas Hester and Robles,Lost,7200,2026-05-08 00:00:00,Referral,0.629,Acme MSP - Referral,Dana Whitfield,2026-04-16 20:53:44,Contacted
+ACME-D00053,ACME-L00226,Stanton Phillips and Mcfarland,Won,17650,2026-06-01 00:00:00,Meta Ads,0.565,Acme MSP - Inbound,Sofia Alvarez,2026-04-17 09:36:25,Won
+ACME-D00054,ACME-L00232,Bautista Rodriguez and Carlson,Lost,8800,2026-04-30 00:00:00,Referral,0.626,Acme MSP - Referral,Grace Kim,2026-04-21 21:38:28,Contacted
+ACME-D00055,ACME-L00234,Butler-Williams,Lost,21950,2026-06-09 00:00:00,Google Ads,0.556,Acme MSP - Inbound,Sofia Alvarez,2026-04-21 01:34:48,Proposal
+ACME-D00056,ACME-L00240,Wheeler-Lane,Lost,18000,2026-04-29 00:00:00,Referral,0.588,Acme MSP - Referral,Acme Round Robin,2026-04-19 11:31:46,Contacted
+ACME-D00057,ACME-L00242,Williams Evans and Smith,Lost,11900,2026-04-25 00:00:00,Meta Ads,0.579,Acme MSP - Inbound,Sofia Alvarez,2026-04-19 19:22:19,New
+ACME-D00058,ACME-L00243,Bates-Briggs,Lost,18300,2026-04-26 00:00:00,Meta Ads,0.665,Acme MSP - Inbound,Dana Whitfield,2026-04-20 08:14:28,Contacted
+ACME-D00059,ACME-L00246,Aguirre LLC,Lost,27350,2026-04-28 00:00:00,Referral,0.675,Acme MSP - Referral,Sofia Alvarez,2026-04-18 02:37:11,Contacted
+ACME-D00060,ACME-L00256,Mcgee-Marshall,Lost,11500,2026-05-06 00:00:00,Google Ads,0.598,Acme MSP - Inbound,Grace Kim,2026-04-20 03:57:51,Contacted
+ACME-D00061,ACME-L00258,Myers PLC,Lost,7550,2026-05-09 00:00:00,Google Ads,0.583,Acme MSP - Inbound,Sofia Alvarez,2026-04-18 14:56:30,Contacted
+ACME-D00062,ACME-L00259,Conner LLC,Lost,14050,2026-05-15 00:00:00,Google Ads,0.643,Acme MSP - Inbound,Dana Whitfield,2026-04-20 03:10:24,Contacted
+ACME-D00063,ACME-L00273,Jenkins Inc,Lost,30150,2026-04-25 00:00:00,Outbound,0.602,Acme MSP - Outbound,Owen Brooks,2026-04-21 12:21:56,New
+ACME-D00064,ACME-L00280,Robinson Atkins and Davis,Won,14550,2026-07-27 00:00:00,Referral,0.634,Acme MSP - Referral,Marcus Lee,2026-04-21 02:23:45,Won
+ACME-D00065,ACME-L00282,Graham Zavala and Brock,Lost,12650,2026-05-18 00:00:00,Google Ads,0.564,Acme MSP - Inbound,Dana Whitfield,2026-04-24 05:03:04,Qualified
+ACME-D00066,ACME-L00286,Snyder-Mason,Lost,20900,2026-05-18 00:00:00,Referral,0.684,Acme MSP - Referral,Sofia Alvarez,2026-04-25 03:49:33,Qualified
+ACME-D00067,ACME-L00290,Glass-Evans,Lost,17000,2026-05-17 00:00:00,Google Ads,0.608,Acme MSP - Inbound,Marcus Lee,2026-04-25 19:38:51,Proposal
+ACME-D00068,ACME-L00303,Lopez PLC,Lost,16550,2026-04-29 00:00:00,Outbound,0.585,Acme MSP - Outbound,Priya Raman,2026-04-24 14:12:59,Contacted
+ACME-D00069,ACME-L00309,Norris-Scott,Lost,10350,2026-04-29 00:00:00,Referral,,Acme MSP - Referral,Owen Brooks,2026-04-23 06:29:36,Contacted
+ACME-D00070,ACME-L00313,Chaney Fields and Williams,Lost,12200,2026-05-25 00:00:00,Referral,0.698,Acme MSP - Referral,Sofia Alvarez,2026-04-23 05:22:15,Proposal
+ACME-D00071,ACME-L00322,Mejia-Anderson,Lost,11750,2026-04-28 00:00:00,Google Ads,0.654,Acme MSP - Inbound,Dana Whitfield,2026-04-24 01:31:33,New
+ACME-D00072,ACME-L00323,Cain-Coffey,Lost,29050,2026-05-13 00:00:00,Call Tracking,0.57,Acme MSP - Inbound,Sofia Alvarez,2026-04-27 17:45:17,Qualified
+ACME-D00073,ACME-L00333,Montoya Johnson and Davis,Lost,11500,2026-05-06 00:00:00,Google Ads,0.598,Acme MSP - Inbound,Sofia Alvarez,2026-04-26 07:59:42,New
+ACME-D00074,ACME-L00336,Figueroa Group,Lost,22200,2026-05-06 00:00:00,Call Tracking,,Acme MSP - Inbound,Acme Round Robin,2026-04-25 13:46:58,Contacted
+ACME-D00075,ACME-L00337,Mullins-Wright,Lost,18400,2026-05-20 00:00:00,Outbound,,Acme MSP - Outbound,Owen Brooks,2026-04-24 02:28:51,Proposal
+ACME-D00076,ACME-L00340,Bennett King and Simmons,Lost,19500,2026-05-29 00:00:00,Google Ads,0.66,Acme MSP - Inbound,Owen Brooks,2026-04-26 04:09:17,Qualified
+ACME-D00077,ACME-L00346,Love PLC,Lost,16650,2026-05-11 00:00:00,Meta Ads,0.609,Acme MSP - Inbound,Marcus Lee,2026-04-27 08:39:38,Contacted
+ACME-D00078,ACME-L00347,Holmes-Guerrero,Lost,15550,2026-05-24 00:00:00,Outbound,0.606,Acme MSP - Outbound,Owen Brooks,2026-04-28 16:26:05,Contacted
+ACME-D00079,ACME-L00352,Holder PLC,Lost,19950,2026-05-05 00:00:00,Google Ads,0.608,Acme MSP - Inbound,Priya Raman,2026-04-26 15:05:15,Contacted
+ACME-D00080,ACME-L00358,Wolfe Mathews and Kim,Lost,17700,2026-05-14 00:00:00,Outbound,0.512,Acme MSP - Outbound,Owen Brooks,2026-04-26 08:55:26,Qualified
+ACME-D00081,ACME-L00359,Gordon York and Montgomery,Lost,21350,2026-05-07 00:00:00,Call Tracking,0.632,Acme MSP - Inbound,Dana Whitfield,2026-04-24 21:55:50,Contacted
+ACME-D00082,ACME-L00369,Brady Ltd,Lost,10250,2026-06-08 00:00:00,Google Ads,0.578,Acme MSP - Inbound,Owen Brooks,2026-05-01 19:17:32,Proposal
+ACME-D00083,ACME-L00376,Bailey Inc,Lost,20050,2026-05-16 00:00:00,Google Ads,0.617,Acme MSP - Inbound,Dana Whitfield,2026-04-27 19:06:09,Contacted
+ACME-D00084,ACME-L00396,Lane-Moore,Lost,10350,2026-06-10 00:00:00,Meta Ads,0.666,Acme MSP - Inbound,Priya Raman,2026-05-01 07:57:46,Proposal
+ACME-D00085,ACME-L00404,Fuller-Leonard,Lost,15600,2026-05-15 00:00:00,Referral,0.665,Acme MSP - Referral,Jordan Ellis,2026-05-03 00:41:35,New
+ACME-D00086,ACME-L00412,Vaughn Inc,Lost,6350,2026-05-16 00:00:00,Referral,0.572,Acme MSP - Referral,Jordan Ellis,2026-04-30 09:35:06,Contacted
+ACME-D00087,ACME-L00417,Lin Snyder and Smith,Lost,15750,2026-06-03 00:00:00,Outbound,0.594,Acme MSP - Outbound,Priya Raman,2026-04-30 16:28:26,Qualified
+ACME-D00088,ACME-L00419,Martinez PLC,Lost,17800,2026-05-12 00:00:00,Meta Ads,0.616,Acme MSP - Inbound,Dana Whitfield,2026-04-30 04:28:59,Contacted
+ACME-D00089,ACME-L00420,Kelly-Carr,Lost,15100,2026-05-31 00:00:00,Referral,0.677,Acme MSP - Referral,Dana Whitfield,2026-05-01 04:15:52,Contacted
+ACME-D00090,ACME-L00423,Young and Sons,Lost,22750,2026-05-06 00:00:00,Google Ads,0.567,Acme MSP - Inbound,Marcus Lee,2026-05-04 00:43:19,New
+ACME-D00091,ACME-L00449,Reed-Miller,Lost,19750,2026-06-13 00:00:00,Google Ads,0.559,Acme MSP - Inbound,Priya Raman,2026-05-03 22:12:43,Proposal
+ACME-D00092,ACME-L00453,Boyer Horton and Green,Lost,10750,2026-05-25 00:00:00,Meta Ads,,Acme MSP - Inbound,Marcus Lee,2026-05-06 22:40:17,Contacted
+ACME-D00093,ACME-L00463,Perry-Wells,Lost,17150,2026-05-19 00:00:00,Outbound,0.611,Acme MSP - Outbound,Dana Whitfield,2026-05-03 04:24:36,Contacted
+ACME-D00094,ACME-L00485,Graham Smith and Mahoney,Lost,9600,2026-05-07 00:00:00,Meta Ads,0.596,Acme MSP - Inbound,Marcus Lee,2026-05-04 01:49:48,New
+ACME-D00095,ACME-L00489,Brown Perez and Johnson,Lost,20050,2026-05-08 00:00:00,Referral,0.596,Acme MSP - Referral,Dana Whitfield,2026-05-05 22:22:41,Contacted
+ACME-D00096,ACME-L00499,Jenkins-Evans,Won,22200,2026-05-25 00:00:00,Google Ads,0.669,Acme MSP - Inbound,Sofia Alvarez,2026-05-06 10:40:59,Won
+ACME-D00097,ACME-L00501,Huerta Brown and Mendez,Lost,12550,2026-06-08 00:00:00,Google Ads,0.628,Acme MSP - Inbound,Marcus Lee,2026-05-05 13:52:25,Proposal
+ACME-D00098,ACME-L00509,Johnson-Reyes,Lost,7900,2026-05-25 00:00:00,Google Ads,0.581,Acme MSP - Inbound,Sofia Alvarez,2026-05-07 04:24:56,Contacted
+ACME-D00099,ACME-L00515,Coleman-Rogers,Lost,9000,2026-05-16 00:00:00,Referral,0.662,Acme MSP - Referral,Owen Brooks,2026-05-07 20:38:03,New
+ACME-D00100,ACME-L00523,Sanchez Group,Lost,12000,2026-05-25 00:00:00,Referral,0.669,Acme MSP - Referral,Jordan Ellis,2026-05-06 10:08:27,Contacted
+ACME-D00101,ACME-L00531,Brady Johnson and Nguyen,Lost,9400,2026-05-28 00:00:00,Referral,0.642,Acme MSP - Referral,Acme Round Robin,2026-05-09 01:08:47,Proposal
+ACME-D00102,ACME-L00532,Gardner Carter and Sanders,Lost,21350,2026-06-12 00:00:00,Google Ads,0.612,Acme MSP - Inbound,Marcus Lee,2026-05-09 19:23:29,Proposal
+ACME-D00103,ACME-L00536,Dixon LLC,Lost,22700,2026-05-13 00:00:00,Referral,0.663,Acme MSP - Referral,Sofia Alvarez,2026-05-11 00:42:33,New
+ACME-D00104,ACME-L00547,Cantrell-Combs,Lost,9950,2026-05-23 00:00:00,Google Ads,0.612,Acme MSP - Inbound,Sofia Alvarez,2026-05-08 17:03:33,Contacted
+ACME-D00105,ACME-L00549,Moran Moreno and Rowe,Lost,14300,2026-05-17 00:00:00,Referral,0.602,Acme MSP - Referral,Acme Round Robin,2026-05-09 05:36:41,Contacted
+ACME-D00106,ACME-L00550,Woodward Schmidt and Bautista,Lost,17000,2026-05-21 00:00:00,Outbound,0.597,Acme MSP - Outbound,Jordan Ellis,2026-05-11 03:11:36,Contacted
+ACME-D00107,ACME-L00552,Cochran Group,Won,19500,2026-07-19 00:00:00,Call Tracking,0.689,Acme MSP - Inbound,Marcus Lee,2026-05-09 03:20:38,Won
+ACME-D00108,ACME-L00555,Wong-Martin,Lost,17250,2026-06-10 00:00:00,Referral,0.679,Acme MSP - Referral,Priya Raman,2026-05-15 04:39:23,Qualified
+ACME-D00109,ACME-L00562,Kerr Grimes and Mccann,Lost,16800,2026-05-30 00:00:00,Outbound,0.583,Acme MSP - Outbound,Dana Whitfield,2026-05-08 15:53:04,Proposal
+ACME-D00110,ACME-L00563,Foster-Shea,Won,21900,2026-06-24 00:00:00,Google Ads,0.555,Acme MSP - Inbound,Sofia Alvarez,2026-05-09 11:04:54,Won
+ACME-D00111,ACME-L00566,Maldonado LLC,Won,12500,2026-06-11 00:00:00,Referral,0.656,Acme MSP - Referral,Marcus Lee,2026-05-13 07:05:34,Won
+ACME-D00112,ACME-L00568,Perez Group,Lost,10100,2026-05-25 00:00:00,Meta Ads,0.611,Acme MSP - Inbound,Priya Raman,2026-05-11 03:43:20,Contacted
+ACME-D00113,ACME-L00570,Foley Maxwell and Rice,Lost,15450,2026-05-16 00:00:00,Outbound,0.642,Acme MSP - Outbound,Dana Whitfield,2026-05-09 07:42:37,Contacted
+ACME-D00114,ACME-L00575,Taylor Russell and Williams,Lost,16450,2026-05-14 00:00:00,Meta Ads,0.634,Acme MSP - Inbound,Dana Whitfield,2026-05-09 16:28:17,Contacted
+ACME-D00115,ACME-L00576,Malone Ltd,Lost,10900,2026-05-25 00:00:00,Outbound,0.633,Acme MSP - Outbound,Dana Whitfield,2026-05-12 01:41:01,Contacted
+ACME-D00116,ACME-L00580,Watson Ltd,Lost,25550,2026-06-02 00:00:00,Google Ads,0.561,Acme MSP - Inbound,Dana Whitfield,2026-05-10 20:44:51,Qualified
+ACME-D00117,ACME-L00582,Pearson Randolph and Douglas,Lost,25900,2026-05-27 00:00:00,Google Ads,0.632,Acme MSP - Inbound,Sofia Alvarez,2026-05-12 01:29:19,Contacted
+ACME-D00118,ACME-L00584,Elliott Inc,Lost,16150,2026-06-14 00:00:00,Outbound,0.516,Acme MSP - Outbound,Jordan Ellis,2026-05-10 05:54:56,Proposal
+ACME-D00119,ACME-L00596,Elliott Group,Lost,19050,2026-05-28 00:00:00,Referral,0.631,Acme MSP - Referral,Dana Whitfield,2026-05-13 06:03:29,Qualified
+ACME-D00120,ACME-L00601,Olsen Group,Won,17800,2026-06-03 00:00:00,Google Ads,0.562,Acme MSP - Inbound,Jordan Ellis,2026-05-11 18:16:23,Won
+ACME-D00121,ACME-L00602,Morris Johnson and Morris,Lost,25800,2026-06-01 00:00:00,Outbound,0.613,Acme MSP - Outbound,Owen Brooks,2026-05-12 16:50:29,Qualified
+ACME-D00122,ACME-L00603,Burton PLC,Lost,14400,2026-07-16 00:00:00,Outbound,0.601,Acme MSP - Outbound,Sofia Alvarez,2026-05-12 21:08:22,Proposal
+ACME-D00123,ACME-L00604,Collins Baker and Williams,Lost,12800,2026-06-22 00:00:00,Google Ads,0.552,Acme MSP - Inbound,Marcus Lee,2026-05-13 15:15:01,Proposal
+ACME-D00124,ACME-L00605,Bishop Sullivan and Luna,Lost,32200,2026-06-11 00:00:00,Outbound,0.599,Acme MSP - Outbound,Jordan Ellis,2026-05-14 15:43:56,Qualified
+ACME-D00125,ACME-L00607,Weber Inc,Won,18250,2026-06-02 00:00:00,Referral,0.582,Acme MSP - Referral,Sofia Alvarez,2026-05-13 04:30:44,Won
+ACME-D00126,ACME-L00609,Holland Ruiz and Peterson,Lost,16600,2026-05-28 00:00:00,Google Ads,0.608,Acme MSP - Inbound,Priya Raman,2026-05-14 00:39:24,Contacted
+ACME-D00127,ACME-L00621,Smith and Sons,Lost,13200,2026-06-02 00:00:00,Google Ads,0.602,Acme MSP - Inbound,Priya Raman,2026-05-13 20:54:45,Qualified
+ACME-D00128,ACME-L00634,Hood Ltd,Lost,16150,2026-05-30 00:00:00,Referral,0.626,Acme MSP - Referral,Sofia Alvarez,2026-05-15 23:11:26,Contacted
+ACME-D00129,ACME-L00635,Skinner Brock and Fitzgerald,Lost,16550,2026-05-23 00:00:00,Google Ads,0.624,Acme MSP - Inbound,Sofia Alvarez,2026-05-16 23:12:04,Contacted
+ACME-D00130,ACME-L00647,Burns-Smith,Lost,8550,2026-06-20 00:00:00,Google Ads,0.709,Acme MSP - Inbound,Marcus Lee,2026-05-16 13:30:14,Proposal
+ACME-D00131,ACME-L00650,Taylor Inc,Lost,14400,2026-07-13 00:00:00,Call Tracking,0.648,Acme MSP - Inbound,Dana Whitfield,2026-05-17 09:46:31,Proposal
+ACME-D00132,ACME-L00652,Sanchez-Barrett,Lost,7900,2026-06-01 00:00:00,Google Ads,0.549,Acme MSP - Inbound,Marcus Lee,2026-05-14 12:53:05,Proposal
+ACME-D00133,ACME-L00654,Gordon-Shannon,Lost,27750,2026-05-28 00:00:00,Outbound,0.603,Acme MSP - Outbound,Priya Raman,2026-05-14 09:25:29,Contacted
+ACME-D00134,ACME-L00658,Baldwin LLC,Lost,10950,2026-05-31 00:00:00,Call Tracking,0.579,Acme MSP - Inbound,Priya Raman,2026-05-14 21:00:17,Contacted
+ACME-D00135,ACME-L00659,Lee Powell and Campbell,Lost,10100,2026-05-24 00:00:00,Call Tracking,0.585,Acme MSP - Inbound,Jordan Ellis,2026-05-17 04:58:22,Contacted
+ACME-D00136,ACME-L00662,Wilson Group,Lost,10000,2026-06-17 00:00:00,Referral,0.619,Acme MSP - Referral,Marcus Lee,2026-05-17 15:24:36,Contacted
+ACME-D00137,ACME-L00665,Brown-Smith,Lost,14000,2026-05-20 00:00:00,Referral,0.606,Acme MSP - Referral,Acme Round Robin,2026-05-16 09:45:38,Contacted
+ACME-D00138,ACME-L00667,Stuart and Sons,Lost,16200,2026-05-31 00:00:00,Referral,0.543,Acme MSP - Referral,Sofia Alvarez,2026-05-17 09:36:05,Qualified
+ACME-D00139,ACME-L00680,Roberts and Sons,Won,10200,2026-06-11 00:00:00,Referral,0.588,Acme MSP - Referral,Dana Whitfield,2026-05-18 23:08:16,Won
+ACME-D00140,ACME-L00698,Carrillo-Harris,Lost,11400,2026-05-26 00:00:00,Google Ads,0.611,Acme MSP - Inbound,Dana Whitfield,2026-05-19 09:09:18,Contacted
+ACME-D00141,ACME-L00700,Flores PLC,Won,9850,2026-07-30 00:00:00,Referral,0.512,Acme MSP - Referral,Jordan Ellis,2026-05-24 07:35:45,Won
+ACME-D00142,ACME-L00706,Douglas-Pineda,Won,10450,2026-06-18 00:00:00,Call Tracking,0.604,Acme MSP - Inbound,Priya Raman,2026-05-19 11:39:38,Won
+ACME-D00143,ACME-L00709,Adams-Harris,Lost,17200,2026-05-26 00:00:00,Google Ads,0.575,Acme MSP - Inbound,Grace Kim,2026-05-17 14:21:13,Contacted
+ACME-D00144,ACME-L00713,Johnson Sandoval and Phelps,Won,17350,2026-06-29 00:00:00,Google Ads,0.543,Acme MSP - Inbound,Owen Brooks,2026-05-16 14:16:43,Won
+ACME-D00145,ACME-L00714,Martin Hunt and Rodriguez,Lost,10850,2026-05-18 00:00:00,Call Tracking,0.604,Acme MSP - Inbound,Marcus Lee,2026-05-17 20:17:41,Contacted
+ACME-D00146,ACME-L00736,Scott Short and Haynes,Lost,8100,2026-05-25 00:00:00,Meta Ads,0.591,Acme MSP - Inbound,Jordan Ellis,2026-05-20 22:00:18,New
+ACME-D00147,ACME-L00739,Murillo and Sons,Won,14450,2026-06-27 00:00:00,Call Tracking,0.617,Acme MSP - Inbound,Priya Raman,2026-05-19 08:14:39,Won
+ACME-D00148,ACME-L00740,Smith Taylor and Larson,Lost,11550,2026-06-02 00:00:00,Call Tracking,0.615,Acme MSP - Inbound,Acme Round Robin,2026-05-21 04:30:48,Qualified
+ACME-D00149,ACME-L00750,Franklin LLC,Won,16050,2026-07-06 00:00:00,Outbound,0.567,Acme MSP - Outbound,Owen Brooks,2026-05-22 11:55:24,Won
+ACME-D00150,ACME-L00757,Wilson Group,Lost,14600,2026-07-12 00:00:00,Google Ads,0.547,Acme MSP - Inbound,Marcus Lee,2026-05-23 12:17:58,Proposal
+ACME-D00151,ACME-L00760,Cruz PLC,Lost,9250,2026-05-28 00:00:00,Outbound,0.558,Acme MSP - Outbound,Dana Whitfield,2026-05-21 08:58:36,Contacted
+ACME-D00152,ACME-L00762,Hill Group,Lost,18450,2026-08-07 00:00:00,Outbound,0.558,Acme MSP - Outbound,Acme Round Robin,2026-05-23 23:45:21,Proposal
+ACME-D00153,ACME-L00774,Bender Alexander and Mccarthy,Lost,19300,2026-06-09 00:00:00,Google Ads,0.625,Acme MSP - Inbound,Grace Kim,2026-05-22 04:33:44,Qualified
+ACME-D00154,ACME-L00776,Rodriguez Garcia and Jackson,Lost,14550,2026-06-03 00:00:00,Google Ads,0.59,Acme MSP - Inbound,Priya Raman,2026-05-23 18:48:43,Contacted
+ACME-D00155,ACME-L00779,Williams Casey and York,Lost,15200,2026-06-23 00:00:00,Call Tracking,0.61,Acme MSP - Inbound,Jordan Ellis,2026-05-27 22:44:20,Qualified
+ACME-D00156,ACME-L00782,Huff-Ballard,Lost,10400,2026-06-01 00:00:00,Outbound,0.534,Acme MSP - Outbound,Sofia Alvarez,2026-05-24 17:36:42,Contacted
+ACME-D00157,ACME-L00783,Galvan and Sons,Lost,19550,2026-06-12 00:00:00,Referral,0.655,Acme MSP - Referral,Marcus Lee,2026-05-22 16:32:41,Contacted
+ACME-D00158,ACME-L00796,Williams-Miles,Lost,11950,2026-06-03 00:00:00,Google Ads,0.659,Acme MSP - Inbound,Sofia Alvarez,2026-05-22 01:37:46,Contacted
+ACME-D00159,ACME-L00797,Smith-Riley,Lost,12400,2026-06-13 00:00:00,Call Tracking,0.604,Acme MSP - Inbound,Grace Kim,2026-05-24 07:59:24,Contacted
+ACME-D00160,ACME-L00802,Conrad-Holt,Lost,11550,2026-06-24 00:00:00,Call Tracking,0.569,Acme MSP - Inbound,Grace Kim,2026-05-25 03:23:10,Qualified
+ACME-D00161,ACME-L00809,Hill LLC,Lost,17400,2026-05-31 00:00:00,Google Ads,0.575,Acme MSP - Inbound,Marcus Lee,2026-05-26 04:06:43,Contacted
+ACME-D00162,ACME-L00813,Ryan-Norris,Lost,14600,2026-05-31 00:00:00,Outbound,0.588,Acme MSP - Outbound,Marcus Lee,2026-05-29 21:28:13,New
+ACME-D00163,ACME-L00814,Costa-Beard,Lost,17550,2026-06-12 00:00:00,Referral,0.646,Acme MSP - Referral,Jordan Ellis,2026-05-25 10:36:06,Contacted
+ACME-D00164,ACME-L00816,Burke Inc,Lost,9150,2026-06-19 00:00:00,Google Ads,0.583,Acme MSP - Inbound,Sofia Alvarez,2026-05-23 15:02:02,Qualified
+ACME-D00165,ACME-L00821,Bernard-Jones,Lost,15300,2026-07-02 00:00:00,Outbound,0.592,Acme MSP - Outbound,Priya Raman,2026-05-24 07:13:52,Proposal
+ACME-D00166,ACME-L00822,Hamilton Ltd,Lost,8250,2026-06-03 00:00:00,Google Ads,0.576,Acme MSP - Inbound,Jordan Ellis,2026-05-23 03:14:34,Contacted
+ACME-D00167,ACME-L00826,Lewis Ltd,Lost,16750,2026-06-11 00:00:00,Google Ads,0.633,Acme MSP - Inbound,Marcus Lee,2026-05-26 08:59:46,Contacted
+ACME-D00168,ACME-L00829,Salazar-Byrd,Lost,14650,2026-05-31 00:00:00,Referral,0.645,Acme MSP - Referral,Dana Whitfield,2026-05-25 00:17:44,Contacted
+ACME-D00169,ACME-L00832,Mcdonald-Shah,Lost,12700,2026-06-04 00:00:00,Google Ads,0.658,Acme MSP - Inbound,Marcus Lee,2026-05-24 21:03:19,Contacted
+ACME-D00170,ACME-L00835,Sims Ltd,Lost,26050,2026-06-02 00:00:00,Outbound,0.604,Acme MSP - Outbound,Priya Raman,2026-05-27 12:52:20,Contacted
+ACME-D00171,ACME-L00843,Collins Group,Lost,11650,2026-06-06 00:00:00,Meta Ads,0.611,Acme MSP - Inbound,Sofia Alvarez,2026-05-28 23:45:00,Contacted
+ACME-D00172,ACME-L00845,Ellis PLC,Lost,14750,2026-06-22 00:00:00,Google Ads,0.629,Acme MSP - Inbound,Sofia Alvarez,2026-05-29 16:23:22,Qualified
+ACME-D00173,ACME-L00848,Christensen-Abbott,Won,23200,2026-06-22 00:00:00,Referral,0.611,Acme MSP - Referral,Jordan Ellis,2026-05-29 10:52:48,Won
+ACME-D00174,ACME-L00856,Estrada George and Murray,Lost,26250,2026-06-26 00:00:00,Referral,0.703,Acme MSP - Referral,Owen Brooks,2026-06-06 16:01:54,Qualified
+ACME-D00175,ACME-L00857,Krueger LLC,Lost,11300,2026-06-25 00:00:00,Google Ads,0.629,Acme MSP - Inbound,Priya Raman,2026-05-30 19:04:22,Contacted
+ACME-D00176,ACME-L00863,Wood-Martin,Won,11250,2026-07-10 00:00:00,Google Ads,0.665,Acme MSP - Inbound,Dana Whitfield,2026-05-30 14:29:22,Won
+ACME-D00177,ACME-L00865,Smith and Sons,Lost,9200,2026-06-14 00:00:00,Referral,0.679,Acme MSP - Referral,Priya Raman,2026-05-31 02:48:21,Contacted
+ACME-D00178,ACME-L00866,Thomas Ltd,Lost,19150,2026-06-10 00:00:00,Referral,0.64,Acme MSP - Referral,Dana Whitfield,2026-05-29 04:46:46,Contacted
+ACME-D00179,ACME-L00869,Madden Chavez and Ramirez,Lost,10350,2026-06-20 00:00:00,Referral,0.623,Acme MSP - Referral,Jordan Ellis,2026-06-01 20:24:58,Proposal
+ACME-D00180,ACME-L00871,Martin-Thompson,Won,13250,2026-06-13 00:00:00,Google Ads,0.606,Acme MSP - Inbound,Priya Raman,2026-05-29 23:36:17,Won
+ACME-D00181,ACME-L00874,Carlson-Alexander,Lost,10100,2026-09-06 00:00:00,Google Ads,0.631,Acme MSP - Inbound,Owen Brooks,2026-05-27 11:01:00,Proposal
+ACME-D00182,ACME-L00875,Hicks-Reid,Lost,13250,2026-07-11 00:00:00,Google Ads,0.563,Acme MSP - Inbound,Jordan Ellis,2026-05-29 19:37:37,Proposal
+ACME-D00183,ACME-L00883,Scott Dawson and Hines,Lost,31500,2026-07-05 00:00:00,Referral,0.589,Acme MSP - Referral,Dana Whitfield,2026-05-28 20:20:39,Proposal
+ACME-D00184,ACME-L00885,Davis Christian and Fitzgerald,Won,10850,2026-07-11 00:00:00,Referral,0.663,Acme MSP - Referral,Dana Whitfield,2026-05-27 22:02:52,Won
+ACME-D00185,ACME-L00897,Webb-Brown,Lost,12650,2026-06-27 00:00:00,Referral,0.594,Acme MSP - Referral,Jordan Ellis,2026-05-31 04:57:30,Contacted
+ACME-D00186,ACME-L00903,Sanders Perry and May,Lost,12900,2026-06-23 00:00:00,Meta Ads,0.583,Acme MSP - Inbound,Owen Brooks,2026-05-29 04:54:27,Proposal
+ACME-D00187,ACME-L00914,Ayers Group,Lost,20150,2026-06-29 00:00:00,Referral,0.603,Acme MSP - Referral,Owen Brooks,2026-05-30 14:56:47,Contacted
+ACME-D00188,ACME-L00917,Allen-Martinez,Lost,5750,2026-06-05 00:00:00,Meta Ads,0.589,Acme MSP - Inbound,Dana Whitfield,2026-05-30 04:40:36,New
+ACME-D00189,ACME-L00923,Jones Smith and Ward,Lost,22100,2026-06-07 00:00:00,Outbound,0.664,Acme MSP - Outbound,Marcus Lee,2026-06-05 07:29:32,New
+ACME-D00190,ACME-L00924,Schmidt-Hall,Lost,17100,2026-06-08 00:00:00,Google Ads,0.66,Acme MSP - Inbound,Dana Whitfield,2026-05-31 20:24:15,Contacted
+ACME-D00191,ACME-L00938,May Walters and Bush,Lost,12550,2026-07-03 00:00:00,Referral,0.664,Acme MSP - Referral,Dana Whitfield,2026-06-01 01:47:01,Qualified
+ACME-D00192,ACME-L00942,Wilkinson Kelley and Hughes,Won,18500,2026-06-30 00:00:00,Google Ads,0.6,Acme MSP - Inbound,Grace Kim,2026-06-04 14:36:50,Won
+ACME-D00193,ACME-L00943,Allen PLC,Lost,7950,2026-06-10 00:00:00,Call Tracking,0.576,Acme MSP - Inbound,Marcus Lee,2026-06-05 10:06:08,Contacted
+ACME-D00194,ACME-L00953,Gutierrez Inc,Lost,10550,2026-06-09 00:00:00,Referral,0.646,Acme MSP - Referral,Dana Whitfield,2026-06-06 00:46:25,New
+ACME-D00195,ACME-L00955,Campbell Ltd,Lost,16000,2026-06-06 00:00:00,Referral,0.716,Acme MSP - Referral,Priya Raman,2026-06-03 02:49:20,New
+ACME-D00196,ACME-L00959,Gonzalez LLC,Lost,17700,2026-06-07 00:00:00,Google Ads,0.621,Acme MSP - Inbound,Jordan Ellis,2026-06-03 12:08:24,New
+ACME-D00197,ACME-L00962,Gibbs-Lawrence,Lost,17700,2026-07-01 00:00:00,Referral,0.571,Acme MSP - Referral,Marcus Lee,2026-06-07 09:24:12,Qualified
+ACME-D00198,ACME-L00967,Weaver Inc,Lost,12950,2026-06-27 00:00:00,Referral,0.613,Acme MSP - Referral,Dana Whitfield,2026-06-04 21:09:40,Contacted
+ACME-D00199,ACME-L00969,Davis-Rodriguez,Won,15250,2026-08-24 00:00:00,Meta Ads,0.642,Acme MSP - Inbound,Priya Raman,2026-06-09 02:47:08,Won
+ACME-D00200,ACME-L00971,Harris-Ellison,Lost,12000,2026-06-10 00:00:00,Google Ads,0.568,Acme MSP - Inbound,Marcus Lee,2026-06-05 15:44:45,Contacted
+ACME-D00201,ACME-L00976,Johnson Stevens and Tran,Lost,16250,2026-06-07 00:00:00,Google Ads,0.565,Acme MSP - Inbound,Priya Raman,2026-06-03 22:58:41,Contacted
+ACME-D00202,ACME-L00978,Cross Martinez and Perez,Lost,34350,2026-06-10 00:00:00,Call Tracking,0.544,Acme MSP - Inbound,Marcus Lee,2026-06-05 17:25:47,Contacted
+ACME-D00203,ACME-L00979,Jenkins-Velazquez,Lost,12600,2026-06-15 00:00:00,Call Tracking,0.612,Acme MSP - Inbound,Dana Whitfield,2026-06-06 10:28:22,Contacted
+ACME-D00204,ACME-L00983,Miller-Torres,Won,17750,2026-07-19 00:00:00,Call Tracking,0.648,Acme MSP - Inbound,Grace Kim,2026-06-05 02:00:48,Won
+ACME-D00205,ACME-L00985,Johnson PLC,Lost,17300,2026-07-28 00:00:00,Referral,0.666,Acme MSP - Referral,Priya Raman,2026-06-06 02:10:21,Proposal
+ACME-D00206,ACME-L00989,Walls-Smith,Lost,9900,2026-07-19 00:00:00,Google Ads,0.559,Acme MSP - Inbound,Dana Whitfield,2026-06-10 07:48:17,Proposal
+ACME-D00207,ACME-L00992,Williams Taylor and Cooley,Lost,15500,2026-07-08 00:00:00,Google Ads,0.493,Acme MSP - Inbound,Marcus Lee,2026-06-05 02:49:43,Proposal
+ACME-D00208,ACME-L00995,Garcia Inc,Lost,18050,2026-06-12 00:00:00,Google Ads,0.509,Acme MSP - Inbound,Sofia Alvarez,2026-06-08 01:26:06,Contacted
+ACME-D00209,ACME-L00996,Rivas-Roberts,Won,14000,2026-07-20 00:00:00,Outbound,0.498,Acme MSP - Outbound,Priya Raman,2026-06-06 21:04:14,Won
+ACME-D00210,ACME-L00997,Porter and Sons,Lost,8200,2026-07-05 00:00:00,Call Tracking,0.592,Acme MSP - Inbound,Jordan Ellis,2026-06-06 00:01:46,Proposal
+ACME-D00211,ACME-L00998,Green Oliver and Jones,Lost,9800,2026-06-15 00:00:00,Google Ads,0.63,Acme MSP - Inbound,Sofia Alvarez,2026-06-04 08:04:52,Contacted
+ACME-D00212,ACME-L01000,Lutz-Fuentes,Lost,9350,2026-06-20 00:00:00,Referral,0.632,Acme MSP - Referral,Dana Whitfield,2026-06-06 22:24:55,Qualified
+ACME-D00213,ACME-L01001,Wood-Kramer,Lost,11550,2026-06-23 00:00:00,Call Tracking,0.635,Acme MSP - Inbound,Grace Kim,2026-06-07 09:19:41,Contacted
+ACME-D00214,ACME-L01005,Smith Flores and Walter,Lost,15550,2026-06-17 00:00:00,Meta Ads,0.613,Acme MSP - Inbound,Jordan Ellis,2026-06-05 19:27:19,Contacted
+ACME-D00215,ACME-L01006,Cruz Pratt and Ruiz,Lost,7600,2026-06-16 00:00:00,Google Ads,0.617,Acme MSP - Inbound,Sofia Alvarez,2026-06-07 03:28:40,Contacted
+ACME-D00216,ACME-L01010,Campbell Rivera and Lane,Won,13150,2026-07-21 00:00:00,Google Ads,0.576,Acme MSP - Inbound,Acme Round Robin,2026-06-07 20:08:03,Won
+ACME-D00217,ACME-L01017,Daniels Ltd,Lost,11600,2026-06-10 00:00:00,Google Ads,0.604,Acme MSP - Inbound,Priya Raman,2026-06-07 12:59:45,New
+ACME-D00218,ACME-L01022,Johnson Woods and Miller,Lost,11900,2026-07-01 00:00:00,Meta Ads,0.546,Acme MSP - Inbound,Marcus Lee,2026-06-07 16:39:02,Qualified
+ACME-D00219,ACME-L01024,Melendez-Donaldson,Lost,11000,2026-06-19 00:00:00,Outbound,0.633,Acme MSP - Outbound,Sofia Alvarez,2026-06-08 21:36:21,Qualified
+ACME-D00220,ACME-L01025,Wilson-Wheeler,Lost,11300,2026-06-19 00:00:00,Outbound,0.564,Acme MSP - Outbound,Grace Kim,2026-06-06 00:37:36,Qualified
+ACME-D00221,ACME-L01033,Black-Jefferson,Lost,19450,2026-06-22 00:00:00,Google Ads,0.595,Acme MSP - Inbound,Dana Whitfield,2026-06-09 00:24:27,Qualified
+ACME-D00222,ACME-L01035,Powell Acosta and Watson,Lost,13000,2026-06-15 00:00:00,Call Tracking,0.609,Acme MSP - Inbound,Marcus Lee,2026-06-11 12:05:53,New
+ACME-D00223,ACME-L01037,Kramer Klein and Mueller,Lost,9950,2026-07-05 00:00:00,Referral,0.635,Acme MSP - Referral,Jordan Ellis,2026-06-10 15:51:03,Qualified
+ACME-D00224,ACME-L01071,Wilson Kim and Wallace,Won,8950,2026-07-17 00:00:00,Referral,0.601,Acme MSP - Referral,Priya Raman,2026-06-14 13:02:13,Won
+ACME-D00225,ACME-L01082,Moore and Sons,Lost,13350,2026-06-13 00:00:00,Call Tracking,0.643,Acme MSP - Inbound,Owen Brooks,2026-06-11 20:41:22,New
+ACME-D00226,ACME-L01089,Dixon-Chapman,Lost,16000,2026-06-12 00:00:00,Google Ads,0.611,Acme MSP - Inbound,Owen Brooks,2026-06-10 23:14:57,New
+ACME-D00227,ACME-L01097,White Mcintyre and Ryan,Lost,12400,2026-06-13 00:00:00,Referral,0.655,Acme MSP - Referral,Jordan Ellis,2026-06-10 21:05:10,Contacted
+ACME-D00228,ACME-L01098,Salazar LLC,Lost,17100,2026-06-26 00:00:00,Referral,0.638,Acme MSP - Referral,Jordan Ellis,2026-06-15 05:19:43,Contacted
+ACME-D00229,ACME-L01100,Fischer Ltd,Lost,14300,2026-06-21 00:00:00,Call Tracking,0.625,Acme MSP - Inbound,Dana Whitfield,2026-06-13 03:11:04,Contacted
+ACME-D00230,ACME-L01104,Gonzalez Inc,Lost,17900,2026-06-16 00:00:00,Google Ads,0.583,Acme MSP - Inbound,Owen Brooks,2026-06-11 16:35:53,New
+ACME-D00231,ACME-L01108,Weber Inc,Won,16300,2026-07-01 00:00:00,Referral,0.614,Acme MSP - Referral,Sofia Alvarez,2026-06-10 20:39:08,Won
+ACME-D00232,ACME-L01117,Martin Jacobson and Lee,Lost,18750,2026-08-16 00:00:00,Meta Ads,0.465,Acme MSP - Inbound,Sofia Alvarez,2026-06-13 03:14:53,Proposal
+ACME-D00233,ACME-L01121,Harris-Martinez,Lost,11200,2026-06-18 00:00:00,Outbound,0.588,Acme MSP - Outbound,Dana Whitfield,2026-06-14 11:19:10,New
+ACME-D00234,ACME-L01124,Jacobs-White,Lost,21350,2026-06-29 00:00:00,Google Ads,0.647,Acme MSP - Inbound,Jordan Ellis,2026-06-14 16:57:49,Contacted
+ACME-D00235,ACME-L01126,Becker LLC,Lost,32750,2026-07-19 00:00:00,Google Ads,0.617,Acme MSP - Inbound,Grace Kim,2026-06-12 08:41:13,Qualified
+ACME-D00236,ACME-L01130,Sanders LLC,Won,17000,2026-07-07 00:00:00,Outbound,0.551,Acme MSP - Outbound,Dana Whitfield,2026-06-12 03:40:53,Won
+ACME-D00237,ACME-L01143,Vazquez Myers and Hernandez,Lost,9550,2026-07-04 00:00:00,Google Ads,0.589,Acme MSP - Inbound,Dana Whitfield,2026-06-15 18:17:20,Qualified
+ACME-D00238,ACME-L01144,Anderson Johnson and Jordan,Lost,8350,2026-06-19 00:00:00,Referral,0.575,Acme MSP - Referral,Jordan Ellis,2026-06-13 10:00:05,Contacted
+ACME-D00239,ACME-L01152,Cox Garcia and Rosales,Lost,13350,2026-07-25 00:00:00,Google Ads,0.561,Acme MSP - Inbound,Grace Kim,2026-06-15 17:07:33,Proposal
+ACME-D00240,ACME-L01155,Gates Sanchez and Matthews,Lost,16900,2026-07-05 00:00:00,Meta Ads,0.601,Acme MSP - Inbound,Priya Raman,2026-06-16 08:27:43,Contacted
+ACME-D00241,ACME-L01160,Mccoy PLC,Lost,16000,2026-06-23 00:00:00,Referral,0.68,Acme MSP - Referral,Owen Brooks,2026-06-14 19:08:33,Contacted
+ACME-D00242,ACME-L01181,Hartman Grimes and Chapman,Lost,11300,2026-06-25 00:00:00,Outbound,0.588,Acme MSP - Outbound,Owen Brooks,2026-06-17 21:34:09,New
+ACME-D00243,ACME-L01183,Bryant-Boyer,Lost,15550,2026-06-17 00:00:00,Google Ads,0.631,Acme MSP - Inbound,Marcus Lee,2026-06-16 18:40:42,New
+ACME-D00244,ACME-L01189,Harmon Group,Lost,11800,2026-07-09 00:00:00,Outbound,0.577,Acme MSP - Outbound,Priya Raman,2026-06-18 08:45:43,Qualified
+ACME-D00245,ACME-L01192,Lewis LLC,Lost,11000,2026-07-03 00:00:00,Google Ads,0.58,Acme MSP - Inbound,Marcus Lee,2026-06-19 01:31:36,Contacted
+ACME-D00246,ACME-L01196,Maxwell Griffin and Parks,Lost,17800,2026-07-08 00:00:00,Outbound,0.588,Acme MSP - Outbound,Dana Whitfield,2026-06-18 07:46:29,Contacted
+ACME-D00247,ACME-L01210,Chavez Allen and Mcdonald,Lost,12150,2026-07-26 00:00:00,Referral,0.607,Acme MSP - Referral,Jordan Ellis,2026-06-22 00:18:35,Contacted
+ACME-D00248,ACME-L01214,Gibson-Allison,Lost,9900,2026-07-27 00:00:00,Google Ads,0.619,Acme MSP - Inbound,Jordan Ellis,2026-06-20 01:02:37,Proposal
+ACME-D00249,ACME-L01233,Tucker LLC,Lost,10600,2026-07-10 00:00:00,Meta Ads,0.604,Acme MSP - Inbound,Dana Whitfield,2026-06-20 18:27:38,Qualified
+ACME-D00250,ACME-L01237,Steele Robertson and Bell,Lost,26250,2026-06-30 00:00:00,Meta Ads,0.638,Acme MSP - Inbound,Sofia Alvarez,2026-06-20 15:56:17,Contacted
+ACME-D00251,ACME-L01244,Garrison-Zhang,Lost,5950,2026-07-05 00:00:00,Call Tracking,0.618,Acme MSP - Inbound,Marcus Lee,2026-06-21 17:00:13,Contacted
+ACME-D00252,ACME-L01248,Pena PLC,Lost,22500,2026-06-27 00:00:00,Google Ads,0.591,Acme MSP - Inbound,Dana Whitfield,2026-06-21 12:25:58,Contacted
+ACME-D00253,ACME-L01275,Hensley Wolf and Peters,Lost,15050,2026-08-09 00:00:00,Referral,0.567,Acme MSP - Referral,Sofia Alvarez,2026-06-24 20:51:00,Proposal
+ACME-D00254,ACME-L01280,Clark Rich and Howard,Lost,10400,2026-08-31 00:00:00,Google Ads,0.61,Acme MSP - Inbound,Dana Whitfield,2026-06-27 02:37:09,Proposal
+ACME-D00255,ACME-L01296,Jones Dennis and Thompson,Lost,14450,2026-06-30 00:00:00,Meta Ads,0.595,Acme MSP - Inbound,Jordan Ellis,2026-06-24 01:06:12,Qualified
+ACME-D00256,ACME-L01301,Cox LLC,Lost,17500,2026-07-07 00:00:00,Referral,0.721,Acme MSP - Referral,Dana Whitfield,2026-06-25 12:30:32,Contacted
+ACME-D00257,ACME-L01302,Willis PLC,Won,11850,2026-08-06 00:00:00,Outbound,0.561,Acme MSP - Outbound,Grace Kim,2026-06-23 18:50:09,Won
+ACME-D00258,ACME-L01327,Hernandez Inc,Lost,20150,2026-06-30 00:00:00,Referral,0.68,Acme MSP - Referral,Priya Raman,2026-06-26 12:49:59,New
+ACME-D00259,ACME-L01338,Williams Inc,Lost,15650,2026-07-11 00:00:00,Outbound,0.582,Acme MSP - Outbound,Marcus Lee,2026-06-27 10:29:20,Contacted
+ACME-D00260,ACME-L01340,Taylor Chambers and Davidson,Lost,13650,2026-07-24 00:00:00,Call Tracking,0.63,Acme MSP - Inbound,Grace Kim,2026-06-25 19:28:13,Proposal
+ACME-D00261,ACME-L01350,Browning-Kerr,Lost,8700,2026-07-16 00:00:00,Call Tracking,0.555,Acme MSP - Inbound,Sofia Alvarez,2026-07-02 18:09:08,Contacted
+ACME-D00262,ACME-L01351,Mack Rivas and Alvarez,Lost,14400,2026-07-16 00:00:00,Google Ads,0.631,Acme MSP - Inbound,Jordan Ellis,2026-06-27 07:29:30,Qualified
+ACME-D00263,ACME-L01354,Sutton Griffin and Swanson,Lost,20150,2026-07-04 00:00:00,Referral,0.677,Acme MSP - Referral,Marcus Lee,2026-06-27 06:06:20,Contacted
+ACME-D00264,ACME-L01363,Mckenzie and Sons,Won,14000,2026-08-11 00:00:00,Google Ads,0.56,Acme MSP - Inbound,Sofia Alvarez,2026-06-30 20:58:48,Won
+ACME-D00265,ACME-L01364,Thompson-Wilson,Lost,13800,2026-07-10 00:00:00,Google Ads,0.544,Acme MSP - Inbound,Marcus Lee,2026-07-05 16:53:38,Contacted
+ACME-D00266,ACME-L01367,Woodard Group,Lost,16800,2026-08-14 00:00:00,Meta Ads,0.626,Acme MSP - Inbound,Owen Brooks,2026-06-30 19:38:47,Proposal
+ACME-D00267,ACME-L01369,Johnson Shaw and Roach,Lost,8350,2026-07-15 00:00:00,Meta Ads,0.618,Acme MSP - Inbound,Priya Raman,2026-06-27 11:38:45,Contacted
+ACME-D00268,ACME-L01377,Rodriguez Hill and Turner,Lost,15100,2026-07-27 00:00:00,Google Ads,0.566,Acme MSP - Inbound,Dana Whitfield,2026-06-29 10:58:24,Contacted
+ACME-D00269,ACME-L01384,Nolan-Jordan,Lost,16400,2026-07-04 00:00:00,Outbound,0.638,Acme MSP - Outbound,Owen Brooks,2026-07-01 09:42:36,New
+ACME-D00270,ACME-L01387,Oneill LLC,Lost,18550,2026-07-12 00:00:00,Google Ads,0.619,Acme MSP - Inbound,Sofia Alvarez,2026-06-30 19:00:34,Contacted
+ACME-D00271,ACME-L01395,Brandt Williams and Patrick,Lost,6050,2026-07-07 00:00:00,Call Tracking,0.644,Acme MSP - Inbound,Grace Kim,2026-06-30 00:04:50,New
+ACME-D00272,ACME-L01398,Miller-Middleton,Lost,30350,2026-07-12 00:00:00,Referral,0.684,Acme MSP - Referral,Sofia Alvarez,2026-07-02 16:33:53,Contacted
+ACME-D00273,ACME-L01401,Baker Carr and Moore,Lost,26650,2026-07-15 00:00:00,Outbound,0.578,Acme MSP - Outbound,Dana Whitfield,2026-07-01 05:51:13,Contacted
+ACME-D00274,ACME-L01403,Smith-Page,Lost,32750,2026-07-08 00:00:00,Outbound,0.566,Acme MSP - Outbound,Priya Raman,2026-07-02 05:27:23,Contacted
+ACME-D00275,ACME-L01407,Scott-Wolfe,Lost,12900,2026-07-23 00:00:00,Referral,0.643,Acme MSP - Referral,Marcus Lee,2026-07-03 17:37:31,Contacted
+ACME-D00276,ACME-L01415,Williams-Johns,Lost,13500,2026-07-22 00:00:00,Call Tracking,0.593,Acme MSP - Inbound,Grace Kim,2026-06-30 22:56:31,Qualified
+ACME-D00277,ACME-L01426,Smith and Sons,Lost,9800,2026-07-17 00:00:00,Google Ads,0.59,Acme MSP - Inbound,Priya Raman,2026-07-10 20:02:49,Contacted
+ACME-D00278,ACME-L01427,Moore-Moore,Won,14150,2026-08-12 00:00:00,Referral,0.598,Acme MSP - Referral,Jordan Ellis,2026-07-02 02:11:16,Won
+ACME-D00279,ACME-L01428,Steele-Watson,Lost,13200,2026-09-20 00:00:00,Google Ads,0.652,Acme MSP - Inbound,Dana Whitfield,2026-07-02 15:47:43,Proposal
+ACME-D00280,ACME-L01434,Kramer Ltd,Lost,15850,2026-07-21 00:00:00,Google Ads,0.608,Acme MSP - Inbound,Priya Raman,2026-07-01 05:50:45,Qualified
+ACME-D00281,ACME-L01441,Bowen and Sons,Lost,12750,2026-07-06 00:00:00,Meta Ads,0.596,Acme MSP - Inbound,Dana Whitfield,2026-07-05 23:09:42,New
+ACME-D00282,ACME-L01452,Jenkins PLC,Lost,16400,2026-07-09 00:00:00,Outbound,0.567,Acme MSP - Outbound,Marcus Lee,2026-07-04 23:04:16,Contacted
+ACME-D00283,ACME-L01463,Stone-Jackson,Lost,15600,2026-08-07 00:00:00,Call Tracking,0.637,Acme MSP - Inbound,Acme Round Robin,2026-07-04 00:37:10,Qualified
+ACME-D00284,ACME-L01482,Taylor-Turner,Won,13250,2026-09-07 00:00:00,Referral,0.642,Acme MSP - Referral,Owen Brooks,2026-07-06 23:48:07,Won
+ACME-D00285,ACME-L01490,Roman-Roberts,Lost,10500,2026-07-24 00:00:00,Google Ads,0.545,Acme MSP - Inbound,Owen Brooks,2026-07-09 11:28:08,Contacted
+ACME-D00286,ACME-L01497,Oliver Group,Lost,12400,2026-07-22 00:00:00,Referral,0.681,Acme MSP - Referral,Jordan Ellis,2026-07-04 13:53:11,Contacted
+ACME-D00287,ACME-L01499,Bruce and Sons,Lost,17750,2026-07-14 00:00:00,Google Ads,0.572,Acme MSP - Inbound,Dana Whitfield,2026-07-05 19:27:44,Contacted
+ACME-D00288,ACME-L01502,Smith Ltd,Lost,6550,2026-07-22 00:00:00,Meta Ads,0.525,Acme MSP - Inbound,Marcus Lee,2026-07-06 01:22:05,Contacted
+ACME-D00289,ACME-L01504,Bryant-Medina,Lost,14250,2026-07-19 00:00:00,Call Tracking,0.604,Acme MSP - Inbound,Dana Whitfield,2026-07-06 02:29:12,Contacted
+ACME-D00290,ACME-L01505,Clark-Jones,Lost,9050,2026-08-13 00:00:00,Google Ads,0.552,Acme MSP - Inbound,Dana Whitfield,2026-07-04 16:50:54,Proposal
+ACME-D00291,ACME-L01510,Wiggins-Martin,Lost,14900,2026-07-22 00:00:00,Meta Ads,0.602,Acme MSP - Inbound,Dana Whitfield,2026-07-07 07:32:07,Contacted
+ACME-D00292,ACME-L01511,Williams-Bowman,Lost,18050,2026-07-17 00:00:00,Google Ads,0.531,Acme MSP - Inbound,Sofia Alvarez,2026-07-06 17:08:58,Contacted
+ACME-D00293,ACME-L01518,Miller PLC,Lost,21350,2026-07-28 00:00:00,Google Ads,0.579,Acme MSP - Inbound,Marcus Lee,2026-07-10 09:58:50,Contacted
+ACME-D00294,ACME-L01523,Jackson-Edwards,Lost,12450,2026-09-01 00:00:00,Outbound,0.542,Acme MSP - Outbound,Acme Round Robin,2026-07-09 04:46:51,Proposal
+ACME-D00295,ACME-L01526,Ramirez-Gonzalez,Won,15400,2026-07-29 00:00:00,Referral,0.598,Acme MSP - Referral,Marcus Lee,2026-07-07 07:40:51,Won
+ACME-D00296,ACME-L01532,Mullins Anderson and Davies,Lost,11650,2026-07-18 00:00:00,Referral,0.663,Acme MSP - Referral,Owen Brooks,2026-07-11 19:08:50,Contacted
+ACME-D00297,ACME-L01534,Pollard-Harris,Lost,25550,2026-07-25 00:00:00,Meta Ads,0.542,Acme MSP - Inbound,Marcus Lee,2026-07-11 12:08:23,Contacted
+ACME-D00298,ACME-L01535,George Fitzpatrick and Key,Lost,11050,2026-09-09 00:00:00,Call Tracking,0.586,Acme MSP - Inbound,Marcus Lee,2026-07-09 15:12:13,Proposal
+ACME-D00299,ACME-L01537,Watson Key and Williams,Lost,8250,2026-08-17 00:00:00,Call Tracking,0.589,Acme MSP - Inbound,Jordan Ellis,2026-07-10 18:12:13,Proposal
+ACME-D00300,ACME-L01544,Greer Ltd,Lost,13650,2026-07-13 00:00:00,Meta Ads,0.589,Acme MSP - Inbound,Dana Whitfield,2026-07-07 23:59:05,New
+ACME-D00301,ACME-L01552,Trevino-Orozco,Lost,19250,2026-07-09 00:00:00,Meta Ads,0.578,Acme MSP - Inbound,Owen Brooks,2026-07-07 23:21:03,New
+ACME-D00302,ACME-L01553,Montgomery-Goodman,Lost,10550,2026-07-15 00:00:00,Google Ads,0.598,Acme MSP - Inbound,Priya Raman,2026-07-11 04:33:04,Contacted
+ACME-D00303,ACME-L01555,Moore Wright and Jones,Lost,10100,2026-07-22 00:00:00,Call Tracking,0.58,Acme MSP - Inbound,Jordan Ellis,2026-07-11 13:45:41,Contacted
+ACME-D00304,ACME-L01559,Moore Joyce and Valdez,Lost,10650,2026-07-12 00:00:00,Google Ads,0.667,Acme MSP - Inbound,Marcus Lee,2026-07-10 15:35:29,New
+ACME-D00305,ACME-L01560,Hernandez Booth and Green,Lost,11850,2026-07-16 00:00:00,Referral,0.677,Acme MSP - Referral,Dana Whitfield,2026-07-07 20:48:55,Contacted
+ACME-D00306,ACME-L01561,Cooper Ltd,Won,11650,2026-08-21 00:00:00,Google Ads,0.593,Acme MSP - Inbound,Jordan Ellis,2026-07-09 00:43:05,Won
+ACME-D00307,ACME-L01563,Barber Inc,Lost,16850,2026-07-22 00:00:00,Google Ads,0.651,Acme MSP - Inbound,Priya Raman,2026-07-10 03:15:46,Contacted
+ACME-D00308,ACME-L01565,Reyes PLC,Lost,7400,2026-07-20 00:00:00,Meta Ads,0.606,Acme MSP - Inbound,Marcus Lee,2026-07-09 08:27:39,Contacted
+ACME-D00309,ACME-L01568,Brown-Lawson,Lost,10400,2026-07-18 00:00:00,Referral,0.626,Acme MSP - Referral,Marcus Lee,2026-07-10 18:17:31,Contacted
+ACME-D00310,ACME-L01570,Hall-Turner,Lost,13300,2026-07-19 00:00:00,Call Tracking,0.561,Acme MSP - Inbound,Sofia Alvarez,2026-07-11 17:33:36,New
+ACME-D00311,ACME-L01571,Smith Monroe and Hancock,Lost,9500,2026-08-07 00:00:00,Google Ads,0.584,Acme MSP - Inbound,Priya Raman,2026-07-09 19:25:58,Qualified
+ACME-D00312,ACME-L01581,Cook-Fischer,Lost,16850,2026-07-28 00:00:00,Call Tracking,0.534,Acme MSP - Inbound,Priya Raman,2026-07-09 14:30:09,Contacted
+ACME-D00313,ACME-L01585,Miller-Williams,Lost,21850,2026-07-15 00:00:00,Referral,0.698,Acme MSP - Referral,Dana Whitfield,2026-07-11 10:43:10,Contacted
+ACME-D00314,ACME-L01587,Farrell-Miller,Lost,24050,2026-09-04 00:00:00,Google Ads,0.611,Acme MSP - Inbound,Owen Brooks,2026-07-12 09:31:47,Proposal
+ACME-D00315,ACME-L01589,Anderson-Walker,Won,18100,2026-08-14 00:00:00,Meta Ads,0.642,Acme MSP - Inbound,Owen Brooks,2026-07-13 17:53:53,Won
+ACME-D00316,ACME-L01590,Lara LLC,Lost,17250,2026-09-14 00:00:00,Outbound,0.58,Acme MSP - Outbound,Marcus Lee,2026-07-13 07:06:54,Proposal
+ACME-D00317,ACME-L01593,Myers-Dalton,Lost,14950,2026-07-24 00:00:00,Google Ads,0.618,Acme MSP - Inbound,Grace Kim,2026-07-10 08:20:53,Qualified
+ACME-D00318,ACME-L01595,Short Shelton and Franco,Lost,11950,2026-07-30 00:00:00,Referral,0.633,Acme MSP - Referral,Jordan Ellis,2026-07-12 15:44:52,Contacted
+ACME-D00319,ACME-L01601,Roberts-Davis,Lost,15700,2026-07-27 00:00:00,Call Tracking,0.606,Acme MSP - Inbound,Dana Whitfield,2026-07-12 05:34:33,Contacted
+ACME-D00320,ACME-L01602,Mckenzie-Gibbs,Lost,14900,2026-08-19 00:00:00,Meta Ads,0.622,Acme MSP - Inbound,Sofia Alvarez,2026-07-14 08:45:05,Proposal
+ACME-D00321,ACME-L01603,Moore Robinson and Martinez,Lost,9350,2026-07-17 00:00:00,Google Ads,0.535,Acme MSP - Inbound,Dana Whitfield,2026-07-10 06:55:31,Contacted
+ACME-D00322,ACME-L01607,Miller Ltd,Lost,13600,2026-07-17 00:00:00,Google Ads,0.563,Acme MSP - Inbound,Priya Raman,2026-07-12 11:36:21,Contacted
+ACME-D00323,ACME-L01613,Vargas Miller and Maddox,Lost,16400,2026-07-15 00:00:00,Google Ads,0.605,Acme MSP - Inbound,Dana Whitfield,2026-07-12 08:56:53,New
+ACME-D00324,ACME-L01617,Arnold Hughes and Fletcher,Lost,13200,2026-07-20 00:00:00,Google Ads,0.677,Acme MSP - Inbound,Jordan Ellis,2026-07-13 08:06:24,Contacted
+ACME-D00325,ACME-L01625,Fowler Inc,Lost,9000,2026-07-17 00:00:00,Google Ads,0.601,Acme MSP - Inbound,Priya Raman,2026-07-13 19:44:54,Contacted
+ACME-D00326,ACME-L01642,Norton-Morris,Lost,18750,2026-08-03 00:00:00,Google Ads,0.597,Acme MSP - Inbound,Owen Brooks,2026-07-15 14:25:26,Qualified
+ACME-D00327,ACME-L01643,Mayer-Vasquez,Lost,8800,2026-08-04 00:00:00,Google Ads,0.684,Acme MSP - Inbound,Dana Whitfield,2026-07-19 03:45:26,Contacted
+ACME-D00328,ACME-L01644,Cordova LLC,Lost,10900,2026-07-27 00:00:00,Google Ads,0.577,Acme MSP - Inbound,Owen Brooks,2026-07-15 05:43:04,Contacted
+ACME-D00329,ACME-L01653,Haynes-Carlson,Lost,8150,2026-07-31 00:00:00,Google Ads,0.49,Acme MSP - Inbound,Priya Raman,2026-07-18 10:29:52,Contacted
+ACME-D00330,ACME-L01666,Cisneros Clark and Lopez,Lost,15050,2026-08-02 00:00:00,Meta Ads,0.59,Acme MSP - Inbound,Owen Brooks,2026-07-18 20:36:31,Proposal
+ACME-D00331,ACME-L01670,Newton-Snyder,Lost,25850,2026-07-29 00:00:00,Google Ads,0.625,Acme MSP - Inbound,Sofia Alvarez,2026-07-18 15:17:34,Contacted
+ACME-D00332,ACME-L01674,Gonzales Mooney and Ellison,Lost,13050,2026-07-24 00:00:00,Google Ads,0.48,Acme MSP - Inbound,Jordan Ellis,2026-07-20 12:03:27,New
+ACME-D00333,ACME-L01676,Garner Gilbert and Blankenship,Lost,11600,2026-08-06 00:00:00,Google Ads,0.607,Acme MSP - Inbound,Acme Round Robin,2026-07-17 02:55:58,Qualified
+ACME-D00334,ACME-L01677,Martinez-Greer,Lost,18600,2026-08-06 00:00:00,Referral,0.567,Acme MSP - Referral,Priya Raman,2026-07-26 09:11:20,Contacted
+ACME-D00335,ACME-L01679,Rich Perez and Williams,Lost,13700,2026-07-27 00:00:00,Google Ads,0.596,Acme MSP - Inbound,Priya Raman,2026-07-18 06:22:30,Contacted
+ACME-D00336,ACME-L01683,Fernandez Group,Lost,13200,2026-08-04 00:00:00,Call Tracking,0.6,Acme MSP - Inbound,Priya Raman,2026-07-19 04:03:40,Contacted
+ACME-D00337,ACME-L01691,Patel and Sons,Lost,8900,2026-07-20 00:00:00,Google Ads,0.583,Acme MSP - Inbound,Jordan Ellis,2026-07-17 17:51:24,New
+ACME-D00338,ACME-L01699,Wagner LLC,Lost,15300,2026-07-25 00:00:00,Google Ads,0.529,Acme MSP - Inbound,Dana Whitfield,2026-07-17 07:10:12,Contacted
+ACME-D00339,ACME-L01700,Kennedy Shepard and Myers,Won,18700,2026-09-02 00:00:00,Referral,0.676,Acme MSP - Referral,Grace Kim,2026-07-22 12:20:06,Won
+ACME-D00340,ACME-L01705,Johnson Group,Lost,6450,2026-09-14 00:00:00,Google Ads,0.641,Acme MSP - Inbound,Marcus Lee,2026-07-19 16:35:57,Proposal
+ACME-D00341,ACME-L01710,Rios-Romero,Lost,13050,2026-08-04 00:00:00,Call Tracking,0.716,Acme MSP - Inbound,Marcus Lee,2026-07-18 01:06:23,Qualified
+ACME-D00342,ACME-L01716,Bradshaw Group,Lost,8600,2026-07-27 00:00:00,Call Tracking,0.589,Acme MSP - Inbound,Dana Whitfield,2026-07-19 00:26:57,Contacted
+ACME-D00343,ACME-L01728,Hall-James,Lost,13050,2026-09-09 00:00:00,Call Tracking,0.6,Acme MSP - Inbound,Marcus Lee,2026-07-20 16:47:18,Proposal
+ACME-D00344,ACME-L01729,Anderson Bishop and Weber,Lost,12100,2026-07-25 00:00:00,Referral,0.683,Acme MSP - Referral,Priya Raman,2026-07-21 14:18:59,Contacted
+ACME-D00345,ACME-L01735,Santos Murphy and George,Lost,14350,2026-08-07 00:00:00,Outbound,0.563,Acme MSP - Outbound,Marcus Lee,2026-07-22 18:00:29,Contacted
+ACME-D00346,ACME-L01741,Walker-Webb,Won,16350,2026-09-01 00:00:00,Meta Ads,0.576,Acme MSP - Inbound,Sofia Alvarez,2026-07-22 08:35:41,Won
+ACME-D00347,ACME-L01742,Barrett-Jones,Lost,15300,2026-08-16 00:00:00,Meta Ads,0.617,Acme MSP - Inbound,Dana Whitfield,2026-07-19 03:31:47,Qualified
+ACME-D00348,ACME-L01750,Thomas-Levy,Lost,11900,2026-07-25 00:00:00,Outbound,0.577,Acme MSP - Outbound,Dana Whitfield,2026-07-20 01:03:42,Contacted
+ACME-D00349,ACME-L01754,Burns Group,Lost,18450,2026-08-03 00:00:00,Outbound,0.581,Acme MSP - Outbound,Jordan Ellis,2026-07-24 20:44:43,Contacted
+ACME-D00350,ACME-L01755,Ramirez Fox and Mendoza,Lost,13850,2026-08-02 00:00:00,Google Ads,0.633,Acme MSP - Inbound,Priya Raman,2026-07-21 13:45:36,Qualified
+ACME-D00351,ACME-L01761,Snyder LLC,Lost,9050,2026-07-31 00:00:00,Meta Ads,0.563,Acme MSP - Inbound,Marcus Lee,2026-07-22 16:37:09,New
+ACME-D00352,ACME-L01770,Murphy and Sons,Lost,25800,2026-08-20 00:00:00,Referral,0.607,Acme MSP - Referral,Marcus Lee,2026-07-21 18:43:22,Qualified
+ACME-D00353,ACME-L01779,Little White and Perkins,Lost,11400,2026-08-09 00:00:00,Google Ads,0.612,Acme MSP - Inbound,Dana Whitfield,2026-07-26 00:26:57,Contacted
+ACME-D00354,ACME-L01780,Fisher PLC,Lost,17100,2026-07-26 00:00:00,Referral,,Acme MSP - Referral,Sofia Alvarez,2026-07-25 20:56:47,New
+ACME-D00355,ACME-L01784,Johnson-Irwin,Lost,7950,2026-08-01 00:00:00,Call Tracking,0.561,Acme MSP - Inbound,Dana Whitfield,2026-07-26 00:54:59,Contacted
+ACME-D00356,ACME-L01790,Haas PLC,Lost,9100,2026-07-28 00:00:00,Google Ads,0.672,Acme MSP - Inbound,Dana Whitfield,2026-07-23 10:28:23,New
+ACME-D00357,ACME-L01791,Ritter Ltd,Lost,23000,2026-08-15 00:00:00,Outbound,0.556,Acme MSP - Outbound,Owen Brooks,2026-07-26 07:16:25,Contacted
+ACME-D00358,ACME-L01792,Mcclain-Nguyen,Lost,8800,2026-08-07 00:00:00,Google Ads,0.615,Acme MSP - Inbound,Sofia Alvarez,2026-07-23 19:52:58,Contacted
+ACME-D00359,ACME-L01797,Wilkerson-Torres,Lost,10550,2026-08-25 00:00:00,Referral,0.612,Acme MSP - Referral,Jordan Ellis,2026-07-25 01:49:50,Proposal
+ACME-D00360,ACME-L01818,Cruz Archer and Myers,Lost,11350,2026-07-29 00:00:00,Meta Ads,0.606,Acme MSP - Inbound,Grace Kim,2026-07-26 07:28:36,New
+ACME-D00361,ACME-L01821,Vasquez and Sons,Lost,20200,2026-08-23 00:00:00,Referral,0.635,Acme MSP - Referral,Marcus Lee,2026-07-29 20:15:19,Contacted
+ACME-D00362,ACME-L01825,Mejia and Sons,Lost,15850,2026-08-07 00:00:00,Google Ads,0.59,Acme MSP - Inbound,Marcus Lee,2026-07-26 05:29:25,Contacted
+ACME-D00363,ACME-L01830,Owens Brennan and Schmitt,Lost,8000,2026-08-23 00:00:00,Meta Ads,0.637,Acme MSP - Inbound,Priya Raman,2026-07-26 22:49:38,Contacted
+ACME-D00364,ACME-L01831,Klein Inc,Lost,24400,2026-08-11 00:00:00,Google Ads,0.467,Acme MSP - Inbound,Dana Whitfield,2026-07-27 20:38:59,Contacted
+ACME-D00365,ACME-L01838,Mendoza Hood and Davis,Lost,6900,2026-08-20 00:00:00,Meta Ads,0.592,Acme MSP - Inbound,Sofia Alvarez,2026-07-27 14:36:52,Proposal
+ACME-D00366,ACME-L01841,Evans-Dawson,Lost,6450,2026-08-01 00:00:00,Google Ads,0.533,Acme MSP - Inbound,Dana Whitfield,2026-07-26 19:04:21,Contacted
+ACME-D00367,ACME-L01849,Howell-Turner,Lost,9350,2026-08-08 00:00:00,Google Ads,0.542,Acme MSP - Inbound,Dana Whitfield,2026-07-28 05:02:37,Contacted
+ACME-D00368,ACME-L01855,Bentley-Adams,Lost,12950,2026-08-24 00:00:00,Google Ads,0.55,Acme MSP - Inbound,Owen Brooks,2026-07-28 00:38:15,Contacted
 ACME-D00369,ACME-L01863,Warren Ltd,Proposal,18100,,Meta Ads,0.619,Acme MSP - Inbound,Dana Whitfield,2026-08-03 10:29:49,Proposal
-ACME-D00370,ACME-L01866,Matthews-Bowen,Lost,25800,2026-08-16,Referral,0.551,Acme MSP - Referral,Dana Whitfield,2026-07-29 15:36:09,Contacted
-ACME-D00371,ACME-L01869,Maddox Jones and Jacobs,Lost,27750,2026-08-05,Outbound,0.555,Acme MSP - Outbound,Priya Raman,2026-07-30 09:46:19,Contacted
-ACME-D00372,ACME-L01872,Moore Inc,Lost,6900,2026-08-03,Google Ads,0.599,Acme MSP - Inbound,Jordan Ellis,2026-07-28 20:08:33,New
-ACME-D00373,ACME-L01874,Williams Davis and Lucas,Lost,12300,2026-08-10,Meta Ads,0.552,Acme MSP - Inbound,Priya Raman,2026-07-29 03:04:20,Contacted
-ACME-D00374,ACME-L01876,Moreno LLC,Lost,11200,2026-08-12,Google Ads,0.639,Acme MSP - Inbound,Marcus Lee,2026-08-04 23:34:04,Contacted
-ACME-D00375,ACME-L01877,Carrillo Rodriguez and Beard,Lost,15700,2026-08-09,Google Ads,0.595,Acme MSP - Inbound,Marcus Lee,2026-07-29 10:38:19,Contacted
-ACME-D00376,ACME-L01883,Joyce Ltd,Lost,10000,2026-08-12,Referral,0.708,Acme MSP - Referral,Owen Brooks,2026-07-29 13:08:00,Contacted
+ACME-D00370,ACME-L01866,Matthews-Bowen,Lost,25800,2026-08-16 00:00:00,Referral,0.551,Acme MSP - Referral,Dana Whitfield,2026-07-29 15:36:09,Contacted
+ACME-D00371,ACME-L01869,Maddox Jones and Jacobs,Lost,27750,2026-08-05 00:00:00,Outbound,0.555,Acme MSP - Outbound,Priya Raman,2026-07-30 09:46:19,Contacted
+ACME-D00372,ACME-L01872,Moore Inc,Lost,6900,2026-08-03 00:00:00,Google Ads,0.599,Acme MSP - Inbound,Jordan Ellis,2026-07-28 20:08:33,New
+ACME-D00373,ACME-L01874,Williams Davis and Lucas,Lost,12300,2026-08-10 00:00:00,Meta Ads,0.552,Acme MSP - Inbound,Priya Raman,2026-07-29 03:04:20,Contacted
+ACME-D00374,ACME-L01876,Moreno LLC,Lost,11200,2026-08-12 00:00:00,Google Ads,0.639,Acme MSP - Inbound,Marcus Lee,2026-08-04 23:34:04,Contacted
+ACME-D00375,ACME-L01877,Carrillo Rodriguez and Beard,Lost,15700,2026-08-09 00:00:00,Google Ads,0.595,Acme MSP - Inbound,Marcus Lee,2026-07-29 10:38:19,Contacted
+ACME-D00376,ACME-L01883,Joyce Ltd,Lost,10000,2026-08-12 00:00:00,Referral,0.708,Acme MSP - Referral,Owen Brooks,2026-07-29 13:08:00,Contacted
 ACME-D00377,ACME-L01892,Anderson-Collins,Proposal,15600,,Referral,0.659,Acme MSP - Referral,Grace Kim,2026-07-29 08:20:25,Proposal
-ACME-D00378,ACME-L01894,Scott PLC,Lost,11200,2026-09-25,Google Ads,0.587,Acme MSP - Inbound,Priya Raman,2026-08-07 23:12:42,Proposal
-ACME-D00379,ACME-L01895,Chavez Inc,Lost,10450,2026-08-12,Google Ads,0.571,Acme MSP - Inbound,Priya Raman,2026-07-30 22:59:27,Contacted
-ACME-D00380,ACME-L01896,Johnson Inc,Lost,30500,2026-08-13,Referral,0.615,Acme MSP - Referral,Dana Whitfield,2026-07-31 18:47:14,Contacted
-ACME-D00381,ACME-L01903,Lee Foster and Landry,Lost,14050,2026-08-14,Google Ads,0.558,Acme MSP - Inbound,Jordan Ellis,2026-08-02 02:31:33,Contacted
-ACME-D00382,ACME-L01905,Gonzalez-Molina,Lost,13600,2026-08-19,Referral,0.607,Acme MSP - Referral,Marcus Lee,2026-08-02 21:25:21,Contacted
-ACME-D00383,ACME-L01906,Frederick Harris and Orr,Lost,9200,2026-08-16,Google Ads,0.559,Acme MSP - Inbound,Dana Whitfield,2026-08-03 10:46:33,Contacted
-ACME-D00384,ACME-L01908,Garcia PLC,Lost,12450,2026-08-11,Call Tracking,0.671,Acme MSP - Inbound,Marcus Lee,2026-07-31 11:41:41,Contacted
-ACME-D00385,ACME-L01912,Berg-Andrews,Lost,14250,2026-09-21,Google Ads,0.558,Acme MSP - Inbound,Priya Raman,2026-08-06 00:40:24,Proposal
-ACME-D00386,ACME-L01921,Huber-Sanchez,Won,10900,2026-08-28,Google Ads,0.608,Acme MSP - Inbound,Priya Raman,2026-07-31 08:27:40,Won
-ACME-D00387,ACME-L01922,Jones-Thomas,Lost,12250,2026-08-14,Call Tracking,0.541,Acme MSP - Inbound,Jordan Ellis,2026-07-31 01:33:49,Contacted
-ACME-D00388,ACME-L01925,Lin-Martinez,Lost,12200,2026-08-04,Google Ads,0.529,Acme MSP - Inbound,Sofia Alvarez,2026-08-01 12:14:02,New
-ACME-D00389,ACME-L01927,Buchanan Thomas and Kramer,Lost,12200,2026-08-16,Call Tracking,0.611,Acme MSP - Inbound,Marcus Lee,2026-08-01 03:52:16,New
-ACME-D00390,ACME-L01928,Lopez and Sons,Won,11400,2026-09-07,Referral,0.637,Acme MSP - Referral,Priya Raman,2026-08-06 06:29:10,Won
-ACME-D00391,ACME-L01929,Russo Wilson and Wright,Lost,9350,2026-08-07,Meta Ads,0.569,Acme MSP - Inbound,Priya Raman,2026-08-03 23:25:00,Contacted
-ACME-D00392,ACME-L01931,Poole White and Gonzalez,Lost,14150,2026-08-06,Meta Ads,0.576,Acme MSP - Inbound,Grace Kim,2026-08-04 05:17:45,Contacted
-ACME-D00393,ACME-L01932,Sweeney-Graham,Won,12100,2026-09-28,Google Ads,0.57,Acme MSP - Inbound,Grace Kim,2026-08-05 10:41:26,Won
-ACME-D00394,ACME-L01940,Huynh-Buck,Lost,11050,2026-08-19,Referral,0.637,Acme MSP - Referral,Priya Raman,2026-08-13 17:32:26,New
-ACME-D00395,ACME-L01947,Turner-Butler,Lost,17800,2026-08-18,Google Ads,0.629,Acme MSP - Inbound,Dana Whitfield,2026-08-03 21:21:17,Contacted
-ACME-D00396,ACME-L01953,Cole-Snow,Lost,11250,2026-08-16,Google Ads,0.578,Acme MSP - Inbound,Owen Brooks,2026-08-06 22:58:56,Contacted
-ACME-D00397,ACME-L01954,Figueroa Salinas and Daniels,Lost,14800,2026-08-30,Referral,0.694,Acme MSP - Referral,Sofia Alvarez,2026-08-04 10:44:46,Proposal
-ACME-D00398,ACME-L01961,Hall Martinez and Duncan,Lost,8750,2026-08-20,Meta Ads,0.619,Acme MSP - Inbound,Priya Raman,2026-08-07 01:50:28,Contacted
-ACME-D00399,ACME-L01963,Garcia Acosta and Lewis,Lost,18400,2026-09-05,Google Ads,0.567,Acme MSP - Inbound,Marcus Lee,2026-08-07 16:42:22,Qualified
-ACME-D00400,ACME-L01966,Mullins Gray and White,Lost,13400,2026-08-14,Referral,0.626,Acme MSP - Referral,Marcus Lee,2026-08-12 20:51:47,New
-ACME-D00401,ACME-L01968,Bowman Inc,Lost,12750,2026-08-26,Google Ads,0.565,Acme MSP - Inbound,Dana Whitfield,2026-08-06 06:48:31,Qualified
-ACME-D00402,ACME-L01977,Short LLC,Lost,14700,2026-08-16,Google Ads,0.606,Acme MSP - Inbound,Grace Kim,2026-08-06 17:31:25,New
-ACME-D00403,ACME-L01978,Nelson-Nguyen,Lost,9100,2026-08-26,Meta Ads,0.589,Acme MSP - Inbound,Sofia Alvarez,2026-08-08 11:49:34,Contacted
-ACME-D00404,ACME-L01983,Johnson Group,Lost,15150,2026-08-12,Google Ads,0.574,Acme MSP - Inbound,Marcus Lee,2026-08-05 09:37:13,Contacted
-ACME-D00405,ACME-L01987,Garcia Willis and Davis,Lost,20400,2026-08-29,Referral,0.668,Acme MSP - Referral,Marcus Lee,2026-08-06 01:32:57,Qualified
-ACME-D00406,ACME-L01989,Campbell-Evans,Lost,17500,2026-08-14,Meta Ads,0.634,Acme MSP - Inbound,Priya Raman,2026-08-05 05:13:50,New
-ACME-D00407,ACME-L01990,Williams-Torres,Lost,18450,2026-08-14,Referral,0.696,Acme MSP - Referral,Jordan Ellis,2026-08-05 06:51:42,Contacted
-ACME-D00408,ACME-L01991,Mccarthy-Johnson,Lost,32900,2026-08-12,Google Ads,0.581,Acme MSP - Inbound,Dana Whitfield,2026-08-08 11:34:58,New
-ACME-D00409,ACME-L01996,Gutierrez and Sons,Lost,17150,2026-08-29,Referral,0.61,Acme MSP - Referral,Jordan Ellis,2026-08-08 16:30:42,Contacted
-ACME-D00410,ACME-L01998,Sawyer and Sons,Lost,16000,2026-08-22,Referral,0.644,Acme MSP - Referral,Marcus Lee,2026-08-05 09:26:55,Contacted
-ACME-D00411,ACME-L02006,Fisher Smith and Allen,Lost,12300,2026-08-18,Google Ads,0.641,Acme MSP - Inbound,Dana Whitfield,2026-08-05 13:59:42,Contacted
-ACME-D00412,ACME-L02011,Jones Walker and Martinez,Lost,14550,2026-08-09,Google Ads,0.557,Acme MSP - Inbound,Dana Whitfield,2026-08-06 15:52:41,New
-ACME-D00413,ACME-L02017,Marquez Inc,Lost,24000,2026-08-10,Google Ads,0.597,Acme MSP - Inbound,Acme Round Robin,2026-08-07 07:11:46,Contacted
-ACME-D00414,ACME-L02022,Mason Ltd,Lost,12900,2026-09-29,Google Ads,0.626,Acme MSP - Inbound,Dana Whitfield,2026-08-07 21:41:10,Proposal
+ACME-D00378,ACME-L01894,Scott PLC,Lost,11200,2026-09-25 00:00:00,Google Ads,0.587,Acme MSP - Inbound,Priya Raman,2026-08-07 23:12:42,Proposal
+ACME-D00379,ACME-L01895,Chavez Inc,Lost,10450,2026-08-12 00:00:00,Google Ads,0.571,Acme MSP - Inbound,Priya Raman,2026-07-30 22:59:27,Contacted
+ACME-D00380,ACME-L01896,Johnson Inc,Lost,30500,2026-08-13 00:00:00,Referral,0.615,Acme MSP - Referral,Dana Whitfield,2026-07-31 18:47:14,Contacted
+ACME-D00381,ACME-L01903,Lee Foster and Landry,Lost,14050,2026-08-14 00:00:00,Google Ads,0.558,Acme MSP - Inbound,Jordan Ellis,2026-08-02 02:31:33,Contacted
+ACME-D00382,ACME-L01905,Gonzalez-Molina,Lost,13600,2026-08-19 00:00:00,Referral,0.607,Acme MSP - Referral,Marcus Lee,2026-08-02 21:25:21,Contacted
+ACME-D00383,ACME-L01906,Frederick Harris and Orr,Lost,9200,2026-08-16 00:00:00,Google Ads,0.559,Acme MSP - Inbound,Dana Whitfield,2026-08-03 10:46:33,Contacted
+ACME-D00384,ACME-L01908,Garcia PLC,Lost,12450,2026-08-11 00:00:00,Call Tracking,0.671,Acme MSP - Inbound,Marcus Lee,2026-07-31 11:41:41,Contacted
+ACME-D00385,ACME-L01912,Berg-Andrews,Lost,14250,2026-09-21 00:00:00,Google Ads,0.558,Acme MSP - Inbound,Priya Raman,2026-08-06 00:40:24,Proposal
+ACME-D00386,ACME-L01921,Huber-Sanchez,Won,10900,2026-08-28 00:00:00,Google Ads,0.608,Acme MSP - Inbound,Priya Raman,2026-07-31 08:27:40,Won
+ACME-D00387,ACME-L01922,Jones-Thomas,Lost,12250,2026-08-14 00:00:00,Call Tracking,0.541,Acme MSP - Inbound,Jordan Ellis,2026-07-31 01:33:49,Contacted
+ACME-D00388,ACME-L01925,Lin-Martinez,Lost,12200,2026-08-04 00:00:00,Google Ads,0.529,Acme MSP - Inbound,Sofia Alvarez,2026-08-01 12:14:02,New
+ACME-D00389,ACME-L01927,Buchanan Thomas and Kramer,Lost,12200,2026-08-16 00:00:00,Call Tracking,0.611,Acme MSP - Inbound,Marcus Lee,2026-08-01 03:52:16,New
+ACME-D00390,ACME-L01928,Lopez and Sons,Won,11400,2026-09-07 00:00:00,Referral,0.637,Acme MSP - Referral,Priya Raman,2026-08-06 06:29:10,Won
+ACME-D00391,ACME-L01929,Russo Wilson and Wright,Lost,9350,2026-08-07 00:00:00,Meta Ads,0.569,Acme MSP - Inbound,Priya Raman,2026-08-03 23:25:00,Contacted
+ACME-D00392,ACME-L01931,Poole White and Gonzalez,Lost,14150,2026-08-06 00:00:00,Meta Ads,0.576,Acme MSP - Inbound,Grace Kim,2026-08-04 05:17:45,Contacted
+ACME-D00393,ACME-L01932,Sweeney-Graham,Won,12100,2026-09-28 00:00:00,Google Ads,0.57,Acme MSP - Inbound,Grace Kim,2026-08-05 10:41:26,Won
+ACME-D00394,ACME-L01940,Huynh-Buck,Lost,11050,2026-08-19 00:00:00,Referral,0.637,Acme MSP - Referral,Priya Raman,2026-08-13 17:32:26,New
+ACME-D00395,ACME-L01947,Turner-Butler,Lost,17800,2026-08-18 00:00:00,Google Ads,0.629,Acme MSP - Inbound,Dana Whitfield,2026-08-03 21:21:17,Contacted
+ACME-D00396,ACME-L01953,Cole-Snow,Lost,11250,2026-08-16 00:00:00,Google Ads,0.578,Acme MSP - Inbound,Owen Brooks,2026-08-06 22:58:56,Contacted
+ACME-D00397,ACME-L01954,Figueroa Salinas and Daniels,Lost,14800,2026-08-30 00:00:00,Referral,0.694,Acme MSP - Referral,Sofia Alvarez,2026-08-04 10:44:46,Proposal
+ACME-D00398,ACME-L01961,Hall Martinez and Duncan,Lost,8750,2026-08-20 00:00:00,Meta Ads,0.619,Acme MSP - Inbound,Priya Raman,2026-08-07 01:50:28,Contacted
+ACME-D00399,ACME-L01963,Garcia Acosta and Lewis,Lost,18400,2026-09-05 00:00:00,Google Ads,0.567,Acme MSP - Inbound,Marcus Lee,2026-08-07 16:42:22,Qualified
+ACME-D00400,ACME-L01966,Mullins Gray and White,Lost,13400,2026-08-14 00:00:00,Referral,0.626,Acme MSP - Referral,Marcus Lee,2026-08-12 20:51:47,New
+ACME-D00401,ACME-L01968,Bowman Inc,Lost,12750,2026-08-26 00:00:00,Google Ads,0.565,Acme MSP - Inbound,Dana Whitfield,2026-08-06 06:48:31,Qualified
+ACME-D00402,ACME-L01977,Short LLC,Lost,14700,2026-08-16 00:00:00,Google Ads,0.606,Acme MSP - Inbound,Grace Kim,2026-08-06 17:31:25,New
+ACME-D00403,ACME-L01978,Nelson-Nguyen,Lost,9100,2026-08-26 00:00:00,Meta Ads,0.589,Acme MSP - Inbound,Sofia Alvarez,2026-08-08 11:49:34,Contacted
+ACME-D00404,ACME-L01983,Johnson Group,Lost,15150,2026-08-12 00:00:00,Google Ads,0.574,Acme MSP - Inbound,Marcus Lee,2026-08-05 09:37:13,Contacted
+ACME-D00405,ACME-L01987,Garcia Willis and Davis,Lost,20400,2026-08-29 00:00:00,Referral,0.668,Acme MSP - Referral,Marcus Lee,2026-08-06 01:32:57,Qualified
+ACME-D00406,ACME-L01989,Campbell-Evans,Lost,17500,2026-08-14 00:00:00,Meta Ads,0.634,Acme MSP - Inbound,Priya Raman,2026-08-05 05:13:50,New
+ACME-D00407,ACME-L01990,Williams-Torres,Lost,18450,2026-08-14 00:00:00,Referral,0.696,Acme MSP - Referral,Jordan Ellis,2026-08-05 06:51:42,Contacted
+ACME-D00408,ACME-L01991,Mccarthy-Johnson,Lost,32900,2026-08-12 00:00:00,Google Ads,0.581,Acme MSP - Inbound,Dana Whitfield,2026-08-08 11:34:58,New
+ACME-D00409,ACME-L01996,Gutierrez and Sons,Lost,17150,2026-08-29 00:00:00,Referral,0.61,Acme MSP - Referral,Jordan Ellis,2026-08-08 16:30:42,Contacted
+ACME-D00410,ACME-L01998,Sawyer and Sons,Lost,16000,2026-08-22 00:00:00,Referral,0.644,Acme MSP - Referral,Marcus Lee,2026-08-05 09:26:55,Contacted
+ACME-D00411,ACME-L02006,Fisher Smith and Allen,Lost,12300,2026-08-18 00:00:00,Google Ads,0.641,Acme MSP - Inbound,Dana Whitfield,2026-08-05 13:59:42,Contacted
+ACME-D00412,ACME-L02011,Jones Walker and Martinez,Lost,14550,2026-08-09 00:00:00,Google Ads,0.557,Acme MSP - Inbound,Dana Whitfield,2026-08-06 15:52:41,New
+ACME-D00413,ACME-L02017,Marquez Inc,Lost,24000,2026-08-10 00:00:00,Google Ads,0.597,Acme MSP - Inbound,Acme Round Robin,2026-08-07 07:11:46,Contacted
+ACME-D00414,ACME-L02022,Mason Ltd,Lost,12900,2026-09-29 00:00:00,Google Ads,0.626,Acme MSP - Inbound,Dana Whitfield,2026-08-07 21:41:10,Proposal
 ACME-D00415,ACME-L02028,Riddle Smith and May,Proposal,21600,,Outbound,0.555,Acme MSP - Outbound,Sofia Alvarez,2026-08-10 16:12:45,Proposal
-ACME-D00416,ACME-L02031,Webb-Shaw,Lost,31900,2026-08-18,Referral,0.604,Acme MSP - Referral,Marcus Lee,2026-08-11 20:28:57,Contacted
-ACME-D00417,ACME-L02033,Hamilton-Morgan,Lost,17900,2026-08-22,Outbound,0.621,Acme MSP - Outbound,Sofia Alvarez,2026-08-13 18:56:20,Contacted
-ACME-D00418,ACME-L02037,Farmer Group,Lost,12000,2026-09-23,Google Ads,0.56,Acme MSP - Inbound,Grace Kim,2026-08-08 06:25:54,Proposal
-ACME-D00419,ACME-L02038,Alexander-Jones,Lost,18750,2026-09-03,Meta Ads,0.631,Acme MSP - Inbound,Marcus Lee,2026-08-10 00:45:34,Qualified
+ACME-D00416,ACME-L02031,Webb-Shaw,Lost,31900,2026-08-18 00:00:00,Referral,0.604,Acme MSP - Referral,Marcus Lee,2026-08-11 20:28:57,Contacted
+ACME-D00417,ACME-L02033,Hamilton-Morgan,Lost,17900,2026-08-22 00:00:00,Outbound,0.621,Acme MSP - Outbound,Sofia Alvarez,2026-08-13 18:56:20,Contacted
+ACME-D00418,ACME-L02037,Farmer Group,Lost,12000,2026-09-23 00:00:00,Google Ads,0.56,Acme MSP - Inbound,Grace Kim,2026-08-08 06:25:54,Proposal
+ACME-D00419,ACME-L02038,Alexander-Jones,Lost,18750,2026-09-03 00:00:00,Meta Ads,0.631,Acme MSP - Inbound,Marcus Lee,2026-08-10 00:45:34,Qualified
 ACME-D00420,ACME-L02045,Rosario and Sons,Proposal,16500,,Referral,0.679,Acme MSP - Referral,Owen Brooks,2026-08-13 23:27:36,Proposal
-ACME-D00421,ACME-L02048,Love Group,Lost,9750,2026-08-16,Google Ads,0.595,Acme MSP - Inbound,Grace Kim,2026-08-10 01:25:16,Contacted
-ACME-D00422,ACME-L02055,Campos-Williams,Lost,9150,2026-08-22,Referral,0.639,Acme MSP - Referral,Priya Raman,2026-08-14 19:07:48,Contacted
-ACME-D00423,ACME-L02059,Vance Group,Lost,21250,2026-08-19,Referral,0.636,Acme MSP - Referral,Dana Whitfield,2026-08-09 10:50:05,New
-ACME-D00424,ACME-L02064,Johnson-Moore,Lost,7400,2026-09-27,Google Ads,0.535,Acme MSP - Inbound,Sofia Alvarez,2026-08-10 21:49:16,Proposal
-ACME-D00425,ACME-L02067,Woods-Gilbert,Lost,24200,2026-09-13,Referral,0.573,Acme MSP - Referral,Grace Kim,2026-08-15 04:11:49,Proposal
-ACME-D00426,ACME-L02077,Horton-Miller,Lost,8900,2026-09-01,Google Ads,0.628,Acme MSP - Inbound,Owen Brooks,2026-08-13 04:39:54,Contacted
-ACME-D00427,ACME-L02079,Davis Ross and Sanchez,Lost,15650,2026-08-28,Google Ads,0.597,Acme MSP - Inbound,Marcus Lee,2026-08-11 06:54:13,Contacted
-ACME-D00428,ACME-L02081,Holt-Miller,Lost,14400,2026-09-10,Meta Ads,0.562,Acme MSP - Inbound,Marcus Lee,2026-08-11 11:50:18,Proposal
-ACME-D00429,ACME-L02087,Bullock Ltd,Lost,16800,2026-08-26,Google Ads,0.592,Acme MSP - Inbound,Grace Kim,2026-08-15 08:53:23,Contacted
-ACME-D00430,ACME-L02098,Green Buck and Robinson,Lost,15850,2026-08-28,Outbound,0.643,Acme MSP - Outbound,Dana Whitfield,2026-08-17 19:22:14,Contacted
-ACME-D00431,ACME-L02109,Guzman Group,Lost,22950,2026-08-20,Referral,0.624,Acme MSP - Referral,Grace Kim,2026-08-17 11:51:14,Contacted
-ACME-D00432,ACME-L02113,Simmons Ltd,Lost,10400,2026-08-21,Outbound,0.584,Acme MSP - Outbound,Sofia Alvarez,2026-08-12 19:31:20,New
-ACME-D00433,ACME-L02120,Mitchell-Robertson,Lost,6600,2026-08-19,Call Tracking,0.58,Acme MSP - Inbound,Dana Whitfield,2026-08-15 04:53:11,New
-ACME-D00434,ACME-L02125,Johnson-Alexander,Lost,25100,2026-09-09,Outbound,0.523,Acme MSP - Outbound,Sofia Alvarez,2026-08-13 03:30:48,Contacted
-ACME-D00435,ACME-L02133,Obrien Elliott and Brennan,Lost,8550,2026-09-28,Google Ads,0.642,Acme MSP - Inbound,Marcus Lee,2026-08-16 20:07:57,Proposal
-ACME-D00436,ACME-L02139,Manning LLC,Lost,10550,2026-08-27,Google Ads,0.502,Acme MSP - Inbound,Owen Brooks,2026-08-15 18:53:14,Contacted
-ACME-D00437,ACME-L02143,King-Holt,Lost,12300,2026-08-22,Call Tracking,0.534,Acme MSP - Inbound,Owen Brooks,2026-08-16 06:22:13,Contacted
-ACME-D00438,ACME-L02147,Johnston PLC,Lost,11850,2026-09-06,Google Ads,0.578,Acme MSP - Inbound,Marcus Lee,2026-08-17 08:52:51,Contacted
-ACME-D00439,ACME-L02148,Schaefer-Lowery,Lost,9050,2026-09-01,Google Ads,0.628,Acme MSP - Inbound,Owen Brooks,2026-08-21 09:12:12,Contacted
+ACME-D00421,ACME-L02048,Love Group,Lost,9750,2026-08-16 00:00:00,Google Ads,0.595,Acme MSP - Inbound,Grace Kim,2026-08-10 01:25:16,Contacted
+ACME-D00422,ACME-L02055,Campos-Williams,Lost,9150,2026-08-22 00:00:00,Referral,0.639,Acme MSP - Referral,Priya Raman,2026-08-14 19:07:48,Contacted
+ACME-D00423,ACME-L02059,Vance Group,Lost,21250,2026-08-19 00:00:00,Referral,0.636,Acme MSP - Referral,Dana Whitfield,2026-08-09 10:50:05,New
+ACME-D00424,ACME-L02064,Johnson-Moore,Lost,7400,2026-09-27 00:00:00,Google Ads,0.535,Acme MSP - Inbound,Sofia Alvarez,2026-08-10 21:49:16,Proposal
+ACME-D00425,ACME-L02067,Woods-Gilbert,Lost,24200,2026-09-13 00:00:00,Referral,0.573,Acme MSP - Referral,Grace Kim,2026-08-15 04:11:49,Proposal
+ACME-D00426,ACME-L02077,Horton-Miller,Lost,8900,2026-09-01 00:00:00,Google Ads,0.628,Acme MSP - Inbound,Owen Brooks,2026-08-13 04:39:54,Contacted
+ACME-D00427,ACME-L02079,Davis Ross and Sanchez,Lost,15650,2026-08-28 00:00:00,Google Ads,0.597,Acme MSP - Inbound,Marcus Lee,2026-08-11 06:54:13,Contacted
+ACME-D00428,ACME-L02081,Holt-Miller,Lost,14400,2026-09-10 00:00:00,Meta Ads,0.562,Acme MSP - Inbound,Marcus Lee,2026-08-11 11:50:18,Proposal
+ACME-D00429,ACME-L02087,Bullock Ltd,Lost,16800,2026-08-26 00:00:00,Google Ads,0.592,Acme MSP - Inbound,Grace Kim,2026-08-15 08:53:23,Contacted
+ACME-D00430,ACME-L02098,Green Buck and Robinson,Lost,15850,2026-08-28 00:00:00,Outbound,0.643,Acme MSP - Outbound,Dana Whitfield,2026-08-17 19:22:14,Contacted
+ACME-D00431,ACME-L02109,Guzman Group,Lost,22950,2026-08-20 00:00:00,Referral,0.624,Acme MSP - Referral,Grace Kim,2026-08-17 11:51:14,Contacted
+ACME-D00432,ACME-L02113,Simmons Ltd,Lost,10400,2026-08-21 00:00:00,Outbound,0.584,Acme MSP - Outbound,Sofia Alvarez,2026-08-12 19:31:20,New
+ACME-D00433,ACME-L02120,Mitchell-Robertson,Lost,6600,2026-08-19 00:00:00,Call Tracking,0.58,Acme MSP - Inbound,Dana Whitfield,2026-08-15 04:53:11,New
+ACME-D00434,ACME-L02125,Johnson-Alexander,Lost,25100,2026-09-09 00:00:00,Outbound,0.523,Acme MSP - Outbound,Sofia Alvarez,2026-08-13 03:30:48,Contacted
+ACME-D00435,ACME-L02133,Obrien Elliott and Brennan,Lost,8550,2026-09-28 00:00:00,Google Ads,0.642,Acme MSP - Inbound,Marcus Lee,2026-08-16 20:07:57,Proposal
+ACME-D00436,ACME-L02139,Manning LLC,Lost,10550,2026-08-27 00:00:00,Google Ads,0.502,Acme MSP - Inbound,Owen Brooks,2026-08-15 18:53:14,Contacted
+ACME-D00437,ACME-L02143,King-Holt,Lost,12300,2026-08-22 00:00:00,Call Tracking,0.534,Acme MSP - Inbound,Owen Brooks,2026-08-16 06:22:13,Contacted
+ACME-D00438,ACME-L02147,Johnston PLC,Lost,11850,2026-09-06 00:00:00,Google Ads,0.578,Acme MSP - Inbound,Marcus Lee,2026-08-17 08:52:51,Contacted
+ACME-D00439,ACME-L02148,Schaefer-Lowery,Lost,9050,2026-09-01 00:00:00,Google Ads,0.628,Acme MSP - Inbound,Owen Brooks,2026-08-21 09:12:12,Contacted
 ACME-D00440,ACME-L02149,Trevino Ltd,Proposal,10950,,Referral,0.572,Acme MSP - Referral,Marcus Lee,2026-08-21 04:01:02,Proposal
-ACME-D00441,ACME-L02155,Lawrence Morton and Garza,Lost,25700,2026-09-26,Google Ads,0.581,Acme MSP - Inbound,Marcus Lee,2026-08-14 22:54:43,Proposal
-ACME-D00442,ACME-L02156,Ross Ltd,Lost,9450,2026-08-23,Referral,0.631,Acme MSP - Referral,Dana Whitfield,2026-08-15 23:51:40,Qualified
-ACME-D00443,ACME-L02161,Adams-Kline,Lost,22550,2026-08-22,Google Ads,0.628,Acme MSP - Inbound,Marcus Lee,2026-08-17 22:39:29,Qualified
-ACME-D00444,ACME-L02164,Hill and Sons,Lost,25350,2026-08-25,Google Ads,0.65,Acme MSP - Inbound,Jordan Ellis,2026-08-16 01:26:16,Contacted
-ACME-D00445,ACME-L02167,Holland Dunlap and Mcbride,Lost,17550,2026-08-27,Call Tracking,0.651,Acme MSP - Inbound,Priya Raman,2026-08-19 13:37:15,Contacted
-ACME-D00446,ACME-L02180,Lewis Sparks and Smith,Lost,19900,2026-09-22,Google Ads,0.606,Acme MSP - Inbound,Dana Whitfield,2026-08-16 03:19:39,Proposal
-ACME-D00447,ACME-L02181,Clark PLC,Won,15050,2026-09-30,Google Ads,0.623,Acme MSP - Inbound,Sofia Alvarez,2026-08-16 16:14:03,Won
-ACME-D00448,ACME-L02182,Mcknight Group,Lost,13500,2026-08-25,Google Ads,0.58,Acme MSP - Inbound,Dana Whitfield,2026-08-20 01:21:50,Contacted
-ACME-D00449,ACME-L02184,Fox-Dunn,Won,16100,2026-09-12,Google Ads,0.508,Acme MSP - Inbound,Jordan Ellis,2026-08-19 04:02:27,Won
-ACME-D00450,ACME-L02186,Vazquez-Murray,Lost,13900,2026-09-06,Referral,0.612,Acme MSP - Referral,Sofia Alvarez,2026-08-18 17:06:45,Contacted
-ACME-D00451,ACME-L02190,Mcneil Williams and Park,Won,6950,2026-09-20,Google Ads,0.476,Acme MSP - Inbound,Sofia Alvarez,2026-08-17 18:11:12,Won
+ACME-D00441,ACME-L02155,Lawrence Morton and Garza,Lost,25700,2026-09-26 00:00:00,Google Ads,0.581,Acme MSP - Inbound,Marcus Lee,2026-08-14 22:54:43,Proposal
+ACME-D00442,ACME-L02156,Ross Ltd,Lost,9450,2026-08-23 00:00:00,Referral,0.631,Acme MSP - Referral,Dana Whitfield,2026-08-15 23:51:40,Qualified
+ACME-D00443,ACME-L02161,Adams-Kline,Lost,22550,2026-08-22 00:00:00,Google Ads,0.628,Acme MSP - Inbound,Marcus Lee,2026-08-17 22:39:29,Qualified
+ACME-D00444,ACME-L02164,Hill and Sons,Lost,25350,2026-08-25 00:00:00,Google Ads,0.65,Acme MSP - Inbound,Jordan Ellis,2026-08-16 01:26:16,Contacted
+ACME-D00445,ACME-L02167,Holland Dunlap and Mcbride,Lost,17550,2026-08-27 00:00:00,Call Tracking,0.651,Acme MSP - Inbound,Priya Raman,2026-08-19 13:37:15,Contacted
+ACME-D00446,ACME-L02180,Lewis Sparks and Smith,Lost,19900,2026-09-22 00:00:00,Google Ads,0.606,Acme MSP - Inbound,Dana Whitfield,2026-08-16 03:19:39,Proposal
+ACME-D00447,ACME-L02181,Clark PLC,Won,15050,2026-09-30 00:00:00,Google Ads,0.623,Acme MSP - Inbound,Sofia Alvarez,2026-08-16 16:14:03,Won
+ACME-D00448,ACME-L02182,Mcknight Group,Lost,13500,2026-08-25 00:00:00,Google Ads,0.58,Acme MSP - Inbound,Dana Whitfield,2026-08-20 01:21:50,Contacted
+ACME-D00449,ACME-L02184,Fox-Dunn,Won,16100,2026-09-12 00:00:00,Google Ads,0.508,Acme MSP - Inbound,Jordan Ellis,2026-08-19 04:02:27,Won
+ACME-D00450,ACME-L02186,Vazquez-Murray,Lost,13900,2026-09-06 00:00:00,Referral,0.612,Acme MSP - Referral,Sofia Alvarez,2026-08-18 17:06:45,Contacted
+ACME-D00451,ACME-L02190,Mcneil Williams and Park,Won,6950,2026-09-20 00:00:00,Google Ads,0.476,Acme MSP - Inbound,Sofia Alvarez,2026-08-17 18:11:12,Won
 ACME-D00452,ACME-L02211,Rogers and Sons,Qualified,13200,,Referral,0.594,Acme MSP - Referral,Jordan Ellis,2026-08-23 00:24:30,Qualified
-ACME-D00453,ACME-L02213,Willis Munoz and Davis,Lost,24850,2026-09-02,Google Ads,0.614,Acme MSP - Inbound,Sofia Alvarez,2026-08-24 04:26:04,Contacted
-ACME-D00454,ACME-L02214,Roberson-Compton,Lost,15200,2026-09-12,Meta Ads,0.622,Acme MSP - Inbound,Sofia Alvarez,2026-08-19 12:07:53,Qualified
-ACME-D00455,ACME-L02216,Lowery Lewis and Myers,Lost,22800,2026-08-23,Outbound,0.605,Acme MSP - Outbound,Dana Whitfield,2026-08-21 21:13:44,Contacted
-ACME-D00456,ACME-L02217,Fuller Group,Lost,19100,2026-09-05,Google Ads,0.595,Acme MSP - Inbound,Priya Raman,2026-08-19 01:44:33,Qualified
-ACME-D00457,ACME-L02224,Fox Sampson and Davis,Lost,17950,2026-08-28,Referral,0.602,Acme MSP - Referral,Dana Whitfield,2026-08-20 21:35:42,Contacted
-ACME-D00458,ACME-L02227,Smith Little and Davis,Lost,22900,2026-08-21,Outbound,0.653,Acme MSP - Outbound,Priya Raman,2026-08-19 21:10:50,New
-ACME-D00459,ACME-L02234,Acosta-Berry,Lost,12300,2026-09-15,Google Ads,0.57,Acme MSP - Inbound,Priya Raman,2026-08-20 21:20:13,Qualified
-ACME-D00460,ACME-L02235,Bradley PLC,Lost,17650,2026-08-27,Outbound,0.555,Acme MSP - Outbound,Owen Brooks,2026-08-21 19:35:38,New
-ACME-D00461,ACME-L02240,Richardson-Stephens,Lost,7400,2026-09-04,Referral,0.607,Acme MSP - Referral,Priya Raman,2026-08-21 06:42:19,Contacted
-ACME-D00462,ACME-L02245,Bennett Martin and Anderson,Lost,9050,2026-09-19,Referral,0.679,Acme MSP - Referral,Jordan Ellis,2026-08-19 19:56:58,Contacted
-ACME-D00463,ACME-L02249,Alvarado-Mayo,Won,10400,2026-09-26,Google Ads,0.532,Acme MSP - Inbound,Jordan Ellis,2026-08-21 10:40:55,Won
-ACME-D00464,ACME-L02256,Parker-Johnson,Lost,18300,2026-09-15,Meta Ads,0.591,Acme MSP - Inbound,Sofia Alvarez,2026-08-24 14:59:13,Qualified
-ACME-D00465,ACME-L02258,Montgomery-Taylor,Lost,12050,2026-08-23,Call Tracking,0.617,Acme MSP - Inbound,Dana Whitfield,2026-08-21 14:04:26,Contacted
-ACME-D00466,ACME-L02263,Hunt Gibson and Calhoun,Lost,19000,2026-09-15,Referral,0.642,Acme MSP - Referral,Grace Kim,2026-08-26 17:58:24,Qualified
-ACME-D00467,ACME-L02272,Rice Inc,Lost,8100,2026-09-16,Outbound,0.653,Acme MSP - Outbound,Marcus Lee,2026-08-23 19:23:39,Qualified
-ACME-D00468,ACME-L02278,Shah Valentine and Johnson,Lost,24800,2026-09-05,Google Ads,0.555,Acme MSP - Inbound,Sofia Alvarez,2026-08-26 02:42:14,Contacted
-ACME-D00469,ACME-L02280,George and Sons,Lost,8500,2026-09-02,Google Ads,0.659,Acme MSP - Inbound,Jordan Ellis,2026-08-26 13:14:20,Contacted
-ACME-D00470,ACME-L02289,Lewis LLC,Lost,17250,2026-09-04,Referral,0.587,Acme MSP - Referral,Marcus Lee,2026-08-23 12:57:30,Contacted
-ACME-D00471,ACME-L02291,Little and Sons,Lost,15200,2026-09-09,Referral,0.639,Acme MSP - Referral,Dana Whitfield,2026-08-24 04:49:42,Contacted
+ACME-D00453,ACME-L02213,Willis Munoz and Davis,Lost,24850,2026-09-02 00:00:00,Google Ads,0.614,Acme MSP - Inbound,Sofia Alvarez,2026-08-24 04:26:04,Contacted
+ACME-D00454,ACME-L02214,Roberson-Compton,Lost,15200,2026-09-12 00:00:00,Meta Ads,0.622,Acme MSP - Inbound,Sofia Alvarez,2026-08-19 12:07:53,Qualified
+ACME-D00455,ACME-L02216,Lowery Lewis and Myers,Lost,22800,2026-08-23 00:00:00,Outbound,0.605,Acme MSP - Outbound,Dana Whitfield,2026-08-21 21:13:44,Contacted
+ACME-D00456,ACME-L02217,Fuller Group,Lost,19100,2026-09-05 00:00:00,Google Ads,0.595,Acme MSP - Inbound,Priya Raman,2026-08-19 01:44:33,Qualified
+ACME-D00457,ACME-L02224,Fox Sampson and Davis,Lost,17950,2026-08-28 00:00:00,Referral,0.602,Acme MSP - Referral,Dana Whitfield,2026-08-20 21:35:42,Contacted
+ACME-D00458,ACME-L02227,Smith Little and Davis,Lost,22900,2026-08-21 00:00:00,Outbound,0.653,Acme MSP - Outbound,Priya Raman,2026-08-19 21:10:50,New
+ACME-D00459,ACME-L02234,Acosta-Berry,Lost,12300,2026-09-15 00:00:00,Google Ads,0.57,Acme MSP - Inbound,Priya Raman,2026-08-20 21:20:13,Qualified
+ACME-D00460,ACME-L02235,Bradley PLC,Lost,17650,2026-08-27 00:00:00,Outbound,0.555,Acme MSP - Outbound,Owen Brooks,2026-08-21 19:35:38,New
+ACME-D00461,ACME-L02240,Richardson-Stephens,Lost,7400,2026-09-04 00:00:00,Referral,0.607,Acme MSP - Referral,Priya Raman,2026-08-21 06:42:19,Contacted
+ACME-D00462,ACME-L02245,Bennett Martin and Anderson,Lost,9050,2026-09-19 00:00:00,Referral,0.679,Acme MSP - Referral,Jordan Ellis,2026-08-19 19:56:58,Contacted
+ACME-D00463,ACME-L02249,Alvarado-Mayo,Won,10400,2026-09-26 00:00:00,Google Ads,0.532,Acme MSP - Inbound,Jordan Ellis,2026-08-21 10:40:55,Won
+ACME-D00464,ACME-L02256,Parker-Johnson,Lost,18300,2026-09-15 00:00:00,Meta Ads,0.591,Acme MSP - Inbound,Sofia Alvarez,2026-08-24 14:59:13,Qualified
+ACME-D00465,ACME-L02258,Montgomery-Taylor,Lost,12050,2026-08-23 00:00:00,Call Tracking,0.617,Acme MSP - Inbound,Dana Whitfield,2026-08-21 14:04:26,Contacted
+ACME-D00466,ACME-L02263,Hunt Gibson and Calhoun,Lost,19000,2026-09-15 00:00:00,Referral,0.642,Acme MSP - Referral,Grace Kim,2026-08-26 17:58:24,Qualified
+ACME-D00467,ACME-L02272,Rice Inc,Lost,8100,2026-09-16 00:00:00,Outbound,0.653,Acme MSP - Outbound,Marcus Lee,2026-08-23 19:23:39,Qualified
+ACME-D00468,ACME-L02278,Shah Valentine and Johnson,Lost,24800,2026-09-05 00:00:00,Google Ads,0.555,Acme MSP - Inbound,Sofia Alvarez,2026-08-26 02:42:14,Contacted
+ACME-D00469,ACME-L02280,George and Sons,Lost,8500,2026-09-02 00:00:00,Google Ads,0.659,Acme MSP - Inbound,Jordan Ellis,2026-08-26 13:14:20,Contacted
+ACME-D00470,ACME-L02289,Lewis LLC,Lost,17250,2026-09-04 00:00:00,Referral,0.587,Acme MSP - Referral,Marcus Lee,2026-08-23 12:57:30,Contacted
+ACME-D00471,ACME-L02291,Little and Sons,Lost,15200,2026-09-09 00:00:00,Referral,0.639,Acme MSP - Referral,Dana Whitfield,2026-08-24 04:49:42,Contacted
 ACME-D00472,ACME-L02292,Payne-Randolph,Qualified,17450,,Referral,0.659,Acme MSP - Referral,Dana Whitfield,2026-08-26 04:01:42,Qualified
-ACME-D00473,ACME-L02296,Anderson and Sons,Lost,15650,2026-08-27,Google Ads,0.597,Acme MSP - Inbound,Priya Raman,2026-08-24 15:26:57,New
-ACME-D00474,ACME-L02297,Brennan-Fisher,Lost,22500,2026-09-03,Referral,0.605,Acme MSP - Referral,Priya Raman,2026-08-24 00:13:20,Contacted
-ACME-D00475,ACME-L02299,Harris Group,Lost,19500,2026-09-10,Google Ads,0.525,Acme MSP - Inbound,Sofia Alvarez,2026-08-26 13:13:16,Contacted
-ACME-D00476,ACME-L02303,Watson-Smith,Lost,14250,2026-08-30,Google Ads,0.611,Acme MSP - Inbound,Dana Whitfield,2026-08-26 03:39:16,Contacted
-ACME-D00477,ACME-L02313,Miles Ltd,Lost,16550,2026-09-08,Call Tracking,0.551,Acme MSP - Inbound,Priya Raman,2026-08-29 12:02:09,Contacted
-ACME-D00478,ACME-L02315,Fox-Barrera,Lost,17950,2026-09-25,Outbound,0.593,Acme MSP - Outbound,Jordan Ellis,2026-08-25 16:02:47,Qualified
-ACME-D00479,ACME-L02320,Guzman Cooper and Wade,Lost,16600,2026-09-27,Referral,0.619,Acme MSP - Referral,Jordan Ellis,2026-08-28 10:09:22,Proposal
-ACME-D00480,ACME-L02328,Pope-Pugh,Lost,56000,2026-09-25,Referral,0.64,Acme MSP - Referral,Marcus Lee,2026-08-27 05:31:16,Contacted
-ACME-D00481,ACME-L02332,Mathis-Cross,Lost,15750,2026-09-06,Google Ads,0.634,Acme MSP - Inbound,Dana Whitfield,2026-08-26 21:33:57,Contacted
-ACME-D00482,ACME-L02333,Robles-Campbell,Lost,18700,2026-09-09,Google Ads,0.598,Acme MSP - Inbound,Dana Whitfield,2026-08-28 04:08:48,Contacted
-ACME-D00483,ACME-L02335,Wells Inc,Lost,13150,2026-08-30,Referral,0.551,Acme MSP - Referral,Owen Brooks,2026-08-26 15:27:48,Contacted
-ACME-D00484,ACME-L02337,Ray and Sons,Lost,11900,2026-09-15,Call Tracking,0.571,Acme MSP - Inbound,Grace Kim,2026-08-28 05:45:58,Contacted
-ACME-D00485,ACME-L02344,Mcdonald-Thompson,Lost,9100,2026-09-07,Google Ads,0.568,Acme MSP - Inbound,Jordan Ellis,2026-08-26 16:13:08,Contacted
-ACME-D00486,ACME-L02345,Bright-Hoover,Lost,17700,2026-09-01,Call Tracking,0.619,Acme MSP - Inbound,Marcus Lee,2026-08-28 10:21:00,Contacted
-ACME-D00487,ACME-L02349,Hughes and Sons,Lost,17500,2026-09-04,Google Ads,0.563,Acme MSP - Inbound,Owen Brooks,2026-08-29 19:14:50,Contacted
-ACME-D00488,ACME-L02352,Huff LLC,Won,17150,2026-09-21,Referral,0.639,Acme MSP - Referral,Dana Whitfield,2026-08-28 12:41:35,Won
-ACME-D00489,ACME-L02354,Craig-Jensen,Lost,20850,2026-09-15,Referral,,Acme MSP - Referral,Jordan Ellis,2026-09-01 06:45:23,Contacted
+ACME-D00473,ACME-L02296,Anderson and Sons,Lost,15650,2026-08-27 00:00:00,Google Ads,0.597,Acme MSP - Inbound,Priya Raman,2026-08-24 15:26:57,New
+ACME-D00474,ACME-L02297,Brennan-Fisher,Lost,22500,2026-09-03 00:00:00,Referral,0.605,Acme MSP - Referral,Priya Raman,2026-08-24 00:13:20,Contacted
+ACME-D00475,ACME-L02299,Harris Group,Lost,19500,2026-09-10 00:00:00,Google Ads,0.525,Acme MSP - Inbound,Sofia Alvarez,2026-08-26 13:13:16,Contacted
+ACME-D00476,ACME-L02303,Watson-Smith,Lost,14250,2026-08-30 00:00:00,Google Ads,0.611,Acme MSP - Inbound,Dana Whitfield,2026-08-26 03:39:16,Contacted
+ACME-D00477,ACME-L02313,Miles Ltd,Lost,16550,2026-09-08 00:00:00,Call Tracking,0.551,Acme MSP - Inbound,Priya Raman,2026-08-29 12:02:09,Contacted
+ACME-D00478,ACME-L02315,Fox-Barrera,Lost,17950,2026-09-25 00:00:00,Outbound,0.593,Acme MSP - Outbound,Jordan Ellis,2026-08-25 16:02:47,Qualified
+ACME-D00479,ACME-L02320,Guzman Cooper and Wade,Lost,16600,2026-09-27 00:00:00,Referral,0.619,Acme MSP - Referral,Jordan Ellis,2026-08-28 10:09:22,Proposal
+ACME-D00480,ACME-L02328,Pope-Pugh,Lost,56000,2026-09-25 00:00:00,Referral,0.64,Acme MSP - Referral,Marcus Lee,2026-08-27 05:31:16,Contacted
+ACME-D00481,ACME-L02332,Mathis-Cross,Lost,15750,2026-09-06 00:00:00,Google Ads,0.634,Acme MSP - Inbound,Dana Whitfield,2026-08-26 21:33:57,Contacted
+ACME-D00482,ACME-L02333,Robles-Campbell,Lost,18700,2026-09-09 00:00:00,Google Ads,0.598,Acme MSP - Inbound,Dana Whitfield,2026-08-28 04:08:48,Contacted
+ACME-D00483,ACME-L02335,Wells Inc,Lost,13150,2026-08-30 00:00:00,Referral,0.551,Acme MSP - Referral,Owen Brooks,2026-08-26 15:27:48,Contacted
+ACME-D00484,ACME-L02337,Ray and Sons,Lost,11900,2026-09-15 00:00:00,Call Tracking,0.571,Acme MSP - Inbound,Grace Kim,2026-08-28 05:45:58,Contacted
+ACME-D00485,ACME-L02344,Mcdonald-Thompson,Lost,9100,2026-09-07 00:00:00,Google Ads,0.568,Acme MSP - Inbound,Jordan Ellis,2026-08-26 16:13:08,Contacted
+ACME-D00486,ACME-L02345,Bright-Hoover,Lost,17700,2026-09-01 00:00:00,Call Tracking,0.619,Acme MSP - Inbound,Marcus Lee,2026-08-28 10:21:00,Contacted
+ACME-D00487,ACME-L02349,Hughes and Sons,Lost,17500,2026-09-04 00:00:00,Google Ads,0.563,Acme MSP - Inbound,Owen Brooks,2026-08-29 19:14:50,Contacted
+ACME-D00488,ACME-L02352,Huff LLC,Won,17150,2026-09-21 00:00:00,Referral,0.639,Acme MSP - Referral,Dana Whitfield,2026-08-28 12:41:35,Won
+ACME-D00489,ACME-L02354,Craig-Jensen,Lost,20850,2026-09-15 00:00:00,Referral,,Acme MSP - Referral,Jordan Ellis,2026-09-01 06:45:23,Contacted
 ACME-D00490,ACME-L02359,Thomas PLC,Proposal,8800,,Google Ads,0.659,Acme MSP - Inbound,Dana Whitfield,2026-08-28 16:23:28,Proposal
-ACME-D00491,ACME-L02360,Cole LLC,Lost,14600,2026-09-03,Call Tracking,0.604,Acme MSP - Inbound,Priya Raman,2026-08-30 17:18:24,Contacted
+ACME-D00491,ACME-L02360,Cole LLC,Lost,14600,2026-09-03 00:00:00,Call Tracking,0.604,Acme MSP - Inbound,Priya Raman,2026-08-30 17:18:24,Contacted
 ACME-D00492,ACME-L02364,Perez LLC,Proposal,11400,,Google Ads,0.652,Acme MSP - Inbound,Priya Raman,2026-08-29 00:11:02,Proposal
 ACME-D00493,ACME-L02365,Thompson-Martinez,Proposal,10900,,Google Ads,0.52,Acme MSP - Inbound,Jordan Ellis,2026-08-29 08:59:13,Proposal
-ACME-D00494,ACME-L02368,Smith PLC,Lost,20450,2026-09-01,Meta Ads,0.54,Acme MSP - Inbound,Marcus Lee,2026-08-27 03:28:15,Contacted
-ACME-D00495,ACME-L02374,Jacobs LLC,Lost,17400,2026-09-14,Call Tracking,0.603,Acme MSP - Inbound,Grace Kim,2026-09-10 08:57:33,Contacted
-ACME-D00496,ACME-L02376,Hall Inc,Lost,12450,2026-09-29,Meta Ads,0.566,Acme MSP - Inbound,Dana Whitfield,2026-08-28 16:40:28,Qualified
+ACME-D00494,ACME-L02368,Smith PLC,Lost,20450,2026-09-01 00:00:00,Meta Ads,0.54,Acme MSP - Inbound,Marcus Lee,2026-08-27 03:28:15,Contacted
+ACME-D00495,ACME-L02374,Jacobs LLC,Lost,17400,2026-09-14 00:00:00,Call Tracking,0.603,Acme MSP - Inbound,Grace Kim,2026-09-10 08:57:33,Contacted
+ACME-D00496,ACME-L02376,Hall Inc,Lost,12450,2026-09-29 00:00:00,Meta Ads,0.566,Acme MSP - Inbound,Dana Whitfield,2026-08-28 16:40:28,Qualified
 ACME-D00497,ACME-L02383,Boyd-Brewer,Proposal,21800,,Outbound,0.594,Acme MSP - Outbound,Priya Raman,2026-08-28 06:55:29,Proposal
-ACME-D00498,ACME-L02392,Sloan LLC,Lost,21400,2026-09-04,Call Tracking,0.568,Acme MSP - Inbound,Marcus Lee,2026-08-30 21:35:10,New
-ACME-D00499,ACME-L02416,Tucker-Schaefer,Won,11650,2026-09-29,Referral,0.702,Acme MSP - Referral,Sofia Alvarez,2026-08-31 20:36:35,Won
-ACME-D00500,ACME-L02417,Weaver Inc,Lost,22100,2026-09-11,Outbound,0.631,Acme MSP - Outbound,Dana Whitfield,2026-08-31 10:25:13,Contacted
-ACME-D00501,ACME-L02419,Johnson-Malone,Lost,17450,2026-09-22,Google Ads,0.597,Acme MSP - Inbound,Owen Brooks,2026-09-01 02:03:56,Proposal
-ACME-D00502,ACME-L02430,Mercado Haynes and King,Lost,10650,2026-09-12,Google Ads,0.637,Acme MSP - Inbound,Marcus Lee,2026-09-01 07:00:28,Qualified
-ACME-D00503,ACME-L02431,James Marshall and Roberts,Lost,9600,2026-09-13,Referral,0.609,Acme MSP - Referral,Jordan Ellis,2026-09-02 19:50:17,Contacted
-ACME-D00504,ACME-L02433,Brown and Sons,Lost,16000,2026-09-11,Meta Ads,0.619,Acme MSP - Inbound,Dana Whitfield,2026-09-01 23:34:23,Contacted
-ACME-D00505,ACME-L02434,Lewis Brandt and Holt,Lost,18700,2026-09-25,Referral,0.624,Acme MSP - Referral,Owen Brooks,2026-09-04 05:43:04,Contacted
-ACME-D00506,ACME-L02436,Dunn Cook and Haas,Lost,13900,2026-09-06,Google Ads,0.623,Acme MSP - Inbound,Marcus Lee,2026-09-01 12:32:27,Contacted
-ACME-D00507,ACME-L02443,Neal-White,Lost,8300,2026-09-04,Google Ads,,Acme MSP - Inbound,Acme Round Robin,2026-09-01 10:54:58,Contacted
+ACME-D00498,ACME-L02392,Sloan LLC,Lost,21400,2026-09-04 00:00:00,Call Tracking,0.568,Acme MSP - Inbound,Marcus Lee,2026-08-30 21:35:10,New
+ACME-D00499,ACME-L02416,Tucker-Schaefer,Won,11650,2026-09-29 00:00:00,Referral,0.702,Acme MSP - Referral,Sofia Alvarez,2026-08-31 20:36:35,Won
+ACME-D00500,ACME-L02417,Weaver Inc,Lost,22100,2026-09-11 00:00:00,Outbound,0.631,Acme MSP - Outbound,Dana Whitfield,2026-08-31 10:25:13,Contacted
+ACME-D00501,ACME-L02419,Johnson-Malone,Lost,17450,2026-09-22 00:00:00,Google Ads,0.597,Acme MSP - Inbound,Owen Brooks,2026-09-01 02:03:56,Proposal
+ACME-D00502,ACME-L02430,Mercado Haynes and King,Lost,10650,2026-09-12 00:00:00,Google Ads,0.637,Acme MSP - Inbound,Marcus Lee,2026-09-01 07:00:28,Qualified
+ACME-D00503,ACME-L02431,James Marshall and Roberts,Lost,9600,2026-09-13 00:00:00,Referral,0.609,Acme MSP - Referral,Jordan Ellis,2026-09-02 19:50:17,Contacted
+ACME-D00504,ACME-L02433,Brown and Sons,Lost,16000,2026-09-11 00:00:00,Meta Ads,0.619,Acme MSP - Inbound,Dana Whitfield,2026-09-01 23:34:23,Contacted
+ACME-D00505,ACME-L02434,Lewis Brandt and Holt,Lost,18700,2026-09-25 00:00:00,Referral,0.624,Acme MSP - Referral,Owen Brooks,2026-09-04 05:43:04,Contacted
+ACME-D00506,ACME-L02436,Dunn Cook and Haas,Lost,13900,2026-09-06 00:00:00,Google Ads,0.623,Acme MSP - Inbound,Marcus Lee,2026-09-01 12:32:27,Contacted
+ACME-D00507,ACME-L02443,Neal-White,Lost,8300,2026-09-04 00:00:00,Google Ads,,Acme MSP - Inbound,Acme Round Robin,2026-09-01 10:54:58,Contacted
 ACME-D00508,ACME-L02455,Brown-Houston,Qualified,14700,,Google Ads,0.537,Acme MSP - Inbound,Grace Kim,2026-09-02 16:46:45,Qualified
 ACME-D00509,ACME-L02463,Berry-Wagner,Proposal,12200,,Referral,0.644,Acme MSP - Referral,Dana Whitfield,2026-09-02 17:28:49,Proposal
-ACME-D00510,ACME-L02469,Brown LLC,Lost,9650,2026-09-19,Google Ads,0.598,Acme MSP - Inbound,Sofia Alvarez,2026-09-05 08:52:55,Contacted
+ACME-D00510,ACME-L02469,Brown LLC,Lost,9650,2026-09-19 00:00:00,Google Ads,0.598,Acme MSP - Inbound,Sofia Alvarez,2026-09-05 08:52:55,Contacted
 ACME-D00511,ACME-L02472,Bullock Brown and Martin,Proposal,15550,,Google Ads,0.616,Acme MSP - Inbound,Priya Raman,2026-09-05 15:37:08,Proposal
-ACME-D00512,ACME-L02473,Miller-Mayer,Lost,21200,2026-09-22,Google Ads,0.582,Acme MSP - Inbound,Marcus Lee,2026-09-09 00:12:05,Contacted
-ACME-D00513,ACME-L02477,Martin and Sons,Lost,25700,2026-09-11,Call Tracking,0.557,Acme MSP - Inbound,Jordan Ellis,2026-09-03 18:19:23,Contacted
-ACME-D00514,ACME-L02479,Jimenez-Porter,Lost,9850,2026-09-19,Google Ads,,Acme MSP - Inbound,Priya Raman,2026-09-06 16:29:55,Contacted
+ACME-D00512,ACME-L02473,Miller-Mayer,Lost,21200,2026-09-22 00:00:00,Google Ads,0.582,Acme MSP - Inbound,Marcus Lee,2026-09-09 00:12:05,Contacted
+ACME-D00513,ACME-L02477,Martin and Sons,Lost,25700,2026-09-11 00:00:00,Call Tracking,0.557,Acme MSP - Inbound,Jordan Ellis,2026-09-03 18:19:23,Contacted
+ACME-D00514,ACME-L02479,Jimenez-Porter,Lost,9850,2026-09-19 00:00:00,Google Ads,,Acme MSP - Inbound,Priya Raman,2026-09-06 16:29:55,Contacted
 ACME-D00515,ACME-L02480,Scott Espinoza and Nelson,Proposal,10950,,Google Ads,0.624,Acme MSP - Inbound,Jordan Ellis,2026-09-04 13:12:13,Proposal
-ACME-D00516,ACME-L02483,Wright LLC,Lost,9500,2026-09-14,Google Ads,0.574,Acme MSP - Inbound,Dana Whitfield,2026-09-03 18:33:51,Contacted
-ACME-D00517,ACME-L02486,Williams Group,Lost,17750,2026-09-29,Call Tracking,0.598,Acme MSP - Inbound,Priya Raman,2026-09-04 13:23:09,Contacted
-ACME-D00518,ACME-L02487,Koch-Castro,Lost,13400,2026-09-18,Referral,0.656,Acme MSP - Referral,Sofia Alvarez,2026-09-05 10:02:05,Contacted
-ACME-D00519,ACME-L02492,Duran Smith and Palmer,Lost,9150,2026-09-07,Referral,0.631,Acme MSP - Referral,Dana Whitfield,2026-09-04 04:17:15,Contacted
-ACME-D00520,ACME-L02495,Chaney Ltd,Lost,27650,2026-09-18,Referral,0.64,Acme MSP - Referral,Dana Whitfield,2026-09-12 08:50:01,Contacted
-ACME-D00521,ACME-L02513,Reed Carlson and Ryan,Lost,10500,2026-09-24,Google Ads,0.598,Acme MSP - Inbound,Owen Brooks,2026-09-06 16:15:25,Contacted
-ACME-D00522,ACME-L02517,Kelly Group,Lost,25450,2026-09-23,Referral,0.626,Acme MSP - Referral,Acme Round Robin,2026-09-07 00:27:47,Contacted
+ACME-D00516,ACME-L02483,Wright LLC,Lost,9500,2026-09-14 00:00:00,Google Ads,0.574,Acme MSP - Inbound,Dana Whitfield,2026-09-03 18:33:51,Contacted
+ACME-D00517,ACME-L02486,Williams Group,Lost,17750,2026-09-29 00:00:00,Call Tracking,0.598,Acme MSP - Inbound,Priya Raman,2026-09-04 13:23:09,Contacted
+ACME-D00518,ACME-L02487,Koch-Castro,Lost,13400,2026-09-18 00:00:00,Referral,0.656,Acme MSP - Referral,Sofia Alvarez,2026-09-05 10:02:05,Contacted
+ACME-D00519,ACME-L02492,Duran Smith and Palmer,Lost,9150,2026-09-07 00:00:00,Referral,0.631,Acme MSP - Referral,Dana Whitfield,2026-09-04 04:17:15,Contacted
+ACME-D00520,ACME-L02495,Chaney Ltd,Lost,27650,2026-09-18 00:00:00,Referral,0.64,Acme MSP - Referral,Dana Whitfield,2026-09-12 08:50:01,Contacted
+ACME-D00521,ACME-L02513,Reed Carlson and Ryan,Lost,10500,2026-09-24 00:00:00,Google Ads,0.598,Acme MSP - Inbound,Owen Brooks,2026-09-06 16:15:25,Contacted
+ACME-D00522,ACME-L02517,Kelly Group,Lost,25450,2026-09-23 00:00:00,Referral,0.626,Acme MSP - Referral,Acme Round Robin,2026-09-07 00:27:47,Contacted
 ACME-D00523,ACME-L02520,Chavez Torres and Ruiz,Contacted,22900,,Referral,0.566,Acme MSP - Referral,Priya Raman,2026-09-05 06:37:09,Contacted
-ACME-D00524,ACME-L02527,Mcclure-Wolf,Lost,16900,2026-09-19,Referral,0.615,Acme MSP - Referral,Priya Raman,2026-09-07 05:00:48,Contacted
-ACME-D00525,ACME-L02534,Quinn Rivera and Mcknight,Lost,20350,2026-09-27,Referral,0.625,Acme MSP - Referral,Marcus Lee,2026-09-11 17:37:23,Contacted
-ACME-D00526,ACME-L02537,Massey-Lee,Lost,13600,2026-09-13,Call Tracking,0.612,Acme MSP - Inbound,Priya Raman,2026-09-07 19:12:42,Contacted
-ACME-D00527,ACME-L02550,Andrews-Peterson,Lost,16750,2026-09-30,Referral,0.64,Acme MSP - Referral,Jordan Ellis,2026-09-12 02:46:30,Qualified
+ACME-D00524,ACME-L02527,Mcclure-Wolf,Lost,16900,2026-09-19 00:00:00,Referral,0.615,Acme MSP - Referral,Priya Raman,2026-09-07 05:00:48,Contacted
+ACME-D00525,ACME-L02534,Quinn Rivera and Mcknight,Lost,20350,2026-09-27 00:00:00,Referral,0.625,Acme MSP - Referral,Marcus Lee,2026-09-11 17:37:23,Contacted
+ACME-D00526,ACME-L02537,Massey-Lee,Lost,13600,2026-09-13 00:00:00,Call Tracking,0.612,Acme MSP - Inbound,Priya Raman,2026-09-07 19:12:42,Contacted
+ACME-D00527,ACME-L02550,Andrews-Peterson,Lost,16750,2026-09-30 00:00:00,Referral,0.64,Acme MSP - Referral,Jordan Ellis,2026-09-12 02:46:30,Qualified
 ACME-D00528,ACME-L02553,Hill-Evans,Qualified,28650,,Google Ads,0.584,Acme MSP - Inbound,Dana Whitfield,2026-09-08 18:02:51,Qualified
 ACME-D00529,ACME-L02557,Chambers Group,Qualified,9250,,Meta Ads,0.589,Acme MSP - Inbound,Priya Raman,2026-09-09 06:22:22,Qualified
-ACME-D00530,ACME-L02566,Tucker Crawford and Horton,Lost,9850,2026-09-30,Google Ads,0.631,Acme MSP - Inbound,Owen Brooks,2026-09-11 07:07:40,Contacted
-ACME-D00531,ACME-L02573,Richardson and Sons,Lost,17600,2026-09-20,Google Ads,0.579,Acme MSP - Inbound,Jordan Ellis,2026-09-14 09:43:29,Contacted
+ACME-D00530,ACME-L02566,Tucker Crawford and Horton,Lost,9850,2026-09-30 00:00:00,Google Ads,0.631,Acme MSP - Inbound,Owen Brooks,2026-09-11 07:07:40,Contacted
+ACME-D00531,ACME-L02573,Richardson and Sons,Lost,17600,2026-09-20 00:00:00,Google Ads,0.579,Acme MSP - Inbound,Jordan Ellis,2026-09-14 09:43:29,Contacted
 ACME-D00532,ACME-L02579,Callahan Brown and Warren,Qualified,14050,,Google Ads,0.564,Acme MSP - Inbound,Sofia Alvarez,2026-09-14 13:38:01,Qualified
-ACME-D00533,ACME-L02580,Garcia Shaw and Lopez,Lost,13050,2026-09-22,Outbound,0.643,Acme MSP - Outbound,Sofia Alvarez,2026-09-12 23:50:11,Contacted
-ACME-D00534,ACME-L02598,Bailey Inc,Lost,8550,2026-09-30,Call Tracking,0.594,Acme MSP - Inbound,Dana Whitfield,2026-09-12 14:06:37,Contacted
+ACME-D00533,ACME-L02580,Garcia Shaw and Lopez,Lost,13050,2026-09-22 00:00:00,Outbound,0.643,Acme MSP - Outbound,Sofia Alvarez,2026-09-12 23:50:11,Contacted
+ACME-D00534,ACME-L02598,Bailey Inc,Lost,8550,2026-09-30 00:00:00,Call Tracking,0.594,Acme MSP - Inbound,Dana Whitfield,2026-09-12 14:06:37,Contacted
 ACME-D00535,ACME-L02599,Miller Green and Wilkins,Qualified,13250,,Google Ads,0.617,Acme MSP - Inbound,Priya Raman,2026-09-10 01:06:04,Qualified
-ACME-D00536,ACME-L02600,Riley Sawyer and Charles,Lost,25050,2026-09-20,Call Tracking,0.544,Acme MSP - Inbound,Dana Whitfield,2026-09-14 03:01:17,Contacted
-ACME-D00537,ACME-L02606,Roach and Sons,Lost,18550,2026-09-29,Outbound,0.6,Acme MSP - Outbound,Sofia Alvarez,2026-09-12 02:14:22,Contacted
-ACME-D00538,ACME-L02613,Reid Perez and Robinson,Lost,9400,2026-09-19,Referral,0.629,Acme MSP - Referral,Dana Whitfield,2026-09-10 09:41:40,Contacted
-ACME-D00539,ACME-L02617,Vaughan-Vega,Lost,10250,2026-09-28,Referral,0.606,Acme MSP - Referral,Jordan Ellis,2026-09-17 18:59:19,Contacted
-ACME-D00540,ACME-L02622,Curry-Young,Lost,11500,2026-09-21,Referral,0.609,Acme MSP - Referral,Grace Kim,2026-09-11 21:35:44,Contacted
-ACME-D00541,ACME-L02623,Riddle PLC,Lost,16000,2026-09-20,Outbound,0.558,Acme MSP - Outbound,Sofia Alvarez,2026-09-11 09:29:31,Contacted
+ACME-D00536,ACME-L02600,Riley Sawyer and Charles,Lost,25050,2026-09-20 00:00:00,Call Tracking,0.544,Acme MSP - Inbound,Dana Whitfield,2026-09-14 03:01:17,Contacted
+ACME-D00537,ACME-L02606,Roach and Sons,Lost,18550,2026-09-29 00:00:00,Outbound,0.6,Acme MSP - Outbound,Sofia Alvarez,2026-09-12 02:14:22,Contacted
+ACME-D00538,ACME-L02613,Reid Perez and Robinson,Lost,9400,2026-09-19 00:00:00,Referral,0.629,Acme MSP - Referral,Dana Whitfield,2026-09-10 09:41:40,Contacted
+ACME-D00539,ACME-L02617,Vaughan-Vega,Lost,10250,2026-09-28 00:00:00,Referral,0.606,Acme MSP - Referral,Jordan Ellis,2026-09-17 18:59:19,Contacted
+ACME-D00540,ACME-L02622,Curry-Young,Lost,11500,2026-09-21 00:00:00,Referral,0.609,Acme MSP - Referral,Grace Kim,2026-09-11 21:35:44,Contacted
+ACME-D00541,ACME-L02623,Riddle PLC,Lost,16000,2026-09-20 00:00:00,Outbound,0.558,Acme MSP - Outbound,Sofia Alvarez,2026-09-11 09:29:31,Contacted
 ACME-D00542,ACME-L02625,Wells-Turner,Qualified,13250,,Meta Ads,0.626,Acme MSP - Inbound,Jordan Ellis,2026-09-16 09:40:06,Qualified
 ACME-D00543,ACME-L02637,Russell-Brown,Contacted,7650,,Call Tracking,0.633,Acme MSP - Inbound,Owen Brooks,2026-09-19 22:52:13,Contacted
-ACME-D00544,ACME-L02646,Jimenez PLC,Lost,14350,2026-09-16,Google Ads,0.578,Acme MSP - Inbound,Grace Kim,2026-09-12 08:21:06,New
+ACME-D00544,ACME-L02646,Jimenez PLC,Lost,14350,2026-09-16 00:00:00,Google Ads,0.578,Acme MSP - Inbound,Grace Kim,2026-09-12 08:21:06,New
 ACME-D00545,ACME-L02648,Smith Inc,Contacted,18350,,Referral,0.651,Acme MSP - Referral,Sofia Alvarez,2026-09-11 23:32:11,Contacted
-ACME-D00546,ACME-L02649,Robertson-Garza,Lost,15800,2026-09-22,Referral,,Acme MSP - Referral,Sofia Alvarez,2026-09-16 19:36:59,Contacted
-ACME-D00547,ACME-L02651,Mcintyre-Allen,Lost,11150,2026-09-23,Google Ads,0.572,Acme MSP - Inbound,Acme Round Robin,2026-09-13 21:24:29,Contacted
-ACME-D00548,ACME-L02652,Wright Ltd,Lost,9200,2026-09-28,Google Ads,0.608,Acme MSP - Inbound,Sofia Alvarez,2026-09-16 21:05:11,Contacted
+ACME-D00546,ACME-L02649,Robertson-Garza,Lost,15800,2026-09-22 00:00:00,Referral,,Acme MSP - Referral,Sofia Alvarez,2026-09-16 19:36:59,Contacted
+ACME-D00547,ACME-L02651,Mcintyre-Allen,Lost,11150,2026-09-23 00:00:00,Google Ads,0.572,Acme MSP - Inbound,Acme Round Robin,2026-09-13 21:24:29,Contacted
+ACME-D00548,ACME-L02652,Wright Ltd,Lost,9200,2026-09-28 00:00:00,Google Ads,0.608,Acme MSP - Inbound,Sofia Alvarez,2026-09-16 21:05:11,Contacted
 ACME-D00549,ACME-L02654,Spence-Sharp,Qualified,13800,,Referral,0.632,Acme MSP - Referral,Grace Kim,2026-09-14 19:18:53,Qualified
 ACME-D00550,ACME-L02655,Mercado PLC,Qualified,5600,,Google Ads,0.63,Acme MSP - Inbound,Sofia Alvarez,2026-09-16 04:59:21,Qualified
 ACME-D00551,ACME-L02656,Hernandez Edwards and Harrison,Qualified,6300,,Google Ads,0.654,Acme MSP - Inbound,Owen Brooks,2026-09-13 19:37:24,Qualified
 ACME-D00552,ACME-L02658,Hernandez-Clarke,Contacted,14800,,Google Ads,0.631,Acme MSP - Inbound,Sofia Alvarez,2026-09-15 07:55:21,Contacted
 ACME-D00553,ACME-L02659,Mcdaniel Group,Qualified,9500,,Google Ads,0.583,Acme MSP - Inbound,Marcus Lee,2026-09-14 01:33:03,Qualified
 ACME-D00554,ACME-L02660,Jones Garcia and Robinson,Qualified,18450,,Call Tracking,0.566,Acme MSP - Inbound,Dana Whitfield,2026-09-13 23:22:01,Qualified
-ACME-D00555,ACME-L02661,Thomas-Moore,Lost,10550,2026-09-20,Google Ads,0.58,Acme MSP - Inbound,Jordan Ellis,2026-09-16 14:24:09,New
-ACME-D00556,ACME-L02663,Lloyd Group,Lost,18550,2026-09-17,Meta Ads,0.657,Acme MSP - Inbound,Dana Whitfield,2026-09-14 14:40:42,New
+ACME-D00555,ACME-L02661,Thomas-Moore,Lost,10550,2026-09-20 00:00:00,Google Ads,0.58,Acme MSP - Inbound,Jordan Ellis,2026-09-16 14:24:09,New
+ACME-D00556,ACME-L02663,Lloyd Group,Lost,18550,2026-09-17 00:00:00,Meta Ads,0.657,Acme MSP - Inbound,Dana Whitfield,2026-09-14 14:40:42,New
 ACME-D00557,ACME-L02664,Sullivan PLC,Contacted,13300,,Referral,0.622,Acme MSP - Referral,Sofia Alvarez,2026-09-18 01:47:35,Contacted
 ACME-D00558,ACME-L02671,Perry-Williams,Qualified,10000,,Referral,0.637,Acme MSP - Referral,Marcus Lee,2026-09-15 08:27:47,Qualified
-ACME-D00559,ACME-L02674,Crawford-Hawkins,Lost,8200,2026-09-22,Meta Ads,0.549,Acme MSP - Inbound,Dana Whitfield,2026-09-16 07:53:42,New
-ACME-D00560,ACME-L02679,Huynh Cochran and Graham,Lost,14450,2026-09-28,Google Ads,0.588,Acme MSP - Inbound,Sofia Alvarez,2026-09-16 17:24:54,Contacted
-ACME-D00561,ACME-L02683,Cooper Ltd,Lost,8300,2026-09-26,Referral,0.598,Acme MSP - Referral,Jordan Ellis,2026-09-16 18:51:46,Contacted
-ACME-D00562,ACME-L02687,Taylor LLC,Lost,12800,2026-09-29,Referral,0.711,Acme MSP - Referral,Jordan Ellis,2026-09-19 15:57:53,Contacted
+ACME-D00559,ACME-L02674,Crawford-Hawkins,Lost,8200,2026-09-22 00:00:00,Meta Ads,0.549,Acme MSP - Inbound,Dana Whitfield,2026-09-16 07:53:42,New
+ACME-D00560,ACME-L02679,Huynh Cochran and Graham,Lost,14450,2026-09-28 00:00:00,Google Ads,0.588,Acme MSP - Inbound,Sofia Alvarez,2026-09-16 17:24:54,Contacted
+ACME-D00561,ACME-L02683,Cooper Ltd,Lost,8300,2026-09-26 00:00:00,Referral,0.598,Acme MSP - Referral,Jordan Ellis,2026-09-16 18:51:46,Contacted
+ACME-D00562,ACME-L02687,Taylor LLC,Lost,12800,2026-09-29 00:00:00,Referral,0.711,Acme MSP - Referral,Jordan Ellis,2026-09-19 15:57:53,Contacted
 ACME-D00563,ACME-L02692,Martin and Sons,Qualified,11100,,Google Ads,0.635,Acme MSP - Inbound,Jordan Ellis,2026-09-18 12:16:48,Qualified
 ACME-D00564,ACME-L02704,Richardson-Morgan,Contacted,12050,,Google Ads,0.579,Acme MSP - Inbound,Acme Round Robin,2026-09-18 22:17:58,Contacted
-ACME-D00565,ACME-L02708,Davis LLC,Lost,15800,2026-09-23,Google Ads,0.615,Acme MSP - Inbound,Dana Whitfield,2026-09-21 18:00:28,Contacted
-ACME-D00566,ACME-L02709,Moore-Simpson,Lost,12900,2026-09-23,Google Ads,0.619,Acme MSP - Inbound,Dana Whitfield,2026-09-17 16:00:42,Contacted
+ACME-D00565,ACME-L02708,Davis LLC,Lost,15800,2026-09-23 00:00:00,Google Ads,0.615,Acme MSP - Inbound,Dana Whitfield,2026-09-21 18:00:28,Contacted
+ACME-D00566,ACME-L02709,Moore-Simpson,Lost,12900,2026-09-23 00:00:00,Google Ads,0.619,Acme MSP - Inbound,Dana Whitfield,2026-09-17 16:00:42,Contacted
 ACME-D00567,ACME-L02711,Ray LLC,Contacted,21450,,Google Ads,0.544,Acme MSP - Inbound,Priya Raman,2026-09-20 04:39:36,Contacted
-ACME-D00568,ACME-L02713,Alexander Jenkins and James,Lost,18250,2026-09-25,Outbound,0.574,Acme MSP - Outbound,Marcus Lee,2026-09-17 12:37:13,Contacted
-ACME-D00569,ACME-L02715,Jones Ltd,Lost,6700,2026-09-23,Referral,0.644,Acme MSP - Referral,Marcus Lee,2026-09-16 21:05:52,Contacted
-ACME-D00570,ACME-L02717,Burke Harris and Mathews,Lost,12850,2026-09-21,Referral,0.587,Acme MSP - Referral,Dana Whitfield,2026-09-17 03:23:15,Contacted
+ACME-D00568,ACME-L02713,Alexander Jenkins and James,Lost,18250,2026-09-25 00:00:00,Outbound,0.574,Acme MSP - Outbound,Marcus Lee,2026-09-17 12:37:13,Contacted
+ACME-D00569,ACME-L02715,Jones Ltd,Lost,6700,2026-09-23 00:00:00,Referral,0.644,Acme MSP - Referral,Marcus Lee,2026-09-16 21:05:52,Contacted
+ACME-D00570,ACME-L02717,Burke Harris and Mathews,Lost,12850,2026-09-21 00:00:00,Referral,0.587,Acme MSP - Referral,Dana Whitfield,2026-09-17 03:23:15,Contacted
 ACME-D00571,ACME-L02719,Hensley LLC,Contacted,26400,,Referral,0.691,Acme MSP - Referral,Marcus Lee,2026-09-18 04:57:35,Contacted
 ACME-D00572,ACME-L02721,Taylor-Cameron,Qualified,11350,,Google Ads,0.54,Acme MSP - Inbound,Dana Whitfield,2026-09-17 16:48:24,Qualified
-ACME-D00573,ACME-L02735,Thornton Galvan and Frye,Lost,11900,2026-09-26,Call Tracking,0.569,Acme MSP - Inbound,Marcus Lee,2026-09-18 16:59:32,Contacted
+ACME-D00573,ACME-L02735,Thornton Galvan and Frye,Lost,11900,2026-09-26 00:00:00,Call Tracking,0.569,Acme MSP - Inbound,Marcus Lee,2026-09-18 16:59:32,Contacted
 ACME-D00574,ACME-L02737,Shaw PLC,Contacted,8900,,Google Ads,0.587,Acme MSP - Inbound,Owen Brooks,2026-09-19 02:43:27,Contacted
-ACME-D00575,ACME-L02740,Floyd Chavez and Mann,Lost,17350,2026-09-29,Google Ads,0.547,Acme MSP - Inbound,Grace Kim,2026-09-18 15:25:34,Contacted
+ACME-D00575,ACME-L02740,Floyd Chavez and Mann,Lost,17350,2026-09-29 00:00:00,Google Ads,0.547,Acme MSP - Inbound,Grace Kim,2026-09-18 15:25:34,Contacted
 ACME-D00576,ACME-L02741,Silva-Cruz,Contacted,12500,,Referral,0.68,Acme MSP - Referral,Marcus Lee,2026-09-24 07:23:41,Contacted
 ACME-D00577,ACME-L02752,Jackson Group,Contacted,21150,,Google Ads,0.609,Acme MSP - Inbound,Marcus Lee,2026-09-18 22:15:53,Contacted
 ACME-D00578,ACME-L02759,Bowman Inc,Contacted,14350,,Google Ads,0.521,Acme MSP - Inbound,Dana Whitfield,2026-09-21 01:02:01,Contacted
@@ -582,7 +582,7 @@ ACME-D00580,ACME-L02767,Jenkins PLC,Contacted,26050,,Call Tracking,0.637,Acme MS
 ACME-D00581,ACME-L02772,Jones LLC,Qualified,18300,,Google Ads,0.628,Acme MSP - Inbound,Jordan Ellis,2026-09-21 14:55:51,Qualified
 ACME-D00582,ACME-L02774,Burke-Hale,Contacted,24250,,Call Tracking,0.553,Acme MSP - Inbound,Sofia Alvarez,2026-09-28 02:25:16,Contacted
 ACME-D00583,ACME-L02775,Bush Mejia and Green,Contacted,18900,,Google Ads,0.566,Acme MSP - Inbound,Jordan Ellis,2026-09-22 03:09:28,Contacted
-ACME-D00584,ACME-L02784,Miller Ltd,Lost,14400,2026-09-29,Referral,0.651,Acme MSP - Referral,Priya Raman,2026-09-19 13:32:21,Contacted
+ACME-D00584,ACME-L02784,Miller Ltd,Lost,14400,2026-09-29 00:00:00,Referral,0.651,Acme MSP - Referral,Priya Raman,2026-09-19 13:32:21,Contacted
 ACME-D00585,ACME-L02790,Blake Booth and Silva,New,9800,,Referral,0.499,Acme MSP - Referral,Marcus Lee,2026-09-22 05:48:44,New
 ACME-D00586,ACME-L02791,Mason Group,Contacted,6800,,Google Ads,0.614,Acme MSP - Inbound,Dana Whitfield,2026-09-20 15:32:03,Contacted
 ACME-D00587,ACME-L02792,Jenkins-Mccarthy,Contacted,7300,,Outbound,0.589,Acme MSP - Outbound,Dana Whitfield,2026-09-20 12:36:39,Contacted

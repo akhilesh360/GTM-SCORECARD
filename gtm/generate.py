@@ -363,15 +363,75 @@ def _fmt(df):
     return out
 
 
+STATE_NAME = {"NY": "New York", "NJ": "New Jersey", "MA": "Massachusetts", "TX": "Texas", "CA": "California",
+              "IL": "Illinois", "FL": "Florida", "AZ": "Arizona", "GA": "Georgia", "NC": "North Carolina"}
+
+
+def messify(frames, cfg, standard):
+    """Turn clean frames into realistic raw exports: inconsistent source names, mixed date and
+    money formats, percent-style margins, stage label drift, casing/whitespace noise and duplicate
+    leads. gtm/clean.py must undo all of it (tests/test_pipeline.py checks the round trip)."""
+    syn = cfg["synthetic"]
+    rate = syn.get("messy_rate", 0.2)
+    rng = random.Random(syn["seed"] + 1000)
+    aliases = {}
+    for alias, canon in standard["channel_aliases"].items():
+        if not alias.startswith("_") and alias != canon.lower():
+            aliases.setdefault(canon, []).append(alias)
+
+    def noisy_channel(c):
+        if rng.random() >= rate:
+            return c
+        a = rng.choice(aliases[c])
+        return rng.choice([a, a.title(), a.upper(), f" {a} ", a.capitalize()])
+
+    raw = {k: v.copy() for k, v in frames.items()}
+    L = raw["leads"]
+    L["lead_source"] = L.lead_source.map(noisy_channel)
+    L["utm_campaign"] = L.utm_campaign.map(lambda v: (f" {v.upper()}" if rng.random() < 0.5 else v.replace("_", " "))
+                                           if isinstance(v, str) and v and rng.random() < rate / 2 else v)
+    L["utm_source"] = L.utm_source.map(lambda v: v.title() + " " if isinstance(v, str) and v and rng.random() < rate / 2 else v)
+    L["email"] = L.email.map(lambda v: f"{v.upper()} " if rng.random() < rate / 3 else v)
+    L["territory"] = L.territory.map(lambda v: (STATE_NAME.get(v, v.lower()) if rng.random() < 0.5 else v.lower())
+                                     if isinstance(v, str) and v and rng.random() < rate / 2 else v)
+    L["created_date"] = L.created_date.map(lambda d: d.strftime("%m/%d/%Y %H:%M:%S") if rng.random() < rate / 2 else d)
+    dupes = L.sample(frac=0.02, random_state=syn["seed"]).copy()
+    prefix = cfg["slug"].split("_")[0].upper()[:4]
+    dupes["lead_id"] = [f"{prefix}-L9{i:04d}" for i in range(len(dupes))]
+    dupes["email"] = dupes.email.str.strip().str.title()
+    dupes["created_date"] = [pd.to_datetime(d, format="mixed") + timedelta(minutes=rng.randint(5, 4000)) for d in dupes.created_date]
+    raw["leads"] = pd.concat([L, dupes], ignore_index=True)
+
+    D = raw["deals"]
+    D["lead_source"] = D.lead_source.map(noisy_channel)
+    stage_alias = {"Won": ["Closed Won", "closedwon", "won"], "Lost": ["Closed Lost", "closedlost", "LOST"],
+                   "Proposal": ["Proposal Sent", "proposal"], "Qualified": ["SQL", "qualified"], "New": ["new"], "Contacted": ["contacted"]}
+    D["stage"] = D.stage.map(lambda s: rng.choice(stage_alias[s]) if rng.random() < rate else s)
+    D["amount"] = D.amount.map(lambda a: f"${a:,.0f}" if rng.random() < rate / 2 else a)
+    D["gross_margin"] = D.gross_margin.map(lambda g: g if pd.isna(g) else
+                                           (f"{g * 100:.1f}%" if (u := rng.random()) < rate / 2 else round(g * 100, 1) if u < rate else g))
+
+    S = raw["spend"]
+    export_names = {c: rng.choice(aliases[c]).title() for c in S.channel.unique()}
+    S["channel"] = S.channel.map(export_names)          # one consistent "export name" per company
+    S["spend"] = S.spend.map(lambda v: f"${v:,.2f}")
+    for t, col in (("touchpoints", "channel"), ("call_tracking", "channel")):
+        raw[t][col] = raw[t][col].map(noisy_channel)
+    A = raw["activities"]
+    A["type"] = A.type.map(lambda v: rng.choice([v.title(), v.upper()]) if rng.random() < rate / 2 else v)
+    return raw
+
+
 def main():
     standard = load_standard()
     for cfg in load_companies():
         frames = generate_company(cfg, standard)
-        out = DATA_DIR / cfg["slug"]
+        raw = messify(frames, cfg, standard)
+        out = DATA_DIR / cfg["slug"] / "raw"
         out.mkdir(parents=True, exist_ok=True)
-        for name, df in frames.items():
+        for name, df in raw.items():
             _fmt(df).to_csv(out / f"{name}.csv", index=False)
-        print(f"{cfg['name']}: " + ", ".join(f"{k}={len(v)}" for k, v in frames.items()))
+        print(f"{cfg['name']} (raw): " + ", ".join(f"{k}={len(v)}" for k, v in raw.items()))
 
 
 if __name__ == "__main__":

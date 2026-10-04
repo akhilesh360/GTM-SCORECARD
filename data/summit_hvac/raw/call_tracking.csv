@@ -1,0 +1,1043 @@
+call_id,lead_id,source,duration,outcome,revenue_influenced,call_datetime,channel
+SUMM-C00001,SUMM-L00010,Local Services Ads,185,answered_info,0,2026-04-01 16:25:50,PHONE
+SUMM-C00002,SUMM-L00018,Local Services Ads,0,missed,0,2026-04-02 14:07:03,Call Tracking
+SUMM-C00003,SUMM-L00024,Local Services Ads,355,answered_info,0,2026-04-03 02:47:49,Call Tracking
+SUMM-C00004,SUMM-L00026,Google Business Profile,271,answered_info,0,2026-04-03 05:28:56,Call Tracking
+SUMM-C00005,SUMM-L00019,Google Ads Call Extension,435,answered_booked,0,2026-04-03 18:27:20,google ads search
+SUMM-C00006,SUMM-L00022,Google Ads Call Extension,0,missed,0,2026-04-03 21:15:26,Google Ads
+SUMM-C00007,SUMM-L00033,Local Services Ads,63,answered_info,0,2026-04-04 04:31:12,Call Tracking
+SUMM-C00008,SUMM-L00039,Local Services Ads,0,missed,0,2026-04-04 17:36:00,Inbound call
+SUMM-C00009,SUMM-L00041,Local Services Ads,64,voicemail,0,2026-04-05 06:57:01,Local Services Ads
+SUMM-C00010,SUMM-L00014,Outbound Callback Number,757,answered_booked,0,2026-04-06 01:39:53,Outbound
+SUMM-C00011,SUMM-L00044,Google Business Profile,862,answered_booked,3750,2026-04-06 03:50:57,Call Tracking
+SUMM-C00012,SUMM-L00029,Google Business Profile,46,voicemail,0,2026-04-06 03:56:32,Call Tracking
+SUMM-C00013,SUMM-L00059,Local Services Ads,0,missed,0,2026-04-08 08:00:57,Inbound Call
+SUMM-C00014,SUMM-L00062,Local Services Ads,121,answered_info,0,2026-04-08 09:19:11,Call Tracking
+SUMM-C00015,SUMM-L00064,Local Services Ads,84,answered_info,0,2026-04-08 10:39:38,Call Tracking
+SUMM-C00016,SUMM-L00065,Google Business Profile,369,answered_info,3050,2026-04-08 14:18:37,Call Tracking
+SUMM-C00017,SUMM-L00073,Google Business Profile,0,missed,0,2026-04-09 08:57:12,Call Tracking
+SUMM-C00018,SUMM-L00073,Local Services Ads,51,answered_info,0,2026-04-09 09:03:36,inbound call
+SUMM-C00019,SUMM-L00075,Google Business Profile,210,answered_info,0,2026-04-09 11:00:45,phone
+SUMM-C00020,SUMM-L00080,Local Services Ads,0,missed,0,2026-04-10 08:26:44,Call Tracking
+SUMM-C00021,SUMM-L00082,Local Services Ads,63,answered_info,0,2026-04-10 11:22:24,Call Tracking
+SUMM-C00022,SUMM-L00015,Outbound Callback Number,0,missed,0,2026-04-10 17:32:08,Outbound
+SUMM-C00023,SUMM-L00082,Local Services Ads,0,missed,0,2026-04-12 00:44:42,Call Tracking
+SUMM-C00024,SUMM-L00094,Google Business Profile,400,answered_info,0,2026-04-12 00:55:29,Local services ads
+SUMM-C00025,SUMM-L00095,Google Business Profile,0,missed,0,2026-04-12 06:31:48,Call Tracking
+SUMM-C00026,SUMM-L00088,Outbound Callback Number,226,answered_info,0,2026-04-12 06:48:47,Outbound
+SUMM-C00027,SUMM-L00095,Local Services Ads,0,missed,0,2026-04-12 08:38:26,Call Tracking
+SUMM-C00028,SUMM-L00099,Google Business Profile,70,answered_info,0,2026-04-13 03:25:30,Call Tracking
+SUMM-C00029,SUMM-L00106,Local Services Ads,207,answered_info,0,2026-04-13 14:14:59,Call Tracking
+SUMM-C00030,SUMM-L00109,Google Business Profile,257,answered_info,0,2026-04-13 16:52:56, callrail 
+SUMM-C00031,SUMM-L00113,Local Services Ads,316,answered_info,0,2026-04-14 09:27:58,Call Tracking
+SUMM-C00032,SUMM-L00115,Google Business Profile,399,answered_info,0,2026-04-14 14:24:12,Call Tracking
+SUMM-C00033,SUMM-L00093,Google Ads Call Extension,0,missed,0,2026-04-14 20:12:44,Google Ads
+SUMM-C00034,SUMM-L00120,Local Services Ads,0,missed,0,2026-04-15 02:20:06,Call Tracking
+SUMM-C00035,SUMM-L00095,Local Services Ads,0,missed,0,2026-04-15 19:32:13,Call Tracking
+SUMM-C00036,SUMM-L00135,Local Services Ads,0,missed,0,2026-04-16 17:26:33,Call Tracking
+SUMM-C00037,SUMM-L00137,Google Business Profile,273,answered_info,0,2026-04-16 22:11:05,Call Tracking
+SUMM-C00038,SUMM-L00139,Google Business Profile,360,answered_info,0,2026-04-17 12:02:29,Call Tracking
+SUMM-C00039,SUMM-L00114,Google Business Profile,223,answered_info,0,2026-04-18 01:12:31,Call Tracking
+SUMM-C00040,SUMM-L00136,Referral Line,29,voicemail,0,2026-04-18 06:31:26,Referral
+SUMM-C00041,SUMM-L00141,Local Services Ads,66,voicemail,0,2026-04-18 11:00:40,Call Tracking
+SUMM-C00042,SUMM-L00142,Local Services Ads,373,answered_info,0,2026-04-18 14:55:01,Call Tracking
+SUMM-C00043,SUMM-L00145,Google Business Profile,40,voicemail,0,2026-04-18 20:42:51,Call Tracking
+SUMM-C00044,SUMM-L00148,Local Services Ads,189,answered_info,5250,2026-04-19 08:34:51,CALLRAIL
+SUMM-C00045,SUMM-L00131,Referral Line,273,answered_info,0,2026-04-19 08:36:54,Referral
+SUMM-C00046,SUMM-L00118,Outbound Callback Number,815,answered_booked,9450,2026-04-19 13:27:34,Outbound
+SUMM-C00047,SUMM-L00126,Local Services Ads,170,answered_info,0,2026-04-19 16:20:03,Local services ads
+SUMM-C00048,SUMM-L00153,Local Services Ads,623,answered_booked,2600,2026-04-19 17:58:17, phone 
+SUMM-C00049,SUMM-L00156,Google Business Profile,0,missed,0,2026-04-20 11:29:10,local services ads
+SUMM-C00050,SUMM-L00158,Local Services Ads,406,answered_info,0,2026-04-20 12:02:55,Call Tracking
+SUMM-C00051,SUMM-L00161,Local Services Ads,209,answered_info,0,2026-04-20 14:44:26,Call Tracking
+SUMM-C00052,SUMM-L00131,Referral Line,0,missed,0,2026-04-20 16:29:16,Referral
+SUMM-C00053,SUMM-L00139,Google Business Profile,0,missed,0,2026-04-20 19:08:37,callrail + lsa
+SUMM-C00054,SUMM-L00142,Google Business Profile,0,missed,0,2026-04-20 21:17:01,Local Services Ads
+SUMM-C00055,SUMM-L00166,Google Business Profile,308,answered_info,0,2026-04-21 00:15:50,Call Tracking
+SUMM-C00056,SUMM-L00153,Google Business Profile,199,answered_info,2600,2026-04-21 11:04:12,Call Tracking
+SUMM-C00057,SUMM-L00139,Local Services Ads,0,missed,0,2026-04-21 12:26:55,Call Tracking
+SUMM-C00058,SUMM-L00087,Local Services Ads,0,missed,0,2026-04-21 14:58:30,CALLRAIL + LSA
+SUMM-C00059,SUMM-L00110,Local Services Ads,0,missed,0,2026-04-21 21:22:11,phone
+SUMM-C00060,SUMM-L00174,Google Business Profile,256,answered_info,0,2026-04-22 05:03:05,callrail
+SUMM-C00061,SUMM-L00175,Google Business Profile,177,answered_info,0,2026-04-22 08:47:10,Call Tracking
+SUMM-C00062,SUMM-L00162,Local Services Ads,75,voicemail,0,2026-04-22 11:23:52, phone 
+SUMM-C00063,SUMM-L00039,Local Services Ads,31,voicemail,0,2026-04-22 12:54:46,Call Tracking
+SUMM-C00064,SUMM-L00155,Google Ads Call Extension,0,missed,0,2026-04-23 12:06:08,Google Ads
+SUMM-C00065,SUMM-L00183,Google Business Profile,0,missed,0,2026-04-23 15:32:37,Local Services Ads
+SUMM-C00066,SUMM-L00186,Local Services Ads,123,answered_info,0,2026-04-23 17:52:16,Call Tracking
+SUMM-C00067,SUMM-L00147,Referral Line,238,answered_info,0,2026-04-23 21:30:57,Referral
+SUMM-C00068,SUMM-L00192,Local Services Ads,289,answered_booked,0,2026-04-24 12:42:08,callrail
+SUMM-C00069,SUMM-L00104,Google Business Profile,312,answered_info,0,2026-04-24 16:25:40, phone 
+SUMM-C00070,SUMM-L00197,Google Business Profile,0,missed,0,2026-04-24 23:10:39,Call Tracking
+SUMM-C00071,SUMM-L00162,Google Business Profile,845,answered_booked,0,2026-04-25 06:17:23,inbound call
+SUMM-C00072,SUMM-L00199,Google Business Profile,136,answered_info,0,2026-04-25 06:51:37,Call Tracking
+SUMM-C00073,SUMM-L00162,Meta Click-to-Call,0,missed,0,2026-04-25 15:46:45,Instagram
+SUMM-C00074,SUMM-L00120,Google Business Profile,21,voicemail,0,2026-04-25 17:02:52,Call Tracking
+SUMM-C00075,SUMM-L00204,Google Business Profile,0,missed,0,2026-04-25 22:08:36,Call Tracking
+SUMM-C00076,SUMM-L00205,Google Business Profile,0,missed,0,2026-04-25 22:14:42,Inbound Call
+SUMM-C00077,SUMM-L00100,Outbound Callback Number,89,answered_info,0,2026-04-26 19:12:58,sdr program
+SUMM-C00078,SUMM-L00167,Google Ads Call Extension,0,missed,0,2026-04-27 09:09:34,google
+SUMM-C00079,SUMM-L00118,Outbound Callback Number,783,answered_booked,9450,2026-04-27 22:50:37,Outbound
+SUMM-C00080,SUMM-L00221,Google Business Profile,0,missed,0,2026-04-28 01:06:13,inbound call
+SUMM-C00081,SUMM-L00208,Outbound Callback Number,51,voicemail,0,2026-04-28 01:28:16,PROSPECTING
+SUMM-C00082,SUMM-L00035,Google Business Profile,233,answered_info,0,2026-04-28 03:21:40,Call Tracking
+SUMM-C00083,SUMM-L00225,Local Services Ads,161,answered_info,0,2026-04-28 11:48:54,Call Tracking
+SUMM-C00084,SUMM-L00227,Local Services Ads,359,answered_info,0,2026-04-28 14:24:47,phone
+SUMM-C00085,SUMM-L00229,Local Services Ads,376,answered_info,0,2026-04-28 16:58:58,Call Tracking
+SUMM-C00086,SUMM-L00231,Google Business Profile,192,answered_info,0,2026-04-28 21:42:38,Call Tracking
+SUMM-C00087,SUMM-L00224,Local Services Ads,33,voicemail,0,2026-04-29 06:05:56, callrail 
+SUMM-C00088,SUMM-L00199,Google Business Profile,176,answered_info,0,2026-04-29 08:04:31,Call Tracking
+SUMM-C00089,SUMM-L00232,Google Business Profile,243,answered_info,0,2026-04-29 08:56:17,Callrail
+SUMM-C00090,SUMM-L00048,Outbound Callback Number,322,answered_info,0,2026-04-29 10:47:29,Outbound
+SUMM-C00091,SUMM-L00063,Local Services Ads,206,answered_info,0,2026-04-29 18:01:54,Call Tracking
+SUMM-C00092,SUMM-L00235,Google Business Profile,0,missed,0,2026-04-29 21:11:42,Call Tracking
+SUMM-C00093,SUMM-L00233,Google Business Profile,145,answered_info,0,2026-04-29 23:10:02,Call Tracking
+SUMM-C00094,SUMM-L00233,Google Business Profile,0,missed,0,2026-04-30 03:11:15,CALLRAIL
+SUMM-C00095,SUMM-L00098,Google Business Profile,323,answered_booked,0,2026-04-30 04:58:34,Call Tracking
+SUMM-C00096,SUMM-L00036,Outbound Callback Number,58,answered_info,0,2026-04-30 05:42:41,Outbound
+SUMM-C00097,SUMM-L00239,Google Business Profile,119,answered_info,0,2026-04-30 14:28:49,Call Tracking
+SUMM-C00098,SUMM-L00242,Outbound Callback Number,413,answered_info,0,2026-04-30 19:45:04,Outbound
+SUMM-C00099,SUMM-L00245,Google Business Profile,178,answered_info,0,2026-04-30 20:41:27,Call Tracking
+SUMM-C00100,SUMM-L00199,Local Services Ads,220,answered_info,0,2026-05-01 04:07:44,callrail + lsa
+SUMM-C00101,SUMM-L00114,Google Business Profile,250,answered_info,0,2026-05-01 06:38:01,Call Tracking
+SUMM-C00102,SUMM-L00251,Local Services Ads,43,voicemail,0,2026-05-01 23:53:42, phone 
+SUMM-C00103,SUMM-L00220,Google Ads Call Extension,303,answered_info,4900,2026-05-02 03:08:21,Google Ads
+SUMM-C00104,SUMM-L00257,Google Business Profile,283,answered_info,0,2026-05-02 18:22:41,Call Tracking
+SUMM-C00105,SUMM-L00129,Google Business Profile,332,answered_info,0,2026-05-02 18:42:20,Call Tracking
+SUMM-C00106,SUMM-L00259,Local Services Ads,369,answered_info,0,2026-05-03 02:30:05,local services ads
+SUMM-C00107,SUMM-L00114,Google Business Profile,93,answered_info,0,2026-05-03 04:16:29,Call Tracking
+SUMM-C00108,SUMM-L00261,Google Business Profile,261,answered_info,0,2026-05-03 06:12:53,Phone
+SUMM-C00109,SUMM-L00257,Google Business Profile,0,missed,0,2026-05-03 13:20:44,Call Tracking
+SUMM-C00110,SUMM-L00257,Local Services Ads,0,missed,0,2026-05-03 16:29:13,Call Tracking
+SUMM-C00111,SUMM-L00066,Google Ads Call Extension,52,voicemail,0,2026-05-03 18:36:40,Google Ads
+SUMM-C00112,SUMM-L00174,Local Services Ads,157,answered_info,0,2026-05-03 19:32:37,local services ads
+SUMM-C00113,SUMM-L00177,Local Services Ads,36,voicemail,0,2026-05-03 23:58:36,Call Tracking
+SUMM-C00114,SUMM-L00036,Google Business Profile,62,answered_info,0,2026-05-04 00:30:33,Call Tracking
+SUMM-C00115,SUMM-L00126,Local Services Ads,0,missed,0,2026-05-04 06:55:07,Call Tracking
+SUMM-C00116,SUMM-L00249,Google Business Profile,88,answered_info,0,2026-05-04 07:56:12,LOCAL SERVICES ADS
+SUMM-C00117,SUMM-L00232,Local Services Ads,378,answered_info,0,2026-05-04 09:46:45,Call Tracking
+SUMM-C00118,SUMM-L00268,Local Services Ads,342,answered_info,0,2026-05-04 19:36:33,Call Tracking
+SUMM-C00119,SUMM-L00268,Local Services Ads,185,answered_info,0,2026-05-04 21:49:06,Call Tracking
+SUMM-C00120,SUMM-L00269,Google Business Profile,0,missed,0,2026-05-04 23:39:23,Phone
+SUMM-C00121,SUMM-L00273,Local Services Ads,113,answered_info,0,2026-05-05 10:53:18,Callrail
+SUMM-C00122,SUMM-L00274,Local Services Ads,126,answered_info,0,2026-05-05 11:06:18,Call Tracking
+SUMM-C00123,SUMM-L00280,Local Services Ads,322,answered_info,0,2026-05-05 17:02:07,CALLRAIL + LSA
+SUMM-C00124,SUMM-L00268,Local Services Ads,0,missed,0,2026-05-05 20:50:26,Inbound Call
+SUMM-C00125,SUMM-L00266,Referral Line,0,missed,0,2026-05-06 02:26:12,Referral
+SUMM-C00126,SUMM-L00066,Local Services Ads,25,voicemail,0,2026-05-06 05:40:40,Call Tracking
+SUMM-C00127,SUMM-L00077,Google Ads Call Extension,0,missed,0,2026-05-06 07:10:05,Google Ads
+SUMM-C00128,SUMM-L00163,Google Ads Call Extension,189,answered_info,0,2026-05-06 08:40:15,google ads search
+SUMM-C00129,SUMM-L00290,Local Services Ads,0,missed,0,2026-05-07 01:48:59, inbound call 
+SUMM-C00130,SUMM-L00198,Referral Line,475,answered_booked,8300,2026-05-07 03:00:40,Partner referral
+SUMM-C00131,SUMM-L00100,Local Services Ads,360,answered_info,0,2026-05-07 04:16:19,Callrail + lsa
+SUMM-C00132,SUMM-L00291,Local Services Ads,323,answered_info,0,2026-05-07 07:30:41,Call Tracking
+SUMM-C00133,SUMM-L00297,Local Services Ads,55,answered_info,7000,2026-05-07 13:56:34,phone
+SUMM-C00134,SUMM-L00099,Local Services Ads,0,missed,0,2026-05-07 17:30:18,Call Tracking
+SUMM-C00135,SUMM-L00303,Google Business Profile,0,missed,0,2026-05-08 10:03:54,Call Tracking
+SUMM-C00136,SUMM-L00157,Outbound Callback Number,41,voicemail,0,2026-05-08 14:07:13,Outbound
+SUMM-C00137,SUMM-L00294,Google Business Profile,278,answered_info,0,2026-05-08 19:35:05,Call Tracking
+SUMM-C00138,SUMM-L00307,Google Business Profile,84,answered_info,2900,2026-05-09 00:03:54,Call Tracking
+SUMM-C00139,SUMM-L00242,Google Business Profile,146,answered_info,0,2026-05-09 03:33:47,Call Tracking
+SUMM-C00140,SUMM-L00259,Local Services Ads,116,answered_info,0,2026-05-09 06:08:14,Call Tracking
+SUMM-C00141,SUMM-L00258,Google Ads Call Extension,131,answered_info,0,2026-05-09 08:08:14,Google Ads
+SUMM-C00142,SUMM-L00310,Local Services Ads,96,answered_info,0,2026-05-09 09:38:34,Call Tracking
+SUMM-C00143,SUMM-L00313,Google Business Profile,56,answered_info,1550,2026-05-09 11:01:14,Call Tracking
+SUMM-C00144,SUMM-L00253,Local Services Ads,306,answered_booked,0,2026-05-09 12:37:46,Call Tracking
+SUMM-C00145,SUMM-L00259,Local Services Ads,0,missed,0,2026-05-09 17:36:58,Call Tracking
+SUMM-C00146,SUMM-L00264,Referral Line,0,missed,0,2026-05-09 23:36:12,Referal
+SUMM-C00147,SUMM-L00221,Local Services Ads,165,answered_info,0,2026-05-10 10:53:43,Call Tracking
+SUMM-C00148,SUMM-L00319,Google Business Profile,108,answered_info,0,2026-05-10 15:15:58,Call Tracking
+SUMM-C00149,SUMM-L00239,Google Business Profile,337,answered_info,0,2026-05-10 18:52:56,Call Tracking
+SUMM-C00150,SUMM-L00163,Google Ads Call Extension,397,answered_info,0,2026-05-10 19:31:45,Google Ads
+SUMM-C00151,SUMM-L00320,Google Ads Call Extension,32,voicemail,0,2026-05-10 19:43:42, google ads search 
+SUMM-C00152,SUMM-L00307,Google Business Profile,819,answered_booked,2900,2026-05-10 21:27:10,Call Tracking
+SUMM-C00153,SUMM-L00322,Google Business Profile,0,missed,0,2026-05-11 07:57:32,Call Tracking
+SUMM-C00154,SUMM-L00142,Google Business Profile,278,answered_info,0,2026-05-11 13:48:44,INBOUND CALL
+SUMM-C00155,SUMM-L00179,Local Services Ads,201,answered_info,0,2026-05-11 15:31:06,INBOUND CALL
+SUMM-C00156,SUMM-L00334,Google Business Profile,373,answered_info,0,2026-05-11 18:28:28,Call Tracking
+SUMM-C00157,SUMM-L00335,Google Business Profile,356,answered_info,0,2026-05-11 22:27:20,Call Tracking
+SUMM-C00158,SUMM-L00328,Google Business Profile,0,missed,0,2026-05-11 23:26:39,Call Tracking
+SUMM-C00159,SUMM-L00307,Google Business Profile,223,answered_booked,2900,2026-05-12 08:31:19,Call Tracking
+SUMM-C00160,SUMM-L00344,Local Services Ads,125,answered_info,0,2026-05-12 15:20:21,Callrail
+SUMM-C00161,SUMM-L00301,Google Business Profile,0,missed,0,2026-05-12 17:26:07, callrail + lsa 
+SUMM-C00162,SUMM-L00246,Outbound Callback Number,65,voicemail,0,2026-05-13 02:11:30,Outbound
+SUMM-C00163,SUMM-L00344,Google Business Profile,208,answered_info,0,2026-05-13 02:13:15,Call Tracking
+SUMM-C00164,SUMM-L00239,Google Business Profile,130,answered_info,0,2026-05-13 02:34:17, inbound call 
+SUMM-C00165,SUMM-L00344,Google Business Profile,123,answered_info,0,2026-05-13 10:06:08,Call Tracking
+SUMM-C00166,SUMM-L00344,Google Business Profile,364,answered_info,0,2026-05-13 10:32:21,Call Tracking
+SUMM-C00167,SUMM-L00143,Local Services Ads,374,answered_info,0,2026-05-13 13:11:42,Local services ads
+SUMM-C00168,SUMM-L00354,Google Business Profile,0,missed,0,2026-05-13 16:17:23,Callrail
+SUMM-C00169,SUMM-L00349,Google Ads Call Extension,364,answered_info,0,2026-05-13 17:24:02,Google Ads
+SUMM-C00170,SUMM-L00349,Local Services Ads,0,missed,0,2026-05-13 17:32:22,Call Tracking
+SUMM-C00171,SUMM-L00224,Outbound Callback Number,416,answered_info,0,2026-05-13 23:29:30,Outbound
+SUMM-C00172,SUMM-L00350,Google Business Profile,0,missed,0,2026-05-14 09:38:13,Call Tracking
+SUMM-C00173,SUMM-L00314,Outbound Callback Number,759,answered_booked,0,2026-05-14 09:46:40,Outbound
+SUMM-C00174,SUMM-L00314,Local Services Ads,0,missed,0,2026-05-14 09:51:31,Call Tracking
+SUMM-C00175,SUMM-L00357,Google Business Profile,116,answered_info,0,2026-05-14 12:31:02,Call Tracking
+SUMM-C00176,SUMM-L00267,Google Ads Call Extension,0,missed,0,2026-05-14 18:00:33,Google Ads
+SUMM-C00177,SUMM-L00271,Referral Line,201,answered_info,0,2026-05-14 18:35:25,Referral
+SUMM-C00178,SUMM-L00218,Meta Click-to-Call,0,missed,0,2026-05-14 23:25:59,Meta
+SUMM-C00179,SUMM-L00361,Local Services Ads,110,answered_info,0,2026-05-15 07:55:06,Call Tracking
+SUMM-C00180,SUMM-L00184,Google Business Profile,360,answered_info,0,2026-05-15 09:58:44,Call Tracking
+SUMM-C00181,SUMM-L00363,Local Services Ads,363,answered_info,0,2026-05-15 12:27:41,Call Tracking
+SUMM-C00182,SUMM-L00365,Google Business Profile,620,answered_booked,0,2026-05-15 14:21:10,Call Tracking
+SUMM-C00183,SUMM-L00244,Referral Line,100,answered_info,0,2026-05-15 16:47:10,WORD OF MOUTH
+SUMM-C00184,SUMM-L00242,Outbound Callback Number,266,answered_info,0,2026-05-15 20:36:11,Sdr
+SUMM-C00185,SUMM-L00179,Outbound Callback Number,0,missed,0,2026-05-15 21:42:55,Outbound
+SUMM-C00186,SUMM-L00213,Google Ads Call Extension,48,voicemail,0,2026-05-15 21:53:38,Google Ads
+SUMM-C00187,SUMM-L00330,Referral Line,0,missed,0,2026-05-16 02:34:34,Referral
+SUMM-C00188,SUMM-L00372,Google Business Profile,101,answered_info,0,2026-05-16 03:23:21,Call Tracking
+SUMM-C00189,SUMM-L00318,Local Services Ads,0,missed,0,2026-05-16 06:17:05,Inbound call
+SUMM-C00190,SUMM-L00365,Local Services Ads,507,answered_booked,0,2026-05-16 07:07:46, callrail + lsa 
+SUMM-C00191,SUMM-L00263,Google Ads Call Extension,0,missed,0,2026-05-16 09:27:35,Google Ads
+SUMM-C00192,SUMM-L00375,Google Ads Call Extension,0,missed,0,2026-05-16 16:30:42,Google Ads
+SUMM-C00193,SUMM-L00230,Outbound Callback Number,666,answered_booked,0,2026-05-16 17:37:16, sdr 
+SUMM-C00194,SUMM-L00381,Google Business Profile,425,answered_booked,0,2026-05-17 08:05:11,Call Tracking
+SUMM-C00195,SUMM-L00375,Google Business Profile,178,answered_info,0,2026-05-17 19:15:36,Call Tracking
+SUMM-C00196,SUMM-L00378,Google Ads Call Extension,90,answered_info,0,2026-05-18 01:22:45,Google Ads
+SUMM-C00197,SUMM-L00387,Local Services Ads,118,answered_info,0,2026-05-18 01:29:18,Call Tracking
+SUMM-C00198,SUMM-L00160,Local Services Ads,325,answered_info,0,2026-05-18 07:09:44,Call Tracking
+SUMM-C00199,SUMM-L00398,Local Services Ads,420,answered_booked,1950,2026-05-18 14:07:32,inbound call
+SUMM-C00200,SUMM-L00398,Google Business Profile,788,answered_booked,1950,2026-05-18 14:57:47,Call Tracking
+SUMM-C00201,SUMM-L00399,Local Services Ads,0,missed,0,2026-05-18 21:50:10,Call Tracking
+SUMM-C00202,SUMM-L00297,Google Business Profile,412,answered_info,7000,2026-05-18 22:15:26,Call Tracking
+SUMM-C00203,SUMM-L00359,Local Services Ads,45,voicemail,0,2026-05-19 04:25:19,Call Tracking
+SUMM-C00204,SUMM-L00387,Local Services Ads,252,answered_info,0,2026-05-19 06:24:45,Call Tracking
+SUMM-C00205,SUMM-L00406,Local Services Ads,196,answered_info,0,2026-05-19 11:03:57,Call Tracking
+SUMM-C00206,SUMM-L00387,Google Business Profile,82,answered_info,0,2026-05-19 16:26:28,Call Tracking
+SUMM-C00207,SUMM-L00373,Local Services Ads,133,answered_info,0,2026-05-20 13:13:55,Call Tracking
+SUMM-C00208,SUMM-L00241,Outbound Callback Number,194,answered_info,0,2026-05-20 15:28:48,outbound - sdr
+SUMM-C00209,SUMM-L00407,Local Services Ads,274,answered_info,0,2026-05-20 21:02:38,Call Tracking
+SUMM-C00210,SUMM-L00399,Google Business Profile,307,answered_info,0,2026-05-21 08:08:40, local services ads 
+SUMM-C00211,SUMM-L00274,Google Business Profile,0,missed,0,2026-05-21 10:23:32,Call Tracking
+SUMM-C00212,SUMM-L00297,Local Services Ads,168,answered_info,7000,2026-05-22 03:37:34,Call Tracking
+SUMM-C00213,SUMM-L00434,Local Services Ads,68,answered_info,0,2026-05-22 04:28:07,Call Tracking
+SUMM-C00214,SUMM-L00436,Local Services Ads,370,answered_info,0,2026-05-22 08:13:26,Call Tracking
+SUMM-C00215,SUMM-L00181,Outbound Callback Number,0,missed,0,2026-05-22 11:04:08,Outbound
+SUMM-C00216,SUMM-L00440,Local Services Ads,85,answered_info,0,2026-05-22 12:40:12,Call Tracking
+SUMM-C00217,SUMM-L00223,Google Ads Call Extension,398,answered_info,0,2026-05-22 14:01:36, adwords 
+SUMM-C00218,SUMM-L00444,Google Business Profile,393,answered_info,0,2026-05-22 18:20:13,Call Tracking
+SUMM-C00219,SUMM-L00445,Google Business Profile,0,missed,0,2026-05-22 20:46:25,Call Tracking
+SUMM-C00220,SUMM-L00328,Google Business Profile,0,missed,0,2026-05-22 22:19:41,Callrail
+SUMM-C00221,SUMM-L00263,Google Ads Call Extension,0,missed,0,2026-05-23 08:06:49,Google Ads
+SUMM-C00222,SUMM-L00386,Google Business Profile,0,missed,0,2026-05-23 15:15:10,callrail
+SUMM-C00223,SUMM-L00425,Local Services Ads,146,answered_info,0,2026-05-23 17:41:41,Call Tracking
+SUMM-C00224,SUMM-L00447,Referral Line,399,answered_info,0,2026-05-23 21:27:03,REFERRAL PAYOUTS
+SUMM-C00225,SUMM-L00453,Google Business Profile,60,answered_info,0,2026-05-24 04:04:59,Call Tracking
+SUMM-C00226,SUMM-L00442,Local Services Ads,0,missed,0,2026-05-24 07:49:35,Call Tracking
+SUMM-C00227,SUMM-L00294,Local Services Ads,419,answered_info,0,2026-05-24 08:34:15,Call Tracking
+SUMM-C00228,SUMM-L00392,Outbound Callback Number,0,missed,0,2026-05-24 11:47:14,SDR PROGRAM
+SUMM-C00229,SUMM-L00458,Local Services Ads,0,missed,0,2026-05-25 01:20:58,Call Tracking
+SUMM-C00230,SUMM-L00386,Referral Line,379,answered_info,0,2026-05-25 01:50:43, word of mouth 
+SUMM-C00231,SUMM-L00263,Google Ads Call Extension,72,answered_info,0,2026-05-25 07:01:49,Ppc
+SUMM-C00232,SUMM-L00462,Google Business Profile,212,answered_info,0,2026-05-25 10:29:48,INBOUND CALL
+SUMM-C00233,SUMM-L00435,Local Services Ads,427,answered_booked,6700,2026-05-25 11:31:10,Call Tracking
+SUMM-C00234,SUMM-L00464,Google Business Profile,0,missed,0,2026-05-25 11:59:43,Call Tracking
+SUMM-C00235,SUMM-L00464,Google Business Profile,191,answered_info,0,2026-05-25 13:03:50,callrail + lsa
+SUMM-C00236,SUMM-L00288,Local Services Ads,196,answered_info,0,2026-05-25 17:49:17,Callrail
+SUMM-C00237,SUMM-L00470,Local Services Ads,27,voicemail,0,2026-05-26 01:12:02,Inbound Call
+SUMM-C00238,SUMM-L00434,Google Business Profile,253,answered_info,0,2026-05-26 04:59:46, callrail 
+SUMM-C00239,SUMM-L00464,Google Business Profile,0,missed,0,2026-05-26 06:51:49,Call Tracking
+SUMM-C00240,SUMM-L00419,Referral Line,0,missed,0,2026-05-26 09:22:43, referral payouts 
+SUMM-C00241,SUMM-L00473,Google Business Profile,48,answered_info,0,2026-05-26 12:54:10,Call Tracking
+SUMM-C00242,SUMM-L00477,Google Business Profile,393,answered_info,0,2026-05-26 21:43:25,Local Services Ads
+SUMM-C00243,SUMM-L00478,Google Business Profile,390,answered_info,4350,2026-05-26 22:58:30,Call Tracking
+SUMM-C00244,SUMM-L00346,Google Business Profile,237,answered_info,0,2026-05-26 23:38:00,Call Tracking
+SUMM-C00245,SUMM-L00358,Outbound Callback Number,303,answered_info,0,2026-05-27 05:46:43,Outbound
+SUMM-C00246,SUMM-L00396,Outbound Callback Number,70,voicemail,0,2026-05-27 10:33:00,Outbound
+SUMM-C00247,SUMM-L00432,Local Services Ads,85,answered_info,0,2026-05-27 14:51:09,Call Tracking
+SUMM-C00248,SUMM-L00339,Outbound Callback Number,254,answered_info,0,2026-05-28 01:37:23,Outbound
+SUMM-C00249,SUMM-L00419,Google Business Profile,69,voicemail,0,2026-05-28 01:54:54,Call Tracking
+SUMM-C00250,SUMM-L00485,Google Business Profile,249,answered_info,0,2026-05-28 06:25:59,Call Tracking
+SUMM-C00251,SUMM-L00246,Outbound Callback Number,229,answered_info,0,2026-05-28 07:39:20,PROSPECTING
+SUMM-C00252,SUMM-L00491,Local Services Ads,0,missed,0,2026-05-28 09:23:30,Call Tracking
+SUMM-C00253,SUMM-L00427,Google Business Profile,243,answered_info,0,2026-05-28 11:13:47,inbound call
+SUMM-C00254,SUMM-L00460,Google Business Profile,0,missed,0,2026-05-28 16:06:22,phone
+SUMM-C00255,SUMM-L00495,Local Services Ads,104,answered_info,0,2026-05-28 16:31:14,Call Tracking
+SUMM-C00256,SUMM-L00496,Google Business Profile,143,answered_info,0,2026-05-28 19:12:02,Call Tracking
+SUMM-C00257,SUMM-L00496,Google Business Profile,101,answered_info,0,2026-05-28 20:04:38, inbound call 
+SUMM-C00258,SUMM-L00450,Referral Line,430,answered_booked,5200,2026-05-28 22:27:24,Referral
+SUMM-C00259,SUMM-L00503,Local Services Ads,189,answered_info,0,2026-05-29 17:10:56,Call Tracking
+SUMM-C00260,SUMM-L00505,Local Services Ads,116,answered_info,0,2026-05-29 22:46:29,Call Tracking
+SUMM-C00261,SUMM-L00443,Google Business Profile,149,answered_info,0,2026-05-30 04:39:13,Call Tracking
+SUMM-C00262,SUMM-L00509,Local Services Ads,22,voicemail,0,2026-05-30 12:17:53,Local Services Ads
+SUMM-C00263,SUMM-L00303,Local Services Ads,130,answered_info,0,2026-05-30 12:47:47,Call Tracking
+SUMM-C00264,SUMM-L00427,Local Services Ads,233,answered_info,0,2026-05-30 16:28:04, callrail 
+SUMM-C00265,SUMM-L00513,Google Business Profile,0,missed,0,2026-05-30 18:50:06,Callrail + lsa
+SUMM-C00266,SUMM-L00399,Local Services Ads,124,answered_info,0,2026-05-30 19:36:19,Call Tracking
+SUMM-C00267,SUMM-L00363,Google Business Profile,342,answered_info,0,2026-05-30 23:04:34,Phone
+SUMM-C00268,SUMM-L00305,Local Services Ads,0,missed,0,2026-05-31 02:55:58,Call Tracking
+SUMM-C00269,SUMM-L00282,Outbound Callback Number,377,answered_booked,20200,2026-05-31 16:04:07,Outbound
+SUMM-C00270,SUMM-L00222,Local Services Ads,219,answered_booked,24850,2026-05-31 16:48:15,Call Tracking
+SUMM-C00271,SUMM-L00481,Referral Line,406,answered_info,0,2026-05-31 18:54:28,Referral
+SUMM-C00272,SUMM-L00449,Referral Line,271,answered_info,0,2026-05-31 19:27:11,Referral
+SUMM-C00273,SUMM-L00523,Google Business Profile,332,answered_info,0,2026-05-31 22:14:12,inbound call
+SUMM-C00274,SUMM-L00296,Google Ads Call Extension,64,voicemail,0,2026-06-01 11:00:29, google 
+SUMM-C00275,SUMM-L00530,Google Business Profile,0,missed,0,2026-06-01 14:10:48,Call Tracking
+SUMM-C00276,SUMM-L00379,Google Ads Call Extension,0,missed,0,2026-06-01 17:39:08,Google Ads
+SUMM-C00277,SUMM-L00367,Google Business Profile,136,answered_info,0,2026-06-02 11:08:36,Call Tracking
+SUMM-C00278,SUMM-L00539,Local Services Ads,578,answered_booked,1850,2026-06-02 11:57:32,Call Tracking
+SUMM-C00279,SUMM-L00542,Google Business Profile,115,answered_info,0,2026-06-02 13:04:23,Call Tracking
+SUMM-C00280,SUMM-L00545,Local Services Ads,0,missed,0,2026-06-02 17:18:21,Call Tracking
+SUMM-C00281,SUMM-L00395,Local Services Ads,347,answered_info,0,2026-06-02 21:42:14,Local Services Ads
+SUMM-C00282,SUMM-L00552,Local Services Ads,371,answered_info,0,2026-06-03 05:35:04, local services ads 
+SUMM-C00283,SUMM-L00441,Google Ads Call Extension,49,voicemail,0,2026-06-03 08:09:03,PPC
+SUMM-C00284,SUMM-L00529,Google Business Profile,61,voicemail,0,2026-06-03 11:53:25,Call Tracking
+SUMM-C00285,SUMM-L00306,Local Services Ads,177,answered_info,0,2026-06-03 15:37:29,Call Tracking
+SUMM-C00286,SUMM-L00557,Local Services Ads,130,answered_info,0,2026-06-03 16:54:58,Call Tracking
+SUMM-C00287,SUMM-L00550,Google Business Profile,273,answered_info,0,2026-06-03 17:08:54,Call Tracking
+SUMM-C00288,SUMM-L00558,Local Services Ads,257,answered_info,0,2026-06-03 17:09:58,Call Tracking
+SUMM-C00289,SUMM-L00363,Google Business Profile,138,answered_info,0,2026-06-03 19:41:38,Call Tracking
+SUMM-C00290,SUMM-L00562,Local Services Ads,425,answered_booked,4850,2026-06-04 02:02:07,Inbound call
+SUMM-C00291,SUMM-L00467,Google Business Profile,98,answered_info,0,2026-06-04 08:07:53,Local Services Ads
+SUMM-C00292,SUMM-L00567,Local Services Ads,52,answered_info,0,2026-06-04 08:59:27,Call Tracking
+SUMM-C00293,SUMM-L00434,Local Services Ads,0,missed,0,2026-06-04 09:22:12,CALLRAIL
+SUMM-C00294,SUMM-L00567,Local Services Ads,0,missed,0,2026-06-04 09:58:12,Inbound call
+SUMM-C00295,SUMM-L00566,Local Services Ads,0,missed,0,2026-06-04 16:23:28,Callrail + lsa
+SUMM-C00296,SUMM-L00503,Local Services Ads,0,missed,0,2026-06-05 01:57:39,Call Tracking
+SUMM-C00297,SUMM-L00389,Google Business Profile,0,missed,0,2026-06-05 02:00:17,Callrail + Lsa
+SUMM-C00298,SUMM-L00586,Local Services Ads,110,answered_info,0,2026-06-05 14:55:54,Local Services Ads
+SUMM-C00299,SUMM-L00563,Outbound Callback Number,394,answered_info,0,2026-06-05 16:32:52,Outbound
+SUMM-C00300,SUMM-L00509,Google Business Profile,63,answered_info,0,2026-06-05 21:16:17,INBOUND CALL
+SUMM-C00301,SUMM-L00583,Local Services Ads,93,answered_info,0,2026-06-05 21:39:05,Call Tracking
+SUMM-C00302,SUMM-L00595,Google Business Profile,317,answered_info,0,2026-06-06 07:53:23,Call Tracking
+SUMM-C00303,SUMM-L00596,Google Business Profile,0,missed,0,2026-06-06 09:25:17,Call Tracking
+SUMM-C00304,SUMM-L00385,Local Services Ads,274,answered_info,0,2026-06-07 00:30:55,Call Tracking
+SUMM-C00305,SUMM-L00605,Local Services Ads,299,answered_info,0,2026-06-07 04:40:07, callrail 
+SUMM-C00306,SUMM-L00608,Local Services Ads,280,answered_info,0,2026-06-07 09:57:56,Callrail + lsa
+SUMM-C00307,SUMM-L00611,Google Business Profile,217,answered_info,0,2026-06-07 13:38:08,Call Tracking
+SUMM-C00308,SUMM-L00373,Google Ads Call Extension,365,answered_info,0,2026-06-07 14:50:14,Google Ads
+SUMM-C00309,SUMM-L00611,Google Business Profile,0,missed,0,2026-06-07 16:50:58,Call Tracking
+SUMM-C00310,SUMM-L00612,Google Business Profile,271,answered_info,0,2026-06-07 17:13:07,Call Tracking
+SUMM-C00311,SUMM-L00549,Google Business Profile,273,answered_info,0,2026-06-07 17:45:30, local services ads 
+SUMM-C00312,SUMM-L00615,Local Services Ads,210,answered_info,0,2026-06-08 04:46:34,Callrail + Lsa
+SUMM-C00313,SUMM-L00328,Google Business Profile,198,answered_info,0,2026-06-08 05:39:39,Call Tracking
+SUMM-C00314,SUMM-L00319,Local Services Ads,0,missed,0,2026-06-08 05:42:02,Call Tracking
+SUMM-C00315,SUMM-L00616,Local Services Ads,0,missed,0,2026-06-08 06:18:54,Call Tracking
+SUMM-C00316,SUMM-L00620,Local Services Ads,243,answered_booked,0,2026-06-08 09:27:27,Call Tracking
+SUMM-C00317,SUMM-L00622,Local Services Ads,337,answered_info,0,2026-06-08 10:41:30,Callrail
+SUMM-C00318,SUMM-L00623,Local Services Ads,183,answered_info,0,2026-06-08 11:08:29,Call Tracking
+SUMM-C00319,SUMM-L00573,Outbound Callback Number,257,answered_info,0,2026-06-08 15:58:06,Outbound
+SUMM-C00320,SUMM-L00463,Google Business Profile,0,missed,0,2026-06-08 19:24:03,Call Tracking
+SUMM-C00321,SUMM-L00338,Outbound Callback Number,505,answered_booked,4050,2026-06-08 22:47:02,COLD EMAIL
+SUMM-C00322,SUMM-L00373,Google Business Profile,276,answered_info,0,2026-06-08 23:51:16,callrail + lsa
+SUMM-C00323,SUMM-L00463,Local Services Ads,287,answered_info,0,2026-06-09 00:37:56,CALLRAIL + LSA
+SUMM-C00324,SUMM-L00585,Google Business Profile,192,answered_info,0,2026-06-09 01:41:15,Call Tracking
+SUMM-C00325,SUMM-L00578,Google Business Profile,196,answered_info,0,2026-06-09 04:39:21, callrail 
+SUMM-C00326,SUMM-L00622,Google Business Profile,0,missed,0,2026-06-09 05:25:59,Call Tracking
+SUMM-C00327,SUMM-L00615,Google Business Profile,187,answered_info,0,2026-06-09 10:51:18,phone
+SUMM-C00328,SUMM-L00585,Google Business Profile,408,answered_info,0,2026-06-09 13:42:38,Call Tracking
+SUMM-C00329,SUMM-L00566,Local Services Ads,192,answered_info,0,2026-06-09 21:26:08,Call Tracking
+SUMM-C00330,SUMM-L00609,Google Business Profile,363,answered_info,0,2026-06-10 01:22:50,Call Tracking
+SUMM-C00331,SUMM-L00526,Google Business Profile,317,answered_info,0,2026-06-10 03:23:30,Call Tracking
+SUMM-C00332,SUMM-L00563,Outbound Callback Number,0,missed,0,2026-06-10 04:42:20,sdr program
+SUMM-C00333,SUMM-L00541,Google Business Profile,382,answered_info,0,2026-06-10 05:12:53,Callrail
+SUMM-C00334,SUMM-L00353,Google Business Profile,0,missed,0,2026-06-10 09:15:56,local services ads
+SUMM-C00335,SUMM-L00629,Meta Click-to-Call,313,answered_info,0,2026-06-10 14:18:31, instagram 
+SUMM-C00336,SUMM-L00652,Google Business Profile,291,answered_info,0,2026-06-10 17:19:15,Inbound call
+SUMM-C00337,SUMM-L00442,Google Business Profile,0,missed,0,2026-06-10 21:53:29,Call Tracking
+SUMM-C00338,SUMM-L00338,Local Services Ads,397,answered_booked,4050,2026-06-10 21:57:50,Call Tracking
+SUMM-C00339,SUMM-L00520,Outbound Callback Number,0,missed,0,2026-06-11 01:23:07,OUTBOUND - SDR
+SUMM-C00340,SUMM-L00606,Google Business Profile,0,missed,0,2026-06-11 09:59:51,Call Tracking
+SUMM-C00341,SUMM-L00663,Local Services Ads,73,answered_info,0,2026-06-11 14:01:02,Call Tracking
+SUMM-C00342,SUMM-L00431,Local Services Ads,249,answered_info,0,2026-06-11 22:28:44,Inbound call
+SUMM-C00343,SUMM-L00666,Google Business Profile,256,answered_info,0,2026-06-11 23:27:21,Call Tracking
+SUMM-C00344,SUMM-L00670,Local Services Ads,220,answered_info,0,2026-06-12 03:23:10,Call Tracking
+SUMM-C00345,SUMM-L00676,Google Business Profile,92,answered_info,0,2026-06-12 12:47:14,LOCAL SERVICES ADS
+SUMM-C00346,SUMM-L00677,Google Business Profile,804,answered_booked,3950,2026-06-12 15:07:23,Call Tracking
+SUMM-C00347,SUMM-L00678,Google Business Profile,455,answered_booked,0,2026-06-12 15:22:23,Call Tracking
+SUMM-C00348,SUMM-L00637,Outbound Callback Number,338,answered_info,0,2026-06-12 17:16:00,Prospecting
+SUMM-C00349,SUMM-L00679,Google Business Profile,0,missed,0,2026-06-12 17:59:01,Call Tracking
+SUMM-C00350,SUMM-L00443,Outbound Callback Number,0,missed,0,2026-06-12 20:38:50,OUTBOUND - SDR
+SUMM-C00351,SUMM-L00634,Referral Line,293,answered_info,0,2026-06-13 05:39:03,Referral
+SUMM-C00352,SUMM-L00568,Meta Click-to-Call,886,answered_booked,0,2026-06-13 05:54:47,Meta Ads
+SUMM-C00353,SUMM-L00681,Local Services Ads,331,answered_info,0,2026-06-13 09:28:33,Call Tracking
+SUMM-C00354,SUMM-L00373,Google Ads Call Extension,0,missed,0,2026-06-13 15:37:14,Google Ads
+SUMM-C00355,SUMM-L00517,Google Business Profile,0,missed,0,2026-06-14 01:28:38,Call Tracking
+SUMM-C00356,SUMM-L00687,Google Business Profile,82,answered_info,0,2026-06-14 04:57:25,Call Tracking
+SUMM-C00357,SUMM-L00624,Google Business Profile,84,answered_info,0,2026-06-14 05:54:19,Call Tracking
+SUMM-C00358,SUMM-L00573,Outbound Callback Number,0,missed,0,2026-06-14 12:28:42,Outbound
+SUMM-C00359,SUMM-L00690,Local Services Ads,0,missed,0,2026-06-14 13:22:17,Call Tracking
+SUMM-C00360,SUMM-L00427,Google Business Profile,281,answered_info,0,2026-06-14 17:40:48,Call Tracking
+SUMM-C00361,SUMM-L00691,Local Services Ads,276,answered_info,0,2026-06-15 00:52:38,Call Tracking
+SUMM-C00362,SUMM-L00646,Local Services Ads,414,answered_info,0,2026-06-15 01:57:27,Callrail + lsa
+SUMM-C00363,SUMM-L00681,Google Business Profile,334,answered_info,0,2026-06-15 10:42:54,Call Tracking
+SUMM-C00364,SUMM-L00696,Google Business Profile,377,answered_info,0,2026-06-15 18:15:06,Phone
+SUMM-C00365,SUMM-L00606,Outbound Callback Number,345,answered_info,0,2026-06-15 20:11:47,Outbound
+SUMM-C00366,SUMM-L00703,Local Services Ads,601,answered_booked,0,2026-06-16 12:54:04,callrail + lsa
+SUMM-C00367,SUMM-L00704,Google Business Profile,33,voicemail,0,2026-06-16 13:13:22,Call Tracking
+SUMM-C00368,SUMM-L00706,Google Business Profile,397,answered_info,0,2026-06-16 15:30:11,Callrail + lsa
+SUMM-C00369,SUMM-L00385,Google Business Profile,0,missed,0,2026-06-16 15:57:16, inbound call 
+SUMM-C00370,SUMM-L00431,Local Services Ads,0,missed,0,2026-06-17 03:51:10,Call Tracking
+SUMM-C00371,SUMM-L00501,Local Services Ads,890,answered_booked,7900,2026-06-17 08:36:31,LOCAL SERVICES ADS
+SUMM-C00372,SUMM-L00712,Local Services Ads,671,answered_booked,0,2026-06-17 10:44:49,callrail + lsa
+SUMM-C00373,SUMM-L00671,Google Ads Call Extension,0,missed,0,2026-06-17 13:43:27,Google Ads
+SUMM-C00374,SUMM-L00718,Google Business Profile,77,answered_info,0,2026-06-17 13:57:07,Call Tracking
+SUMM-C00375,SUMM-L00720,Google Business Profile,216,answered_info,0,2026-06-17 15:39:57,Call Tracking
+SUMM-C00376,SUMM-L00661,Outbound Callback Number,0,missed,0,2026-06-17 16:22:58,Sdr
+SUMM-C00377,SUMM-L00721,Local Services Ads,154,answered_info,0,2026-06-17 16:59:19,Call Tracking
+SUMM-C00378,SUMM-L00722,Local Services Ads,278,answered_info,0,2026-06-17 17:32:20,Call Tracking
+SUMM-C00379,SUMM-L00668,Google Ads Call Extension,0,missed,0,2026-06-17 23:46:46,Google Ads
+SUMM-C00380,SUMM-L00434,Local Services Ads,87,answered_info,0,2026-06-17 23:55:01,Call Tracking
+SUMM-C00381,SUMM-L00570,Google Ads Call Extension,0,missed,0,2026-06-18 11:35:48,Google Ads
+SUMM-C00382,SUMM-L00712,Google Business Profile,0,missed,0,2026-06-18 12:43:41,Call Tracking
+SUMM-C00383,SUMM-L00731,Local Services Ads,216,answered_info,0,2026-06-18 17:54:11,Call Tracking
+SUMM-C00384,SUMM-L00528,Referral Line,246,answered_info,0,2026-06-18 20:47:01,Word of mouth
+SUMM-C00385,SUMM-L00696,Google Business Profile,0,missed,0,2026-06-19 09:38:59,Call Tracking
+SUMM-C00386,SUMM-L00732,Outbound Callback Number,206,answered_info,0,2026-06-19 11:16:18,SDR PROGRAM
+SUMM-C00387,SUMM-L00544,Google Business Profile,0,missed,0,2026-06-19 12:36:10,Call Tracking
+SUMM-C00388,SUMM-L00710,Referral Line,26,voicemail,0,2026-06-19 12:54:04,Referral
+SUMM-C00389,SUMM-L00713,Local Services Ads,318,answered_info,0,2026-06-19 13:17:30,Call Tracking
+SUMM-C00390,SUMM-L00740,Local Services Ads,86,answered_info,0,2026-06-19 14:24:41,Call Tracking
+SUMM-C00391,SUMM-L00711,Local Services Ads,148,answered_info,0,2026-06-19 14:47:01,PHONE
+SUMM-C00392,SUMM-L00546,Local Services Ads,193,answered_info,0,2026-06-19 17:38:29,callrail
+SUMM-C00393,SUMM-L00703,Local Services Ads,623,answered_booked,0,2026-06-19 18:08:47,Call Tracking
+SUMM-C00394,SUMM-L00454,Meta Click-to-Call,209,answered_info,0,2026-06-19 23:02:59,Meta Ads
+SUMM-C00395,SUMM-L00712,Google Business Profile,621,answered_booked,0,2026-06-20 04:09:21,Call Tracking
+SUMM-C00396,SUMM-L00743,Google Business Profile,0,missed,0,2026-06-20 15:32:00,Phone
+SUMM-C00397,SUMM-L00634,Google Business Profile,37,voicemail,0,2026-06-20 16:14:32,Call Tracking
+SUMM-C00398,SUMM-L00745,Google Business Profile,0,missed,0,2026-06-20 20:49:51,Call Tracking
+SUMM-C00399,SUMM-L00725,Google Business Profile,236,answered_info,0,2026-06-20 22:55:49,CALLRAIL
+SUMM-C00400,SUMM-L00737,Local Services Ads,547,answered_booked,0,2026-06-21 01:32:27,callrail
+SUMM-C00401,SUMM-L00565,Google Business Profile,603,answered_booked,10200,2026-06-21 07:03:33,Call Tracking
+SUMM-C00402,SUMM-L00748,Google Business Profile,0,missed,0,2026-06-21 07:44:10,Call Tracking
+SUMM-C00403,SUMM-L00752,Local Services Ads,0,missed,0,2026-06-21 19:26:56,callrail
+SUMM-C00404,SUMM-L00753,Google Business Profile,370,answered_info,0,2026-06-21 20:45:32,Phone
+SUMM-C00405,SUMM-L00749,Referral Line,70,voicemail,0,2026-06-22 04:45:06,Referral
+SUMM-C00406,SUMM-L00758,Google Business Profile,200,answered_info,0,2026-06-22 10:29:08,Call Tracking
+SUMM-C00407,SUMM-L00550,Google Ads Call Extension,185,answered_info,0,2026-06-22 19:02:03,google
+SUMM-C00408,SUMM-L00769,Local Services Ads,0,missed,0,2026-06-23 04:04:38,Call Tracking
+SUMM-C00409,SUMM-L00772,Local Services Ads,652,answered_booked,0,2026-06-23 07:43:30,Phone
+SUMM-C00410,SUMM-L00727,Google Business Profile,704,answered_booked,0,2026-06-23 12:47:41,Local services ads
+SUMM-C00411,SUMM-L00549,Google Business Profile,0,missed,0,2026-06-23 14:29:46,INBOUND CALL
+SUMM-C00412,SUMM-L00756,Google Business Profile,71,voicemail,0,2026-06-23 17:32:09,Call Tracking
+SUMM-C00413,SUMM-L00780,Google Business Profile,306,answered_info,0,2026-06-23 21:06:23,Call Tracking
+SUMM-C00414,SUMM-L00756,Local Services Ads,0,missed,0,2026-06-23 22:47:39,Call Tracking
+SUMM-C00415,SUMM-L00768,Referral Line,79,answered_info,0,2026-06-24 03:01:36,Referral
+SUMM-C00416,SUMM-L00782,Google Business Profile,136,answered_info,0,2026-06-24 06:10:25,Call Tracking
+SUMM-C00417,SUMM-L00756,Google Ads Call Extension,26,voicemail,0,2026-06-24 08:29:11,Google Ads
+SUMM-C00418,SUMM-L00784,Local Services Ads,0,missed,0,2026-06-24 08:45:10,Phone
+SUMM-C00419,SUMM-L00773,Google Business Profile,105,answered_info,0,2026-06-24 10:09:46,Call Tracking
+SUMM-C00420,SUMM-L00785,Google Business Profile,209,answered_info,0,2026-06-24 10:37:19,Callrail
+SUMM-C00421,SUMM-L00776,Outbound Callback Number,89,answered_info,0,2026-06-24 11:37:06,SDR PROGRAM
+SUMM-C00422,SUMM-L00787,Referral Line,381,answered_booked,0,2026-06-24 18:26:20,Referral
+SUMM-C00423,SUMM-L00790,Local Services Ads,88,answered_info,0,2026-06-24 18:46:00,Call Tracking
+SUMM-C00424,SUMM-L00551,Meta Click-to-Call,0,missed,0,2026-06-24 20:19:37,Paid Social
+SUMM-C00425,SUMM-L00791,Google Business Profile,311,answered_info,0,2026-06-24 21:23:58,Call Tracking
+SUMM-C00426,SUMM-L00792,Google Business Profile,411,answered_info,0,2026-06-25 03:46:05,Call Tracking
+SUMM-C00427,SUMM-L00578,Local Services Ads,53,voicemail,0,2026-06-25 07:43:22,Call Tracking
+SUMM-C00428,SUMM-L00621,Outbound Callback Number,394,answered_info,0,2026-06-25 12:41:57,Sdr
+SUMM-C00429,SUMM-L00801,Local Services Ads,0,missed,0,2026-06-25 14:32:34,Call Tracking
+SUMM-C00430,SUMM-L00671,Google Ads Call Extension,343,answered_info,0,2026-06-25 17:09:53,Google Ads
+SUMM-C00431,SUMM-L00805,Google Ads Call Extension,52,voicemail,0,2026-06-25 22:45:23,Google Ads
+SUMM-C00432,SUMM-L00805,Google Ads Call Extension,105,answered_info,0,2026-06-25 23:24:31,google
+SUMM-C00433,SUMM-L00582,Outbound Callback Number,375,answered_info,0,2026-06-26 01:15:32,Outbound
+SUMM-C00434,SUMM-L00805,Google Ads Call Extension,0,missed,0,2026-06-26 01:31:25,google
+SUMM-C00435,SUMM-L00794,Google Business Profile,0,missed,0,2026-06-26 02:27:27, phone 
+SUMM-C00436,SUMM-L00704,Local Services Ads,0,missed,0,2026-06-26 03:16:55,Call Tracking
+SUMM-C00437,SUMM-L00512,Outbound Callback Number,326,answered_info,0,2026-06-26 04:36:28,Outbound
+SUMM-C00438,SUMM-L00809,Local Services Ads,301,answered_info,0,2026-06-26 07:24:28,Call Tracking
+SUMM-C00439,SUMM-L00794,Google Business Profile,0,missed,0,2026-06-26 10:02:21,local services ads
+SUMM-C00440,SUMM-L00673,Local Services Ads,180,answered_info,0,2026-06-26 14:20:10,Call Tracking
+SUMM-C00441,SUMM-L00814,Local Services Ads,0,missed,0,2026-06-26 14:31:14,Call Tracking
+SUMM-C00442,SUMM-L00818,Google Business Profile,63,answered_info,0,2026-06-26 17:13:00,Phone
+SUMM-C00443,SUMM-L00819,Local Services Ads,0,missed,0,2026-06-26 18:24:07,Callrail + Lsa
+SUMM-C00444,SUMM-L00825,Local Services Ads,0,missed,0,2026-06-27 14:21:36,callrail
+SUMM-C00445,SUMM-L00827,Local Services Ads,0,missed,0,2026-06-27 23:31:36,Call Tracking
+SUMM-C00446,SUMM-L00828,Local Services Ads,0,missed,0,2026-06-28 01:30:16,Call Tracking
+SUMM-C00447,SUMM-L00810,Outbound Callback Number,216,answered_info,0,2026-06-28 02:35:38,COLD EMAIL
+SUMM-C00448,SUMM-L00806,Outbound Callback Number,372,answered_info,0,2026-06-28 03:17:02,Outbound
+SUMM-C00449,SUMM-L00656,Google Ads Call Extension,199,answered_booked,32950,2026-06-28 12:30:12,Google Ads
+SUMM-C00450,SUMM-L00832,Local Services Ads,60,voicemail,0,2026-06-28 19:10:38,Call Tracking
+SUMM-C00451,SUMM-L00834,Local Services Ads,125,answered_info,0,2026-06-29 01:26:02, callrail 
+SUMM-C00452,SUMM-L00779,Referral Line,222,answered_info,0,2026-06-29 01:44:03,Referral
+SUMM-C00453,SUMM-L00692,Google Business Profile,550,answered_booked,7800,2026-06-29 03:57:25,Call Tracking
+SUMM-C00454,SUMM-L00781,Local Services Ads,172,answered_info,0,2026-06-29 06:39:41,CALLRAIL
+SUMM-C00455,SUMM-L00509,Local Services Ads,284,answered_info,0,2026-06-29 07:39:47,Call Tracking
+SUMM-C00456,SUMM-L00839,Local Services Ads,687,answered_booked,0,2026-06-29 11:05:50,Call Tracking
+SUMM-C00457,SUMM-L00758,Local Services Ads,0,missed,0,2026-06-29 12:56:19,CALLRAIL + LSA
+SUMM-C00458,SUMM-L00843,Google Ads Call Extension,389,answered_booked,0,2026-06-29 17:05:38,Google Ads
+SUMM-C00459,SUMM-L00844,Google Business Profile,308,answered_info,0,2026-06-29 17:37:24,Call Tracking
+SUMM-C00460,SUMM-L00766,Outbound Callback Number,419,answered_info,0,2026-06-30 00:35:52,Sdr Program
+SUMM-C00461,SUMM-L00849,Google Business Profile,0,missed,0,2026-06-30 09:49:39,Call Tracking
+SUMM-C00462,SUMM-L00851,Local Services Ads,0,missed,0,2026-06-30 12:30:08,Call Tracking
+SUMM-C00463,SUMM-L00853,Local Services Ads,398,answered_info,0,2026-06-30 13:25:54, phone 
+SUMM-C00464,SUMM-L00853,Local Services Ads,0,missed,0,2026-06-30 13:36:19,Call Tracking
+SUMM-C00465,SUMM-L00814,Google Business Profile,134,answered_info,0,2026-06-30 19:46:25,INBOUND CALL
+SUMM-C00466,SUMM-L00839,Google Business Profile,0,missed,0,2026-06-30 19:56:32,Phone
+SUMM-C00467,SUMM-L00545,Local Services Ads,0,missed,0,2026-07-01 00:30:10,CALLRAIL
+SUMM-C00468,SUMM-L00542,Local Services Ads,132,answered_info,0,2026-07-01 04:44:41,Call Tracking
+SUMM-C00469,SUMM-L00861,Local Services Ads,53,answered_info,0,2026-07-01 05:26:52,LOCAL SERVICES ADS
+SUMM-C00470,SUMM-L00864,Google Business Profile,274,answered_info,0,2026-07-01 09:10:29,Call Tracking
+SUMM-C00471,SUMM-L00839,Google Business Profile,765,answered_booked,0,2026-07-01 09:51:42,Call Tracking
+SUMM-C00472,SUMM-L00868,Google Business Profile,319,answered_info,0,2026-07-01 14:04:58,Phone
+SUMM-C00473,SUMM-L00871,Local Services Ads,54,answered_info,0,2026-07-01 14:42:14,Call Tracking
+SUMM-C00474,SUMM-L00876,Local Services Ads,318,answered_info,0,2026-07-01 17:52:20,Phone
+SUMM-C00475,SUMM-L00874,Outbound Callback Number,21,voicemail,0,2026-07-01 19:04:48,Outbound
+SUMM-C00476,SUMM-L00818,Local Services Ads,256,answered_info,0,2026-07-01 20:42:45,Inbound call
+SUMM-C00477,SUMM-L00878,Google Business Profile,51,voicemail,0,2026-07-01 21:32:05,Callrail + Lsa
+SUMM-C00478,SUMM-L00869,Google Ads Call Extension,0,missed,0,2026-07-01 22:28:05,Google Ads
+SUMM-C00479,SUMM-L00797,Local Services Ads,377,answered_info,0,2026-07-02 00:57:02,Call Tracking
+SUMM-C00480,SUMM-L00766,Google Business Profile,0,missed,0,2026-07-02 03:43:17,Call Tracking
+SUMM-C00481,SUMM-L00884,Google Business Profile,229,answered_booked,5200,2026-07-02 10:53:33,Callrail + lsa
+SUMM-C00482,SUMM-L00885,Local Services Ads,274,answered_info,0,2026-07-02 12:09:14,Call Tracking
+SUMM-C00483,SUMM-L00849,Google Business Profile,0,missed,0,2026-07-02 16:03:47,Call Tracking
+SUMM-C00484,SUMM-L00828,Local Services Ads,25,voicemail,0,2026-07-02 23:21:01,Call Tracking
+SUMM-C00485,SUMM-L00735,Google Business Profile,0,missed,0,2026-07-02 23:49:38,Call Tracking
+SUMM-C00486,SUMM-L00839,Google Business Profile,425,answered_booked,0,2026-07-03 06:53:11,Call Tracking
+SUMM-C00487,SUMM-L00895,Google Business Profile,0,missed,0,2026-07-03 09:48:40,Call Tracking
+SUMM-C00488,SUMM-L00897,Local Services Ads,0,missed,0,2026-07-03 11:50:50,Callrail
+SUMM-C00489,SUMM-L00759,Meta Click-to-Call,54,answered_info,0,2026-07-03 13:52:58,Meta Ads
+SUMM-C00490,SUMM-L00810,Local Services Ads,29,voicemail,0,2026-07-03 20:13:14,CALLRAIL
+SUMM-C00491,SUMM-L00872,Google Ads Call Extension,0,missed,0,2026-07-03 22:32:57,Ppc
+SUMM-C00492,SUMM-L00875,Referral Line,0,missed,0,2026-07-04 01:27:01,Referral
+SUMM-C00493,SUMM-L00904,Local Services Ads,0,missed,0,2026-07-04 04:09:29,Call Tracking
+SUMM-C00494,SUMM-L00852,Referral Line,151,answered_info,0,2026-07-04 07:01:30,Referral
+SUMM-C00495,SUMM-L00908,Google Business Profile,269,answered_booked,0,2026-07-04 13:20:34,Call Tracking
+SUMM-C00496,SUMM-L00771,Meta Click-to-Call,248,answered_info,0,2026-07-04 15:49:22, fb 
+SUMM-C00497,SUMM-L00914,Local Services Ads,200,answered_info,0,2026-07-05 07:34:39,Call Tracking
+SUMM-C00498,SUMM-L00894,Local Services Ads,307,answered_info,0,2026-07-05 12:16:25,Local services ads
+SUMM-C00499,SUMM-L00879,Meta Click-to-Call,0,missed,0,2026-07-05 15:53:28,Meta Ads
+SUMM-C00500,SUMM-L00767,Google Business Profile,264,answered_info,0,2026-07-05 20:51:34,Phone
+SUMM-C00501,SUMM-L00915,Local Services Ads,58,answered_info,0,2026-07-05 22:46:23, inbound call 
+SUMM-C00502,SUMM-L00806,Outbound Callback Number,277,answered_info,0,2026-07-05 23:30:24,SDR
+SUMM-C00503,SUMM-L00920,Google Business Profile,0,missed,0,2026-07-06 03:35:57,Call Tracking
+SUMM-C00504,SUMM-L00918,Google Business Profile,0,missed,0,2026-07-06 04:32:29,Call Tracking
+SUMM-C00505,SUMM-L00882,Outbound Callback Number,608,answered_booked,0,2026-07-06 08:27:23,sdr
+SUMM-C00506,SUMM-L00882,Local Services Ads,400,answered_booked,0,2026-07-06 10:59:30,Call Tracking
+SUMM-C00507,SUMM-L00925,Google Business Profile,288,answered_info,0,2026-07-06 12:31:49,Call Tracking
+SUMM-C00508,SUMM-L00728,Local Services Ads,74,answered_info,0,2026-07-06 12:46:16,Call Tracking
+SUMM-C00509,SUMM-L00806,Outbound Callback Number,128,answered_info,0,2026-07-06 13:38:03,sdr program
+SUMM-C00510,SUMM-L00927,Google Business Profile,0,missed,0,2026-07-06 16:09:11,CALLRAIL + LSA
+SUMM-C00511,SUMM-L00916,Google Ads Call Extension,388,answered_booked,4700,2026-07-06 23:58:29,Google Ads
+SUMM-C00512,SUMM-L00894,Referral Line,394,answered_info,0,2026-07-07 00:45:04,Referral
+SUMM-C00513,SUMM-L00932,Google Business Profile,0,missed,0,2026-07-07 02:28:18,CALLRAIL + LSA
+SUMM-C00514,SUMM-L00734,Local Services Ads,271,answered_info,0,2026-07-07 02:59:21, callrail + lsa 
+SUMM-C00515,SUMM-L00828,Local Services Ads,110,answered_info,0,2026-07-07 03:33:29,Callrail + Lsa
+SUMM-C00516,SUMM-L00917,Local Services Ads,180,answered_info,0,2026-07-07 04:27:17,Call Tracking
+SUMM-C00517,SUMM-L00775,Local Services Ads,0,missed,0,2026-07-07 08:55:04,Call Tracking
+SUMM-C00518,SUMM-L00934,Google Business Profile,114,answered_info,0,2026-07-07 09:34:13,Call Tracking
+SUMM-C00519,SUMM-L00935,Google Business Profile,0,missed,0,2026-07-07 09:35:27,Callrail + Lsa
+SUMM-C00520,SUMM-L00806,Outbound Callback Number,180,answered_info,0,2026-07-07 10:00:49,Outbound
+SUMM-C00521,SUMM-L00939,Google Business Profile,357,answered_info,0,2026-07-07 14:54:29,inbound call
+SUMM-C00522,SUMM-L00700,Meta Click-to-Call,185,answered_info,0,2026-07-07 17:04:15,Meta Ads
+SUMM-C00523,SUMM-L00626,Local Services Ads,137,answered_info,0,2026-07-07 17:18:15,Call Tracking
+SUMM-C00524,SUMM-L00898,Outbound Callback Number,259,answered_info,0,2026-07-07 19:02:37,Outbound
+SUMM-C00525,SUMM-L00901,Google Ads Call Extension,0,missed,0,2026-07-07 19:07:05, adwords 
+SUMM-C00526,SUMM-L00942,Google Business Profile,0,missed,0,2026-07-07 20:44:29,Call Tracking
+SUMM-C00527,SUMM-L00943,Google Business Profile,237,answered_info,0,2026-07-07 22:00:08,Call Tracking
+SUMM-C00528,SUMM-L00924,Google Ads Call Extension,363,answered_info,0,2026-07-08 01:13:15,Google Ads
+SUMM-C00529,SUMM-L00949,Google Business Profile,160,answered_info,0,2026-07-08 12:39:11,Call Tracking
+SUMM-C00530,SUMM-L00700,Meta Click-to-Call,215,answered_info,0,2026-07-09 04:40:34,Facebook Ads
+SUMM-C00531,SUMM-L00955,Local Services Ads,311,answered_info,0,2026-07-09 06:50:24,Call Tracking
+SUMM-C00532,SUMM-L00903,Google Business Profile,390,answered_info,0,2026-07-09 11:50:48, callrail 
+SUMM-C00533,SUMM-L00952,Google Business Profile,28,voicemail,0,2026-07-09 13:17:30,Call Tracking
+SUMM-C00534,SUMM-L00897,Local Services Ads,0,missed,0,2026-07-09 13:19:51,Call Tracking
+SUMM-C00535,SUMM-L00960,Local Services Ads,386,answered_info,0,2026-07-09 13:26:25,Call Tracking
+SUMM-C00536,SUMM-L00961,Local Services Ads,0,missed,0,2026-07-09 15:50:56,Call Tracking
+SUMM-C00537,SUMM-L00894,Referral Line,28,voicemail,0,2026-07-09 19:37:24, referral payouts 
+SUMM-C00538,SUMM-L00660,Referral Line,91,answered_info,0,2026-07-09 21:04:46,Referral
+SUMM-C00539,SUMM-L00902,Google Business Profile,383,answered_info,0,2026-07-09 21:45:15,Call Tracking
+SUMM-C00540,SUMM-L00707,Google Ads Call Extension,330,answered_info,0,2026-07-10 01:08:49,Google Ads
+SUMM-C00541,SUMM-L00968,Google Business Profile,0,missed,0,2026-07-10 01:19:29,Call Tracking
+SUMM-C00542,SUMM-L00872,Google Ads Call Extension,107,answered_info,0,2026-07-10 02:50:00,Google Ads
+SUMM-C00543,SUMM-L00972,Google Business Profile,351,answered_info,0,2026-07-10 07:17:25,Call Tracking
+SUMM-C00544,SUMM-L00973,Google Business Profile,170,answered_info,0,2026-07-10 07:39:55,Call Tracking
+SUMM-C00545,SUMM-L00962,Google Ads Call Extension,65,voicemail,0,2026-07-10 11:41:53,Google Ads
+SUMM-C00546,SUMM-L00696,Local Services Ads,0,missed,0,2026-07-10 11:55:39,Call Tracking
+SUMM-C00547,SUMM-L00771,Meta Click-to-Call,78,answered_info,0,2026-07-10 23:43:04,Meta Ads
+SUMM-C00548,SUMM-L00674,Meta Click-to-Call,0,missed,0,2026-07-11 03:34:19,Meta Ads
+SUMM-C00549,SUMM-L00894,Referral Line,418,answered_info,0,2026-07-11 06:20:17,Referral
+SUMM-C00550,SUMM-L00781,Google Ads Call Extension,286,answered_info,0,2026-07-11 06:42:02,Google Ads
+SUMM-C00551,SUMM-L00894,Referral Line,268,answered_info,0,2026-07-11 07:21:59, referal 
+SUMM-C00552,SUMM-L00751,Google Ads Call Extension,310,answered_info,0,2026-07-11 08:07:51,Google Ads
+SUMM-C00553,SUMM-L00977,Google Ads Call Extension,102,answered_info,0,2026-07-11 09:40:39,Google Ads
+SUMM-C00554,SUMM-L00935,Local Services Ads,161,answered_info,0,2026-07-11 10:11:41,Call Tracking
+SUMM-C00555,SUMM-L00948,Outbound Callback Number,59,answered_info,0,2026-07-11 14:52:49,Outbound
+SUMM-C00556,SUMM-L00253,Outbound Callback Number,117,answered_info,0,2026-07-11 23:49:31, sdr program 
+SUMM-C00557,SUMM-L00957,Local Services Ads,0,missed,0,2026-07-12 01:06:56,Call Tracking
+SUMM-C00558,SUMM-L00948,Outbound Callback Number,0,missed,0,2026-07-12 03:01:06,Outbound
+SUMM-C00559,SUMM-L00988,Local Services Ads,378,answered_info,0,2026-07-12 05:55:08,Phone
+SUMM-C00560,SUMM-L00989,Local Services Ads,0,missed,0,2026-07-12 09:17:08, local services ads 
+SUMM-C00561,SUMM-L00967,Google Ads Call Extension,64,answered_info,0,2026-07-12 09:33:54,Google Ads
+SUMM-C00562,SUMM-L00828,Google Business Profile,59,answered_info,0,2026-07-12 11:15:59,Call Tracking
+SUMM-C00563,SUMM-L00830,Google Business Profile,0,missed,0,2026-07-12 12:26:56,Call Tracking
+SUMM-C00564,SUMM-L00986,Local Services Ads,360,answered_info,0,2026-07-12 13:44:12,Call Tracking
+SUMM-C00565,SUMM-L00980,Google Business Profile,31,voicemail,0,2026-07-12 16:34:39, phone 
+SUMM-C00566,SUMM-L00993,Google Business Profile,0,missed,0,2026-07-12 19:58:44,Call Tracking
+SUMM-C00567,SUMM-L00878,Local Services Ads,213,answered_info,0,2026-07-12 23:07:43,Call Tracking
+SUMM-C00568,SUMM-L00765,Google Business Profile,155,answered_info,0,2026-07-12 23:11:38,Call Tracking
+SUMM-C00569,SUMM-L00996,Google Business Profile,130,answered_info,0,2026-07-13 02:30:28,Call Tracking
+SUMM-C00570,SUMM-L01002,Local Services Ads,0,missed,0,2026-07-13 09:29:36,Call Tracking
+SUMM-C00571,SUMM-L01003,Google Business Profile,98,answered_info,0,2026-07-13 10:37:23,Call Tracking
+SUMM-C00572,SUMM-L01004,Local Services Ads,114,answered_info,0,2026-07-13 11:15:16,Call Tracking
+SUMM-C00573,SUMM-L00720,Google Business Profile,163,answered_info,0,2026-07-13 12:55:15,Local Services Ads
+SUMM-C00574,SUMM-L00854,Referral Line,415,answered_info,0,2026-07-13 15:48:13,Referral
+SUMM-C00575,SUMM-L00420,Referral Line,409,answered_info,0,2026-07-13 18:53:43,Referal
+SUMM-C00576,SUMM-L00954,Google Business Profile,318,answered_info,0,2026-07-13 22:04:34,Call Tracking
+SUMM-C00577,SUMM-L00958,Local Services Ads,0,missed,0,2026-07-13 23:28:09,Call Tracking
+SUMM-C00578,SUMM-L01009,Local Services Ads,93,answered_info,0,2026-07-14 00:30:33,CALLRAIL + LSA
+SUMM-C00579,SUMM-L00828,Google Business Profile,157,answered_info,0,2026-07-14 00:57:15,Call Tracking
+SUMM-C00580,SUMM-L01000,Local Services Ads,404,answered_info,0,2026-07-14 02:42:44,Call Tracking
+SUMM-C00581,SUMM-L00810,Local Services Ads,419,answered_info,0,2026-07-14 05:03:23,Call Tracking
+SUMM-C00582,SUMM-L00977,Google Ads Call Extension,21,voicemail,0,2026-07-14 06:33:52,Google
+SUMM-C00583,SUMM-L00655,Local Services Ads,226,answered_booked,11650,2026-07-15 03:33:27,Call Tracking
+SUMM-C00584,SUMM-L00909,Outbound Callback Number,61,answered_info,0,2026-07-15 10:58:59,Outbound
+SUMM-C00585,SUMM-L01025,Local Services Ads,70,voicemail,0,2026-07-15 12:22:15,Call Tracking
+SUMM-C00586,SUMM-L00751,Google Ads Call Extension,231,answered_info,0,2026-07-15 19:42:23,Google Ads
+SUMM-C00587,SUMM-L01030,Google Business Profile,244,answered_info,0,2026-07-15 21:19:25,Local services ads
+SUMM-C00588,SUMM-L01022,Local Services Ads,232,answered_info,0,2026-07-16 07:17:40,Call Tracking
+SUMM-C00589,SUMM-L00837,Google Business Profile,0,missed,0,2026-07-16 07:28:37,Call Tracking
+SUMM-C00590,SUMM-L01035,Local Services Ads,317,answered_info,0,2026-07-16 09:16:03,Inbound Call
+SUMM-C00591,SUMM-L00924,Google Ads Call Extension,0,missed,0,2026-07-16 10:27:11,Google Ads
+SUMM-C00592,SUMM-L01038,Google Business Profile,352,answered_info,0,2026-07-16 13:30:31,Callrail + lsa
+SUMM-C00593,SUMM-L01031,Local Services Ads,48,voicemail,0,2026-07-16 15:12:54,Call Tracking
+SUMM-C00594,SUMM-L01041,Google Business Profile,61,voicemail,0,2026-07-16 16:01:15,Callrail + lsa
+SUMM-C00595,SUMM-L01048,Google Business Profile,236,answered_info,0,2026-07-16 17:39:39,Call Tracking
+SUMM-C00596,SUMM-L01050,Google Business Profile,0,missed,0,2026-07-16 21:34:24,Call Tracking
+SUMM-C00597,SUMM-L01051,Google Business Profile,303,answered_info,0,2026-07-16 23:42:35,Call Tracking
+SUMM-C00598,SUMM-L00771,Google Business Profile,0,missed,0,2026-07-17 05:41:49,Call Tracking
+SUMM-C00599,SUMM-L00996,Google Business Profile,0,missed,0,2026-07-18 07:34:42,Call Tracking
+SUMM-C00600,SUMM-L00766,Local Services Ads,161,answered_info,0,2026-07-18 13:24:26,inbound call
+SUMM-C00601,SUMM-L01052,Referral Line,285,answered_info,0,2026-07-18 13:36:39, referral payouts 
+SUMM-C00602,SUMM-L00735,Google Business Profile,244,answered_info,0,2026-07-18 15:34:10,Call Tracking
+SUMM-C00603,SUMM-L01046,Google Ads Call Extension,0,missed,0,2026-07-18 20:47:22,Google Ads
+SUMM-C00604,SUMM-L01003,Local Services Ads,249,answered_info,0,2026-07-18 21:14:36,INBOUND CALL
+SUMM-C00605,SUMM-L01067,Google Business Profile,363,answered_info,0,2026-07-19 18:44:40,Call Tracking
+SUMM-C00606,SUMM-L01034,Local Services Ads,335,answered_info,0,2026-07-19 19:04:50,Call Tracking
+SUMM-C00607,SUMM-L01054,Outbound Callback Number,412,answered_info,0,2026-07-19 20:13:50,Outbound
+SUMM-C00608,SUMM-L00140,Local Services Ads,0,missed,0,2026-07-19 20:27:55,Callrail
+SUMM-C00609,SUMM-L00878,Google Business Profile,338,answered_info,0,2026-07-20 03:43:21,Call Tracking
+SUMM-C00610,SUMM-L01023,Google Business Profile,0,missed,0,2026-07-20 15:13:32,phone
+SUMM-C00611,SUMM-L01026,Local Services Ads,197,answered_info,0,2026-07-20 17:23:09,Call Tracking
+SUMM-C00612,SUMM-L00797,Outbound Callback Number,257,answered_info,0,2026-07-20 20:09:40,Outbound
+SUMM-C00613,SUMM-L00910,Google Ads Call Extension,0,missed,0,2026-07-20 20:30:14, ppc 
+SUMM-C00614,SUMM-L00898,Outbound Callback Number,0,missed,0,2026-07-21 05:20:47,Outbound
+SUMM-C00615,SUMM-L01087,Local Services Ads,243,answered_info,0,2026-07-21 11:10:33,CALLRAIL
+SUMM-C00616,SUMM-L01089,Local Services Ads,271,answered_info,0,2026-07-21 13:12:21,Call Tracking
+SUMM-C00617,SUMM-L01071,Google Business Profile,0,missed,0,2026-07-21 14:51:03,Call Tracking
+SUMM-C00618,SUMM-L00890,Outbound Callback Number,0,missed,0,2026-07-21 14:58:56,COLD EMAIL
+SUMM-C00619,SUMM-L01066,Google Business Profile,81,answered_info,0,2026-07-21 17:26:50,callrail + lsa
+SUMM-C00620,SUMM-L01093,Google Business Profile,354,answered_info,0,2026-07-21 20:05:29,Call Tracking
+SUMM-C00621,SUMM-L01019,Local Services Ads,39,voicemail,0,2026-07-22 00:25:03,Call Tracking
+SUMM-C00622,SUMM-L00842,Local Services Ads,292,answered_info,0,2026-07-22 05:13:37,Call Tracking
+SUMM-C00623,SUMM-L00921,Google Ads Call Extension,159,answered_info,0,2026-07-22 05:34:15,Google Ads
+SUMM-C00624,SUMM-L01098,Local Services Ads,183,answered_info,0,2026-07-22 08:56:35,Inbound call
+SUMM-C00625,SUMM-L01073,Google Ads Call Extension,183,answered_info,0,2026-07-22 09:56:29,Google Ads
+SUMM-C00626,SUMM-L01099,Local Services Ads,357,answered_info,0,2026-07-22 10:06:44,Call Tracking
+SUMM-C00627,SUMM-L00879,Meta Click-to-Call,240,answered_info,0,2026-07-22 11:07:19,Meta Ads
+SUMM-C00628,SUMM-L01016,Google Ads Call Extension,222,answered_info,0,2026-07-22 15:44:43,Google Ads
+SUMM-C00629,SUMM-L01101,Local Services Ads,473,answered_booked,0,2026-07-22 20:12:36,Call Tracking
+SUMM-C00630,SUMM-L00836,Local Services Ads,0,missed,0,2026-07-22 22:36:14,Call Tracking
+SUMM-C00631,SUMM-L00877,Local Services Ads,286,answered_booked,0,2026-07-23 05:32:01,Call Tracking
+SUMM-C00632,SUMM-L01065,Google Business Profile,0,missed,0,2026-07-23 12:58:05,Call Tracking
+SUMM-C00633,SUMM-L01110,Google Business Profile,0,missed,0,2026-07-23 14:18:33,Call Tracking
+SUMM-C00634,SUMM-L00936,Local Services Ads,45,answered_info,0,2026-07-23 14:56:03,Call Tracking
+SUMM-C00635,SUMM-L01112,Local Services Ads,763,answered_booked,3500,2026-07-23 17:27:39,Call Tracking
+SUMM-C00636,SUMM-L01111,Google Ads Call Extension,211,answered_info,0,2026-07-23 23:38:43,GOOGLE ADS SEARCH
+SUMM-C00637,SUMM-L01071,Outbound Callback Number,234,answered_info,0,2026-07-24 01:37:22,Outbound
+SUMM-C00638,SUMM-L00978,Referral Line,346,answered_info,0,2026-07-24 02:36:22,Referral
+SUMM-C00639,SUMM-L01114,Google Business Profile,263,answered_info,0,2026-07-24 02:45:52,Callrail + Lsa
+SUMM-C00640,SUMM-L00836,Outbound Callback Number,0,missed,0,2026-07-24 05:12:33,Outbound
+SUMM-C00641,SUMM-L01116,Local Services Ads,69,voicemail,0,2026-07-24 05:53:40,PHONE
+SUMM-C00642,SUMM-L01127,Google Business Profile,0,missed,0,2026-07-24 14:12:11,INBOUND CALL
+SUMM-C00643,SUMM-L01129,Google Business Profile,0,missed,0,2026-07-24 16:02:41,Call Tracking
+SUMM-C00644,SUMM-L00820,Google Business Profile,129,answered_info,0,2026-07-24 19:10:16,Call Tracking
+SUMM-C00645,SUMM-L00957,Local Services Ads,240,answered_info,0,2026-07-24 20:25:01,Call Tracking
+SUMM-C00646,SUMM-L01131,Local Services Ads,189,answered_info,0,2026-07-24 22:07:33,Callrail
+SUMM-C00647,SUMM-L01136,Local Services Ads,102,answered_info,0,2026-07-25 17:19:59,Call Tracking
+SUMM-C00648,SUMM-L01138,Local Services Ads,0,missed,0,2026-07-25 17:29:57,Call Tracking
+SUMM-C00649,SUMM-L00909,Google Business Profile,417,answered_info,0,2026-07-25 23:12:47,Call Tracking
+SUMM-C00650,SUMM-L00974,Meta Click-to-Call,40,voicemail,0,2026-07-26 04:58:14,paid social
+SUMM-C00651,SUMM-L01122,Google Business Profile,250,answered_info,0,2026-07-26 09:03:14,Call Tracking
+SUMM-C00652,SUMM-L01141,Google Business Profile,129,answered_info,0,2026-07-26 09:04:43,Call Tracking
+SUMM-C00653,SUMM-L01033,Google Business Profile,360,answered_info,0,2026-07-26 19:06:07,Call Tracking
+SUMM-C00654,SUMM-L00900,Google Business Profile,0,missed,0,2026-07-26 19:20:25,CALLRAIL
+SUMM-C00655,SUMM-L01144,Local Services Ads,48,voicemail,0,2026-07-26 19:29:05,Callrail
+SUMM-C00656,SUMM-L01106,Local Services Ads,269,answered_info,0,2026-07-26 23:39:41,Call Tracking
+SUMM-C00657,SUMM-L01149,Local Services Ads,739,answered_booked,7700,2026-07-27 05:34:11,Call Tracking
+SUMM-C00658,SUMM-L01142,Local Services Ads,194,answered_info,0,2026-07-27 10:42:08,Call Tracking
+SUMM-C00659,SUMM-L01154,Google Business Profile,0,missed,0,2026-07-27 12:08:55,Call Tracking
+SUMM-C00660,SUMM-L00851,Google Business Profile,102,answered_info,0,2026-07-27 13:42:48,Callrail
+SUMM-C00661,SUMM-L01157,Local Services Ads,162,answered_info,0,2026-07-27 15:04:50,Call Tracking
+SUMM-C00662,SUMM-L01085,Outbound Callback Number,406,answered_info,0,2026-07-27 18:42:47,Outbound
+SUMM-C00663,SUMM-L01144,Google Business Profile,29,voicemail,0,2026-07-27 20:52:19,Phone
+SUMM-C00664,SUMM-L00919,Local Services Ads,0,missed,0,2026-07-28 00:03:00,Callrail + Lsa
+SUMM-C00665,SUMM-L00918,Google Ads Call Extension,124,answered_info,0,2026-07-28 04:00:36,Google Ads
+SUMM-C00666,SUMM-L01167,Local Services Ads,258,answered_booked,11750,2026-07-28 14:30:59,callrail + lsa
+SUMM-C00667,SUMM-L01056,Outbound Callback Number,102,answered_info,0,2026-07-28 17:05:23,Outbound
+SUMM-C00668,SUMM-L01105,Local Services Ads,65,voicemail,0,2026-07-29 08:25:32,Call Tracking
+SUMM-C00669,SUMM-L01175,Google Business Profile,0,missed,0,2026-07-29 11:32:57,Call Tracking
+SUMM-C00670,SUMM-L01061,Local Services Ads,352,answered_info,0,2026-07-29 12:24:49,Call Tracking
+SUMM-C00671,SUMM-L01176,Google Business Profile,137,answered_info,0,2026-07-29 13:54:38,Callrail + Lsa
+SUMM-C00672,SUMM-L01089,Local Services Ads,0,missed,0,2026-07-29 15:47:06,callrail + lsa
+SUMM-C00673,SUMM-L01178,Local Services Ads,0,missed,0,2026-07-29 17:33:04,Call Tracking
+SUMM-C00674,SUMM-L01063,Google Business Profile,134,answered_info,0,2026-07-29 18:51:20,Call Tracking
+SUMM-C00675,SUMM-L01174,Local Services Ads,126,answered_info,0,2026-07-29 19:05:36,Call Tracking
+SUMM-C00676,SUMM-L01100,Meta Click-to-Call,0,missed,0,2026-07-29 21:50:03,Meta Ads
+SUMM-C00677,SUMM-L00903,Local Services Ads,110,answered_info,0,2026-07-30 00:36:05,Call Tracking
+SUMM-C00678,SUMM-L01056,Local Services Ads,137,answered_info,0,2026-07-30 08:50:11,Call Tracking
+SUMM-C00679,SUMM-L01187,Local Services Ads,0,missed,0,2026-07-30 09:28:36,Call Tracking
+SUMM-C00680,SUMM-L01192,Local Services Ads,0,missed,0,2026-07-30 18:58:26,Call Tracking
+SUMM-C00681,SUMM-L01028,Outbound Callback Number,497,answered_booked,0,2026-07-31 00:40:46,Sdr
+SUMM-C00682,SUMM-L01194,Local Services Ads,0,missed,0,2026-07-31 03:41:24,LOCAL SERVICES ADS
+SUMM-C00683,SUMM-L00861,Google Business Profile,604,answered_booked,0,2026-07-31 03:42:34,Callrail + Lsa
+SUMM-C00684,SUMM-L01195,Local Services Ads,429,answered_booked,0,2026-07-31 06:32:27,Call Tracking
+SUMM-C00685,SUMM-L01111,Google Business Profile,0,missed,0,2026-07-31 07:19:51,Call Tracking
+SUMM-C00686,SUMM-L01033,Meta Click-to-Call,123,answered_info,0,2026-07-31 12:55:57,Meta
+SUMM-C00687,SUMM-L00867,Google Ads Call Extension,231,answered_info,0,2026-07-31 13:20:56,Google Ads
+SUMM-C00688,SUMM-L01059,Google Ads Call Extension,476,answered_booked,0,2026-08-01 01:16:38,Google Ads
+SUMM-C00689,SUMM-L01208,Local Services Ads,269,answered_info,0,2026-08-01 04:06:46,Call Tracking
+SUMM-C00690,SUMM-L01153,Google Business Profile,230,answered_info,20100,2026-08-01 06:52:56,Call Tracking
+SUMM-C00691,SUMM-L01201,Local Services Ads,0,missed,0,2026-08-01 10:12:55,Call Tracking
+SUMM-C00692,SUMM-L01209,Google Business Profile,58,answered_info,0,2026-08-01 12:18:52,Call Tracking
+SUMM-C00693,SUMM-L01210,Google Business Profile,279,answered_booked,0,2026-08-01 17:18:48,Call Tracking
+SUMM-C00694,SUMM-L01083,Local Services Ads,143,answered_info,0,2026-08-01 17:55:03,Call Tracking
+SUMM-C00695,SUMM-L01028,Local Services Ads,427,answered_booked,0,2026-08-01 23:57:19,Call Tracking
+SUMM-C00696,SUMM-L01202,Google Ads Call Extension,0,missed,0,2026-08-02 01:29:22,Google Ads
+SUMM-C00697,SUMM-L01213,Local Services Ads,0,missed,0,2026-08-02 08:17:36,Call Tracking
+SUMM-C00698,SUMM-L00727,Local Services Ads,759,answered_booked,0,2026-08-02 09:36:23,Call Tracking
+SUMM-C00699,SUMM-L01089,Google Business Profile,0,missed,0,2026-08-02 12:29:59,Local Services Ads
+SUMM-C00700,SUMM-L01214,Google Business Profile,258,answered_info,0,2026-08-02 17:23:24,Call Tracking
+SUMM-C00701,SUMM-L01217,Google Business Profile,0,missed,0,2026-08-02 23:40:57,Call Tracking
+SUMM-C00702,SUMM-L01072,Outbound Callback Number,0,missed,0,2026-08-03 02:21:36,Outbound
+SUMM-C00703,SUMM-L01220,Local Services Ads,102,answered_info,0,2026-08-03 05:22:12,Call Tracking
+SUMM-C00704,SUMM-L01019,Google Ads Call Extension,140,answered_info,0,2026-08-03 08:22:21,Google Ads
+SUMM-C00705,SUMM-L01223,Google Business Profile,207,answered_info,0,2026-08-03 09:22:52,Call Tracking
+SUMM-C00706,SUMM-L01224,Google Business Profile,71,voicemail,3500,2026-08-03 10:29:24,Call Tracking
+SUMM-C00707,SUMM-L01105,Google Ads Call Extension,241,answered_info,0,2026-08-03 11:40:58,Google Ads
+SUMM-C00708,SUMM-L01067,Google Business Profile,166,answered_info,0,2026-08-03 16:01:08,CALLRAIL
+SUMM-C00709,SUMM-L01230,Local Services Ads,389,answered_info,0,2026-08-03 17:08:12,Call Tracking
+SUMM-C00710,SUMM-L01124,Local Services Ads,0,missed,0,2026-08-04 00:40:33,Callrail + lsa
+SUMM-C00711,SUMM-L01083,Meta Click-to-Call,0,missed,0,2026-08-04 04:32:31,Paid Social
+SUMM-C00712,SUMM-L01231,Outbound Callback Number,0,missed,0,2026-08-04 08:12:02,Outbound
+SUMM-C00713,SUMM-L01024,Google Business Profile,293,answered_info,0,2026-08-04 09:52:58,Call Tracking
+SUMM-C00714,SUMM-L01195,Local Services Ads,50,voicemail,0,2026-08-04 11:45:19,Call Tracking
+SUMM-C00715,SUMM-L01231,Google Business Profile,618,answered_booked,0,2026-08-04 14:26:55,Call Tracking
+SUMM-C00716,SUMM-L01235,Google Business Profile,336,answered_info,0,2026-08-04 17:03:40,callrail + lsa
+SUMM-C00717,SUMM-L01216,Local Services Ads,254,answered_info,0,2026-08-05 03:14:42,Call Tracking
+SUMM-C00718,SUMM-L01067,Local Services Ads,237,answered_info,0,2026-08-05 14:54:26,Call Tracking
+SUMM-C00719,SUMM-L01059,Google Business Profile,335,answered_booked,0,2026-08-05 19:45:05,Callrail
+SUMM-C00720,SUMM-L01245,Outbound Callback Number,0,missed,0,2026-08-06 00:34:10,SDR
+SUMM-C00721,SUMM-L01038,Local Services Ads,126,answered_info,0,2026-08-06 04:11:47,Local services ads
+SUMM-C00722,SUMM-L01236,Google Ads Call Extension,0,missed,0,2026-08-06 04:32:55,Google Ads
+SUMM-C00723,SUMM-L01031,Local Services Ads,417,answered_info,0,2026-08-06 07:37:52,Call Tracking
+SUMM-C00724,SUMM-L00980,Google Business Profile,0,missed,0,2026-08-06 11:24:33,Call Tracking
+SUMM-C00725,SUMM-L01251,Local Services Ads,245,answered_info,0,2026-08-06 11:58:23,Call Tracking
+SUMM-C00726,SUMM-L00957,Meta Click-to-Call,0,missed,0,2026-08-07 00:02:55,Instagram
+SUMM-C00727,SUMM-L01232,Google Ads Call Extension,46,answered_info,0,2026-08-07 00:32:28, google 
+SUMM-C00728,SUMM-L01259,Google Business Profile,29,voicemail,0,2026-08-07 02:31:08,Call Tracking
+SUMM-C00729,SUMM-L01059,Google Business Profile,0,missed,0,2026-08-07 04:16:42,Call Tracking
+SUMM-C00730,SUMM-L01131,Google Business Profile,410,answered_info,0,2026-08-07 04:28:45,Callrail
+SUMM-C00731,SUMM-L01229,Local Services Ads,201,answered_info,0,2026-08-07 07:29:52,Call Tracking
+SUMM-C00732,SUMM-L01260,Google Business Profile,0,missed,0,2026-08-07 07:39:09,Callrail
+SUMM-C00733,SUMM-L01100,Local Services Ads,39,voicemail,0,2026-08-07 09:47:22,CALLRAIL
+SUMM-C00734,SUMM-L00971,Meta Click-to-Call,259,answered_info,0,2026-08-07 10:12:53,Meta Ads
+SUMM-C00735,SUMM-L01257,Referral Line,38,voicemail,0,2026-08-07 11:02:24,Referral
+SUMM-C00736,SUMM-L01269,Google Business Profile,195,answered_info,0,2026-08-07 13:33:55,Call Tracking
+SUMM-C00737,SUMM-L01238,Referral Line,179,answered_info,0,2026-08-07 14:05:34,Referral
+SUMM-C00738,SUMM-L01158,Outbound Callback Number,354,answered_info,0,2026-08-07 17:27:29, sdr 
+SUMM-C00739,SUMM-L01272,Local Services Ads,0,missed,0,2026-08-07 17:45:33,Call Tracking
+SUMM-C00740,SUMM-L01274,Local Services Ads,164,answered_info,0,2026-08-07 21:13:30, callrail + lsa 
+SUMM-C00741,SUMM-L01092,Referral Line,68,answered_info,16850,2026-08-07 21:25:21,WORD OF MOUTH
+SUMM-C00742,SUMM-L01276,Google Business Profile,377,answered_booked,0,2026-08-07 22:42:21,Call Tracking
+SUMM-C00743,SUMM-L01016,Google Ads Call Extension,0,missed,0,2026-08-08 01:17:12, adwords 
+SUMM-C00744,SUMM-L00974,Google Business Profile,0,missed,0,2026-08-08 05:36:16,Call Tracking
+SUMM-C00745,SUMM-L01088,Local Services Ads,326,answered_info,0,2026-08-08 05:36:59,Call Tracking
+SUMM-C00746,SUMM-L01279,Local Services Ads,222,answered_info,0,2026-08-08 11:01:58,INBOUND CALL
+SUMM-C00747,SUMM-L01285,Google Business Profile,96,answered_info,0,2026-08-09 02:45:44,Call Tracking
+SUMM-C00748,SUMM-L01286,Local Services Ads,849,answered_booked,4400,2026-08-09 05:05:51,phone
+SUMM-C00749,SUMM-L01111,Google Business Profile,83,answered_info,0,2026-08-09 09:56:36,Call Tracking
+SUMM-C00750,SUMM-L01273,Referral Line,43,voicemail,0,2026-08-09 12:05:59,Referral
+SUMM-C00751,SUMM-L01180,Local Services Ads,399,answered_info,0,2026-08-09 14:49:24,callrail
+SUMM-C00752,SUMM-L01036,Google Business Profile,0,missed,0,2026-08-09 23:54:55,Call Tracking
+SUMM-C00753,SUMM-L01186,Outbound Callback Number,288,answered_info,0,2026-08-10 00:10:18,sdr program
+SUMM-C00754,SUMM-L01100,Meta Click-to-Call,318,answered_info,0,2026-08-10 03:06:13,Meta Ads
+SUMM-C00755,SUMM-L01245,Outbound Callback Number,0,missed,0,2026-08-10 05:46:03,prospecting
+SUMM-C00756,SUMM-L01192,Local Services Ads,182,answered_info,0,2026-08-10 05:57:34,Phone
+SUMM-C00757,SUMM-L01300,Local Services Ads,250,answered_info,0,2026-08-10 15:24:40,Call Tracking
+SUMM-C00758,SUMM-L01033,Meta Click-to-Call,0,missed,0,2026-08-10 17:52:21,Meta
+SUMM-C00759,SUMM-L01097,Google Business Profile,323,answered_booked,0,2026-08-10 21:45:50,Call Tracking
+SUMM-C00760,SUMM-L01018,Local Services Ads,350,answered_info,0,2026-08-11 09:26:20,CALLRAIL
+SUMM-C00761,SUMM-L01308,Google Business Profile,486,answered_booked,7500,2026-08-11 11:34:43,Call Tracking
+SUMM-C00762,SUMM-L01302,Google Business Profile,143,answered_info,0,2026-08-11 18:09:55,Call Tracking
+SUMM-C00763,SUMM-L01289,Google Ads Call Extension,0,missed,0,2026-08-11 18:22:09,adwords
+SUMM-C00764,SUMM-L01315,Local Services Ads,164,answered_info,0,2026-08-11 21:00:35, phone 
+SUMM-C00765,SUMM-L01208,Google Business Profile,51,voicemail,0,2026-08-12 06:23:49,Phone
+SUMM-C00766,SUMM-L01072,Google Business Profile,46,answered_info,0,2026-08-12 09:54:52,Call Tracking
+SUMM-C00767,SUMM-L01320,Google Business Profile,0,missed,0,2026-08-12 10:39:32,Call Tracking
+SUMM-C00768,SUMM-L01036,Google Business Profile,96,answered_info,0,2026-08-12 16:14:29,Call Tracking
+SUMM-C00769,SUMM-L01322,Google Ads Call Extension,0,missed,0,2026-08-13 04:00:28,Google Ads
+SUMM-C00770,SUMM-L01045,Outbound Callback Number,0,missed,0,2026-08-13 07:30:54,outbound - sdr
+SUMM-C00771,SUMM-L01186,Google Business Profile,613,answered_booked,0,2026-08-13 08:01:57,Call Tracking
+SUMM-C00772,SUMM-L01278,Google Business Profile,107,answered_info,0,2026-08-13 15:03:11,Call Tracking
+SUMM-C00773,SUMM-L01192,Local Services Ads,77,answered_info,0,2026-08-14 03:46:26, callrail + lsa 
+SUMM-C00774,SUMM-L01208,Local Services Ads,0,missed,0,2026-08-14 04:38:30,Call Tracking
+SUMM-C00775,SUMM-L01238,Referral Line,209,answered_info,0,2026-08-14 08:35:54,partner referral
+SUMM-C00776,SUMM-L01332,Outbound Callback Number,153,answered_info,0,2026-08-14 09:57:03,Outbound
+SUMM-C00777,SUMM-L01180,Google Business Profile,237,answered_info,0,2026-08-14 10:29:15,phone
+SUMM-C00778,SUMM-L01335,Google Business Profile,57,answered_info,0,2026-08-14 11:33:23, callrail + lsa 
+SUMM-C00779,SUMM-L01327,Local Services Ads,0,missed,0,2026-08-14 17:40:28,Inbound call
+SUMM-C00780,SUMM-L01288,Google Ads Call Extension,0,missed,0,2026-08-15 06:14:39,Google Ads
+SUMM-C00781,SUMM-L01346,Local Services Ads,296,answered_info,0,2026-08-15 15:17:45,Call Tracking
+SUMM-C00782,SUMM-L01348,Google Business Profile,202,answered_info,0,2026-08-15 16:42:42,callrail
+SUMM-C00783,SUMM-L01349,Local Services Ads,0,missed,0,2026-08-15 17:01:48,Call Tracking
+SUMM-C00784,SUMM-L01352,Local Services Ads,242,answered_info,0,2026-08-15 23:41:59,Call Tracking
+SUMM-C00785,SUMM-L01143,Google Business Profile,71,answered_info,0,2026-08-15 23:45:03,Call Tracking
+SUMM-C00786,SUMM-L01353,Local Services Ads,872,answered_booked,3550,2026-08-16 03:07:54,Call Tracking
+SUMM-C00787,SUMM-L01356,Google Business Profile,202,answered_info,0,2026-08-16 07:38:58,INBOUND CALL
+SUMM-C00788,SUMM-L01189,Meta Click-to-Call,35,voicemail,0,2026-08-16 07:43:46,Meta Ads
+SUMM-C00789,SUMM-L01247,Local Services Ads,46,answered_info,0,2026-08-16 10:50:29,Call Tracking
+SUMM-C00790,SUMM-L01361,Google Business Profile,0,missed,0,2026-08-16 17:16:18,Call Tracking
+SUMM-C00791,SUMM-L01245,Outbound Callback Number,271,answered_info,0,2026-08-17 04:09:19,Outbound
+SUMM-C00792,SUMM-L01354,Outbound Callback Number,64,answered_info,0,2026-08-17 05:32:13,Outbound
+SUMM-C00793,SUMM-L01354,Local Services Ads,415,answered_info,0,2026-08-17 06:25:10,Call Tracking
+SUMM-C00794,SUMM-L01196,Google Business Profile,379,answered_info,0,2026-08-17 10:56:31,CALLRAIL + LSA
+SUMM-C00795,SUMM-L01370,Local Services Ads,392,answered_info,0,2026-08-17 14:48:58,INBOUND CALL
+SUMM-C00796,SUMM-L01376,Google Business Profile,429,answered_booked,0,2026-08-17 17:51:54,PHONE
+SUMM-C00797,SUMM-L01370,Google Business Profile,353,answered_info,0,2026-08-17 21:05:58,Inbound call
+SUMM-C00798,SUMM-L01153,Google Business Profile,762,answered_booked,20100,2026-08-17 21:19:21,Call Tracking
+SUMM-C00799,SUMM-L01232,Google Ads Call Extension,264,answered_info,0,2026-08-18 00:17:57,Google Ads
+SUMM-C00800,SUMM-L01323,Google Ads Call Extension,0,missed,0,2026-08-18 04:08:35, ppc 
+SUMM-C00801,SUMM-L01366,Google Ads Call Extension,0,missed,0,2026-08-18 05:34:06,Google Ads
+SUMM-C00802,SUMM-L01209,Google Business Profile,117,answered_info,0,2026-08-18 08:00:58,Call Tracking
+SUMM-C00803,SUMM-L01384,Local Services Ads,217,answered_info,0,2026-08-18 10:59:14,phone
+SUMM-C00804,SUMM-L01283,Google Business Profile,0,missed,0,2026-08-18 12:49:06,Call Tracking
+SUMM-C00805,SUMM-L01148,Local Services Ads,176,answered_info,0,2026-08-18 14:06:31, callrail 
+SUMM-C00806,SUMM-L01295,Local Services Ads,254,answered_info,0,2026-08-18 16:45:49,Callrail
+SUMM-C00807,SUMM-L01390,Local Services Ads,158,answered_info,0,2026-08-19 02:03:10,Local Services Ads
+SUMM-C00808,SUMM-L01295,Meta Click-to-Call,272,answered_info,0,2026-08-19 13:55:43,Meta Ads
+SUMM-C00809,SUMM-L01397,Google Business Profile,251,answered_info,0,2026-08-19 14:51:28,Call Tracking
+SUMM-C00810,SUMM-L01397,Local Services Ads,0,missed,0,2026-08-19 22:48:49,Call Tracking
+SUMM-C00811,SUMM-L01376,Google Business Profile,135,answered_info,0,2026-08-20 00:54:31,Call Tracking
+SUMM-C00812,SUMM-L01241,Local Services Ads,0,missed,0,2026-08-20 02:04:09,Call Tracking
+SUMM-C00813,SUMM-L01397,Google Business Profile,0,missed,0,2026-08-20 02:32:50,Call Tracking
+SUMM-C00814,SUMM-L01367,Local Services Ads,0,missed,0,2026-08-20 05:14:57, phone 
+SUMM-C00815,SUMM-L01308,Google Business Profile,131,answered_info,7500,2026-08-20 16:34:25,Call Tracking
+SUMM-C00816,SUMM-L01407,Local Services Ads,329,answered_booked,0,2026-08-20 20:26:34,Call Tracking
+SUMM-C00817,SUMM-L01248,Google Business Profile,358,answered_info,0,2026-08-20 21:48:58,Call Tracking
+SUMM-C00818,SUMM-L01410,Local Services Ads,0,missed,0,2026-08-21 02:15:47,Call Tracking
+SUMM-C00819,SUMM-L01397,Google Business Profile,87,answered_info,0,2026-08-21 03:41:18,Inbound Call
+SUMM-C00820,SUMM-L01378,Outbound Callback Number,886,answered_booked,0,2026-08-21 04:56:35,Outbound
+SUMM-C00821,SUMM-L01411,Local Services Ads,371,answered_info,0,2026-08-21 05:43:29,Call Tracking
+SUMM-C00822,SUMM-L01260,Google Business Profile,171,answered_info,0,2026-08-21 09:45:35,Call Tracking
+SUMM-C00823,SUMM-L01419,Local Services Ads,0,missed,0,2026-08-21 10:14:30,Call Tracking
+SUMM-C00824,SUMM-L01421,Local Services Ads,0,missed,0,2026-08-21 14:54:40,Call Tracking
+SUMM-C00825,SUMM-L01422,Google Business Profile,70,answered_info,0,2026-08-21 15:03:03,Call Tracking
+SUMM-C00826,SUMM-L01321,Local Services Ads,411,answered_info,0,2026-08-21 19:27:20,callrail
+SUMM-C00827,SUMM-L01423,Google Business Profile,0,missed,0,2026-08-22 02:10:31,INBOUND CALL
+SUMM-C00828,SUMM-L01424,Local Services Ads,59,voicemail,0,2026-08-22 02:44:27,Call Tracking
+SUMM-C00829,SUMM-L01234,Local Services Ads,0,missed,0,2026-08-22 04:22:53,Call Tracking
+SUMM-C00830,SUMM-L01212,Google Business Profile,101,answered_info,0,2026-08-22 09:50:15,Call Tracking
+SUMM-C00831,SUMM-L01261,Outbound Callback Number,164,answered_info,0,2026-08-22 12:22:33,Outbound
+SUMM-C00832,SUMM-L01428,Local Services Ads,322,answered_info,0,2026-08-22 15:19:53,Call Tracking
+SUMM-C00833,SUMM-L01380,Local Services Ads,0,missed,0,2026-08-22 15:53:16,Callrail + Lsa
+SUMM-C00834,SUMM-L01133,Google Business Profile,291,answered_info,0,2026-08-22 17:07:07,Call Tracking
+SUMM-C00835,SUMM-L01302,Outbound Callback Number,156,answered_info,0,2026-08-22 22:23:09,Outbound
+SUMM-C00836,SUMM-L01380,Google Business Profile,263,answered_info,0,2026-08-22 23:30:16,Call Tracking
+SUMM-C00837,SUMM-L01323,Google Business Profile,67,answered_info,0,2026-08-23 06:46:52, inbound call 
+SUMM-C00838,SUMM-L01346,Local Services Ads,190,answered_info,0,2026-08-23 09:40:15,Call Tracking
+SUMM-C00839,SUMM-L01409,Local Services Ads,399,answered_info,0,2026-08-23 20:15:42,Call Tracking
+SUMM-C00840,SUMM-L01288,Google Ads Call Extension,0,missed,0,2026-08-24 01:39:50,Google Ads
+SUMM-C00841,SUMM-L01439,Google Business Profile,84,answered_info,0,2026-08-24 03:12:18,Call Tracking
+SUMM-C00842,SUMM-L01443,Local Services Ads,163,answered_info,0,2026-08-24 08:09:53,CALLRAIL + LSA
+SUMM-C00843,SUMM-L01447,Google Business Profile,109,answered_info,0,2026-08-24 13:37:52,Call Tracking
+SUMM-C00844,SUMM-L01323,Google Ads Call Extension,0,missed,0,2026-08-24 17:43:22,Google Ads
+SUMM-C00845,SUMM-L01448,Google Business Profile,330,answered_info,0,2026-08-24 18:26:35,Call Tracking
+SUMM-C00846,SUMM-L01196,Google Business Profile,396,answered_info,0,2026-08-24 20:10:02,Call Tracking
+SUMM-C00847,SUMM-L01240,Google Business Profile,0,missed,0,2026-08-25 07:56:53,Call Tracking
+SUMM-C00848,SUMM-L01453,Google Business Profile,71,answered_info,0,2026-08-25 08:30:31,local services ads
+SUMM-C00849,SUMM-L01212,Outbound Callback Number,0,missed,0,2026-08-25 08:40:50,Sdr program
+SUMM-C00850,SUMM-L01321,Google Ads Call Extension,245,answered_info,0,2026-08-25 11:59:14,Google_cpc
+SUMM-C00851,SUMM-L01249,Local Services Ads,147,answered_info,0,2026-08-25 16:33:24,Call Tracking
+SUMM-C00852,SUMM-L01459,Google Business Profile,240,answered_info,0,2026-08-25 19:44:19,Local Services Ads
+SUMM-C00853,SUMM-L01274,Referral Line,45,answered_info,0,2026-08-26 03:45:15,Referral
+SUMM-C00854,SUMM-L01330,Google Business Profile,0,missed,0,2026-08-26 10:46:23,Local Services Ads
+SUMM-C00855,SUMM-L01409,Google Business Profile,0,missed,0,2026-08-26 13:51:25,Call Tracking
+SUMM-C00856,SUMM-L01466,Google Business Profile,192,answered_info,0,2026-08-26 13:53:38,Call Tracking
+SUMM-C00857,SUMM-L01381,Google Business Profile,237,answered_info,0,2026-08-26 16:55:21,Call Tracking
+SUMM-C00858,SUMM-L01278,Google Ads Call Extension,49,answered_info,0,2026-08-27 06:07:06,Google Ads
+SUMM-C00859,SUMM-L01311,Google Ads Call Extension,225,answered_info,0,2026-08-27 12:28:05,ADWORDS
+SUMM-C00860,SUMM-L01440,Meta Click-to-Call,0,missed,0,2026-08-27 12:37:10, fb 
+SUMM-C00861,SUMM-L01475,Google Business Profile,0,missed,0,2026-08-27 16:09:15,Phone
+SUMM-C00862,SUMM-L01479,Google Business Profile,708,answered_booked,1450,2026-08-27 19:24:43,Phone
+SUMM-C00863,SUMM-L01473,Local Services Ads,0,missed,0,2026-08-27 22:36:08,Call Tracking
+SUMM-C00864,SUMM-L01479,Local Services Ads,241,answered_info,1450,2026-08-27 23:31:40,Call Tracking
+SUMM-C00865,SUMM-L01409,Referral Line,258,answered_info,0,2026-08-27 23:40:46,REFERAL
+SUMM-C00866,SUMM-L01483,Local Services Ads,695,answered_booked,3000,2026-08-28 03:41:35, phone 
+SUMM-C00867,SUMM-L01392,Meta Click-to-Call,0,missed,0,2026-08-28 12:25:20,Meta Ads
+SUMM-C00868,SUMM-L01483,Local Services Ads,806,answered_booked,3000,2026-08-28 13:46:17,Callrail
+SUMM-C00869,SUMM-L01232,Local Services Ads,382,answered_info,0,2026-08-28 14:42:26,Call Tracking
+SUMM-C00870,SUMM-L01247,Referral Line,174,answered_info,0,2026-08-28 15:38:29,REFERRAL PAYOUTS
+SUMM-C00871,SUMM-L01492,Google Business Profile,55,answered_info,0,2026-08-28 17:41:11,Inbound call
+SUMM-C00872,SUMM-L01493,Local Services Ads,239,answered_info,0,2026-08-28 17:43:08,Call Tracking
+SUMM-C00873,SUMM-L01483,Local Services Ads,822,answered_booked,3000,2026-08-29 03:27:52,Callrail
+SUMM-C00874,SUMM-L01264,Google Ads Call Extension,53,voicemail,0,2026-08-29 08:46:43,Google Ads
+SUMM-C00875,SUMM-L01270,Google Business Profile,66,answered_info,0,2026-08-29 15:38:28,Call Tracking
+SUMM-C00876,SUMM-L01501,Local Services Ads,166,answered_info,0,2026-08-29 19:44:38,Call Tracking
+SUMM-C00877,SUMM-L01400,Google Business Profile,157,answered_info,0,2026-08-30 01:54:20,Call Tracking
+SUMM-C00878,SUMM-L01504,Google Business Profile,137,answered_info,0,2026-08-30 09:02:17, callrail + lsa 
+SUMM-C00879,SUMM-L01491,Meta Click-to-Call,84,answered_info,0,2026-08-30 09:53:25,Meta Ads
+SUMM-C00880,SUMM-L01507,Google Business Profile,0,missed,0,2026-08-30 11:30:43,phone
+SUMM-C00881,SUMM-L01226,Outbound Callback Number,49,voicemail,0,2026-08-30 12:11:54,Outbound
+SUMM-C00882,SUMM-L01260,Google Business Profile,391,answered_info,0,2026-08-30 13:07:39, phone 
+SUMM-C00883,SUMM-L01508,Google Business Profile,0,missed,0,2026-08-30 15:14:22,Call Tracking
+SUMM-C00884,SUMM-L01509,Google Business Profile,0,missed,0,2026-08-30 19:17:07,CALLRAIL + LSA
+SUMM-C00885,SUMM-L01454,Google Business Profile,141,answered_info,0,2026-08-30 21:26:44,Call Tracking
+SUMM-C00886,SUMM-L01513,Local Services Ads,51,answered_info,0,2026-08-31 06:25:56,Call Tracking
+SUMM-C00887,SUMM-L01511,Outbound Callback Number,0,missed,0,2026-08-31 13:43:29,Outbound
+SUMM-C00888,SUMM-L01350,Local Services Ads,192,answered_info,0,2026-08-31 17:02:28,Call Tracking
+SUMM-C00889,SUMM-L01481,Referral Line,0,missed,0,2026-08-31 20:27:40,Referral
+SUMM-C00890,SUMM-L01305,Outbound Callback Number,115,answered_info,0,2026-08-31 23:47:40,Sdr
+SUMM-C00891,SUMM-L01302,Outbound Callback Number,365,answered_info,0,2026-09-01 02:00:28, sdr program 
+SUMM-C00892,SUMM-L01514,Outbound Callback Number,258,answered_info,0,2026-09-01 03:34:51,Outbound
+SUMM-C00893,SUMM-L01358,Local Services Ads,250,answered_booked,0,2026-09-01 18:20:46,Call Tracking
+SUMM-C00894,SUMM-L01428,Local Services Ads,338,answered_info,0,2026-09-02 07:26:16,Callrail + Lsa
+SUMM-C00895,SUMM-L01532,Local Services Ads,0,missed,0,2026-09-02 11:49:24,Call Tracking
+SUMM-C00896,SUMM-L01400,Google Business Profile,0,missed,0,2026-09-02 12:14:27,callrail + lsa
+SUMM-C00897,SUMM-L01533,Local Services Ads,50,answered_info,0,2026-09-02 15:24:09,Call Tracking
+SUMM-C00898,SUMM-L01525,Google Ads Call Extension,380,answered_info,0,2026-09-02 18:33:46,Adwords
+SUMM-C00899,SUMM-L01417,Outbound Callback Number,203,answered_info,0,2026-09-02 22:59:57,Outbound
+SUMM-C00900,SUMM-L01342,Outbound Callback Number,0,missed,0,2026-09-03 05:53:24, cold email 
+SUMM-C00901,SUMM-L01355,Outbound Callback Number,84,answered_info,0,2026-09-03 06:14:12,Outbound
+SUMM-C00902,SUMM-L01539,Google Business Profile,320,answered_info,0,2026-09-03 11:03:02,Call Tracking
+SUMM-C00903,SUMM-L01526,Local Services Ads,260,answered_info,0,2026-09-03 11:10:03,Call Tracking
+SUMM-C00904,SUMM-L01540,Google Business Profile,0,missed,0,2026-09-03 16:50:55,Call Tracking
+SUMM-C00905,SUMM-L01541,Google Business Profile,395,answered_info,0,2026-09-03 20:29:06, inbound call 
+SUMM-C00906,SUMM-L01542,Google Business Profile,594,answered_booked,0,2026-09-03 21:26:24,PHONE
+SUMM-C00907,SUMM-L01416,Outbound Callback Number,93,answered_info,0,2026-09-04 05:50:46,Outbound
+SUMM-C00908,SUMM-L01290,Google Ads Call Extension,22,voicemail,0,2026-09-04 09:13:06,Google Ads
+SUMM-C00909,SUMM-L01529,Outbound Callback Number,327,answered_info,0,2026-09-04 11:57:18,Outbound
+SUMM-C00910,SUMM-L01549,Local Services Ads,178,answered_info,0,2026-09-04 16:35:00,Call Tracking
+SUMM-C00911,SUMM-L01446,Google Business Profile,276,answered_info,0,2026-09-05 01:10:43, callrail 
+SUMM-C00912,SUMM-L01551,Local Services Ads,0,missed,0,2026-09-05 02:14:06,Call Tracking
+SUMM-C00913,SUMM-L01555,Google Business Profile,0,missed,0,2026-09-05 10:05:37,local services ads
+SUMM-C00914,SUMM-L01431,Outbound Callback Number,229,answered_info,0,2026-09-05 11:40:43,Outbound
+SUMM-C00915,SUMM-L01367,Local Services Ads,248,answered_info,0,2026-09-05 16:43:00, phone 
+SUMM-C00916,SUMM-L01558,Local Services Ads,266,answered_info,0,2026-09-05 20:00:35,Call Tracking
+SUMM-C00917,SUMM-L01302,Outbound Callback Number,0,missed,0,2026-09-05 22:34:15,Outbound
+SUMM-C00918,SUMM-L01308,Google Business Profile,321,answered_booked,7500,2026-09-06 09:11:00,Call Tracking
+SUMM-C00919,SUMM-L01567,Local Services Ads,53,answered_info,0,2026-09-07 11:47:14,Call Tracking
+SUMM-C00920,SUMM-L01418,Google Business Profile,139,answered_info,0,2026-09-07 13:24:47,Call Tracking
+SUMM-C00921,SUMM-L01319,Google Business Profile,181,answered_info,0,2026-09-07 18:44:22,Call Tracking
+SUMM-C00922,SUMM-L01526,Meta Click-to-Call,266,answered_info,0,2026-09-08 03:55:57,Paid social
+SUMM-C00923,SUMM-L01497,Google Ads Call Extension,240,answered_booked,7450,2026-09-08 03:58:09,Google Ads
+SUMM-C00924,SUMM-L01349,Local Services Ads,0,missed,0,2026-09-08 04:47:57,Inbound call
+SUMM-C00925,SUMM-L01575,Local Services Ads,0,missed,0,2026-09-08 08:02:56,phone
+SUMM-C00926,SUMM-L01579,Google Business Profile,726,answered_booked,0,2026-09-08 13:13:48,Call Tracking
+SUMM-C00927,SUMM-L01580,Google Business Profile,0,missed,0,2026-09-08 14:18:48,Call Tracking
+SUMM-C00928,SUMM-L01502,Local Services Ads,0,missed,0,2026-09-08 21:23:37,Call Tracking
+SUMM-C00929,SUMM-L01569,Referral Line,0,missed,0,2026-09-08 23:58:51,Referral
+SUMM-C00930,SUMM-L01563,Local Services Ads,0,missed,0,2026-09-09 04:23:50,Call Tracking
+SUMM-C00931,SUMM-L01506,Local Services Ads,0,missed,0,2026-09-09 11:51:24,PHONE
+SUMM-C00932,SUMM-L01320,Local Services Ads,399,answered_info,0,2026-09-09 13:16:10,Call Tracking
+SUMM-C00933,SUMM-L01588,Google Business Profile,0,missed,0,2026-09-09 15:23:14,Call Tracking
+SUMM-C00934,SUMM-L01589,Google Business Profile,263,answered_info,0,2026-09-09 16:31:39,local services ads
+SUMM-C00935,SUMM-L01311,Local Services Ads,83,answered_info,0,2026-09-09 18:02:47,Call Tracking
+SUMM-C00936,SUMM-L01486,Referral Line,335,answered_info,0,2026-09-10 12:27:55,Referral
+SUMM-C00937,SUMM-L01601,Google Business Profile,52,voicemail,0,2026-09-10 13:53:59, local services ads 
+SUMM-C00938,SUMM-L01536,Google Business Profile,0,missed,0,2026-09-10 13:54:06,Call Tracking
+SUMM-C00939,SUMM-L01517,Outbound Callback Number,0,missed,0,2026-09-10 13:54:49,Outbound
+SUMM-C00940,SUMM-L01392,Meta Click-to-Call,104,answered_info,0,2026-09-10 18:29:21,Meta Ads
+SUMM-C00941,SUMM-L01514,Outbound Callback Number,184,answered_info,0,2026-09-11 04:54:03, outbound - sdr 
+SUMM-C00942,SUMM-L01606,Google Business Profile,162,answered_info,0,2026-09-11 05:46:11,Call Tracking
+SUMM-C00943,SUMM-L01377,Google Business Profile,67,answered_info,0,2026-09-11 08:18:11, inbound call 
+SUMM-C00944,SUMM-L01608,Google Business Profile,0,missed,0,2026-09-11 15:50:36,LOCAL SERVICES ADS
+SUMM-C00945,SUMM-L01329,Outbound Callback Number,0,missed,0,2026-09-11 18:26:55,Outbound
+SUMM-C00946,SUMM-L01326,Google Business Profile,174,answered_info,0,2026-09-11 20:50:57,Call Tracking
+SUMM-C00947,SUMM-L01510,Outbound Callback Number,0,missed,0,2026-09-12 02:30:15,Outbound
+SUMM-C00948,SUMM-L01536,Google Business Profile,159,answered_info,0,2026-09-12 07:44:48,Call Tracking
+SUMM-C00949,SUMM-L01572,Google Business Profile,0,missed,0,2026-09-12 23:24:38,Call Tracking
+SUMM-C00950,SUMM-L01615,Referral Line,809,answered_booked,3700,2026-09-13 00:14:30,Referral payouts
+SUMM-C00951,SUMM-L01620,Google Business Profile,360,answered_info,0,2026-09-13 02:59:21,Call Tracking
+SUMM-C00952,SUMM-L01342,Outbound Callback Number,221,answered_info,0,2026-09-13 10:20:02,Outbound
+SUMM-C00953,SUMM-L01629,Local Services Ads,411,answered_info,0,2026-09-13 20:43:19,Call Tracking
+SUMM-C00954,SUMM-L01592,Google Business Profile,39,voicemail,0,2026-09-14 08:19:50,CALLRAIL
+SUMM-C00955,SUMM-L01631,Outbound Callback Number,0,missed,0,2026-09-14 08:47:05,Outbound - Sdr
+SUMM-C00956,SUMM-L01634,Local Services Ads,410,answered_info,0,2026-09-14 16:07:51,PHONE
+SUMM-C00957,SUMM-L01620,Local Services Ads,73,answered_info,0,2026-09-14 19:00:28,inbound call
+SUMM-C00958,SUMM-L01615,Referral Line,604,answered_booked,3700,2026-09-14 23:07:29,Referral
+SUMM-C00959,SUMM-L01641,Google Business Profile,412,answered_info,0,2026-09-15 08:29:00, callrail 
+SUMM-C00960,SUMM-L01400,Google Business Profile,140,answered_info,0,2026-09-15 13:58:53,Inbound Call
+SUMM-C00961,SUMM-L01606,Google Business Profile,341,answered_info,0,2026-09-15 14:49:53,Call Tracking
+SUMM-C00962,SUMM-L01527,Local Services Ads,322,answered_info,0,2026-09-15 19:38:50,Callrail + lsa
+SUMM-C00963,SUMM-L01598,Google Business Profile,0,missed,0,2026-09-15 21:15:46,local services ads
+SUMM-C00964,SUMM-L01649,Local Services Ads,282,answered_info,0,2026-09-16 02:14:19,Callrail + lsa
+SUMM-C00965,SUMM-L01650,Local Services Ads,383,answered_info,0,2026-09-16 04:27:12,Call Tracking
+SUMM-C00966,SUMM-L01655,Google Business Profile,149,answered_info,0,2026-09-16 11:24:21,Call Tracking
+SUMM-C00967,SUMM-L01658,Local Services Ads,314,answered_info,0,2026-09-16 13:31:53,Call Tracking
+SUMM-C00968,SUMM-L01660,Local Services Ads,0,missed,0,2026-09-16 13:59:36,Call Tracking
+SUMM-C00969,SUMM-L01660,Google Business Profile,265,answered_info,0,2026-09-16 16:54:20,Callrail
+SUMM-C00970,SUMM-L01653,Referral Line,223,answered_info,0,2026-09-16 19:13:24,Referral
+SUMM-C00971,SUMM-L01660,Local Services Ads,0,missed,0,2026-09-17 01:12:37,LOCAL SERVICES ADS
+SUMM-C00972,SUMM-L01664,Local Services Ads,0,missed,0,2026-09-17 04:37:49,callrail + lsa
+SUMM-C00973,SUMM-L01542,Google Business Profile,271,answered_booked,0,2026-09-17 06:33:29,Call Tracking
+SUMM-C00974,SUMM-L01666,Local Services Ads,83,answered_info,0,2026-09-17 10:22:59,Call Tracking
+SUMM-C00975,SUMM-L01659,Google Ads Call Extension,0,missed,0,2026-09-17 11:01:16,Google Ads
+SUMM-C00976,SUMM-L01666,Local Services Ads,342,answered_info,0,2026-09-17 13:59:16,Callrail + Lsa
+SUMM-C00977,SUMM-L01578,Google Business Profile,255,answered_info,0,2026-09-18 09:53:44,Call Tracking
+SUMM-C00978,SUMM-L01670,Local Services Ads,812,answered_booked,0,2026-09-18 11:50:51,Call Tracking
+SUMM-C00979,SUMM-L01624,Meta Click-to-Call,73,answered_info,0,2026-09-18 12:46:43,Meta Ads
+SUMM-C00980,SUMM-L01416,Local Services Ads,269,answered_info,0,2026-09-18 12:54:41,Callrail
+SUMM-C00981,SUMM-L01663,Referral Line,90,answered_info,0,2026-09-18 20:15:45,Referral
+SUMM-C00982,SUMM-L01640,Google Business Profile,283,answered_info,0,2026-09-18 21:55:39,Callrail
+SUMM-C00983,SUMM-L01674,Google Business Profile,264,answered_info,0,2026-09-18 22:28:25,Call Tracking
+SUMM-C00984,SUMM-L01668,Google Ads Call Extension,216,answered_info,0,2026-09-18 22:55:37,ADWORDS
+SUMM-C00985,SUMM-L01640,Outbound Callback Number,222,answered_info,0,2026-09-19 10:46:22,Outbound
+SUMM-C00986,SUMM-L01466,Google Business Profile,0,missed,0,2026-09-19 14:32:15,Callrail
+SUMM-C00987,SUMM-L01680,Local Services Ads,764,answered_booked,0,2026-09-19 18:27:27,Call Tracking
+SUMM-C00988,SUMM-L01640,Outbound Callback Number,301,answered_info,0,2026-09-20 02:48:16,Outbound
+SUMM-C00989,SUMM-L01663,Referral Line,0,missed,0,2026-09-20 04:48:55,Referral
+SUMM-C00990,SUMM-L01591,Outbound Callback Number,125,answered_info,0,2026-09-20 06:43:24,Outbound
+SUMM-C00991,SUMM-L01579,Local Services Ads,504,answered_booked,0,2026-09-20 20:28:30,callrail
+SUMM-C00992,SUMM-L01433,Outbound Callback Number,100,answered_info,0,2026-09-20 22:55:29,outbound - sdr
+SUMM-C00993,SUMM-L01686,Local Services Ads,570,answered_booked,0,2026-09-21 08:47:44,Call Tracking
+SUMM-C00994,SUMM-L01466,Local Services Ads,232,answered_info,0,2026-09-21 11:53:09,Local services ads
+SUMM-C00995,SUMM-L01677,Google Business Profile,338,answered_info,0,2026-09-21 12:44:53,Call Tracking
+SUMM-C00996,SUMM-L01454,Outbound Callback Number,233,answered_info,0,2026-09-21 19:50:17,Cold email
+SUMM-C00997,SUMM-L01694,Google Business Profile,0,missed,0,2026-09-21 22:56:25,Call Tracking
+SUMM-C00998,SUMM-L01694,Local Services Ads,0,missed,0,2026-09-22 09:38:16,Call Tracking
+SUMM-C00999,SUMM-L01706,Outbound Callback Number,0,missed,0,2026-09-22 13:01:47,OUTBOUND - SDR
+SUMM-C01000,SUMM-L01706,Local Services Ads,0,missed,0,2026-09-22 16:26:51,Call Tracking
+SUMM-C01001,SUMM-L01708,Google Business Profile,158,answered_info,0,2026-09-22 21:23:20,local services ads
+SUMM-C01002,SUMM-L01603,Google Business Profile,79,answered_info,0,2026-09-22 23:46:33,Call Tracking
+SUMM-C01003,SUMM-L01527,Google Business Profile,0,missed,0,2026-09-23 06:24:18,Call Tracking
+SUMM-C01004,SUMM-L01714,Local Services Ads,0,missed,0,2026-09-23 16:01:49,phone
+SUMM-C01005,SUMM-L01689,Google Ads Call Extension,0,missed,0,2026-09-23 20:44:36,Google_cpc
+SUMM-C01006,SUMM-L01718,Local Services Ads,0,missed,0,2026-09-23 21:39:02,callrail + lsa
+SUMM-C01007,SUMM-L01719,Google Business Profile,107,answered_info,0,2026-09-23 23:35:01,Call Tracking
+SUMM-C01008,SUMM-L01650,Google Business Profile,0,missed,0,2026-09-24 04:17:12,Call Tracking
+SUMM-C01009,SUMM-L01725,Google Business Profile,0,missed,0,2026-09-24 13:23:29,Local services ads
+SUMM-C01010,SUMM-L01727,Google Business Profile,239,answered_info,0,2026-09-24 15:10:14,Call Tracking
+SUMM-C01011,SUMM-L01631,Google Business Profile,34,voicemail,0,2026-09-24 19:08:37,CALLRAIL + LSA
+SUMM-C01012,SUMM-L01586,Local Services Ads,0,missed,0,2026-09-25 08:09:48,Phone
+SUMM-C01013,SUMM-L01735,Local Services Ads,210,answered_booked,0,2026-09-25 11:56:28,Local Services Ads
+SUMM-C01014,SUMM-L01738,Google Business Profile,246,answered_info,0,2026-09-25 15:18:23,Call Tracking
+SUMM-C01015,SUMM-L01739,Local Services Ads,58,answered_info,0,2026-09-25 17:19:11,Call Tracking
+SUMM-C01016,SUMM-L01725,Local Services Ads,415,answered_booked,4500,2026-09-26 00:38:05,Call Tracking
+SUMM-C01017,SUMM-L01678,Outbound Callback Number,249,answered_info,0,2026-09-26 08:15:15,Outbound
+SUMM-C01018,SUMM-L01684,Google Business Profile,309,answered_info,0,2026-09-26 09:23:29, callrail + lsa 
+SUMM-C01019,SUMM-L01720,Outbound Callback Number,0,missed,0,2026-09-26 15:41:05,Outbound
+SUMM-C01020,SUMM-L01742,Google Business Profile,50,answered_info,0,2026-09-26 19:04:07,Call Tracking
+SUMM-C01021,SUMM-L01742,Google Business Profile,261,answered_info,0,2026-09-26 22:44:36,Call Tracking
+SUMM-C01022,SUMM-L01742,Local Services Ads,103,answered_info,0,2026-09-27 00:47:57,Call Tracking
+SUMM-C01023,SUMM-L01743,Google Business Profile,197,answered_info,0,2026-09-27 10:10:49,Inbound call
+SUMM-C01024,SUMM-L01592,Google Business Profile,166,answered_info,0,2026-09-27 17:06:27,Call Tracking
+SUMM-C01025,SUMM-L01741,Google Ads Call Extension,326,answered_info,0,2026-09-27 21:46:44,Google Ads
+SUMM-C01026,SUMM-L01725,Google Business Profile,142,answered_info,4500,2026-09-28 00:37:34,Call Tracking
+SUMM-C01027,SUMM-L01684,Local Services Ads,337,answered_info,0,2026-09-28 04:39:58,Call Tracking
+SUMM-C01028,SUMM-L01753,Google Business Profile,58,answered_info,0,2026-09-28 10:57:53,Call Tracking
+SUMM-C01029,SUMM-L01753,Google Business Profile,63,answered_info,0,2026-09-28 11:13:36,Call Tracking
+SUMM-C01030,SUMM-L01753,Google Business Profile,96,answered_info,0,2026-09-28 11:45:32,Call Tracking
+SUMM-C01031,SUMM-L01616,Google Ads Call Extension,390,answered_info,0,2026-09-28 19:01:36,ppc
+SUMM-C01032,SUMM-L01760,Google Business Profile,391,answered_info,0,2026-09-28 19:54:48,Call Tracking
+SUMM-C01033,SUMM-L01704,Outbound Callback Number,444,answered_booked,0,2026-09-29 00:13:45,Outbound
+SUMM-C01034,SUMM-L01616,Google Ads Call Extension,0,missed,0,2026-09-29 00:54:35,Google Ads
+SUMM-C01035,SUMM-L01650,Local Services Ads,305,answered_info,0,2026-09-29 03:55:33,Call Tracking
+SUMM-C01036,SUMM-L01761,Local Services Ads,0,missed,0,2026-09-29 04:20:23,Call Tracking
+SUMM-C01037,SUMM-L01591,Outbound Callback Number,0,missed,0,2026-09-29 06:31:09,Outbound
+SUMM-C01038,SUMM-L01526,Meta Click-to-Call,397,answered_info,0,2026-09-29 08:59:10,Fb
+SUMM-C01039,SUMM-L01722,Google Ads Call Extension,173,answered_info,0,2026-09-29 09:31:29,GOOGLE_CPC
+SUMM-C01040,SUMM-L01764,Google Business Profile,63,voicemail,0,2026-09-29 12:14:56,Call Tracking
+SUMM-C01041,SUMM-L01538,Google Ads Call Extension,135,answered_info,0,2026-09-29 21:44:59,Google Ads
+SUMM-C01042,SUMM-L01779,Google Business Profile,0,missed,0,2026-09-30 16:17:13,Phone

@@ -1,0 +1,33 @@
+portfolio_company,table,field,issue,rows_fixed,example
+Acme MSP,leads,created_date,Non-ISO date format parsed,291,04/01/2026 04:09:35
+Acme MSP,leads,lead_source,Source name mapped to standard channel,551,Google Ads Search
+Acme MSP,leads,email,Email trimmed / lower-cased,255,WENDY.COX@BUTLERLIN.EXAMPLE.COM 
+Acme MSP,leads,utm_source,UTM value trimmed / lower-cased / spaces to underscores,197,Google 
+Acme MSP,leads,utm_campaign,UTM value trimmed / lower-cased / spaces to underscores,169, MSP_Q2_SEARCH_NONBRAND
+Acme MSP,leads,territory,Territory normalized (case / state name),239,Massachusetts
+Acme MSP,leads,email,"Duplicate lead removed (same email, later record)",60,
+Acme MSP,deals,lead_source,Source name mapped to standard channel,107,WORD OF MOUTH
+Acme MSP,deals,stage,Stage label mapped to standard stage,115,closedlost
+Acme MSP,deals,amount,Currency text parsed to number,54,"$23,150"
+Acme MSP,deals,gross_margin,Percent-style margin converted to fraction,108,62.9
+Acme MSP,spend,channel,Source name mapped to standard channel,30,Google_Cpc
+Acme MSP,spend,spend,Currency text parsed to number,30,"$36,265.51"
+Acme MSP,touchpoints,channel,Source name mapped to standard channel,1458,ADWORDS
+Acme MSP,call_tracking,channel,Source name mapped to standard channel,168,Callrail
+Acme MSP,activities,type,Activity type lower-cased,775,
+Summit HVAC,leads,created_date,Non-ISO date format parsed,302,04/01/2026 07:45:42
+Summit HVAC,leads,lead_source,Source name mapped to standard channel,614, sdr 
+Summit HVAC,leads,email,Email trimmed / lower-cased,270,PHILLIP.DICKERSON@TORRESDYERANDCLARK.EXAMPLE.COM 
+Summit HVAC,leads,utm_source,UTM value trimmed / lower-cased / spaces to underscores,151,Facebook 
+Summit HVAC,leads,utm_campaign,UTM value trimmed / lower-cased / spaces to underscores,127,local services
+Summit HVAC,leads,territory,Territory normalized (case / state name),297,California
+Summit HVAC,leads,email,"Duplicate lead removed (same email, later record)",36,
+Summit HVAC,deals,lead_source,Source name mapped to standard channel,252,Sdr program
+Summit HVAC,deals,stage,Stage label mapped to standard stage,243,Closed Lost
+Summit HVAC,deals,amount,Currency text parsed to number,124,"$2,450"
+Summit HVAC,deals,gross_margin,Percent-style margin converted to fraction,223,35.1
+Summit HVAC,spend,channel,Source name mapped to standard channel,30,Prospecting
+Summit HVAC,spend,spend,Currency text parsed to number,30,"$25,236.44"
+Summit HVAC,touchpoints,channel,Source name mapped to standard channel,1508,sdr
+Summit HVAC,call_tracking,channel,Source name mapped to standard channel,358,PHONE
+Summit HVAC,activities,type,Activity type lower-cased,1012,

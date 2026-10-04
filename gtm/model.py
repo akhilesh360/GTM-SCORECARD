@@ -103,8 +103,26 @@ def run(companies=None):
     ch["spend_share"] = ch.total_spend / ch.groupby("portfolio_company").total_spend.transform("sum")
     ch["revenue_share"] = ch.revenue / ch.groupby("portfolio_company").revenue.transform("sum")
 
+    # ---------- monthly channel grain (lets dashboards filter by date and channel) ----------
+    month = lambda s_: s_.dt.strftime("%Y-%m")  # noqa: E731
+    L_ = frames["leads"].assign(month=month(frames["leads"].created_date))
+    O_ = deals[deals.stage_reached.isin(opp_stages)].assign(month=lambda d: month(d.created_date))
+    W_ = won.assign(month=month(won.close_date), margin_dollars=won.amount * won.gross_margin,
+                    margin_base=won.amount.where(won.gross_margin.notna()))
+    keys = ["portfolio_company", "month", "channel"]
+    channel_monthly = pd.concat([
+        frames["spend"].groupby(["portfolio_company", "month", "channel"]).spend.sum(),
+        L_.rename(columns={"lead_source": "channel"}).groupby(keys).lead_id.count().rename("leads"),
+        O_.rename(columns={"lead_source": "channel"}).groupby(keys).deal_id.count().rename("opps"),
+        W_.rename(columns={"lead_source": "channel"}).groupby(keys).agg(
+            won=("deal_id", "count"), revenue=("amount", "sum"),
+            margin_dollars=("margin_dollars", "sum"), margin_base=("margin_base", "sum")),
+    ], axis=1).fillna(0).reset_index()
+
     # ---------- attribution ----------
-    attr = pd.read_sql((ROOT / "sql" / "attribution.sql").read_text(), con)
+    attr_monthly = pd.read_sql((ROOT / "sql" / "attribution.sql").read_text(), con)
+    attr = attr_monthly.groupby(["portfolio_company", "channel"], as_index=False)[
+        ["first_touch_revenue", "last_touch_revenue", "linear_revenue", "deals_touched"]].sum()
     spend_c = ch.set_index(["portfolio_company", "channel"]).total_spend
     attr = attr.merge(spend_c, left_on=["portfolio_company", "channel"], right_index=True, how="right").fillna(
         {"first_touch_revenue": 0, "last_touch_revenue": 0, "linear_revenue": 0, "deals_touched": 0})
@@ -240,8 +258,13 @@ def run(companies=None):
                 ok = val >= b["target"] if b["direction"] == "higher" else val <= b["target"]
                 near = val >= b["target"] * 0.8 if b["direction"] == "higher" else val <= b["target"] * 1.25
                 status = "green" if ok else ("amber" if near else "red")
+            index = None
+            if bkey and not pd.isna(val) and val:
+                t_ = bm[bkey]["target"]
+                index = round(100 * (val / t_ if bm[bkey]["direction"] == "higher" else t_ / val), 1)
             rows.append({"portfolio_company": n, "category": cat, "metric": name, "value": val, "unit": unit,
-                         "definition": definition, "target": bm[bkey]["target"] if bkey else None, "status": status})
+                         "definition": definition, "target": bm[bkey]["target"] if bkey else None, "status": status,
+                         "index_to_target": index})
     scorecard = pd.DataFrame(rows)
     scorecard_wide = scorecard.pivot_table(index=["category", "metric", "unit", "definition"], columns="portfolio_company",
                                            values="value", aggfunc="first", sort=False).reset_index()
@@ -263,7 +286,8 @@ def run(companies=None):
 
     outputs = {
         "scorecard": scorecard, "scorecard_wide": scorecard_wide, "channel_performance": ch,
-        "attribution": attr, "attribution_long": attr_long, "stage_days": stage_days,
+        "attribution": attr, "attribution_long": attr_long, "attribution_monthly": attr_monthly,
+        "channel_monthly": channel_monthly, "stage_days": stage_days,
         "call_tracking_impact": calls_src, "fit_score_validation": fit, "monthly_trend": monthly,
         "data_completeness": completeness_df, "ai_automation_impact": ai,
     }

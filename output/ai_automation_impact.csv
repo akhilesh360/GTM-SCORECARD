@@ -1,3 +1,3 @@
-portfolio_company,leads_processed,steps_automated,minutes_saved,median_processing_seconds,hot_leads,sla_tasks_created,unassigned_routed_to_queue,avg_fit_score,llm_rationales,baseline_speed_to_lead_hours,hours_saved,sla_minutes
+portfolio_company,leads_processed,steps_automated,minutes_saved,median_processing_seconds,hot_leads,sla_tasks_created,unassigned_routed_to_queue,avg_fit_score,deepseek_scored,baseline_speed_to_lead_hours,hours_saved,sla_minutes
 Acme MSP,564,3948,9588,0.0004,244,564,19,75.79255319148936,0,3.5902777777777777,159.8,5
-Summit HVAC,260,1820,4420,0.00035,100,260,4,73.28846153846153,0,6.037916666666667,73.66666666666667,5
+Summit HVAC,260,1820,4420,0.0004,100,260,4,73.28846153846153,0,6.037916666666667,73.66666666666667,5

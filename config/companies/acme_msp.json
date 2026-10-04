@@ -203,7 +203,8 @@
       "Owner",
       "Operations Manager",
       "IT Manager"
-    ]
+    ],
+    "messy_rate": 0.18
   },
   "slack_channel": "#acme-new-leads"
 }
