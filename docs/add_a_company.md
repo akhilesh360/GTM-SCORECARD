@@ -22,7 +22,8 @@ benchmarks and scoring weights are portfolio-wide.
 
 ## 2. Data
 
-Export into `data/<slug>/` with the standard schemas:
+Export into `data/<slug>/raw/` with the standard column names. Values can be messy: the cleaning
+step normalizes source names, dates, currency, margins and duplicates.
 
 | File | Columns | Typical source |
 |---|---|---|
@@ -34,13 +35,14 @@ Export into `data/<slug>/` with the standard schemas:
 | `touchpoints.csv` | touch_id, lead_id, touch_datetime, channel, utm_campaign, touch_type | Web analytics / CRM page-view history |
 | `deal_stage_history.csv` | deal_id, stage, entered_at, exited_at | CRM deal stage history |
 
-Map each source's channel names onto the five standard channels before export.
+If the cleaning log reports *Unknown source name*, add that name to `channel_aliases` in
+`config/standard.json` and re-run.
 
 ## 3. Run
 
 ```bash
 python run_all.py --skip-generate
-python -m gtm.hubspot setup --apply     # adds the new pipelines and dropdown values
+python -m gtm.hubspot setup --apply     # adds the new dropdown values (and pipelines on the pro tier)
 ```
 
 The scorecard, dashboard, HubSpot import files and agent routing all pick up the new company.

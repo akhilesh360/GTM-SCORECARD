@@ -15,8 +15,9 @@ Looker Studio on top of the same model outputs, so it refreshes when the data do
 | Tab | Used on |
 |---|---|
 | `scorecard` | Portfolio view |
-| `channel_performance` | Channel performance |
-| `attribution_long` | Attribution comparison |
+| `channel_monthly` | Channel performance (month grain, so the date filter works) |
+| `attribution_monthly` | Attribution comparison (close-month grain) |
+| `cleaning_log` | Data quality |
 | `ai_automation_impact`, `fit_score_validation`, `agent_runs` | AI automation impact |
 | `call_tracking_impact` | Call-tracking impact |
 | `stage_days`, `monthly_trend` | Velocity |
@@ -27,7 +28,10 @@ remain the source for CAC, ROAS and attribution because those need spend and tou
 
 ## 2. Report-level controls
 
-- Add a **drop-down list** control on `portfolio_company` at the top of every page except Portfolio view.
+- Add three controls at the top of every page except Portfolio view: a **drop-down list** on
+  `portfolio_company`, a **drop-down list** on `channel`, and a **date range control**.
+  In each month-grain source, set `month` (or `close_month`) to type Date → Year Month so the date
+  range applies.
 - Theme: one accent color; channel colors fixed per channel (Google Ads blue, Meta Ads orange, Outbound teal,
   Referral yellow, Call Tracking pink) via *Dimension value colors* so they never change between charts.
 
@@ -38,12 +42,15 @@ remain the source for CAC, ROAS and attribution because those need spend and tou
 - Add `definition` and `target` as row dimensions; conditional formatting on `status` (green/amber/red).
 - Scorecard tiles: filter `metric` = Blended CAC, LTV : CAC, CAC payback, Bookings; one tile per company.
 
-**Channel performance** (`channel_performance`)
-- Three bar charts, dimension `channel`: metric `cac`, `roas`, `ltv_to_cac` (add a reference line at 3.0).
-- Table: channel, total_spend, leads, opps, won, revenue, lead_to_opp, opp_to_won, cac, roas, ltv, cac_payback_months.
+**Channel performance** (`channel_monthly`)
+- Add calculated fields so they re-aggregate under any filter: `CAC = SUM(spend) / SUM(won)`,
+  `ROAS = SUM(revenue) / SUM(spend)`, `Margin = SUM(margin_dollars) / SUM(margin_base)`.
+- Bar charts, dimension `channel`: CAC, ROAS. Table: channel, spend, leads, opps, won, revenue, CAC, ROAS.
+- `channel_performance` holds the full-period figures including LTV and payback, for a static table.
 
-**Attribution comparison** (`attribution_long`)
-- 100% stacked bar: dimension `model`, breakdown `channel`, metric `attributed_revenue`.
+**Attribution comparison** (`attribution_monthly`)
+- Three scorecards or a table by channel: SUM(first_touch_revenue), SUM(last_touch_revenue), SUM(linear_revenue).
+- For the stacked bar by model, use `attribution_long` (full period): dimension `model`, breakdown `channel`, metric `attributed_revenue`.
 - Table from `attribution`: channel × first_touch_roas, last_touch_roas, linear_roas.
 
 **AI automation impact**

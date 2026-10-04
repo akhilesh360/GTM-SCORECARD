@@ -161,10 +161,16 @@ def main():
     props = pd.DataFrame([{"Label": p["label"], "Internal name": p["name"], "Objects": ", ".join(p["objects"]),
                            "Type": p["fieldType"], "Options / notes": "; ".join(o["label"] for o in p.get("options", [])) or p["description"]}
                           for p in property_specs(companies, standard)])
-    pipes = pd.DataFrame([{"Company": c["name"], "Pipeline": name,
+    from gtm.hubspot import hubspot_pipeline, motion_of
+    pipes = pd.DataFrame([{"Company": c["name"], "Logical pipeline (config)": name,
+                           "HubSpot pipeline": hubspot_pipeline(name, standard), "GTM Motion": motion_of(name),
                            "Routing rule": ("Lead source: " + ", ".join(rule["lead_sources"])) if "lead_sources" in rule
                            else f"Service type: {rule['service_type']}"}
                           for c in companies for name, rule in pipelines(c).items()])
+    cl = pd.read_csv(OUT / "cleaning_log.csv")
+    cleaning = cl.pivot_table(index=["table", "field", "issue"], columns="portfolio_company", values="rows_fixed",
+                              aggfunc="sum", fill_value=0).reset_index()
+    cleaning.columns = [str(c).replace("table", "Table").replace("field", "Field").replace("issue", "Fix") for c in cleaning.columns]
     terr = pd.DataFrame([{"Company": c["name"], "Territory": t, "States": ", ".join(s["states"]), "Owner": s["owner"]}
                          for c in companies for t, s in c["territories"].items()])
 
@@ -197,7 +203,8 @@ def main():
         "source_quality": ", ".join(f"{k} {v}" for k, v in sq.items()),
         "hot": str(standard["agent"]["hot_lead_threshold"]), "sla": str(standard["agent"]["sla_minutes"]),
         "sql_funnel": code("sql/channel_funnel.sql"), "sql_attr": code("sql/attribution.sql"),
-        "code_agent": code("gtm/agent.py"), "code_scoring": code("gtm/scoring.py"),
+        "code_agent": code("gtm/agent.py"), "code_deepseek": code("gtm/integrations.py", start="def deepseek_score("),
+        "cleaning_table": table(cleaning, num_cols=names), "code_scoring": code("gtm/scoring.py"),
         "code_economics": code("gtm/model.py", start="        cac = safe_div(spend_total", end="        C = calls["),
         "code_server": code("gtm/agent_server.py", start="@app.post(\"/webhooks/hubspot\")", end="@app.post(\"/leads\")"),
         "company_json": f'<pre class="code">{esc(example_config(companies[0]))}</pre>',

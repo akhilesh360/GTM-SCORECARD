@@ -19,7 +19,7 @@ from .integrations import _http
 API = "https://sheets.googleapis.com/v4/spreadsheets"
 TABS = ["scorecard", "scorecard_wide", "channel_performance", "attribution", "attribution_long", "stage_days",
         "call_tracking_impact", "fit_score_validation", "monthly_trend", "data_completeness",
-        "ai_automation_impact", "agent_runs"]
+        "ai_automation_impact", "agent_runs", "channel_monthly", "attribution_monthly", "cleaning_log"]
 
 
 def main():

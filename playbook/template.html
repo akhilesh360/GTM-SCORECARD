@@ -86,7 +86,7 @@ img.shot { width: 100%; border: 1px solid var(--rule); border-radius: 4px; margi
   </div>
   <div class="meta">
     <div><b>Scope</b>Acme MSP (inbound) · Summit HVAC (outbound)</div>
-    <div><b>Data</b>Synthetic, Apr–Sep 2026 (through {{data_through}})</div>
+    <div><b>Data</b>Synthetic raw exports, Apr–Sep 2026 (through {{data_through}})</div>
     <div><b>Generated</b>{{date}}</div>
   </div>
 </section>
@@ -130,35 +130,41 @@ img.shot { width: 100%; border: 1px solid var(--rule); border-radius: 4px; margi
     </tbody>
   </table>
   <p class="small"><code>touchpoints</code> and <code>deal_stage_history</code> extend the original design: multi-touch attribution needs every touch, not just the lead source, and days-in-stage needs stage timestamps. <code>stage_reached</code> on deals records the furthest stage a deal got to, which the opportunity rule depends on.</p>
+  <h3>Cleaning and normalization layer</h3>
+  <p>Raw exports never match each other. The same channel arrives as "AdWords", "google_cpc" or "Google Ads Search"; margins come as 0.61, 61 or "61%"; stages as "Closed Won" or "closedwon". <code>gtm/clean.py</code> fixes all of it before any metric is computed, driven by <code>channel_aliases</code>, <code>stage_aliases</code> and <code>state_names</code> in <code>config/standard.json</code>, and logs every fix. A round-trip test generates clean data, makes it messy, cleans it and checks the result matches exactly.</p>
+  {{cleaning_table}}
+  <p>Normalization then puts both companies on equal terms in four steps: <b>clean</b> onto one vocabulary; apply one set of <b>definitions</b>; aggregate to a common <b>grain</b> (company × month × channel) so any date range or channel subset compares fairly; and <b>index to target</b> (100 = on target) so metrics with different units sit on one scale.</p>
   <h3>Portfolio standard</h3>
   <p>Channels: Google Ads, Meta Ads, Outbound, Referral, Call Tracking. Stages in every pipeline: {{stages}}. An <b>opportunity</b> is any deal that has reached Qualified, including deals later lost.</p>
 </section>
 
 <section class="chapter">
   <h2><span class="num">3</span>HubSpot configuration</h2>
-  <p class="intro">One HubSpot portal holds every company. <code>Company Type</code> and the pipeline name keep them apart, so reports filter cleanly and the schema stays identical. Custom properties use a <code>gtm_</code> prefix so they never collide with HubSpot defaults; labels match the import files so columns auto-map.</p>
+  <p class="intro">Everything runs on the <b>free HubSpot CRM</b>. One portal holds every company: <code>Company Type</code> says which company owns a record, and <code>GTM Motion</code> says which of its pipelines a deal belongs to. Free allows one deal pipeline and no workflows, so the AI agent does the routing and SLA work that workflows would do. Custom properties use a <code>gtm_</code> prefix so they never collide with HubSpot defaults; labels match the import files so columns auto-map.</p>
   <h3>Custom properties</h3>
   {{properties_table}}
-  <h3>Pipelines</h3>
+  <h3>Pipeline and motions</h3>
+  <p>One HubSpot pipeline, <b>GTM Pipeline</b>, with stages {{stages}}. Each company's logical pipelines from config become values of <code>GTM Motion</code>; saved board views (Company Type + GTM Motion) give each team its own board.</p>
   {{pipelines_table}}
   <h3>Territories and lead routing</h3>
   {{territory_table}}
   <p class="small">States outside every territory route to the company's unassigned queue (round robin or dispatch).</p>
-  <h3>Workflows</h3>
+  <h3>Automation without workflows</h3>
   <table>
-    <thead><tr><th>Workflow</th><th>Trigger</th><th>Actions</th></tr></thead>
+    <thead><tr><th>Need</th><th>Free CRM (default)</th><th>Paid upgrade (optional)</th></tr></thead>
     <tbody>
-      <tr><td>Territory routing</td><td>Contact created, Territory known</td><td>Branch on Territory → set contact owner; Unassigned → rotate within the company's team</td></tr>
-      <tr><td>Lifecycle automation</td><td>Deal stage changes</td><td>Deal created → Sales Qualified Lead; Qualified → Opportunity; Won → Customer</td></tr>
-      <tr><td>SLA task</td><td>New contact, Lifecycle = Lead</td><td>Task "Follow up within {{sla}} min" for owner → wait {{sla}} min → no activity logged → alert territory manager</td></tr>
+      <tr><td>Lead routing</td><td>Agent sets Territory and Assigned Rep from state</td><td>Territory routing workflow</td></tr>
+      <tr><td>SLA</td><td>Agent creates a {{sla}}-minute follow-up task on every lead</td><td>SLA workflow with escalation</td></tr>
+      <tr><td>Lifecycle stage</td><td>Set on import from deal status</td><td>Workflow on deal-stage change</td></tr>
+      <tr><td>Pipelines</td><td>One pipeline + GTM Motion</td><td>Six pipelines: set <code>hubspot.tier</code> to <code>"pro"</code></td></tr>
     </tbody>
   </table>
   <h3>Setup steps</h3>
   <ol>
-    <li>Start a Sales Hub Professional trial (six pipelines and workflows need Pro). Create a private app with contacts and deals read/write and schema write scopes.</li>
-    <li><code>python -m gtm.hubspot setup --apply</code> creates the property group, properties and pipelines. It is safe to re-run.</li>
-    <li>Import <code>hubspot/import/&lt;company&gt;_contacts.csv</code> (one object), then <code>&lt;company&gt;_deals_with_contacts.csv</code> (multiple objects: contacts + deals, matched on Email).</li>
-    <li>Build the three workflows above.</li>
+    <li>Create a private app (contacts and deals read/write, schema write). Put the token in <code>.env</code> as <code>HUBSPOT_TOKEN</code>.</li>
+    <li><code>python -m gtm.hubspot setup --apply</code> creates the property group and properties and reshapes the default pipeline into GTM Pipeline. It is safe to re-run.</li>
+    <li>Import per company: contacts; deals with contacts (matched on Email); then calls, meetings and emails-as-notes activity files.</li>
+    <li>Save one deal board view per Company Type + GTM Motion.</li>
     <li>Subscribe the private app's webhook to <code>contact.creation</code>, pointing at the agent's <code>/webhooks/hubspot</code>.</li>
   </ol>
 </section>
@@ -182,10 +188,10 @@ img.shot { width: 100%; border: 1px solid var(--rule); border-radius: 4px; margi
 
 <section class="chapter">
   <h2><span class="num">5</span>AI lead agent</h2>
-  <p class="intro">The agent handles a new lead end to end with no manual step. Rules decide the fit score so it is auditable and identical across companies; the LLM only writes the one-line rationale a rep reads, and the agent falls back to a template if the model is unavailable.</p>
+  <p class="intro">The agent handles a new lead end to end with no manual step. DeepSeek (<code>deepseek-chat</code>, JSON mode, OpenAI-compatible API) scores fit against the company's ICP, writes the reason the rep reads and proposes a territory. A rules-based score is computed first and sent as the baseline; it becomes the score whenever there is no key or the model's answer is malformed, so the agent never blocks. Config stays the source of truth for territory: a model territory that disagrees with the state mapping is overridden.</p>
   <div class="flow">
     <div><b>1 · Enrich</b>Firmographics by company name (mock provider; swap for Apollo or Clearbit)</div>
-    <div><b>2 · Score</b>0–100 weighted fit score, plus a rationale</div>
+    <div><b>2 · Score</b>DeepSeek 0–100 fit score and reason; rules score as baseline and fallback</div>
     <div><b>3 · Route</b>State → territory → owner, from config</div>
     <div><b>4 · Create deal</b>In the right pipeline, stage New</div>
     <div><b>5 · SLA task</b>Follow up within {{sla}} minutes</div>
@@ -193,7 +199,7 @@ img.shot { width: 100%; border: 1px solid var(--rule); border-radius: 4px; margi
     <div><b>7 · Log</b>Activity note on the contact timeline</div>
     <div><b>Trigger</b>HubSpot <code>contact.creation</code> webhook (signature-verified)</div>
   </div>
-  <p><b>Fit score weights:</b> {{weights}}. <b>Source quality:</b> {{source_quality}}. Weights live in <code>config/standard.json</code>; each company's ICP (industries, employee band) lives in its own config.</p>
+  <p><b>Key:</b> <code>DEEPSEEK_API_KEY</code> in <code>.env</code> (git-ignored; copy <code>.env.example</code>). Bulk replays cap model calls (<code>--llm-limit</code>, default 25) to keep cost near zero. <b>Rules baseline weights:</b> {{weights}}. <b>Source quality:</b> {{source_quality}}. Weights live in <code>config/standard.json</code>; each company's ICP (industries, employee band) lives in its own config.</p>
   <h3>Impact, last 30 days replayed</h3>
   {{ai_table}}
   {{steps_table}}
@@ -207,6 +213,7 @@ img.shot { width: 100%; border: 1px solid var(--rule); border-radius: 4px; margi
       <tr><td><code>DEEPSEEK_API_KEY</code></td><td>DeepSeek (<code>deepseek-chat</code>, JSON mode) scores fit 0–100, writes the rationale and proposes a territory</td><td>Rules-based score and template rationale</td></tr>
     </tbody>
   </table>
+  {{code_deepseek}}
   {{code_agent}}
   {{code_scoring}}
   {{code_server}}
@@ -214,7 +221,7 @@ img.shot { width: 100%; border: 1px solid var(--rule); border-radius: 4px; margi
 
 <section class="chapter">
   <h2><span class="num">6</span>Dashboard setup</h2>
-  <p class="intro">Two builds read the same model outputs. The HTML dashboard regenerates on every pipeline run. The Looker Studio version reads a Google Sheet that <code>gtm/sheets_sync.py</code> refreshes, so a scheduled run keeps it current with no manual step.</p>
+  <p class="intro">Two builds read the same model outputs, filtered by company, channel and date. The HTML dashboard regenerates on every pipeline run. The Looker Studio version reads a Google Sheet that <code>gtm/sheets_sync.py</code> refreshes, so a scheduled run keeps it current with no manual step.</p>
   {{dashboard_shot}}
   <table>
     <thead><tr><th>Page</th><th>Source tab</th><th>Charts</th></tr></thead>
@@ -240,8 +247,8 @@ img.shot { width: 100%; border: 1px solid var(--rule); border-radius: 4px; margi
   <p class="intro">The success test: a new company needs only its data inputs and its pipeline names. This was checked by adding a third test company with nothing but a new config file; the scorecard, dashboard, HubSpot files and agent routing all picked it up with no code change.</p>
   <ol>
     <li><b>Config.</b> Copy a company file to <code>config/companies/&lt;slug&gt;.json</code>; set pipelines and their routing rule, territories and owners, ICP, customer lifetime and Slack channel.</li>
-    <li><b>Data.</b> Export the seven standard files into <code>data/&lt;slug&gt;/</code>, mapping source channel names onto the five standard channels.</li>
-    <li><b>HubSpot.</b> Run <code>python -m gtm.hubspot setup --apply</code> to add the pipelines and dropdown values, then import.</li>
+    <li><b>Data.</b> Drop the seven raw exports into <code>data/&lt;slug&gt;/raw/</code>. The cleaning step normalizes them; add any source name it reports as unknown to <code>channel_aliases</code>.</li>
+    <li><b>HubSpot.</b> Run <code>python -m gtm.hubspot setup --apply</code> to add the new dropdown values, then import.</li>
     <li><b>Run.</b> <code>python run_all.py --skip-generate</code>. Review the data-completeness section first; fix gaps at the source before trusting CAC.</li>
     <li><b>Agent.</b> Point the company's HubSpot webhook at the agent; watch the first 20 leads in Slack.</li>
   </ol>
@@ -298,8 +305,9 @@ img.shot { width: 100%; border: 1px solid var(--rule); border-radius: 4px; margi
   <h2><span class="num">A</span>Runbook and assumptions</h2>
   <h3>Commands</h3>
   <pre class="code">pip install -r requirements.txt
-python run_all.py                   # synthetic data -> agent replay -> model -> HubSpot files -> dashboard
-python run_all.py --skip-generate   # same, on CSVs already in data/
+python run_all.py                   # raw data -> cleaning -> agent replay -> model -> HubSpot files -> dashboard
+python run_all.py --skip-generate   # same, on raw exports already in data/&lt;company&gt;/raw/
+python -m tests.test_pipeline       # cleaning round trip, attribution, agent fallback
 python -m gtm.agent_server          # webhook server on :5000
 python -m gtm.hubspot setup --apply # HubSpot properties + pipelines (HUBSPOT_TOKEN)
 python -m gtm.sheets_sync           # push outputs to Google Sheets for Looker Studio
@@ -318,7 +326,8 @@ python -m playbook.build            # rebuild this PDF</pre>
   <ul>
     <li>All companies, people and records are synthetic. Generator inputs match the design targets; realized rates differ slightly because deals still open at the cut-off are not yet won or lost.</li>
     <li>Revenue is closed-won first-year contract value. LTV uses ACV × margin × lifetime; it ignores expansion and discounting.</li>
-    <li>Enrichment is mocked. HubSpot, Slack, OpenAI and Google Sheets clients are written against their public APIs but were exercised in the POC only against mocks.</li>
+    <li>Enrichment is mocked. HubSpot, Slack, DeepSeek and Google Sheets clients are written against their public APIs; in the POC they were exercised against mocks (DeepSeek against a stand-in server that checks the request shape and JSON parsing).</li>
+    <li>Everything runs on free tiers (HubSpot free CRM, Looker Studio, Google Sheets); DeepSeek is the only paid call.</li>
     <li>In production, add retries and a dead-letter queue to the agent, store secrets in a secrets manager, and move SQLite to the portfolio warehouse.</li>
   </ul>
 </section>
