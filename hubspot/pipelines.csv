@@ -1,37 +1,7 @@
 company,pipeline,stage,stage_order,probability
-Acme MSP,Acme MSP - Inbound,New,0,0.05
-Acme MSP,Acme MSP - Inbound,Contacted,1,0.1
-Acme MSP,Acme MSP - Inbound,Qualified,2,0.3
-Acme MSP,Acme MSP - Inbound,Proposal,3,0.6
-Acme MSP,Acme MSP - Inbound,Won,4,1.0
-Acme MSP,Acme MSP - Inbound,Lost,5,0.0
-Acme MSP,Acme MSP - Outbound,New,0,0.05
-Acme MSP,Acme MSP - Outbound,Contacted,1,0.1
-Acme MSP,Acme MSP - Outbound,Qualified,2,0.3
-Acme MSP,Acme MSP - Outbound,Proposal,3,0.6
-Acme MSP,Acme MSP - Outbound,Won,4,1.0
-Acme MSP,Acme MSP - Outbound,Lost,5,0.0
-Acme MSP,Acme MSP - Referral,New,0,0.05
-Acme MSP,Acme MSP - Referral,Contacted,1,0.1
-Acme MSP,Acme MSP - Referral,Qualified,2,0.3
-Acme MSP,Acme MSP - Referral,Proposal,3,0.6
-Acme MSP,Acme MSP - Referral,Won,4,1.0
-Acme MSP,Acme MSP - Referral,Lost,5,0.0
-Summit HVAC,Summit HVAC - Emergency,New,0,0.05
-Summit HVAC,Summit HVAC - Emergency,Contacted,1,0.1
-Summit HVAC,Summit HVAC - Emergency,Qualified,2,0.3
-Summit HVAC,Summit HVAC - Emergency,Proposal,3,0.6
-Summit HVAC,Summit HVAC - Emergency,Won,4,1.0
-Summit HVAC,Summit HVAC - Emergency,Lost,5,0.0
-Summit HVAC,Summit HVAC - Maintenance,New,0,0.05
-Summit HVAC,Summit HVAC - Maintenance,Contacted,1,0.1
-Summit HVAC,Summit HVAC - Maintenance,Qualified,2,0.3
-Summit HVAC,Summit HVAC - Maintenance,Proposal,3,0.6
-Summit HVAC,Summit HVAC - Maintenance,Won,4,1.0
-Summit HVAC,Summit HVAC - Maintenance,Lost,5,0.0
-Summit HVAC,Summit HVAC - Installation,New,0,0.05
-Summit HVAC,Summit HVAC - Installation,Contacted,1,0.1
-Summit HVAC,Summit HVAC - Installation,Qualified,2,0.3
-Summit HVAC,Summit HVAC - Installation,Proposal,3,0.6
-Summit HVAC,Summit HVAC - Installation,Won,4,1.0
-Summit HVAC,Summit HVAC - Installation,Lost,5,0.0
+All (free tier),GTM Pipeline,New,0,0.05
+All (free tier),GTM Pipeline,Contacted,1,0.1
+All (free tier),GTM Pipeline,Qualified,2,0.3
+All (free tier),GTM Pipeline,Proposal,3,0.6
+All (free tier),GTM Pipeline,Won,4,1.0
+All (free tier),GTM Pipeline,Lost,5,0.0

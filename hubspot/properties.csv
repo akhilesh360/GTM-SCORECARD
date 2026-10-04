@@ -10,3 +10,4 @@ deals,Gross Margin,gtm_gross_margin,number,number,,"Expected gross margin, perce
 "contacts, deals",Service Type,gtm_service_type,enumeration,select,Emergency; Installation; Maintenance,HVAC service line; drives pipeline choice
 contacts,Lead Created Date,gtm_lead_created_date,datetime,date,,Original lead creation time (kept separate from HubSpot createdate on import)
 "contacts, deals",Assigned Rep,gtm_assigned_rep,string,text,,Rep name from territory routing; map to HubSpot owners once users exist
+deals,GTM Motion,gtm_motion,enumeration,select,Inbound; Outbound; Referral; Emergency; Maintenance; Installation,Company pipeline (motion). On HubSpot free it replaces separate pipelines

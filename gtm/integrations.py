@@ -70,8 +70,11 @@ class HubSpotClient:
         return self._call("PATCH", f"/crm/v3/objects/contacts/{contact_id}", {"properties": self._props(properties)})
 
     def create_deal(self, contact_id, properties):
+        from .hubspot import hubspot_pipeline, motion_of
         logical = dict(properties)
-        pipe_id, stages = self.pipeline_ids()[logical.pop("pipeline")]
+        pipeline = logical.pop("pipeline")
+        logical["motion"] = motion_of(pipeline)
+        pipe_id, stages = self.pipeline_ids()[hubspot_pipeline(pipeline)]
         stage_id = stages[logical.pop("dealstage")]
         props = self._props(logical)
         props.update({"pipeline": pipe_id, "dealstage": stage_id})

@@ -146,7 +146,8 @@ def _fmt(df):
     out = df.copy()
     for c in out.columns:
         if pd.api.types.is_datetime64_any_dtype(out[c]):
-            out[c] = out[c].dt.strftime("%Y-%m-%d %H:%M:%S")
+            date_only = (out[c].dropna() == out[c].dropna().dt.normalize()).all()
+            out[c] = out[c].dt.strftime("%Y-%m-%d" if date_only else "%Y-%m-%d %H:%M:%S")
     return out
 
 

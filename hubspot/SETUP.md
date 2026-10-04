@@ -1,80 +1,99 @@
-# HubSpot sandbox setup
+# HubSpot setup (free CRM)
 
-HubSpot is the system of record. One portal holds both portfolio companies; the `Company Type`
-property and the pipeline name keep them apart, so the same schema serves every company.
+HubSpot is the system of record. Everything here works on the **free** HubSpot CRM. One portal holds
+both portfolio companies: `Company Type` says which company owns a record, and `GTM Motion` says which
+of that company's pipelines a deal belongs to.
 
-## 0. Account
+| Design element | Free CRM (default) | Paid upgrade path (optional) |
+|---|---|---|
+| Pipelines | One deal pipeline, **GTM Pipeline**, plus the `GTM Motion` dropdown (Inbound, Outbound, Referral, Emergency, Maintenance, Installation) | One pipeline per company motion (six). Set `hubspot.tier` to `"pro"` in `config/standard.json` |
+| Lead routing | AI agent sets Territory and Assigned Rep from state | Territory routing workflow |
+| SLA task | AI agent creates a 5-minute follow-up task on every new lead | SLA workflow with escalation |
+| Lifecycle stage | Set on import from deal status | Lifecycle workflow on deal-stage change |
 
-- Start a **Sales Hub Professional trial** (free accounts allow one deal pipeline and no workflows;
-  this POC needs six pipelines and three workflows).
-- Settings → Integrations → **Private Apps** → Create. Scopes:
-  `crm.objects.contacts.read/write`, `crm.objects.deals.read/write`,
-  `crm.schemas.contacts.write`, `crm.schemas.deals.write`. Copy the token.
+The tier switch changes the setup script and the import files; the data model, metrics and agent
+logic stay the same.
 
-## 1. Properties and pipelines
+## 0. Account and token
 
-Generated from config, so they always match the data model.
+1. Sign in to the free HubSpot CRM.
+2. Settings → Integrations → **Private Apps** → Create a private app. Scopes:
+   `crm.objects.contacts.read/write`, `crm.objects.deals.read/write`,
+   `crm.schemas.contacts.write`, `crm.schemas.deals.write`.
+3. Copy the token into `.env` as `HUBSPOT_TOKEN=` (copy `.env.example` first; `.env` is git-ignored).
+
+## 1. Properties and pipeline
 
 ```bash
-export HUBSPOT_TOKEN=pat-...
-python -m gtm.hubspot setup            # dry run: prints the 25 API calls
-python -m gtm.hubspot setup --apply    # creates the property group, 11 properties, 6 pipelines
+python -m gtm.hubspot setup            # dry run: prints every API call
+python -m gtm.hubspot setup --apply    # creates the property group and 12 properties, reshapes the default pipeline
 python -m gtm.hubspot check            # lists pipelines and stages to confirm
 ```
 
-Re-running is safe: anything that already exists returns 409 and is skipped.
+On free, `--apply` renames the default deal pipeline to **GTM Pipeline** with stages
+New (5%) → Contacted (10%) → Qualified (30%) → Proposal (60%) → Won → Lost. Run it on a fresh portal:
+HubSpot refuses to drop stages that already hold deals. Re-running is safe; existing properties return
+409 and only their dropdown options are refreshed.
 
-Manual alternative: create what [properties.csv](properties.csv) and [pipelines.csv](pipelines.csv) list
-(Settings → Properties, and Settings → Objects → Deals → Pipelines).
+Manual alternative: create what [properties.csv](properties.csv) lists (Settings → Properties) and edit the
+default pipeline (Settings → Objects → Deals → Pipelines).
 
 | Label | Internal name | Objects | Type |
 |---|---|---|---|
 | Lead Source | gtm_lead_source | contacts, deals | Dropdown: Google Ads, Meta Ads, Outbound, Referral, Call Tracking |
 | UTM Source / Medium / Campaign | gtm_utm_* | contacts | Text |
-| Company Type | gtm_company_type | contacts, deals | Dropdown: MSP, HVAC |
+| Company Type | gtm_company_type | contacts, deals | Dropdown: HVAC, MSP |
 | Territory | gtm_territory | contacts, deals | Dropdown: territories + Unassigned |
 | Fit Score | gtm_fit_score | contacts, deals | Number 0-100 (set by the AI agent) |
 | Gross Margin | gtm_gross_margin | deals | Number (percent) |
-| Service Type | gtm_service_type | contacts, deals | Dropdown: Emergency, Maintenance, Installation |
+| Service Type | gtm_service_type | contacts, deals | Dropdown: Emergency, Installation, Maintenance |
 | Lead Created Date | gtm_lead_created_date | contacts | Date |
 | Assigned Rep | gtm_assigned_rep | contacts, deals | Text |
+| GTM Motion | gtm_motion | deals | Dropdown: Inbound, Outbound, Referral, Emergency, Maintenance, Installation |
 
-Pipelines: Acme MSP – Inbound / Outbound / Referral; Summit HVAC – Emergency / Maintenance / Installation.
-Stages in every pipeline: New → Contacted → Qualified → Proposal → Won → Lost.
+Contacts get 10 custom properties and deals get 8. If your portal reports a custom-property limit, skip UTM Source and UTM Medium first; the model reads UTMs from the raw exports, not from HubSpot.
 
 ## 2. Import the data
 
-Files are in `hubspot/import/`. Import each company in this order:
+Files are in `hubspot/import/`, one set per company. Import in this order (Contacts → Import →
+*Start an import* → *File from computer*):
 
-1. **Contacts**: Contacts → Import → *File from computer* → *One file* → *One object* → Contacts →
-   `<company>_contacts.csv`. Columns auto-map by label. Map `Record ID (source)` to *Don't import*
-   or to a new text property if you want the source id kept.
-2. **Deals with associations**: Import → *One file* → *Multiple objects* → Contacts + Deals →
-   `<company>_deals_with_contacts.csv`. HubSpot matches the existing contact on `Email` and associates the deal.
-   Choose *Update existing contacts*.
+| Order | File | Import type | Notes |
+|---|---|---|---|
+| 1 | `<company>_contacts.csv` | One file, one object: Contacts | Columns auto-map by label. Set `Record ID (source)` to *Don't import* |
+| 2 | `<company>_deals_with_contacts.csv` | One file, multiple objects: Contacts + Deals | Matches contacts on Email and associates the deal. Pipeline is `GTM Pipeline`, motion in `GTM Motion` |
+| 3 | `<company>_activities_calls.csv` | One object: Calls | Associates to the contact by Email |
+| 4 | `<company>_activities_meetings.csv` | One object: Meetings | Associates to the contact by Email |
+| 5 | `<company>_activities_emails_as_notes.csv` | One object: Notes | Logged sales emails, kept as notes |
 
-Activities, call-tracking and spend stay in the warehouse (`output/scorecard.db`); HubSpot holds
-the CRM objects the reps touch.
+Spend, touchpoints and call-tracking stay in the model (`output/scorecard.db`); HubSpot holds the records reps work.
 
-## 3. Workflows (Automation → Workflows)
+## 3. Saved views instead of pipelines
+
+With one pipeline, give each team its own board:
+Deals → board view → filter **Company Type** = MSP and **GTM Motion** = Inbound → *Save view* as
+"Acme MSP – Inbound". Repeat for each motion. Reports filter on the same two properties.
+
+## 4. Connect the AI agent (replaces workflows)
+
+1. Run the agent: `python -m gtm.agent_server`, then expose it, e.g. `cloudflared tunnel --url http://localhost:5000`.
+2. Private app → **Webhooks** → target URL `https://<tunnel>/webhooks/hubspot` → subscribe to `contact.creation`.
+3. Put the app's client secret in `.env` as `HUBSPOT_CLIENT_SECRET=` so webhook signatures are verified.
+4. Create a test contact with Company Type, Lead Source and State filled in. Within seconds it gets a
+   Fit Score, Territory and Assigned Rep, a deal in GTM Pipeline with the right GTM Motion, a 5-minute
+   follow-up task and an activity note.
+
+The agent writes the rep's name to `Assigned Rep`. When reps exist as HubSpot users, pass their owner ids
+(`HubSpotClient(owner_ids={"Dana Whitfield": "12345", ...})`) to assign deals and tasks to them directly.
+
+## Optional: paid upgrade
+
+A free 14-day Sales Hub Professional trial unlocks the six-pipeline layout and workflows:
+set `"tier": "pro"` in `config/standard.json`, run `python run_all.py --skip-generate` and
+`python -m gtm.hubspot setup --apply`, then build these workflows.
 
 | Workflow | Trigger | Actions |
 |---|---|---|
-| **Territory routing** | Contact created, or Territory is known | Branch on Territory → set Contact owner (one branch per territory, owners from `config/companies/*.json`); Unassigned → rotate among the company's team |
-| **Lifecycle automation** | Deal stage changes (deal-based) | Qualified → set associated contact Lifecycle Stage = Opportunity; Won → Customer; deal created → Sales Qualified Lead |
-| **SLA task** | Contact created with Lifecycle Stage = Lead | Create task "Follow up within 5 min" for owner, due in 5 minutes → delay 5 min → if no call/email logged, send internal email/Slack to the territory manager |
-
-When the AI agent is live it creates the deal and the SLA task itself; keep the SLA workflow as the
-fallback for leads the agent could not process.
-
-## 4. Point the webhook at the agent
-
-1. Run the agent: `python -m gtm.agent_server` and expose it, e.g. `cloudflared tunnel --url http://localhost:5000`.
-2. In the private app → **Webhooks** → target URL `https://<tunnel>/webhooks/hubspot` →
-   subscribe to `contact.creation`. (On Operations Hub Pro, a workflow *Send a webhook* action works too.)
-3. Set `HUBSPOT_CLIENT_SECRET` to the app's client secret so signatures are verified.
-4. Create a test contact with Company Type, Lead Source and State filled in. Within seconds it gets a Fit Score
-   and Territory, a deal in the right pipeline, a 5-minute task and an activity note.
-
-Task owners: the agent writes the rep name to `Assigned Rep`. Once reps exist as HubSpot users, pass their
-owner ids (`HubSpotClient(owner_ids={"Dana Whitfield": "12345", ...})`) to assign tasks and deals directly.
+| Territory routing | Contact created, Territory known | Branch on Territory → set contact owner; Unassigned → rotate within the team |
+| Lifecycle automation | Deal stage changes | Deal created → Sales Qualified Lead; Qualified → Opportunity; Won → Customer |
+| SLA task | New contact, Lifecycle = Lead | Task "Follow up within 5 min" → wait 5 min → no activity → alert territory manager |

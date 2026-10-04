@@ -3,8 +3,12 @@ gets the same schema.
 
   python -m gtm.hubspot export          write hubspot/*.csv (property + pipeline specs, import files)
   python -m gtm.hubspot setup           dry run: print the API payloads that would be sent
-  python -m gtm.hubspot setup --apply   create property groups, properties and pipelines (needs HUBSPOT_TOKEN)
+  python -m gtm.hubspot setup --apply   create property group, properties and pipeline(s) (needs HUBSPOT_TOKEN)
   python -m gtm.hubspot check           confirm the token works and list existing deal pipelines
+
+Tier is set in config/standard.json -> hubspot.tier. "free" (default): one pipeline ("GTM Pipeline")
+plus a GTM Motion dropdown, and the AI agent does routing and SLA tasks. "pro": one HubSpot
+pipeline per company pipeline, plus the three workflows in hubspot/SETUP.md.
 
 Custom properties are prefixed gtm_ so they never collide with HubSpot defaults; labels match
 the design doc, which is what HubSpot's import tool auto-maps on.
@@ -25,8 +29,19 @@ PROP_MAP = {
     "lead_source": "gtm_lead_source", "utm_source": "gtm_utm_source", "utm_medium": "gtm_utm_medium",
     "utm_campaign": "gtm_utm_campaign", "company_type": "gtm_company_type", "territory": "gtm_territory",
     "fit_score": "gtm_fit_score", "gross_margin": "gtm_gross_margin", "service_type": "gtm_service_type",
-    "lead_created_date": "gtm_lead_created_date", "owner": "gtm_assigned_rep",
+    "lead_created_date": "gtm_lead_created_date", "owner": "gtm_assigned_rep", "motion": "gtm_motion",
 }
+
+
+def motion_of(pipeline):
+    """'Acme MSP - Inbound' -> 'Inbound'. On HubSpot free the motion replaces the pipeline."""
+    return pipeline.split(" - ")[-1]
+
+
+def hubspot_pipeline(pipeline, standard=None):
+    """HubSpot pipeline label for a logical company pipeline, given the configured tier."""
+    hs = (standard or load_standard())["hubspot"]
+    return hs["free_pipeline"] if hs["tier"] == "free" else pipeline
 
 
 def property_specs(companies=None, standard=None):
@@ -34,6 +49,7 @@ def property_specs(companies=None, standard=None):
     standard = standard or load_standard()
     territories = sorted({t for c in companies for t in c["territories"]}) + ["Unassigned"]
     services = sorted({r["service_type"] for c in companies for r in pipelines(c).values() if "service_type" in r})
+    motions = list(dict.fromkeys(motion_of(p) for c in companies for p in pipelines(c)))
 
     def enum(name, label, values, objects, desc):
         return {"name": name, "label": label, "type": "enumeration", "fieldType": "select", "objects": objects,
@@ -59,6 +75,8 @@ def property_specs(companies=None, standard=None):
                "Original lead creation time (kept separate from HubSpot createdate on import)"),
         simple("gtm_assigned_rep", "Assigned Rep", "string", "text", both,
                "Rep name from territory routing; map to HubSpot owners once users exist"),
+        enum("gtm_motion", "GTM Motion", motions, ["deals"],
+             "Company pipeline (motion). On HubSpot free it replaces separate pipelines"),
     ]
 
 
@@ -66,13 +84,13 @@ def pipeline_specs(companies=None, standard=None):
     companies = companies or load_companies()
     standard = standard or load_standard()
     prob = {"New": 0.05, "Contacted": 0.1, "Qualified": 0.3, "Proposal": 0.6, "Won": 1.0, "Lost": 0.0}
-    out = []
-    for c in companies:
-        for i, name in enumerate(pipelines(c)):
-            out.append({"label": name, "displayOrder": i, "company": c["name"],
-                        "stages": [{"label": s, "displayOrder": j, "metadata": {"probability": str(prob[s])}}
-                                   for j, s in enumerate(standard["deal_stages"])]})
-    return out
+    stages = [{"label": s, "displayOrder": j, "metadata": {"probability": str(prob[s])}}
+              for j, s in enumerate(standard["deal_stages"])]
+    if standard["hubspot"]["tier"] == "free":
+        return [{"label": standard["hubspot"]["free_pipeline"], "displayOrder": 0, "company": "All (free tier)",
+                 "stages": stages}]
+    return [{"label": name, "displayOrder": i, "company": c["name"], "stages": stages}
+            for c in companies for i, name in enumerate(pipelines(c))]
 
 
 def lifecycle(row):
@@ -117,11 +135,30 @@ def export():
             ["Emergency", "Maintenance", "Installation"]), "")
         pd.DataFrame({
             "Email": d.email, "Deal Name": d.company + " - " + d.pipeline.str.split(" - ").str[-1],
-            "Pipeline": d.pipeline, "Deal Stage": d.stage, "Amount": d.amount, "Close Date": d.close_date,
+            "Pipeline": d.pipeline.map(lambda p: hubspot_pipeline(p, standard)),
+            "GTM Motion": d.pipeline.map(motion_of), "Deal Stage": d.stage, "Amount": d.amount, "Close Date": d.close_date,
             "Lead Source": d.lead_source, "Company Type": c["company_type"],
             "Gross Margin": (d.gross_margin * 100).round(1), "Assigned Rep": d.owner, "Service Type": service,
             "Deal ID (source)": d.deal_id,
         }).to_csv(HS_DIR / "import" / f"{c['slug']}_deals_with_contacts.csv", index=False)
+
+        # activities -> HubSpot Calls, Meetings and Notes imports, associated to contacts by email
+        acts = pd.read_csv(DATA_DIR / c["slug"] / "activities.csv").merge(leads[["lead_id", "email"]], on="lead_id")
+        call_out = {"connected": "Connected", "no_answer": "No answer", "voicemail": "Left voicemail"}
+        meet_out = {"held": "Completed", "no_show": "No show", "rescheduled": "Rescheduled"}
+        calls_ = acts[acts.type == "call"]
+        pd.DataFrame({"Email": calls_.email, "Activity date": calls_.date, "Call outcome": calls_.outcome.map(call_out),
+                      "Call title": "Sales call", "Activity ID (source)": calls_.activity_id}) \
+            .to_csv(HS_DIR / "import" / f"{c['slug']}_activities_calls.csv", index=False)
+        meets = acts[acts.type == "meeting"]
+        pd.DataFrame({"Email": meets.email, "Meeting start time": meets.date, "Meeting outcome": meets.outcome.map(meet_out),
+                      "Meeting name": "Discovery meeting", "Activity ID (source)": meets.activity_id}) \
+            .to_csv(HS_DIR / "import" / f"{c['slug']}_activities_meetings.csv", index=False)
+        emails = acts[acts.type == "email"]
+        pd.DataFrame({"Email": emails.email, "Activity date": emails.date,
+                      "Note body": "Sales email (" + emails.owner + "): " + emails.outcome,
+                      "Activity ID (source)": emails.activity_id}) \
+            .to_csv(HS_DIR / "import" / f"{c['slug']}_activities_emails_as_notes.csv", index=False)
     print(f"Wrote HubSpot specs and import files to {HS_DIR}")
 
 
@@ -138,9 +175,11 @@ def setup(apply=False):
         body["groupName"] = GROUP["name"]
         for obj in p["objects"]:
             calls.append(("POST", f"/crm/v3/properties/{obj}", body))
+    free = load_standard()["hubspot"]["tier"] == "free"
     for p in pipeline_specs():
-        calls.append(("POST", "/crm/v3/pipelines/deals",
-                      {"label": p["label"], "displayOrder": p["displayOrder"], "stages": p["stages"]}))
+        body = {"label": p["label"], "displayOrder": p["displayOrder"], "stages": p["stages"]}
+        # free tier allows one pipeline: reshape the default one instead of creating another
+        calls.append(("PUT", "/crm/v3/pipelines/deals/default", body) if free else ("POST", "/crm/v3/pipelines/deals", body))
     for method, path, body in calls:
         if not apply:
             print(method, path, json.dumps(body)[:160])

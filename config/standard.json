@@ -177,5 +177,10 @@
     "north carolina": "NC",
     "virginia": "VA",
     "louisiana": "LA"
+  },
+  "hubspot": {
+    "_comment": "tier 'free': one deal pipeline + GTM Motion dropdown, agent replaces workflows. tier 'pro': one HubSpot pipeline per company pipeline in config, plus workflows.",
+    "tier": "free",
+    "free_pipeline": "GTM Pipeline"
   }
 }
