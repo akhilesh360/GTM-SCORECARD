@@ -69,6 +69,7 @@ Both companies are compared like for like because every number passes through th
 
 ```bash
 python -m gtm.deepseek_check                  # one lead through the agent: shows score_source=deepseek or the API error
+python -m gtm.live_test                       # one new test lead through the agent into live HubSpot (needs HUBSPOT_TOKEN)
 python -m gtm.agent_replay                    # offline: mock HubSpot + mock Slack (DeepSeek on up to 25 leads if keyed)
 python -m gtm.agent_server                    # webhook server on :5000
 curl -X POST localhost:5000/webhooks/hubspot -H 'Content-Type: application/json' \

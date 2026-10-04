@@ -66,6 +66,11 @@ class HubSpotClient:
         })
         return lead
 
+    def create_contact(self, properties):
+        """properties: HubSpot names for standard fields, logical names (PROP_MAP keys) for gtm_ fields."""
+        res = self._call("POST", "/crm/v3/objects/contacts", {"properties": self._props(properties)})
+        return res["id"]
+
     def update_contact(self, contact_id, properties):
         return self._call("PATCH", f"/crm/v3/objects/contacts/{contact_id}", {"properties": self._props(properties)})
 
@@ -88,7 +93,9 @@ class HubSpotClient:
         return {"id": res["id"], **properties}
 
     def create_task(self, deal_id, owner, subject, due_at, body=""):
-        props = {"hs_timestamp": due_at.strftime("%Y-%m-%dT%H:%M:%S.000Z"), "hs_task_subject": subject,
+        from datetime import timezone
+        due = due_at.astimezone(timezone.utc)  # naive times are local; HubSpot wants UTC
+        props = {"hs_timestamp": due.strftime("%Y-%m-%dT%H:%M:%S.000Z"), "hs_task_subject": subject,
                  "hs_task_body": body, "hs_task_status": "NOT_STARTED", "hs_task_priority": "HIGH"}
         if owner in self.owner_ids:
             props["hubspot_owner_id"] = self.owner_ids[owner]
@@ -101,7 +108,7 @@ class HubSpotClient:
 
     def create_note(self, contact_id, body, timestamp=None):
         from datetime import datetime, timezone
-        ts = (timestamp or datetime.now(timezone.utc)).strftime("%Y-%m-%dT%H:%M:%S.000Z")
+        ts = (timestamp or datetime.now(timezone.utc)).astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.000Z")
         res = self._call("POST", "/crm/v3/objects/notes", {
             "properties": {"hs_timestamp": ts, "hs_note_body": body},
             "associations": [{"to": {"id": contact_id},
