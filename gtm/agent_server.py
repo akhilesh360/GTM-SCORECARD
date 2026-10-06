@@ -92,7 +92,7 @@ def chat_answer():
     if not str(body.get("question") or "").strip():
         abort(400, "missing question")
     try:
-        return {"answer": chat.ask(body["question"], body.get("history") or [])}
+        return chat.ask(body["question"], body.get("history") or [])
     except Exception as e:  # key missing, DeepSeek down: the page shows the message
         return jsonify({"error": f"{type(e).__name__}: {e}"}), 502
 

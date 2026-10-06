@@ -56,6 +56,10 @@ def main():
                            for c in load_companies()]
     data["lifetime"] = {c["name"]: c["economics"]["customer_lifetime_years"] for c in load_companies()}
     from gtm import chat
+    from gtm.config import pipelines
+    data["agent_cfg"] = {c["name"]: {"icp": c["icp"], "territories": c["territories"], "unassigned_owner": c["unassigned_owner"],
+                                     "pipelines": pipelines(c), "default_service": c.get("default_service_by_lead_source", {})}
+                         for c in load_companies()}
     data["chat"] = {"rules": chat.RULES, "context": chat.build_context()}
     html = (HERE / "template.html").read_text().replace("/*__DATA__*/null", json.dumps(data, separators=(",", ":")))
     (HERE / "index.html").write_text(html)

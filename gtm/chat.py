@@ -1,7 +1,8 @@
 """Scorecard Q&A: answers questions only from the computed outputs (output/*.csv).
 
 build_context() turns the model outputs into a compact fact sheet. The dashboard embeds it, and
-ask() sends it to DeepSeek with RULES. The DeepSeek key never leaves the server.
+ask() sends it to DeepSeek with RULES and the tools in chat_tools.py, so the chat can also act
+(score a lead, add a test lead). The DeepSeek key never leaves the server.
 
   python -m gtm.chat "Why is Summit's CAC lower?"
 """
@@ -15,10 +16,13 @@ import pandas as pd
 from .config import OUTPUT_DIR
 from .integrations import _http
 
-RULES = ("You answer questions about a portfolio GTM scorecard for two synthetic companies. "
-         "Use ONLY the facts below. Reply in at most 3 short sentences and cite the numbers. "
-         "If the facts don't contain the answer, reply exactly: Not in the data. "
-         "Never guess or use outside knowledge about these companies.")
+RULES = ("You are the GTM agent for a portfolio scorecard covering two synthetic companies. "
+         "Answer questions using ONLY the facts below or your tools, and run a tool when the user asks you to do "
+         "something (compare, switch attribution model, score a lead, add a test lead). "
+         "Reply in at most 3 short sentences and cite the numbers. "
+         "If neither the facts nor a tool can answer, reply exactly: Not in the data. "
+         "Never guess or use outside knowledge about these companies. "
+         "To score a lead you need its company name, state and lead source; ask for missing ones.")
 
 
 def _csv(name, cols=None, digits=3):
@@ -53,8 +57,10 @@ def build_context():
     return "\n".join(x for x in parts if x)
 
 
-def ask(question, history=(), context=None):
-    """history: [{"role": "user"|"assistant", "content": str}, ...]. Returns the answer text."""
+def ask(question, history=(), context=None, max_rounds=4):
+    """history: [{"role": "user"|"assistant", "content": str}, ...].
+    Returns {"answer": str, "ran": [tool names]}; DeepSeek may call the tools in chat_tools."""
+    from . import chat_tools
     key = os.environ.get("DEEPSEEK_API_KEY")
     if not key:
         raise RuntimeError("DEEPSEEK_API_KEY is not set in .env")
@@ -63,16 +69,32 @@ def ask(question, history=(), context=None):
     msgs += [{"role": m["role"], "content": str(m["content"])[:2000]} for m in list(history)[-6:]
              if m.get("role") in ("user", "assistant") and m.get("content")]
     msgs.append({"role": "user", "content": str(question)[:1000]})
-    res = _http("POST", f"{base}/chat/completions", key, {
-        "model": os.environ.get("DEEPSEEK_MODEL", "deepseek-chat"), "messages": msgs,
-        "temperature": 0.1, "max_tokens": 250,
-    }, timeout=40)
-    return res["choices"][0]["message"]["content"].strip()
+    ran = []
+    for i in range(max_rounds):
+        payload = {"model": os.environ.get("DEEPSEEK_MODEL", "deepseek-chat"), "messages": msgs,
+                   "temperature": 0.1, "max_tokens": 300}
+        if i < max_rounds - 1:
+            payload["tools"] = chat_tools.TOOLS
+        msg = _http("POST", f"{base}/chat/completions", key, payload, timeout=60)["choices"][0]["message"]
+        calls = msg.get("tool_calls") or []
+        if not calls:
+            return {"answer": (msg.get("content") or "").strip() or "Not in the data.", "ran": ran}
+        msgs.append({"role": "assistant", "content": msg.get("content") or "", "tool_calls": calls})
+        for c in calls:
+            name = c["function"]["name"]
+            try:
+                out = chat_tools.run(name, json.loads(c["function"].get("arguments") or "{}"))
+            except Exception as e:  # the model sees the error and can tell the user
+                out = {"error": f"{type(e).__name__}: {e}"}
+            ran.append(name)
+            msgs.append({"role": "tool", "tool_call_id": c["id"], "content": json.dumps(out, default=str)[:6000]})
+    return {"answer": "I ran out of steps for that request. Try asking for one thing at a time.", "ran": ran}
 
 
 if __name__ == "__main__":
     try:
-        print(ask(" ".join(sys.argv[1:]) or "Which company has the better LTV:CAC?"))
+        r = ask(" ".join(sys.argv[1:]) or "Which company has the better LTV:CAC?")
+        print((f"[ran: {', '.join(r['ran'])}] " if r["ran"] else "") + r["answer"])
     except urllib.error.HTTPError as e:
         print(f"DeepSeek error HTTP {e.code}: {e.read()[:300].decode(errors='replace')}")
     except RuntimeError as e:

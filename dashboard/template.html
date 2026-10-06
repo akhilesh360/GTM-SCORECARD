@@ -198,13 +198,13 @@ footer { margin-top: 48px; color: var(--muted); font-size: 12px; }
   </section>
 
   <section id="ask">
-    <h2>Ask VelocityOS <span class="scope">All companies</span></h2>
-    <p class="sub">Answers come only from the numbers on this page. If the data doesn't cover a question, it says so instead of guessing.</p>
+    <h2>Ask VelocityOS <span class="scope">Agent</span></h2>
+    <p class="sub">Ask a question or tell it what to do: compare companies, switch the attribution model, score a lead, or add a test lead to HubSpot. Answers come only from this data; it says "Not in the data" rather than guess.</p>
     <div class="panel">
       <div class="chips ask" id="askChips" role="group" aria-label="Suggested questions"></div>
       <div class="chat-log" id="chatLog" aria-live="polite"></div>
       <form class="chat-form" id="chatForm">
-        <input id="chatInput" type="text" maxlength="500" placeholder="e.g. Which channel has the best LTV:CAC at Summit?" aria-label="Question" autocomplete="off">
+        <input id="chatInput" type="text" maxlength="500" placeholder="e.g. Score a lead: Lakeview Plaza, Retail, 200 employees, TX, Call Tracking, for Summit" aria-label="Question" autocomplete="off">
         <button type="submit" id="chatSend">Ask</button>
         <button type="button" class="ghost" id="chatStop" hidden>Stop</button>
       </form>
@@ -623,7 +623,7 @@ document.getElementById("asof").textContent = `Synthetic data · Apr–Sep 2026 
 document.getElementById("foot").textContent = `All companies and records are synthetic. Generated ${D.run_info.generated_at.replace("T", " ")} by run_all.py from output/*.csv; the same files feed the Looker Studio version.`;
 renderSwitch(); renderFilters(); renderScorecard(); renderDetail(); renderPortability();
 // ---------- Ask the scorecard: DeepSeek via the local server, or Claude inside the published artifact ----------
-const ASK = ["Why is Summit's CAC lower?", "Should Acme cut Meta Ads?", "Where is Summit losing revenue?", "What drives Summit's higher pipeline velocity?"];
+const ASK = ["Why is Summit's CAC lower?", "Show Acme's ROAS on first touch vs last touch", "Score a lead: Harbor Point Dental Group, Government, 10 employees, NJ, Google Ads, for Acme MSP", "Add a test lead to HubSpot for Acme MSP"];
 const chatTurns = [];
 let chatEngine = null, chatCtl = null;
 const chatEls = { log: document.getElementById("chatLog"), form: document.getElementById("chatForm"), input: document.getElementById("chatInput"),
@@ -644,23 +644,63 @@ async function pickEngine() {
     } catch (e) { /* not served by the local server */ }
   }
   const sample = window.claude && typeof window.claude.use === "function" ? await window.claude.use("sample") : null;
-  if (sample) return { name: "Claude", ask: (q, hist, onText, signal) => askClaude(sample, q, hist, onText, signal) };
+  if (sample) {
+    const lim = await sample.limits().catch(() => null);
+    return { name: "Claude", tools: !!(lim && lim.tools), ask: (q, hist, onText, signal, onTool) => askClaude(sample, q, hist, onText, signal, onTool, !!(lim && lim.tools)) };
+  }
   return null;
 }
 
-async function askLocal(q, hist, onText, signal) {
+async function askLocal(q, hist, onText, signal, onTool) {
   const r = await fetch("chat", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ question: q, history: hist }), signal });
   const j = await r.json().catch(() => ({}));
   if (!r.ok || !j.answer) throw { code: "local_error", message: j.error || `HTTP ${r.status}` };
+  (j.ran || []).forEach(onTool);
   onText(j.answer);
   return j.answer;
 }
 
-async function askClaude(sample, q, hist, onText, signal) {
+// Page-side tools for Claude mode: same names and results as gtm/chat_tools.py (rules score only; no CRM writes)
+function coCfg(c) { const k = String(c || "").toLowerCase(); const n = COMPANIES.find(x => x.toLowerCase() === k || k.startsWith(x.split(" ")[0].toLowerCase()));
+  if (!n) throw new Error(`unknown company ${c}; use ${COMPANIES.join(" or ")}`); return n; }
+const PAGE_TOOLS = [
+  { name: "compare_companies", description: "Scorecard metrics side by side for both companies. Optional metric name fragments filter the list. Returns [{metric, unit, values}].",
+    inputSchema: { type: "object", properties: { metrics: { type: "array", items: { type: "string" } } } },
+    execute: ({ metrics }) => { const w = (Array.isArray(metrics) ? metrics : []).map(m => String(m).toLowerCase());
+      const names = [...new Set(D.scorecard.map(r => r.metric))].filter(m => !w.length || w.some(x => m.toLowerCase().includes(x)));
+      return names.map(m => ({ metric: m, unit: D.scorecard.find(r => r.metric === m).unit, values: Object.fromEntries(COMPANIES.map(c => [c, metric(c, m).value])) })); } },
+  { name: "get_attribution", description: "Bookings, spend and ROAS per channel for one company under first_touch, last_touch or linear attribution.",
+    inputSchema: { type: "object", properties: { company: { type: "string", enum: COMPANIES }, model: { type: "string", enum: ["first_touch", "last_touch", "linear"] } }, required: ["company", "model"] },
+    execute: ({ company, model }) => { const co = coCfg(company); const m = ["first_touch", "last_touch", "linear"].includes(model) ? model : "linear";
+      return { company: co, model: m, channels: D.attribution.filter(r => r.portfolio_company === co).map(r => ({ channel: r.channel, bookings: Math.round(r[m + "_revenue"]), spend: Math.round(r.total_spend), roas: +r[m + "_roas"].toFixed(2) })) }; } },
+  { name: "score_lead", description: "Score and route one new lead with the portfolio rules: fit score 0-100, components, territory, rep, pipeline, SLA. Needs industry and employee count (ask the user if missing). Read-only.",
+    inputSchema: { type: "object", properties: { company: { type: "string", enum: COMPANIES }, lead_company: { type: "string" }, state: { type: "string" },
+      lead_source: { type: "string", enum: ["Google Ads", "Meta Ads", "Outbound", "Referral", "Call Tracking"] }, industry: { type: "string" }, employees: { type: "integer" } },
+      required: ["company", "lead_company", "state", "lead_source", "industry", "employees"] },
+    execute: ({ company, lead_company, state, lead_source, industry, employees }) => {
+      const co = coCfg(company), cfg = D.agent_cfg[co], ag = D.standard.agent, st = String(state || "").toUpperCase(), emp = Number(employees);
+      if (!industry || !emp) throw new Error("need industry and employees");
+      const { employees_min: lo, employees_max: hi } = cfg.icp;
+      const empFit = emp >= lo && emp <= hi ? 1 : Math.max(0, 1 - 0.9 * Math.abs(Math.log(Math.max(emp, 1) / (emp < lo ? lo : hi))));
+      const terr = Object.entries(cfg.territories).find(([, t]) => t.states.includes(st));
+      const comps = { employees: empFit, industry: cfg.icp.industries.includes(industry) ? 1 : 0.1, territory: terr ? 1 : 0, source_quality: ag.source_quality[lead_source] ?? 0.5 };
+      const score = Math.round(Math.min(100, Math.max(0, Object.entries(ag.fit_weights).reduce((s, [k, w]) => s + w * comps[k], 0))));
+      const svc = cfg.default_service[lead_source];
+      const pipe = Object.entries(cfg.pipelines).find(([, r]) => (r.lead_sources || []).includes(lead_source) || (r.service_type && r.service_type === svc));
+      return { company: co, lead: String(lead_company), fit_score: score, score_source: "rules", hot: score >= ag.hot_lead_threshold,
+        components: Object.fromEntries(Object.entries(comps).map(([k, v]) => [k, +v.toFixed(2)])), icp: cfg.icp,
+        territory: terr ? terr[0] : "Unassigned", rep: terr ? terr[1].owner : cfg.unassigned_owner, pipeline: (pipe || Object.entries(cfg.pipelines)[0])[0], sla_minutes: ag.sla_minutes }; } },
+  { name: "add_test_lead", description: "Create one test lead in HubSpot and run the agent on it.",
+    inputSchema: { type: "object", properties: { company: { type: "string", enum: COMPANIES } }, required: ["company"] },
+    execute: () => { throw new Error("Creating HubSpot records only works on the local server (python -m gtm.agent_server). Tell the user that."); } },
+];
+
+async function askClaude(sample, q, hist, onText, signal, onTool, canTools) {
   const C = D.chat || {};
   const turns = [{ role: "user", content: `${C.rules}\n\n# Facts\n${C.context}` }].concat(hist, [{ role: "user", content: q }]);
   const opts = { modelTier: "quick", signal, onText: ({ text }) => onText(text) };
-  if (hist.length) opts.cache = false;  // first questions (the chips) may replay; follow-ups always ask
+  if (canTools) opts.tools = PAGE_TOOLS.map(t => ({ ...t, execute: (inp) => { onTool(t.name); return t.execute(inp || {}); } }));
+  else if (hist.length) opts.cache = false;  // first questions (the chips) may replay; follow-ups always ask
   const { text } = await sample(turns, opts);
   return text;
 }
@@ -679,11 +719,14 @@ async function askScorecard(q) {
   chatEls.input.value = "";
   bubble("q", q);
   const out = bubble("a", "Thinking...", `Answered by ${chatEngine.name} from the scorecard data`);
+  const ranEl = document.createElement("span"); ranEl.className = "by"; ranEl.style.margin = "0 0 4px"; out.parentNode.insertBefore(ranEl, out);
+  const ran = [];
+  const onTool = n => { ran.push(n); ranEl.textContent = "Ran: " + [...new Set(ran)].join(", "); };
   const hist = chatTurns.slice(-6);
   chatCtl = new AbortController();
   setChatEnabled(false); chatEls.stop.hidden = false;
   try {
-    const text = await chatEngine.ask(q, hist, t => { out.textContent = t; chatEls.log.scrollTop = chatEls.log.scrollHeight; }, chatCtl.signal);
+    const text = await chatEngine.ask(q, hist, t => { out.textContent = t; chatEls.log.scrollTop = chatEls.log.scrollHeight; }, chatCtl.signal, onTool);
     chatTurns.push({ role: "user", content: q }, { role: "assistant", content: text });
   } catch (e) {
     const code = e && e.code;
