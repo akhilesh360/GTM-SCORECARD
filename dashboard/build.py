@@ -26,6 +26,7 @@ def main():
     data = {t: records(t) for t in TABLES}
     data["run_info"] = json.loads((OUT / "run_info.json").read_text())
     data["standard"] = json.loads((ROOT / "config" / "standard.json").read_text())
+    data["standard"].pop("hubspot", None)  # CRM setup details are not shown on the dashboard
     runs = OUT / "agent_runs.csv"
     # DeepSeek-scored leads: from this run's replay if it had a key, else the committed snapshot of a keyed run
     ai_runs = pd.read_csv(runs) if runs.exists() else pd.DataFrame()
