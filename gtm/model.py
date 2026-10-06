@@ -282,7 +282,14 @@ def run(companies=None):
             avg_fit_score=("fit_score", "mean"), deepseek_scored=("score_source", lambda s: (s == "deepseek").sum()),
         ).join(base).reset_index()
         ai["hours_saved"] = ai.minutes_saved / 60
-        ai["sla_minutes"] = standard["agent"]["sla_minutes"]
+        sla = standard["agent"]["sla_minutes"]
+        ai["sla_minutes"] = sla
+        # SLA hit rate: agent = lead routed with a task inside the SLA; baseline = first rep activity inside it
+        ai["sla_hit_rate"] = ai.portfolio_company.map(runs.groupby("portfolio_company").processing_seconds.apply(lambda s: (s <= sla * 60).mean()))
+        ai["baseline_sla_hit_rate"] = ai.portfolio_company.map(speed.groupby("portfolio_company").hours.apply(lambda s: (s <= sla / 60).mean()))
+        ai["avg_processing_seconds"] = ai.portfolio_company.map(runs.groupby("portfolio_company").processing_seconds.mean())
+        ds = runs[runs.score_source == "deepseek"].groupby("portfolio_company").processing_seconds.mean()
+        ai["avg_deepseek_seconds"] = ai.portfolio_company.map(ds)
 
     outputs = {
         "scorecard": scorecard, "scorecard_wide": scorecard_wide, "channel_performance": ch,

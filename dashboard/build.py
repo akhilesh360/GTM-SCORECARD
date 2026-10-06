@@ -27,10 +27,15 @@ def main():
     data["run_info"] = json.loads((OUT / "run_info.json").read_text())
     data["standard"] = json.loads((ROOT / "config" / "standard.json").read_text())
     runs = OUT / "agent_runs.csv"
-    if runs.exists():
-        df = pd.read_csv(runs)
-        sample = df.sort_values("fit_score", ascending=False).groupby("portfolio_company").head(3)
-        data["agent_samples"] = json.loads(sample.to_json(orient="records"))
+    # DeepSeek-scored leads: from this run's replay if it had a key, else the committed snapshot of a keyed run
+    ai_runs = pd.read_csv(runs) if runs.exists() else pd.DataFrame()
+    ai_runs = ai_runs[ai_runs.score_source == "deepseek"] if len(ai_runs) else ai_runs
+    if not len(ai_runs):
+        ai_runs = pd.read_csv(HERE / "agent_snapshot.csv")
+    data["agent_ai"] = json.loads(ai_runs.to_json(orient="records"))
+    live = OUT / "agent_live_runs.jsonl"
+    data["agent_live"] = ([json.loads(l) for l in live.read_text().splitlines() if l.strip()] if live.exists()
+                          else json.loads((HERE / "agent_live_runs.json").read_text()))
     outbox = OUT / "slack_outbox.jsonl"
     if outbox.exists():
         lines = [json.loads(l) for l in outbox.read_text().splitlines()]
@@ -44,6 +49,11 @@ def main():
     from gtm.config import load_companies
     data["slack_channels"] = {c["name"]: c["slack_channel"] for c in load_companies()}
     data["company_meta"] = {c["name"]: f'{c["gtm_motion"]} {c["company_type"]}' for c in load_companies()}
+    data["icp"] = {c["name"]: c["icp"] for c in load_companies()}
+    data["company_cfg"] = [{"name": c["name"], "motion": c["gtm_motion"], "type": c["company_type"],
+                            "pipelines": [k for k in c["pipelines"] if not k.startswith("_")],
+                            "territories": len(c["territories"]), "icp": c["icp"], "slack": c["slack_channel"]}
+                           for c in load_companies()]
     data["lifetime"] = {c["name"]: c["economics"]["customer_lifetime_years"] for c in load_companies()}
     html = (HERE / "template.html").read_text().replace("/*__DATA__*/null", json.dumps(data, separators=(",", ":")))
     (HERE / "index.html").write_text(html)

@@ -128,7 +128,7 @@ footer { margin-top: 48px; color: var(--muted); font-size: 12px; }
     </div>
     <nav class="jump" aria-label="Sections">
       <a href="#scorecard">Scorecard</a><a href="#channels">Channels</a><a href="#attribution">Attribution</a>
-      <a href="#agent">AI agent</a><a href="#calls">Call tracking</a><a href="#velocity">Velocity</a><a href="#quality">Data quality</a>
+      <a href="#agent">AI agent</a><a href="#calls">Call tracking</a><a href="#velocity">Velocity</a><a href="#quality">Data quality</a><a href="#portability">Add a company</a>
     </nav>
     <div class="seg" role="group" aria-label="Company for drill-down sections" id="companySwitch"></div>
   </div>
@@ -173,12 +173,13 @@ footer { margin-top: 48px; color: var(--muted); font-size: 12px; }
   </section>
 
   <section id="agent">
-    <h2>AI automation impact <span class="co-name"></span><span class="scope">Last 30 days</span></h2>
-    <p class="sub">Last 30 days of leads replayed through the AI lead agent: enrich, score, route, create deal, set a 5-minute SLA task, alert Slack, log activity.</p>
+    <h2>AI lead agent <span class="co-name"></span><span class="scope">Last 30 days</span></h2>
+    <p class="sub">Every new lead is enriched, scored by DeepSeek against the company's ICP (rules score as baseline and fallback), routed to a territory rep, given a deal and a 5-minute SLA task, posted to Slack and logged.</p>
     <div class="tiles" id="aiTiles"></div>
     <div class="grid" style="margin-top:16px">
-      <div class="panel c6"><h3>Does the fit score predict conversion?</h3><p class="note">Lead-to-opportunity rate by fit-score band, all six months.</p><div class="chart" id="fitChart"></div></div>
-      <div class="panel c6"><h3>Highest-fit leads the agent processed</h3><p class="note">Routing, SLA task and the rationale the rep sees.</p><div id="agentSamples"></div></div>
+      <div class="panel c6"><h3>Where the AI overruled the rules</h3><p class="note">Same lead, two scores. The rules add up points; DeepSeek reads the whole profile against the ICP.</p><div id="aiDisagree"></div></div>
+      <div class="panel c6"><h3>Does the fit score predict conversion?</h3><p class="note">Lead-to-opportunity rate by fit-score band, all six months.</p><div class="chart" id="fitChart"></div><div id="slackLast"></div></div>
+      <div class="panel c12"><h3>Leads scored by DeepSeek</h3><p class="note" id="aiTableNote"></p><div class="table-wrap"><table id="aiTable"></table></div></div>
     </div>
   </section>
 
@@ -206,6 +207,15 @@ footer { margin-top: 48px; color: var(--muted); font-size: 12px; }
     <div class="grid">
       <div class="panel c6"><h3>Required-field completeness</h3><p class="note">After cleaning. Gaps here need fixing at the source.</p><div class="table-wrap"><table id="qualityTable"></table></div></div>
       <div class="panel c6"><h3>Cleaning applied to raw exports</h3><p class="note">Rows fixed by the normalization layer before any metric is computed.</p><div class="table-wrap"><table id="cleanTable"></table></div></div>
+    </div>
+  </section>
+
+  <section id="portability">
+    <h2>Adding company #3 <span class="scope">Portability</span></h2>
+    <p class="sub">The scorecard, cleaning, attribution and agent code is shared. A new company brings its own data exports and one config file; everything else is the portfolio standard.</p>
+    <div class="grid">
+      <div class="panel c8"><h3>What changes per company</h3><p class="note">One JSON file each. This is the whole difference between the two companies above.</p><div class="table-wrap"><table id="portTable"></table></div></div>
+      <div class="panel c4"><h3>What stays the same</h3><p class="note">Set once in the portfolio standard.</p><div id="portStd"></div></div>
     </div>
   </section>
 
@@ -384,10 +394,10 @@ function renderSwitch() {
 }
 
 function renderScorecard() {
-  const keys = [["Bookings (closed-won revenue)", "usd"], ["Blended CAC", "usd"], ["LTV : CAC", "x"], ["CAC payback", "months"]];
-  document.getElementById("heroTiles").innerHTML = COMPANIES.map(co => `<div class="tile-group"><span class="eyebrow">${esc(co)} · ${esc((D.company_meta || {})[co] || "")}</span><div class="tiles four">` + keys.map(([k, u]) => {
+  const keys = [["Pipeline velocity", "usd", "per day"], ["Bookings (closed-won revenue)", "usd"], ["Blended CAC", "usd"], ["LTV : CAC", "x"], ["CAC payback", "months"]];
+  document.getElementById("heroTiles").innerHTML = COMPANIES.map(co => `<div class="tile-group"><span class="eyebrow">${esc(co)} · ${esc((D.company_meta || {})[co] || "")}</span><div class="tiles four">` + keys.map(([k, u, per]) => {
     const m = metric(co, k);
-    return `<div class="tile"><span class="label">${esc(k.replace(" (closed-won revenue)", ""))}</span><span class="value">${fmt[u](m.value)}</span><span class="foot">${m.status ? pill(m.status) : "&nbsp;"}</span></div>`;
+    return `<div class="tile"><span class="label">${esc(k.replace(" (closed-won revenue)", ""))}</span><span class="value">${fmt[u](m.value)}</span><span class="foot">${m.status ? pill(m.status) : per || "&nbsp;"}</span></div>`;
   }).join("") + `</div></div>`).join("");
 
   const metrics = [...new Set(D.scorecard.map(r => r.category + "|" + r.metric))];
@@ -459,23 +469,51 @@ function renderAttribution() {
 
 function renderAgent() {
   const ai = byCo(D.ai_automation_impact)[0];
-  const base = metric(company, "Speed to lead (median)");
+  const sla = D.standard.agent.sla_minutes;
+  const speed = ai && (ai.avg_deepseek_seconds || ai.avg_processing_seconds);
   document.getElementById("aiTiles").innerHTML = ai ? [
-    ["Leads processed (30 days)", fmt.count(ai.leads_processed), "No manual touches"],
-    ["Manual steps eliminated", fmt.count(ai.steps_automated), "7 steps per lead"],
+    ["Leads scored", fmt.count(ai.leads_processed), ai.deepseek_scored ? `${fmt.count(ai.deepseek_scored)} by DeepSeek, rest by rules` : (D.agent_ai || []).length ? "Rules score; this run's DeepSeek calls went to other leads" : "Rules score (no DeepSeek key in this run)"],
+    ["Avg speed to lead", speed == null ? "–" : fmt.seconds(speed), `${ai.avg_deepseek_seconds ? "With DeepSeek. " : ""}Was ${fmt.hours(ai.baseline_speed_to_lead_hours)} median by hand`],
+    ["SLA hit rate", fmt.pct(ai.sla_hit_rate), `${sla}-min SLA. Was ${fmt.pct(ai.baseline_sla_hit_rate)} by hand`],
+    ["Hot leads flagged", fmt.count(ai.hot_leads), `Fit score ${D.standard.agent.hot_lead_threshold}+, alerted in Slack`],
     ["Rep hours saved", fmt.count(ai.hours_saved), "17 min of admin per lead"],
-    ["Speed to lead, before", fmt.hours(ai.baseline_speed_to_lead_hours), "Median, manual routing"],
-    ["Speed to lead, with agent", `${ai.sla_minutes} min SLA`, `Routed in ${fmt.seconds(ai.median_processing_seconds)}`],
-    ["Hot leads flagged", fmt.count(ai.hot_leads), `Fit score ${D.standard.agent.hot_lead_threshold}+`],
   ].map(([l, v, f]) => `<div class="tile"><span class="label">${esc(l)}</span><span class="value">${esc(v)}</span><span class="foot">${esc(f)}</span></div>`).join("") : "<p>Run the agent replay to populate this section.</p>";
   const fit = byCo(D.fit_score_validation);
   hbars(document.getElementById("fitChart"), fit.map(r => ({ label: "Fit " + r.fit_band, value: r.lead_to_opp, color: "var(--seq)",
     tip: `<b>Fit ${esc(r.fit_band)}</b><br>${r.leads} leads · ${r.opps} opps · ${r.won} won` })), { format: fmt.pct });
-  const samples = (D.agent_samples || []).filter(r => r.portfolio_company === company);
   const ch = (D.slack_channels || {})[company];
   const msg = (D.slack_samples || []).find(m => m.channel === ch);
-  document.getElementById("agentSamples").innerHTML = samples.map(r => `<div class="agent-card"><div class="row1"><span class="co">${esc(r.company)}</span><span class="meta">Fit ${r.fit_score} · ${esc(r.lead_source)} · ${esc(r.territory)} → ${esc(r.owner)}</span></div><div class="meta">${esc(r.pipeline)} · task due ${esc(r.task_due.replace("T", " ").slice(0, 16))}</div><div class="why">${esc(r.rationale)}</div></div>`).join("")
-    + (msg ? `<div class="meta" style="margin-top:8px">Latest Slack alert (mock)</div><div class="slack">${esc(msg.channel)} · ${esc(msg.text)}</div>` : "");
+  document.getElementById("slackLast").innerHTML = msg ? `<div class="meta" style="margin-top:12px;font-size:12px;color:var(--muted)">Latest hot-lead alert (mock Slack)</div><div class="slack">${esc(msg.channel)} · ${esc(msg.text)}</div>` : "";
+
+  // disagreements: the live HubSpot test first, then the biggest gap in the replay
+  const card = (r, tag) => `<div class="agent-card"><div class="row1"><span class="co">${esc(r.company)}</span><span class="meta">${esc(r.portfolio_company)} · ${esc(r.lead_source)} · ${esc(r.territory)} → ${esc(r.owner)}</span></div>
+    <div class="row1"><span><strong style="font-family:var(--font-display);font-size:20px">${r.fit_score}</strong> <span class="meta">DeepSeek</span></span><span><strong style="font-family:var(--font-display);font-size:20px;color:var(--muted)">${r.rules_fit_score}</strong> <span class="meta">rules</span></span><span class="meta">${esc(tag)}</span></div>
+    <div class="why">${esc(r.why)}</div></div>`;
+  const icp = c => (D.icp || {})[c] || {};
+  const live = (D.agent_live || []).filter(r => r.score_source === "deepseek" && r.fit_score !== r.rules_fit_score).slice(-1).map(r => {
+    const i = icp(r.portfolio_company);
+    const out = r.employees != null && i.employees_min != null && (r.employees < i.employees_min || r.employees > i.employees_max);
+    return { ...r, why: r.rationale || `${r.industry}, ${r.employees} employees${out ? `: outside the ${i.employees_min}-${i.employees_max} employee ICP` : ""}${(i.industries || []).includes(r.industry) ? "" : `, and ${r.industry} is not a target industry`}. The rules still gave it points for territory and source.`,
+      tag: `Live HubSpot run, ${String(r.run_at || "").slice(0, 10)}` };
+  });
+  const ds = (D.agent_ai || []).slice().sort((a, b) => (b.rules_fit_score - b.fit_score) - (a.rules_fit_score - a.fit_score) || b.rules_fit_score - a.rules_fit_score);
+  const rep = ds.slice(0, 1).map(r => ({ ...r, why: r.rationale, tag: "30-day replay" }));
+  const dis = live.concat(rep);
+  const diff = ds.filter(r => r.fit_score !== r.rules_fit_score), n = diff.length;
+  const allLower = n && diff.every(r => r.fit_score < r.rules_fit_score);
+  document.getElementById("aiDisagree").innerHTML = dis.length
+    ? dis.map(r => card(r, r.tag)).join("") + `<p class="callout" style="margin-top:10px">DeepSeek disagreed on <strong>${n} of ${ds.length}</strong> replayed leads${allLower ? ", scoring lower than the rules every time" : ""}. Reps see the reason and work the real fits first.</p>`
+    : "<p>No DeepSeek-scored leads yet. Add DEEPSEEK_API_KEY and rerun the replay.</p>";
+
+  const pick = ds.filter(r => r.fit_score !== r.rules_fit_score).slice(0, 4)
+    .concat(ds.filter(r => r.fit_score === r.rules_fit_score).sort((a, b) => b.fit_score - a.fit_score).slice(0, 4));
+  document.getElementById("aiTableNote").textContent = `${ds.length} leads scored by DeepSeek in the latest replay (capped at 25 paid calls per run). Showing the largest disagreements and the strongest agreements.`;
+  let t = `<thead><tr><th>Lead</th><th class="num">DeepSeek</th><th class="num">Rules</th><th>Reason the rep sees</th><th>Territory → rep</th><th>SLA task due</th></tr></thead><tbody>`;
+  pick.forEach(r => {
+    const d = r.fit_score - r.rules_fit_score;
+    t += `<tr><td>${esc(r.company)}<span class="def">${esc(r.portfolio_company)} · ${esc(r.lead_source)}</span></td><td class="num"><strong>${r.fit_score}</strong>${d ? `<span class="def" style="color:var(--bad-text)">${d}</span>` : ""}</td><td class="num">${r.rules_fit_score}</td><td>${esc(r.rationale)}</td><td>${esc(r.territory)} → ${esc(r.owner)}</td><td style="white-space:nowrap">${esc(String(r.task_due || "").replace("T", " ").slice(0, 16))}<span class="def">${sla} min after arrival</span></td></tr>`;
+  });
+  document.getElementById("aiTable").innerHTML = t + "</tbody>";
 }
 
 function renderCalls() {
@@ -523,6 +561,30 @@ function renderQuality() {
   document.getElementById("cleanTable").innerHTML = cl.length ? c + "</tbody>" : "<tbody><tr><td>No raw exports were cleaned in this run.</td></tr></tbody>";
 }
 
+function renderPortability() {
+  const cs = D.company_cfg || [];
+  const rows = [
+    ["GTM motion", c => `${esc(c.motion)} ${esc(c.type)}`],
+    ["Pipeline names", c => c.pipelines.map(p => esc(p.replace(c.name + " - ", ""))).join(", ")],
+    ["Ideal customer", c => `${esc(c.icp.industries.join(", "))}; ${c.icp.employees_min}-${c.icp.employees_max} employees`],
+    ["Territories and reps", c => `${c.territories} territories`],
+    ["Slack alerts", c => esc(c.slack)],
+    ["Data", () => "7 CRM, ad and call-tracking exports"],
+  ];
+  let t = `<thead><tr><th></th>${cs.map(c => `<th>${esc(c.name)}</th>`).join("")}</tr></thead><tbody>`;
+  rows.forEach(([l, f]) => t += `<tr><td>${l}</td>${cs.map(c => `<td>${f(c)}</td>`).join("")}</tr>`);
+  document.getElementById("portTable").innerHTML = t + "</tbody>";
+  const st = D.standard;
+  document.getElementById("portStd").innerHTML = `<table><tbody>${[
+    ["Metric definitions", `${new Set((D.scorecard || []).map(r => r.metric)).size} metrics`],
+    ["Channels", `${st.channels.length}, with alias cleanup`],
+    ["Deal stages", st.deal_stages.join(" → ")],
+    ["Opportunity rule", "Reached Qualified"],
+    ["Targets", `${Object.keys(st.benchmarks).length} benchmarks`],
+    ["Agent SLA", `${st.agent.sla_minutes} min, hot at ${st.agent.hot_lead_threshold}+`],
+  ].map(([k, v]) => `<tr><td>${k}</td><td>${esc(v)}</td></tr>`).join("")}</tbody></table>`;
+}
+
 function renderDetail() {
   document.querySelectorAll(".co-name").forEach(e => e.textContent = "· " + company);
   renderChannels(); renderAttribution(); renderAgent(); renderCalls(); renderVelocity(); renderQuality();
@@ -530,6 +592,6 @@ function renderDetail() {
 
 document.getElementById("asof").textContent = `Synthetic data · Apr–Sep 2026 · through ${D.run_info.data_through}`;
 document.getElementById("foot").textContent = `All companies and records are synthetic. Generated ${D.run_info.generated_at.replace("T", " ")} by run_all.py from output/*.csv; the same files feed the Looker Studio version.`;
-renderSwitch(); renderFilters(); renderScorecard(); renderDetail();
+renderSwitch(); renderFilters(); renderScorecard(); renderDetail(); renderPortability();
 let rt; window.addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(renderDetail, 150); });
 </script>

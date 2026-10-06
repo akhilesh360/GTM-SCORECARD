@@ -1,0 +1,17 @@
+[
+ {
+  "portfolio_company": "Acme MSP",
+  "company": "Harbor Point Dental Group",
+  "lead_source": "Google Ads",
+  "fit_score": 22,
+  "rules_fit_score": 48,
+  "score_source": "deepseek",
+  "territory": "NJ",
+  "owner": "Marcus Lee",
+  "industry": "Government",
+  "employees": 10,
+  "state": "NJ",
+  "rationale": null,
+  "run_at": "2026-10-05T23:24:22"
+ }
+]

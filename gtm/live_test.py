@@ -6,12 +6,15 @@ SLA task and activity note. Prints every id created. Uses 1 of the free CRM's 1,
   python -m gtm.live_test                 Acme MSP test lead
   python -m gtm.live_test summit_hvac     Summit HVAC test lead
 """
+import json
 import os
 import sys
 import time
+from datetime import datetime
 import urllib.error
 
 from .agent import LeadAgent
+from .enrich import mock_enrich
 from .config import OUTPUT_DIR, load_companies
 from .integrations import DEEPSEEK_STATUS, HubSpotClient
 from .mocks import MockSlack
@@ -48,6 +51,12 @@ def main(slug="acme_msp"):
     print(f"reason   {r['rationale']}")
     if agent.use_llm and r["score_source"] != "deepseek":
         print(f"DeepSeek fell back to rules: {DEEPSEEK_STATUS['last_error']}")
+    e = mock_enrich(props["company"], cfg)
+    with open(OUTPUT_DIR / "agent_live_runs.jsonl", "a") as f:  # the dashboard shows these
+        f.write(json.dumps({k: r[k] for k in ("portfolio_company", "company", "lead_source", "fit_score", "rules_fit_score",
+                                              "score_source", "territory", "owner", "rationale")}
+                           | {"industry": e["industry"], "employees": e["employees"],
+                              "state": props["state"], "run_at": datetime.now().isoformat(timespec="seconds")}) + "\n")
     print(f"In HubSpot: Contacts -> search {props['email']} (deal, task and note are on the record)")
     return 0
 
