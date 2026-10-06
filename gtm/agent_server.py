@@ -78,7 +78,17 @@ def health():
 
 @app.get("/")
 def dashboard():
-    return send_file(ROOT / "dashboard" / "index.html")
+    """Serve the dashboard, rebuilding it first if it is missing or older than its template or data."""
+    index = ROOT / "dashboard" / "index.html"
+    sources = [ROOT / "dashboard" / "template.html", ROOT / "dashboard" / "build.py", *(ROOT / "output").glob("*.csv")]
+    newest = max((f.stat().st_mtime for f in sources if f.exists()), default=0)
+    if not index.exists() or index.stat().st_mtime < newest:
+        from dashboard import build
+        try:
+            build.main()
+        except FileNotFoundError as e:
+            return f"Dashboard data missing ({e.filename}). Run: python run_all.py --skip-generate", 500
+    return send_file(index, max_age=0)
 
 
 @app.get("/chat")
