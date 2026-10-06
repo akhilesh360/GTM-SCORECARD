@@ -166,7 +166,7 @@ Spend, touchpoints and call tracking stay in the model. HubSpot holds the record
   - Sections: portfolio view (scorecard tiles with RAG status), channel performance, attribution comparison, AI automation impact, call-tracking impact, pipeline velocity, and data quality with the cleaning log.
   - Published as an artifact.
 - `gtm/sheets_sync.py` pushes the output tables to a Google Sheet (`GOOGLE_SHEET_ID`, `GOOGLE_ACCESS_TOKEN`) for Looker Studio. See `docs/looker_studio.md`.
-- Playbook PDF (22 pages) and the 8-slide deck (`deck/`).
+- Playbook PDF (22 pages).
 
 ## 9. Tests (`tests/test_pipeline.py`)
 
@@ -193,4 +193,3 @@ None of the live clients has run against a real account yet.
 2. HubSpot: create the private-app token, put it in `.env`, run `setup --apply` (or set up by hand following `hubspot/SETUP.md`), then import the CSVs.
 3. Create a Google Sheet, connect Looker Studio, and run `gtm/sheets_sync.py` if you want live tables.
 4. Optional: a Slack webhook.
-5. Record the Loom walkthrough using the deck.
