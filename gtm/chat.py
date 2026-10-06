@@ -66,9 +66,9 @@ def ask(question, history=(), context=None, max_rounds=4):
         raise RuntimeError("DEEPSEEK_API_KEY is not set in .env")
     base = os.environ.get("DEEPSEEK_BASE_URL", "https://api.deepseek.com").rstrip("/")
     msgs = [{"role": "system", "content": RULES + "\n\n# Facts\n" + (context or build_context())}]
-    msgs += [{"role": m["role"], "content": str(m["content"])[:2000]} for m in list(history)[-6:]
+    msgs += [{"role": m["role"], "content": str(m["content"])[:5000]} for m in list(history)[-6:]
              if m.get("role") in ("user", "assistant") and m.get("content")]
-    msgs.append({"role": "user", "content": str(question)[:1000]})
+    msgs.append({"role": "user", "content": str(question)[:5000]})
     ran = []
     for i in range(max_rounds):
         payload = {"model": os.environ.get("DEEPSEEK_MODEL", "deepseek-chat"), "messages": msgs,

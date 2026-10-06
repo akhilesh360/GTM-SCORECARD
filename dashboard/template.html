@@ -130,6 +130,21 @@ svg text { font-family: var(--font-body); }
 .chat-form button:disabled { opacity: .5; cursor: default; }
 .chat-form input:focus-visible, .chat-form button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .chips.ask { margin-top: 4px; }
+.chat-fab { position: fixed; right: 20px; bottom: 20px; z-index: 30; display: inline-flex; align-items: center; gap: 8px; font: inherit; font-weight: 600; border: 0; border-radius: 999px; padding: 12px 16px; background: var(--accent); color: var(--surface); box-shadow: 0 6px 20px rgba(0,0,0,.18); cursor: pointer; }
+.chat-fab[hidden] { display: none; }
+.chat-float .note { font-size: 12px; color: var(--muted); }
+.chat-fab svg { width: 18px; height: 18px; }
+.chat-fab:focus-visible, .chat-min:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+.chat-float { position: fixed; right: 20px; bottom: 20px; z-index: 31; width: min(440px, calc(100vw - 32px)); max-height: min(640px, calc(100vh - 40px)); display: flex; flex-direction: column; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; box-shadow: 0 12px 40px rgba(0,0,0,.22); }
+.chat-float[hidden] { display: none; }
+.chat-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 10px 12px 10px 14px; border-bottom: 1px solid var(--border); cursor: move; user-select: none; touch-action: none; }
+.chat-title { font-family: var(--font-display); font-weight: 600; }
+.chat-min { font: inherit; font-size: 20px; line-height: 1; width: 32px; height: 32px; border: 0; border-radius: 6px; background: transparent; color: var(--ink-2); cursor: pointer; }
+.chat-min:hover { background: var(--page); }
+.chat-body { padding: 10px 12px 12px; display: flex; flex-direction: column; min-height: 0; overflow: hidden; }
+.chat-float .chat-log { max-height: none; flex: 1; min-height: 0; }
+.chat-float .msg { max-width: 92%; font-size: 13px; }
+.chat-float .chip { font-size: 12px; }
 footer { margin-top: 48px; color: var(--muted); font-size: 12px; }
 @media (prefers-reduced-motion: reduce) { .tip { transition: none; } }
 </style>
@@ -142,7 +157,7 @@ footer { margin-top: 48px; color: var(--muted); font-size: 12px; }
     </div>
     <nav class="jump" aria-label="Sections">
       <a href="#scorecard">Scorecard</a><a href="#channels">Channels</a><a href="#attribution">Attribution</a>
-      <a href="#agent">AI agent</a><a href="#ask">Ask</a><a href="#calls">Call tracking</a><a href="#velocity">Velocity</a><a href="#quality">Data quality</a><a href="#portability">Add a company</a>
+      <a href="#agent">AI agent</a><a href="#ask" id="navAsk">Ask</a><a href="#calls">Call tracking</a><a href="#velocity">Velocity</a><a href="#quality">Data quality</a><a href="#portability">Add a company</a>
     </nav>
     <div class="seg" role="group" aria-label="Company for drill-down sections" id="companySwitch"></div>
   </div>
@@ -197,21 +212,6 @@ footer { margin-top: 48px; color: var(--muted); font-size: 12px; }
     </div>
   </section>
 
-  <section id="ask">
-    <h2>Ask VelocityOS <span class="scope">Agent</span></h2>
-    <p class="sub">Ask a question or tell it what to do: compare companies, switch the attribution model, score a lead, or add a test lead to HubSpot. Answers come only from this data; it says "Not in the data" rather than guess.</p>
-    <div class="panel">
-      <div class="chips ask" id="askChips" role="group" aria-label="Suggested questions"></div>
-      <div class="chat-log" id="chatLog" aria-live="polite"></div>
-      <form class="chat-form" id="chatForm">
-        <input id="chatInput" type="text" maxlength="500" placeholder="e.g. Score a lead: Lakeview Plaza, Retail, 200 employees, TX, Call Tracking, for Summit" aria-label="Question" autocomplete="off">
-        <button type="submit" id="chatSend">Ask</button>
-        <button type="button" class="ghost" id="chatStop" hidden>Stop</button>
-      </form>
-      <p class="note" id="chatNote" style="margin:8px 0 0"></p>
-    </div>
-  </section>
-
   <section id="calls">
     <h2>Call-tracking impact <span class="co-name"></span><span class="scope">Full period</span></h2>
     <p class="sub" id="callCallout"></p>
@@ -250,6 +250,27 @@ footer { margin-top: 48px; color: var(--muted); font-size: 12px; }
 
   <footer id="foot"></footer>
 </div>
+
+<button type="button" class="chat-fab" id="chatFab" aria-label="Open the VelocityOS agent" aria-expanded="false">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+  <span>Ask VelocityOS</span>
+</button>
+<aside class="chat-float" id="chatPanel" role="dialog" aria-label="Ask VelocityOS" hidden>
+  <div class="chat-head" id="chatHead">
+    <span class="chat-title">Ask VelocityOS <span class="scope">Agent</span></span>
+    <button type="button" class="chat-min" id="chatMin" aria-label="Minimize">&minus;</button>
+  </div>
+  <div class="chat-body">
+    <div class="chips ask" id="askChips" role="group" aria-label="Suggested questions"></div>
+    <div class="chat-log" id="chatLog" aria-live="polite"></div>
+    <form class="chat-form" id="chatForm">
+      <input id="chatInput" type="text" maxlength="500" placeholder="Ask, or tell it what to do" aria-label="Question" autocomplete="off">
+      <button type="submit" id="chatSend">Ask</button>
+      <button type="button" class="ghost" id="chatStop" hidden>Stop</button>
+    </form>
+    <p class="note" id="chatNote" style="margin:6px 0 0"></p>
+  </div>
+</aside>
 <div class="tip" id="tip" role="tooltip"></div>
 
 <script>
@@ -623,13 +644,74 @@ document.getElementById("asof").textContent = `Synthetic data · Apr–Sep 2026 
 document.getElementById("foot").textContent = `All companies and records are synthetic. Generated ${D.run_info.generated_at.replace("T", " ")} by run_all.py from output/*.csv; the same files feed the Looker Studio version.`;
 renderSwitch(); renderFilters(); renderScorecard(); renderDetail(); renderPortability();
 // ---------- Ask the scorecard: DeepSeek via the local server, or Claude inside the published artifact ----------
-const ASK = ["Why is Summit's CAC lower?", "Show Acme's ROAS on first touch vs last touch", "Score a lead: Harbor Point Dental Group, Government, 10 employees, NJ, Google Ads, for Acme MSP", "Add a test lead to HubSpot for Acme MSP"];
+const ASK = [
+  ["What's on my screen?", null],
+  ["Which company is healthier?", "Which company is healthier overall? Give the verdict and the 2-3 numbers behind it."],
+  ["Where should we cut spend?", "Where should we cut spend? Name the weakest channel or channels by ROAS and LTV:CAC, with the numbers."],
+  ["Score a sample lead", "Score a lead: Harbor Point Dental Group, Government, 10 employees, NJ, Google Ads, for Acme MSP"],
+  ["Add a test lead to HubSpot", "Add a test lead to HubSpot for Acme MSP"],
+];
 const chatTurns = [];
 let chatEngine = null, chatCtl = null;
 const chatEls = { log: document.getElementById("chatLog"), form: document.getElementById("chatForm"), input: document.getElementById("chatInput"),
   send: document.getElementById("chatSend"), stop: document.getElementById("chatStop"), note: document.getElementById("chatNote"), chips: document.getElementById("askChips") };
-chatEls.chips.innerHTML = ASK.map(q => `<button type="button" class="chip">${esc(q)}</button>`).join("");
-chatEls.chips.querySelectorAll("button").forEach((b, i) => b.addEventListener("click", () => askScorecard(ASK[i])));
+chatEls.chips.innerHTML = ASK.map(([label]) => `<button type="button" class="chip">${esc(label)}</button>`).join("");
+chatEls.chips.querySelectorAll("button").forEach((b, i) => b.addEventListener("click", () => ASK[i][1] ? askScorecard(ASK[i][1], ASK[i][0]) : askScreen()));
+
+// What's on my screen: the section filling most of the viewport, as text, plus the active company and filters
+function visibleSection() {
+  const top = document.querySelector("header.mast").getBoundingClientRect().bottom, h = window.innerHeight;
+  let best = null, area = 0;
+  document.querySelectorAll(".wrap > section").forEach(sec => {
+    const r = sec.getBoundingClientRect(), v = Math.min(r.bottom, h) - Math.max(r.top, top);
+    if (v > area) { area = v; best = sec; }
+  });
+  return best;
+}
+function screenText() {
+  const sec = visibleSection();
+  if (!sec) return null;
+  const h2 = sec.querySelector("h2");
+  const title = h2 ? [...h2.childNodes].map(n => n.textContent.replace(/^[\s·]+/, "").trim()).filter(Boolean).join(" · ") : sec.id;
+  const body = sec.innerText.replace(/\n{2,}/g, "\n").replace(/[ \t]+/g, " ").slice(0, 3500);
+  return { title, text: `Section on screen: ${title}\nCompany selected: ${company}. Period: ${scopeText()}.\n---\n${body}` };
+}
+function askScreen() {
+  const sc = screenText();
+  if (!sc) return;
+  askScorecard(`Explain what I'm looking at in 2-3 plain sentences and end with the key takeaway. Use only the numbers shown below.\n\n${sc.text}`, `What's on my screen? (${sc.title})`);
+}
+
+// floating panel: open/close, drag by the header, position remembered for this viewer
+const chatPanel = document.getElementById("chatPanel"), chatFab = document.getElementById("chatFab");
+function placeChat(x, y) {
+  if (window.innerWidth < 600) { Object.assign(chatPanel.style, { left: "", top: "", right: "", bottom: "" }); return; }  // phone: docked bottom right
+  const r = chatPanel.getBoundingClientRect();
+  x = Math.min(Math.max(8, x), window.innerWidth - r.width - 8); y = Math.min(Math.max(8, y), window.innerHeight - 60);
+  Object.assign(chatPanel.style, { left: x + "px", top: y + "px", right: "auto", bottom: "auto" });
+}
+function openChat(open) {
+  chatPanel.hidden = !open; chatFab.hidden = open; chatFab.setAttribute("aria-expanded", String(open));
+  if (open) {
+    if (chatPanel.style.left) placeChat(parseFloat(chatPanel.style.left), parseFloat(chatPanel.style.top));  // keep it on screen after a resize
+    setTimeout(() => chatEls.input.focus(), 0);
+  }
+}
+window.addEventListener("resize", () => { if (!chatPanel.hidden && chatPanel.style.left) placeChat(parseFloat(chatPanel.style.left), parseFloat(chatPanel.style.top)); });
+chatFab.addEventListener("click", () => openChat(true));
+document.getElementById("chatMin").addEventListener("click", () => openChat(false));
+document.getElementById("navAsk").addEventListener("click", e => { e.preventDefault(); openChat(true); });
+(function drag() {
+  const head = document.getElementById("chatHead");
+  let sx, sy, ox, oy, on = false;
+  const place = placeChat;
+  head.addEventListener("pointerdown", e => { if (e.target.closest("button")) return; const r = chatPanel.getBoundingClientRect();
+    on = true; sx = e.clientX; sy = e.clientY; ox = r.left; oy = r.top; head.setPointerCapture(e.pointerId); });
+  head.addEventListener("pointermove", e => { if (on) place(ox + e.clientX - sx, oy + e.clientY - sy); });
+  const end = () => { if (!on) return; on = false; try { localStorage.setItem("vos-chat-pos", JSON.stringify([chatPanel.style.left, chatPanel.style.top])); } catch (e) {} };
+  head.addEventListener("pointerup", end); head.addEventListener("pointercancel", end);
+  try { const p = JSON.parse(localStorage.getItem("vos-chat-pos") || "null"); if (p) { chatPanel.hidden = false; place(parseFloat(p[0]), parseFloat(p[1])); chatPanel.hidden = true; } } catch (e) {}
+})();
 function setChatEnabled(on) { chatEls.input.disabled = chatEls.send.disabled = !on; chatEls.chips.querySelectorAll("button").forEach(b => b.disabled = !on); }
 setChatEnabled(false);
 chatEls.note.textContent = "Connecting...";
@@ -713,11 +795,12 @@ function bubble(cls, text, by) {
   return t;
 }
 
-async function askScorecard(q) {
+async function askScorecard(q, label) {
   q = (q || "").trim();
   if (!q || !chatEngine || chatCtl) return;
   chatEls.input.value = "";
-  bubble("q", q);
+  openChat(true);
+  bubble("q", label || q);
   const out = bubble("a", "Thinking...", `Answered by ${chatEngine.name} from the scorecard data`);
   const ranEl = document.createElement("span"); ranEl.className = "by"; ranEl.style.margin = "0 0 4px"; out.parentNode.insertBefore(ranEl, out);
   const ran = [];
