@@ -117,34 +117,83 @@ svg text { font-family: var(--font-body); }
 .slack { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 12px; background: var(--page); border: 1px solid var(--border); border-radius: 6px; padding: 8px 10px; margin-top: 6px; overflow-wrap: anywhere; }
 .bar-track { height: 8px; border-radius: 4px; background: var(--grid); position: relative; min-width: 60px; }
 .bar-fill { position: absolute; inset: 0 auto 0 0; border-radius: 4px; }
-.chat-log { display: flex; flex-direction: column; gap: 10px; margin: 12px 0; max-height: 420px; overflow-y: auto; }
-.chat-log:empty { display: none; }
-.msg { max-width: 80ch; padding: 8px 12px; border-radius: 10px; white-space: pre-wrap; overflow-wrap: anywhere; }
-.msg.q { align-self: flex-end; background: var(--accent); color: var(--surface); }
-.msg.a { align-self: flex-start; background: var(--page); border: 1px solid var(--border); color: var(--ink); }
-.msg .by { display: block; font-size: 11px; color: var(--muted); margin-top: 4px; }
-.chat-form { display: flex; gap: 8px; }
-.chat-form input { flex: 1; min-width: 0; font: inherit; color: var(--ink); background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px; }
-.chat-form button { font: inherit; font-weight: 600; border: 0; border-radius: 8px; padding: 8px 14px; background: var(--accent); color: var(--surface); cursor: pointer; }
-.chat-form button.ghost { background: transparent; color: var(--accent); border: 1px solid var(--border); }
-.chat-form button:disabled { opacity: .5; cursor: default; }
-.chat-form input:focus-visible, .chat-form button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
-.chips.ask { margin-top: 4px; }
-.chat-fab { position: fixed; right: 20px; bottom: 20px; z-index: 30; display: inline-flex; align-items: center; gap: 8px; font: inherit; font-weight: 600; border: 0; border-radius: 999px; padding: 12px 16px; background: var(--accent); color: var(--surface); box-shadow: 0 6px 20px rgba(0,0,0,.18); cursor: pointer; }
+/* ---- VelocityOS agent panel ---- */
+.chat-fab { position: fixed; right: 24px; bottom: 24px; z-index: 30; display: inline-flex; align-items: center; gap: 10px; font: inherit; font-weight: 600; font-size: 14px; border: 0; border-radius: 999px; padding: 8px 18px 8px 8px; background: var(--ink); color: var(--surface); box-shadow: 0 1px 2px rgba(0,0,0,.12), 0 8px 24px rgba(0,0,0,.20); cursor: pointer; transition: transform .12s, box-shadow .12s; }
+.chat-fab:hover { transform: translateY(-1px); box-shadow: 0 2px 4px rgba(0,0,0,.12), 0 12px 32px rgba(0,0,0,.24); }
 .chat-fab[hidden] { display: none; }
-.chat-float .note { font-size: 12px; color: var(--muted); }
-.chat-fab svg { width: 18px; height: 18px; }
-.chat-fab:focus-visible, .chat-min:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
-.chat-float { position: fixed; right: 20px; bottom: 20px; z-index: 31; width: min(440px, calc(100vw - 32px)); max-height: min(640px, calc(100vh - 40px)); display: flex; flex-direction: column; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; box-shadow: 0 12px 40px rgba(0,0,0,.22); }
+.chat-fab .vos-mark { width: 32px; height: 32px; }
+.vos-mark { flex: none; display: grid; place-items: center; border-radius: 9px; background: linear-gradient(135deg, var(--s1), var(--accent)); color: #fff; }
+.vos-mark svg { width: 60%; height: 60%; }
+.chat-float { position: fixed; right: 24px; bottom: 24px; z-index: 31; width: 440px; height: 620px; min-width: 340px; min-height: 420px; max-width: calc(100vw - 16px); max-height: calc(100vh - 16px);
+  display: flex; flex-direction: column; overflow: hidden; resize: both; background: var(--surface); border: 1px solid var(--border); border-radius: 16px;
+  box-shadow: 0 0 0 1px rgba(0,0,0,.02), 0 2px 6px rgba(0,0,0,.06), 0 24px 64px rgba(0,0,0,.22); }
 .chat-float[hidden] { display: none; }
-.chat-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 10px 12px 10px 14px; border-bottom: 1px solid var(--border); cursor: move; user-select: none; touch-action: none; }
-.chat-title { font-family: var(--font-display); font-weight: 600; }
-.chat-min { font: inherit; font-size: 20px; line-height: 1; width: 32px; height: 32px; border: 0; border-radius: 6px; background: transparent; color: var(--ink-2); cursor: pointer; }
-.chat-min:hover { background: var(--page); }
-.chat-body { padding: 10px 12px 12px; display: flex; flex-direction: column; min-height: 0; overflow: hidden; }
-.chat-float .chat-log { max-height: none; flex: 1; min-height: 0; }
-.chat-float .msg { max-width: 92%; font-size: 13px; }
-.chat-float .chip { font-size: 12px; }
+.chat-head { flex: none; display: flex; align-items: center; gap: 12px; padding: 14px 12px 14px 16px; border-bottom: 1px solid var(--border); cursor: grab; user-select: none; touch-action: none;
+  background: linear-gradient(180deg, var(--accent-wash), var(--surface)); }
+.chat-head:active { cursor: grabbing; }
+.chat-head .vos-mark { width: 36px; height: 36px; }
+.chat-id { flex: 1; min-width: 0; display: flex; flex-direction: column; }
+.chat-title { font-family: var(--font-display); font-weight: 700; font-size: 15px; letter-spacing: -0.01em; color: var(--ink); }
+.chat-status { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; color: var(--ink-2); }
+.chat-status i { width: 8px; height: 8px; border-radius: 50%; background: var(--muted); }
+.chat-status.on i { background: var(--good); box-shadow: 0 0 0 3px color-mix(in srgb, var(--good) 22%, transparent); }
+.chat-icon { flex: none; display: grid; place-items: center; width: 32px; height: 32px; border: 0; border-radius: 8px; background: transparent; color: var(--ink-2); cursor: pointer; }
+.chat-icon:hover { background: var(--grid); color: var(--ink); }
+.chat-icon svg { width: 16px; height: 16px; }
+.chat-icon:focus-visible, .chat-fab:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.chat-log { flex: 1; min-height: 0; overflow-y: auto; padding: 16px; display: flex; flex-direction: column; gap: 14px; scroll-behavior: smooth; }
+.chat-welcome { display: flex; flex-direction: column; gap: 8px; }
+.chat-welcome h4 { font-family: var(--font-display); font-size: 17px; margin: 4px 0 0; }
+.chat-welcome p { margin: 0; color: var(--ink-2); font-size: 13px; }
+.sugg { display: flex; align-items: center; gap: 10px; width: 100%; text-align: left; font: inherit; font-size: 13px; color: var(--ink); background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 8px 12px; cursor: pointer; transition: border-color .12s, background .12s; }
+.sugg:hover { border-color: var(--accent); background: var(--accent-wash); }
+.sugg:disabled { opacity: .5; cursor: default; }
+.sugg .ic { flex: none; display: grid; place-items: center; width: 28px; height: 28px; border-radius: 7px; background: var(--accent-wash); color: var(--accent); }
+.sugg .ic svg { width: 15px; height: 15px; }
+.sugg small { display: block; font-size: 11px; color: var(--muted); }
+.turn { display: flex; gap: 10px; align-items: flex-start; }
+.turn.q { justify-content: flex-end; }
+.turn .vos-mark { width: 26px; height: 26px; border-radius: 7px; margin-top: 2px; }
+.bub { max-width: 85%; font-size: 13.5px; line-height: 1.55; overflow-wrap: anywhere; }
+.turn.q .bub { background: var(--ink); color: var(--surface); padding: 9px 13px; border-radius: 14px 14px 4px 14px; }
+.turn.a .bub { flex: 1; min-width: 0; max-width: none; color: var(--ink); }
+.bub p { margin: 0 0 6px; } .bub p:last-child { margin-bottom: 0; }
+.bub ul { margin: 4px 0 6px; padding-left: 18px; } .bub li { margin: 2px 0; }
+.bub .n { font-variant-numeric: tabular-nums; font-weight: 600; background: var(--accent-wash); color: var(--accent); border-radius: 4px; padding: 0 4px; white-space: nowrap; }
+.bub .meta { display: block; margin-top: 6px; font-size: 11px; color: var(--muted); }
+.typing { display: inline-flex; gap: 4px; padding: 6px 0; }
+.typing i { width: 6px; height: 6px; border-radius: 50%; background: var(--muted); animation: blink 1.2s infinite ease-in-out; }
+.typing i:nth-child(2) { animation-delay: .15s; } .typing i:nth-child(3) { animation-delay: .3s; }
+@keyframes blink { 0%, 80%, 100% { opacity: .25; transform: translateY(0); } 40% { opacity: 1; transform: translateY(-2px); } }
+.tools { display: flex; flex-direction: column; gap: 8px; margin-bottom: 8px; }
+.tool-pill { align-self: flex-start; display: inline-flex; align-items: center; gap: 6px; font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 11px; color: var(--good-text); background: color-mix(in srgb, var(--good) 10%, transparent); border: 1px solid color-mix(in srgb, var(--good) 30%, transparent); border-radius: 999px; padding: 2px 9px 2px 7px; }
+.tool-pill.err { color: var(--warn-text); background: color-mix(in srgb, var(--warn) 12%, transparent); border-color: color-mix(in srgb, var(--warn) 40%, transparent); }
+.tool-pill svg { width: 11px; height: 11px; }
+.tcard { border: 1px solid var(--border); border-radius: 10px; background: var(--page); padding: 10px 12px; font-size: 12.5px; }
+.tcard table { width: 100%; font-size: 12px; } .tcard th, .tcard td { padding: 4px 6px; } .tcard th { font-size: 10px; }
+.tcard .hd { display: flex; align-items: center; gap: 12px; margin-bottom: 8px; }
+.score { flex: none; display: grid; place-items: center; width: 52px; height: 52px; border-radius: 50%; font-family: var(--font-display); font-weight: 700; font-size: 18px;
+  background: conic-gradient(var(--c) calc(var(--v) * 1%), var(--grid) 0); position: relative; }
+.score::before { content: ""; position: absolute; inset: 5px; border-radius: 50%; background: var(--page); }
+.score span { position: relative; }
+.kv { display: grid; grid-template-columns: auto 1fr; gap: 3px 12px; } .kv dt { color: var(--muted); } .kv dd { margin: 0; font-weight: 500; }
+.chat-foot { flex: none; border-top: 1px solid var(--border); padding: 10px 12px 12px; background: var(--surface); }
+.chat-chips { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 8px; scrollbar-width: none; }
+.chat-chips[hidden], .chat-form button[hidden] { display: none; }
+.chat-chips::-webkit-scrollbar { display: none; }
+.chat-chips button { flex: none; font: inherit; font-size: 12px; color: var(--ink-2); background: var(--surface); border: 1px solid var(--border); border-radius: 999px; padding: 4px 10px; cursor: pointer; white-space: nowrap; }
+.chat-chips button:hover { color: var(--ink); border-color: var(--accent); }
+.chat-chips button:disabled { opacity: .5; cursor: default; }
+.chat-form { display: flex; align-items: center; gap: 6px; border: 1px solid var(--border); border-radius: 12px; padding: 4px 4px 4px 12px; background: var(--surface); transition: border-color .12s, box-shadow .12s; }
+.chat-form:focus-within { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-wash); }
+.chat-form input { flex: 1; min-width: 0; font: inherit; font-size: 14px; color: var(--ink); background: transparent; border: 0; outline: 0; padding: 6px 0; }
+.chat-form button { flex: none; display: grid; place-items: center; width: 34px; height: 34px; border: 0; border-radius: 9px; background: var(--ink); color: var(--surface); cursor: pointer; }
+.chat-form button svg { width: 16px; height: 16px; }
+.chat-form button:disabled { opacity: .35; cursor: default; }
+.chat-form button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.chat-cap { margin: 8px 2px 0; font-size: 11px; color: var(--muted); }
+@media (max-width: 600px) { .chat-float { left: 8px !important; right: 8px; top: auto !important; bottom: 8px; width: auto !important; height: min(620px, calc(100vh - 16px)) !important; resize: none; } }
+@media (prefers-reduced-motion: reduce) { .typing i { animation: none; } .chat-fab, .sugg { transition: none; } }
 footer { margin-top: 48px; color: var(--muted); font-size: 12px; }
 @media (prefers-reduced-motion: reduce) { .tip { transition: none; } }
 </style>
@@ -252,23 +301,24 @@ footer { margin-top: 48px; color: var(--muted); font-size: 12px; }
 </div>
 
 <button type="button" class="chat-fab" id="chatFab" aria-label="Open the VelocityOS agent" aria-expanded="false">
-  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
-  <span>Ask VelocityOS</span>
+  <span class="vos-mark" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 6l7 13 7-13" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>Ask VelocityOS</span>
 </button>
-<aside class="chat-float" id="chatPanel" role="dialog" aria-label="Ask VelocityOS" hidden>
+<aside class="chat-float" id="chatPanel" role="dialog" aria-label="VelocityOS agent" hidden>
   <div class="chat-head" id="chatHead">
-    <span class="chat-title">Ask VelocityOS <span class="scope">Agent</span></span>
-    <button type="button" class="chat-min" id="chatMin" aria-label="Minimize">&minus;</button>
+    <span class="vos-mark" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 6l7 13 7-13" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+    <div class="chat-id"><span class="chat-title">VelocityOS Agent</span><span class="chat-status" id="chatStatus"><i></i><span>Connecting…</span></span></div>
+    <button type="button" class="chat-icon" id="chatNew" title="New conversation" aria-label="New conversation"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+    <button type="button" class="chat-icon" id="chatMin" title="Minimize" aria-label="Minimize"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
   </div>
-  <div class="chat-body">
-    <div class="chips ask" id="askChips" role="group" aria-label="Suggested questions"></div>
-    <div class="chat-log" id="chatLog" aria-live="polite"></div>
+  <div class="chat-log" id="chatLog" aria-live="polite"></div>
+  <div class="chat-foot">
+    <div class="chat-chips" id="askChips" role="group" aria-label="Suggested questions"></div>
     <form class="chat-form" id="chatForm">
-      <input id="chatInput" type="text" maxlength="500" placeholder="Ask, or tell it what to do" aria-label="Question" autocomplete="off">
-      <button type="submit" id="chatSend">Ask</button>
-      <button type="button" class="ghost" id="chatStop" hidden>Stop</button>
+      <input id="chatInput" type="text" maxlength="500" placeholder="Ask anything, or tell the agent what to do…" aria-label="Message" autocomplete="off">
+      <button type="submit" id="chatSend" aria-label="Send"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      <button type="button" id="chatStop" aria-label="Stop" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="7" y="7" width="10" height="10" rx="2" fill="currentColor"/></svg></button>
     </form>
-    <p class="note" id="chatNote" style="margin:6px 0 0"></p>
+    <p class="chat-cap" id="chatNote">Answers only from VelocityOS data. If it isn't in the data, it says so.</p>
   </div>
 </aside>
 <div class="tip" id="tip" role="tooltip"></div>
@@ -645,18 +695,31 @@ document.getElementById("foot").textContent = `All companies and records are syn
 renderSwitch(); renderFilters(); renderScorecard(); renderDetail(); renderPortability();
 // ---------- Ask the scorecard: DeepSeek via the local server, or Claude inside the published artifact ----------
 const ASK = [
-  ["What's on my screen?", null],
-  ["Which company is healthier?", "Which company is healthier overall? Give the verdict and the 2-3 numbers behind it."],
-  ["Where should we cut spend?", "Where should we cut spend? Name the weakest channel or channels by ROAS and LTV:CAC, with the numbers."],
-  ["Score a sample lead", "Score a lead: Harbor Point Dental Group, Government, 10 employees, NJ, Google Ads, for Acme MSP"],
-  ["Add a test lead to HubSpot", "Add a test lead to HubSpot for Acme MSP"],
+  { label: "What's on my screen?", hint: "Reads the section you're viewing and explains it", icon: "screen", q: null },
+  { label: "Which company is healthier?", hint: "Verdict plus the numbers behind it", icon: "health", q: "Which company is healthier overall? Give the verdict and the 2-3 numbers behind it." },
+  { label: "Where should we cut spend?", hint: "Weakest channels by ROAS and LTV:CAC", icon: "cut", q: "Where should we cut spend? Name the weakest channel or channels by ROAS and LTV:CAC, with the numbers." },
+  { label: "Score a sample lead", hint: "Runs the lead agent: score, rep, pipeline, SLA", icon: "lead", q: "Score a lead: Harbor Point Dental Group, Government, 10 employees, NJ, Google Ads, for Acme MSP" },
+  { label: "Add a test lead to HubSpot", hint: "Creates contact, deal and SLA task (local server)", icon: "crm", q: "Add a test lead to HubSpot for Acme MSP" },
 ];
+const ICONS = {"screen": "<path d=\"M3 5h18v11H3zM8 20h8M12 16v4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>", "health": "<path d=\"M3 12h4l3-7 4 14 3-7h4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>", "cut": "<path d=\"M4 7l6 6 4-4 6 6M20 15v-5M20 15h-5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>", "lead": "<circle cx=\"12\" cy=\"8\" r=\"4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M4 21c1-4 4-6 8-6s7 2 8 6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"/>", "crm": "<path d=\"M12 5v14M5 12h14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"/>"};
+const icon = k => `<svg viewBox="0 0 24 24" aria-hidden="true">${ICONS[k] || ""}</svg>`;
 const chatTurns = [];
 let chatEngine = null, chatCtl = null;
 const chatEls = { log: document.getElementById("chatLog"), form: document.getElementById("chatForm"), input: document.getElementById("chatInput"),
-  send: document.getElementById("chatSend"), stop: document.getElementById("chatStop"), note: document.getElementById("chatNote"), chips: document.getElementById("askChips") };
-chatEls.chips.innerHTML = ASK.map(([label]) => `<button type="button" class="chip">${esc(label)}</button>`).join("");
-chatEls.chips.querySelectorAll("button").forEach((b, i) => b.addEventListener("click", () => ASK[i][1] ? askScorecard(ASK[i][1], ASK[i][0]) : askScreen()));
+  send: document.getElementById("chatSend"), stop: document.getElementById("chatStop"), note: document.getElementById("chatNote"),
+  chips: document.getElementById("askChips"), status: document.getElementById("chatStatus") };
+const runChip = i => ASK[i].q ? askScorecard(ASK[i].q, ASK[i].label) : askScreen();
+chatEls.chips.innerHTML = ASK.map(a => `<button type="button">${esc(a.label)}</button>`).join("");
+chatEls.chips.querySelectorAll("button").forEach((b, i) => b.addEventListener("click", () => runChip(i)));
+function welcome() {
+  chatEls.log.innerHTML = `<div class="chat-welcome"><h4>What do you need?</h4>
+    <p>I'm the VelocityOS agent. I answer from this portfolio's data and I can act: compare companies, switch attribution models, score and route a lead, or create a test lead in HubSpot.</p>
+    ${ASK.map((a, i) => `<button type="button" class="sugg" data-i="${i}"><span class="ic">${icon(a.icon)}</span><span>${esc(a.label)}<small>${esc(a.hint)}</small></span></button>`).join("")}</div>`;
+  chatEls.log.querySelectorAll(".sugg").forEach(b => b.addEventListener("click", () => runChip(+b.dataset.i)));
+  chatEls.chips.hidden = true;
+  setChatEnabled(!!chatEngine);
+}
+function setStatus(on, text) { chatEls.status.classList.toggle("on", on); chatEls.status.querySelector("span").textContent = text; }
 
 // What's on my screen: the section filling most of the viewport, as text, plus the active company and filters
 function visibleSection() {
@@ -694,6 +757,7 @@ function openChat(open) {
   chatPanel.hidden = !open; chatFab.hidden = open; chatFab.setAttribute("aria-expanded", String(open));
   if (open) {
     if (chatPanel.style.left) placeChat(parseFloat(chatPanel.style.left), parseFloat(chatPanel.style.top));  // keep it on screen after a resize
+    else { const r = chatPanel.getBoundingClientRect(); placeChat(r.left, r.top); }  // pin, so the resize corner grows the panel in place
     setTimeout(() => chatEls.input.focus(), 0);
   }
 }
@@ -712,9 +776,8 @@ document.getElementById("navAsk").addEventListener("click", e => { e.preventDefa
   head.addEventListener("pointerup", end); head.addEventListener("pointercancel", end);
   try { const p = JSON.parse(localStorage.getItem("vos-chat-pos") || "null"); if (p) { chatPanel.hidden = false; place(parseFloat(p[0]), parseFloat(p[1])); chatPanel.hidden = true; } } catch (e) {}
 })();
-function setChatEnabled(on) { chatEls.input.disabled = chatEls.send.disabled = !on; chatEls.chips.querySelectorAll("button").forEach(b => b.disabled = !on); }
+function setChatEnabled(on) { chatEls.input.disabled = chatEls.send.disabled = !on; chatEls.log.querySelectorAll(".sugg").forEach(b => b.disabled = !on); chatEls.chips.querySelectorAll("button").forEach(b => b.disabled = !on); }
 setChatEnabled(false);
-chatEls.note.textContent = "Connecting...";
 
 async function pickEngine() {
   if (location.protocol.startsWith("http")) {
@@ -737,7 +800,7 @@ async function askLocal(q, hist, onText, signal, onTool) {
   const r = await fetch("chat", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ question: q, history: hist }), signal });
   const j = await r.json().catch(() => ({}));
   if (!r.ok || !j.answer) throw { code: "local_error", message: j.error || `HTTP ${r.status}` };
-  (j.ran || []).forEach(onTool);
+  (j.runs || (j.ran || []).map(name => ({ name }))).forEach(r => onTool(r.name, r.result));
   onText(j.answer);
   return j.answer;
 }
@@ -781,18 +844,58 @@ async function askClaude(sample, q, hist, onText, signal, onTool, canTools) {
   const C = D.chat || {};
   const turns = [{ role: "user", content: `${C.rules}\n\n# Facts\n${C.context}` }].concat(hist, [{ role: "user", content: q }]);
   const opts = { modelTier: "quick", signal, onText: ({ text }) => onText(text) };
-  if (canTools) opts.tools = PAGE_TOOLS.map(t => ({ ...t, execute: (inp) => { onTool(t.name); return t.execute(inp || {}); } }));
+  if (canTools) opts.tools = PAGE_TOOLS.map(t => ({ ...t, execute: (inp) => {
+    try { const r = t.execute(inp || {}); onTool(t.name, r); return r; } catch (e) { onTool(t.name, { error: e.message }); throw e; } } }));
   else if (hist.length) opts.cache = false;  // first questions (the chips) may replay; follow-ups always ask
   const { text } = await sample(turns, opts);
   return text;
 }
 
-function bubble(cls, text, by) {
-  const d = document.createElement("div"); d.className = "msg " + cls;
-  const t = document.createElement("span"); t.textContent = text; d.append(t);
-  if (by) { const b = document.createElement("span"); b.className = "by"; b.textContent = by; d.append(b); }
-  chatEls.log.append(d); chatEls.log.scrollTop = chatEls.log.scrollHeight;
-  return t;
+// ---- rendering: light markdown, numbers as chips, tool runs as cards
+function fmtAnswer(text) {
+  const inline = t => esc(t).replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
+    .replace(/(\$[\d,.]+[KMB]?(?:\/day)?|\b\d[\d,.]*(?:%|x\b| ?(?:days|months|mo|hours|h|min)\b))/g, '<span class="n">$1</span>');
+  const out = []; let list = null;
+  String(text).split(/\n+/).forEach(line => {
+    const m = line.match(/^\s*(?:[-*•]|\d+\.)\s+(.*)/);
+    if (m) { if (!list) { list = []; out.push(list); } list.push(m[1]); }
+    else if (line.trim()) { list = null; out.push(line); }
+  });
+  return out.map(x => Array.isArray(x) ? `<ul>${x.map(li => `<li>${inline(li)}</li>`).join("")}</ul>` : `<p>${inline(x)}</p>`).join("");
+}
+const money = v => v == null ? "–" : fmt.usd(v);
+function toolCard(name, r) {
+  if (!r || r.error) return "";
+  if (name === "score_lead" || name === "add_test_lead") {
+    const v = Math.max(0, Math.min(100, +r.fit_score || 0)), c = v >= 80 ? "var(--good)" : v >= 50 ? "var(--warn)" : "var(--bad)";
+    const tag = v >= 80 ? "Hot lead" : v >= 50 ? "Warm lead" : "Low fit";
+    const rows = [["Rep", `${r.rep || "–"} · ${r.territory || "–"}`], ["Pipeline", r.pipeline], ["SLA", `Follow-up task due in ${r.sla_minutes || 5} min${r.task_due ? ` (${r.task_due})` : ""}`]];
+    if (r.rules_score != null && r.rules_score !== r.fit_score) rows.push(["Rules score", r.rules_score]);
+    if (name === "add_test_lead") rows.push(["Created", `${r.mode}: contact ${r.contact_id}, deal ${r.deal_id}, task ${r.task_id}`]);
+    return `<div class="tcard"><div class="hd"><div class="score" style="--v:${v};--c:${c}"><span>${v}</span></div>
+      <div><strong>${esc(r.lead || "Lead")}</strong><div class="meta" style="font-size:12px;color:var(--muted)">${esc(r.company || "")} · ${tag} · scored by ${esc(r.score_source || "rules")}</div></div></div>
+      <dl class="kv">${rows.map(([k, val]) => `<dt>${esc(k)}</dt><dd>${esc(String(val ?? "–"))}</dd>`).join("")}</dl></div>`;
+  }
+  if (name === "get_attribution" && r.channels) {
+    return `<div class="tcard"><div class="meta" style="margin:0 0 4px;font-size:11px;color:var(--muted)">${esc(r.company)} · ${esc(String(r.model).replace("_", "-"))} attribution</div>
+      <table><thead><tr><th>Channel</th><th class="num">Bookings</th><th class="num">Spend</th><th class="num">ROAS</th></tr></thead><tbody>
+      ${r.channels.map(c => `<tr><td>${esc(c.channel)}</td><td class="num">${money(c.bookings)}</td><td class="num">${money(c.spend)}</td><td class="num"><strong>${fmt.x(c.roas)}</strong></td></tr>`).join("")}</tbody></table></div>`;
+  }
+  if (name === "compare_companies" && Array.isArray(r) && r.length) {
+    const val = (x, u) => (fmt[u] || fmt.count)(x);
+    const rows = r.slice(0, 8).map(m => [m.metric, m.unit, m.values ? m.values : { "Acme MSP": m["Acme MSP"], "Summit HVAC": m["Summit HVAC"] }]);
+    return `<div class="tcard"><table><thead><tr><th>Metric</th>${COMPANIES.map(c => `<th class="num">${esc(c)}</th>`).join("")}</tr></thead><tbody>
+      ${rows.map(([m, u, v]) => `<tr><td>${esc(m)}</td>${COMPANIES.map(c => `<td class="num">${val(v[c], u)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
+  }
+  return "";
+}
+const CHECK = '<svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 6.3l2.2 2.2 4.8-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+function turnEl(cls) {
+  const t = document.createElement("div"); t.className = "turn " + cls;
+  if (cls === "a") t.innerHTML = document.querySelector("#chatHead .vos-mark").outerHTML;
+  const b = document.createElement("div"); b.className = "bub"; t.append(b);
+  chatEls.log.append(t); chatEls.log.scrollTop = chatEls.log.scrollHeight;
+  return b;
 }
 
 async function askScorecard(q, label) {
@@ -800,33 +903,50 @@ async function askScorecard(q, label) {
   if (!q || !chatEngine || chatCtl) return;
   chatEls.input.value = "";
   openChat(true);
-  bubble("q", label || q);
-  const out = bubble("a", "Thinking...", `Answered by ${chatEngine.name} from the scorecard data`);
-  const ranEl = document.createElement("span"); ranEl.className = "by"; ranEl.style.margin = "0 0 4px"; out.parentNode.insertBefore(ranEl, out);
-  const ran = [];
-  const onTool = n => { ran.push(n); ranEl.textContent = "Ran: " + [...new Set(ran)].join(", "); };
+  const w = chatEls.log.querySelector(".chat-welcome"); if (w) { w.remove(); chatEls.chips.hidden = false; }
+  turnEl("q").textContent = label || q;
+  const bub = turnEl("a");
+  bub.innerHTML = `<div class="tools"></div><div class="ans"><span class="typing" aria-label="Thinking"><i></i><i></i><i></i></span></div><span class="meta"></span>`;
+  const toolsEl = bub.querySelector(".tools"), ans = bub.querySelector(".ans"), meta = bub.querySelector(".meta");
+  toolsEl.hidden = true;
+  const onTool = (name, result) => {
+    toolsEl.hidden = false;
+    const err = result && result.error;
+    toolsEl.insertAdjacentHTML("beforeend", `<span class="tool-pill${err ? " err" : ""}">${err ? "!" : CHECK} Ran ${esc(name)}${err ? ` · ${esc(String(err).slice(0, 80))}` : ""}</span>${toolCard(name, result)}`);
+    chatEls.log.scrollTop = chatEls.log.scrollHeight;
+  };
   const hist = chatTurns.slice(-6);
   chatCtl = new AbortController();
-  setChatEnabled(false); chatEls.stop.hidden = false;
+  setChatEnabled(false); chatEls.send.hidden = true; chatEls.stop.hidden = false;
+  const t0 = performance.now();
   try {
-    const text = await chatEngine.ask(q, hist, t => { out.textContent = t; chatEls.log.scrollTop = chatEls.log.scrollHeight; }, chatCtl.signal, onTool);
+    const text = await chatEngine.ask(q, hist, t => { ans.innerHTML = fmtAnswer(t); chatEls.log.scrollTop = chatEls.log.scrollHeight; }, chatCtl.signal, onTool);
+    ans.innerHTML = fmtAnswer(text);
+    meta.textContent = `${chatEngine.name} · ${((performance.now() - t0) / 1000).toFixed(1)} s`;
     chatTurns.push({ role: "user", content: q }, { role: "assistant", content: text });
   } catch (e) {
     const code = e && e.code;
-    if (code === "cancelled" || (e && e.name === "AbortError")) out.textContent = (e.text || "") + " (stopped)";
-    else if (code === "not_granted" || code === "sampling_disabled") { out.textContent = "Chat isn't allowed in this view."; chatEngine = null; chatEls.note.textContent = "Run it locally instead: python -m gtm.agent_server, then open http://localhost:5050."; }
-    else if (code === "rate_limited") out.textContent = "Too many questions at once. Try again in a minute.";
-    else out.textContent = (e && e.text) || `Couldn't get an answer${e && e.message ? `: ${e.message}` : "."}`;
+    let msg;
+    if (code === "cancelled" || (e && e.name === "AbortError")) msg = (e.text || "") + " (stopped)";
+    else if (code === "not_granted" || code === "sampling_disabled") { msg = "The agent isn't allowed in this view. Run it locally: python -m gtm.agent_server, then open http://localhost:5050."; chatEngine = null; setStatus(false, "Offline"); }
+    else if (code === "rate_limited") msg = "Too many requests at once. Try again in a minute.";
+    else msg = (e && e.text) || `Couldn't get an answer${e && e.message ? `: ${e.message}` : "."}`;
+    ans.innerHTML = fmtAnswer(msg);
   } finally {
-    chatCtl = null; chatEls.stop.hidden = true; setChatEnabled(!!chatEngine);
+    chatCtl = null; chatEls.stop.hidden = true; chatEls.send.hidden = false; setChatEnabled(!!chatEngine);
+    if (chatEngine) chatEls.input.focus();
   }
 }
 chatEls.form.addEventListener("submit", e => { e.preventDefault(); askScorecard(chatEls.input.value); });
 chatEls.stop.addEventListener("click", () => chatCtl && chatCtl.abort());
+document.getElementById("chatNew").addEventListener("click", () => { if (chatCtl) chatCtl.abort(); chatTurns.length = 0; welcome(); });
+setChatEnabled(false);
+welcome();
 pickEngine().then(eng => {
   chatEngine = eng;
-  if (eng) { setChatEnabled(true); chatEls.note.textContent = eng.name === "DeepSeek" ? "Answered by DeepSeek through the local server." : "Answered by Claude. The first question asks you to allow it."; }
-  else if (chatEls.note.textContent === "Connecting...") chatEls.note.textContent = "Chat runs on the local server: python -m gtm.agent_server, then open http://localhost:5050.";
+  setChatEnabled(!!eng);
+  if (eng) setStatus(true, eng.name === "DeepSeek" ? "AI agent · DeepSeek · local" : "AI agent · Claude");
+  else { setStatus(false, "Offline"); if (!/DEEPSEEK_API_KEY/.test(chatEls.note.textContent)) chatEls.note.textContent = "The agent runs on the local server: python -m gtm.agent_server, then open http://localhost:5050."; }
 });
 
 let rt; window.addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(renderDetail, 150); });

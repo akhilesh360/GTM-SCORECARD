@@ -59,7 +59,7 @@ def build_context():
 
 def ask(question, history=(), context=None, max_rounds=4):
     """history: [{"role": "user"|"assistant", "content": str}, ...].
-    Returns {"answer": str, "ran": [tool names]}; DeepSeek may call the tools in chat_tools."""
+    Returns {"answer": str, "ran": [tool names], "runs": [{name, result}]}; DeepSeek may call the tools in chat_tools."""
     from . import chat_tools
     key = os.environ.get("DEEPSEEK_API_KEY")
     if not key:
@@ -69,7 +69,7 @@ def ask(question, history=(), context=None, max_rounds=4):
     msgs += [{"role": m["role"], "content": str(m["content"])[:5000]} for m in list(history)[-6:]
              if m.get("role") in ("user", "assistant") and m.get("content")]
     msgs.append({"role": "user", "content": str(question)[:5000]})
-    ran = []
+    ran, runs = [], []
     for i in range(max_rounds):
         payload = {"model": os.environ.get("DEEPSEEK_MODEL", "deepseek-chat"), "messages": msgs,
                    "temperature": 0.1, "max_tokens": 300}
@@ -78,7 +78,7 @@ def ask(question, history=(), context=None, max_rounds=4):
         msg = _http("POST", f"{base}/chat/completions", key, payload, timeout=60)["choices"][0]["message"]
         calls = msg.get("tool_calls") or []
         if not calls:
-            return {"answer": (msg.get("content") or "").strip() or "Not in the data.", "ran": ran}
+            return {"answer": (msg.get("content") or "").strip() or "Not in the data.", "ran": ran, "runs": runs}
         msgs.append({"role": "assistant", "content": msg.get("content") or "", "tool_calls": calls})
         for c in calls:
             name = c["function"]["name"]
@@ -87,8 +87,9 @@ def ask(question, history=(), context=None, max_rounds=4):
             except Exception as e:  # the model sees the error and can tell the user
                 out = {"error": f"{type(e).__name__}: {e}"}
             ran.append(name)
+            runs.append({"name": name, "result": json.loads(json.dumps(out, default=str))})
             msgs.append({"role": "tool", "tool_call_id": c["id"], "content": json.dumps(out, default=str)[:6000]})
-    return {"answer": "I ran out of steps for that request. Try asking for one thing at a time.", "ran": ran}
+    return {"answer": "I ran out of steps for that request. Try asking for one thing at a time.", "ran": ran, "runs": runs}
 
 
 if __name__ == "__main__":
