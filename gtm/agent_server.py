@@ -4,9 +4,11 @@
                            carry only objectId; the agent fetches the contact, then processes it.
   POST /leads              Direct lead JSON (web form, call-tracking webhook, or a test).
   GET  /health
+  GET  /                   the dashboard, with its chat box answered by DeepSeek via POST /chat
 
-Run:  python -m gtm.agent_server            (mock HubSpot + mock Slack unless credentials are set)
-Test: curl -X POST localhost:5000/webhooks/hubspot -H 'Content-Type: application/json' \
+Run:  python -m gtm.agent_server            then open http://localhost:5050 for the dashboard
+      (mock HubSpot + mock Slack unless credentials are set)
+Test: curl -X POST localhost:5050/webhooks/hubspot -H 'Content-Type: application/json' \
         -d '[{"objectId": "ACME-L03006", "subscriptionType": "contact.creation"}]'
 """
 import base64
@@ -15,9 +17,11 @@ import hmac
 import os
 import time
 
-from flask import Flask, abort, jsonify, request
+from flask import Flask, abort, jsonify, request, send_file
 
+from . import chat
 from .agent import build_agent
+from .config import ROOT
 
 app = Flask(__name__)
 agent = build_agent()
@@ -72,10 +76,32 @@ def health():
             "llm": agent.use_llm}
 
 
+@app.get("/")
+def dashboard():
+    return send_file(ROOT / "dashboard" / "index.html")
+
+
+@app.get("/chat")
+def chat_status():
+    return {"ok": bool(os.environ.get("DEEPSEEK_API_KEY")), "model": "DeepSeek"}
+
+
+@app.post("/chat")
+def chat_answer():
+    body = request.get_json(force=True) or {}
+    if not str(body.get("question") or "").strip():
+        abort(400, "missing question")
+    try:
+        return {"answer": chat.ask(body["question"], body.get("history") or [])}
+    except Exception as e:  # key missing, DeepSeek down: the page shows the message
+        return jsonify({"error": f"{type(e).__name__}: {e}"}), 502
+
+
 def _persist():
     if hasattr(agent.crm, "dump"):
         agent.crm.dump()
 
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
+    # 5050, not 5000: macOS AirPlay Receiver holds port 5000
+    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5050)))

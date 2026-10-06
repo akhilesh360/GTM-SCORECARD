@@ -80,7 +80,7 @@ Deals → board view → filter **Company Type** = MSP and **GTM Motion** = Inbo
 
 ## 4. Connect the AI agent (replaces workflows)
 
-1. Run the agent: `python -m gtm.agent_server`, then expose it, e.g. `cloudflared tunnel --url http://localhost:5000`.
+1. Run the agent: `python -m gtm.agent_server`, then expose it, e.g. `cloudflared tunnel --url http://localhost:5050`.
 2. Private app → **Webhooks** → target URL `https://<tunnel>/webhooks/hubspot` → subscribe to `contact.creation`.
 3. Put the app's client secret in `.env` as `HUBSPOT_CLIENT_SECRET=` so webhook signatures are verified.
 4. Create a test contact with Company Type, Lead Source and State filled in. Within seconds it gets a

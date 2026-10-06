@@ -55,6 +55,8 @@ def main():
                             "territories": len(c["territories"]), "icp": c["icp"], "slack": c["slack_channel"]}
                            for c in load_companies()]
     data["lifetime"] = {c["name"]: c["economics"]["customer_lifetime_years"] for c in load_companies()}
+    from gtm import chat
+    data["chat"] = {"rules": chat.RULES, "context": chat.build_context()}
     html = (HERE / "template.html").read_text().replace("/*__DATA__*/null", json.dumps(data, separators=(",", ":")))
     (HERE / "index.html").write_text(html)
     print(f"Wrote {HERE / 'index.html'} ({len(html) // 1024} KB)")
